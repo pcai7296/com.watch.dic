@@ -446,6 +446,10 @@ export default {
     }
 
     var shardKeys = Object.keys(groups)
+    if (shardKeys.length === 0) {
+      this._startNormalSearch(this.queryText, token)
+      return
+    }
     var shardIdx = 0
 
     function loadNext() {
@@ -503,6 +507,7 @@ export default {
   },
 
   finishEnglishSearch(query, token) {
+    this._flushResults()
     if (this.resultCards.length === 0 && query.length > 2 && this.searchMode !== "inflect" && this.isEnglishWord(query)) {
       this.showToast("未找到，混淆搜索")
       this.statusText = "深度搜索"
@@ -523,7 +528,6 @@ export default {
       return
     }
 
-    this._flushResults()
     this._stopFlushTimer()
     this.marqueeArmed = true
     if (this.resultCards.length === 0) {
@@ -1413,6 +1417,10 @@ export default {
       if (!isNaN(entryId) && entryId >= 0) {
         ids.push(entryId)
       }
+    }
+
+    if (ids.length === 0) {
+      return
     }
 
     var self = this
