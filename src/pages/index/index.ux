@@ -1,0 +1,434 @@
+<template>
+  <div class="page page-{{screenProfile}}">
+    <text class="title title-{{screenProfile}}">腕上词典</text>
+
+    <div class="icon-card icon-card-{{screenProfile}}" @click="goSettings">
+      <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/deco-icon.png" />
+    </div>
+
+    <div class="button-group button-group-{{screenProfile}}">
+      <div
+        class="main-button main-button-{{screenProfile}} secondary-button"
+        @click="goInflectSearch"
+      >
+        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_transform.png" />
+        <text class="btn-label">查找变形</text>
+      </div>
+      <div class="main-button main-button-{{screenProfile}} secondary-button" @click="goSearch">
+        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
+        <text class="btn-label">中英查找</text>
+      </div>
+      <div class="main-button main-button-{{screenProfile}} secondary-button" @click="goHistory">
+        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_history.png" />
+        <text class="btn-label">历史记录</text>
+      </div>
+      <div class="main-button main-button-{{screenProfile}} secondary-button" @click="goFavorites">
+        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_fav.png" />
+        <text class="btn-label">我的收藏</text>
+      </div>
+    </div>
+
+    <div class="bottom-row bottom-row-{{screenProfile}}">
+      <div class="small-button small-button-{{screenProfile}} about-button" @click="goAbout">
+        <img class="btn-icon-sm" src="/common/icons/btn_about.png" />
+        <text class="btn-label-sm">关于</text>
+      </div>
+      <div class="small-button small-button-{{screenProfile}} sponsor-button" @click="goSponsor">
+        <img class="btn-icon-sm" src="/common/icons/btn_sponsor.png" />
+        <text class="btn-label-sm">赞助</text>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import device from "@system.device"
+import storage from "@system.storage"
+import router from "@system.router"
+import buildTarget from "../../common/buildTarget"
+
+export default {
+  private: {
+    screenProfile: buildTarget.profile
+  },
+
+  onInit() {
+    const app = this.$app.$def
+    this.screenProfile = buildTarget.profile
+    device.getInfo({
+      success: (data) => {
+        app.updateScreenInfo(data)
+        this.screenProfile = app.data.screenProfile
+      },
+      fail: (data, code) => {
+        console.log("index device.getInfo failed; using compiled target: " + code)
+      }
+    })
+    this._cleanInvalidHistory()
+    this._trackLaunch()
+  },
+
+  _trackLaunch() {
+    storage.get({
+      key: "dic_launch_count",
+      default: "0",
+      success: (data) => {
+        var raw = data && (data.value || data)
+        var count = parseInt(raw, 10)
+        if (!isFinite(count) || count < 0) {
+          count = 0
+        }
+        var nextCount = count + 1
+        storage.set({
+          key: "dic_launch_count",
+          value: String(nextCount),
+          fail: (setData, code) => {
+            console.log("index launch count save failed: " + code)
+          }
+        })
+        if (nextCount === 1 || nextCount % 10 === 0) {
+          this.goSponsor()
+        }
+      },
+      fail: (getData, code) => {
+        console.log("index launch count read failed: " + code)
+        this.goSponsor()
+      }
+    })
+  },
+
+  _cleanInvalidHistory() {
+    storage.get({
+      key: "dic_history",
+      success: function(data) {
+        var text = data && (data.value || data)
+        if (!text) return
+        var list
+        try { list = JSON.parse(text) } catch (e) { return }
+        if (!list || !list.length) return
+
+        var clean = []
+        for (var i = 0; i < list.length; i++) {
+          var item = list[i]
+          // Keep only entries with valid query AND cached ids (drop old format)
+          if (item && item.query && item.query.toString().trim() && item.ids && item.ids.length > 0) {
+            clean.push(item)
+          }
+        }
+
+        if (clean.length < list.length) {
+          storage.set({
+            key: "dic_history",
+            value: JSON.stringify(clean)
+          })
+        }
+      },
+      fail: function() {}
+    })
+  },
+
+  goInflectSearch() {
+    router.push({
+      uri: "/pages/search",
+      params: {
+        searchMode: "inflect",
+        inflectDepth: "0"
+      }
+    })
+  },
+
+  goSearch() {
+    router.push({
+      uri: "/pages/search"
+    })
+  },
+
+  goSettings() {
+    router.push({
+      uri: "/pages/settings"
+    })
+  },
+
+  goHistory() {
+    router.push({
+      uri: "/pages/records",
+      params: {
+        type: "history"
+      }
+    })
+  },
+
+  goFavorites() {
+    router.push({
+      uri: "/pages/records",
+      params: {
+        type: "favorites"
+      }
+    })
+  },
+
+  goAbout() {
+    router.push({
+      uri: "/pages/about"
+    })
+  },
+
+  goSponsor() {
+    router.push({
+      uri: "/pages/sponsor"
+    })
+  }
+}
+</script>
+
+<style>
+.page {
+  width: 100%;
+  height: 100%;
+  padding-top: 39px;
+  background-color: #020813;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 160px;
+  height: 42px;
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.icon-card {
+  display: none;
+}
+
+.deco-icon {
+  display: none;
+}
+
+.button-group {
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-button {
+  width: 156px;
+  height: 50px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-icon {
+  width: 22px;
+  height: 22px;
+  margin-left: 14px;
+  margin-right: 6px;
+}
+
+.btn-label {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.secondary-button {
+  border-width: 2px;
+  border-color: #2f8cff;
+  background-color: #08172b;
+  color: #ffffff;
+}
+
+.bottom-row {
+  width: 152px;
+  height: 42px;
+  margin-top: -2px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.small-button {
+  width: 70px;
+  height: 42px;
+  border-radius: 21px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon-sm {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.btn-label-sm {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* 布局档案由条件编译固定，避免低 API 设备无法返回屏幕信息。 */
+.icon-card-pill-standard {
+  display: flex;
+  width: 98px;
+  height: 88px;
+  margin-top: 12px;
+  margin-bottom: 19px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-color: #1d74e8;
+  background-color: #07101d;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon-pill-standard {
+  display: flex;
+  width: 84px;
+  height: 84px;
+}
+
+.page-pill-compact {
+  padding-top: 30px;
+}
+
+.title-pill-compact {
+  height: 38px;
+  font-size: 28px;
+}
+
+.icon-card-pill-compact {
+  display: flex;
+  width: 76px;
+  height: 68px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border-radius: 22px;
+  border-width: 2px;
+  border-color: #1d74e8;
+  background-color: #07101d;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon-pill-compact {
+  display: flex;
+  width: 64px;
+  height: 64px;
+}
+
+.main-button-pill-compact {
+  height: 46px;
+  margin-bottom: 9px;
+}
+
+.bottom-row-pill-compact {
+  height: 40px;
+  margin-top: -1px;
+}
+
+.small-button-pill-compact {
+  height: 40px;
+}
+
+.title-rect,
+.title-circle {
+  margin-bottom: 8px;
+}
+
+.page-circle {
+  padding-top: 32px;
+}
+
+.button-group-rect {
+  width: 84%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-group-circle {
+  width: 76%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-button-rect,
+.main-button-circle {
+  width: 47%;
+  height: 68px;
+  margin-bottom: 12px;
+}
+
+.btn-icon-rect,
+.btn-icon-circle {
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+  margin-right: 4px;
+}
+
+.bottom-row-rect,
+.bottom-row-circle {
+  margin-top: 10px;
+}
+
+.icon-card-rect {
+  display: flex;
+  width: 92px;
+  height: 92px;
+  margin-bottom: 16px;
+  border-radius: 26px;
+  border-width: 2px;
+  border-color: #1d74e8;
+  background-color: #07101d;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon-rect {
+  display: flex;
+  width: 86px;
+  height: 86px;
+}
+
+.icon-card-circle {
+  display: flex;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 14px;
+  border-radius: 24px;
+  border-width: 2px;
+  border-color: #1d74e8;
+  background-color: #07101d;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon-circle {
+  display: flex;
+  width: 78px;
+  height: 78px;
+}
+
+.about-button {
+  border-width: 2px;
+  border-color: #35485f;
+  background-color: #161d27;
+  color: #ffffff;
+}
+
+.sponsor-button {
+  border-width: 2px;
+  border-color: #d4a017;
+  background-color: #1a1408;
+  color: #ffffff;
+}
+</style>
