@@ -291,7 +291,12 @@ export default {
         }
       })
     } else {
-      router.back()
+      router.replace({
+        uri: "/pages/records",
+        params: {
+          type: "favorites"
+        }
+      })
     }
   },
 
@@ -315,7 +320,13 @@ export default {
     const endsAtRightQuarter = endX >= sw * 0.75
     const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
-      router.back()
+      router.replace({
+        uri: "/pages/records",
+        params: {
+          type: "favorites"
+        }
+      })
+      return
     }
     this.touchStartX = -1
     this.touchStartY = -1
