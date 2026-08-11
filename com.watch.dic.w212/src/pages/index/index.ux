@@ -56,37 +56,35 @@
       <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
 
       <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn" onclick="goSearch">
-        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
+        <image class="c-btn-icon" src="/common/icons/btn_search_blue.png" style="width:28px;height:28px;" />
         <text class="btn-label">查单词</text>
       </div>
 
       <div class="button-group button-group-{{screenProfile}}">
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goInflectSearch">
-          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_transform.png" />
+          <image class="c-grid-icon" src="/common/icons/btn_settings_blue.png" style="width:24px;height:24px;" />
           <text class="grid-btn-text">变形</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goSettings">
-          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_about.png" />
+          <image class="c-grid-icon" src="/common/icons/btn_settings_blue.png" style="width:24px;height:24px;" />
           <text class="grid-btn-text">设置</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goHistory">
-          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_history.png" />
+          <image class="c-grid-icon" src="/common/icons/btn_history_blue.png" style="width:24px;height:24px;" />
           <text class="grid-btn-text">历史</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goFavorites">
-          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_fav.png" />
+          <image class="c-grid-icon" src="/common/icons/btn_fav_blue.png" style="width:24px;height:24px;" />
           <text class="grid-btn-text">收藏</text>
         </div>
       </div>
 
       <div class="bottom-row bottom-row-{{screenProfile}}">
-        <div class="small-button small-button-{{screenProfile}} about-button" onclick="goAbout">
-          <img class="btn-icon-sm" src="/common/icons/btn_about.png" />
-          <text class="btn-label-sm">关于</text>
+        <div class="m-circle" onclick="goAbout">
+          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:30px;height:30px;" />
         </div>
-        <div class="small-button small-button-{{screenProfile}} sponsor-button" onclick="goSponsor">
-          <img class="btn-icon-sm" src="/common/icons/btn_sponsor.png" />
-          <text class="btn-label-sm">赞助</text>
+        <div class="m-circle m-circle-ml" onclick="goSponsor">
+          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:30px;height:30px;" />
         </div>
       </div>
     </div>
@@ -550,6 +548,14 @@ export default {
 
 .c-main-btn {
   margin-bottom: 14px;
+}
+
+.c-btn-icon {
+  margin-right: 8px;
+}
+
+.c-grid-icon {
+  margin-bottom: 4px;
 }
 
 .button-group {
