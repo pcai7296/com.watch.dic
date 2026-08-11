@@ -6,65 +6,65 @@
     <!-- ===== 布局一：简约 (minimal) ===== -->
     <div if="{{layoutMode === 'minimal'}}" class="layout-minimal">
       <text class="title">腕上词典</text>
-      <img class="logo-icon" src="/common/logo.png" />
+      <image class="logo-icon" src="/common/logo.png" />
       <div class="btn-list">
         <div class="main-btn" onclick="goSearch">
-          <img class="btn-icon" src="/common/icons/btn_search.png" />
+          <image class="btn-icon" src="/common/icons/btn_search.png" />
           <text class="btn-label">查单词</text>
         </div>
         <div class="main-btn btn-mt" onclick="goHistory">
-          <img class="btn-icon" src="/common/icons/btn_history.png" />
+          <image class="btn-icon" src="/common/icons/btn_history.png" />
           <text class="btn-label">历史记录</text>
         </div>
         <div class="main-btn btn-mt" onclick="goFavorites">
-          <img class="btn-icon" src="/common/icons/btn_fav.png" />
+          <image class="btn-icon" src="/common/icons/btn_fav.png" />
           <text class="btn-label">我的收藏</text>
         </div>
       </div>
       <div class="bottom-row">
         <div class="circle-btn" onclick="goAbout">
-          <img class="circle-icon" src="/common/icons/btn_about.png" />
+          <image class="circle-icon" src="/common/icons/btn_about.png" />
         </div>
         <div class="circle-btn circle-btn-ml" onclick="goSponsor">
-          <img class="circle-icon" src="/common/icons/btn_sponsor.png" />
+          <image class="circle-icon" src="/common/icons/btn_sponsor.png" />
         </div>
       </div>
     </div>
 
     <!-- ===== 布局二：经典 (classic) ===== -->
     <div if="{{layoutMode === 'classic'}}" class="layout-classic">
-      <img class="logo-icon logo-icon-classic" src="/common/logo.png" />
+      <image class="logo-icon logo-icon-classic" src="/common/logo.png" />
       <text class="title">腕上词典</text>
       <text class="subtitle">抬手即查</text>
       <div class="cta-btn" onclick="goSearch">
-        <img class="cta-icon" src="/common/icons/btn_search.png" />
+        <image class="cta-icon" src="/common/icons/btn_search.png" />
         <text class="cta-label">查单词</text>
       </div>
       <div class="grid">
         <div class="grid-btn" onclick="goInflectSearch">
-          <img class="grid-icon" src="/common/icons/btn_transform.png" />
+          <image class="grid-icon" src="/common/icons/btn_transform.png" />
           <text class="grid-label">变形</text>
         </div>
         <div class="grid-btn grid-btn-ml" onclick="goSettings">
-          <img class="grid-icon" src="/common/icons/btn_about.png" />
+          <image class="grid-icon" src="/common/icons/btn_about.png" />
           <text class="grid-label">设置</text>
         </div>
         <div class="grid-btn grid-btn-mt" onclick="goHistory">
-          <img class="grid-icon" src="/common/icons/btn_history.png" />
+          <image class="grid-icon" src="/common/icons/btn_history.png" />
           <text class="grid-label">历史</text>
         </div>
         <div class="grid-btn grid-btn-ml grid-btn-mt" onclick="goFavorites">
-          <img class="grid-icon" src="/common/icons/btn_fav.png" />
+          <image class="grid-icon" src="/common/icons/btn_fav.png" />
           <text class="grid-label">收藏</text>
         </div>
       </div>
       <div class="bottom-row-classic">
         <div class="small-btn" onclick="goAbout">
-          <img class="small-icon" src="/common/icons/btn_about.png" />
+          <image class="small-icon" src="/common/icons/btn_about.png" />
           <text class="small-label">关于</text>
         </div>
         <div class="small-btn small-btn-ml" onclick="goSponsor">
-          <img class="small-icon" src="/common/icons/btn_sponsor.png" />
+          <image class="small-icon" src="/common/icons/btn_sponsor.png" />
           <text class="small-label">赞助</text>
         </div>
       </div>
@@ -276,6 +276,7 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 180px;
+  height: 174px;
 }
 
 .main-btn {
@@ -307,10 +308,7 @@ export default {
 }
 
 .bottom-row {
-  position: fixed;
-  bottom: 40px;
-  left: 0;
-  right: 0;
+  margin-top: 20px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -422,10 +420,7 @@ export default {
 }
 
 .bottom-row-classic {
-  position: fixed;
-  bottom: 20px;
-  left: 0;
-  right: 0;
+  margin-top: 14px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
