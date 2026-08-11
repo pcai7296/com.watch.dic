@@ -2,11 +2,11 @@
   <div class="page page-{{screenProfile}}">
     <!-- 共用：时间（弧形） -->
     <div style="width:212px;height:36px;margin-top:-30px;margin-bottom:-4px;position:relative;">
-      <text style="position:absolute;left:66px;top:2.8px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(-21deg);transform-origin:12.5px 16.5px;">{{tc0}}</text>
-      <text style="position:absolute;left:86px;top:-2px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(-9deg);transform-origin:12.5px 16.5px;">{{tc1}}</text>
-      <text style="position:absolute;left:106px;top:-4px;font-size:25px;font-weight:600;color:#7090b0;">{{tc2}}</text>
-      <text style="position:absolute;left:126px;top:-2px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(9deg);transform-origin:12.5px 16.5px;">{{tc3}}</text>
-      <text style="position:absolute;left:146px;top:2.8px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(21deg);transform-origin:12.5px 16.5px;">{{tc4}}</text>
+      <text style="position:absolute;left:53px;top:2.8px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(-21deg);transform-origin:12.5px 16.5px;">{{tc0}}</text>
+      <text style="position:absolute;left:73px;top:-2px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(-9deg);transform-origin:12.5px 16.5px;">{{tc1}}</text>
+      <text style="position:absolute;left:93px;top:-4px;font-size:25px;font-weight:600;color:#7090b0;">{{tc2}}</text>
+      <text style="position:absolute;left:113px;top:-2px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(9deg);transform-origin:12.5px 16.5px;">{{tc3}}</text>
+      <text style="position:absolute;left:133px;top:2.8px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(21deg);transform-origin:12.5px 16.5px;">{{tc4}}</text>
     </div>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
