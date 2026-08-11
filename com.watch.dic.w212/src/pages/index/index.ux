@@ -1,71 +1,84 @@
 <template>
   <div class="page page-{{screenProfile}}">
-    <!-- 共用：时间显示 -->
-    <text class="time-display">17:23</text>
+    <!-- 共用：时间 -->
+    <text class="time-text">17:23</text>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
-    <div if="{{layoutMode === 'minimal'}}" class="layout-minimal">
-      <text class="title">腕上词典</text>
-      <image class="logo-icon" src="/common/logo.png" />
-      <div class="btn-list">
-        <div class="main-btn" onclick="goSearch">
-          <image class="btn-icon" src="/common/icons/btn_search.png" />
+    <div if="{{layoutMode === 'minimal'}}" class="minimal-wrap">
+      <text class="title title-{{screenProfile}}">腕上词典</text>
+
+      <div class="icon-card icon-card-{{screenProfile}}">
+        <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
+      </div>
+
+      <div class="minimal-btns">
+        <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goSearch">
+          <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
           <text class="btn-label">查单词</text>
         </div>
-        <div class="main-btn btn-mt" onclick="goHistory">
-          <image class="btn-icon" src="/common/icons/btn_history.png" />
+        <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goHistory">
+          <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_history.png" />
           <text class="btn-label">历史记录</text>
         </div>
-        <div class="main-btn btn-mt" onclick="goFavorites">
-          <image class="btn-icon" src="/common/icons/btn_fav.png" />
+        <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goFavorites">
+          <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_fav.png" />
           <text class="btn-label">我的收藏</text>
         </div>
       </div>
-      <div class="bottom-row">
-        <div class="circle-btn" onclick="goAbout">
-          <image class="circle-icon" src="/common/icons/btn_about.png" />
+
+      <div class="bottom-row bottom-row-{{screenProfile}}">
+        <div class="small-button small-button-{{screenProfile}} about-button" onclick="goAbout">
+          <img class="btn-icon-sm" src="/common/icons/btn_about.png" />
+          <text class="btn-label-sm">关于</text>
         </div>
-        <div class="circle-btn circle-btn-ml" onclick="goSponsor">
-          <image class="circle-icon" src="/common/icons/btn_sponsor.png" />
+        <div class="small-button small-button-{{screenProfile}} sponsor-button" onclick="goSponsor">
+          <img class="btn-icon-sm" src="/common/icons/btn_sponsor.png" />
+          <text class="btn-label-sm">赞助</text>
         </div>
       </div>
     </div>
 
     <!-- ===== 布局二：经典 (classic) ===== -->
-    <div if="{{layoutMode === 'classic'}}" class="layout-classic">
-      <image class="logo-icon logo-icon-classic" src="/common/logo.png" />
-      <text class="title">腕上词典</text>
-      <text class="subtitle">抬手即查</text>
-      <div class="cta-btn" onclick="goSearch">
-        <image class="cta-icon" src="/common/icons/btn_search.png" />
-        <text class="cta-label">查单词</text>
+    <div if="{{layoutMode === 'classic'}}" class="classic-wrap">
+      <div class="icon-card icon-card-{{screenProfile}}">
+        <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
       </div>
-      <div class="grid">
-        <div class="grid-btn" onclick="goInflectSearch">
-          <image class="grid-icon" src="/common/icons/btn_transform.png" />
-          <text class="grid-label">变形</text>
+
+      <text class="title title-{{screenProfile}}">腕上词典</text>
+      <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
+
+      <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goSearch">
+        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
+        <text class="btn-label">查单词</text>
+      </div>
+
+      <div class="button-group button-group-{{screenProfile}}">
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goInflectSearch">
+          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_transform.png" />
+          <text class="grid-btn-text">变形</text>
         </div>
-        <div class="grid-btn grid-btn-ml" onclick="goSettings">
-          <image class="grid-icon" src="/common/icons/btn_about.png" />
-          <text class="grid-label">设置</text>
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goSettings">
+          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_about.png" />
+          <text class="grid-btn-text">设置</text>
         </div>
-        <div class="grid-btn grid-btn-mt" onclick="goHistory">
-          <image class="grid-icon" src="/common/icons/btn_history.png" />
-          <text class="grid-label">历史</text>
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goHistory">
+          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_history.png" />
+          <text class="grid-btn-text">历史</text>
         </div>
-        <div class="grid-btn grid-btn-ml grid-btn-mt" onclick="goFavorites">
-          <image class="grid-icon" src="/common/icons/btn_fav.png" />
-          <text class="grid-label">收藏</text>
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goFavorites">
+          <img class="grid-btn-icon grid-btn-icon-{{screenProfile}}" src="/common/icons/btn_fav.png" />
+          <text class="grid-btn-text">收藏</text>
         </div>
       </div>
-      <div class="bottom-row-classic">
-        <div class="small-btn" onclick="goAbout">
-          <image class="small-icon" src="/common/icons/btn_about.png" />
-          <text class="small-label">关于</text>
+
+      <div class="bottom-row bottom-row-{{screenProfile}}">
+        <div class="small-button small-button-{{screenProfile}} about-button" onclick="goAbout">
+          <img class="btn-icon-sm" src="/common/icons/btn_about.png" />
+          <text class="btn-label-sm">关于</text>
         </div>
-        <div class="small-btn small-btn-ml" onclick="goSponsor">
-          <image class="small-icon" src="/common/icons/btn_sponsor.png" />
-          <text class="small-label">赞助</text>
+        <div class="small-button small-button-{{screenProfile}} sponsor-button" onclick="goSponsor">
+          <img class="btn-icon-sm" src="/common/icons/btn_sponsor.png" />
+          <text class="btn-label-sm">赞助</text>
         </div>
       </div>
     </div>
@@ -153,7 +166,6 @@ export default {
         var list
         try { list = JSON.parse(text) } catch (e) { return }
         if (!list || !list.length) return
-
         var clean = []
         for (var i = 0; i < list.length; i++) {
           var item = list[i]
@@ -161,12 +173,8 @@ export default {
             clean.push(item)
           }
         }
-
         if (clean.length < list.length) {
-          storage.set({
-            key: "dic_history",
-            value: JSON.stringify(clean)
-          })
+          storage.set({ key: "dic_history", value: JSON.stringify(clean) })
         }
       },
       fail: function() {}
@@ -174,55 +182,25 @@ export default {
   },
 
   goInflectSearch() {
-    router.push({
-      uri: "/pages/search",
-      params: {
-        searchMode: "inflect",
-        inflectDepth: "0"
-      }
-    })
+    router.push({ uri: "/pages/search", params: { searchMode: "inflect", inflectDepth: "0" } })
   },
-
   goSearch() {
-    router.push({
-      uri: "/pages/search"
-    })
+    router.push({ uri: "/pages/search" })
   },
-
   goSettings() {
-    router.push({
-      uri: "/pages/settings"
-    })
+    router.push({ uri: "/pages/settings" })
   },
-
   goHistory() {
-    router.push({
-      uri: "/pages/records",
-      params: {
-        type: "history"
-      }
-    })
+    router.push({ uri: "/pages/records", params: { type: "history" } })
   },
-
   goFavorites() {
-    router.push({
-      uri: "/pages/records",
-      params: {
-        type: "favorites"
-      }
-    })
+    router.push({ uri: "/pages/records", params: { type: "favorites" } })
   },
-
   goAbout() {
-    router.push({
-      uri: "/pages/about"
-    })
+    router.push({ uri: "/pages/about" })
   },
-
   goSponsor() {
-    router.push({
-      uri: "/pages/sponsor"
-    })
+    router.push({ uri: "/pages/sponsor" })
   }
 }
 </script>
@@ -238,113 +216,212 @@ export default {
 }
 
 /* — 共用时间 — */
-.time-display {
+.time-text {
   font-size: 18px;
   color: #7090b0;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 2px;
 }
 
-/* — 共用标题 — */
 .title {
+  width: 160px;
   color: #ffffff;
   font-size: 29px;
   font-weight: 800;
   text-align: center;
-  margin-top: 4px;
 }
 
-/* — 共用图标 — */
-.logo-icon {
-  width: 80px;
-  height: 80px;
-  margin-top: 8px;
-  margin-bottom: 10px;
+/* ==============================
+   共用组件（两种布局复用）
+   ============================== */
+.icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon {
+  display: flex;
+}
+
+.main-button {
+  width: 156px;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-icon {
+  width: 22px;
+  height: 22px;
+  margin-left: 14px;
+  margin-right: 6px;
+}
+
+.btn-label {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.secondary-button {
+  border-width: 2px;
+  border-color: #2f8cff;
+  background-color: #08172b;
+  color: #ffffff;
+  border-radius: 18px;
+}
+
+.bottom-row {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.small-button {
+  width: 70px;
+  height: 42px;
+  border-radius: 21px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon-sm {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.btn-label-sm {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.about-button {
+  border-width: 2px;
+  border-color: #35485f;
+  background-color: #161d27;
+  color: #ffffff;
+}
+
+.sponsor-button {
+  border-width: 2px;
+  border-color: #d4a017;
+  background-color: #1a1408;
+  color: #ffffff;
 }
 
 /* ==============================
    布局一：简约 (minimal)
    ============================== */
-.layout-minimal {
+.minimal-wrap {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
 }
 
-.btn-list {
+.minimal-wrap .title {
+  margin-bottom: 4px;
+}
+
+.minimal-wrap .icon-card {
+  margin-bottom: 8px;
+}
+
+.minimal-btns {
   flex-direction: column;
   align-items: center;
-  width: 180px;
-  height: 174px;
+  margin-bottom: 10px;
 }
 
-.main-btn {
-  width: 180px;
-  height: 52px;
-  border-radius: 16px;
-  flex-direction: row;
-  align-items: center;
-  border-width: 1px;
-  border-color: #1e2a3a;
-  background-color: #14181e;
+.minimal-btns .main-button {
+  margin-bottom: 8px;
 }
 
-.btn-mt {
-  margin-top: 6px;
+.minimal-wrap .bottom-row {
+  margin-top: auto;
 }
 
-.main-btn .btn-icon {
-  width: 22px;
-  height: 22px;
-  margin-left: 14px;
-  margin-right: 8px;
-}
-
-.main-btn .btn-label {
-  color: #e0e4ea;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.bottom-row {
-  margin-top: 20px;
-  flex-direction: row;
+/* pill-standard icon */
+.icon-card-pill-standard {
+  width: 80px;
+  height: 80px;
+  border-radius: 22px;
+  border-width: 0px;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
 }
 
-.circle-btn {
-  width: 48px;
-  height: 48px;
+.deco-icon-pill-standard {
+  width: 80px;
+  height: 80px;
+}
+
+/* pill-compact icon */
+.icon-card-pill-compact {
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  border-width: 0px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon-pill-compact {
+  width: 64px;
+  height: 64px;
+}
+
+/* rect icon */
+.icon-card-rect {
+  width: 92px;
+  height: 92px;
+  border-radius: 26px;
+  border-width: 0px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.deco-icon-rect {
+  width: 86px;
+  height: 86px;
+}
+
+/* circle icon */
+.icon-card-circle {
+  width: 84px;
+  height: 84px;
   border-radius: 24px;
-  background-color: #14181e;
-  border-width: 1px;
-  border-color: #1e2a3a;
+  border-width: 0px;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
 }
 
-.circle-btn-ml {
-  margin-left: 10px;
-}
-
-.circle-icon {
-  width: 24px;
-  height: 24px;
+.deco-icon-circle {
+  width: 78px;
+  height: 78px;
 }
 
 /* ==============================
    布局二：经典 (classic)
    ============================== */
-.layout-classic {
+.classic-wrap {
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.logo-icon-classic {
-  margin-top: 4px;
+.classic-wrap .icon-card {
+  margin-bottom: 8px;
+}
+
+.classic-wrap .title {
   margin-bottom: 4px;
 }
 
@@ -353,44 +430,52 @@ export default {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-  margin-top: 2px;
+}
+
+.subtitle-pill-standard {
   margin-bottom: 12px;
 }
 
-.cta-btn {
-  width: 172px;
-  height: 50px;
-  border-radius: 14px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.subtitle-pill-compact {
+  margin-bottom: 8px;
+}
+
+.subtitle-rect {
   margin-bottom: 14px;
-  background-color: #0b65ea;
 }
 
-.cta-icon {
-  width: 22px;
-  height: 22px;
-  margin-right: 6px;
+.subtitle-circle {
+  margin-bottom: 12px;
 }
 
-.cta-label {
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
+.classic-wrap .main-button {
+  margin-bottom: 14px;
 }
 
-.grid {
+.button-group {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 180px;
+  align-items: center;
 }
 
-.grid-btn {
-  width: 82px;
-  height: 62px;
-  border-radius: 15px;
+.button-group-pill-standard {
+  width: 178px;
+}
+
+.button-group-pill-compact {
+  width: 160px;
+}
+
+.button-group-rect {
+  width: 84%;
+}
+
+.button-group-circle {
+  width: 76%;
+}
+
+.grid-button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -399,58 +484,91 @@ export default {
   background-color: #081520;
 }
 
-.grid-btn-ml {
-  margin-left: 10px;
+.grid-button-pill-standard {
+  width: 82px;
+  height: 62px;
+  margin: 5px;
+  border-radius: 15px;
 }
 
-.grid-btn-mt {
-  margin-top: 10px;
+.grid-button-pill-compact {
+  width: 74px;
+  height: 56px;
+  margin: 4px;
+  border-radius: 13px;
 }
 
-.grid-icon {
+.grid-button-rect {
+  width: 47%;
+  height: 68px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+.grid-button-circle {
+  width: 47%;
+  height: 68px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+.grid-btn-icon {
   width: 22px;
   height: 22px;
 }
 
-.grid-label {
+.grid-btn-icon-pill-compact {
+  width: 20px;
+  height: 20px;
+}
+
+.grid-btn-text {
   color: #c0d0e8;
   font-size: 14px;
   font-weight: 700;
   margin-top: 4px;
 }
 
-.bottom-row-classic {
-  margin-top: 14px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.grid-btn-text-pill-compact {
+  font-size: 13px;
 }
 
-.small-btn {
-  width: 70px;
-  height: 42px;
-  border-radius: 21px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border-width: 1.5px;
-  border-color: #35485f;
-  background-color: #161d27;
+/* ==============================
+   compact 页面级微调
+   ============================== */
+.page-pill-compact {
+  padding-top: 30px;
 }
 
-.small-btn-ml {
-  margin-left: 8px;
+.title-pill-compact {
+  height: 38px;
+  font-size: 28px;
 }
 
-.small-icon {
-  width: 14px;
-  height: 14px;
-  margin-right: 4px;
+.title-rect,
+.title-circle {
+  margin-bottom: 8px;
 }
 
-.small-label {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
+.page-circle {
+  padding-top: 32px;
+}
+
+.bottom-row-pill-compact {
+  height: 40px;
+  margin-top: -1px;
+}
+
+.small-button-pill-compact {
+  height: 40px;
+}
+
+.bottom-row-rect,
+.bottom-row-circle {
+  margin-top: 10px;
+}
+
+.main-button-pill-compact {
+  height: 46px;
 }
 </style>
