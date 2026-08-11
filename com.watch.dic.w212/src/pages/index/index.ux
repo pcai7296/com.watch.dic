@@ -285,7 +285,7 @@ export default {
 }
 
 .main-button {
-  width: 156px;
+  width: 176px;
   height: 50px;
   flex-direction: row;
   align-items: center;
@@ -308,7 +308,7 @@ export default {
 .secondary-button {
   border-width: 1.5px;
   border-color: #4a6a8a;
-  background-color: #2a5080;
+  background-color: #3a6898;
   color: #ffffff;
   border-radius: 14px;
 }
