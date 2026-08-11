@@ -560,7 +560,7 @@ export default {
 }
 
 .button-group-pill-standard {
-  width: 178px;
+  width: 190px;
 }
 
 .button-group-pill-compact {
@@ -585,9 +585,9 @@ export default {
 }
 
 .grid-button-pill-standard {
-  width: 82px;
+  width: 86px;
   height: 62px;
-  margin: 5px;
+  margin: 4px;
   border-radius: 15px;
 }
 
