@@ -356,7 +356,7 @@ export default {
   flex-direction: row;
   align-items: center;
   border-width: 1px;
-  border-color: #0c1520;
+  border-color: #1a2a40;
   background-color: #14181e;
 }
 
@@ -391,7 +391,7 @@ export default {
   border-radius: 24px;
   background-color: #14181e;
   border-width: 1px;
-  border-color: #0c1520;
+  border-color: #1a2a40;
   justify-content: center;
   align-items: center;
 }
