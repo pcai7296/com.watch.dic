@@ -12,26 +12,26 @@
       </div>
 
       <div class="minimal-btns">
-        <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goSearch">
-          <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
-          <text class="btn-label">查单词</text>
+        <div class="m-btn" onclick="goSearch">
+          <image class="m-btn-icon" src="/common/icons/btn_search.png" />
+          <text class="m-btn-text">查单词</text>
         </div>
-        <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goHistory">
-          <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_history.png" />
-          <text class="btn-label">历史记录</text>
+        <div class="m-btn m-btn-mt" onclick="goHistory">
+          <image class="m-btn-icon" src="/common/icons/btn_history.png" />
+          <text class="m-btn-text">历史记录</text>
         </div>
-        <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goFavorites">
-          <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_fav.png" />
-          <text class="btn-label">我的收藏</text>
+        <div class="m-btn m-btn-mt" onclick="goFavorites">
+          <image class="m-btn-icon" src="/common/icons/btn_fav.png" />
+          <text class="m-btn-text">我的收藏</text>
         </div>
       </div>
 
-      <div class="minimal-bottom">
-        <div class="circle-btn" onclick="goAbout">
-          <img class="circle-btn-icon" src="/common/icons/btn_about.png" />
+      <div class="m-bottom">
+        <div class="m-circle" onclick="goAbout">
+          <image class="m-circle-icon" src="/common/icons/btn_about.png" />
         </div>
-        <div class="circle-btn circle-btn-ml" onclick="goSponsor">
-          <img class="circle-btn-icon" src="/common/icons/btn_sponsor.png" />
+        <div class="m-circle m-circle-ml" onclick="goSponsor">
+          <image class="m-circle-icon" src="/common/icons/btn_sponsor.png" />
         </div>
       </div>
     </div>
@@ -313,6 +313,7 @@ export default {
 
 /* ==============================
    布局一：简约 (minimal)
+   所有类名独立，不与 classic 共用
    ============================== */
 .minimal-wrap {
   flex-direction: column;
@@ -334,30 +335,44 @@ export default {
   margin-bottom: 10px;
 }
 
-/* 简约按钮：深灰渐变底 */
-.minimal-btns .main-button {
-  margin-bottom: 6px;
+/* 简约按钮 */
+.m-btn {
   width: 180px;
   height: 52px;
   border-radius: 16px;
+  flex-direction: row;
+  align-items: center;
   border-width: 1px;
   border-color: #1e2a3a;
   background-color: #14181e;
 }
 
-.minimal-btns .btn-label {
-  font-size: 22px;
+.m-btn-mt {
+  margin-top: 6px;
 }
 
-/* 简约底部：圆形按钮 */
-.minimal-bottom {
+.m-btn-icon {
+  width: 22px;
+  height: 22px;
+  margin-left: 14px;
+  margin-right: 8px;
+}
+
+.m-btn-text {
+  color: #e0e4ea;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* 简约底部 */
+.m-bottom {
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
 }
 
-.circle-btn {
+.m-circle {
   width: 48px;
   height: 48px;
   border-radius: 24px;
@@ -368,11 +383,11 @@ export default {
   align-items: center;
 }
 
-.circle-btn-ml {
+.m-circle-ml {
   margin-left: 10px;
 }
 
-.circle-btn-icon {
+.m-circle-icon {
   width: 24px;
   height: 24px;
 }
