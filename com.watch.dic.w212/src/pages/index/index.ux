@@ -4,7 +4,7 @@
     <div style="width:212px;height:36px;margin-top:-30px;margin-bottom:-4px;position:relative;">
       <text style="position:absolute;left:60.9px;top:2.8px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(-21deg);transform-origin:12.5px 16.5px;">{{tc0}}</text>
       <text style="position:absolute;left:79px;top:-2px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(-9deg);transform-origin:12.5px 16.5px;">{{tc1}}</text>
-      <text style="position:absolute;left:91px;top:-4px;font-size:25px;font-weight:600;color:#7090b0;">{{tc2}}</text>
+      <text style="position:absolute;left:96px;top:-4px;font-size:25px;font-weight:600;color:#7090b0;">{{tc2}}</text>
       <text style="position:absolute;left:108px;top:-2px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(9deg);transform-origin:12.5px 16.5px;">{{tc3}}</text>
       <text style="position:absolute;left:126.1px;top:2.8px;font-size:25px;font-weight:600;color:#7090b0;transform:rotate(21deg);transform-origin:12.5px 16.5px;">{{tc4}}</text>
     </div>
