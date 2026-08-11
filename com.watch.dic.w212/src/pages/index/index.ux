@@ -306,11 +306,11 @@ export default {
 }
 
 .secondary-button {
-  border-width: 2px;
-  border-color: #2f8cff;
-  background-color: #08172b;
+  border-width: 1.5px;
+  border-color: #4a6a8a;
+  background: linear-gradient(180deg, #3a6090 0%, #1a3050 100%);
   color: #ffffff;
-  border-radius: 18px;
+  border-radius: 14px;
 }
 
 .bottom-row {
