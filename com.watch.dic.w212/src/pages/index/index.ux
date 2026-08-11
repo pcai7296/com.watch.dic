@@ -1,7 +1,13 @@
 <template>
   <div class="page page-{{screenProfile}}">
-    <!-- 共用：时间 -->
-    <text class="time-text">{{currentTime}}</text>
+    <!-- 共用：时间（弧形） -->
+    <div class="time-header">
+      <text class="time time1">{{tc0}}</text>
+      <text class="time time2">{{tc1}}</text>
+      <text class="time time3">{{tc2}}</text>
+      <text class="time time4">{{tc3}}</text>
+      <text class="time time5">{{tc4}}</text>
+    </div>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
     <div if="{{layoutMode === 'minimal'}}" class="minimal-wrap">
@@ -97,7 +103,8 @@ export default {
   private: {
     screenProfile: buildTarget.profile,
     layoutMode: "minimal",
-    currentTime: ""
+    currentTime: "",
+    tc0: "", tc1: "", tc2: "", tc3: "", tc4: ""
   },
 
   onInit() {
@@ -121,7 +128,12 @@ export default {
     var now = new Date()
     var h = now.getHours()
     var m = now.getMinutes()
-    this.currentTime = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
+    var t = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
+    this.tc0 = t[0]
+    this.tc1 = t[1]
+    this.tc2 = t[2]
+    this.tc3 = t[3]
+    this.tc4 = t[4]
   },
 
   _loadLayout() {
@@ -226,14 +238,32 @@ export default {
   align-items: center;
 }
 
-/* — 共用时间 — */
-.time-text {
-  font-size: 18px;
-  color: #7090b0;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 2px;
+/* — 共用时间（弧形） — */
+.time-header {
+  width: 212px;
+  height: 44px;
+  margin-top: 36px;
+  margin-bottom: -4px;
+  position: relative;
 }
+.time {
+  position: absolute;
+  width: 25px;
+  height: 33px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #7090b0;
+  transform-origin: 12.5px 16.5px;
+}
+.time1 { left: 60.9px; top: 10.8px; transform: rotate(-21deg); }
+.time2 { left: 79px; top: 6px; transform: rotate(-9deg); }
+.time3 { left: 93.5px; top: 2px; }
+.time4 { left: 108px; top: 6px; transform: rotate(9deg); }
+.time5 { left: 126.1px; top: 10.8px; transform: rotate(21deg); }
 
 .title {
   width: 160px;
