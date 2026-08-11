@@ -13,29 +13,29 @@
 
       <div class="minimal-btns">
         <div class="m-btn" onclick="goSearch">
-          <image class="m-btn-icon" src="/common/icons/btn_search_blue.png" style="width:28px;height:28px;" />
+          <image class="m-btn-icon" src="/common/icons/btn_search_blue.png" style="width:32px;height:32px;" />
           <text class="m-btn-text">查单词</text>
         </div>
         <div class="m-btn m-btn-mt" onclick="goHistory">
-          <image class="m-btn-icon" src="/common/icons/btn_history_blue.png" style="width:28px;height:28px;" />
+          <image class="m-btn-icon" src="/common/icons/btn_history_blue.png" style="width:32px;height:32px;" />
           <text class="m-btn-text">历史记录</text>
         </div>
         <div class="m-btn m-btn-mt" onclick="goFavorites">
-          <image class="m-btn-icon" src="/common/icons/btn_fav_blue.png" style="width:28px;height:28px;" />
+          <image class="m-btn-icon" src="/common/icons/btn_fav_blue.png" style="width:32px;height:32px;" />
           <text class="m-btn-text">我的收藏</text>
         </div>
         <div class="m-btn m-btn-mt" onclick="goSettings">
-          <image class="m-btn-icon" src="/common/icons/btn_settings_blue.png" style="width:28px;height:28px;" />
+          <image class="m-btn-icon" src="/common/icons/btn_settings_blue.png" style="width:32px;height:32px;" />
           <text class="m-btn-text">设置</text>
         </div>
       </div>
 
       <div class="m-bottom">
         <div class="m-circle" onclick="goAbout">
-          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:28px;height:28px;" />
+          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:30px;height:30px;" />
         </div>
         <div class="m-circle m-circle-ml" onclick="goSponsor">
-          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:28px;height:28px;" />
+          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:30px;height:30px;" />
         </div>
       </div>
     </div>
@@ -365,9 +365,9 @@ export default {
 }
 
 .m-btn-icon {
-  width: 28px;
-  height: 28px;
-  margin-left: 12px;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
   margin-right: 8px;
 }
 
@@ -401,8 +401,8 @@ export default {
 }
 
 .m-circle-icon {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 .m-circle-i {
