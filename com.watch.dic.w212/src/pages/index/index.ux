@@ -1,75 +1,71 @@
 <template>
   <div class="page page-{{screenProfile}}">
     <!-- 共用：时间显示 -->
-    <text class="time-display time-display-{{screenProfile}}">{{currentTime}}</text>
+    <text class="time-display">17:23</text>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
     <div if="{{layoutMode === 'minimal'}}" class="layout-minimal">
-      <text class="title title-{{screenProfile}}">腕上词典</text>
-      <div class="icon-card icon-card-{{screenProfile}}">
-        <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
-      </div>
+      <text class="title">腕上词典</text>
+      <img class="logo-icon" src="/common/logo.png" />
       <div class="btn-list">
-        <div class="main-btn main-btn-{{screenProfile}}" @click="goSearch">
+        <div class="main-btn" onclick="goSearch">
           <img class="btn-icon" src="/common/icons/btn_search.png" />
           <text class="btn-label">查单词</text>
         </div>
-        <div class="main-btn main-btn-{{screenProfile}}" @click="goHistory">
+        <div class="main-btn btn-mt" onclick="goHistory">
           <img class="btn-icon" src="/common/icons/btn_history.png" />
           <text class="btn-label">历史记录</text>
         </div>
-        <div class="main-btn main-btn-{{screenProfile}}" @click="goFavorites">
+        <div class="main-btn btn-mt" onclick="goFavorites">
           <img class="btn-icon" src="/common/icons/btn_fav.png" />
           <text class="btn-label">我的收藏</text>
         </div>
       </div>
-      <div class="bottom-row-minimal">
-        <div class="circle-btn" @click="goAbout">
-          <img class="circle-btn-icon" src="/common/icons/btn_about.png" />
+      <div class="bottom-row">
+        <div class="circle-btn" onclick="goAbout">
+          <img class="circle-icon" src="/common/icons/btn_about.png" />
         </div>
-        <div class="circle-btn" @click="goSponsor">
-          <img class="circle-btn-icon" src="/common/icons/btn_sponsor.png" />
+        <div class="circle-btn circle-btn-ml" onclick="goSponsor">
+          <img class="circle-icon" src="/common/icons/btn_sponsor.png" />
         </div>
       </div>
     </div>
 
     <!-- ===== 布局二：经典 (classic) ===== -->
     <div if="{{layoutMode === 'classic'}}" class="layout-classic">
-      <div class="icon-card icon-card-{{screenProfile}}">
-        <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
-      </div>
-      <text class="title title-{{screenProfile}}">腕上词典</text>
-      <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
-      <div class="cta-btn cta-btn-{{screenProfile}}" @click="goSearch">
+      <img class="logo-icon logo-icon-classic" src="/common/logo.png" />
+      <text class="title">腕上词典</text>
+      <text class="subtitle">抬手即查</text>
+      <div class="cta-btn" onclick="goSearch">
         <img class="cta-icon" src="/common/icons/btn_search.png" />
         <text class="cta-label">查单词</text>
       </div>
-      <div class="grid grid-{{screenProfile}}">
-        <div class="grid-btn grid-btn-{{screenProfile}}" @click="goInflectSearch">
+      <div class="grid">
+        <div class="grid-btn" onclick="goInflectSearch">
           <img class="grid-icon" src="/common/icons/btn_transform.png" />
           <text class="grid-label">变形</text>
         </div>
-        <div class="grid-btn grid-btn-{{screenProfile}}" @click="goSettings">
+        <div class="grid-btn grid-btn-ml" onclick="goSettings">
           <img class="grid-icon" src="/common/icons/btn_about.png" />
           <text class="grid-label">设置</text>
         </div>
-        <div class="grid-btn grid-btn-{{screenProfile}}" @click="goHistory">
+        <div class="grid-btn grid-btn-mt" onclick="goHistory">
           <img class="grid-icon" src="/common/icons/btn_history.png" />
           <text class="grid-label">历史</text>
         </div>
-        <div class="grid-btn grid-btn-{{screenProfile}}" @click="goFavorites">
+        <div class="grid-btn grid-btn-ml grid-btn-mt" onclick="goFavorites">
           <img class="grid-icon" src="/common/icons/btn_fav.png" />
           <text class="grid-label">收藏</text>
         </div>
       </div>
-      <div class="bottom-row bottom-row-{{screenProfile}}">
-        <div class="small-button small-button-{{screenProfile}} about-button" @click="goAbout">
-          <img class="btn-icon-sm" src="/common/icons/btn_about.png" />
-          <text class="btn-label-sm">关于</text>
+      <div class="bottom-row-classic">
+        <div class="small-btn" onclick="goAbout">
+          <img class="small-icon" src="/common/icons/btn_about.png" />
+          <text class="small-label">关于</text>
         </div>
-        <div class="small-button small-button-{{screenProfile}} sponsor-button" @click="goSponsor">
-          <img class="btn-icon-sm" src="/common/icons/btn_sponsor.png" />
-          <text class="btn-label-sm">赞助</text>
+        <div class="small-btn small-btn-ml" onclick="goSponsor">
+          <img class="small-icon" src="/common/icons/btn_sponsor.png" />
+          <text class="small-label">赞助</text>
         </div>
       </div>
     </div>
@@ -85,54 +81,45 @@ import buildTarget from "../../common/buildTarget"
 export default {
   private: {
     screenProfile: buildTarget.profile,
-    layoutMode: "minimal",
-    currentTime: ""
+    layoutMode: "minimal"
   },
 
   onInit() {
-    const app = this.$app.$def
+    var app = this.$app.$def
     this.screenProfile = buildTarget.profile
     device.getInfo({
-      success: (data) => {
+      success: function(data) {
         app.updateScreenInfo(data)
-        this.screenProfile = app.data.screenProfile
-      },
-      fail: (data, code) => {
+      }.bind(this),
+      fail: function(data, code) {
         console.log("index device.getInfo failed; using compiled target: " + code)
-      }
+      }.bind(this)
     })
     this._loadLayout()
-    this._updateTime()
     this._cleanInvalidHistory()
     this._trackLaunch()
   },
 
   _loadLayout() {
+    var self = this
     storage.get({
       key: "dic_home_layout",
       default: "minimal",
-      success: (data) => {
-        const value = data && (data.value || data)
+      success: function(data) {
+        var value = data && (data.value || data)
         if (value === "classic" || value === "minimal") {
-          this.layoutMode = value
+          self.layoutMode = value
         }
       },
-      fail: () => {}
+      fail: function() {}
     })
-  },
-
-  _updateTime() {
-    const now = new Date()
-    var h = now.getHours()
-    var m = now.getMinutes()
-    this.currentTime = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
   },
 
   _trackLaunch() {
     storage.get({
       key: "dic_launch_count",
       default: "0",
-      success: (data) => {
+      success: function(data) {
         var raw = data && (data.value || data)
         var count = parseInt(raw, 10)
         if (!isFinite(count) || count < 0) {
@@ -142,18 +129,18 @@ export default {
         storage.set({
           key: "dic_launch_count",
           value: String(nextCount),
-          fail: (setData, code) => {
+          fail: function(setData, code) {
             console.log("index launch count save failed: " + code)
           }
         })
         if (nextCount === 1 || nextCount % 10 === 0) {
           this.goSponsor()
         }
-      },
-      fail: (getData, code) => {
+      }.bind(this),
+      fail: function(getData, code) {
         console.log("index launch count read failed: " + code)
         this.goSponsor()
-      }
+      }.bind(this)
     })
   },
 
@@ -255,27 +242,24 @@ export default {
   font-size: 18px;
   color: #7090b0;
   font-weight: 700;
-  letter-spacing: 1px;
+  text-align: center;
 }
 
 /* — 共用标题 — */
 .title {
-  width: 160px;
   color: #ffffff;
   font-size: 29px;
   font-weight: 800;
   text-align: center;
+  margin-top: 4px;
 }
 
-/* — 图标卡片 — */
-.icon-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon {
-  display: flex;
+/* — 共用图标 — */
+.logo-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 /* ==============================
@@ -284,31 +268,14 @@ export default {
 .layout-minimal {
   flex-direction: column;
   align-items: center;
-}
-
-.layout-minimal .title {
-  margin-top: 2px;
-  margin-bottom: 4px;
-}
-
-.icon-card-pill-standard {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 8px;
-  border-radius: 22px;
-  border-width: 0px;
-  background-color: transparent;
-}
-
-.deco-icon-pill-standard {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
 }
 
 .btn-list {
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  width: 180px;
 }
 
 .main-btn {
@@ -318,8 +285,12 @@ export default {
   flex-direction: row;
   align-items: center;
   border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.06);
+  border-color: #1e2a3a;
   background-color: #14181e;
+}
+
+.btn-mt {
+  margin-top: 6px;
 }
 
 .main-btn .btn-icon {
@@ -335,11 +306,13 @@ export default {
   font-weight: 700;
 }
 
-.bottom-row-minimal {
-  margin-top: auto;
-  margin-bottom: 38px;
+.bottom-row {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  right: 0;
   flex-direction: row;
-  gap: 10px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -349,31 +322,18 @@ export default {
   border-radius: 24px;
   background-color: #14181e;
   border-width: 1px;
-  border-color: rgba(255, 255, 255, 0.06);
+  border-color: #1e2a3a;
   justify-content: center;
   align-items: center;
 }
 
-.circle-btn-icon {
+.circle-btn-ml {
+  margin-left: 10px;
+}
+
+.circle-icon {
   width: 24px;
   height: 24px;
-}
-
-/* — 简约 compact — */
-.icon-card-pill-compact {
-  width: 64px;
-  height: 64px;
-  margin-bottom: 6px;
-  border-radius: 18px;
-}
-
-.deco-icon-pill-compact {
-  width: 64px;
-  height: 64px;
-}
-
-.main-btn-pill-compact {
-  height: 48px;
 }
 
 /* ==============================
@@ -382,13 +342,11 @@ export default {
 .layout-classic {
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
-.layout-classic .icon-card {
-  margin-bottom: 8px;
-}
-
-.layout-classic .title {
+.logo-icon-classic {
+  margin-top: 4px;
   margin-bottom: 4px;
 }
 
@@ -397,9 +355,7 @@ export default {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-}
-
-.subtitle-pill-standard {
+  margin-top: 2px;
   margin-bottom: 12px;
 }
 
@@ -430,8 +386,7 @@ export default {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 14px;
+  width: 180px;
 }
 
 .grid-btn {
@@ -441,10 +396,17 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4px;
   border-width: 1.5px;
   border-color: rgba(104, 136, 184, 0.25);
   background-color: #081520;
+}
+
+.grid-btn-ml {
+  margin-left: 10px;
+}
+
+.grid-btn-mt {
+  margin-top: 10px;
 }
 
 .grid-icon {
@@ -456,16 +418,20 @@ export default {
   color: #c0d0e8;
   font-size: 14px;
   font-weight: 700;
+  margin-top: 4px;
 }
 
-.bottom-row {
+.bottom-row-classic {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
   flex-direction: row;
-  gap: 8px;
-  margin-top: auto;
-  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.small-button {
+.small-btn {
   width: 70px;
   height: 42px;
   border-radius: 21px;
@@ -477,83 +443,19 @@ export default {
   background-color: #161d27;
 }
 
-.btn-icon-sm {
+.small-btn-ml {
+  margin-left: 8px;
+}
+
+.small-icon {
   width: 14px;
   height: 14px;
   margin-right: 4px;
 }
 
-.btn-label-sm {
+.small-label {
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
-}
-
-.about-button {
-  border-color: #35485f;
-  background-color: #161d27;
-}
-
-.sponsor-button {
-  border-color: #d4a017;
-  background-color: #1a1408;
-}
-
-/* — 经典 compact — */
-.grid-btn-pill-compact {
-  width: 74px;
-  height: 56px;
-}
-
-.grid-icon-pill-compact {
-  width: 20px;
-  height: 20px;
-}
-
-.grid-label-pill-compact {
-  font-size: 13px;
-}
-
-/* — 页面级 compact — */
-.page-pill-compact {
-  padding-top: 30px;
-}
-
-.title-pill-compact {
-  font-size: 26px;
-}
-
-/* — rect/circle 变体 — */
-.title-rect,
-.title-circle {
-  margin-bottom: 8px;
-}
-
-.page-circle {
-  padding-top: 32px;
-}
-
-.icon-card-rect {
-  width: 92px;
-  height: 92px;
-  margin-bottom: 16px;
-  border-radius: 26px;
-}
-
-.deco-icon-rect {
-  width: 86px;
-  height: 86px;
-}
-
-.icon-card-circle {
-  width: 84px;
-  height: 84px;
-  margin-bottom: 14px;
-  border-radius: 24px;
-}
-
-.deco-icon-circle {
-  width: 78px;
-  height: 78px;
 }
 </style>
