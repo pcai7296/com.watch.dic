@@ -24,6 +24,10 @@
           <image class="m-btn-icon" src="/common/icons/btn_fav_blue.png" />
           <text class="m-btn-text">我的收藏</text>
         </div>
+        <div class="m-btn m-btn-mt" onclick="goSettings">
+          <image class="m-btn-icon" src="/common/icons/btn_settings_blue.png" />
+          <text class="m-btn-text">设置</text>
+        </div>
       </div>
 
       <div class="m-bottom">
