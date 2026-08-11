@@ -62,7 +62,7 @@
 
       <div class="button-group button-group-{{screenProfile}}">
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goInflectSearch">
-          <image class="c-grid-icon" src="/common/icons/btn_settings_blue.png" style="width:24px;height:24px;" />
+          <image class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:24px;height:24px;" />
           <text class="grid-btn-text">变形</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goSettings">
