@@ -5,9 +5,9 @@
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
     <div if="{{layoutMode === 'minimal'}}" class="minimal-wrap">
-      <text class="title title-{{screenProfile}}">腕上词典</text>
+      <text class="title title-{{screenProfile}} m-title">腕上词典</text>
 
-      <div class="icon-card icon-card-{{screenProfile}}">
+      <div class="icon-card icon-card-{{screenProfile}} m-icon-card">
         <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
       </div>
 
@@ -42,14 +42,14 @@
 
     <!-- ===== 布局二：经典 (classic) ===== -->
     <div if="{{layoutMode === 'classic'}}" class="classic-wrap">
-      <div class="icon-card icon-card-{{screenProfile}}">
+      <div class="icon-card icon-card-{{screenProfile}} c-icon-card">
         <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
       </div>
 
-      <text class="title title-{{screenProfile}}">腕上词典</text>
+      <text class="title title-{{screenProfile}} c-title">腕上词典</text>
       <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
 
-      <div class="main-button main-button-{{screenProfile}} secondary-button" onclick="goSearch">
+      <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn" onclick="goSearch">
         <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
         <text class="btn-label">查单词</text>
       </div>
@@ -325,11 +325,11 @@ export default {
   width: 100%;
 }
 
-.minimal-wrap .title {
+.m-title {
   margin-bottom: 4px;
 }
 
-.minimal-wrap .icon-card {
+.m-icon-card {
   margin-bottom: 8px;
 }
 
@@ -477,11 +477,11 @@ export default {
   width: 100%;
 }
 
-.classic-wrap .icon-card {
+.c-icon-card {
   margin-bottom: 8px;
 }
 
-.classic-wrap .title {
+.c-title {
   margin-bottom: 4px;
 }
 
@@ -508,7 +508,7 @@ export default {
   margin-bottom: 12px;
 }
 
-.classic-wrap .main-button {
+.c-main-btn {
   margin-bottom: 14px;
 }
 
