@@ -1,7 +1,7 @@
 <template>
   <div class="page page-{{screenProfile}}">
     <!-- 共用：时间 -->
-    <text class="time-text">17:23</text>
+    <text class="time-text">{{currentTime}}</text>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
     <div if="{{layoutMode === 'minimal'}}" class="minimal-wrap">
@@ -96,7 +96,8 @@ import buildTarget from "../../common/buildTarget"
 export default {
   private: {
     screenProfile: buildTarget.profile,
-    layoutMode: "minimal"
+    layoutMode: "minimal",
+    currentTime: ""
   },
 
   onInit() {
@@ -110,9 +111,17 @@ export default {
         console.log("index device.getInfo failed; using compiled target: " + code)
       }.bind(this)
     })
+    this._updateTime()
     this._loadLayout()
     this._cleanInvalidHistory()
     this._trackLaunch()
+  },
+
+  _updateTime() {
+    var now = new Date()
+    var h = now.getHours()
+    var m = now.getMinutes()
+    this.currentTime = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
   },
 
   _loadLayout() {
