@@ -32,7 +32,7 @@
 
       <div class="m-bottom">
         <div class="m-circle" onclick="goAbout">
-          <text class="m-circle-i">i</text>
+          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:28px;height:28px;" />
         </div>
         <div class="m-circle m-circle-ml" onclick="goSponsor">
           <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:28px;height:28px;" />
