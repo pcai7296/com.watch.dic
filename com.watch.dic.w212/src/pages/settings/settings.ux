@@ -40,6 +40,7 @@
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
@@ -89,6 +90,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 

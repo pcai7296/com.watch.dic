@@ -51,6 +51,7 @@ import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
+import {navGuard} from "../../common/navGuard"
 
 const FUZZY_SCAN_LIMIT = 4000
 const FUZZY_POOL_LIMIT = 80
@@ -255,7 +256,7 @@ export default {
   },
 
   goBack() {
-    if (this.backLongPressTriggered) {
+    if (this.backLongPressTriggered || !navGuard()) {
       return
     }
     router.back()
@@ -285,7 +286,7 @@ export default {
     this.backLongPressTriggered = false
     this.backLongPressTimer = setTimeout(() => {
       this.backLongPressTimer = null
-      if (this.destroyed || !this.resultLongPressHomeEnabled) {
+      if (this.destroyed || !this.resultLongPressHomeEnabled || !navGuard()) {
         return
       }
       this.backLongPressTriggered = true
@@ -301,7 +302,7 @@ export default {
   },
 
   openDetail(item) {
-    if (!item || !item.word) {
+    if (!item || !item.word || !navGuard()) {
       return
     }
 

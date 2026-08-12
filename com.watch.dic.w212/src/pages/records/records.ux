@@ -55,11 +55,13 @@
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   protected: {
     type: "",
-    filterLetter: ""
+    filterLetter: "",
+    loading: ""
   },
 
   private: {
@@ -98,10 +100,15 @@ export default {
     }
     // 纯逻辑数据，不进 viewModel
     this.allRecords = []
+    // 首页点收藏且非空时，进入列表后提示加载中（真机页面切换瞬间 toast 会被吞，改在页内稳定提示）
+    this.pendingLoadingToast = this.loading === "1"
     this.loadRecords()
   },
 
   openFilterPage() {
+    if (!navGuard()) {
+      return
+    }
     router.push({
       uri: "/pages/filter",
       params: {
@@ -142,6 +149,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 
@@ -226,6 +236,14 @@ export default {
         this.totalRecordCount = this.allRecords.length
         this.searchPage = 0
         this._buildPageView()
+        // 首页带 loading=1 进入且列表非空：稳定后提示加载中（只提示一次）
+        if (this.pendingLoadingToast && this.totalRecordCount > 0) {
+          this.pendingLoadingToast = false
+          prompt.showToast({
+            message: "加载中…",
+            duration: 3000
+          })
+        }
       },
       fail: () => {
         if (this.destroyed) return
@@ -330,7 +348,7 @@ export default {
   },
 
   openRecord(item) {
-    if (!item) {
+    if (!item || !navGuard()) {
       return
     }
     if (this.type === "history") {
@@ -436,6 +454,9 @@ export default {
   },
 
   clearHistory() {
+    if (!navGuard()) {
+      return
+    }
     storage.set({
       key: "dic_history",
       value: "[]"

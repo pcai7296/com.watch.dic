@@ -34,6 +34,7 @@
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
+import {navGuard} from "../../common/navGuard"
 
 var TAG_CODE_MAP = {z: 'zk', g: 'gk', '4': 'cet4', '6': 'cet6', k: 'ky', t: 'toefl', i: 'ielts', e: 'gre'}
 var TAG_LABELS = ['zk', 'gk', 'cet4', 'cet6', 'ky', 'ielts', 'toefl', 'gre']
@@ -191,6 +192,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 
@@ -226,7 +230,7 @@ export default {
   },
 
   goInflect() {
-    if (!this.wordText) {
+    if (!this.wordText || !navGuard()) {
       return
     }
 

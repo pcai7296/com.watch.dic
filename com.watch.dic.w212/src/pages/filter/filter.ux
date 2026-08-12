@@ -211,6 +211,7 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   protected: {
@@ -241,6 +242,9 @@ export default {
   },
 
   selectFilter(value) {
+    if (!navGuard()) {
+      return
+    }
     router.replace({
       uri: "/pages/records",
       params: {
@@ -277,6 +281,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     if (this.mode === "input") {
       storage.set({
         key: "dic_large_input",

@@ -95,8 +95,8 @@
 import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
-import prompt from "@system.prompt"
 import buildTarget from "../../common/buildTarget"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
@@ -238,34 +238,35 @@ export default {
   },
 
   goInflectSearch() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/search", params: { searchMode: "inflect", inflectDepth: "0" } })
   },
   goSearch() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/search" })
   },
   goSettings() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/settings" })
   },
   goHistory() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/records", params: { type: "history" } })
   },
   goFavorites() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
-    // 收藏非空时提示加载中（toast 为系统级覆盖层，跳转后仍持续显示）
+    // 收藏非空时提示加载中：判断后带 loading 参数，由收藏列表页内 toast（真机上
+    // 页面切换瞬间发起的 toast 会被吞掉，改为页面稳定后提示）
     storage.get({
       key: "dic_favorites",
       default: "[]",
@@ -280,27 +281,24 @@ export default {
             hasFavorites = false
           }
         }
-        if (hasFavorites) {
-          prompt.showToast({
-            message: "加载中…",
-            duration: 3000
-          })
-        }
-        router.push({ uri: "/pages/records", params: { type: "favorites" } })
+        router.push({
+          uri: "/pages/records",
+          params: { type: "favorites", loading: hasFavorites ? "1" : "0" }
+        })
       },
       fail: () => {
-        router.push({ uri: "/pages/records", params: { type: "favorites" } })
+        router.push({ uri: "/pages/records", params: { type: "favorites", loading: "0" } })
       }
     })
   },
   goAbout() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/about" })
   },
   goSponsor() {
-    if (this._longPress) {
+    if (this._longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/sponsor" })
