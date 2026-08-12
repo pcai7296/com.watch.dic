@@ -14,9 +14,9 @@
     </div>
 
     <div class="edit-row edit-row-{{screenProfile}}">
-      <input class="edit-button side-button" type="button" value="左" @click="moveLeft" />
-      <image class="clear-btn" src="/common/icons/btn_delete.png" style="width:72px;height:72px;" onclick="clearText" />
-      <input class="edit-button side-button" type="button" value="右" @click="moveRight" />
+      <image src="/common/icons/btn_back.png" style="width:60px;height:42px;" onclick="moveLeft" />
+      <image class="clear-btn" src="/common/icons/btn_delete.png" style="width:50px;height:50px;" onclick="clearText" />
+      <image src="/common/icons/btn_back_mirror.png" style="width:60px;height:42px;" onclick="moveRight" />
     </div>
 
     <div if="{{ keyboardHidden }}" class="hint-area">
@@ -849,10 +849,7 @@ export default {
   text-align: center;
 }
 
-.side-button {
-  width: 48px;
-  background-color: #0b65ea;
-}
+
 
 
 
