@@ -212,7 +212,7 @@ export default {
   },
 
   onBtnUp(key) {
-    if (Date.now() - this._pressStart >= 600) {
+    if (Date.now() - this._pressStart >= 300) {
       this._longPress = true
     }
     this.pressedKey = ""
@@ -222,7 +222,7 @@ export default {
       if (self.releasingKey === key) {
         self.releasingKey = ""
       }
-    }, 600)
+    }, 300)
   },
 
   goInflectSearch() {
@@ -737,14 +737,14 @@ export default {
 
 .press-in {
   animation-name: dicPressIn;
-  animation-duration: 600ms;
+  animation-duration: 300ms;
   animation-timing-function: ease-in;
   transform-origin: 50% 50%;
 }
 
 .press-out {
   animation-name: dicPressOut;
-  animation-duration: 600ms;
+  animation-duration: 300ms;
   animation-timing-function: ease-out;
   transform-origin: 50% 50%;
 }
