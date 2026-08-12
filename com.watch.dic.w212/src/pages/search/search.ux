@@ -96,10 +96,6 @@ export default {
     touchStartY: -1,
     destroyed: false,
     autoSearchPending: false,
-    englishSuggestionCache: null,
-    englishSuggestionParsed: null,
-    englishSuggestionPending: null,
-    englishSuggestionOrder: null,
     englishSuggestionToken: 0,
     englishSuggestionEnabled: true,
     searchSwipeExitLocked: true,
@@ -274,8 +270,8 @@ export default {
     this.refreshDisplay()
   },
 
-  onKeyDown(evt) {
-    console.log("key down: " + JSON.stringify(evt))
+  onKeyDown() {
+    // keyDown 事件仅透传占位，输入逻辑见 onComplete/onDelete；热路径不再打印日志
   },
 
   onDelete() {
