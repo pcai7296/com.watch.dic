@@ -2,10 +2,8 @@
 
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" onclick="onSearchButtonClick">
-      <image class="check-icon" if="{{ query }}" src="/common/icons/btn_check.png" style="width:48px;height:34px;" />
-      <image class="back-icon" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:48px;height:34px;" />
-    </div>
+    <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
+    <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
 
     <div class="input-box input-box-{{screenProfile}}" @click="onInputBoxClick">
       <!-- 常驻 marquee，短时静态、超长时从右向左平滑滚动 -->
@@ -800,28 +798,14 @@ export default {
   align-items: center;
 }
 
-.search-button {
-  width: 100px;
-  height: 45px;
-  border-radius: 22px;
-  background-color: #1a1a1a;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .search-icon {
   width: 40px;
   height: 40px;
 }
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
 
 .input-box {
   width: 168px;

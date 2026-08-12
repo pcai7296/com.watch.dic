@@ -1,6 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:48px;height:34px;" /></div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <list class="about-list" style="width: {{layoutWidth}}px;">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
@@ -293,23 +293,9 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 100px;
-  height: 45px;
-  border-radius: 22px;
-  background-color: #1a1a1a;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-mark {
-  width: 64px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .about-list {
   width: 196px;

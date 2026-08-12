@@ -1,6 +1,6 @@
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:48px;height:34px;" /></div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <div class="content">
       <text class="setting-title">首页布局</text>
@@ -186,23 +186,9 @@ export default {
   align-items: center;
 }
 
-.search-button {
-  width: 100px;
-  height: 45px;
-  border-radius: 22px;
-  background-color: #1a1a1a;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .content {
   width: 100%;

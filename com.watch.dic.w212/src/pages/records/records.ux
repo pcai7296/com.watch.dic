@@ -1,6 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:48px;height:34px;" /></div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;">
       <list-item
@@ -591,23 +591,9 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 100px;
-  height: 45px;
-  border-radius: 22px;
-  background-color: #1a1a1a;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .record-list {
   margin-bottom: 4px;
