@@ -100,9 +100,9 @@ export default {
     }
     // 纯逻辑数据，不进 viewModel
     this.allRecords = []
-    // 首页点收藏且非空时，进入列表后提示加载中（真机页面切换瞬间 toast 会被吞，改在页内稳定提示）
+    // 首页点收藏且非空时（loading=1），进入页面后先提示加载中再加载列表；
+    // 不在 onInit 调 loadRecords，避免其异步回调早于 onShow 的 toast 完成（列表会先渲染）
     this.pendingLoadingToast = this.loading === "1"
-    this.loadRecords()
   },
 
   openFilterPage() {
@@ -135,6 +135,15 @@ export default {
   },
 
   onShow() {
+    // 先提示加载中，再加载列表：toast 在页面显示后同步触发，storage.get 异步
+    // 回调必然在其后，保证 toast 先于列表出现（真机页面切换瞬间的 toast 会被吞）
+    if (this.pendingLoadingToast) {
+      this.pendingLoadingToast = false
+      prompt.showToast({
+        message: "加载中…",
+        duration: 3000
+      })
+    }
     this.loadRecords()
     // 1.5s 让人先看清单词，再齐步启动所有跑马灯
     if (this.marqueeTimer) {
@@ -236,14 +245,6 @@ export default {
         this.totalRecordCount = this.allRecords.length
         this.searchPage = 0
         this._buildPageView()
-        // 首页带 loading=1 进入且列表非空：稳定后提示加载中（只提示一次）
-        if (this.pendingLoadingToast && this.totalRecordCount > 0) {
-          this.pendingLoadingToast = false
-          prompt.showToast({
-            message: "加载中…",
-            duration: 3000
-          })
-        }
       },
       fail: () => {
         if (this.destroyed) return
