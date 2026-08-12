@@ -15,7 +15,7 @@
 
     <div class="edit-row edit-row-{{screenProfile}}">
       <image src="/common/icons/btn_back.png" style="width:60px;height:42px;" onclick="moveLeft" />
-      <image class="clear-btn" src="/common/icons/btn_delete.png" style="width:40px;height:40px;" onclick="clearText" />
+      <image class="clear-btn" src="/common/icons/btn_delete_small.png" style="width:40px;height:40px;" onclick="clearText" />
       <image src="/common/icons/btn_back_mirror.png" style="width:60px;height:42px;" onclick="moveRight" />
     </div>
 
