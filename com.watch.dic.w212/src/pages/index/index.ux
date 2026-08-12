@@ -218,11 +218,22 @@ export default {
     this.pressedKey = ""
     this.releasingKey = key
     var self = this
-    setTimeout(function() {
+    if (this._btnUpTimer) {
+      clearTimeout(this._btnUpTimer)
+    }
+    this._btnUpTimer = setTimeout(function() {
+      self._btnUpTimer = null
       if (self.releasingKey === key) {
         self.releasingKey = ""
       }
     }, 200)
+  },
+
+  onDestroy() {
+    if (this._btnUpTimer) {
+      clearTimeout(this._btnUpTimer)
+      this._btnUpTimer = null
+    }
   },
 
   goInflectSearch() {

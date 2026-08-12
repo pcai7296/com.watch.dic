@@ -120,6 +120,10 @@ export default {
       this.pageScrollTimer = null
     }
     this.allRecords = null
+    // 页面销毁后主动 GC（官方内存文档：及时 runGC 避免泄漏）
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   onShow() {
