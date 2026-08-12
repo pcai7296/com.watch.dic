@@ -84,6 +84,12 @@ class LRUCache {
       delete this.cache[oldest]
     }
   }
+  delete(key) {
+    if (this.cache[key] === undefined) return
+    delete this.cache[key]
+    var idx = this.order.indexOf(key)
+    if (idx >= 0) this.order.splice(idx, 1)
+  }
 }
 
 var TAG_CODE_MAP = {z: 'zk', g: 'gk', '4': 'cet4', '6': 'cet6', k: 'ky', t: 'toefl', i: 'ielts', e: 'gre'}
@@ -669,6 +675,8 @@ export default {
         }
       }
       this.cnIndexCache.set(bucket, indexMap)
+      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
+      this.fileCache.delete("/common/dict/cn_index/cn_" + bucket + ".txt")
       done(indexMap)
     })
   },
@@ -796,6 +804,8 @@ export default {
         }
       }
       this.entryCache.set(shard, entries)
+      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
+      this.fileCache.delete("/common/dict/entries/entry_" + shard + ".txt")
       done(entries)
     })
   },
