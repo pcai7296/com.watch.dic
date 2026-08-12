@@ -55,35 +55,35 @@
       <text class="title title-{{screenProfile}} c-title">腕上词典</text>
       <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
 
-      <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
+      <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn" onclick="goSearch">
         <image class="c-btn-icon" src="/common/icons/language.png" style="width:36px;height:36px;" />
         <text class="btn-label">查单词</text>
       </div>
 
       <div class="button-group button-group-{{screenProfile}}">
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'inflect' ? 'press-in' : '' }} {{ releasingKey === 'inflect' ? 'press-out' : '' }}" onclick="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goInflectSearch">
           <image class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">变形</text>
         </div>
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goSettings">
           <image class="c-grid-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">设置</text>
         </div>
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goHistory">
           <image class="c-grid-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">历史</text>
         </div>
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
+        <div class="grid-button grid-button-{{screenProfile}}" onclick="goFavorites">
           <image class="c-grid-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">收藏</text>
         </div>
       </div>
 
       <div class="bottom-row bottom-row-{{screenProfile}}">
-        <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
+        <div class="m-circle" onclick="goAbout">
           <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:36px;height:36px;" />
         </div>
-        <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
+        <div class="m-circle m-circle-ml" onclick="goSponsor">
           <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:36px;height:36px;" />
         </div>
       </div>
