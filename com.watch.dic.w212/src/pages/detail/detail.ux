@@ -1,6 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:36px;height:25px;" /></div>
+    <div class="back-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:48px;height:34px;" /></div>
 
     <div class="word-area" style="margin-left: {{wordAreaMarginLeft}}px;">
       <marquee if="{{ wordMarqueeOn }}" class="word-marquee" style="width: {{contentWidth}}px;"
@@ -543,8 +543,10 @@ export default {
 }
 
 .back-button {
-  width: 50px;
-  height: 40px;
+  width: 100px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #1a1a1a;
   justify-content: center;
   align-items: center;
 }

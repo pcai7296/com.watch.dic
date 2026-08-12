@@ -3,8 +3,8 @@
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <div class="search-button" onclick="onSearchButtonClick">
-      <image class="check-icon" if="{{ query }}" src="/common/icons/btn_check.png" style="width:36px;height:25px;" />
-      <image class="back-icon" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:36px;height:25px;" />
+      <image class="check-icon" if="{{ query }}" src="/common/icons/btn_check.png" style="width:48px;height:34px;" />
+      <image class="back-icon" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:48px;height:34px;" />
     </div>
 
     <div class="input-box input-box-{{screenProfile}}" @click="onInputBoxClick">
@@ -801,8 +801,10 @@ export default {
 }
 
 .search-button {
-  width: 50px;
-  height: 40px;
+  width: 100px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #1a1a1a;
   justify-content: center;
   align-items: center;
 }
