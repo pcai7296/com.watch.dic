@@ -1,8 +1,6 @@
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" onclick="goBack">
-      <text class="back-text">返回</text>
-    </div>
+    <div class="search-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:36px;height:25px;" /></div>
 
     <div class="content">
       <text class="setting-title">首页布局</text>

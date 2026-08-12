@@ -1,8 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-mark">返回</text>
-    </div>
+    <div class="search-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:36px;height:25px;" /></div>
 
     <list class="about-list" style="width: {{layoutWidth}}px;">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">

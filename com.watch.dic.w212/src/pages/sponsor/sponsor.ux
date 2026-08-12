@@ -1,0 +1,105 @@
+<template>
+  <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+    <div class="back-button" onclick="goBack"><image class="back-icon" src="/common/icons/btn_back.png" style="width:36px;height:25px;" /></div>
+
+    <img class="sponsor-code" src="/common/sponsor-code.png" />
+    <text class="sponsor-caption">求喂饭</text>
+  </div>
+</template>
+
+<script>
+import router from "@system.router"
+
+export default {
+  private: {
+    touchStartX: -1,
+    touchStartY: -1
+  },
+
+  goBack() {
+    router.back()
+  },
+
+  onTouchStart(evt) {
+    const point = this.getTouchPoint(evt)
+    if (point) {
+      this.touchStartX = point.clientX
+      this.touchStartY = point.clientY
+    }
+  },
+
+  onTouchEnd(evt) {
+    const point = this.getTouchPoint(evt)
+    if (!point || this.touchStartX < 0) {
+      return
+    }
+
+    const endX = point.clientX
+    const endY = point.clientY
+    const sw = this.$app.$def.data.screenWidth || 212
+    const startsInLeftQuarter = this.touchStartX <= sw * 0.25
+    const endsAtRightQuarter = endX >= sw * 0.75
+    const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120
+
+    if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
+      router.back()
+    }
+
+    this.touchStartX = -1
+    this.touchStartY = -1
+  },
+
+  getTouchPoint(evt) {
+    if (evt && evt.changedTouches && evt.changedTouches.length > 0) {
+      return evt.changedTouches[0]
+    }
+    if (evt && evt.touches && evt.touches.length > 0) {
+      return evt.touches[0]
+    }
+    return null
+  }
+}
+</script>
+
+<style>
+.page {
+  width: 100%;
+  height: 100%;
+  padding-top: 24px;
+  background-color: #020813;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-button {
+  width: 78px;
+  height: 54px;
+  border-radius: 22px;
+  background-color: #0b65ea;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-text {
+  width: 70px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.sponsor-code {
+  width: 188px;
+  height: 188px;
+  margin-top: 68px;
+}
+
+.sponsor-caption {
+  margin-top: 16px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+</style>
