@@ -15,7 +15,7 @@
 
     <div class="edit-row edit-row-{{screenProfile}}">
       <input class="edit-button side-button" type="button" value="左" @click="moveLeft" />
-      <input class="edit-button clear-button" type="button" value="清空" @click="clearText" />
+      <image class="clear-btn" src="/common/icons/btn_delete.png" style="width:72px;height:72px;" onclick="clearText" />
       <input class="edit-button side-button" type="button" value="右" @click="moveRight" />
     </div>
 
@@ -854,10 +854,7 @@ export default {
   background-color: #0b65ea;
 }
 
-.clear-button {
-  width: 62px;
-  background-color: #d82626;
-}
+
 
 .input-box-rect {
   width: 72%;
