@@ -24,8 +24,8 @@
     </div>
 
     <div class="bottom-row" style="{{ bottomStyle }}">
-      <image src="/common/icons/btn_sync.png" style="width:102px;height:72px;" onclick="goInflect" />
-      <image src="/common/icons/{{ isFavorited ? 'btn_fav_shell_active.png' : 'btn_fav_shell.png' }}" style="width:102px;height:72px;" onclick="toggleFavorite" />
+      <image src="/common/icons/btn_sync.png" style="width:86px;height:60px;" onclick="goInflect" />
+      <image src="/common/icons/{{ isFavorited ? 'btn_fav_shell_active.png' : 'btn_fav_shell.png' }}" style="width:86px;height:60px;" onclick="toggleFavorite" />
     </div>
   </div>
 </template>
@@ -617,7 +617,7 @@ export default {
 }
 
 .bottom-row {
-  height: 72px;
+  height: 60px;
   margin-bottom: 30px;
   margin-left: 20px;
   margin-right: 20px;
