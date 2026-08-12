@@ -74,7 +74,6 @@ export default {
     marqueeArmed: false,
     activeFilter: "全部",
     listHeight: 388,
-    allRecords: [],
     searchPage: 0,
     totalRecordCount: 0,
     marqueeTimer: null,
@@ -96,6 +95,8 @@ export default {
     if (this.type === "favorites" && this.filterLetter) {
       this.activeFilter = this.filterLetter
     }
+    // 纯逻辑数据，不进 viewModel
+    this.allRecords = []
     this.loadRecords()
   },
 
@@ -118,6 +119,7 @@ export default {
       clearTimeout(this.pageScrollTimer)
       this.pageScrollTimer = null
     }
+    this.allRecords = null
   },
 
   onShow() {
