@@ -56,35 +56,35 @@
       <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
 
       <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn" onclick="goSearch">
-        <image class="c-btn-icon" src="/common/icons/btn_search_blue.png" style="width:32px;height:32px;" />
+        <image class="c-btn-icon" src="/common/icons/btn_search_blue.png" style="width:36px;height:36px;" />
         <text class="btn-label">查单词</text>
       </div>
 
       <div class="button-group button-group-{{screenProfile}}">
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goInflectSearch">
-          <image class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:28px;height:28px;" />
+          <image class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">变形</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goSettings">
-          <image class="c-grid-icon" src="/common/icons/btn_settings_blue.png" style="width:28px;height:28px;" />
+          <image class="c-grid-icon" src="/common/icons/btn_settings_blue.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">设置</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goHistory">
-          <image class="c-grid-icon" src="/common/icons/btn_history_blue.png" style="width:28px;height:28px;" />
+          <image class="c-grid-icon" src="/common/icons/btn_history_blue.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">历史</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}}" onclick="goFavorites">
-          <image class="c-grid-icon" src="/common/icons/btn_fav_blue.png" style="width:28px;height:28px;" />
+          <image class="c-grid-icon" src="/common/icons/btn_fav_blue.png" style="width:32px;height:32px;" />
           <text class="grid-btn-text">收藏</text>
         </div>
       </div>
 
       <div class="bottom-row bottom-row-{{screenProfile}}">
         <div class="m-circle" onclick="goAbout">
-          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:32px;height:32px;" />
+          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:36px;height:36px;" />
         </div>
         <div class="m-circle m-circle-ml" onclick="goSponsor">
-          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:32px;height:32px;" />
+          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:36px;height:36px;" />
         </div>
       </div>
     </div>
