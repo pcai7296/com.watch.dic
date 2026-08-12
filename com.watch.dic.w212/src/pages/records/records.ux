@@ -54,6 +54,7 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import prompt from "@system.prompt"
 
 export default {
   protected: {
@@ -287,6 +288,10 @@ export default {
   },
 
   _goToNextPage() {
+    prompt.showToast({
+      message: "加载中…",
+      duration: 1000
+    })
     this.searchPage++
     this._buildPageView()
     var self = this
@@ -304,6 +309,10 @@ export default {
   },
 
   _goToPrevPage() {
+    prompt.showToast({
+      message: "加载中…",
+      duration: 1000
+    })
     this.searchPage--
     this._buildPageView()
     var self = this

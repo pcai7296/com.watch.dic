@@ -1594,6 +1594,10 @@ export default {
   },
 
   _goToNextPage() {
+    prompt.showToast({
+      message: "加载中…",
+      duration: 3000
+    })
     this.searchPage++
     var self = this
     this._loadAndRenderPage(function() {
@@ -1607,6 +1611,10 @@ export default {
   },
 
   _goToPrevPage() {
+    prompt.showToast({
+      message: "加载中…",
+      duration: 3000
+    })
     this.searchPage--
     var self = this
     this._loadAndRenderPage(function() {
