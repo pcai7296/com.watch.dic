@@ -316,8 +316,10 @@ export default {
         output.pop()
       }
       this.favoriteLabel = "已收藏"
+      this.isFavorited = true
     } else {
       this.favoriteLabel = "收藏"
+      this.isFavorited = false
     }
 
     storage.set({
