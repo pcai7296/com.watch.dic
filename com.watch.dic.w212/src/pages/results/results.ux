@@ -117,10 +117,6 @@ export default {
     statusText: "",
     resultCards: [],
     searchToken: 0,
-    shardIndex: null,
-    fileCache: null,
-    entryCache: null,
-    cnIndexCache: null,
     fuzzyWordsChecked: 0,
     lastToastAt: 0,
     toastCooldown: 1500,
@@ -134,14 +130,10 @@ export default {
     queryMarqueeSpeed: 40,
     wordMarqueeThreshold: 0,
     marqueeArmed: false,
-    pendingCards: [],
     flushTimer: null,
-    historyCache: null,
     searchPage: 0,
-    collectedIds: [],
     totalResultCount: 0,
     mightHaveMore: false,
-    wrapCache: null,
     resultLongPressHomeEnabled: true,
     backLongPressTimer: null,
     backLongPressTriggered: false
@@ -186,10 +178,15 @@ export default {
   },
 
   onInit() {
+    // 词典分片缓存：纯逻辑数据，不进 viewModel（避免 observer/代理开销）
     this.fileCache = new LRUCache(6)
-    this.entryCache = new LRUCache(6)
-    this.cnIndexCache = new LRUCache(3)
+    this.entryCache = new LRUCache(4)
+    this.cnIndexCache = new LRUCache(2)
     this.wrapCache = {}
+    this.pendingCards = []
+    this.collectedIds = []
+    this.historyCache = null
+    this.shardIndex = null
     this.loadResultLongPressHomeSetting()
     // Force-reset result state — Vela may reuse page instance without re-init
     this.resultCards = []
@@ -1893,6 +1890,10 @@ export default {
     this.entryCache = null
     this.cnIndexCache = null
     this.wrapCache = null
+    this.pendingCards = null
+    this.collectedIds = null
+    this.historyCache = null
+    this.shardIndex = null
   },
 
   hasChinese(value) {
