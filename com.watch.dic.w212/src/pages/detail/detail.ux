@@ -25,7 +25,7 @@
 
     <div class="bottom-row" style="{{ bottomStyle }}">
       <image src="/common/icons/btn_sync.png" style="width:86px;height:60px;" onclick="goInflect" />
-      <image src="/common/icons/{{ isFavorited ? 'btn_fav_shell_active.png' : 'btn_fav_shell.png' }}" style="width:86px;height:60px;" onclick="toggleFavorite" />
+      <image src="/common/icons/{{ isFavorited ? 'btn_fav_shell_active.png' : 'btn_fav_shell.png' }}" style="width:60px;height:60px;" onclick="toggleFavorite" />
     </div>
   </div>
 </template>
