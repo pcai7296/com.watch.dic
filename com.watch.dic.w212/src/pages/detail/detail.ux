@@ -24,8 +24,8 @@
     </div>
 
     <div class="bottom-row" style="{{ bottomStyle }}">
-      <input class="bottom-button inflect-button" style="{{ inflectBtnStyle }}" type="button" value="查变形" @click="goInflect" />
-      <image class="fav-btn" src="/common/icons/{{ isFavorited ? 'btn_fav_detail_active.png' : 'btn_fav_detail.png' }}" style="width:36px;height:36px;" onclick="toggleFavorite" />
+      <image src="/common/icons/btn_sync.png" style="width:102px;height:72px;" onclick="goInflect" />
+      <image src="/common/icons/{{ isFavorited ? 'btn_fav_shell_active.png' : 'btn_fav_shell.png' }}" style="width:102px;height:72px;" onclick="toggleFavorite" />
     </div>
   </div>
 </template>
@@ -617,10 +617,13 @@ export default {
 }
 
 .bottom-row {
-  height: 48px;
-  margin-bottom: 10px;
+  height: 72px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .bottom-button {
