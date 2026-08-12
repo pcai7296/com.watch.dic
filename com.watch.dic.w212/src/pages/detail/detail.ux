@@ -25,7 +25,7 @@
 
     <div class="bottom-row" style="{{ bottomStyle }}">
       <input class="bottom-button inflect-button" style="{{ inflectBtnStyle }}" type="button" value="查变形" @click="goInflect" />
-      <input class="bottom-button favorite-button" style="{{ favoriteBtnStyle }}" type="button" value="{{ favoriteLabel }}" @click="toggleFavorite" />
+      <image class="fav-btn" src="/common/icons/{{ isFavorited ? 'btn_fav_detail_active.png' : 'btn_fav_detail.png' }}" style="width:36px;height:36px;" onclick="toggleFavorite" />
     </div>
   </div>
 </template>
@@ -76,6 +76,7 @@ export default {
     cardWidth: 188,
     contentWidth: 164,
     favoriteLabel: "收藏",
+    isFavorited: false,
     fileCache: {},
     lastToastAt: 0,
     toastCooldown: 1500,
@@ -336,6 +337,7 @@ export default {
         for (let i = 0; i < list.length; i++) {
           if (list[i] && this.normalizeWord(list[i].word) === word) {
             this.favoriteLabel = "已收藏"
+            this.isFavorited = true
             return
           }
         }
@@ -343,6 +345,7 @@ export default {
       fail: () => {
         if (this.destroyed) return
         this.favoriteLabel = "收藏"
+        this.isFavorited = false
       }
     })
   },
