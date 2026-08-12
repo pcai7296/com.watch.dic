@@ -95,6 +95,7 @@
 import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
+import prompt from "@system.prompt"
 import buildTarget from "../../common/buildTarget"
 
 export default {
@@ -264,7 +265,33 @@ export default {
     if (this._longPress) {
       return
     }
-    router.push({ uri: "/pages/records", params: { type: "favorites" } })
+    // 收藏非空时提示加载中（toast 为系统级覆盖层，跳转后仍持续显示）
+    storage.get({
+      key: "dic_favorites",
+      default: "[]",
+      success: (data) => {
+        const text = data && (data.value || data)
+        let hasFavorites = false
+        if (text) {
+          try {
+            const list = JSON.parse(text)
+            hasFavorites = !!(list && list.length)
+          } catch (e) {
+            hasFavorites = false
+          }
+        }
+        if (hasFavorites) {
+          prompt.showToast({
+            message: "加载中…",
+            duration: 3000
+          })
+        }
+        router.push({ uri: "/pages/records", params: { type: "favorites" } })
+      },
+      fail: () => {
+        router.push({ uri: "/pages/records", params: { type: "favorites" } })
+      }
+    })
   },
   goAbout() {
     if (this._longPress) {
