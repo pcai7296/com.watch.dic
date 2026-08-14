@@ -1,0 +1,376 @@
+<template>
+  <div class="page">
+    <text class="time-text">{{ tc0 }}{{ tc1 }}{{ tc2 }}{{ tc3 }}{{ tc4 }}</text>
+
+    <div class="icon-card">
+      <img class="logo-icon" src="/common/logo.png" />
+    </div>
+
+    <text class="title">腕上词典</text>
+    <text class="subtitle">抬手即查</text>
+
+    <div class="main-btn" @click="goSearch">
+      <img class="main-btn-icon" src="/common/icons/language.png" />
+      <text class="main-btn-label">查单词</text>
+    </div>
+
+    <div class="grid">
+      <div class="grid-btn" @click="goInflectSearch">
+        <img class="grid-btn-icon" src="/common/icons/btn_transform_blue.png" />
+        <text class="grid-btn-label">变形</text>
+      </div>
+      <div class="grid-btn" @click="goSettings">
+        <img class="grid-btn-icon" src="/common/icons/settings-2.png" />
+        <text class="grid-btn-label">设置</text>
+      </div>
+      <div class="grid-btn" @click="goHistory">
+        <img class="grid-btn-icon" src="/common/icons/history.png" />
+        <text class="grid-btn-label">历史</text>
+      </div>
+      <div class="grid-btn" @click="goFavorites">
+        <img class="grid-btn-icon" src="/common/icons/star-gradient.png" />
+        <text class="grid-btn-label">收藏</text>
+      </div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="circle-btn about-btn" @click="goAbout">
+        <img class="circle-icon" src="/common/icons/btn_info_i.png" />
+      </div>
+      <div class="circle-btn sponsor-btn" @click="goSponsor">
+        <img class="circle-icon" src="/common/icons/btn_heart_gold.png" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import device from "@system.device"
+import storage from "@system.storage"
+import router from "@system.router"
+import buildTarget from "../../common/buildTarget"
+import {navGuard} from "../../common/navGuard"
+
+export default {
+  private: {
+    screenProfile: buildTarget.profile,
+    tc0: "",
+    tc1: "",
+    tc2: "",
+    tc3: "",
+    tc4: "",
+    timeTimer: null
+  },
+
+  onInit() {
+    const app = this.$app.$def
+    this.screenProfile = buildTarget.profile
+    device.getInfo({
+      success: (data) => {
+        app.updateScreenInfo(data)
+        this.screenProfile = app.data.screenProfile
+      },
+      fail: (data, code) => {
+        console.log("index device.getInfo failed; using compiled target: " + code)
+      }
+    })
+    this._cleanInvalidHistory()
+    this._trackLaunch()
+    this._updateTime()
+    this.timeTimer = setInterval(() => {
+      this._updateTime()
+    }, 1000)
+  },
+
+  onDestroy() {
+    if (this.timeTimer) {
+      clearInterval(this.timeTimer)
+      this.timeTimer = null
+    }
+  },
+
+  _updateTime() {
+    var now = new Date()
+    var h = now.getHours()
+    var m = now.getMinutes()
+    var t = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
+    this.tc0 = t[0]
+    this.tc1 = t[1]
+    this.tc2 = t[2]
+    this.tc3 = t[3]
+    this.tc4 = t[4]
+  },
+
+  _trackLaunch() {
+    storage.get({
+      key: "dic_launch_count",
+      default: "0",
+      success: (data) => {
+        var raw = data && (data.value || data)
+        var count = parseInt(raw, 10)
+        if (!isFinite(count) || count < 0) {
+          count = 0
+        }
+        var nextCount = count + 1
+        storage.set({
+          key: "dic_launch_count",
+          value: String(nextCount),
+          fail: (setData, code) => {
+            console.log("index launch count save failed: " + code)
+          }
+        })
+        if (nextCount === 1 || nextCount % 10 === 0) {
+          this.goSponsor()
+        }
+      },
+      fail: (getData, code) => {
+        console.log("index launch count read failed: " + code)
+        this.goSponsor()
+      }
+    })
+  },
+
+  _cleanInvalidHistory() {
+    storage.get({
+      key: "dic_history",
+      success: function(data) {
+        var text = data && (data.value || data)
+        if (!text) return
+        var list
+        try { list = JSON.parse(text) } catch (e) { return }
+        if (!list || !list.length) return
+
+        var clean = []
+        for (var i = 0; i < list.length; i++) {
+          var item = list[i]
+          if (item && item.query && item.query.toString().trim() && item.ids && item.ids.length > 0) {
+            clean.push(item)
+          }
+        }
+
+        if (clean.length < list.length) {
+          storage.set({
+            key: "dic_history",
+            value: JSON.stringify(clean)
+          })
+        }
+      },
+      fail: function() {}
+    })
+  },
+
+  goInflectSearch() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/search",
+      params: {
+        searchMode: "inflect",
+        inflectDepth: "0"
+      }
+    })
+  },
+
+  goSearch() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/search"
+    })
+  },
+
+  goSettings() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/settings"
+    })
+  },
+
+  goHistory() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/records",
+      params: {
+        type: "history"
+      }
+    })
+  },
+
+  goFavorites() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/records",
+      params: {
+        type: "favorites"
+      }
+    })
+  },
+
+  goAbout() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/about"
+    })
+  },
+
+  goSponsor() {
+    if (!navGuard()) return
+    router.push({
+      uri: "/pages/sponsor"
+    })
+  }
+}
+</script>
+
+<style>
+.page {
+  width: 336px;
+  height: 480px;
+  background-color: #020813;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-text {
+  width: 90px;
+  height: 28px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: monospace;
+  color: #ffffff;
+  text-align: center;
+}
+
+.icon-card {
+  width: 84px;
+  height: 84px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-icon {
+  width: 72px;
+  height: 72px;
+}
+
+.title {
+  width: 160px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.subtitle {
+  width: 120px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6888b8;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-btn {
+  width: 304px;
+  height: 70px;
+  border-radius: 16px;
+  border-width: 1.5px;
+  border-color: #4a6a8a;
+  background-color: #3a6898;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.main-btn-icon {
+  width: 49px;
+  height: 49px;
+  margin-right: 14px;
+}
+
+.main-btn-label {
+  font-size: 29px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.grid {
+  width: 304px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grid-btn {
+  width: 140px;
+  height: 66px;
+  border-radius: 14px;
+  border-width: 1.5px;
+  border-color: rgba(104, 136, 184, 0.25);
+  background-color: #081520;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.grid-btn-icon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 2px;
+}
+
+.grid-btn-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #c0d0e8;
+}
+
+.bottom-row {
+  width: 100px;
+  height: 48px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-btn {
+  background-color: #14181e;
+  border-width: 1px;
+  border-color: #1a2a40;
+}
+
+.sponsor-btn {
+  background-color: #14181e;
+  border-width: 1px;
+  border-color: #1a2a40;
+}
+
+.circle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.page-pill-standard {
+  width: 212px;
+}
+
+.page-circle {
+  width: 466px;
+}
+</style>

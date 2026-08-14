@@ -1,0 +1,424 @@
+<template>
+  <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/Back_B.png" onclick="goBack" />
+    </div>
+
+    <list class="about-list" style="width: {{layoutWidth}}px;">
+      <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
+        <div class="app-card">
+          <text class="app-name">腕上词典</text>
+          <text class="app-version">2.3.1</text>
+          <img class="deco-icon-about" src="/common/deco-icon-about.png" />
+        </div>
+      </list-item>
+
+      <list-item type="devs" class="list-item" style="width: {{layoutWidth}}px; height: 170px;">
+        <div class="section-inner" style="{{adaptiveSectionStyle}}">
+          <text class="section-title" style="{{sectionTitleStyle}}">Developers</text>
+          <text class="dev-role" style="{{devLineStyle}}">开发</text>
+          <text class="dev-name" style="{{devLineStyle}}">@睡不着的鸿鹄</text>
+          <text class="dev-role" style="{{devLineStyle}}">UI设计参考</text>
+          <text class="dev-name" style="{{devLineStyle}}">@无源流沙</text>
+        </div>
+      </list-item>
+
+      <list-item type="license" class="list-item" style="width: {{layoutWidth}}px; height: {{licenseHeight}}px;">
+        <div class="section-inner" style="{{adaptiveSectionStyle}}">
+          <text class="section-title" style="{{sectionTitleStyle}}">词库来源</text>
+          <text class="license-line" style="{{descLineStyle}}" for="{{ line in licenseLines }}">{{ line }}</text>
+        </div>
+      </list-item>
+
+      <list-item type="usage" class="list-item" style="width: {{layoutWidth}}px; height: {{usageHeight}}px;">
+        <div class="section-inner" style="{{adaptiveSectionStyle}}">
+          <text class="section-title" style="{{sectionTitleStyle}}">使用说明</text>
+          <text class="desc-line" style="{{descLineStyle}}" for="{{ line in usageLines }}">{{ line }}</text>
+        </div>
+      </list-item>
+
+      <list-item type="limits" class="list-item" style="width: {{layoutWidth}}px; height: {{limitsHeight}}px;">
+        <div class="section-inner" style="{{adaptiveSectionStyle}}">
+          <text class="section-title" style="{{sectionTitleStyle}}">使用限制</text>
+          <text class="desc-line" style="{{descLineStyle}}" for="{{ line in limitLines }}">{{ line }}</text>
+        </div>
+      </list-item>
+
+      <list-item type="tags" class="list-item" style="width: {{layoutWidth}}px; height: {{tagsHeight}}px;">
+        <div class="section-inner" style="{{adaptiveSectionStyle}}">
+          <text class="section-title" style="{{sectionTitleStyle}}">标签缩写</text>
+          <text class="desc-line" style="{{descLineStyle}}" for="{{ line in tagLines }}">{{ line }}</text>
+        </div>
+      </list-item>
+
+      <list-item type="pos" class="list-item" style="width: {{layoutWidth}}px; height: {{posHeight}}px;">
+        <div class="section-inner" style="{{adaptiveSectionStyle}}">
+          <text class="section-title" style="{{sectionTitleStyle}}">词性对照</text>
+          <text class="desc-line" style="{{descLineStyle}}" for="{{ line in posLines }}">{{ line }}</text>
+        </div>
+      </list-item>
+    </list>
+  </div>
+</template>
+
+<script>
+import router from "@system.router"
+import {navGuard} from "../../common/navGuard"
+
+export default {
+  private: {
+    touchStartX: -1,
+    touchStartY: -1,
+    layoutWidth: 196,
+    textWidth: 180,
+    usageHeight: 420,
+    licenseHeight: 110,
+    limitsHeight: 340,
+    tagsHeight: 320,
+    posHeight: 380,
+    usageLines: [],
+    licenseLines: [],
+    limitLines: [],
+    tagLines: [],
+    posLines: [],
+    adaptiveSectionStyle: "width: 196px; align-items: center;",
+    sectionTitleStyle: "width: 180px; text-align: left;",
+    devLineStyle: "width: 180px; text-align: center;",
+    descLineStyle: "width: 180px; text-align: left;"
+  },
+
+  onInit() {
+    this.applyScreenLayout()
+  },
+
+  onShow() {
+    this.applyScreenLayout()
+  },
+
+  applyScreenLayout() {
+    const appData = this.$app.$def.data || {}
+    const sw = appData.screenWidth || 212
+    const profile = appData.screenProfile || "pill-standard"
+    const isPill = profile === "pill-standard" || profile === "pill-compact"
+    const safeWidth = sw === 466 ? Math.round(sw / Math.SQRT2) : sw - 20
+
+    if (isPill) {
+      this.layoutWidth = 196
+      this.textWidth = 180
+      this.adaptiveSectionStyle = "width: 196px; align-items: center;"
+      this.sectionTitleStyle = "width: 180px; text-align: left;"
+      this.devLineStyle = "width: 180px; text-align: center;"
+      this.descLineStyle = "width: 180px; text-align: left;"
+    } else {
+      this.layoutWidth = safeWidth
+      this.textWidth = Math.max(180, safeWidth - 16)
+      this.adaptiveSectionStyle = "width: " + safeWidth + "px; align-items: flex-start;"
+      this.sectionTitleStyle = "width: " + this.textWidth + "px; text-align: left;"
+      this.devLineStyle = "width: " + this.textWidth + "px; text-align: left;"
+      this.descLineStyle = "width: " + this.textWidth + "px; text-align: left;"
+    }
+
+    this.usageLines = this.wrapUsageText(this.textWidth)
+    this.licenseLines = this.wrapSectionLines([
+      "ECDICT（MIT）",
+      "CC-CEDICT",
+      "BNC/COCA 词族表"
+    ], this.textWidth)
+    this.limitLines = this.wrapSectionLines([
+      "• 约 1.5 万英文词、12.2 万中文词组",
+      "• 每次最多显示 20 条，模糊候选最多 80 条",
+      "• 收藏上限 150 条，历史缓存 20 条",
+      "• 中文支持词组和单字检索，长句可能缺失",
+      "• 数据完全离线，首次读取分片时请稍候"
+    ], this.textWidth)
+    this.tagLines = this.wrapSectionLines([
+      "zk  中考词汇",
+      "gk  高考词汇",
+      "cet4  大学英语四级",
+      "cet6  大学英语六级",
+      "ky  考研词汇",
+      "toefl  托福",
+      "ielts  雅思",
+      "gre  GRE"
+    ], this.textWidth)
+    this.posLines = this.wrapSectionLines([
+      "n.  名词",
+      "v.  动词：vt. 及物 / vi. 不及物",
+      "a.  形容词",
+      "adv.  副词",
+      "pron.  代词",
+      "prep.  介词",
+      "conj.  连词",
+      "interj.  感叹词",
+      "num.  数词"
+    ], this.textWidth)
+    this.usageHeight = this.sectionHeight(this.usageLines, 260)
+    this.licenseHeight = this.sectionHeight(this.licenseLines, 110)
+    this.limitsHeight = this.sectionHeight(this.limitLines, 260)
+    this.tagsHeight = this.sectionHeight(this.tagLines, 260)
+    this.posHeight = this.sectionHeight(this.posLines, 320)
+  },
+
+  wrapSectionLines(items, maxWidth) {
+    const lines = []
+    for (let i = 0; i < items.length; i++) {
+      const wrapped = this.wrapText(items[i], maxWidth)
+      for (let j = 0; j < wrapped.length; j++) {
+        lines.push(wrapped[j])
+      }
+    }
+    return lines
+  },
+
+  sectionHeight(lines, minimum) {
+    return Math.max(minimum, 58 + lines.length * 28)
+  },
+
+  wrapUsageText(maxWidth) {
+    const items = [
+      "1. 查词：输入英文或中文，支持词形变化检索",
+      "2. 大号输入：连点 3 次搜索框，切换大号键盘",
+      "3. 结果卡片：点击查看完整释义",
+      "4. 详情页：收藏词条，上限 150 条",
+      "5. 收藏管理：字母筛选、分页浏览",
+      "6. 历史记录：自动缓存最近 20 条",
+      "7.快捷方式：结果列表页长按返回键返回主页",
+      "8.设置：首页点击腕上词典四字下方图标进入自定义设置"
+    ]
+    const lines = []
+    for (let i = 0; i < items.length; i++) {
+      const wrapped = this.wrapText(items[i], maxWidth)
+      for (let j = 0; j < wrapped.length; j++) {
+        lines.push(wrapped[j])
+      }
+    }
+    return lines
+  },
+
+  wrapText(value, maxWidth) {
+    const text = (value || "").trim()
+    if (!text) {
+      return []
+    }
+
+    const lines = []
+    let line = ""
+    let width = 0
+    let lastBreak = -1
+    for (let i = 0; i < text.length; i++) {
+      const ch = text.charAt(i)
+      const chWidth = ch >= "A" && ch <= "z" ? 10 : 18
+      if (line && width + chWidth > maxWidth) {
+        if (lastBreak > 0) {
+          lines.push(line.slice(0, lastBreak).trim())
+          line = line.slice(lastBreak).trim()
+          width = this.measureTextWidth(line)
+        } else {
+          lines.push(line)
+          line = ""
+          width = 0
+        }
+        lastBreak = -1
+      }
+      line += ch
+      width += chWidth
+      if (ch === "：" || ch === "，" || ch === "、" || ch === "。") {
+        lastBreak = line.length
+      }
+    }
+    if (line) {
+      lines.push(line)
+    }
+    return lines
+  },
+
+  measureTextWidth(value) {
+    let width = 0
+    for (let i = 0; i < value.length; i++) {
+      const ch = value.charAt(i)
+      width += ch >= "A" && ch <= "z" ? 10 : 18
+    }
+    return width
+  },
+
+  goBack() {
+    if (!navGuard()) return
+    router.back()
+  },
+
+  onTouchStart(evt) {
+    const point = this.getTouchPoint(evt)
+    if (point) {
+      this.touchStartX = point.clientX
+      this.touchStartY = point.clientY
+    }
+  },
+
+  onTouchEnd(evt) {
+    const point = this.getTouchPoint(evt)
+    if (!point || this.touchStartX < 0) {
+      return
+    }
+
+    const endX = point.clientX
+    const endY = point.clientY
+    const sw = this.$app.$def.data.screenWidth || 212
+    const startsInLeftQuarter = this.touchStartX <= sw * 0.1
+    const endsAtRightQuarter = endX >= sw * 0.85
+    const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 60
+
+    if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
+      if (!navGuard()) return;
+      router.back();
+    }
+
+    this.touchStartX = -1
+    this.touchStartY = -1
+  },
+
+  getTouchPoint(evt) {
+    if (evt && evt.changedTouches && evt.changedTouches.length > 0) {
+            return evt.changedTouches[0]
+    }
+    if (evt && evt.touches && evt.touches.length > 0) {
+      return evt.touches[0]
+    }
+    return null
+  }
+}
+</script>
+
+<style>
+.page {
+  width: 100%;
+  height: 100%;
+  padding-top: 24px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-btn {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.top-row {
+  width: 336px;
+  height: 72px;
+  padding-left: 14px;
+  padding-right: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.back-mark {
+  width: 64px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about-list {
+  width: 196px;
+  height: 410px;
+}
+
+.list-item {
+  width: 196px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-inner {
+  width: 196px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-card {
+  width: 188px;
+  height: 240px;
+  padding-left: 18px;
+  padding-top: 24px;
+  border-radius: 30px;
+  background-color: #242424;
+  flex-direction: column;
+  position: relative;
+}
+
+.app-name {
+  width: 138px;
+  height: 44px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.app-version {
+  width: 80px;
+  height: 38px;
+  color: #aeb0b4;
+  font-size: 28px;
+  text-align: left;
+}
+
+.deco-icon-about {
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+}
+
+.section-title {
+  width: 180px;
+  height: 38px;
+  margin-top: 14px;
+  color: #aeb0b4;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.dev-role {
+  width: 180px;
+  height: 24px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.dev-name {
+  width: 180px;
+  height: 28px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.license-line {
+  width: 180px;
+  height: 22px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.desc-line {
+  width: 180px;
+  height: auto;
+  margin-top: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+}
+</style>
