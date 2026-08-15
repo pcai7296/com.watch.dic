@@ -56,16 +56,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         [
                             [
                                 0,
-                                "back-button"
+                                "top-row"
                             ]
                         ],
                         {
-                            width: "78px",
-                            height: "54px",
+                            width: "100%",
+                            height: "48px",
                             marginBottom: "12px",
-                            borderRadius: "22px",
-                            backgroundColor: "#0b65ea",
-                            justifyContent: "center",
+                            paddingLeft: "14px",
+                            flexDirection: "row",
                             alignItems: "center"
                         }
                     ],
@@ -73,16 +72,14 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         [
                             [
                                 0,
-                                "back-mark"
+                                "back-btn"
                             ]
                         ],
                         {
-                            width: "64px",
-                            height: "30px",
-                            color: "#ffffff",
-                            fontSize: "22px",
-                            fontWeight: 800,
-                            textAlign: "center"
+                            width: "48px",
+                            height: "48px",
+                            marginRight: "8px",
+                            flexShrink: 0
                         }
                     ],
                     [
@@ -507,22 +504,22 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             __vm__: _vm_,
                             __opts__: {
                                 classList: [
-                                    "back-button"
-                                ],
-                                events: {
-                                    click: function(evt) {
-                                        return _vm_.goBack(evt);
-                                    }
-                                }
+                                    "top-row"
+                                ]
                             }
                         }, [
-                            aiot.__ce__("text", {
+                            aiot.__ce__("image", {
                                 __vm__: _vm_,
                                 __opts__: {
                                     classList: [
-                                        "back-mark"
+                                        "back-btn"
                                     ],
-                                    value: "返回"
+                                    src: "/common/icons/Back_B.png",
+                                    events: {
+                                        click: function(evt) {
+                                            return _vm_.goBack(evt);
+                                        }
+                                    }
                                 }
                             }, [])
                         ]),

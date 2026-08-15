@@ -161,32 +161,30 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             [
                                 [
                                     0,
-                                    "back-button"
+                                    "top-row"
                                 ]
                             ],
                             {
-                                width: "78px",
-                                height: "54px",
-                                borderRadius: "22px",
-                                backgroundColor: "#0b65ea",
-                                justifyContent: "center",
-                                alignItems: "center"
+                                width: "100%",
+                                height: "48px",
+                                paddingLeft: "14px",
+                                flexDirection: "row",
+                                alignItems: "center",
+                                marginBottom: "8px"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "back-text"
+                                    "back-btn"
                                 ]
                             ],
                             {
-                                width: "70px",
-                                height: "30px",
-                                color: "#ffffff",
-                                fontSize: "22px",
-                                fontWeight: 800,
-                                textAlign: "center"
+                                width: "48px",
+                                height: "48px",
+                                marginRight: "8px",
+                                flexShrink: 0
                             }
                         ],
                         [
@@ -1974,28 +1972,22 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     classList: [
-                                        "back-button"
-                                    ],
-                                    events: {
-                                        click: function(evt) {
-                                            return _vm_.goBack(evt);
-                                        },
-                                        touchstart: function(evt) {
-                                            return _vm_.onBackButtonTouchStart(evt);
-                                        },
-                                        touchend: function(evt) {
-                                            return _vm_.onBackButtonTouchEnd(evt);
-                                        }
-                                    }
+                                        "top-row"
+                                    ]
                                 }
                             }, [
-                                aiot.__ce__("text", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "back-text"
+                                            "back-btn"
                                         ],
-                                        value: "返回"
+                                        src: "/common/icons/Back_B.png",
+                                        events: {
+                                            click: function(evt) {
+                                                return _vm_.goBack(evt);
+                                            }
+                                        }
                                     }
                                 }, [])
                             ]),
