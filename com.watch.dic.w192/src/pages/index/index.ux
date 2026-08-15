@@ -741,7 +741,7 @@ export default {
 }
 
 .bottom-row-pill-compact {
-  height: 40px;
+  height: 48px;
   margin-top: -1px;
 }
 
