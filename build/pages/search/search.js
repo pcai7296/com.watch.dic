@@ -6688,7 +6688,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "320px",
+                                width: "296px",
                                 height: "52px",
                                 borderTopWidth: "2px",
                                 borderRightWidth: "2px",
@@ -6784,7 +6784,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "320px"
+                                width: "296px"
                             }
                         ],
                         [

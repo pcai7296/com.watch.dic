@@ -822,7 +822,7 @@ export default {
 }
 
 .input-box {
-  width: 320px;
+  width: 296px;
   height: 52px;
   border-width: 2px;
   border-color: #2f8cff;
@@ -866,7 +866,7 @@ export default {
 }
 
 .input-box-rect {
-  width: 320px;
+  width: 296px;
 }
 
 .input-text-rect {
