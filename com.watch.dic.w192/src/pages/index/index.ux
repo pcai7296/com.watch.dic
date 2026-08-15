@@ -650,7 +650,7 @@ export default {
 }
 
 .button-group-pill-compact {
-  width: 160px;
+  width: 176px;
 }
 
 .button-group-rect {
