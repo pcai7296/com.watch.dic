@@ -1,0 +1,500 @@
+0mix	miks	@混合物, 混乱, 糊涂; !使混合, 弄混, 使结合, 混淆; $相混合, 交往, 参与	16
+3er	'miksa	@混合者, 混合器, 搅拌机, 搅拌器, 混频器, (非正式)交际家, 与人相处的人; { 混频器, 音装置	8
+3ture	'mikstSa	@混合, 混淆, 混合物; ] 混合物	3e
+1m		毫米; { 毫米	2
+1nemonics	ni:'mQniks	@记忆术; | 记忆术	80
+1oan	maun	@呻吟, 悲叹; $呻吟, 抱怨, 悲叹; !呻吟着说	9c
+3t	maut	@壕沟, 护城河; !将...围以壕沟	c0
+2b	mQb	@暴民, 民众, 暴徒; !大举包围, 蜂拥进入, 围攻; $聚众生事	18
+3ile	'maubil	#移动的, 易变的, 机动的; @活动物体	fe
+5ity	mau'biliti	@可动性, 流动性, 机动性; ] 迁移率	c8
+6ze	'maubilaiz	!动员, 调动, 使流通; $动员	38
+2ck	mQk	@嘲笑, 戏弄, 模仿; #假的, 伪造的, 模拟的; %虚伪地; !嘲弄, 模仿, 使失望, 欺骗, 挫败; $嘲弄	f8
+4ingbird	'mQkiNba:d	@嘲鸫	40
+2de	maud	@模态, 调式, 样式, 文体, 状态, 方式, 风尚; { 方式; DOS外部命令:设定各种设备命令	fc
+4l	'mQdal	@模型, 模范, 模特儿; #模范的, 作模型用的; $做模型, 做模特儿; !使模仿, 塑造; { 模型	37
+4m	'maudem	@调制解调器; { 调制解调器	42
+4rate	'mQdarat	#适度的, 稳健的, 中等的, 节制的; !节制, 减轻, 使缓和; $变缓和, 主持会议	7c
+8ly	'mQdaratli	%适当地, 适度地, 中庸地	8
+5n	'mQdan	@现代人, 有思想的人; #现代的, 时髦的	23
+6ization	.mQdanai'zeiSan	@现代化	10
+4st	'mQdist	#谦逊的, 羞怯的, 端庄的, 适度的; > 适当的	fe
+6y	'mQdisti	@谦逊, 质朴, 羞怯	8
+3icum	'mQdikam	@少量	80
+4fication	.mQdifi'keiSan	@修正, 修饰, 修改; ] 修饰; 修改	8
+5y	'mQdifai	!修正, 变更, 修饰, 缓和, 减轻; $被修改; { 修改	fc
+4sh	'maudiS	#流行的, 时髦的	80
+3ulate	'mQdjuleit	!调整, 使转调, 控制; $转调, 调制	c8
+5e	'mQdju:l	@组件, 模数; { 模块	38
+2gul	mau'^Vl, 'mau^Vl	@大人物, 有权势的人	80
+2iety	'mQiati	@一半, 一部分, 应得之份; | 等分, 一半, 一部分	40
+3st	mQist	#潮湿的, 多雨的, 感伤的, 含泪的; | 湿的	7c
+5en	'mQisan	!弄湿; $变潮湿	40
+5ure	'mQistSa	@湿气, 水分, 降雨; ] 含水量; 含湿量	5c
+2lar	'maula	#磨碎的, 臼齿的, 摩尔的, 克分子的; @臼齿, 磨牙	80
+3d	mauld	@模子, 模型, 霉; v. 形成, 塑造, 发霉	c0
+4ing	'mauldiN	@模制, 铸造物, 模制件, 浇铸; ] 模塑; 模压	80
+4y	'mauldi	#发霉的, 腐臭的	80
+3ecular	ma'lekjula	#分子的, 由分子组成的; | 分子的	48
+7e	'mQlikju:l	@分子, 些微; ] 分子	fc
+4st	ma'lest	!妨碍, 干扰, 调戏; } 调戏, 作弄, 恶意干涉	a0
+3lify	'mQlifai	!平息, 缓和, 减轻, 使变软	c0
+4ycoddle	'mQlikQdl	@女性化的男人, 娇生惯养的人, 伪善的人; !溺爱, 娇养	80
+3t	mault	@换毛, 脱皮, 脱落物; v. 脱毛, 换毛	80
+4en	'maultan	#熔化的, 炽热的, 铸造的; melt的过去分词	c0
+2m	mVm	@妈妈	1
+3ent	'maumant	@片刻, 瞬间, 重要, 阶段, 力矩; | 片刻, 瞬间, 时机, 因素, 矩	c3
+6ary	'maumantari	#瞬间的, 刹那间的	18
+6ous	mau'mentas	#重大的, 重要的	e0
+6um	mau'mentam	@动力, 动量; ] 动量	b8
+2narch	'mQnak	@帝王, 统治者, 元首; | 单原型(植)	d8
+7y	'mQnaki	@君主政体, 君主国, 君主政治; } 君主政体, 君主制度, 君主国	a0
+4stery	'mQnastari	@修道院, 僧侣	80
+0Monday	'mVndi	@星期一	23
+0monetary	'mVnitari	#货币的, 金钱的; > 货币的, 金融的	f8
+4y	'mVni	@金钱, 一笔款, 财富, 货币, 金额; > 货币, 金钱, 财产	23
+3grel	'mVNgral	@杂种, 杂种狗, 混血儿; #杂种的, 混血儿的	80
+3itor	'mQnita	@监督器, 级长, 监听员, 班长, 监视器, 告诫物; v. 监视, 监听, 监督; { 监视器, 监视程序; 监视	7f
+3k	mVNk	@修道士, 僧侣, 和尚	8
+4ey	'mVNki	@猴子, 猿, 打桩锤; $淘气, 胡闹; !嘲弄	17
+3ochromatic	.mQnaukrau'mEtik	#单色的, 单频的; ] 单色的	c0
+9e	'mQnakraum	@单色画, 单色, 黑白; #单色的, 黑白的; { 单色	c0
+5le	'mQnakl	@单片眼镜; | 单眼镜, 单眼绷带	80
+4gamy	mQ'nQgami	@一夫一妻制; | 单配	80
+5raph	'mQnagrA:f	@专题论文, 专著, 专刊; !写专题论文	80
+4lithic	.mQnau'liTik	#独石的, 完全统一的, 整体的; ] 整体(铸,烧结)的; 龟甲网衬里; 单片; 单块	80
+5ogue	'mOnalO^	@独白, 独脚戏, 独白场面, (非正式)(贬)滔滔不绝的话	a0
+4mania	.mQnau'meinia	@狂热, 偏执狂; | 单狂, 偏狂	80
+4polize	ma'nQpalaiz	!独占, 垄断; > 垄断, 专营, 专利	c0
+7y	ma'nQpali	@垄断, 专卖权, 独占事业; > 垄断, 专利品, 垄断(权)独占	f8
+4tone	'mQnataun	#单调的; @单调	80
+7ous	ma'nQtanas	#单调的, 无变化的	f0
+7y	ma'nQtani	@单调, 缺乏变化	80
+3soon	mQn'su:n	@季风, 吹季风的季节, 雨季	a0
+4ter	'mQnsta	@怪物, 恶人, 巨物; | 畸胎	78
+5rous	'mQnstras	#巨大的, 畸形的, 怪异的; } 巨大的, 异形的, 畸形的:荒诞的	a8
+3tage	mQn'tA:Z	@混合画, 画面剪辑, 蒙太奇	80
+4h	mVnT	@月; > 月	23
+5ly	'mVnTli	@月刊; #每月的, 每月一次的	14
+3ument	'mQnjumant	@纪念碑, 纪念物, 石碑	5e
+8al	.mQnju'mental	#纪念碑的, 做为纪念的, 不朽的	80
+2od	mu:d	@心情, 气氛, 生气, 基调; | 心境	7c
+4y	'mu:di	#心情不稳的, 郁郁寡欢的, 喜怒无常的	80
+3n	mu:n	@月亮, 月球, 月光; $闲荡; !虚度	3
+3r	mua	n.荒野；旷野; Moor: 摩尔人.; v.系住；停泊	88
+2p	mQp	@拖把, 鬼脸; !用拖把洗擦, 擦, 拭; $做鬼脸; { 维护操作协议	a
+3e	maup	$忧郁, 闲荡; !使忧郁; @忧郁的人	80
+2ral	'mQral	@道德, 品行, 寓意; #道德的, 品性端正的, 精神上的	5e
+5e	mQ'rA:l	@士气, 道德	c0
+5istic	.mQra'listik	#道德家的, 说教的, 道德主义的	80
+6ty	ma'rEliti	@道德, 教训, 品行; } 道德, 道义	38
+4ss	ma'rEs	@沼泽, 困境, 乱糟糟的一堆	80
+4torium	.mQra'tQ:riam	@延期偿付, 暂停; } 延期偿付, 延缓履行, 延期偿还期	80
+3bid	'mQ:bid	#致病的, 病态的, 疾病的, 可怕的; | 病的	e0
+3dant	'mQ:dant	#尖酸的, 辛辣的, 有腐蚀性的; @腐蚀剂, 金属箔粘着剂, 媒染剂; !媒染	80
+3e	mQ:	@更多; #多的, 程度较大的, 更大的; %多, 更多, 进一步; { DOS外部命令:显示满屏后自动暂停, 并显示:"--More--", 按任意键继续	1
+4over	mQ:'auva	%而且, 此外	3c
+4s	'mO:ri:z	@习惯, 道德态度, 惯例, 习俗; | 风俗, 习惯	80
+3ibund	'mQ:ribVnd	#垂死的; @垂死的人	c0
+3ning	'mQ:niN	@早晨, 早上, 初期	3
+3on	'mQ:rQn	@低能者, 笨人; | 痴愚者	c0
+4se	ma'raus	#郁闷的, 孤僻的	80
+3phology	mQ:'fQladZi	@形态学, 词法, 形态; | 形态学	40
+3sel	'mQ:sl	@一口, 少量, 小片	80
+3tal	'mQ:tal	@生物, 人类; #不免一死的, 人类的, 临终的	7c
+6ity	mQ:'tElati	@必死的命运, 死亡数目, 死亡率; | 必死性, 死亡率	90
+5r	'mQ:ta	@臼, 研钵, 灰泥; !用灰泥涂抹, 用灰泥结合	c0
+4gage	'mQ:gidZ	@抵押, 约束性义务, 抵押借款; !抵押, 以...作担保, 把...许给	b8
+4ification	.mQ:tifi'keiSan	@坏疽, 丢失面子的感觉, 禁欲; | 坏疽	80
+6y	'mQ:tifai	!抑制, 苦修, 使受辱; $禁欲, 苦修	80
+4uary	'mQ:tSuari	@停尸间, 太平间; #丧葬的, 悲哀的, 埋葬的	80
+2saic	mau'zeiik	@马赛克, 镶嵌细工, 镶嵌工艺; #马赛克的, 镶嵌细工的, 拼花的; !用镶嵌细工装饰; { Mosaic浏览程序	f0
+0Moscow	'mQskau	@莫斯科	2
+3lem	'mQzlam	@穆斯林; #穆斯林的, 伊斯兰教的	a
+0mosque	mQsk	@清真寺	88
+5ito	ma'ski:tau	@蚊子; | 蚊	be
+3s	mQs	@苔藓, 泥沼; !使长满苔藓	58
+3t	maust	@最多, 最大; #大多数的, 几乎全部的, 最多的; %最, 最多, 极其	23
+4ly	'maustli	%大概, 大部分, 主要; > 大部份	5c
+2te	maut	@尘埃, 微粒	c0
+4l	mau'tel	@汽车旅馆	3c
+3h	mQT	@蛾害, 蛾, 乌头叶菜豆; | 蠹, 蛾	40
+4er	'mVDa	@母亲, 修女院长; !产生, 照看, 收养	23
+6land	'mVDalEnd	@祖国	2
+3if	mau'ti:f	@主题, 基调, 动机, 基本图案; } 主旨, 主题, 动机	e0
+4le	'mautail	#能动的, 运动表象型的; @运动表象型	80
+5ity	mau'tiliti	@运动性, 自动力; | 能动性, 机动性, 能动力	80
+4on	'mauSan	@移动, 手势, 动作, 意向, 请求, 提议; v. 打手势	7c
+6less	'mauSanlis	#不动的, 静止的; [机] 不动的, 静止的	40
+4vate	'mautiveit	!给与动机, 刺激, 提高...的学习欲望, 促动; > 促动, 激发, 激励	7c
+7ion	.mauti'veiSan	@动机, 刺激, 推动; | 促动, 推动, 诱导	62
+5e	'mautiv	@动机, 目的, 主题, 基调; #运动的, 成为动机的	5c
+3ley	'mQtli	#杂色的, 穿杂色衣的, 杂乱的, 混杂的; @杂色, 杂色衣服, 混杂, 小丑	80
+3or	'mauta	@马达, 发动机, 原动力, 汽车; #马达的, 发动机的, 汽车的, 发动的; !推动, 以汽车载运; $乘汽车, 驾车	1e
+5bike	'majtabaik	@机动脚踏两用车, 摩托车	2
+5cycle	'mautasaikl	@摩托车; [机] 机动车, 机踏车, 摩托车	23
+5way	'mautawei	@高速公路	8
+3tle	'mQtl	!使呈杂色; @杂色, 斑点	80
+6d	'mQtld	#杂色的, 斑驳的; | 斑色的, 斑状的	80
+4o	'mQtau	@箴言, 座右铭, 警句	a2
+2uld	mauld	@模子, 模制品, 松软沃土, 霉; !形成, 浇铸, 用泥土覆盖; $发霉	3c
+3nt	maunt	@乘骑用马, 框, 衬纸, 山; $乘马, 爬上, 增长; !爬上, 使上马, 装上, 装裱, 安放, 制作...的标本, 设置, 上演; { 安装	3c
+5ain	'mauntin	@山, 山脉, 大堆	23
+8ous	'mauntinas	#多山的, 如山的, 巨大的	8a
+5ebank	'mauntabENk	@江湖郎中, 骗子	80
+3rn	mQ:n	v. 哀悼, 忧伤, 服丧	be
+5ful	'mQ:nful	#悲恸的, 悲哀的, 令人惋惜的	c0
+5ing	'mO:niN	@哀痛, 居丧, 举哀, 哀悼, 丧服, 戴孝	40
+3se	maus	@老鼠, 胆小羞怯的人, 鼠标; $捕鼠, 窥探; !探出; { 鼠标	1f
+4tache	'mVstES	@髭, 小胡子, 触须	22
+3th	mauT	@嘴, 口, 口腔, 口状物; $装腔作势说话, 做鬼脸; !说出, 做作地说	43
+5ful	'mauTful	@一口, 满口	e
+2ve	mu:v	@移动, 迁居, 步骤; !移动, 开动, 感动, 搬(家); $移动, 离开, 运行, 迁移, 摇动, 搬家, 交往, 进展, 脱手; { 移动; 传送; DOS外部命令:移动文件, 它可将文件移动到指定的地方	3
+4ment	'mu:vmant	@运动, 动作, 运转, 移动, 倾向, 变化, 活动, 乐章; | 运动	9e
+3ie	'mu:vi	@电影	37
+5s	'mu:vis	@电影	20
+0Mr.	'mista(r)	阁下, 先生	3
+1s.	miz	女士	3
+0much	mVtS	@大量, 许多, 重要的事; #很多的, 重要的; %多, 甚, 几乎	3
+3ous	'mju:kas	#粘液的, 粘的, 粘液性的; | 粘液的	20
+2d	mVd	@泥, 诽谤; !弄脏	5e
+3dle	'mVdl	!混合, 使微醉, 使咬字不清晰; $胡乱对付; @困惑, 混浊状态	e0
+4y	'mVdi	#泥泞的, 浑浊的, 模糊的; !使污浊, 使沾上泥污	8e
+2ffle	'mVfl	@低沉的声音, 拳击手套, 唇鼻部, 围巾, 头巾; !围裹, 抑制, 发低沉的声音	80
+6d		#听不清的；蒙住的	80
+6r	'mVfla	@围巾, 头巾, 无指手套, 消声器; ] 消声器; 消音器	80
+2g	mVg	@有柄大杯, 脸, 苦读者; !给...拍照, 攻击, 苦读; $拼命用功	1c
+3gy	'mVgi	#闷热的	80
+2lberry	'mVlbari	@桑树, 桑椹, 深紫红色; | 桑树; 桑葚	40
+3ct	mVlkt	@罚金; !科以罚金, 抢夺	80
+3ish	'mju:liS	#似骡的, 执拗的, 顽固的	80
+3ticellular	.mVlti'seljula	#多细胞的; | 多细胞的; 多空隙的	40
+5faceted	.mVlti'fEsitid	#多层面的	40
+7rious	.mVlti'fearias	#多种的, 各种各样的, 许多的	80
+5lateral	.mVlti'lEtaral	#多边的, 多国的; > 多边的, 涉及多方的	20
+5ple	'mVltipl	@倍数, 并联; #多样的, 许多的, 多功能的	dc
+7ication	.mVltipli'keiSan	@乘法, 增加, 乘法运算; | 增殖; 倍增	8
+9ity	.mVlti'plisiti	@相重性, 多重性, 多样; ] 多重态; 多重性	80
+7y	'mVltiplai	v. 繁殖, 乘, 增加; { 乘	fe
+5story		#有多层楼的	40
+5tude	'mVltitju:d	@多数, 群众	f8
+2mble	'mVmbl	@喃喃而语, 咕哝; v. 喃喃而语, 咕哝	80
+2ndane	'mVndein	#现世的, 世俗的, 宇宙的	e0
+3icipal	mju:'nisipl	#市政的, 自治区的, 内政的; > 市政的, 市的	78
+9ity	.mju:nisi'pEliti	@自治区, 市当局, 市民; } 市, 自治市, 自治地区	80
+4ficence	mju:'nifisns	@丰厚, 慷慨给与	80
+9t	mju:'nifisnt	#丰厚的, 慷慨的	40
+4ments		(muniment 的复数) @契据, 证券, 文件, 防御手段; } 保护, 保护的手段, 档案	80
+4tion	mju:'niSan	@军需品; !供给军需品	80
+2ral	'mjuaral	#壁的, 壁上的, 壁似的; @壁画	c0
+3der	'ma:da	@谋杀; !谋杀, 损毁, 破坏; $犯杀人罪	1f
+6er	'ma:dara	@凶手, 杀人者, 谋害者; } 谋杀犯, 凶手	c
+3ky	'ma:ki	#黝暗的, 阴沉的, 朦胧的	80
+3mur	'ma:ma	@低语, 低声的怨言; $低语, 低声而言; !低声说	b8
+2scle	'mVsl	@肌肉, 臂力; | 肌	9c
+6s	'mVsl	@肌肉（muscle的复数）	20
+4ular	'mVskjula	#强壮的, 肌肉发达的, 有力的; | 肌的; 肌肉发达的	f8
+3e	mju:z	@沉思, 冥想; v. 沉思, 冥想, 若有所思地凝望或说	88
+4um	mju:'ziam	@博物馆	3f
+3hroom	'mVSrum	@蘑菇形物, 蘑菇, 暴发户; $迅速生长, 迅速增加, 采蘑菇; #蘑菇形的, 迅速生长的	fe
+3ic	'mju:zik	@音乐, 乐曲	23
+5al	'mju:zikl	@音乐片, 音乐舞台剧; #音乐的, 声音美妙的, 喜爱音乐的	3e
+5ian	mju:'ziSan	@音乐家, 乐师, 作曲家	1e
+5ologist	.mju:zi'kQladZist	@音乐学者	80
+3ket	'mVskit	@火枪	80
+3t	mVst	@必须, 未发酵葡萄汁, 绝对必要的事物; =必须	1
+4ard	'mVstad	@芥末, 芥菜, 强烈的兴趣; | 芥子; 芥属植物	a
+4er	'mVsta	@召集, 集合, 检阅, 清单, 花名册, 样品; !召集, 集合, 应召; $集合, 集中	a0
+4y	'mVsti	#发霉的, 霉臭的, 落伍的	80
+2tate	'mju:teit	$变化, 产生变异, 变化元音; !使变异	80
+5ion	mju:'teiSan	@变化, 突变, 元音变化; ] 突变	60
+3e	mju:t	@哑子, 哑音字母, 弱音器; #哑的, 无声的, 沉默的; !减弱...的声音; $排泄	9c
+4d		#变弱了的, 变柔和了的	90
+3ilate	'mju:tileit	!切断, 使残废, 使不完整; | 致残毁	80
+4neer	.mju:ti'nia	@暴徒, 反抗者; $暴动, 反抗	80
+5ous	'mju:tinas	#暴动的, 反抗的	80
+3ter	'mVta	@喃喃低语; $喃喃自语, 作低沉声; !出怨言, 抱怨地说	bc
+4on	'mVtn	@羊肉	9e
+3ual	'mju:tSual	#相互的, 共有的; > 相互的	7c
+2zzy	'mVzi	#发呆的, 无精神的, 含糊的	80
+1y	mai	*我的; | 迈尔(热容单位)	3
+2opia	mai'aupia	@近视; | 近视	80
+5c	mai'Opik	#[眼科]近视的；目光短浅的	80
+2riad	'miriad	@无数, 无数的人(或物); #无数的, 种种的	e0
+2self	mai'self	*我自己, 我亲自, 我独自	3
+3terious	mis'tiarias	#神秘的, 难解的, 不可思议的	5c
+6y	'mistari	@秘密, 神秘, 奥秘	5c
+4ic	'mistik	#神秘的, 奥秘的; @神秘主义者	80
+2th	miT	@神话, 虚构的事, 虚构的人	78
+4ical	'miTika l	#神话的, 存在于神话中的, 神话式的, 不真实的, 虚构的, 幻想出来的	40
+4ology	mi'TQladZi	@神话	60
+0nadir	'nei.dia	@天底, 最低点	80
+2g	nEg	@老马, 驽马, 劣等竞赛马, 唠叨; v. 不断地唠叨, 恼人	80
+2il	neil	@钉子, 指甲; !用钉钉牢, 使固定, 截住, 揭露	5e
+3ve	nA:'i:v	#天真的, 纯真的, 幼稚的	98
+5ty	nA:'i:vti	@无邪的行为；天真烂漫（等于naivete）	80
+2ked	'neikid	#裸体的, 无装饰的, 无保护的, 赤贫的; | 裸露的	7c
+2me	neim	@名字, 名称, 姓名, 名义, 名誉, 文件名; !命名, 称呼, 任命, 提名, 列举; #姓名的, 据以取名的; { 名称, 文件名, 姓名	3
+4ly	'neimli	%即, 就是, 换句话说	3c
+2p	nEp	@小睡, 稍睡, 细毛, 孤注一掷; $小睡, 疏忽; !使拉毛, 打盹度过, 预测...为获胜马	3c
+3kin	'nEpkin	@餐巾, 餐巾纸, 尿布	18
+2rcissism	nA:'sisizm	@自我陶醉, 自恋; | 自爱欲, 恋已癖	80
+9t	nA:'sisist	@自我陶醉者	80
+4otic	nA:'kQtik	@麻醉药, 镇静剂; #麻醉的, 催眠的	e0
+3rate	na'reit	v. 说故事, 说明, 叙述	10
+6ion	na'reiSan	@叙述, 故事, 叙述文; } 陈诉, 原告陈述者事实	48
+7ve	'nErativ	@叙述, 故事; #叙述的, 叙事的, 故事体的	b8
+6or		@讲述者, 叙述者; } 陈述者, 叙述者	60
+4ow	'nErau	@狭窄部分, 隘路; #狭窄的, 仔细的, 有限的, 勉强的, 狭隘的, 手紧的; $变窄; !使变狭窄	5e
+2sal	'neizl	#鼻的, 鼻声的, 尖锐的; @鼻音, 鼻音字	80
+3cent	'nEsnt	#发生中的, 开始存在的, 初期的; | 初发的, 初生的	80
+3ty	'nA:sti	#污秽的, 下流的, 险恶的	3c
+2tal	'neitl	#出生的, 诞生的; | 分娩的, 生产的; 臀的	a0
+4tion	nei'teiSan	@游泳	80
+3ion	'neiSan	@国家, 民族; } 民族, 国家	1e
+6al	'nESanal	#国家的, 国立的, 全国性的, 民族的; > 全国性的, 国家的, 国民的	3f
+8ities	.nESa'nElati	@国籍, 民族（nationality的复数）	20
+ay	.nESa'nElati	@国籍, 国家, 民族性; } 国家, 民族, 国民	7e
+6wide	'neiSanwaid	#全国性的; } 全国的, 全国范围的	42
+4ve	'neitiv	@本地人, 土产, 当地人; #本国的, 与生俱来的, 自然的	3e
+3ty	'nEti	#整洁的, 帅的, 清楚的, 敏捷的	80
+3ural	'nEtSaral	@白痴; #自然的, 自然界的, 本能的, 天然的, 物质的, 正常的, 原始的, 自然数的	7f
+7ist	'nEtSaralist	@自然主义者	40
+aic	.nEtSara'listik	#自然的, 自然主义的	40
+7ly	'nEtSarali	%自然地, 以自然力, 天生地	c
+5e	'neitSa	@自然, 大自然, 本性, 性格, 性质; | 自然, 大自然; 本性, 性能	3f
+2ught	nQ:t	@无, 零; #无价值的, 无用的	20
+6y	'nQ:ti	#顽皮的, 没规矩的, 不适当的, 下流的	5c
+3sea	'nQ:Sja	@反胃, 晕船, 恶心, 厌恶; | 恶心	a0
+6te	'nQ:sieit	$作呕, 产生恶感, 厌恶; !使厌恶, 使恶心	80
+3tical	'nQ:tikal	#海上的, 航海的, 船员的	a0
+2val	'neivl	#海军的, 军舰的, 有舰队的; } 海军的, 军舰的, 船的	7c
+3e	neiv	@(教堂)中殿, 中央广场, 轮毂; [机] 轮毂	8
+3igable	'nEvigabl	#可航行的, 可通船的, 适于航行的; } 可航行的, 可通航的	20
+6te	'nEvigeit	$航行; !航行于, 驾驶, 操纵, 使通过	c0
+7ion	.nEvi'geiSan	@航行, 航海, 导航; > 航空, 航海, 航船	7c
+3y	'neivi	@海军, 海军人员, 海军军力, 烟蒂	1e
+2ysay	'neisei	@拒绝, 否认; !拒绝, 否认	80
+6er		@拒绝者, 否认者, 老是唱反调的人; } 否定者, 投反对票者	80
+1ear	nia	#近的, 近亲的, 近似的; %接近, 亲近; ^靠近, 近似于; v. 接近, 走近	3
+4by	'niabai	#附近的, 近旁的; %在附近, 近旁地; ^在...附近	1e
+4ly	'niali	%几乎, 密切地	43
+3t	ni:t	#整洁的, 巧妙的, 匀称的, 简洁的; @牛	7e
+2bula	'nebjula	@星云, 角膜云翳; | 薄翳; 角膜翳, 角膜云翳; 喷雾剂	40
+5ous	'nebjulas	#星云的, 星云状的, 朦胧的	80
+2cessarily	'nesisarili	%必然地, 必须地, 必要地	c
+8y	'nesisari	#必要的；必然的；必需的	3
+6itate	ni'sesiteit	!迫使, 使成为必需, 需要	38
+8ous	ni'sesitas	#贫乏的, 穷困的, 紧迫的, 必需的	80
+8y	ni'sesati	@需要, 必需品, 必然; } 必要性, 必然性, 必要	5c
+3k	nek	@脖子, 衣领, 颈; $拥抱, 拥吻, 收缩; !割颈	7f
+4lace	'neklis	@项链	1e
+4tie	'nektai	@领带	2
+3ropolis	ne'krQpalis	@大墓地, 史前坟场	80
+3tar	'nekta	@神酒, 甜美饮料, 甘露	c0
+2ed	ni:d	@需要, 必须, 缺乏; !需要, 必需; $贫困, 有必要; =需要	3
+4le	'ni:dl	@针, 尖; !用针缝; $缝纫; { 探针	9e
+6ss	'ni:dlis	#不需要的, 不必要的	c
+6work	'ni:dlwa:k	@刺绣, 缝纫	c0
+4y	'ni:di	#贫穷的, 贫困的, 生活艰苦的	c0
+2farious	ni'fearias	#恶毒的, 极坏的	80
+2gate	ni'geit	!否定, 否认, 取消; { 非	c0
+5ion	ni'geiSan	@否定, 反面, 不存在; | 否定, 否认	a0
+6ve	'negativ	@否定, 否定语, 负数, 底片; #否定的, 消极的, 负的, 阴性的; @负数, 负值; { 负数, 负值	7c
+3lect	ni'glekt	@疏忽, 忽略, 漏做; !疏忽, 忽视, 不顾	7c
+4igence	'neglidZans	@疏忽, 粗心大意, 忽视; > 疏忽, 过失	e0
+8t	'neglidZant	#疏忽的, 粗心的, 不在意的	50
+6ible	'neglidZabl	#可以忽略的, 不足取的, 无用的; | 可不计的, 可忽视的	78
+3otiable	ni'gauSiabl	#可磋商的, 可转让的, 可通行的; > 可流通的, 可转让的	a0
+7te	ni'gauSieit	$商议, 谈判, 交涉; !谈妥, 转让, 处理	da
+8ion	ni.gauSi'eiSan	@谈判, 磋商, 交涉; > 谈判, 协商	48
+3ro	'ni:grau	@黑人; #黑人的	1c
+2ighbor	'neiba	@邻居; !邻接; $毗邻而居, 友好; #邻近的	50
+8hood	'neibahud	@附近, 邻近	14
+8ing	'neibariN	#附近的, 邻近的, 邻接的	20
+7ur	'neiba	@邻居, 邻接的东西, 邻国, 邻座, 邻人, 世人; #邻接的, 邻近的; vi.!邻近, 与...结邻, 邻接	f
+9hood	'neibahud	@邻接, 周围, 附近一带, 邻近, 邻居关系, 地区, 街道, 街坊, 四邻; { 邻域	e
+9ing	'neibariN	#邻近的, 接壤的, 附近的; } 邻近的, 附近的, 接壤的	8
+3ther	'naiDa	%皆不, 两个都不; #(两者)都不的; *两者都不; &既非, 既不	3
+2mesis	'nemisis	@复仇女神, 给与惩罚的人, 天罚, 报应	80
+2oclassical	'ni:auklEsikal	#新古典主义的	40
+3lithic	.ni:au'liTik	#新石器时代的	80
+4ogism	ni:'QladZizm	@新语, 使用新语, 创造新语; | 新语症; 语词新作, 新词症	80
+3n	'ni:Qn	@氖; ] 氖Ne	40
+4ate	'ni:auneit	@婴儿; | 新生儿; 新生的	80
+3phyte	'ni:aufait	@新入教者, 新信徒	80
+2phew	'nefju:	@侄子, 外甥	1e
+4ritis	ne'fraitis	@肾炎; | 肾炎	80
+3otism	'nepatizm	@偏袒亲属, 起用亲戚	80
+2rve	na:v	@精神, 勇气, 叶脉, 神经; !鼓起勇气	9c
+4ous	'na:vas	#神经紧张的, 不安的, 神经的; | 神经的; 神经质的, 神经过敏的	7f
+2st	nest	@巢, 窝, 休息所, 隐匿处; $筑巢, 找鸟巢; !为...设窝, 使套叠; { 嵌套	1e
+4le	'nesl	$舒适地坐定, 挨靠, 偎依; !抱, 安置	80
+5ing	'nesliN	@刚孵出的雏, 未离巢的雏, 幼儿	80
+2t	net	@网, 网状物, 罗网, 净利, 净价; #净的, 最终的; !用网捕, 撒网, 净赚, 得到; $编网; { 网络, 网络分析程序	5e
+3hermost	'neDamaust	#最低的, 最下面的	80
+3s	net	@网（net的复数）	20
+3tle	'netl	@荨麻; !以荨麻刺, 激怒	c0
+3work	'netwa:k	@网络, 广播网, 网状物; { 网络	3e
+2urology	nju'rQladZi	@神经病学; | 神经病学	90
+5n	'njuarOn	@神经原, 轴索, 神经细胞; { 神经元	48
+5sis	nju'rausis	@神经症, 神经机能病; | 神经机能病, 神经[官能]症	a0
+5tic	nju'rQtik	@神经症患者; #神经质的, 神经症的	20
+6ransmitter	,njuaratrEns'mita	@神经递质; ] 神经递质	40
+3tral	'nju:tral	@中立者, 中立国, 非彩色, 空档; #中立的, 中性的, 无色的	5c
+7ize	'nju:tralaiz	!使中立, 使成中立地带, 使中和, 抵销; $中立化, 变无效, 中和	e0
+5on	'nju:trQn	@中子; ] 中子	c8
+2ver	'neva	%从不, 决不, 不曾; } 永不, 决不, 从来没有	3
+5theless	.nevaDa'les	%然而, 虽然如此; &然而	3c
+2w	nju:	#新的, 陌生的, 最近的, 不熟悉的; } 新发现的, 新的, 重新开始的	3
+3ly	'nju:li	%重新, 最近	c
+3s	nju:z	@新闻, 消息, 报导; } 新闻, 消息, 新闻报导	3
+4cast	'nju:zkA:st	@新闻广播	40
+4paper	'nju:z.peipa	@报纸	23
+9s	'nju:z.peipa	@报纸, 报章（newspaper的复数）	20
+4stand	'nju:zstEnd	@报摊, 报刊出售处	40
+2xt	'nekst	@下一个; #下一个的, 其次的, 贴近的; %然后, 下次, 次于; { 近邻干扰	3
+3us	'neksas	@连结, 关系; ] 融合膜	80
+1ib	nib	@嘴, 笔尖; !装尖头, 削尖, 修换(笔)尖	80
+3ble	'nibl	@少量食物, 细咬, 轻咬, 啃; v. 一点一点地咬, 细咬, 吹毛求疵; { 半字节	e0
+2ce	nais	#美好的, 和蔼的, 正派的, 做得好的, 精密的, 细微的, 挑剔的, 谨慎的	83
+4ty	'naisati	@美好, 准确, 精密, 拘泥细节, 纤细	a0
+3he	nitS	@壁龛; !放入壁龛, 安顿	c0
+3k	nik	@刻痕, 缺口, 划痕; !刻痕于, 弄缺, 擦伤; $狙击	80
+4el	'nikl	@镍, 镍币, 五分镍币; !镀镍于	78
+4name	'nikneim	@绰号, 昵称; !给...取绰号, 叫错名字; { 绰号	58
+3otine	'nikati:n	@烟碱, 尼古丁; ] 烟碱; 尼古丁	c0
+2ece	ni:s	@侄女, 甥女	1e
+2ggard	'nigad	@吝啬鬼; #吝啬的, 小气的	80
+4ling	'ni^liN	#细小的, 琐屑的, 小心翼翼的, 缺乏魄力的, 过于精细的	80
+3ht	nait	@夜, 夜晚, 晚上, 黑暗, 夜晚的工作; } 夜, 黑夜, 黑暗	23
+5mare	'naitmea	@梦魇, 恶梦, 可怕的事物(或情景、人物); | 梦魇, 恶梦	b8
+2hilism	'naiilizm	@虚无主义, 无政府主义; | 虚无妄想; 虚无主义	80
+2l	nil	@无, 全无, 零; } 无, 零, 无有	a0
+2mble	'nimbl	#敏捷的, 伶俐的, 聪明的	c0
+2ne	nain	)九, 九个	3
+4teen	.nain'ti:n	)十九, 十九个	17
+5y	'nainti	)九十, 九十个	3
+3th	nainT	)第九, 九分之一	3
+2p	nip	@捏, 夹, 寒冷, 尖刻话; !捏, 夹, 钳, 剪断, 损伤, 冻伤, 一小口; $夹, 捏, 刺骨, 快走, 一小口一小口地抿(酒); { 核心程序的初始程序	80
+3pers		@钳子（nipper的复数形式）	80
+4ing	'nipiN	#刺骨的, 刺人肌肤的, 讥刺的	80
+2tpick	'nitpik	$挑剔；吹毛求疵	80
+3rogen	'naitradZan	@氮; ] 氮N-2	7c
+1o	nau	@不, 拒绝, 否决票; #没有, 不是, 绝非; %不	3
+2.	'nVmba	@号码, 编号; | 数目, 号码	2
+2bility	nau'biliti	@贵族, 高尚, 贵族阶级	20
+3le	'naubl	@贵族; #高贵的, 高尚的, 贵族的, 辉煌的	3e
+3ody	'naubQdi	@小人物, 无名小卒; *无人, 没有人	3
+2cturnal	nQk'ta:nal	#夜的, 夜曲的; | 夜间的	c0
+2d	nQd	@点头, 打盹, 晃动; $点头, 打盹; !点头表示, 点(头)	5f
+2ise	nQiz	@噪音, 杂音, 响声, 喧闹; !谣传; $喧闹; { 噪声	23
+4ily	'nQizili	%吵闹地	2
+4ome	'nOisam	#有害的, 恶臭的, 有毒的, 可厌的, 令人不快的	80
+4y	'nQizi	#嘈杂的, 喧闹的; [机] 噪声的, 嘈杂的	7e
+2mad	'naumad	@游牧部落一员, 流浪者; #游牧的, 流浪的	80
+5ic	nau'mEdik	#游牧的, 游牧生活的, 流浪的; | 游动的, 无定的, 游离的	c0
+3inal	'nQminl	#名义上的, 名字的, 有名无实的, 稍许的; @名词性词	b8
+6te	'nQmineit	!提名, 任命, 命名; } 提名...为候选人, 指定, 推荐	f8
+5ee	.nQmi'ni:	@被提名者, 被任命者; > 被指定人	60
+2n-drinker	'nQndr'iNkar	@不喝酒的人, 戒酒的人	20
+3chalance	'nQnSalans	@不关心, 冷淡, 无动于衷	80
+9t	'nQnSalant	#不关心的, 冷淡的, 无动于衷的	80
+4ommittal	.nQnka'mital	#不明朗的, 不承担义务的	80
+5nformist	'nOnkan'fOmist	@不相信英国国教的人, 不符合通常准则的人, 不落俗套的人; #违反准则的, 不落俗套的, 违反规范的	c0
+bty	.nQnkan'fQ:miti	@不适合, 不一致, 不信奉国教	40
+3e	nVn	%一点也不, 毫不; *没有人, 无一物, 并无一个; #没有的	3
+4ntity	nQn'entiti	@不存在, 非实在, 虚无	80
+4such	'nVnsVtS	@无以匹敌的人, 无与伦比的事物	80
+4theless	,nVnDa'les	&然而, 尽管, 不过; %不过, 仍然, 尽管如此, 然而	58
+3fiction	nQn'fikSan	@(非小说的)写实文学	40
+4lammable	nQn'flEmabl	#不燃烧的; [电] 无燃的	80
+3human	nQn'hju:man	#非人类的	40
+3pareil	'nOnparal	#无比的, 无上的; @完美无比的人, 举世无双的人/物, 完美无比的物	80
+4lus	'nQnplVs	!使困惑; @迷惑, 困惑	80
+4orous	'nOn'pO:ras	#无孔的, 无孔隙的	80
+4rofessional	.nQnprV'feSanl	#无职业的, 无专长的	40
+3radioactive	'nOnreidia'Ektiv	@非放射性	80
+3sense	'nQnsans	@无意义的事, 荒谬言行, 荒唐	5c
+7ical	nQn'sensikl	#无意义的, 荒谬的	80
+3traditional	.nOntra'diSanal	#不符合传统的, 非传统的	40
+3verbal	nOn'va:bal	#不用语言的；不用动词的	40
+4iable	nQn'vaiabl	#无法生活的; | 不能生活的	80
+5olence	nQn'vaialans	@非暴力; } 不诉诸武力的主张, 政策, 无暴力存在	40
+2odle	'nu:dl	@面条, 笨蛋	13
+3k	nuk	@角落, 躲蔽处, 隐匿处, 凹处	40
+3n	nu:n	@正午, 中午, 全盛期	3
+3se	nu:s	@套索, 束缚, 陷阱; !用套索捉	80
+2r	nQ:	&也不, 也没有; { 或非	3
+3m	nQ:m	@基准, 模范, 标准, 准则, 平均数; ] 定额	f8
+4al	'nQ:ml	@常态, 标准, 正常, 普通; #正常的, 正规的, 标准的, 师范的, 正态的; { 标准, 普通	7f
+6ization	.nQ:malai'zeiSan	@常态化, 正常化, 正规化; ] 归一化; 正态化; 正火; 正火处理	18
+6ly	'nQ:mali	%正规地, 合规则, 正常地	4c
+0North	nQ:T	@北方, 北; #北的, 北方的; %向北方, 在北方	3
+0northeast	.nQ:T'i:st	@东北; #东北的, 向东北的, 来自东北的; %向东北, 来自东北	1e
+6rn	'nQ:Dan	@北方人; #北方的, 向北的, 自北方来的	1f
+5ward	'nQ:Twad	@北方, 北; #向北的; %向北	8
+9s	'nO:Twadz	%向北方	a
+6est	.nQ:T'west	@西北, 西北方; #西北的, 在西北的, 来自西北的; %向西北	1e
+2se	nauz	@鼻子, 突出部分, 嗅觉; !嗅到, 探出, 用鼻子触; $闻, 嗅, 探听, 告密	3
+3talgia	nQs'tEldZia	@乡愁, 向往过去, 怀旧之情; | 怀乡病	e0
+4rum	'nQstram	@万能药, 成药, 妙方; | 秘方	80
+2t	nQt	%不, 非, 未; { 非	3
+3ability	.nauta'biliti	@显著, 著名, 著名人物	80
+5le	'nautabl	@著名人士, 值得注意之事物; #值得注意的, 显著的	f8
+6y	'najtbali	%显著地, 著名地, 尤其, 特别	40
+4ry	'nautari	@公证人; > 公证人, 公证员	20
+4te	'nauteit	vt.以符号表示,把.....写成记号(或标志)	40
+5ion	nau'teiSan	@记号, 符号表示法, 注释; { 记数法	68
+3ch	nQtS	@刻痕, 等级, 峡谷; !刻凹痕, 用刻痕计算, 赢得	e0
+3e	naut	@笔记, 记录, 注解, 票据, 符号, 显要, 注重, 便笺, 照会; !记录, 注解, 注意	43
+4book	'nautbuk	@笔记本, 手册, 期票簿	3f
+4d	'nautid	#著名的, 显著的, 扬名的	48
+4s	naut	@票据；注释, 说明（note复数）	20
+4worthy	'nautwa:Di	#值得注目的, 显著的	10
+3hing	'nVTiN	@无, 不关紧要之事, 零; %毫不, 决不; interj. 什么也没有, 无	23
+3ice	'nautis	@注意, 布告, 通知, 预告, 短评; !注意, 通知, 评论, 提及, 关注; $注意	7f
+6able	'nautisabl	#显而易见的, 显著的, 值得注意的	1c
+4fication	.nautifi'keiSan	@通知, 通告, 告示; > 通知, 通知书	8
+5y	'nautifai	!通知, 通告, 报告; { 通知	3c
+4on	'nauSan	@概念, 观念, 想法, 打算, 别致的小东西; > 概念, 打算, 想法	7c
+3orious	nau'tQ:rias	#声名狼藉的, 臭名昭著的, 众人皆知的	f8
+9ly		%臭名昭著的, 声名狼藉的	40
+3withstanding	.nQtwiT'stEndiN	%虽然, 尽管; ^尽管; &虽然	58
+2ught	nQ:t	@没有, 零, 无	28
+3n	naun	@名词	1c
+3rish	'na:riS	!滋养, 使健壮, 怀有	f8
+7ing	'na:riSiN	#有营养的, 滋养多的	40
+7ment	'na:riSmant	@滋养品, 养料, 营养; | 营养, 营养品	68
+2va	'nauva	@新星; { 诺瓦计算机	80
+3el	'nQvl	@小说, 长篇故事; #新奇的, 异常的	7e
+5ist	'nQvalist	@小说家	2
+5ty	'nQvalti	@新奇, 新鲜, 新奇的事物	f8
+0November	nau'vemba	@十一月	23
+0novice	'nQvis	@新手, 初学者	e0
+2w	nau	%现在, 刚才, 目前; @现在; #现在的; &由于	3
+3adays	'nauadeiz	@现在, 现时, 当今; %时下, 现今	5e
+3here	'nauhwea	%无处, 到处都无	3e
+2xious	'nQkSas	#有害的, 有毒的, 使道德败坏的; | 有害的, 有毒的	e0
+1uance	nju:'A:ns	@细微差别	a0
+2bile	'nju:bail	#适婚的; | 适合结婚的	80
+2clear	'nju:klia	#核子的, 原子能的, 核的, 中心的; | 核的	5e
+6te	'nju:klieit	v. (使)成核; #有核的	80
+5i	'nju:kliai	pl. 核心, 核子, 原子核; | 核	40
+5us	'nju:klias	@核心, 核子, 原子核, 起点; { 核心程序	fc
+2de	nju:d	#裸的, 肉色的, 无装饰的; @裸体画, 裸体	80
+3ge	nVdZ	@用肘轻推, 推动, 讨厌家伙	80
+2gatory	'nju:gatari	#无价值的, 无用的, 无效的, 琐碎的	80
+2isance	'nju:sns	@讨厌的东西, 讨厌的人, 损害; | 损害, 讨厌	3c
+2ll	nVl	#无效力的, 无效的, 无价值的; @零, 空, 零位; { 空	60
+4ify	'nVlifai	!使无效, 废弃, 取消; ] 使等于零; 作废	a0
+2mb	nVm	#麻木的, 失去知觉的; !使麻木, 使昏迷, 使失去知觉	f2
+4er	'nVmba	@数, 数字, 数目, 号码; !数, 计算, 共计; $计算, 报数; { 数字	3
+3erical	nju:'merikl	#数字的, 数值的, 以数字表示的, 擅长于计数的; > 数字的, 用数字表示的	78
+5ology	.nju:ma'rOladZi	@命理学；数字命理学	80
+6us	'nju:maras	#很多的, 数目众多的, 多数的; [机] 多数的, 甚多的	fc
+3inous	'nju:minas	#精神上的, 超自然的	80
+4smatic	.nju:miz'mEtik	#货币的, 奖章的, 古币学的	80
+9st	nju:'mizmatist	@钱币(或奖章)收藏家	80
+2n	nVn	@修女, 尼姑	8
+2ptial	'nVpSal	@婚礼; #婚姻的, 婚礼的	80
