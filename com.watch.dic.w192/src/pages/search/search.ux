@@ -841,7 +841,7 @@ export default {
 
 .edit-row {
   width: 168px;
-  height: 42px;
+  height: 50px;
   margin-bottom: 6px;
   flex-direction: row;
   justify-content: space-between;
