@@ -1,0 +1,77 @@
+{
+  "package": "com.watch.dic.w466",
+  "name": "腕上词典",
+  "versionName": "2.3.1",
+  "versionCode": 5,
+  "minPlatformVersion": 1000,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch",
+    "band"
+  ],
+  "features": [
+    {
+      "name": "system.router"
+    },
+    {
+      "name": "system.vibrator"
+    },
+    {
+      "name": "system.device"
+    },
+    {
+      "name": "system.file"
+    },
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.prompt"
+    }
+  ],
+  "config": {
+    "logLevel": "log",
+    "designWidth": "device-width"
+  },
+  "router": {
+    "entry": "pages/index",
+    "pages": {
+      "pages/index": {
+        "component": "index"
+      },
+      "pages/search": {
+        "component": "search"
+      },
+      "pages/results": {
+        "component": "results"
+      },
+      "pages/detail": {
+        "component": "detail"
+      },
+      "pages/records": {
+        "component": "records"
+      },
+      "pages/about": {
+        "component": "about"
+      },
+      "pages/sponsor": {
+        "component": "sponsor"
+      },
+      "pages/filter": {
+        "component": "filter"
+      },
+      "pages/settings": {
+        "component": "settings"
+      }
+    }
+  },
+  "minAPILevel": 1,
+  "packageInfo": {
+    "toolkit": "2.0.5",
+    "timeStamp": "2026-08-15T09:41:55.912Z",
+    "node": "v24.17.0",
+    "platform": "win32",
+    "arch": "x64",
+    "component": true
+  }
+}
