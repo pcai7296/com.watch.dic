@@ -1,0 +1,500 @@
+0automatic	.Q:ta'mEtik	@自动手枪, 自动机械; #自动的, 机械的, 必然的, 无意识的	7e
+9ally	.Q:ta'mEtikli	%自动地, 机械地	4
+8on	.Q:ta'meiSan	@自动化, 自动操作; { 自动学; 自动化	bc
+5obile	'Q:tamabi:l	@汽车; [机] 汽车	2c
+6tive	.Q:tau'mautiv	#汽车的	40
+4nomous	Q:'tQnamas	#自治的; | 自主的	c2
+7y	Q:'tQnami	@自治, 自治权; | 自主性	f0
+4psy	'Q:tapsi	@验尸; | 尸体解剖, 尸体剖检	40
+3umn	'Q:tam	@秋天, 成熟期	3
+2xiliary	Q:g'ziljari	@辅助者, 辅助物, 附属机构, 助动词; #辅助的, 备用的	fc
+1vail	a'veil	$有用, 有利; !有利于; @效用, 利益	38
+5ability	a.veila'biliti	@有效性, 可利用性, 可利用的人; { 有效性; 可用性	8
+7le	a'veilabl	#可利用的, 可获得的, 有效的; | 有效的, 可得的	ff
+3lanche	'EvalA:ntS	@雪崩, 山崩, 大量; $崩塌; !大量涌至	e0
+3nt-garde	.EvON'gA:d	@先锋派；前卫派	c0
+3rice	'Evaris	@贪婪	c0
+6ious	.Eva'riSas	#贪婪的	c0
+2enge	a'vendZ	!为...报复, 报仇	80
+4ue	'Evanju:	@大街, 途径, 林荫路	76
+3r	a'va:	!断言, 坚称; } 立证, 证明, 确证	80
+4age	'EvaridZ	@平均, 平均数, 一般水平, 海损; #平均的, 中等的, 平常的; !算出...平均数, 平均做, 均分, 使平衡; $平均为, 呈中间色	76
+4se	a'va:s	#不愿意的, 反对的	c0
+5ion	a'va:San	@厌恶, 讨厌的事, 讨厌的人; | 厌恶, 移转, 移位	c0
+4t	a'va:t	!转开, 避免, 防止	f8
+2iary	'eivjari	@大型鸟舍, 鸟类饲养场	80
+4tion	.eivi'eiSan	@航空, 航空学, 飞行术; } 航空, 飞行, 飞行术	7c
+5or	'eivieita	@飞行员	40
+3d	'Evid	#渴望的, 急切的, 劲头十足的	c0
+2ocation	.Evau'keiSan	@副业, 嗜好; } 法院之间诉讼的转移, 职业, 本职	c0
+9al		业余爱好的; 副业的	40
+3id	a'vQid	!避免, 防止, 撤消; } 避免, 回避, 躲开	f7
+5able	a'vQidabl	#可避免的; } 可作为无效的, 可回避的, 可避免的	40
+6nce	a'vQidans	@避免, 避开, 逃避; > 回避, 废止, 宣告无效	40
+3uch	a'vautS	v. 断言, 主张, 保证, 承认	40
+3w	a'vau	!坦率承认, 断言; } 公开宣称, 声明, 供认	c0
+4al	a'vaual	@公开表示, 坦率承认; } 声明, 公开宣布, 供认	80
+2uncular	a'vVNkjula	#叔伯的, 叔伯似的	80
+1wait	a'weit	!等候; $等待着	14
+3ke	a'weik	#醒着的; !唤醒, 唤起, 使意识到; $醒来, 被唤起, 意识到	1f
+3rd	a'wQ:d	@奖品, 裁定, 判决; !授予, 给予	3e
+4e	a'wea	#知道的, 有觉悟的	76
+5ness	a'weanis	@意识, 认识; { 识别, 议定, 明白	60
+3y	a'wei	%离去	3
+2e	Q:	@敬畏; !使敬畏	d0
+3-inspiring	'O:in,spaiariN	#使人畏惧的	80
+3some	'Q:sam	#引起敬畏的, 可怕的	2
+2ful	'Q:ful	#可怕的, 庄严的, 虔敬的	3e
+5ly	'Q:fuli	%恶劣地, 非常地, 极端地	4
+2kward	'Q:kwad	#笨拙的, 棘手的	fe
+7ly		%笨拙地；无技巧地	40
+2l	Q:l	@钻子, 尖锥	80
+2ning	'Q:niN	@遮篷, 雨篷	80
+2ry	a'rai	#歪的, 错误的; %歪斜地, 错地	80
+1x	Eks	@斧头; !用斧削或砍, 削减	4
+2e		@斧, 斧头; !削减(人员、经费、计划、机构等)	50
+2ial	'Eksial	#轴的, 成轴的, 轴向的; | 轴的, 中轴的	8
+3om	'Eksiam	@自明之理, 公理, 原理, 格言; } 公理, 原理, 原则	80
+3s	'Eksis	@轴; { 坐标轴	fc
+2le	'Eksl	@轴, 车轴; [电] 轴	88
+1zure	'EZa	@天蓝色, 碧空; #蔚蓝的	c0
+0B.C.		公元前	4
+0babble	'bEbl	$牙牙学语, 喋喋不休; !唠叨, 吐露; @儿语, 胡言乱语, 嘈杂声; { 串音	80
+3oon	ba'bu:n	@狒狒; | 狒狒	40
+3y	'beibi	@婴孩; | 婴儿	3
+4-sitter		@看顾小孩的人	40
+2cchanal	'bEkanl	#酒神的, 酒神节的, 狂饮作乐的; @酒神崇拜者, 狂饮作乐	80
+3helor	'bEtSala	@单身汉, 学士; } 学士, 单身汉	5e
+3k	bEk	#后面的; !使后退, 支持; $倒退, 背靠; %向后地; @背部, 后面	23
+4ache	'bEkeik	@背痛	2
+4bone	'bEkbaun	@脊椎, 志气, 骨干, 支柱; { 主干网, 主干网点	48
+4drop	'bEkdrQp	@背景幕, 背景	c0
+4ground	'bEkgraund	@背景, 背景资料; { 背景, 后台	77
+4handed	'bEk'hEndid	#间接的	80
+4pack	'bEkpEk	@远足用的背包；双肩背包, 背包	40
+4set	'bEkset	@挫折, 倒退, 逆流, 涡流	80
+5lide	.bEk'slaid	$堕落, 退步; @堕落, 退步	80
+4ward	'bEkwad	%向后地, 相反地; #向后的, 相反的; { 倒推	76
+6ter	'bEk.wQ:ta	@死水, 滞水, 停滞, 回水	80
+3on	'beikan	@熏猪肉; [机] 腌肉	3a
+3teria	bEk'tiaria	pl. 细菌; | 细菌, [无芽胞]杆菌	ec
+7um	bEk'tiariam	@细菌; | [无芽胞]杆菌属	ba
+2d	bEd	#坏的; @坏; %坏地	3
+3ge	bEdZ	@徽章, 标记; { 标记	b8
+5r	'bEdZa	@獾, 獾皮毛; !纠缠	c0
+3inage	bEdinA:Z	@开玩笑；嘲弄, 揶揄	80
+3ly	'bEdli	%严重地, 恶劣地, 极度地	16
+3minton	'bEdmintan	@羽毛球运动	3e
+2ffle	'bEfl	!困惑, 为难, 使挫折; $徒作挣扎; @迷惑, 挡板	a8
+2g	bEg	@袋子, 袋状物; !使膨大, 装袋, 猎获	3
+3gage	'bEgidZ	@行李; > 行李	76
+2il	beil	@保释, 拎环, 杓, 栅栏; !保释, 舀水	80
+3t	beit	@饵; !以饵引诱, 欺负; $中途休息	f8
+2ke	beik	!烘焙, 烤; $烤面包; @烘焙, 烤	36
+4ry	'beikari	@面包店	2
+2lance	'bElans	@平衡, 差额; $平衡, 相等; !称, 权衡, 比较, 使平衡, 结算, 抵消	76
+7d	'bElanst	#公平的, 平衡的; { 平衡的, 对称的, 均衡的	40
+3cony	'bElkani	@阳台, 戏院楼厅	7e
+3d	bQ:ld	#秃头的, 光秃的, 单调的, 赤裸的; $变秃	78
+4ness	'bQ:ldnis	@光秃, 率直, 枯燥; | 秃[发], 脱发	20
+3e	beil	@包, 捆, 货物, 灾难; !打包, 捆包	80
+4ful	'beilful	#有害的, 恶意的	80
+3k	bQ:k	@障碍, 错误, 失败; !阻止, 错过, 推诿; $逡巡不前	c0
+4y	'bQ:ki	#停蹄不前的	80
+3l	bQ:l	@球, 舞会, 球状物; v. 捏成球形	3
+4ad	'bElad	@歌谣	80
+5st	'bElast	@压载物, 压舱物; > 底货, 压舱货	80
+4erina	.bEla'ri:na	@芭蕾舞女演员	80
+5t	'bElei	@芭蕾舞	7a
+4oon	ba'lu:n	@气球; !使成气球状; $膨胀如气球, 激增	f7
+7ist	ba'lu:nist	@驾驶/操纵气球的人	40
+5t	'bElat	@投票, 投票用纸, 抽签; $投票, 抽签; !投票选出, 拉选票	f8
+4point		@圆珠笔	2
+4room	'bQ:lrum	@舞厅, 跳舞场	20
+3m	bA:m	@镇痛软膏, 香膏; ] 香树膏; 香脂	80
+4y	'bA:mi	#芳香的, 温和的, 止痛的; ] 香脂气味的	c0
+2mboo	bEm'bu:	@竹子; | 竹类	2b
+6zle	bEm'bu:zl	!欺骗, 迷惑	80
+2n	bEn	@禁令; !禁止, 取缔	fe
+3al	ba'nA:l	#平凡的, 陈腐的	80
+4na	ba'nA:na	@香蕉	3
+3d	bEnd	@带子, 队, 乐队; v. 联合, 结合; { 频带; 波段; 区	f6
+4age	'bEndidZ	@绷带; ] 帘布筒; 实心轮胎; 紧带; 绷带	ba
+5nna	bEn'dEna	@一各印花大手帕	40
+4it	'bEndit	@强盗	48
+4leader	'bEnd,li:da(r)	@伴舞乐队的指挥	40
+4master	'bEnd.mA:sta	@管乐队指挥	40
+4s	'bEndz	@法官；乐队	20
+4y	'bEndi	#向外弯曲的; !打来打去, 谈论, 往复投掷	80
+3e	bein	@祸根, 毒药, 灭亡的原因, 灭亡; | 毒物, 毒, 毒药	80
+3g	bEN	@重击, 突然巨响, 刘海; v. 发巨响, 重击; %砰然地, 突然巨响地, 直接地; { 撞击符	7e
+3ish	'bEniS	!驱逐, 消除; } 驱逐, 流放	e0
+5ter	'bEnista	@栏杆的支柱, 楼梯的扶栏	80
+3k	bENk	@银行, 堤, 岸; | 库	23
+4er	'bENka	@银行家, 庄家; > 银行业者, 银行家	48
+4ing	'bENkiN	@银行业务; > 银行业, 银行事务	20
+4rupt	'bENkrVpt	@破产者; #破产的; !使破产	f8
+8cy	'bENkraptsi	@破产者; > 破产, 倒闭	48
+3ner	'bEna	@旗帜; #显著的, 特别好的	74
+3quet	'bENkwit	@宴会	f8
+3ter	'bEnta	@戏谑, 嘲弄; v. 戏弄, 开玩笑	80
+2r	bA:	@条, 棒, 酒吧, 栅, 障碍物; !禁止, 阻挡, 妨碍; { 棒形图	f6
+3b	bA:d	@倒钩; !装倒钩于	c0
+4arian	bA:'bearian	@野蛮人; #野蛮的	40
+6ous	'bA:baras	#野蛮的, 残暴的, 粗野的	80
+4ecue	'bA:bikju:	@烤肉; !烤肉, 烧烤	f2
+5r	'bA:ba	@理发师	76
+6shop		@理发店	2
+3d	bA:d	@吟游诗人, 诗人	80
+3e	bea	#赤裸的, 缺少的, 无遮蔽的, 坦率的; !使赤裸, 露出	f6
+4faced	'beafeist	#公然的, 无耻的, 无面具的	80
+4ly	'beali	%几乎不	7c
+3gain	'bA:gin	@交易, 买卖协定, 特价商品; v. 讲价, 交易	be
+4e	bA:dZ	@驳船; !用船运输; $蹒跚, 闯入	c8
+3k	bA:k	@树皮, 吠声; $吠, 叫骂; !喊出, 剥树皮	fe
+3ley	'bA:li	@大麦; | 大麦	8
+3n	bA:n	@谷仓; ] 靶(恩)(核反应截面单位)	fc
+3ometer	ba'rQmita	@气压计; ] 气压计	68
+4n	'bEran	@男爵; } 男爵, 贵族, 大王	88
+4que	ba'rQk	@巴罗克风格, 巴罗克式; #巴罗克式的, 绮靡的, 以俗艳标新立异的	c0
+3rage	'bErA:dZ	@弹幕, 掩护炮火; !以密集炮火进攻	80
+4el	'bEral	@桶; !装入桶内	7c
+5n	'bEran	#不育的, 贫瘠的; @荒地	f8
+6ness		@贫瘠, 不妊, 不孕, 不生育, 不毛, 荒芜, 思想贫乏, 空洞, 无用, 无聊; | 不育症, 不孕症	40
+4icade	.bEri'keid	@路障, 障碍; !设路障于, 阻碍	e0
+5er	'bEria	@障碍, 栅栏; ] 势垒; 阻片; 阻挡层	fe
+5ster	'bErista	@出庭律师, 律师; } 律师, 专门律师, 大律师	80
+3ter	'bA:ta	@物物交换, 实物交易; v. 物物交换, 交换	e0
+2se	beis	@底部, 垒, 基础, 基地; !以...作基础; #卑鄙的, 低劣的; { 基准	96
+4ball	'beisbQ:l	@棒球; { 棒球系统	3f
+4ment	'beismant	@地下室, 墙脚; ] 地下室	7a
+3hful	'bESful	#害羞的	40
+3ic	'beisik	@基本原理, 要素, 基本规律; #基本的, 碱性的; (计算机)BASIC语言	77
+5ally	'beisikli	%基本上, 主要地	4
+4n	'beisn	@盆, 盆地; | 第三脑室, 骨盆	5e
+4s	'beisis	@基础, 主要成分; ] 基底	36
+3k	bA:sk	$晒太阳, 感到舒适	c0
+4et	'bA:skit	@篮, 篮子; !装入篮	3
+6ball	'bA:skitbQ:l	@篮球	3
+3soon	ba'su:n	@低音管, 巴松管	80
+3te	beist	!用长针脚粗缝, 润以油脂, 狠揍	c0
+2t	bEt	@蝙蝠, 球棒; v. 用球棒打, 眨眼; { 成批	16
+3ch	bEtS	@一次所烘的面包, 一次所制之量, 一组, 批, 成批, 分批; v. 成批, 分批处理; { 一批	b8
+3h	bET.bA:T	@沐浴, 浴室; | 浴	36
+4e	beiD	!沐浴, 用水洗; $洗澡	36
+5r	'beiDa	@入浴者, 游泳者	80
+5tic	ba'Tetik	#陈腐的, 突降的	80
+4robe	'bA:Traub	@浴衣	2
+6om	'bA:Tru:m	@浴室, 厕所	37
+4tub	'bA:TtVb	@浴缸	2
+3on	'bEtan	@指挥棒, 接力棒, 警棍	80
+3talion	ba'tEljan	@营, 军队, 集团	80
+4er	'bEta	v. 连续猛打（尤其指妇女），猛击; @面糊（食物），击球员，打击手	60
+6y	'bEtari	@电池, 殴打; ] 蓄电池	7e
+4le	'bEtl	@战役; v. 战斗	5e
+6ground	'bEtlgraund	@战场, 战地	2
+2uble	'bQ:bl	@美观而无价值的东西, 玩具, 小玩意	80
+3xite	'bQ:ksait	@铝矾土, 铝土矿; ] 铝土矿	80
+2wdy	'bQ:di	#淫秽的, 言语猥亵的	80
+3l	bQ:l	@大叫声; v. 大叫	80
+2y	bei	@海湾, 狗吠声, 月桂; !吠, 使走投无路; $吠	7e
+2zaar	ba'zA:	@集市, 市场, 义卖市场	88
+1e	bi:	v. 是, 表示, 在; { 后端, 总线允许	3
+2ach	bi:tS	@海滩	37
+4on	'bi:kn	@烽火, 灯塔; v. 照亮	c0
+3d	bi:d	@珠子, 滴; !用珠装饰; $形成珠; { 珠	68
+4ed	bi:did	#珠状的；饰以珠的	40
+3k	bi:k	@鸟嘴, 喙; | 嘴, 喙	40
+3m	bi:m	@横梁, 杆, 光线, 容光焕发; $用梁支承, 微笑, 射出光线; !照耀, 感到欣喜; { 束	fe
+3n	bi:n	@豆子; ] 油嘴; 豆	5e
+4curd	'bi:nka:d	@豆腐	2
+3r	bea	@熊; !忍受, 支承, 产生, 怀有, 通过卖空使跌价; $忍受, 结果实, 压挤, 行进, 转向	62
+4d	biad	@胡须; !抓住胡须, 公开反对	76
+4ing	'beariN	@举止, 轴承, 忍受, 关系, 意义, 方向, 生育; ] 轴承	b8
+3st	bi:st	@畜生, 动物, 野兽, 兽性	56
+3t	bi:t	@心跳(声), 打, 敲打声, 拍子; v. 打, 拍打, 打败; #疲乏的, 颓废的; beat的过去式; { 拍; 节拍	e3
+4ific	.bi:a'tifik	#至福的, 赐福的, 极乐的	80
+4s	bi:ts	@音乐节拍；差拍振动；心脏跳动（beat的复数）	20
+3utiful	'bju:tiful	#美丽的	23
+5y	'bju:ti	@美, 美人	36
+3ver	'bi:va	@海狸(毛皮); [机] 轻型及中型飞机加油	40
+2cause	bi'kQ:z	&因为	3
+3kon	'bekan	v. 招手示意, 召唤, 吸引; @表召唤的点头(或手势)	80
+3ome	bi'kVm	$变成, 变得; !适合	23
+5ing	bi'kVmiN	#合适的, 适当的	40
+2d	bed	@床, 睡眠处, 河床, 底座, 路基, 一层; !提供宿处, 栽种, 安装; $睡, 形成坚实的一层	3
+3clothes	'bedklauDz	@铺盖, 床上用品; | 铺盖, 被褥	2
+3dings	'bediN	@寝具；（建筑）[建] 基床；（家畜）草垫; #适于花坛种植的; !把…栽入苗床（bed的ing形式）; $睡（bed的ing形式）	2
+3eck	bi'dek	!装饰, 修饰	c0
+3izen	bi'daizn	!俗丽地打扮(或装饰)	80
+3lam	'bedlam	@混乱, 喧闹, 疯人院; | 精神病院, 精神病	80
+3raggled	bi'drEgld	#全身泥污的, 满身湿透的, 破烂的	80
+4ock	bed'rQk	@基岩, 基本原理, 基础	40
+5om	'bedrum	@卧室	23
+3s	bed	@床上用品, 床组（bed复数）	20
+4it	bed'sit	@卧室兼起居室; !租用卧室兼起居室	20
+2e	bi:	@蜜蜂, 聚会	17
+3f	bi:f	@牛肉, 肌肉; !养(牛), 宰(牛); $抱怨, 告发	3
+3hive	'bi:haiv	@蜂窝, 蜂箱; [机] 集气架, 蜂巢	2
+3r	bia	@啤酒; ] 啤酒	2
+3t	bi:t	@甜菜(根); ] 甜菜	80
+4le	'bi:tl	@甲虫, 大槌; $快速移动; !捶	8
+2fore	bi'fQ:	^在...之前; &在...之前; %在前	3
+6hand	bi'fQ:hEnd	%预先	7c
+3uddle	bi'fVdl	!使昏沉, 使迷惑, 使糊涂	c0
+8ment		| 迷惘, 迷糊	80
+2g	beg	v. 乞求, 乞讨, 请求	56
+3et	bi'get	!为某人之生父, 招致, 产生, 引起	c0
+3gar	'bega	@乞丐; !使贫穷, 使成乞丐	c
+3in	bi'gin	v. 开始; { 开始	3
+5ner	bi'gina	@初学者	4
+8s	bi'gina	@初学者；生手；首创者（beginner的复数）	20
+6ing	bi'giniN	@开始	3e
+3rudge	bi'grVdZ	!嫉妒, 羡慕, 勉强允给, 吝惜	c0
+3uile	bi'gail	!诱骗	c0
+2half	bi'hA:f	@利益, 方面	7e
+4ve	bi'heiv	$举止端正, 行为规矩; !检点(自己的)行为, 使表现好	7e
+5ior	bi'heivja	@行为, 举止; | 行为	7c
+7ur	bi'heivja	@行为, 举止; { 特性, 性能, 特点, 行为, 动作, 状态	43
+3ind	bi'haind	%在后地; ^在...背后	3
+3old	bi'hauld	!看到, 注视; $看	80
+6en	bi'haudan	#负有义务的, 受惠的	80
+7r	bi'hajlda(r)	@观看者	80
+4ove	bi'hu:v	!理应, 应该; $理所当然	80
+2ing	'bi:iN	@存在, 性质, 生命, 人, 生物, be的现在分词	16
+2labor	bi'leiba	!痛打; } 殴打, 鞭打, 辱骂	80
+4ted	bi'leitid	#迟来的; } 过了期的, 落后了的	80
+3ch	beltS	$打嗝, 喷吐; !打嗝, 吼叫着发出(命令), 喷吐; @打嗝, 喷吐	80
+3eaguer	bi'li:ga	!围, 围攻	80
+0Belgium	'beldZam	@比利时	2
+0belie	bi'lai	!掩饰, 与...不符, 使失望	c0
+5f	bi'li:f	@信念, 相信, 信仰	56
+5ve	bi'li:v	v. 相信	3
+7r	bi'li:va	@信徒	40
+4ttle	bi'litl	!轻视, 贬低	c0
+3l	bel	@铃, 钟; { 响铃命令	3
+4icose	'belikaus	#好战的, 好斗的; } 好战的	80
+5gerence	bi'lidZarans	@交战, 好战性, 斗争性	80
+at	bi'lidZarant	#好战的, 交战的, 交战国的; } 交战一方, 交战国, 交战集团	40
+4ows	'belauz	@风箱; ] 手风箱; 皮老虎; 波纹管	40
+4wether	'bel.weDa	@系铃带头羊, 前导, 领导者	80
+4y	'beli	@腹部, 食欲; !使鼓起; $鼓起, 匍匐前进	32
+3ong	bi'lQN	$属于, 合适	56
+6ings	bi'lQNiNz	@财产, 所有物, 相关事物; > 财产, 所有物, 附属物	80
+4ved	bi'lVvd	#心爱的; @心爱的人	34
+4w	bi'lau	^在下面; %在下面	43
+3t	belt	@带子, 地带; | 带, 腰带, 束带, 地带, 区	56
+4s	belt	@带子；皮带（belt的复数）	20
+2mused	bi'mju:zd	#困惑的, 发呆的	80
+2nch	bentS	@长椅子; [机] 台	9e
+3d	bend	$变弯曲, 屈服; !使弯曲, 使屈服; @弯曲	fe
+3eath	bi'ni:T	^在...下方; %在...下方	56
+4diction	.beni'dikSan	@祝福	80
+4factor	'benifEkta	@恩人, 捐助者, 施主; } 捐赠人, 赠送人	c0
+5icial	.beni'fiSal	#有益的, 受益的; > 有使用权的, 可享利益的	76
+9ry	.beni'fiSari	@受惠者, 受益人; #受封的	48
+6t	'benifit	@利益; !有益于; $受益	7e
+7s	'benifit	@利益, 收益；福利, 效益（benefit的复数形式）	20
+4volent	bi'nevalant	#善意的, 慈善的	c0
+3ign	bi'nain	#善良的, 良性的; | 良性的	d8
+4son	'benizan	@祝福	80
+3t	bent	#弯曲的, 决心的; @爱好; bend的过去式和过去分词	e2
+2queath	bi'kwi:D	!遗赠, 遗留; } 遗赠, 遗留...给	80
+5st	bi'kwest	@遗赠物, 遗产, 遗赠; > 遗产	c0
+2rate	bi'reit	!严责	c0
+3eave	bi'ri:v	!使孤寂, 使丧失, 使失去	c0
+4ft	bi'reft	#缺少的, 丧失的, 失去亲人的; bereave的过去式和过去分词	80
+0Berlin	ba:'lin	@柏林, (软质)柏林毛线	20
+0berry	'beri	@浆果; $采集浆果	4
+3serk	ba'sa:k	#狂暴的, 疯的; %狂暴地, 疯地	80
+3th	ba:T	@船岸之间的水区, 锚地, 卧铺; $停泊; !使停泊	20
+2seech	bi'si:tS	v. 恳求, 哀求	80
+4t	bi'set	!围绕, 使苦恼, 镶嵌	e0
+3ide	bi'said	^在旁边	3
+6s	bi'saidz	^除...之外; %而且, 此外	57
+4ege	bi'si:dZ	!围攻, 包围	c0
+3mirch	bi'sma:tS	!弄污	80
+3peak	bi'spi:k	!预约, 订, 表示; @预约	c0
+3t	best	#最好的; %最好地; @最好的人	20
+4ial	'bestjal	#似野兽的, 残忍的, 卑劣的	80
+4ow	bi'stau	!授予, 使用, 贮藏, 留宿	c8
+2t	bet	@打赌, 赌注; v. 打赌	34
+3oken	bi'taukn	!预示	c0
+3ray	bi'trei	!出卖, 背叛, 辜负, 暴露; } 出卖, 背叛, 泄漏	fe
+4oth	bi'trauD	!订婚, 许配; } 订婚	80
+3ter	'beta	#较好的; %比较好	22
+3ween	bi'twi:n	^在...之间	3
+2verage	'bevaridZ	@饮料; ] 饮料(如牛奶、茶、咖啡、啤酒等)	f0
+2ware	bi'wea	v. 小心, 谨防	18
+3ilder	bi'wilda	!使迷惑, 使不知所措	f8
+8ing	bi'wildariN	#令人困惑的, 使人昏乱的	80
+2yond	bi'jQnd	^超过, 在那一边, 迟于; %在远处; @更远处	17
+1ias	'baias	@偏见, 斜纹; #偏斜的; %偏斜; !使有偏见; { 偏流; 偏压; 偏磁; 偏离	78
+4ed	'baiast	#有偏见的; { 边缘的	8
+2ble	'baibl	@圣经	34
+4iography	.bibli'Qgrafi	@参考书目; { 书目; 文献目录	b0
+6phile	'bibliaufail	@爱书者, 藏书家	80
+3ulous	'bibjulas	#饮酒的, 嗜酒的, 吸水的; | 吸水的	80
+2cameral	bai'kEmaral	#两院制的, 有两个议院的; | 二室的, 两室的	40
+3ker	'bika	$斗嘴, 潺潺而流, 闪动; @口角, 流水声	c0
+3ycle	'baisikl	@自行车	37
+7s	'baisikl	@自行车；脚踏车（bicycle的复数）	20
+2d	bid	@出价; v. 命令, 吩咐, 请求, 表示, 宣布, 投标	ba
+3ding	'bidiN	@命令, 邀请, 出价; > 投标, 招标	40
+2ennial	bai'enial	@两年生植物, 两年一次的事; #两年生的, 两年一次的	80
+2furcate	'baifakeit	v. (使)分叉; #分双叉的	80
+2g	big	#大的, 重要的; %大量地	3
+3ot	'bigat	@盲从者, 偏执的人	80
+5ed	'bigatid	#盲从的, 固执己见的, 执迷的, 顽固的	40
+5ry	'bigatri	@盲从, 偏见, 偏执的行为(或态度)	40
+2ke	baik	@自行车, 脚踏车	1
+2lateral	bai'lEtaral	#有两边的, 双边的, 双方的; | 两侧的	60
+3e	bail	@胆汁, 坏脾气, 暴躁; | 胆汁	80
+3ingual	bai'liNgwal	#双语的	a0
+4ous	'biljas	#患胆(或肝)病的, 胆汁质的, 坏脾气的; | 胆汁的, 胆汁质的	80
+3k	bilk	!欺骗, 赖帐, 使受挫折; @赖帐者, 骗子	80
+3l	bil	@帐单, 清单, 钞票, 鸟嘴, 广告, 法案, 票据; !开帐单, (用招贴)宣布	77
+4ion	'biljan	)十亿, 十亿个	5e
+4ow	'bilau	@巨浪; $象巨浪般汹涌, 象巨浪般波动; !使翻腾	80
+6y	'bilaui	#巨浪似的, 汹涌的	80
+2n	bin	@(贮存谷物等的)容器, 箱子; { 二进制, 商业信息网	90
+3d	baind	!绑, 约束, 装订, 包扎, 使结合; $凝固, 有约束力; { 赋值, 绑定	74
+3go	'biNgau	@宾戈(一种赌博游戏), 烈酒	2
+2ochemistry	.baiau'kemistri	@生物化学; ] 生物化学; 生化	42
+3grapher	bai'Qgrafa	@传记作者	40
+8y	bai'Qgrafi	@传记	72
+3logical	.baiau'lQdZikal	#生物学的; | 生物学的	20
+7st	bai'QladZist	@生物学家; | 生物学家	40
+6y	bai'QladZi	@生物学; ] 生物; 生物学	36
+3sphere	'baiasfia	@生物圈; | 生物圈, 生物层	80
+3tech	'baiaUtek	@生物技术	8
+2ped	'baiped	@两足动物; #有两足的	80
+5al	'bai,pedal,bai'pe-	| 两足的	50
+2rd	ba:d	@鸟, 羽毛球; $打鸟	3
+4cage	'ba:dkeidZ	@鸟笼	2
+4s	ba:d	@鸟类；禽（bird的复数）	20
+0Birmingham	'ba:miNam	@伯明翰	20
+0birth	ba:T	@出生, 起源; | 生产, 分娩	37
+5day	'ba:Tdei	@生日	3
+5place	'ba:Tpleis	@诞生地	2
+2scuit	'biskit	@饼干; ] 素坯; 饼干	17
+3hop	'biSap	@主教, (国际象棋中的)象, 热果子酒	a
+3on	'baisan	@野牛	40
+2t	bit	@少量, 马嚼子, 辅币; !给马上嚼子, 控制; bite的过去式和过去分词; { 比特, 二进制数位, 机内测试	83
+3e	bait	@咬, 一口; v. 咬, 刺痛, 穿透	76
+3ter	'bita	#苦的, 痛苦的, 怀恨的; %刺骨; v. (使)变苦	77
+6ly	'bitali	%怨恨地, 悲痛地, 残酷地	4
+6ness	'bitanis	@苦味, 悲痛, 怨恨	48
+3umen	bi'tjumin	@沥青; ] 沥青; 石油沥青	20
+2zarre	bi'zA:	#奇异的	f8
+1lack	blEk	@黑色, 黑颜料; #黑色的	23
+5ball	'blEkbQ:l	@反对票, 黑球; !投票反对, 排斥	80
+6oard	'blEkbQ:d	@黑板	3
+5mail	'blEkmeil	@勒索; !勒索	d0
+5smith	'blEksmiT	@铁匠; [机] 铁匠	48
+3de	bleid	@叶片, 刀锋, 刀口, 剑; | 页[片], 叶片, 刀片, 刀刃, 刀口	dc
+3me	bleim	@过失, 责备; !责备, 归咎于	7e
+3nch	blA:ntS	!漂白, 使变白; $发白	80
+4d	blEnd	#温和的, 乏味的, 冷漠的; | 温和的, 淡的	c0
+5ishment	'blEndiSmant	@甜言蜜语, 谄媚, 奉承	80
+4k	blENk	@空格, 空白; #空白的, 空虚的, 完全的, 无色的; $消失, 成为空白; !使无效, 取消, 封锁; { 空白	36
+5et	'blENkit	@毛毯, 毯子; !掩盖, 覆盖; #总共的	76
+3re	blea	@巨响, 吼叫声, 光泽; $高声鸣叫, 大叫; !大声喊出	80
+3sphemy	'blEsfami	@亵渎神明, 亵渎神明的言词; } 冒秽罪, 侮辱, 亵秽	80
+4t	blEst	@一阵风, 爆炸, 枯萎病; !炸, 使枯萎; $炸, 猛攻, 猛烈抨击, 枯萎	fc
+3tant	'bleitant	#喧嚣的, 吵闹的, 俗丽的, 炫耀的	80
+3ze	bleiz	@火焰, 烈火, 光辉; $燃烧, 发光; !使燃烧, 宣布, 在树皮上刻痕	7c
+4ing	'bleiziN	#炽燃的, 强烈的	40
+4on	'bleizan	!装饰, 宣布; @纹章	80
+2each	bli:tS	!漂白; $变白; @漂白, 漂白剂	e8
+6ers	'bli:tSaz	@漂白剂（bleacher的复数形式）；（美）露天看台	80
+4k	bli:k	#萧瑟的, 荒凉的, 阴冷的	f8
+3ed	bli:d	$流血, 悲痛, 渗出; !使出血, 榨取	7e
+3mish	'blemiS	@污点, 缺点; !弄脏, 玷污, 损害	c0
+3nd	blend	!混合; @混合	7c
+3ss	bles	!祝福, 祈佑, 使神圣化	3e
+5ing	'blesiN	@祝福	40
+2ight	blait	@枯萎病; !使染上枯萎病, 破坏; $枯萎	80
+6ed	blait	#挫折, 枯萎, 摧残, 毁损	80
+3nd	blaind	@蒙蔽物, 窗帘; #盲目的, 瞎的, 不加思考的; !使失明, 蒙蔽, 遮暗; %盲目地	3f
+5s	'blaindz	@百叶窗；盲人（常用复数）	80
+4k	bliNk	$眨眼, 闪亮; !眨眼, 使闪亮; @眨眼, 瞬间, 闪光, 闪烁; { 闪烁	68
+3ss	blis	@福佑, 天赐的福; { 实现系统软件的基本语言	c0
+5ful	'blisful	#充满喜悦的	80
+3the	blaiD	#愉快的, 高兴的	80
+3zzard	'blizad	@大风雪, 暴风雪	c0
+2oated	'blautid	#发胀的, 浮肿的, 傲慢的	80
+3c	blQk	@集团	20
+4k	blQk	@街区, 木块, 石块, 块; !阻塞, 封锁, 使成块状; { 块, 数据块	62
+5ade	blQ'keid	@阻塞; !封锁	80
+6ge	'blQkidZ	@封锁, 妨碍; ] 堵塞	80
+5s	'blOks	@积木；黑金石；街区；[音]双头木鱼；楼群（block的复数）	20
+3nd	blQnd	#金发的; @白肤碧眼金发的人	28
+5e	blOnd	#(头发)亚麻色的, 淡色的, 白肤金发碧眼的, 白里透红的, 白皙的, 淡黄色的; @肤色白皙的金发女人	20
+3od	blVd	@血, 血统, 流血, 气质, 生命; !使出血, 用血涂	37
+5y	'blVdi	#血腥的, 嗜杀的, 有血的	10
+4m	blu:m	@花, 开花, 青春, 钢块; $开花, 焕发青春, 茂盛; !使茂盛, 把...轧成钢坯	7c
+5ing	'blu:miN	#盛开的; ] 喷霜	80
+3ssom	'blQsam	@花, 花开的状态, 兴旺期; $开花, 兴旺, 发展	fc
+3t	blQt	@污点, 墨水渍; !乱涂, 使模糊, 吸干; $弄上墨渍, 吸墨水	20
+4ch	blQtS	@大斑点, 污斑, 疹块; | 污点, 斑点	80
+3use	blauz	@宽松的上衣	3a
+3w	blau	@吹, 打击, 殴打, 花开; v. 吹, 风吹, 吹响, 开花	43
+4hard	'blauhA:d	@吹牛大家	80
+2udgeon	'blVdZan	@大头棒; } 棍, 棍打	80
+3e	blu:	@蓝色; #蓝色的, 下流的, 忧郁的; !染成蓝色; $变蓝	82
+4print	'blu:'print	@蓝图, 设计图, (周详的)计划; !制成蓝图, 计划	90
+4s	blu:z	@勃鲁斯乐曲, (非正式)伤感的, 伤心的; | 忧闷, 沮丧	40
+3ff	blVf	@断崖, 绝壁, 吓唬; #直率的; v. 吓唬, 欺骗	c0
+3nder	'blVnda	@大错, 大失策; $失策, 跌跌撞撞地走, 犯错; !做错	f8
+4t	blVnt	#钝的, 坦率的, 麻痹的	f8
+5ly	'blVntli	%坦率地, 率直地	8
+3r	bla:	!使模糊, 弄脏; $弄脏, 模糊	b8
+4b	bla:b	@推荐广告; !推荐吹捧	80
+4t	bla:t	!冲口说出, 脱口说出	80
+3sh	blVS	$脸红, 羞愧; !弄成红色; @脸红	f8
+4ter	'blVsta	!风狂吹, 咆哮, 汹涌; $咆哮着说出, 恐吓; @狂风声, 巨浪声, 夸口, 大话	80
+7ing	'blVstiN	#狂风大作的, 狂暴的	80
+1oard	bQ:d	@木板, 甲板, 膳食, 会议桌; !乘船, 供膳食, 用板覆盖; $搭伙; { 板	7f
+5er	'bQ:da	@寄膳者, 寄膳宿者	40
+5inghouse	'bO:diNhajs	@寄宿处	40
+3st	baust	@吹牛; $吹牛, 自夸; !夸口说, 自恃有	fc
+5ful	'baustful	#自夸的, 自负的, 喜夸耀的	40
+3t	baut	@船; $乘船; !以船运	23
+4ing	'bautiN	@划船	2
+2de	baud	v. 预示; bide的过去式	80
+3ily	'bQdili	#身体的; %亲自	40
+4ng	'baudiN	#凶兆的, 预兆的; @凶兆, 前兆, 预感	80
+3y	'bQdi	@身体, 人, 尸体, 主要部分, 团体; !赋以形体; { 体	1
+4guard	'bQdigA:d	@保镖, 护卫	80
+2g	bQg	@沼泽; !使陷于泥沼; $陷于泥沼	80
+3gle	'bQgl	$犹豫, 踌躇, 吃惊, 搪塞; !搞坏; @犹豫, 吃惊	80
+3us	'baugas	#假的, 伪造的; > 伪的, 伪造的	80
+2hemian	bau'hi:mjan	@波希米亚人, 波希米亚语, 放浪者; #波希米亚人的, 放浪的, 波希米亚语的	80
+2il	bQil	@煮沸, 沸腾, 疖; v. 煮沸, 激动	76
+4er	'bQila	@煮器, 汽锅, 锅炉; ] 锅炉	8
+3sterous	'bQistaras	#猛烈的, 喧闹的, 狂暴的	80
+2ld	bauld	#大胆的; @粗体; { 粗体	7c
+3ster	'baulsta	@支持, 长枕; !支持, 支撑	c0
+3t	bault	@门闩, 螺钉, 筛子, 闪电, 意外事件; !闩住, 发射, 脱口而出, 筛, 囫囵吞下; $囫囵吞枣, 射箭, 脱缰, 退出党派; %突然	bc
+2mb	bQm	@炸弹; !轰炸, 投弹于; $失败	1e
+4ardment	bQm'bA:dmant	@炮击; ] 轰击	80
+5st	'bQmbEst	@夸大的言辞	80
+7ic	bQm'bEstik	#夸大的, 夸夸其谈的	c0
+2nanza	bau'nEnza	@富矿带, 带来好运的事物, 幸运	40
+3d	bQnd	@捆绑物, 结合, 债券, 契约, 粘合剂, 保证人, 键, 关栈保留; !存入关栈, 使黏合; $结合	7e
+4age	'bQndidZ	@奴役, 束缚; } 束缚, 监禁, 奴隶	c0
+3e	baun	@骨头, 骨, 骨制品; !剔骨; $专心致志	16
+4s	baunz	@骨骼, 尸体	20
+3homie	bOnO'mi:; (?@) bOna'mi:	@愉快, 温和, 和蔼	80
+3net	'bQnit	@软帽; ] 阀盖; 阀帽	80
+3us	'baunas	@奖金, 红利; > 奖金, 红利, 额外补贴	7a
+2o	bu:	v. 嘘(某人), 喝倒彩; interj. 嘘	80
+3k	buk	@书, 书籍, 帐簿, 名册, 工作簿; v. 登记, 预订; { 工作簿	23
+4case	'bukkeis	@书架, 书柜	22
+4ing	'bukiN	@预约演出合同; [机] 书型模法	20
+4keeper	'bukki:pa	@簿记员; > 簿记员, 记帐员	20
+4let	'buklit	@小册子	20
+5ist	'buklist	(某个题目或学科的)推荐书目, 书单	20
+4mark	'bukmA:k	@书签; { 书签	2
+4s	buk	@书评；书籍（book的复数）	20
