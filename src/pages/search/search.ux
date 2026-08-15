@@ -816,12 +816,13 @@ export default {
 .check-btn {
   width: 48px;
   height: 48px;
+  margin-left: 15px;
   margin-right: 8px;
   flex-shrink: 0;
 }
 
 .input-box {
-  width: 311px;
+  width: 320px;
   height: 52px;
   border-width: 2px;
   border-color: #2f8cff;
@@ -844,7 +845,7 @@ export default {
 }
 
 .edit-row {
-  width: 231px;
+  width: 240px;
   height: 58px;
   margin-top: 4px;
   margin-bottom: 6px;
@@ -855,17 +856,17 @@ export default {
 
 .move-left-btn,
 .move-right-btn {
-  width: 71px;
+  width: 72px;
   height: 50px;
 }
 
 .clear-btn {
-  width: 71px;
+  width: 72px;
   height: 45px;
 }
 
 .input-box-rect {
-  width: 311px;
+  width: 320px;
 }
 
 .input-text-rect {

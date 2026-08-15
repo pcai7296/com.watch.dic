@@ -86,6 +86,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "48px",
                                 height: "48px",
+                                marginLeft: "15px",
                                 marginRight: "8px",
                                 flexShrink: 0
                             }

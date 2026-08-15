@@ -6660,6 +6660,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "48px",
                                 height: "48px",
+                                marginLeft: "15px",
                                 marginRight: "8px",
                                 flexShrink: 0
                             }
@@ -6674,6 +6675,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "48px",
                                 height: "48px",
+                                marginLeft: "15px",
                                 marginRight: "8px",
                                 flexShrink: 0
                             }
@@ -6686,7 +6688,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "311px",
+                                width: "320px",
                                 height: "52px",
                                 borderTopWidth: "2px",
                                 borderRightWidth: "2px",
@@ -6729,7 +6731,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "231px",
+                                width: "240px",
                                 height: "58px",
                                 marginTop: "4px",
                                 marginBottom: "6px",
@@ -6746,7 +6748,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "71px",
+                                width: "72px",
                                 height: "50px"
                             }
                         ],
@@ -6758,7 +6760,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "71px",
+                                width: "72px",
                                 height: "50px"
                             }
                         ],
@@ -6770,7 +6772,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "71px",
+                                width: "72px",
                                 height: "45px"
                             }
                         ],
@@ -6782,7 +6784,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "311px"
+                                width: "320px"
                             }
                         ],
                         [
