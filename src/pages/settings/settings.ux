@@ -1,22 +1,28 @@
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" @click="goBack">
-      <text class="back-text">返回</text>
-    </div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <div class="content">
-      <text class="setting-title">英文输入联想</text>
+      <text class="setting-title">首页布局</text>
+      <div class="layout-row">
+        <text class="layout-label {{layoutMode === 'classic' ? 'layout-active' : ''}}" onclick="setLayoutClassic">经典</text>
+        <text class="layout-label layout-label-ml {{layoutMode === 'minimal' ? 'layout-active' : ''}}" onclick="setLayoutMinimal">简约</text>
+      </div>
+
+      <text class="setting-title sp-title">英文输入联想</text>
       <switch
         class="suggestion-switch"
         checked="{{ englishSuggestionEnabled }}"
-        @change="onSuggestionChange"
+        onchange="onSuggestionChange"
       ></switch>
-      <text class="setting-title result-home-title">结果页长按返回主页</text>
+
+      <text class="setting-title sp-title">结果页长按返回主页</text>
       <switch
         class="suggestion-switch"
         checked="{{ resultLongPressHomeEnabled }}"
-        @change="onResultLongPressHomeChange"
+        onchange="onResultLongPressHomeChange"
       ></switch>
+
       <div class="search-swipe-title">
         <text class="setting-title">搜索输入页</text>
         <text class="setting-title">强制不可滑动退出</text>
@@ -24,7 +30,7 @@
       <switch
         class="suggestion-switch"
         checked="{{ searchSwipeExitLocked }}"
-        @change="onSearchSwipeExitChange"
+        onchange="onSearchSwipeExitChange"
       ></switch>
     </div>
   </div>
@@ -33,12 +39,15 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import prompt from "@system.prompt"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
     englishSuggestionEnabled: true,
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
+    layoutMode: "minimal",
     screenProfile: "pill-standard",
     destroyed: false,
     touchStartX: -1,
@@ -47,47 +56,32 @@ export default {
 
   onInit() {
     this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard"
-    storage.get({
-      key: "dic_english_suggestions",
-      default: "1",
-      success: (data) => {
-        if (this.destroyed) {
-          return
-        }
-        const value = data && (data.value || data)
-        this.englishSuggestionEnabled = value !== "0"
-      },
-      fail: (data, code) => {
-        console.log("settings storage.get failed: " + code)
+    this._loadSetting("dic_home_layout", "minimal", function(value) {
+      if (value === "classic" || value === "minimal") {
+        this.layoutMode = value
       }
-    })
+    }.bind(this))
+    this._loadSetting("dic_english_suggestions", "1", function(value) {
+      this.englishSuggestionEnabled = value !== "0"
+    }.bind(this))
+    this._loadSetting("dic_result_long_press_home", "1", function(value) {
+      this.resultLongPressHomeEnabled = value !== "0"
+    }.bind(this))
+    this._loadSetting("dic_search_swipe_exit_locked", "1", function(value) {
+      this.searchSwipeExitLocked = value !== "0"
+    }.bind(this))
+  },
+
+  _loadSetting(key, defaultVal, callback) {
     storage.get({
-      key: "dic_result_long_press_home",
-      default: "1",
-      success: (data) => {
-        if (this.destroyed) {
-          return
-        }
-        const value = data && (data.value || data)
-        this.resultLongPressHomeEnabled = value !== "0"
-      },
-      fail: (data, code) => {
-        console.log("settings result long press get failed: " + code)
-      }
-    })
-    storage.get({
-      key: "dic_search_swipe_exit_locked",
-      default: "1",
-      success: (data) => {
-        if (this.destroyed) {
-          return
-        }
-        const value = data && (data.value || data)
-        this.searchSwipeExitLocked = value !== "0"
-      },
-      fail: (data, code) => {
-        console.log("settings search swipe get failed: " + code)
-      }
+      key: key,
+      default: defaultVal,
+      success: function(data) {
+        if (this.destroyed) return
+        var value = data && (data.value || data)
+        callback(value)
+      }.bind(this),
+      fail: function() {}
     })
   },
 
@@ -96,7 +90,33 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
+  },
+
+  setLayoutClassic() {
+    if (this.layoutMode === "classic") return
+    this.layoutMode = "classic"
+    this._saveLayout("classic")
+  },
+
+  setLayoutMinimal() {
+    if (this.layoutMode === "minimal") return
+    this.layoutMode = "minimal"
+    this._saveLayout("minimal")
+  },
+
+  _saveLayout(mode) {
+    storage.set({
+      key: "dic_home_layout",
+      value: mode,
+      fail: function(d, code) {
+        console.log("settings layout save failed: " + code)
+      }
+    })
+    prompt.showToast({ message: "重启生效", duration: 1500 })
   },
 
   onSuggestionChange(evt) {
@@ -118,14 +138,14 @@ export default {
     storage.set({
       key: key,
       value: enabled ? "1" : "0",
-      fail: (data, code) => {
+      fail: function(data, code) {
         console.log("settings storage.set failed: " + code)
       }
     })
   },
 
   onTouchStart(evt) {
-    const point = this.getTouchPoint(evt)
+    var point = this.getTouchPoint(evt)
     if (point) {
       this.touchStartX = point.clientX
       this.touchStartY = point.clientY
@@ -133,14 +153,14 @@ export default {
   },
 
   onTouchEnd(evt) {
-    const point = this.getTouchPoint(evt)
+    var point = this.getTouchPoint(evt)
     if (!point || this.touchStartX < 0) {
       return
     }
-    const endX = point.clientX
-    const endY = point.clientY
-    const screenWidth = this.$app.$def.data.screenWidth || 212
-    const horizontal = Math.abs(endY - this.touchStartY) <= 120
+    var endX = point.clientX
+    var endY = point.clientY
+    var screenWidth = this.$app.$def.data.screenWidth || 212
+    var horizontal = Math.abs(endY - this.touchStartY) <= 120
     if (this.touchStartX <= screenWidth * 0.25 && endX >= screenWidth * 0.75 && horizontal) {
       router.back()
     }
@@ -170,23 +190,9 @@ export default {
   align-items: center;
 }
 
-.search-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .content {
   width: 100%;
@@ -202,16 +208,49 @@ export default {
   text-align: center;
 }
 
+.sp-title {
+  margin-top: 34px;
+}
+
 .suggestion-switch {
   width: 58px;
   height: 32px;
-  margin-top: 20px;
+  margin-top: 16px;
   thumb-color: #ffffff;
   track-color: #0b65ea;
 }
 
-.result-home-title {
-  margin-top: 34px;
+/* 布局切换器 */
+.layout-row {
+  margin-top: 14px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-label {
+  width: 72px;
+  height: 36px;
+  border-radius: 18px;
+  border-width: 2px;
+  border-color: #2a3a50;
+  background-color: transparent;
+  color: #6888b8;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout-label-ml {
+  margin-left: 12px;
+}
+
+.layout-active {
+  border-color: #0b65ea;
+  background-color: #0b65ea;
+  color: #ffffff;
 }
 
 .search-swipe-title {

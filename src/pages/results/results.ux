@@ -1,8 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack" ontouchstart="onBackButtonTouchStart" ontouchend="onBackButtonTouchEnd">
-      <text class="back-text">返回</text>
-    </div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" ontouchstart="onBackButtonTouchStart" ontouchend="onBackButtonTouchEnd" />
 
     <marquee if="{{ queryMarqueeOn }}" id="query-marquee" class="query-marquee"
       scrollamount="{{ queryMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
@@ -53,6 +51,7 @@ import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
+import {navGuard} from "../../common/navGuard"
 
 const FUZZY_SCAN_LIMIT = 4000
 const FUZZY_POOL_LIMIT = 80
@@ -85,6 +84,12 @@ class LRUCache {
       var oldest = this.order.shift()
       delete this.cache[oldest]
     }
+  }
+  delete(key) {
+    if (this.cache[key] === undefined) return
+    delete this.cache[key]
+    var idx = this.order.indexOf(key)
+    if (idx >= 0) this.order.splice(idx, 1)
   }
 }
 
@@ -119,10 +124,6 @@ export default {
     statusText: "",
     resultCards: [],
     searchToken: 0,
-    shardIndex: null,
-    fileCache: null,
-    entryCache: null,
-    cnIndexCache: null,
     fuzzyWordsChecked: 0,
     lastToastAt: 0,
     toastCooldown: 1500,
@@ -136,14 +137,10 @@ export default {
     queryMarqueeSpeed: 40,
     wordMarqueeThreshold: 0,
     marqueeArmed: false,
-    pendingCards: [],
     flushTimer: null,
-    historyCache: null,
     searchPage: 0,
-    collectedIds: [],
     totalResultCount: 0,
     mightHaveMore: false,
-    wrapCache: null,
     resultLongPressHomeEnabled: true,
     backLongPressTimer: null,
     backLongPressTriggered: false
@@ -188,10 +185,15 @@ export default {
   },
 
   onInit() {
+    // 词典分片缓存：纯逻辑数据，不进 viewModel（避免 observer/代理开销）
     this.fileCache = new LRUCache(6)
-    this.entryCache = new LRUCache(6)
-    this.cnIndexCache = new LRUCache(3)
+    this.entryCache = new LRUCache(4)
+    this.cnIndexCache = new LRUCache(2)
     this.wrapCache = {}
+    this.pendingCards = []
+    this.collectedIds = []
+    this.historyCache = null
+    this.shardIndex = null
     this.loadResultLongPressHomeSetting()
     // Force-reset result state — Vela may reuse page instance without re-init
     this.resultCards = []
@@ -254,7 +256,7 @@ export default {
   },
 
   goBack() {
-    if (this.backLongPressTriggered) {
+    if (this.backLongPressTriggered || !navGuard()) {
       return
     }
     router.back()
@@ -284,7 +286,7 @@ export default {
     this.backLongPressTriggered = false
     this.backLongPressTimer = setTimeout(() => {
       this.backLongPressTimer = null
-      if (this.destroyed || !this.resultLongPressHomeEnabled) {
+      if (this.destroyed || !this.resultLongPressHomeEnabled || !navGuard()) {
         return
       }
       this.backLongPressTriggered = true
@@ -300,7 +302,7 @@ export default {
   },
 
   openDetail(item) {
-    if (!item || !item.word) {
+    if (!item || !item.word || !navGuard()) {
       return
     }
 
@@ -403,6 +405,7 @@ export default {
 
       const results = []
       const seen = {}
+      this._seenEntryId = {}
 
       if (this.searchMode === "inflect") {
         this.collectInflectResult(normalized, results, seen, () => {
@@ -673,6 +676,8 @@ export default {
         }
       }
       this.cnIndexCache.set(bucket, indexMap)
+      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
+      this.fileCache.delete("/common/dict/cn_index/cn_" + bucket + ".txt")
       done(indexMap)
     })
   },
@@ -800,6 +805,8 @@ export default {
         }
       }
       this.entryCache.set(shard, entries)
+      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
+      this.fileCache.delete("/common/dict/entries/entry_" + shard + ".txt")
       done(entries)
     })
   },
@@ -936,14 +943,15 @@ export default {
       const shard = this.entryShardFor(form)
       this.loadEntryShard(shard, (entries) => {
         const item = entries[form]
-        if (item) {
+        if (item && !this._seenEntryId[form]) {
+          this._seenEntryId[form] = true
           const lower = this.normalizeWord(item.word)
           if (!seen[lower]) {
             seen[lower] = true
-            const card = this.createResultCard(form, lower, item.word, item.phonetic, item.translation, "变形")
-            results.push(card)
-            this._enqueueCard(card)
           }
+          const card = this.createResultCard(form, lower, item.word, item.phonetic, item.translation, "变形")
+          results.push(card)
+          this._enqueueCard(card)
         }
         this.collectFormResults(baseWord, forms, results, seen, index + 1, done)
       })
@@ -1000,7 +1008,8 @@ export default {
             const shard = this.entryShardFor(entryId)
             this.loadEntryShard(shard, (entries) => {
               const item = entries[entryId]
-              if (item) {
+              if (item && !this._seenEntryId[entryId]) {
+                this._seenEntryId[entryId] = true
                 const card = this.createResultCard(
                   entryId,
                   this.normalizeWord(displayWord),
@@ -1034,14 +1043,15 @@ export default {
       const shard = this.entryShardFor(base)
       this.loadEntryShard(shard, (entries) => {
         const item = entries[base]
-        if (item) {
+        if (item && !this._seenEntryId[base]) {
+          this._seenEntryId[base] = true
           const lower = this.normalizeWord(item.word)
           if (!seen[lower]) {
             seen[lower] = true
-            const card = this.createResultCard(base, lower, item.word, item.phonetic, item.translation, "变形")
-            results.push(card)
-            this._enqueueCard(card)
           }
+          const card = this.createResultCard(base, lower, item.word, item.phonetic, item.translation, "变形")
+          results.push(card)
+          this._enqueueCard(card)
         }
         this.collectBaseResults(bases, results, seen, index + 1, done)
       })
@@ -1124,7 +1134,8 @@ export default {
           break
         }
         const item = entries[next.entryId]
-        if (item) {
+        if (item && !this._seenEntryId[next.entryId]) {
+          this._seenEntryId[next.entryId] = true
           const card = this.createResultCard(
             next.entryId,
             next.lower,
@@ -1411,10 +1422,12 @@ export default {
     }
 
     var ids = []
+    var seen = {}
     var cards = this.resultCards || []
     for (var i = 0; i < cards.length; i++) {
       var entryId = parseInt(cards[i].entryId, 10)
-      if (!isNaN(entryId) && entryId >= 0) {
+      if (!isNaN(entryId) && entryId >= 0 && !seen[entryId]) {
+        seen[entryId] = true
         ids.push(entryId)
       }
     }
@@ -1582,6 +1595,10 @@ export default {
   },
 
   _goToNextPage() {
+    prompt.showToast({
+      message: "加载中…",
+      duration: 3000
+    })
     this.searchPage++
     var self = this
     this._loadAndRenderPage(function() {
@@ -1595,6 +1612,10 @@ export default {
   },
 
   _goToPrevPage() {
+    prompt.showToast({
+      message: "加载中…",
+      duration: 3000
+    })
     this.searchPage--
     var self = this
     this._loadAndRenderPage(function() {
@@ -1888,6 +1909,14 @@ export default {
     this.entryCache = null
     this.cnIndexCache = null
     this.wrapCache = null
+    this.pendingCards = null
+    this.collectedIds = null
+    this.historyCache = null
+    this.shardIndex = null
+    // 页面销毁后主动 GC，释放词典缓存（官方内存文档：及时 runGC 避免泄漏）
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   hasChinese(value) {
@@ -1998,7 +2027,9 @@ export default {
 
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
       router.back()
-    }
+    }https://github.com/pcai7296/wrist-dictionary/com
+
+    
 
     this.touchStartX = -1
     this.touchStartY = -1
@@ -2026,23 +2057,9 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .query-text,
 .query-marquee {

@@ -1,8 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-text">返回</text>
-    </div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <div class="word-area" style="margin-left: {{wordAreaMarginLeft}}px;">
       <marquee if="{{ wordMarqueeOn }}" class="word-marquee" style="width: {{contentWidth}}px;"
@@ -26,8 +24,8 @@
     </div>
 
     <div class="bottom-row" style="{{ bottomStyle }}">
-      <input class="bottom-button inflect-button" style="{{ inflectBtnStyle }}" type="button" value="查变形" @click="goInflect" />
-      <input class="bottom-button favorite-button" style="{{ favoriteBtnStyle }}" type="button" value="{{ favoriteLabel }}" @click="toggleFavorite" />
+      <image src="/common/icons/Sync_circle.png" style="width:87px;height:60px;" onclick="goInflect" />
+      <image src="/common/icons/{{ isFavorited ? 'collect-circle-true.png' : 'collect-circle-false.png' }}" style="width:66px;height:66px;" onclick="toggleFavorite" />
     </div>
   </div>
 </template>
@@ -35,8 +33,8 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
-import file from "@system.file"
 import prompt from "@system.prompt"
+import {navGuard} from "../../common/navGuard"
 
 var TAG_CODE_MAP = {z: 'zk', g: 'gk', '4': 'cet4', '6': 'cet6', k: 'ky', t: 'toefl', i: 'ielts', e: 'gre'}
 var TAG_LABELS = ['zk', 'gk', 'cet4', 'cet6', 'ky', 'ielts', 'toefl', 'gre']
@@ -78,7 +76,7 @@ export default {
     cardWidth: 188,
     contentWidth: 164,
     favoriteLabel: "收藏",
-    fileCache: {},
+    isFavorited: false,
     lastToastAt: 0,
     toastCooldown: 1500,
     lastInflectAt: 0,
@@ -194,6 +192,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 
@@ -229,7 +230,7 @@ export default {
   },
 
   goInflect() {
-    if (!this.wordText) {
+    if (!this.wordText || !navGuard()) {
       return
     }
 
@@ -246,7 +247,7 @@ export default {
       return
     }
 
-    router.replace({
+    router.push({
       uri: "/pages/results",
       params: {
         query: this.wordText,
@@ -317,8 +318,10 @@ export default {
         output.pop()
       }
       this.favoriteLabel = "已收藏"
+      this.isFavorited = true
     } else {
       this.favoriteLabel = "收藏"
+      this.isFavorited = false
     }
 
     storage.set({
@@ -338,6 +341,7 @@ export default {
         for (let i = 0; i < list.length; i++) {
           if (list[i] && this.normalizeWord(list[i].word) === word) {
             this.favoriteLabel = "已收藏"
+            this.isFavorited = true
             return
           }
         }
@@ -345,6 +349,7 @@ export default {
       fail: () => {
         if (this.destroyed) return
         this.favoriteLabel = "收藏"
+        this.isFavorited = false
       }
     })
   },
@@ -471,28 +476,6 @@ export default {
     return first >= "a" && first <= "z" ? first : "_"
   },
 
-  readText(uri, done) {
-    if (this.fileCache[uri]) {
-      done(this.fileCache[uri])
-      return
-    }
-    file.readText({
-      uri: uri,
-      encoding: "utf-8",
-      success: (data) => {
-        if (this.destroyed) return
-        const text = data && data.text ? data.text : ""
-        this.fileCache[uri] = text
-        done(text)
-      },
-      fail: () => {
-        if (this.destroyed) return
-        this.fileCache[uri] = ""
-        done("")
-      }
-    })
-  },
-
   onTouchStart(evt) {
     const point = this.getTouchPoint(evt)
     if (point) {
@@ -544,23 +527,9 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .word-area {
   margin-top: 14px;
@@ -628,10 +597,13 @@ export default {
 }
 
 .bottom-row {
-  height: 48px;
-  margin-bottom: 10px;
+  height: 60px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .bottom-button {

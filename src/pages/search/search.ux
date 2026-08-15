@@ -2,10 +2,8 @@
 
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" @click="onSearchButtonClick">
-      <img class="search-icon" if="{{ query }}" src="/common/search-icon.png" />
-      <text class="back-text" if="{{ !query }}">返回</text>
-    </div>
+    <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
+    <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
 
     <div class="input-box input-box-{{screenProfile}}" @click="onInputBoxClick">
       <!-- 常驻 marquee，短时静态、超长时从右向左平滑滚动 -->
@@ -16,9 +14,9 @@
     </div>
 
     <div class="edit-row edit-row-{{screenProfile}}">
-      <input class="edit-button side-button" type="button" value="左" @click="moveLeft" />
-      <input class="edit-button clear-button" type="button" value="清空" @click="clearText" />
-      <input class="edit-button side-button" type="button" value="右" @click="moveRight" />
+      <image src="/common/icons/btn_back_thin.png" style="width:55px;height:50px;" onclick="moveLeft" />
+      <image class="clear-btn" src="/common/icons/btn_delete_fat.png" style="width:55px;height:45px;" onclick="clearText" />
+      <image src="/common/icons/btn_back_mirror_thin.png" style="width:55px;height:50px;" onclick="moveRight" />
     </div>
 
     <div if="{{ keyboardHidden }}" class="hint-area">
@@ -41,12 +39,15 @@
 </template>
 
 <script>
+import device from "@system.device"
 import router from "@system.router"
 import prompt from "@system.prompt"
 import file from "@system.file"
 import storage from "@system.storage"
 import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
+import buildTarget from "../../common/buildTarget"
+import {navGuard} from "../../common/navGuard"
 
 const ENGLISH_SUFFIXES = [
   "s",
@@ -96,10 +97,6 @@ export default {
     touchStartY: -1,
     destroyed: false,
     autoSearchPending: false,
-    englishSuggestionCache: null,
-    englishSuggestionParsed: null,
-    englishSuggestionPending: null,
-    englishSuggestionOrder: null,
     englishSuggestionToken: 0,
     englishSuggestionEnabled: true,
     searchSwipeExitLocked: true,
@@ -154,6 +151,18 @@ export default {
     this.englishSuggestionOrder = []
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()
+    this.applyScreenInfo(buildTarget)
+    const app = this.$app.$def
+    device.getInfo({
+      success: (data) => {
+        app.updateScreenInfo(data)
+        this.applyScreenInfo(app.data)
+        this.refreshDisplay()
+      },
+      fail: (data, code) => {
+        console.log("search device.getInfo failed; using compiled target: " + code)
+      }
+    })
     if (this.queryParam) {
       this.query = this.queryParam
       this.cursorIndex = this.query.length
@@ -172,6 +181,24 @@ export default {
         }
       }, 500)
     }
+  },
+
+  applyScreenInfo(data) {
+    const screenShape = data.shape || data.screenShape || "pill-shaped"
+    const screenWidth = Number(data.width || data.screenWidth || 212)
+    this.screenType = screenShape
+    this.screenProfile = data.profile || data.screenProfile || "pill-standard"
+    this.maxLength = this.getMaxLength(screenShape, screenWidth)
+  },
+
+  getMaxLength(screenShape, screenWidth) {
+    if (screenShape === "circle") {
+      return 12
+    }
+    if (screenShape === "rect") {
+      return screenWidth >= 400 ? 15 : 11
+    }
+    return 5
   },
 
   onDestroy() {
@@ -194,6 +221,10 @@ export default {
     this.englishSuggestionPending = null
     this.englishSuggestionOrder = null
     this.stopMarquee()
+    // 页面销毁后主动 GC，释放补全缓存（官方内存文档：及时 runGC 避免泄漏）
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   onShow() {
@@ -228,6 +259,9 @@ export default {
     this.tapTimes = this.tapTimes.filter(function(t) { return now - t <= 1500 })
     if (this.tapTimes.length >= 3) {
       this.tapTimes = []
+      if (!navGuard()) {
+        return
+      }
       router.replace({
         uri: "/pages/filter",
         params: { mode: "input", queryParam: this.query }
@@ -244,8 +278,8 @@ export default {
     this.refreshDisplay()
   },
 
-  onKeyDown(evt) {
-    console.log("key down: " + JSON.stringify(evt))
+  onKeyDown() {
+    // keyDown 事件仅透传占位，输入逻辑见 onComplete/onDelete；热路径不再打印日志
   },
 
   onDelete() {
@@ -290,6 +324,9 @@ export default {
   },
 
   onSearchButtonClick() {
+    if (!navGuard()) {
+      return
+    }
     if (!this.query) {
       router.back()
       return
@@ -768,28 +805,14 @@ export default {
   align-items: center;
 }
 
-.search-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .search-icon {
   width: 40px;
   height: 40px;
 }
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
 
 .input-box {
   width: 168px;
@@ -799,7 +822,7 @@ export default {
   padding-left: 14px;
   padding-right: 14px;
   border-width: 2px;
-  border-color: #2f8cff;
+  border-color: #ffffff;
   border-radius: 18px;
   background-color: #08172b;
   flex-direction: column;
@@ -818,7 +841,7 @@ export default {
 
 .edit-row {
   width: 168px;
-  height: 42px;
+  height: 50px;
   margin-bottom: 6px;
   flex-direction: row;
   justify-content: space-between;
@@ -833,15 +856,9 @@ export default {
   text-align: center;
 }
 
-.side-button {
-  width: 48px;
-  background-color: #0b65ea;
-}
 
-.clear-button {
-  width: 62px;
-  background-color: #d82626;
-}
+
+
 
 .input-box-rect {
   width: 72%;

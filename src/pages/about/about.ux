@@ -1,15 +1,13 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-mark">返回</text>
-    </div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <list class="about-list" style="width: {{layoutWidth}}px;">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
         <div class="app-card">
           <text class="app-name">腕上词典</text>
           <text class="app-version">2.3.1</text>
-          <img class="deco-icon-about" src="/common/deco-icon-about.png" />
+          <img class="deco-icon-about" src="/common/logo.png" />
         </div>
       </list-item>
 
@@ -63,6 +61,7 @@
 
 <script>
 import router from "@system.router"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
@@ -241,6 +240,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 
@@ -295,24 +297,9 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  margin-bottom: 12px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-mark {
-  width: 64px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .about-list {
   width: 196px;
