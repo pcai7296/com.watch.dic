@@ -1,59 +1,104 @@
 <template>
-  <div class="page page-{{screenProfile}}">
-    <text class="title title-{{screenProfile}}">腕上词典</text>
+  <div class="page">
+    <text class="time-text">{{ tc0 }}{{ tc1 }}{{ tc2 }}{{ tc3 }}{{ tc4 }}</text>
 
-    <div class="icon-card icon-card-{{screenProfile}}" @click="goSettings">
-      <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/deco-icon.png" />
+    <div class="icon-card">
+      <img class="logo-icon" src="/common/logo.png" />
     </div>
 
-    <div class="button-group button-group-{{screenProfile}}">
-      <div
-        class="main-button main-button-{{screenProfile}} secondary-button"
-        @click="goInflectSearch"
-      >
-        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_transform.png" />
-        <text class="btn-label">查找变形</text>
+    <text class="title">腕上词典</text>
+    <text class="subtitle">抬手即查</text>
+
+    <div class="main-btn" @click="goSearch">
+      <img class="main-btn-icon" src="/common/icons/language.png" />
+      <text class="main-btn-label">查单词</text>
+    </div>
+
+    <div class="grid">
+      <div class="grid-btn" @click="goInflectSearch">
+        <img class="grid-btn-icon" src="/common/icons/btn_transform_blue.png" />
+        <text class="grid-btn-label">变形</text>
       </div>
-      <div class="main-button main-button-{{screenProfile}} secondary-button" @click="goSearch">
-        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_search.png" />
-        <text class="btn-label">中英查找</text>
+      <div class="grid-btn" @click="goSettings">
+        <img class="grid-btn-icon" src="/common/icons/settings-2.png" />
+        <text class="grid-btn-label">设置</text>
       </div>
-      <div class="main-button main-button-{{screenProfile}} secondary-button" @click="goHistory">
-        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_history.png" />
-        <text class="btn-label">历史记录</text>
+      <div class="grid-btn" @click="goHistory">
+        <img class="grid-btn-icon" src="/common/icons/history.png" />
+        <text class="grid-btn-label">历史</text>
       </div>
-      <div class="main-button main-button-{{screenProfile}} secondary-button" @click="goFavorites">
-        <img class="btn-icon btn-icon-{{screenProfile}}" src="/common/icons/btn_fav.png" />
-        <text class="btn-label">我的收藏</text>
+      <div class="grid-btn" @click="goFavorites">
+        <img class="grid-btn-icon" src="/common/icons/star-gradient.png" />
+        <text class="grid-btn-label">收藏</text>
       </div>
     </div>
 
-    <div class="bottom-row bottom-row-{{screenProfile}}">
-      <div class="small-button small-button-{{screenProfile}} about-button" @click="goAbout">
-        <img class="btn-icon-sm" src="/common/icons/btn_about.png" />
-        <text class="btn-label-sm">关于</text>
+    <div class="bottom-row">
+      <div class="circle-btn about-btn" @click="goAbout">
+        <img class="circle-icon" src="/common/icons/btn_info_i.png" />
       </div>
-      <div class="small-button small-button-{{screenProfile}} sponsor-button" @click="goSponsor">
-        <img class="btn-icon-sm" src="/common/icons/btn_sponsor.png" />
-        <text class="btn-label-sm">赞助</text>
+      <div class="circle-btn sponsor-btn" @click="goSponsor">
+        <img class="circle-icon" src="/common/icons/btn_heart_gold.png" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
+import buildTarget from "../../common/buildTarget"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
-    screenProfile: "circle"
+    screenProfile: buildTarget.profile,
+    tc0: "",
+    tc1: "",
+    tc2: "",
+    tc3: "",
+    tc4: "",
+    timeTimer: null
   },
 
   onInit() {
-    this.screenProfile = "circle"
+    const app = this.$app.$def
+    this.screenProfile = buildTarget.profile
+    device.getInfo({
+      success: (data) => {
+        app.updateScreenInfo(data)
+        this.screenProfile = app.data.screenProfile
+      },
+      fail: (data, code) => {
+        console.log("index device.getInfo failed; using compiled target: " + code)
+      }
+    })
     this._cleanInvalidHistory()
     this._trackLaunch()
+    this._updateTime()
+    this.timeTimer = setInterval(() => {
+      this._updateTime()
+    }, 1000)
+  },
+
+  onDestroy() {
+    if (this.timeTimer) {
+      clearInterval(this.timeTimer)
+      this.timeTimer = null
+    }
+  },
+
+  _updateTime() {
+    var now = new Date()
+    var h = now.getHours()
+    var m = now.getMinutes()
+    var t = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
+    this.tc0 = t[0]
+    this.tc1 = t[1]
+    this.tc2 = t[2]
+    this.tc3 = t[3]
+    this.tc4 = t[4]
   },
 
   _trackLaunch() {
@@ -98,7 +143,6 @@ export default {
         var clean = []
         for (var i = 0; i < list.length; i++) {
           var item = list[i]
-          // Keep only entries with valid query AND cached ids (drop old format)
           if (item && item.query && item.query.toString().trim() && item.ids && item.ids.length > 0) {
             clean.push(item)
           }
@@ -116,6 +160,7 @@ export default {
   },
 
   goInflectSearch() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/search",
       params: {
@@ -126,18 +171,21 @@ export default {
   },
 
   goSearch() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/search"
     })
   },
 
   goSettings() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/settings"
     })
   },
 
   goHistory() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/records",
       params: {
@@ -147,6 +195,7 @@ export default {
   },
 
   goFavorites() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/records",
       params: {
@@ -156,12 +205,14 @@ export default {
   },
 
   goAbout() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/about"
     })
   },
 
   goSponsor() {
+    if (!navGuard()) return
     router.push({
       uri: "/pages/sponsor"
     })
@@ -170,253 +221,151 @@ export default {
 </script>
 
 <style>
+/* W466 circle: canvas 466x466, safe square 310x310 centered */
+/* Top/bottom padding 75px each, effective content area 310x310 */
 .page {
-  width: 100%;
-  height: 100%;
-  padding-top: 39px;
+  width: 466px;
+  height: 466px;
+  padding-top: 75px;
   background-color: #020813;
   flex-direction: column;
   align-items: center;
 }
 
-.title {
-  width: 160px;
-  height: 42px;
+.time-text {
+  width: 83px;
+  height: 26px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: monospace;
   color: #ffffff;
-  font-size: 29px;
-  font-weight: 800;
   text-align: center;
 }
 
 .icon-card {
-  display: none;
-}
-
-.deco-icon {
-  display: none;
-}
-
-.button-group {
-  flex-direction: column;
+  width: 78px;
+  height: 70px;
+  margin-bottom: 6px;
+  justify-content: center;
   align-items: center;
 }
 
-.main-button {
-  width: 156px;
-  height: 50px;
-  margin-bottom: 12px;
-  border-radius: 18px;
-  flex-direction: row;
-  align-items: center;
+.logo-icon {
+  width: 67px;
+  height: 57px;
 }
 
-.btn-icon {
-  width: 22px;
-  height: 22px;
-  margin-left: 14px;
-  margin-right: 6px;
-}
-
-.btn-label {
-  color: #ffffff;
-  font-size: 20px;
+.title {
+  width: 148px;
+  height: 28px;
+  font-size: 24px;
   font-weight: 800;
-}
-
-.secondary-button {
-  border-width: 2px;
-  border-color: #2f8cff;
-  background-color: #08172b;
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 2px;
 }
 
-.bottom-row {
-  width: 152px;
-  height: 42px;
-  margin-top: -2px;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.small-button {
-  width: 70px;
-  height: 42px;
-  border-radius: 21px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn-icon-sm {
-  width: 14px;
-  height: 14px;
-  margin-right: 4px;
-}
-
-.btn-label-sm {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 800;
-}
-
-/* 布局档案由条件编译固定，避免低 API 设备无法返回屏幕信息。 */
-.icon-card-pill-standard {
-  display: flex;
-  width: 98px;
-  height: 88px;
-  margin-top: 12px;
-  margin-bottom: 19px;
-  border-radius: 25px;
-  border-width: 2px;
-  border-color: #1d74e8;
-  background-color: #07101d;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon-pill-standard {
-  display: flex;
-  width: 84px;
-  height: 84px;
-}
-
-.page-pill-compact {
-  padding-top: 30px;
-}
-
-.title-pill-compact {
-  height: 38px;
-  font-size: 28px;
-}
-
-.icon-card-pill-compact {
-  display: flex;
-  width: 76px;
-  height: 68px;
-  margin-top: 6px;
-  margin-bottom: 12px;
-  border-radius: 22px;
-  border-width: 2px;
-  border-color: #1d74e8;
-  background-color: #07101d;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon-pill-compact {
-  display: flex;
-  width: 64px;
-  height: 64px;
-}
-
-.main-button-pill-compact {
-  height: 46px;
-  margin-bottom: 9px;
-}
-
-.bottom-row-pill-compact {
-  height: 40px;
-  margin-top: -1px;
-}
-
-.small-button-pill-compact {
-  height: 40px;
-}
-
-.title-rect,
-.title-circle {
+.subtitle {
+  width: 111px;
+  height: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #6888b8;
+  text-align: center;
   margin-bottom: 8px;
 }
 
-.page-circle {
-  padding-top: 32px;
+.main-btn {
+  width: 280px;
+  height: 65px;
+  border-radius: 15px;
+  border-width: 1.5px;
+  border-color: #4a6a8a;
+  background-color: #3a6898;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-.button-group-rect {
-  width: 84%;
+.main-btn-icon {
+  width: 45px;
+  height: 39px;
+  margin-right: 12px;
+}
+
+.main-btn-label {
+  font-size: 27px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.grid {
+  width: 280px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 8px;
 }
 
-.button-group-circle {
-  width: 76%;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.grid-btn {
+  width: 129px;
+  height: 61px;
+  border-radius: 13px;
+  border-width: 1.5px;
+  border-color: rgba(104, 136, 184, 0.25);
+  background-color: #081520;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
-.main-button-rect,
-.main-button-circle {
-  width: 47%;
-  height: 68px;
-  margin-bottom: 12px;
-}
-
-.btn-icon-rect,
-.btn-icon-circle {
-  width: 22px;
+.grid-btn-icon {
+  width: 26px;
   height: 22px;
-  margin-left: 8px;
-  margin-right: 4px;
+  margin-bottom: 2px;
 }
 
-.bottom-row-rect,
-.bottom-row-circle {
-  margin-top: 10px;
+.grid-btn-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: #c0d0e8;
 }
 
-.icon-card-rect {
-  display: flex;
+.bottom-row {
   width: 92px;
-  height: 92px;
-  margin-bottom: 16px;
-  border-radius: 26px;
-  border-width: 2px;
-  border-color: #1d74e8;
-  background-color: #07101d;
+  height: 44px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
   justify-content: center;
   align-items: center;
 }
 
-.deco-icon-rect {
-  display: flex;
-  width: 86px;
-  height: 86px;
+.about-btn {
+  background-color: #14181e;
+  border-width: 1px;
+  border-color: #1a2a40;
 }
 
-.icon-card-circle {
-  display: flex;
-  width: 84px;
-  height: 84px;
-  margin-bottom: 14px;
-  border-radius: 24px;
-  border-width: 2px;
-  border-color: #1d74e8;
-  background-color: #07101d;
-  justify-content: center;
-  align-items: center;
+.sponsor-btn {
+  background-color: #14181e;
+  border-width: 1px;
+  border-color: #1a2a40;
 }
 
-.deco-icon-circle {
-  display: flex;
-  width: 78px;
-  height: 78px;
-}
-
-.about-button {
-  border-width: 2px;
-  border-color: #35485f;
-  background-color: #161d27;
-  color: #ffffff;
-}
-
-.sponsor-button {
-  border-width: 2px;
-  border-color: #d4a017;
-  background-color: #1a1408;
-  color: #ffffff;
+.circle-icon {
+  width: 22px;
+  height: 20px;
 }
 </style>

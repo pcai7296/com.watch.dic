@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <div class="back-button" @click="goBack">
       <text class="back-text">返回</text>
@@ -226,7 +226,7 @@ export default {
     touchStartX: -1,
     touchStartY: -1,
     inputText: "",
-    screenProfile: "pill-standard"
+    screenProfile: "circle"
   },
 
   onInit() {
@@ -236,7 +236,7 @@ export default {
     } else {
       this.cardWidth = sw - 20
     }
-    this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard"
+    screenProfile: "circle"
     if (this.mode === "input") {
       this.inputText = this.queryParam || ""
     }

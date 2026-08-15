@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <div class="search-button" @click="goBack">
       <text class="back-text">返回</text>
@@ -39,14 +39,14 @@ export default {
     englishSuggestionEnabled: true,
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
-    screenProfile: "pill-standard",
+    screenProfile: "circle",
     destroyed: false,
     touchStartX: -1,
     touchStartY: -1
   },
 
   onInit() {
-    this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard"
+    screenProfile: "circle"
     storage.get({
       key: "dic_english_suggestions",
       default: "1",

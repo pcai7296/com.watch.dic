@@ -263,13 +263,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             touchStartX: -1,
                             touchStartY: -1,
                             inputText: "",
-                            screenProfile: "pill-standard"
+                            screenProfile: "circle"
                         },
                         onInit () {
                             const sw = this.$app.$def.data.screenWidth || 212;
                             if (466 === sw) this.cardWidth = Math.round(sw / Math.SQRT2);
                             else this.cardWidth = sw - 20;
-                            this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard";
+                            screenProfile: "circle";
                             if ("input" === this.mode) this.inputText = this.queryParam || "";
                         },
                         selectFilter (value) {

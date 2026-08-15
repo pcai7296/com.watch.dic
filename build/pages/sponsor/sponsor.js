@@ -8,7 +8,23 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
         var $app_require$1 = global.$app_require$ || org_app_require;
         var createPageHandler = function() {
             return (()=>{
-                var __webpack_modules__ = {};
+                var __webpack_modules__ = {
+                    "./src/common/navGuard.js" (__unused_rspack_module, exports) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports.navGuard = navGuard;
+                        var lastNavAt = 0;
+                        var NAV_LOCK_MS = 500;
+                        function navGuard() {
+                            const now = Date.now();
+                            if (now - lastNavAt < NAV_LOCK_MS) return false;
+                            lastNavAt = now;
+                            return true;
+                        }
+                    }
+                };
                 var __webpack_module_cache__ = {};
                 function __webpack_require__(moduleId) {
                     var cachedModule = __webpack_module_cache__[moduleId];
@@ -25,219 +41,172 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                 (()=>{
                     __webpack_require__.ruid = "bundler=rspack@1.7.12";
                 })();
-                var $app_style$ = [
-                    [
+                var __webpack_exports__ = {};
+                (()=>{
+                    var $app_style$ = [
                         [
                             [
-                                0,
-                                "page"
-                            ]
-                        ],
-                        {
-                            width: "100%",
-                            height: "100%",
-                            paddingTop: "24px",
-                            backgroundColor: "#020813",
-                            flexDirection: "column",
-                            alignItems: "center"
-                        }
-                    ],
-                    [
-                        [
-                            [
-                                0,
-                                "back-button"
-                            ]
-                        ],
-                        {
-                            width: "78px",
-                            height: "54px",
-                            borderRadius: "22px",
-                            backgroundColor: "#0b65ea",
-                            justifyContent: "center",
-                            alignItems: "center"
-                        }
-                    ],
-                    [
-                        [
-                            [
-                                0,
-                                "back-text"
-                            ]
-                        ],
-                        {
-                            width: "70px",
-                            height: "30px",
-                            color: "#ffffff",
-                            fontSize: "22px",
-                            fontWeight: 800,
-                            textAlign: "center"
-                        }
-                    ],
-                    [
-                        [
-                            [
-                                0,
-                                "sponsor-code"
-                            ]
-                        ],
-                        {
-                            width: "188px",
-                            height: "188px",
-                            marginTop: "68px"
-                        }
-                    ],
-                    [
-                        [
-                            [
-                                0,
-                                "sponsor-caption"
-                            ]
-                        ],
-                        {
-                            marginTop: "16px",
-                            color: "#ffffff",
-                            fontSize: "22px",
-                            fontWeight: 800,
-                            textAlign: "center"
-                        }
-                    ]
-                ];
-                var $app_script$ = function __scriptModule__(module, exports, $app_require$1) {
-                    "use strict";
-                    Object.defineProperty(exports, "__esModule", {
-                        value: true
-                    });
-                    exports.default = void 0;
-                    var _system = _interopRequireDefault($app_require$1("@app-module/system.router"));
-                    function _interopRequireDefault(e) {
-                        return e && e.__esModule ? e : {
-                            default: e
-                        };
-                    }
-                    var _default = exports.default = {
-                        private: {
-                            touchStartX: -1,
-                            touchStartY: -1
-                        },
-                        goBack () {
-                            _system.default.back();
-                        },
-                        onTouchStart (evt) {
-                            const point = this.getTouchPoint(evt);
-                            if (point) {
-                                this.touchStartX = point.clientX;
-                                this.touchStartY = point.clientY;
+                                [
+                                    0,
+                                    "page"
+                                ]
+                            ],
+                            {
+                                width: "466px",
+                                height: "466px",
+                                paddingTop: "75px",
+                                backgroundColor: "#020813",
+                                flexDirection: "column",
+                                alignItems: "center"
                             }
-                        },
-                        onTouchEnd (evt) {
-                            const point = this.getTouchPoint(evt);
-                            if (!point || this.touchStartX < 0) return;
-                            const endX = point.clientX;
-                            const endY = point.clientY;
-                            const sw = this.$app.$def.data.screenWidth || 212;
-                            const startsInLeftQuarter = this.touchStartX <= 0.25 * sw;
-                            const endsAtRightQuarter = endX >= 0.75 * sw;
-                            const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120;
-                            if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) _system.default.back();
-                            this.touchStartX = -1;
-                            this.touchStartY = -1;
-                        },
-                        getTouchPoint (evt) {
-                            if (evt && evt.changedTouches && evt.changedTouches.length > 0) return evt.changedTouches[0];
-                            if (evt && evt.touches && evt.touches.length > 0) return evt.touches[0];
-                            return null;
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "sponsor-code"
+                                ]
+                            ],
+                            {
+                                width: "188px",
+                                height: "188px",
+                                marginTop: "60px"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "sponsor-caption"
+                                ]
+                            ],
+                            {
+                                marginTop: "16px",
+                                color: "#ffffff",
+                                fontSize: "22px",
+                                fontWeight: 800,
+                                textAlign: "center"
+                            }
+                        ]
+                    ];
+                    var $app_script$ = function __scriptModule__(module, exports, $app_require$1) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports.default = void 0;
+                        var _system = _interopRequireDefault($app_require$1("@app-module/system.router"));
+                        var _navGuard = __webpack_require__("./src/common/navGuard.js");
+                        function _interopRequireDefault(e) {
+                            return e && e.__esModule ? e : {
+                                default: e
+                            };
+                        }
+                        var _default = exports.default = {
+                            private: {
+                                touchStartX: -1,
+                                touchStartY: -1
+                            },
+                            goBack () {
+                                if (!(0, _navGuard.navGuard)()) return;
+                                _system.default.back();
+                            },
+                            onTouchStart (evt) {
+                                const point = this.getTouchPoint(evt);
+                                if (point) {
+                                    this.touchStartX = point.clientX;
+                                    this.touchStartY = point.clientY;
+                                }
+                            },
+                            onTouchEnd (evt) {
+                                const point = this.getTouchPoint(evt);
+                                if (!point || this.touchStartX < 0) return;
+                                const endX = point.clientX;
+                                const endY = point.clientY;
+                                const sw = this.$app.$def.data.screenWidth || 212;
+                                const startsInLeftQuarter = this.touchStartX <= 0.25 * sw;
+                                const endsAtRightQuarter = endX >= 0.75 * sw;
+                                const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120;
+                                if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
+                                    if (!(0, _navGuard.navGuard)()) return;
+                                    _system.default.back();
+                                }
+                                this.touchStartX = -1;
+                                this.touchStartY = -1;
+                            },
+                            getTouchPoint (evt) {
+                                if (evt && evt.changedTouches && evt.changedTouches.length > 0) return evt.changedTouches[0];
+                                if (evt && evt.touches && evt.touches.length > 0) return evt.touches[0];
+                                return null;
+                            }
+                        };
+                        const moduleOwn = exports.default || module.exports;
+                        const accessors = [
+                            'public',
+                            'protected',
+                            'private'
+                        ];
+                        if (moduleOwn.data && accessors.some(function(acc) {
+                            return moduleOwn[acc];
+                        })) throw new Error('页面VM对象中的属性data不可与"' + accessors.join(',') + '"同时存在，请使用private替换data名称');
+                        if (!moduleOwn.data) {
+                            moduleOwn.data = {};
+                            moduleOwn._descriptor = {};
+                            accessors.forEach(function(acc) {
+                                const accType = typeof moduleOwn[acc];
+                                if ('object' === accType) {
+                                    moduleOwn.data = Object.assign(moduleOwn.data, moduleOwn[acc]);
+                                    for(const name in moduleOwn[acc])moduleOwn._descriptor[name] = {
+                                        access: acc
+                                    };
+                                } else if ('function' === accType) console.warn('页面VM对象中的属性' + acc + '的值不能是函数，请使用对象');
+                            });
                         }
                     };
-                    const moduleOwn = exports.default || module.exports;
-                    const accessors = [
-                        'public',
-                        'protected',
-                        'private'
-                    ];
-                    if (moduleOwn.data && accessors.some(function(acc) {
-                        return moduleOwn[acc];
-                    })) throw new Error('页面VM对象中的属性data不可与"' + accessors.join(',') + '"同时存在，请使用private替换data名称');
-                    if (!moduleOwn.data) {
-                        moduleOwn.data = {};
-                        moduleOwn._descriptor = {};
-                        accessors.forEach(function(acc) {
-                            const accType = typeof moduleOwn[acc];
-                            if ('object' === accType) {
-                                moduleOwn.data = Object.assign(moduleOwn.data, moduleOwn[acc]);
-                                for(const name in moduleOwn[acc])moduleOwn._descriptor[name] = {
-                                    access: acc
-                                };
-                            } else if ('function' === accType) console.warn('页面VM对象中的属性' + acc + '的值不能是函数，请使用对象');
-                        });
-                    }
-                };
-                var $app_template$ = function(vm) {
-                    const _vm_ = vm || this;
-                    return aiot.__ce__("div", {
-                        __vm__: _vm_,
-                        __opts__: {
-                            classList: [
-                                "page"
-                            ],
-                            events: {
-                                touchstart: function(evt) {
-                                    return _vm_.onTouchStart(evt);
-                                },
-                                touchend: function(evt) {
-                                    return _vm_.onTouchEnd(evt);
-                                }
-                            }
-                        }
-                    }, [
-                        aiot.__ce__("div", {
+                    var $app_template$ = function(vm) {
+                        const _vm_ = vm || this;
+                        return aiot.__ce__("div", {
                             __vm__: _vm_,
                             __opts__: {
                                 classList: [
-                                    "back-button"
+                                    "page"
                                 ],
                                 events: {
-                                    click: function(evt) {
-                                        return _vm_.goBack(evt);
+                                    touchstart: function(evt) {
+                                        return _vm_.onTouchStart(evt);
+                                    },
+                                    touchend: function(evt) {
+                                        return _vm_.onTouchEnd(evt);
                                     }
                                 }
                             }
                         }, [
+                            aiot.__ce__("image", {
+                                __vm__: _vm_,
+                                __opts__: {
+                                    classList: [
+                                        "sponsor-code"
+                                    ],
+                                    src: "/common/sponsor-code.png"
+                                }
+                            }, []),
                             aiot.__ce__("text", {
                                 __vm__: _vm_,
                                 __opts__: {
                                     classList: [
-                                        "back-text"
+                                        "sponsor-caption"
                                     ],
-                                    value: "返回"
+                                    value: "求喂饭"
                                 }
                             }, [])
-                        ]),
-                        aiot.__ce__("image", {
-                            __vm__: _vm_,
-                            __opts__: {
-                                classList: [
-                                    "sponsor-code"
-                                ],
-                                src: "/common/sponsor-code.png"
-                            }
-                        }, []),
-                        aiot.__ce__("text", {
-                            __vm__: _vm_,
-                            __opts__: {
-                                classList: [
-                                    "sponsor-caption"
-                                ],
-                                value: "求喂饭"
-                            }
-                        }, [])
-                    ]);
-                };
-                $app_exports$['entry'] = function($app_exports$) {
-                    $app_script$({}, $app_exports$, $app_require$1);
-                    $app_exports$.default.template = $app_template$;
-                    $app_exports$.default.style = $app_style$;
-                };
+                        ]);
+                    };
+                    $app_exports$['entry'] = function($app_exports$) {
+                        $app_script$({}, $app_exports$, $app_require$1);
+                        $app_exports$.default.template = $app_template$;
+                        $app_exports$.default.style = $app_style$;
+                    };
+                })();
             })();
         };
         return createPageHandler();

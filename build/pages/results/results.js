@@ -95,6 +95,21 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 word: value
                             };
                         }
+                    },
+                    "./src/common/navGuard.js" (__unused_rspack_module, exports) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports.navGuard = navGuard;
+                        var lastNavAt = 0;
+                        var NAV_LOCK_MS = 500;
+                        function navGuard() {
+                            const now = Date.now();
+                            if (now - lastNavAt < NAV_LOCK_MS) return false;
+                            lastNavAt = now;
+                            return true;
+                        }
                     }
                 };
                 var __webpack_module_cache__ = {};
@@ -405,6 +420,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         });
                         exports.default = void 0;
                         var _system = _interopRequireDefault($app_require$1("@app-module/system.router"));
+                        var _navGuard = __webpack_require__("./src/common/navGuard.js");
                         var _system2 = _interopRequireDefault($app_require$1("@app-module/system.storage"));
                         var _system3 = _interopRequireDefault($app_require$1("@app-module/system.file"));
                         var _system4 = _interopRequireDefault($app_require$1("@app-module/system.prompt"));
@@ -636,6 +652,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 return Math.min(60, Math.max(40, 4 * len));
                             },
                             goBack () {
+                                if (!(0, _navGuard.navGuard)()) return;
                                 if (this.backLongPressTriggered) return;
                                 _system.default.back();
                             },
@@ -672,7 +689,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             },
                             openDetail (item) {
-                                if (!item || !item.word) return;
+                                if (!item || !item.word || !(0, _navGuard.navGuard)()) return;
                                 _system.default.push({
                                     uri: "/pages/detail",
                                     params: {
