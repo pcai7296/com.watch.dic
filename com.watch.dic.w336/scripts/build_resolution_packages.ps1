@@ -4,7 +4,7 @@ $targets = @(
   @{ Id = "W192"; Width = 192; Height = 490; Script = "build:192" },
   @{ Id = "W212"; Width = 212; Height = 520; Script = "build:212" },
   @{ Id = "W336"; Width = 336; Height = 480; Script = "build:336" },
-  @{ Id = "W432"; Width = 432; Height = 432; Script = "build:432" },
+  @{ Id = "W432"; Width = 432; Height = 514; Script = "build:432" },
   @{ Id = "W466"; Width = 466; Height = 466; Script = "build:466" }
 )
 
