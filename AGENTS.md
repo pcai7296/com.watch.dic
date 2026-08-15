@@ -21,7 +21,7 @@ efactor, 	est, chore,
 evert, merge |
 | .eslintignore | Ignores dist/, uild/, sign/, 
 ode_modules/ |
-| .gitignore | Also ignores dist/, uild/, sign/, src/common/dict/ (generated), .husky/, .codegraph/, .omo/ |
+| .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/ (dict/sign/dist/build now committed)
 
 No .eslintrc* — ESLint defaults via iot-toolkit.
 
@@ -42,7 +42,7 @@ pm run deploy:watch | Build + ADB push to emulator-5554 |
 | 
 pm run deploy:watch:fast | ADB push only (skip build) |
 
-uild/ and dist/ are gitignored — outputs of 
+build/ and dist/ are committed to Git (user decision 2026-08-15: all RPK inputs tracked)
 spack v1.7.12 via iot-toolkit.
 
 ## Deploy
@@ -79,7 +79,7 @@ src/
   components/
     InputMethod/                  — English QWERTY keyboard (890 lines), sub-assets for layouts
   common/
-    dict/                         — Generated shards (gitignored, do NOT edit)
+    dict/                         - 269 shards (committed to Git, do NOT edit)
     icons/                        — Button/decoration icons
   i18n/                           — Locale JSON files (defaults, en, zh-CN)
 scripts/                          — generate_watch_dict.py, deploy_watch.ps1
@@ -90,7 +90,7 @@ release_repo/                     — Published RPK + cover.png + preview screen
 
 ## Screen & style
 
-- Canvas: 212x520px, designWidth: "device-width", minPlatformVersion: 1000
+- Canvas: 466x466px, designWidth: "device-width", minPlatformVersion: 1000
 - Background #020813 on all pages except about (#000000)
 - Blue/white/black dark theme
 - **All text min 18px** — do not go below unless user OKs truncation
