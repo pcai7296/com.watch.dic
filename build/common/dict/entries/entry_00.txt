@@ -1,0 +1,500 @@
+0a	ei	第一个字母 A; 一个; 第一的\r; -{ 累加器, 加法器, 地址, 振幅, 模拟, 区域, 面积, 汇编, 组件, 异步	3
+1bandon	a'bEndan	!放弃, 抛弃, 遗弃, 使屈从, 沉溺, 放纵; @放任, 无拘束, 狂热	de
+7ed	a'bEndand	#被抛弃的, 无约束的, 恣意放荡的	40
+7ment	a'bEndamant	@放弃, 抛弃, 放纵; > 委付, 废弃, 放弃(采矿权)	40
+3se	a'beis	!降低...的地位, 降低...的品格, 贬抑, 使谦卑	80
+4h	a'bES	!使不安, 使羞愧, 使困窘	80
+5ed	a'bESd	#不安的, 窘迫的	40
+3te	a'beit	!减少, 减轻, 减弱, 废除, 打折扣; $减轻, 减弱, 减少, 失效, 被废除	c0
+2breviate	a'bri:vieit	!缩写, 使...简略, 缩短; $使用缩写词	c0
+9ion	a.bri:vi'eiSan	@缩写词, 缩写, 缩短, 节略	68
+2dicate	'Ebdikeit	!正式放弃; $退位, 退出, 辞职	c0
+3omen	'Ebdamen	@腹部; | 腹[部]	10
+3uct	Eb'dVkt	!诱拐, 绑架, 使外展; | 外展, 展	c0
+2errant	E'berant	#偏离正路的, 偏离常轨的, 畸变的; ] 异常的	80
+6tion	Eba'reiSan	@离开正路, 偏离, 畸变, 光行差, 心理失常, 色差; ] 光行差; 像差	80
+3t	a'bet	!教唆, 煽动, 怂恿, 帮助, 支持	80
+3yance	a'beians	@中止, 暂搁, 停止, 归属待定; ] 潜态	80
+2hor	ab'hQ:	!憎恶, 痛恨, 回避, 拒绝	c0
+5rent	ab'hQrant	#令人憎恨的, 可恶的, 厌恶的, 相抵触的, 不一致的	c0
+2ide	a'baid	$停留, 遵守, 居留, 继续下去; !忍受, 经受, 屈从于	d8
+4ing	a'baidiN	#永久的, 持久的, 不变的	40
+3lity	a'biliti	@能力, 才干; > 能力, 才能	77
+2ject	'EbdZekt	#绝望无助的, 可怜的, 糟透的, 卑鄙的, 自卑的; } 卑鄙的, 卑下的, 可怜的	c0
+3ure	ab'dZua	!发誓断绝, 公开放弃; } 誓绝, 弃绝, 公开放弃	80
+2laze	a'bleiz	#着火的, 闪亮的, 激昂的; %着火, 闪耀	40
+3e	'eibl	#能干的, 能够的	3
+3ution	a'blu:San	@洗澡, 洗礼, 斋戒沐浴; ] 洗净; 洗净液	c0
+2negate	'Ebnigeit	!放弃, 舍弃, 克制(欲望)	80
+7ion	.Ebni'geiSan	@放弃, 舍弃, 克制	80
+3ormal	Eb'nQ:mal	#反常的, 不规则的, 变态的, 畸形的; @畸形的人	7e
+2oard	a'bQ:d	%在船上, 在火车上, 在飞机上; ^在...之上	56
+3lish	a'bQliS	!废止, 革除, 消灭; > 废除, 取消, 裁撤	fa
+5tion	.Ebau'liSan	@废除, 废奴运动; | 禁止, 消失	c0
+9ist	.Ebau'liSanist	@废除主义者, 废奴主义者	40
+3minate	a'bQmineit	!厌恶, 憎恶	80
+3riginal	.Eba'ridZanal	#原始的, 土著的; @土著居民, 土生生物	a0
+4t	a'bQ:t	$流产, 中途失败; !使流产, 使失败, 使中止	60
+5ion	a'bQ:San	@流产, 堕胎, 失败, 夭折, 中止; | 流产, 小产; 顿挫	22
+6ve	a'bQ:tiv	#流产的, 堕胎的, 失败的; | 流产的; 顿挫的	c0
+3und	a'baund	$大量存在, 富于, 充满	f0
+4t	a'baut	^在...周围, 大约, 有关, 关于; %大约, 四处, 在附近, 周围	3
+3ve	a'bVv	^在上方, 超出; %在上面; #上述的, 上面的	3
+5board	a.bVv'bQ:d	%光明正大地, 率直地; #光明正大的, 率直的	80
+2rade	a'breid	!擦伤, 磨损, 磨; | 擦除, 擦破; 磨损, 磨除	80
+4sion	a'breiZan	@磨擦, 磨损, 磨损处; ] 磨耗; 磨蚀	e0
+6ve	a'breisiv	@研磨料; #有研磨作用的	c0
+3east	a'brest	%并肩地, 并列地	80
+3idge	a'bridZ	!缩短, 删节, 减少, 剥夺; } 剥夺; 节略	e0
+3oad	a'brQ:d	%往国外, 到室外, 到处; #往国外的, 在室外的, 广泛四散的	43
+4gate	'Ebrageit	!废除, 取消; > 取消, 废除, 不生效(的法令)	80
+3upt	a'brVpt	#突然的, 唐突的, 陡峭的, 不连贯的	fa
+2scission	Eb'siZan	@切断, 除去; | 切除	80
+4ond	ab'skQnd	$潜逃, 逃匿; > (为躲避罪责,债务等)潜逃	80
+3ence	'Ebsans	@缺席, 缺乏, 没有; | 失神	5e
+5t	'Ebsant	#缺席的, 不在的, 缺乏的, 漫不经心的; !使缺席	5f
+6ee	.Ebsan'ti:	@缺席者, 不在者; > 缺勤者, 缺席者, 未到工者	40
+8ism	Ebsan'ti:iz(a)m	@经常无故缺席, 旷职, 旷工, 旷课; > 有计划的怠工, 旷工	c0
+3olute	'Ebsalu:t	#绝对的, 专制的, 完全的, 独立的; @绝对事物	de
+8ly	'Ebsalu:tli	%完全地, 绝对地, 确确实实地	44
+5ve	ab'zQlv	!宣告...无罪, 赦免, 免除; > 免偿(债务), 解除	c0
+4rb	ab'sQ:b	!吸收, 使全神贯注, 同化, 买进, 理解, 承受, 忍受, 承担; | 吸收	fe
+6ing	ab'sQ:biN	#吸引人的, 非常有趣的; [机] 吸收的	40
+5ption	ab'sQ:pSan	@吸收, 专心, 全神贯注; ] 吸收; 吸收作用	48
+3tain	ab'stein	$自制, 戒绝, 弃权, 回避	c0
+4emious	Eb'sti:mjas	#有节制的, 节约的	80
+5ntion	ab'stenSan	@戒绝, 回避, 弃权	80
+9us	Eb'stenSas	#有节制的	80
+4inence	'Ebstinans	@节制, 禁欲, 戒酒; | 节制, 禁戒(如禁酒,节欲)	40
+8t	'Ebstinant	#有节制的, 禁欲的; @禁欲者	80
+4ract	'EbstrEkt	#抽象的, 深奥的; @摘要, 抽象概念; !摘要, 提炼, 使抽象化; { 摘录; 摘要; 抽象	fe
+8ion	Eb'strEkSan	@抽象化, 心不在焉, 空想, 提炼, 抽象派作品; ] 提取; 抽取; 夺取; 夺取反应; 除去	40
+5use	Eb'stru:s	#难解的, 深奥的	c0
+3urd	ab'sa:d	#荒谬的, 不合理的, 可笑的; @荒诞	fa
+2undance	a'bVndans	@丰富, 充足, 大量; > 丰富, 充裕	f8
+7t	a'bVndant	#丰富的, 充分的, 大量的	d6
+8ly	a'bVndantli	%大量地, 丰富地	40
+3se	a'bju:s.a'bju:z	@滥用, 虐待, 恶习, 辱骂; !滥用, 辱骂, 虐待	fe
+4ive	a'bju:siv	#恶言谩骂的, 被滥用的, 腐败的, 虐待的	80
+3t	a'bVt	v. 邻接, 毗邻	c0
+2ysmal	a'bizmal	#深不可测的, 无底的	80
+4s	a'bis	@深渊, 深邃, 地狱	40
+1cademic	.Eka'demik	#学院的, 学术的, 不切实际的; @大学生, 大学教师, 学者, 学会会员	fe
+8ian	a.kEda'miSan	@学会会员, 院士, 学究, 大学生, 学者	c0
+6y	a'kEdami	@学院, 院校, 学会	5e
+3rpous	ei'kA:pas	#[植]不结果的,无果实的	80
+2cede	Ek'si:d	$同意, 正式加入, 就任, 继任	80
+4lerate	ak'selareit	v. 加速, 促进	fe
+ad	ak'selareitid	#加快的; | 加速的	40
+9ing	Ek'selareitiN	{ 加速	40
+aon	ak.sela'reiSan	@加速, 促进, 加速度; ] 加速度	44
+4nt	'Eksant	@重音, 口音, 特点, 注重点; !重读, 加重音号于, 强调	17
+6uate	Ek'sentjueit	!以重音念, 强调, 重读	c0
+4pt	ak'sept	!接受, 承认, 同意, 相信, 赞成, 承担, 承兑, 采纳, 接纳, 容忍; $同意	17
+6able	ak'septabl	#可接受的, 合意的, 可忍受的	4
+7nce	ak'septans	@接受, 接纳, 承认, 同意, 赞同, 容忍, 相信; > 承兑, 认付, (工程)验收	1c
+4ss	'Ekses	@通路, 入口, 接近, 进入, 使用权, 发作; !访问, 存取, 接近, 使用; { 访问, 存取	fe
+6ary	ak'sesari	#附属的, 附带的, 从犯的; @附件, 同谋, 从犯	8
+6ibility	ak.sesa'biliti	@易接近, 可进入; ] 可及性; 可达性; 可接近性; 吸湿性	40
+8le	ak'sesabl	#易接近的, 可进入的, 可使用的, 易受影响的, 可理解的	ea
+6ory	ak'sesari	@附件, 零件, 附加物, 从犯, 同谋; #附属的, 补充的, 同谋的, 帮凶的, 非主要的, 副的; { 附件	fc
+3ident	'Eksidant	@意外事件, 机遇, 事故, 次要方面; ] 意外事故; 事故	57
+8al	.Eksi'dentl	#意外的, 偶然的, 非主要的, 附属的; @临时记号, 次要方面	5c
+aly	.Eksi'dentli	%偶然地, 意外地	40
+8s	'Eksidant	@意外事故；事故（accident的复数）	20
+3laim	a'kleim	@喝彩, 欢呼, 赞同; v. 欢呼, 喝彩, 称赞	f0
+7ed	a'kleimd	v. 欢呼（acclaim的过去式及过去分词）; #受到赞扬的	40
+4imate	a'klaimit	!使适应, 使服水土; $服水土, 适应新环境	80
+3olade	.Ekau'leid	@荣誉, 赞美, 骑士爵位的授予礼, 连谱号	80
+4mmodate	a'kQmadeit	!使适应, 调和, 通融, 容纳, 向...提供; $适应	fc
+aing	a'kQmadeitiN	#与人方便的, 肯通融的	c0
+bon	a.kQma'deiSan	@膳宿, 预订铺位, 适应性调节, 调和, 贷款; | 调节(眼); 适应	3e
+ds	a.kQma'deiSan	@膳宿；住房, 住宿；居住设施（accommodation的复数）	20
+5paniment	a'kVmpanimant	@伴随物, 附加物, 伴奏	40
+8y	a'kVmpani	!陪伴, 伴随, 补充, 为...伴奏; $伴奏, 伴唱	fe
+9ing	a'kVmpani	#随同的, 附见的	40
+6lice	a'kVmplis	@共犯, 同谋; | 协同菌	c0
+8sh	a'kVmpliS	!完成, 达到, 实现, 使完美	f6
+aed	a'kVmpliSt	#完成的, 实现的, 有造诣的, 熟练的, 善社交的	c0
+ament	a'kVmpliSmant	@成就, 完成	48
+4rd	a'kQ:d	@一致, 调和, 协定; !给与, 使一致; $相符合	fc
+6ance	a'kQ:dans	@一致, 和谐	1c
+6ingly	a'kQ:diNli	%相应地, 因此, 于是	1c
+7on	a'kQ:djan	@手风琴; #可折叠的	40
+4st	a'kQst	!招呼, 搭讪, 勾引; } 勾引, 引诱	c0
+4unt	a'kaunt	@报告, 解释, 估价, 理由, 利润, 算账, 帐目; $报帐, 解释, 导致, 报偿, 占, 杀死; !认为; { 帐户, 帐号	76
+7 for		对…负有责任；对…做出解释；说明……的原因；导致；（比例）占	60
+7ability	a.kaunta'biliti	@负有责任, 可说明性; ] 衡算计量	80
+8nt	a'kauntant	@会计人员, 会计师; > 会计师, 会计人员	72
+as	a'kauntant	会计人员	20
+7ing	a'kauntiN	@会计学, 帐单, 清帐; { 帐户处理, 记帐	60
+3redit	a'kredit	!信托, 确认, 归结于, 委派; > 发行信用证, 信托, 委托	40
+5te	E'kri:t	$连生, 合生, 附依; !使依附, 使连接; #合生的	80
+6ion	E'kri:San	@自然增大, 添加, 添加物, 连生; ] 停滞堆积	80
+4ue	a'kru:	$自然增加, 产生; > 应计, 产生, 出现	80
+3umulate	a'kju:mjuleit	v. 积聚, 堆积	fe
+9ion	a.kju:mju'leiSan	@积聚, 累积, 积聚物; | 蓄积, 累积	40
+4racy	'Ekjurasi	@精确, 正确; { 准确度	fe
+6te	'Ekjurat	#正确的, 精确的; > 准确的, 精确的	fc
+4sation	Ekju:'zeiSan	@控告, 指控, 指责; } 控告, 起诉, 告发	40
+5e	a'kju:z	!指责, 控告, 归咎于; $指责, 控告	fe
+6r	a'kju:za	@控诉者, 指责者; } 原告, 指控人, 控告者	20
+5tom	a'kVstam	!使习惯于	5c
+8ed	a'kVstamd	#惯常的, 习惯了的	5e
+2erbic	a'sa:bik	#酸的, 尖刻的	80
+6ty	a'sa:biti	@涩, 酸, 尖刻; ] 涩度	80
+2he	eik	@疼痛; $痛, 哀怜, 渴望	17
+3ieve	a'tSi:v	!完成, 达到; $如愿以偿	7f
+7ment	a'tSi:vmant	@完成, 成就, 功业	6e
+3romatic	Ekrau'mEtik	#无色的, 不分光的, 消色差的, 非染色质的; ] 消色差的	80
+2id	'Esid	@酸, 酸类物质, 尖刻, 迷幻药; #酸的, 酸性的, 尖刻的, 敏锐的; { 自动文档互参与索引生成程序	7e
+4ic	a'sidik	#成酸的, 尖刻的, 酸性的; [机] 酸性	40
+5ty	a'siditi	@酸性; ] 酸度; 酸性; 酸性反应	40
+2knowledge	ak'nQlidZ	!承认, 告知收悉, 答谢, 报偿; > 承认, 答谢, 收到的通知	fe
+2me	'Ekmi	@顶点, 极度, 最高点; | 极期	c0
+2olyte	'Ekaulait	@侍僧, 助手	80
+3rn	'eikQ:n	@橡树果实; [机] 浆栎, 浆栎果	80
+3ustic	a'ku:stik	#听觉的, 声学的, 音响的; | 听的; 声学的	80
+8al	a'ku:stikal	#听觉的, 声学的	40
+2quaint	a'kweint	!使认识, 介绍	f8
+8ance	a'kweintans	@认识, 相识者	de
+8ed	a'kweintid	#知晓的；有知识的；熟识的	c0
+4iesce	.Ekwi'es	$默许, 默然同意	80
+5re	a'kwaia	!获得, 学到; [电] 目标锁定	7e
+7d	a'kwaiad	#获得的, 后天的; | 获得的, 后天的	80
+5sition	.Ekwi'ziSan	@获得, 获得物; > 收购, 招揽, 取得	7e
+9ve	a'kwizitiv	#渴望获得的, 贪婪的; } 取得的, 获得的, 贪得无厌的	c8
+5t	a'kwit	!无罪释放, 表现, 使履行; } 开释, 释放, 免	c0
+6tal	a'kwital	@履行, 无罪开释; > (债务的)清偿	80
+2re	'eika	@英亩	56
+3id	'Ekrid	#苦味的, 辛辣的, 讥讽的, 刻薄的; | 辛辣的	c0
+4monious	Ekri'maunjas	#尖刻的, 讥讽的, 激烈的	c0
+7y	'Ekrimani	@严厉, 尖刻; | 辛辣	c0
+3obat	'EkrabEt	@表演特技者, 杂技演员	90
+4nym	'Ekraunim	@首字母缩拼词, 首字母组合词; { 字首组合词	c0
+4phobia	.Ekrau'faubia	@恐高症; | 高处恐怖	80
+4ss	a'krQs	^越过, 穿过, 与...相交叉, 在...的对面; %交叉, 到另一边, 在对面, 成十字	3
+2t	Ekt	@行动, 行为, 幕, 法案; $行动, 表演, 假装, 见效, 表现, 担当; !扮演, 装作; { 先进通信技术, 先进计算机工艺, 自动代码翻译技术	17
+3ing	'EktiN	@演戏, 装腔作势; #代理的, 演出用的, 起作用的	40
+4on	'EkSan	@行动, 活动, 动作, 作用, 战斗, 行为, 诉讼; !对...起诉; { 方式	7f
+6s	'EkSan	@动作；行动（action的复数）	20
+4vate	'Ektiveit	!使活动, 使激活, 正式建成; $有活力	70
+5e	'Ektiv	#活跃的, 起作用的, 积极的, 有效的, 主动的, 活性的, 现行的, 现役的; @主动语态, 积极分子	57
+6ly	'Ektivli	%活跃地, 积极地	40
+5ities	Ek'tiviti	@（activity复数形式）活动；活动区；活动性	20
+7y	Ek'tiviti	@活动, 行动, 活跃, 活力; { 活动	37
+3or	'Ekta	@男演员, 行动者; | 作用物, 反应物	36
+3ress	'Ektris	@女演员	16
+3ual	'EktSual	#真实的, 实际的, 现行的; | 实际死亡率	56
+6ly	'EktSuali	%事实上, 竟然, 如今, 现在	4c
+5rial	.Ektju'earial	#保险计算员的, 保险计算的; > 保险公司计算员的, 保险统计	80
+5te	'EktSueit	!开动, 驱使, 激励	c0
+2uity	a'kju:ati	@尖锐, (疾病的)剧烈, 敏锐; ] 锐度; 分辨能力	80
+3men	a'kju:men	@敏锐, 聪明	c0
+3puncture	'Ekju.pVNktSa	@针刺, 针刺疗法; !施以针灸	40
+3te	a'kju:t	#尖锐的, 敏锐的, 激烈的, 严重的, 急性的; | 急性的; 尖锐的	fe
+1d	Ed	@广告; { 地址, 模拟-数字	4
+2age	'EdidZ	@格言, 谚语	c0
+3mant	'Edamant	@坚硬的东西; #非常坚硬的, 坚强的, 固执的	c0
+3pt	a'dEpt	!使适应, 改编; $适应	fe
+5able	a'dEptabl	#能适应的, 适合的, 可修改的	c0
+6tion	.EdEp'teiSan	@适应, 改编, 改编本; | 适应[作用]	42
+5ive	a'dEptiv	#适应的, 能适应的	40
+2d	Ed	!增加, 添加, 附带说明, 计算...总和; $做加法, 积累而成, 增添; { 加法	17
+3endum	a'dendam	@补遗, 附加物; ] 附加物; 齿顶	80
+3ict	a'dikt	!使沉溺, 使上瘾; @入迷的人, 上瘾者	f8
+6ed	a'diktid	#沉溺于...的, 无法摆脱(某种嗜好)的; } 嗜, 好, 惯于	42
+6ive	a'diktiv	#上瘾的	40
+4tion	a'diSan	@加法, 增加的人(或物); { 加法	be
+8al	a'diSanal	#附加的, 另外的, 额外的; [机] 加添的, 附加的	7c
+6ve	'Editiv	#添加的, 附加的, 加法的, 累积的; @添加物	c0
+3le	'Edl	!使昏乱, 使腐坏; $变质; #昏乱的, 腐坏的	c0
+3ress	a'dres	@住址, 演说, 举止, 灵巧, 求爱; !发表(演说或讲话), 对付, 写地址; { 地址, 寻址	ff
+3uce	a'dju:s	!引证, 举出; } 援引, 引证, 提出	80
+2ept	a'dept	#熟练的, 老练的, 巧妙的; @能手, 内行	e0
+3quate	'Edikwat	#适当的, 足够的; } 胜任的, 适当的, 充分的	fe
+2here	ad'hia	$依附, 粘着, 坚持, 追随, 拥护; !使粘附	fc
+6nce	ad'hiarans	@依附, 固执, 坚持; ] 粘合	40
+7t	ad'hiarant	@信徒, 追随者; #附着的, 发生联系的	80
+4sive	ad'hi:siv	#粘着的, 涂有粘性物质的; @粘合剂, 橡皮膏	c0
+2jacent	a'dZeisant	#毗连的, 邻近的, 连接的; [机] 相邻的, 邻位的, 交界的	f8
+3ective	'EdZiktiv	@形容词; #形容词的, 从属的	14
+3oin	a'dZQin	v. 邻接, 毗连	78
+6ing	a'dZQiniN	#邻接的, 毗连的; [机] 联接	40
+4urn	a'dZa:n	$休会, 换地方; !使中止, 推迟	c0
+3udicate	a'dZu:dikeit	v. 判决, 宣告, 裁定	80
+4nct	'EdZVNkt	@附属物, 附件, 助手, 修饰语; #附属的	c0
+4st	a'dZVst	!调整, 使适应于, 校准; $适应于, 被调节, 相互熟悉而适应	fe
+6able	a'dZVstabl	#可调节的; [电] 可调整的	8
+6ment	a'dZVstmant	@调整, 调节, 校正; ] 调节	42
+2lib	Ed'lib	v. 临时穿插, 信口说出, 即兴讲演; { 状态说明设计语言	80
+2minister	ad'minista	!管理, 料理, 执行; $执行遗产管理人的职责, 给予帮助	70
+8rate	ad'ministreit	!管理, 支配	50
+bion	ad.mini'streiSan	@行政, 管理, 政府机关; ] 给药	7e
+cve	ad'ministrativ	#管理的, 行政的; } 行政的, 管理的, 遗产管理的	40
+bor	ad'ministreita	@管理人, 行政官; > 遗产管理人员	60
+4rable	'Edmarabl	#可钦佩的, 极好的, 令人惊奇的	42
+6tion	.Edma'reiSan	@赞赏, 钦佩, 引人赞赏的对象	48
+5e	ad'maia	!赞美, 钦佩, 爱慕; $称赞, 惊奇	d6
+4ssion	ad'miSan	@准许进入, 入场费, 录用, 承认; > 加入, 入股	fe
+4t	ad'mit	!承认, 接受, 允许进入, 容许; $开向, 容许, 承认	56
+5tedly	ad'mitidli	%公认地, 诚然	40
+3onish	ad'mQniS	!警告, 劝告, 训诫, 告诫	c0
+2obe	a'doubi	@风干土坯; ] 风干砖; 土砖; 灰质粘土; 多孔粘土	c0
+3lescence	.Edau'lesans	@青春期; | 青年期, 青春期	22
+9t	.Edau'lesant	#青春期的, 青少年的; @青少年	da
+3pt	a'dQpt	!采用, 正式通过, 收养, 接受; | 采取	fe
+5ion	a'dQpSan	@采用, 采纳, 收养; } 收养, 采纳, 采用	48
+3re	a'dQ:	!崇拜, 爱慕, 喜爱; $崇拜, 爱慕	fa
+4n	a'dQ:n	!装饰, 使生色	c0
+5ment	a'dQ:nmant	@装饰, 装饰品	40
+2roit	a'drQit	#灵巧的, 敏捷的, 聪明的	c0
+2ulate	'Edjuleit	!谄媚, 过分称赞	80
+4t	'EdVlt	@成人, 成虫; #成年的, 成熟的	36
+5erate	a'dVltareit	!掺杂; #掺假的, 假的, 通奸的	80
+9ion	a.dVlta'reiSan	@掺杂, 掺假的东西; ] 掺杂; 掺加	40
+5s	'EdVlt	@成年人（adult的复数形式）	20
+3mbrate	'EdVmbreit	!画...的轮廓, 预示	80
+2vance	ad'vA:ns	@前进, 进展, 行过的路程; $前进, 进展, 提高, 上涨; !使前进, 促进, 提出, 提高, 使提前, 预付; #前面的, 预先的	5e
+7d	ad'vA:nst	#在前的, 高级的, 先进的, 年老的; } 预付的, 预支的, 垫付的	74
+7ment	ad'vA:nsmant	@前进, 进步, 提升; | 徙前术	40
+5tage	ad'vA:ntidZ	@优点, 便利, 好处, 优势; !有助于	17
+9ous	.Edvan'teidZas	#有利的, 有益的	8
+9s	ad'vA:ntidZ	@优势；特点；有利；> 利益（advantage的复数）; v. 促进（advantage的三单形式）；有利于	20
+3ent	'Edvant	@来到, 来临	f0
+6itious	.Edven'tiSas	#偶然的, 外来的; | 偶生的, 偶发的; 异位的	c0
+6ure	ad'ventSa	@冒险, 冒险经历; v. 冒险	56
+9r	ad'ventSara	@冒险家, 投机者; } 冒险者, 投机者	40
+8ous	ad'ventSaras	#喜欢冒险的, 有进取心的, 危险的	40
+4rb	'Edva:b	@副词	14
+5se	'Edva:s	#不利的, 敌对的, 相反的, 逆的; } 相反的, 敌对的, 逆的	f8
+7ly		%不利, 有害, 相反, 逆, 敌对, 逆向	40
+6ity	ad'va:sati	@逆境, 不幸, 灾祸, 灾难	40
+5t	ad'va:t	$提出看法, 引起注意, 留意; @广告	80
+6ise	'Edvataiz	!做广告, 通知, 公布; $做广告	be
+9ment	.Edva'taizmant	@广告, 启事, 广告宣传; } 广告, 公告, 告示	27
+ds	.Edva'taizmant	@> 广告（advertisement的复数）；宣传	20
+8ing	'EdvataiziN	@广告业, 广告; #广告的; { 发广告	20
+3ice	ad'vais	@忠告, 劝告, 意见, 报道, 通知; > 通知书, 通知, 建议	7f
+4sable	ad'vaizabl	#适当的, 明智的	dc
+5e	ad'vaiz	!劝告, 给...出主意, 通知, 建议; $提意见, 商量	5f
+3ocacy	'Edvakasi	@拥护, 支持, 鼓吹, 辩护, 辩护术; } 辩护, 拥护, 提倡	80
+6te	'Edvakeit	@提倡者, 拥护者; !主张, 提倡	fe
+1egis	'i:dZis	@羊皮盾, 保护, 庇护, 赞助, 支持; } 庇护, 保护	80
+2rate	'eiareit	!使暴露于空气中, 使充满气体; ] 曝气; 充气; 吹气	80
+3ial	'earial	#空中的, 航空的, 空气的, 空想的; @天线	b8
+3odynamics	.earaudai'nEmiks	@空气动力学; ] 空气动力学	40
+4nautics	.eara'nQ:tiks	@航空学, 飞行术; [机] 航空学	80
+4plane	'earaplein	@飞机; [机] 飞机	1e
+4space	'earauspeis	@航天空间, 航天技术	8
+2sthete	'i:sTi:t	@审美家, 唯美主义者	80
+7ic	i:s'Tetik	#美学的, 审美的, 有美感的	f8
+9al	i:s'Tetikal	#美学的, 艺术的, 美的, 审美的	40
+1ffable	'Efabl	#和蔼可亲的, 友善的, 亲切的, 慈祥的	c0
+4ir	a'fea	@事件, 事务, 恋爱事件	5e
+6s	a'fea	@事务, 事宜；风流韵事	20
+3ect	a'fekt	!影响, 感动, 假装, 模仿, 爱好, 倾向于; @自觉感情	7e
+6ation	.Efek'teiSan	@假装, 做作, 矫情; | 矫饰, 矫情	80
+6ed	a'fektid	#假装的, 做作的, 受影响的	c0
+6ion	a'fekSan	@影响, 病, 喜爱, 情感, 倾向; | 疾患, 病变, 病; 感情	fe
+9ate	a'fekSanat	#深情的, 充满情爱的	40
+7ve	a'fektiv	#情感的, 表达感情的; | 感情的, 情感的	48
+3idavit	.Efi'deivit	@宣誓书, 书面陈述; > 宣誓, 声明	80
+4liate	a'filieit	!使紧密联系, 使附属, 接纳, 收养; $发生联系, 参加	f8
+8ion	a.fili'eiSan	@联系, 从属关系; | 父权(判定私生儿的父亲)	90
+4nity	a'finiti	@吸引, 姻亲关系, 类同; ] 亲合力; 亲合能; 亲合势; 近似; 类似	c0
+4rm	a'fa:m	v. 断言, 确认	f8
+4x	a'fiks	!使附于, 署名, 粘贴, 盖印于; @附加物, 词缀	a0
+3lict	a'flikt	!使苦恼, 折磨	e8
+7ion	a'flikSan	@苦恼, 折磨, 苦恼的事由	c0
+4uence	'Efluans	@富裕, 丰富, 流注; | 丰富, 流入	c8
+7t	'Efluant	#丰富的, 富裕的; @支流, 富人	d4
+3ord	a'fQ:d	!买得起, 足以, 给予	7f
+6able		{ 普及型	c0
+3ront	a'frVnt	@公开侮辱, 轻蔑; !公开侮辱, 冒犯, 面对	80
+2raid	a'freid	#害怕的, 恐怕的, 遗憾的	3
+0Africa	'Efrika	@非洲	26
+6n	'Efrikan	@非洲人; #非洲的, 非洲人的	26
+0after	'A:fta	^在...之后, 由于; &在...之后; %后来	3
+5math	'A:ftamET	@结果, 后果; } 后果, 结果	80
+5noon	'A:fta'nu:n	@午后, 下午	3
+5ward	'A:ftawad	%然后, 后来	1e
+1gain	a'gein	%再一次, 又, 到原处	3
+5st	a'geinst	^反对, 对着, 倚靠	17
+3pe	a'geip	#张口发呆的, 目瞪口呆的; %张口发呆地, 目瞪口呆地	80
+2e	eidZ	@年龄, 老年, 成年, 寿命, 时代, 时期; v. 变老, 成熟	63
+3d	'eidZid	#老的, 陈的, 有...岁的; ] 老化的; 老化了的; 陈化的; 陈化了的	40
+3ncies	'eidZansi	@代理；代理处（agency的复数）	20
+5y	'eidZansi	@代理机构, 经销商, 中介; ] 办事处	36
+4da	a'dZenda	pl. 议程, 日常工作事项; { 待议事件	f2
+4t	'eidZant	@代理商, 政府代表, 动原, 媒介; { 代理程序	56
+2glomerate	a'glQmareit	@大团, 大块; #成块的, 聚结的; !使成团, 使成块, 使聚结; $成团, 成块, 聚结	80
+3randize	a'grEndaiz	!增加, 夸大	80
+5vate	'Egraveit	!使恶化, 使更严重, 加重	f8
+8ing	'EgraveitiN	#使恶化的, 加重的, 恼人的	40
+4egate	'Egrigat	@合计, 总计, 聚集体; #合计的, 聚集的; v. 聚集, 集合, 合计达; { 聚合体; 聚集	e0
+8ion	Egri'geiSan	@集合, 聚合, 集合体; ] 聚集; 聚集作用	40
+5ssion	a'greSan	@侵犯, 侵略; | 攻击	ca
+8ve	a'gresiv	#侵略的, 挑畔的, 进取的; } 侵略的, 爱挑衅的, 行为过火的	fe
+aness		@(贬)侵略, 侵犯, 寻衅, (褒)敢作敢为, 有进取心, (武器)攻击性, 过分, 放肆	40
+7or	a'gresa	@侵略者, 挑畔者; } 侵略者, 攻击者	80
+4ieve	a'gri:v	!使委屈, 使悲痛, 侵害; } 侵害, 使悲痛, 使委屈	80
+2hast	a'gA:st	#惊骇的, 吓呆的	c0
+2ile	'EdZail	#敏捷的, 灵活的, 机敏的	c0
+4ity	a'dZiliti	@敏捷, 灵活, 机敏	c0
+3tate	'EdZiteit	!使摇动, 搅动, 使激动, 使不安; $鼓动, 煽动	d0
+7d	'EdZiteitid	#(表现出)不安/焦虑的, (被)激烈辩论的, (被)热烈讨论的, 颤抖的; | 激越的	80
+6ion	.EdZi'teiSan	@激动, 焦虑, 煽动, 搅动, 摇动; ] 搅拌; 搅拌作用	68
+2low	a'glau	#发光的, 通红的; %发光地	40
+2nostic	Eg'nQstik	@不可知论者	80
+2o	a'gau	%以前	3
+3g	a'gQg	#兴奋着的, 急切的; %急切地, 渴望	80
+3nize	'Eganaiz	!使极度痛苦, 折磨; $感到痛苦	40
+4y	'Egani	@极大的痛苦, 挣扎; | 濒死苦闷; 剧痛	bc
+2rarian	a'grearian	#土地的, 耕地的; } 土地的, 土地所有制的	c0
+3ee	a'gri:	$同意, 赞成, 应允, 适合; !承认, 认定, 同意	3
+5able	a'griabl	#令人愉快的, 同意的; | 佳适的	f8
+5ment	a'gri:mant	@同意, 合约, 协议; > 契约, 协议, 协定	23
+3icultural	.Egri'kVltSaral	#农业的; } 农业的, 耕作的	2
+ae	'EgrikVltSa	@农业; [机] 农业, 农学	7e
+3onomy	a'grQnami	@农艺学, 农学	80
+1head	a'hed	#领先的, 预先的, 向前的; %领先, 预先, 向前, 胜于, 在前面, 在将来	2
+1id	eid	@帮助, 外援, 助手; !援助, 帮助, 有助于; $帮助; { 自动内部诊断	1e
+0AIDS	eidz	@爱滋病(获得性免疫缺陷综合征); { 高级综合数据系统, 先进交互调试系统, 自动图解文档编制系统; 美国决策学学会, 信息自动显示系统, 自动综合调试系统	22
+0ail	eil	!使苦恼; $生病, 处境困难; { 数组互联逻辑	80
+3ment	'eilmant	@病痛, 疾病; | 疾病	c0
+2m	eim	@目标, 瞄准, 击中目标的能力; $对准目标, 致力, 打算; !瞄准; { 医学文摘索引, 存取隔离机构, 高级信息管理程序, 先进接口模块; 应用接口模块, 医学人工智能, 相联索引法, 异步接口模块; 自动化信息管理, 自动化综合制造, 自动化库存管理	7e
+2r	ea	@空气, 旋律, 态度; !晾, 使通风, 夸耀	63
+3borne	'eabQ:n	#升空的, 空运的, 空中传播的, 空降的	c0
+3craft	'eakrEft	@航空器, 飞机; [机] 航空器	56
+3line	'ealain	@航线, 航线的设备, 航空公司	17
+3mail	'eameil	@航空邮件	2
+3plane	'eaplein	@飞机; [机] 飞机	7
+4ort	'eapQ:t	@飞机场; [机] 航空站, 机场	23
+3sickness	'easiknis	@晕机	40
+4pace	'easpeis	@空域, 空间; [机] 气隙	2
+3tight	'eatait	#气密的, 不透气的, 无懈可击的; [机] 气密, 不透气	80
+2sle	ail	@走廊, 侧廊, 过道; [机] 走道	30
+1jar	a'dZA:	#微开的, 半开的, 不和谐的; %微开, 半开, 不协调地	40
+1kin	a'kin	#同类的, 同族的, 同源的	40
+1labaster	'ElabA:sta	@雪花石膏; #雪花石膏制的	80
+3crity	a'lEkrati	@敏捷, 轻快, 乐意	80
+3rm	a'lA:m	@惊恐, 警报, 警钟; !使惊恐, 警告; { 报警信号	76
+3s	a'lEs	interj. 唉	8
+0Alaska	a'lEska	@阿拉斯加州	20
+0albeit	O:l'bi:it	&尽管, 虽然	80
+3ino	El'bi:nau	@白化病者, 白化体; | 白化病患者	80
+3um	'Elbam	@粘贴簿, 唱片套; | 白色物	3a
+2chemy	'Elkimi	@炼金术, 魔力; ] 炼丹术; 炼金术; 金丹术	c0
+3ohol	'ElkahQl	@酒精, 酒; ] 醇; 乙醇; 酒精	16
+7ic	.Elka'hQlik	@酒鬼, 酒精中毒者; #酒精的	2
+4ve	'Elkauv	@凹室, 壁龛, 小亭	80
+2der	'Q:lda	@桤木; [机] 赤杨木	40
+2ert	a'la:t	#警觉的, 灵敏的, 留心的; @警报; !使警觉, 通知, 使意识到	dc
+2gae	'Elgi:	pl. 藻类, 海藻; ] 藻类	40
+3ebra	'EldZibra	@代数学	4e
+2ias	'eiliEs	@别名, 化名; %以化名为人所知; { 别名; 替换入口	80
+3bi	'Elibai	@不在犯罪现场, 托辞; v. 为...辩解	80
+3en	'eiljan	@外国人, 外侨; #外国的, 相异的	78
+5ate	'eiljaneit	!使疏远, 离间, 转让; } 转让, 让与, 疏远	e0
+3ght	a'lait	$落下, 偶然发现; #点着的	40
+4n	a'lain	$排列, 排成一行, 结盟; !使结盟, 使成一行, 校正	80
+5ment	a'lainmant	@队列, 结盟, 校正; { 校准; 对齐; 对准	48
+3ke	a'laik	#相似的, 同样的; %一样, 以同样的方式	5e
+3mentary	.Eli'mentari	#饮食的, 供养的; ] 营养的	80
+3ve	a'laiv	#活着的, 活泼的, 敏感的, 热闹的	1f
+2kali	'Elkalai	@碱; #碱性的	c0
+2l	Q:l	#所有的, 全部的, 一切的; %全部, 全然; *全部; @全部	23
+3ay	a'lei	!使平静, 使缓和	80
+3egation	.Eli'geiSan	@断言, 主张, 申辩; } 声明, 事实陈述, 断言	48
+5e	a'ledZ	!宣称, 主张, 提出, 断言; } 断言, 指称, 指证	f8
+5iance	a'li:dZans	@忠贞, 效忠	e8
+5ory	'Eligari	@寓言	c0
+4rgic	a'la:dZik	#对...过敏的, 极反感的; | 变应性的	a2
+6y	'EladZi	@变应性, 反感, 厌恶; ] 变态反应; 变应性	a0
+4viate	a'li:vieit	!减轻, 使缓和	f8
+4y	'Eli	@小路, 巷	22
+3iance	a'laians	@联盟, 联合; } 同盟, 联盟, 联姻	78
+4ed	a'laid	#联盟的, 联姻的, 联系起来的	18
+4gator	'Eligeita	@短吻鳄; [机] 两栖装甲车	40
+4terate	a'litareit	v. 用头韵法, 押头韵	80
+9ion	a.lita'reiSan	@头韵; | 同音韵错误症	40
+3ocate	'Elaukeit	!分派, 分配; { 分配	fa
+4t	a'lQt	!分配, 分摊指定; > (按股或按规定)分配, 配(拨)给, 规(派)定	60
+4w	a'lau	!允许, 同意给予, 承认; $容许, 猜想; { 允许命令	17
+5ance	a'lauans	@津贴, 零用钱, 限额, 折扣, 允许; !定量供应	ba
+4y	'ElQi. a'lQi	@合金; !将...铸成合金, 减低成色; $合铸	7c
+3ude	a'lu:d	$暗指, 提及	c0
+4re	a'lua	!引诱, 吸引; @魅力, 诱惑力	40
+5ing	a'luariN	#吸引人的, 诱人的, 迷人的	80
+4sion	a'lu:Zan	@提及, 暗指	c0
+3y	'Elai. a'lai	@同盟者, 同盟国, 助手; !使联盟, 使联合, 使有关系; $结盟	78
+2mond	'A:mand	@杏仁; ] 杏仁	80
+4st	'Q:lmaust	%几乎, 差不多	3
+3s	A:mz	@施舍, 救济金, 救济品	80
+2oft	a'lQft	%在高处, 在上	c0
+3ne	a'laun	#孤独的, 单独的, 独自的; %独自地	77
+4g	a'lQN	%平行地, 向前; ^沿着	3
+5side	a'lQN'said	%在旁边, 靠拢着; ^在...旁边, 与...在一起	3a
+3of	a'lu:f	#远离的, 冷淡的; %远离, 冷漠超然地	c0
+3ud	a'laud	%出声地, 大声地	17
+2phabet	'Elfabit	@字母; { 字母表	1e
+8ical	.Elfa'betikal	#依字母顺序的, 字母的	a0
+2ready	Q:l'redi	%已经, 早已	3
+2so	'Q:lsau	%也, 并且, 同样地	3
+2ter	'Q:lta	v. 改变	fc
+5ation	.Q:lta'reiSan	@变更, 改动; | 变更	48
+5nate	'Q:ltanat	#交替的, 轮流的, 间隔的; v. 轮流, (使)交替	f8
+9ly	'Q:ltanatli	%交替地, 间隔地	40
+8ion	.Q:lta'neiSan	@交互, 轮流, 间隔; { 交替工作	40
+9ve	Q:l'ta:nativ	@两者择一, 供替代的选择; #两者择一的, 供选择的; { 选择对象	7e
+3hough	Q:l'Dou	&虽然, 尽管	17
+3itude	'Eltitju:d	@高度, 海拔, 高处; [电] 高度	7e
+3ogether	.Q:lta'geDa	%完全地, 总而言之	16
+3ruism	'Eltruizm	@利他主义, 利他	c0
+7tic	.Eltru'istik	#利他的, 无私心的	80
+2uminium	.Elju'miniam	@铝; #铝的	ce
+6um	a'lu:minam	@铝; ] 铝Al	54
+4nus	a'lVmnas	@男毕业生, 男校友	40
+2ways	'Q:lweiz	%总是, 始终	3
+0AM	Em	be的单数第一人称; { 存取管理程序, 寻址方式, 地址标记, 变址数, 调幅, 辅助存储器	2
+0amalgam	a'mElgam	@汞合金, 汞齐; ] 汞齐; 汞合金	80
+7ate	a'mElgameit	v. 使汞齐化, 合并	c0
+3ss	a'mEs	!积聚, 堆积	c0
+3teur	'Emata	@业余爱好者, 外行, 爱好者; [电] 业余家	fa
+7ish	.Ema'ta:riS	#业余的, 外行的, 不熟练的	80
+3ze	a'meiz	!使吃惊	7e
+5ment	a'meizmant	@惊愕, 惊异	40
+4ing	a'meiziN	#令人惊异的	62
+2bassador	Em'bEsada	@大使; } 大使, 使节, 代理	3a
+3idextrous	.Embi'dekstras	#两手俱利的, 搞两面派的; | 两手同利的	80
+4ence	'Embians	@周围环境, 气氛	c0
+6t	'Embiant	#周围的; @周围环境	8
+4guity	.Embi'gju:iti	@不明确, 含糊; { 二义性; 多义性	28
+6ous	Em'bigjuas	#不明确的, 模棱两可的; } 意思含糊的, 模棱两可的, 暧昧的	fa
+4tion	Em'biSan	@野心, 志向	7e
+7us	Em'biSas	#有野心的, 抱负不凡的, 雄心勃勃的	78
+4valence	Em'bivalans	@矛盾情绪; | 矛盾情绪(两种情感互相冲突)	c0
+9t	Em'bivalant	#矛盾的, 模棱两可的; | 矛盾情绪的	c0
+3le	'Embl	@马的缓行步态, 缓行漫步; $马缓行, 从容漫步	c0
+3rosial	Em'brauzjal	#特别美味的	80
+3ulance	'Embjulans	@救护车; | 救护车	36
+6tory	'Embjulatari	#步行的, 走动的, 流动的, 非固定的; @回廊	80
+4sh	'EmbuS	@埋伏, 伏兵, 伏击; !埋伏, 伏击; $埋伏	c0
+2eliorate	a'mi:ljareit	v. 改善, 改良, 改进	80
+3nable	a'mi:nabl	#服从的, 会接纳的, 有义务的; } 服从的, 有责任的, 有服从义务的	c0
+4d	a'mend	!修改, 改善, 改良; $改过自新	f0
+5ment	a'mendmant	@修订, 改善, 改良, 改正; ] 调理剂; 修正	c0
+5s	a'mendz	@赔偿; > 赔偿	28
+4ity	a'mi:niti	@便利设施, 适意, 礼仪; } 舒适, 方便, 优雅	c0
+0America	a'merika	@美洲, 美国	23
+7n	a'merikan	@美国人; #美国的, 美洲的	23
+0amethyst	'EmiTist	@紫水晶, 紫蓝色宝石; ] 紫石英; 紫水晶; 紫晶	80
+2iable	'eimjabl	#亲切的, 和蔼可亲的; } 亲和的, 和蔼可亲的	d0
+3cable	'Emikabl	#友善的, 友好的; } 友好的, 和睦的, 温和的	c0
+3d	a'mid	^在其间, 在其中; > 在...中	78
+4st	a'midst	^在...当中	20
+3ss	a'mis	#有毛病的, 出差错的; %错误地, 不顺当, 有缺陷地	80
+3ty	'Emiti	@友好, 亲善关系	80
+2munition	.Emju'niSan	@军火, 弹药; [机] 弹药	20
+2nesia	Em'ni:zja	@健忘症, 记忆缺失; | 记忆缺失, 遗忘[症]	c0
