@@ -1,8 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-text">返回</text>
-    </div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <img class="sponsor-code" src="/common/sponsor-code.png" />
     <text class="sponsor-caption">求喂饭</text>
@@ -11,6 +9,7 @@
 
 <script>
 import router from "@system.router"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
@@ -19,6 +18,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 
@@ -73,23 +75,9 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
-}
+
+
 
 .sponsor-code {
   width: 188px;
