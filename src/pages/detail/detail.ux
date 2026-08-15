@@ -1,11 +1,8 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-text">返回</text>
-    </div>
-
-    <div class="word-area" style="margin-left: {{wordAreaMarginLeft}}px;">
-      <marquee if="{{ wordMarqueeOn }}" class="word-marquee" style="width: {{contentWidth}}px;"
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/Back_B.png" onclick="goBack" />
+      <div class="word-area"><marquee if="{{ wordMarqueeOn }}" class="word-marquee" style="width: {{contentWidth}}px;"
         scrollamount="{{ wordMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
         {{ wordText }}   {{ wordText }}
       </marquee>
@@ -15,6 +12,7 @@
         {{ phoneticText }}   {{ phoneticText }}
       </marquee>
       <text if="{{ !phoneticMarqueeOn }}" class="phonetic-text" style="width: {{contentWidth}}px;">{{ phoneticText }}</text>
+      </div>
     </div>
 
     <div class="content-area">
@@ -26,8 +24,8 @@
     </div>
 
     <div class="bottom-row" style="{{ bottomStyle }}">
-      <input class="bottom-button inflect-button" style="{{ inflectBtnStyle }}" type="button" value="查变形" @click="goInflect" />
-      <input class="bottom-button favorite-button" style="{{ favoriteBtnStyle }}" type="button" value="{{ favoriteLabel }}" @click="toggleFavorite" />
+      <image src="/common/icons/Sync_circle.png" style="width:87px;height:60px;" onclick="goInflect" />
+      <image src="/common/icons/{{ isFavorited ? 'collect-circle-true.png' : 'collect-circle-false.png' }}" style="width:66px;height:66px;" onclick="toggleFavorite" />
     </div>
   </div>
 </template>
@@ -37,6 +35,7 @@ import router from "@system.router"
 import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
+import {navGuard} from "../../common/navGuard"
 
 var TAG_CODE_MAP = {z: 'zk', g: 'gk', '4': 'cet4', '6': 'cet6', k: 'ky', t: 'toefl', i: 'ielts', e: 'gre'}
 var TAG_LABELS = ['zk', 'gk', 'cet4', 'cet6', 'ky', 'ielts', 'toefl', 'gre']
@@ -75,9 +74,10 @@ export default {
     tagText: "",
     tagLines: [],
     translationLines: [],
-    cardWidth: 188,
-    contentWidth: 164,
+    cardWidth: 412,
+    contentWidth: 388,
     favoriteLabel: "收藏",
+    isFavorited: false,
     fileCache: {},
     lastToastAt: 0,
     toastCooldown: 1500,
@@ -89,7 +89,7 @@ export default {
     destroyed: false,
     wordMarqueeOn: false,
     wordMarqueeSpeed: 40,
-    wordMarqueeThreshold: 9,
+    wordMarqueeThreshold: 20,
     phoneticMarqueeOn: false,
     phoneticMarqueeSpeed: 40,
     wordAreaMarginLeft: 15,
@@ -147,7 +147,7 @@ export default {
   },
 
   onInit() {
-    const sw = this.$app.$def.data.screenWidth || 212
+    const sw = this.$app.$def.data.screenWidth || 432
     this.cardWidth = sw - 20
     this.contentWidth = this.cardWidth - 24
     this.wordAreaMarginLeft = sw === 466 ? 45 : 15
@@ -191,9 +191,13 @@ export default {
 
   onDestroy() {
     this.destroyed = true
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   goBack() {
+    if (!navGuard()) return
     router.back()
   },
 
@@ -229,7 +233,7 @@ export default {
   },
 
   goInflect() {
-    if (!this.wordText) {
+    if (!this.wordText || !navGuard()) {
       return
     }
 
@@ -317,8 +321,10 @@ export default {
         output.pop()
       }
       this.favoriteLabel = "已收藏"
+      this.isFavorited = true
     } else {
       this.favoriteLabel = "收藏"
+      this.isFavorited = false
     }
 
     storage.set({
@@ -335,9 +341,11 @@ export default {
         const list = this.parseList(data)
         const word = this.normalizeWord(this.wordText)
         this.favoriteLabel = "收藏"
+        this.isFavorited = false
         for (let i = 0; i < list.length; i++) {
           if (list[i] && this.normalizeWord(list[i].word) === word) {
             this.favoriteLabel = "已收藏"
+            this.isFavorited = true
             return
           }
         }
@@ -345,6 +353,7 @@ export default {
       fail: () => {
         if (this.destroyed) return
         this.favoriteLabel = "收藏"
+        this.isFavorited = false
       }
     })
   },
@@ -509,12 +518,13 @@ export default {
 
     const endX = point.clientX
     const endY = point.clientY
-    const sw = this.$app.$def.data.screenWidth || 212
+    const sw = this.$app.$def.data.screenWidth || 432
     const startsInLeftQuarter = this.touchStartX <= sw * 0.25
     const endsAtRightQuarter = endX >= sw * 0.75
     const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120
 
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
+      if (!navGuard()) return
       router.back()
     }
 
@@ -536,41 +546,43 @@ export default {
 
 <style>
 .page {
-  width: 100%;
-  height: 100%;
-  padding-top: 24px;
+  width: 432px;
+  height: 514px;
+  padding-top: 8px;
   background-color: #020813;
   flex-direction: column;
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
+.top-row {
+  width: 432px;
+  height: 72px;
+  padding-left: 14px;
+  padding-right: 8px;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
 }
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
+.back-btn {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
 
 .word-area {
-  margin-top: 14px;
+  width: 380px;
+  margin: 0;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .word-text,
 .word-marquee {
+  width: 380px;
   height: 40px;
+  margin: 0;
   color: #ffffff;
   font-size: 32px;
   font-weight: 800;
@@ -596,14 +608,17 @@ export default {
 }
 
 .content-area {
+  width: 100%;
   flex: 1;
+  min-height: 0;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .meaning-list {
-  height: 286px;
+  width: 412px;
+  height: 350px;
   margin-top: 8px;
 }
 
@@ -628,27 +643,13 @@ export default {
 }
 
 .bottom-row {
-  height: 48px;
-  margin-bottom: 10px;
+  width: 412px;
+  height: 66px;
+  margin-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.bottom-button {
-  width: 82px;
-  height: 48px;
-  border-radius: 18px;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 800;
-  text-align: center;
-}
-
-.inflect-button {
-  background-color: #0b65ea;
-}
-
-.favorite-button {
-  background-color: #d82626;
+  align-items: center;
 }
 </style>

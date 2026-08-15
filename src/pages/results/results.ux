@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <div class="back-button" @click="goBack" ontouchstart="onBackButtonTouchStart" ontouchend="onBackButtonTouchEnd">
       <text class="back-text">返回</text>
@@ -49,6 +49,7 @@
 
 <script>
 import router from "@system.router"
+import {navGuard} from "../../common/navGuard"
 import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"

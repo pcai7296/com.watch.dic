@@ -171,13 +171,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             englishSuggestionEnabled: true,
                             resultLongPressHomeEnabled: true,
                             searchSwipeExitLocked: true,
-                            screenProfile: "pill-standard",
+                            screenProfile: "rect",
                             destroyed: false,
                             touchStartX: -1,
                             touchStartY: -1
                         },
                         onInit () {
-                            this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard";
+                            screenProfile: "rect";
                             _system2.default.get({
                                 key: "dic_english_suggestions",
                                 default: "1",

@@ -4762,6 +4762,25 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             $app_exports$.default.style = $app_style$;
                         };
                     },
+                    "./src/common/buildTarget.js" (__unused_rspack_module, exports) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports["default"] = void 0;
+                        var TARGET_ID = "W432";
+                        var TARGET_WIDTH = 432;
+                        var TARGET_HEIGHT = 514;
+                        var TARGET_PROFILE = "rect";
+                        var TARGET_SHAPE = "rect";
+                        var _default = exports["default"] = {
+                            id: TARGET_ID,
+                            width: TARGET_WIDTH,
+                            height: TARGET_HEIGHT,
+                            profile: TARGET_PROFILE,
+                            shape: TARGET_SHAPE
+                        };
+                    },
                     "./src/common/dictCodec.js" (__unused_rspack_module, exports) {
                         "use strict";
                         Object.defineProperty(exports, "__esModule", {
@@ -4847,6 +4866,21 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             return {
                                 word: value
                             };
+                        }
+                    },
+                    "./src/common/navGuard.js" (__unused_rspack_module, exports) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports.navGuard = navGuard;
+                        var lastNavAt = 0;
+                        var NAV_LOCK_MS = 500;
+                        function navGuard() {
+                            const now = Date.now();
+                            if (now - lastNavAt < NAV_LOCK_MS) return false;
+                            lastNavAt = now;
+                            return true;
                         }
                     },
                     "./src/common/suggestionState.js" (__unused_rspack_module, exports) {
@@ -6835,12 +6869,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             value: true
                         });
                         exports.default = void 0;
-                        var _system = _interopRequireDefault($app_require$1("@app-module/system.router"));
-                        var _system2 = _interopRequireDefault($app_require$1("@app-module/system.prompt"));
-                        var _system3 = _interopRequireDefault($app_require$1("@app-module/system.file"));
-                        var _system4 = _interopRequireDefault($app_require$1("@app-module/system.storage"));
+                        var _system = _interopRequireDefault($app_require$1("@app-module/system.device"));
+                        var _system2 = _interopRequireDefault($app_require$1("@app-module/system.router"));
+                        var _system3 = _interopRequireDefault($app_require$1("@app-module/system.prompt"));
+                        var _system4 = _interopRequireDefault($app_require$1("@app-module/system.file"));
+                        var _system5 = _interopRequireDefault($app_require$1("@app-module/system.storage"));
                         var _suggestionState = __webpack_require__("./src/common/suggestionState.js");
                         var _dictCodec = __webpack_require__("./src/common/dictCodec.js");
+                        var _buildTarget = _interopRequireDefault(__webpack_require__("./src/common/buildTarget.js"));
+                        var _navGuard = __webpack_require__("./src/common/navGuard.js");
                         function _interopRequireDefault(e) {
                             return e && e.__esModule ? e : {
                                 default: e
@@ -6965,6 +7002,18 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.englishSuggestionOrder = [];
                                 this.loadEnglishSuggestionSetting();
                                 this.loadSearchSwipeExitSetting();
+                                this.applyScreenInfo(_buildTarget.default);
+                                const app = this.$app.$def;
+                                _system.default.getInfo({
+                                    success: (data)=>{
+                                        app.updateScreenInfo(data);
+                                        this.applyScreenInfo(app.data);
+                                        this.refreshDisplay();
+                                    },
+                                    fail: (data, code)=>{
+                                        console.log("search device.getInfo failed; using compiled target: " + code);
+                                    }
+                                });
                                 if (this.queryParam) {
                                     this.query = this.queryParam;
                                     this.cursorIndex = this.query.length;
@@ -6981,6 +7030,18 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         }
                                     }, 500);
                                 }
+                            },
+                            applyScreenInfo (data) {
+                                const screenShape = data.shape || data.screenShape || "rect";
+                                const screenWidth = Number(data.width || data.screenWidth || 432);
+                                this.screenType = screenShape;
+                                this.screenProfile = data.profile || data.screenProfile || "rect";
+                                this.maxLength = this.getMaxLength(screenShape, screenWidth);
+                            },
+                            getMaxLength (screenShape, screenWidth) {
+                                if ("circle" === screenShape) return 12;
+                                if ("rect" === screenShape) return screenWidth >= 400 ? 15 : 11;
+                                return 5;
                             },
                             onDestroy () {
                                 this.destroyed = true;
@@ -7019,6 +7080,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             },
                             onBackPress () {
+                                if (!(0, _navGuard.navGuard)()) return;
                                 return this.searchSwipeExitLocked;
                             },
                             toggleKeyboard () {
@@ -7026,6 +7088,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.refreshDisplay();
                             },
                             onInputBoxClick () {
+                                if (!(0, _navGuard.navGuard)()) return;
                                 var now = Date.now();
                                 this.tapTimes.push(now);
                                 this.tapTimes = this.tapTimes.filter(function(t) {
@@ -7033,7 +7096,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 });
                                 if (this.tapTimes.length >= 3) {
                                     this.tapTimes = [];
-                                    _system.default.replace({
+                                    _system2.default.replace({
                                         uri: "/pages/filter",
                                         params: {
                                             mode: "input",
@@ -7083,7 +7146,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.refreshDisplay();
                             },
                             onSearchButtonClick () {
-                                if (!this.query) return void _system.default.back();
+                                if (!(0, _navGuard.navGuard)()) return;
+                                if (!this.query) return void _system2.default.back();
                                 this.performSearch();
                             },
                             performSearch () {
@@ -7094,7 +7158,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 if (!normalized) return;
                                 if (!this.validateQuery(normalized)) return;
                                 this.searchSubmitLocked = true;
-                                _system.default.push({
+                                _system2.default.push({
                                     uri: "/pages/results",
                                     params: {
                                         query: normalized,
@@ -7134,7 +7198,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 const now = Date.now();
                                 if (now - this.lastToastAt < this.toastCooldown) return;
                                 this.lastToastAt = now;
-                                _system2.default.showToast({
+                                _system3.default.showToast({
                                     message: message,
                                     duration: 1500
                                 });
@@ -7158,7 +7222,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 const endsAtRightQuarter = endX >= 0.75 * sw;
                                 const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120;
                                 const validStartZone = this.keyboardHidden || this.touchStartY <= 0.35 * sh;
-                                if (!this.searchSwipeExitLocked && startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal && validStartZone) _system.default.back();
+                                if (!this.searchSwipeExitLocked && startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal && validStartZone) _system2.default.back();
                                 this.touchStartX = -1;
                                 this.touchStartY = -1;
                             },
@@ -7261,7 +7325,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.englishSuggestionPending[letter] = [
                                     done
                                 ];
-                                _system3.default.readText({
+                                _system4.default.readText({
                                     uri: "/common/dict/words/word_" + letter + ".txt",
                                     encoding: "utf-8",
                                     success: (data)=>{
@@ -7283,7 +7347,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 });
                             },
                             loadEnglishSuggestionSetting () {
-                                _system4.default.get({
+                                _system5.default.get({
                                     key: "dic_english_suggestions",
                                     default: "1",
                                     success: (data)=>{
@@ -7301,7 +7365,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 });
                             },
                             loadSearchSwipeExitSetting () {
-                                _system4.default.get({
+                                _system5.default.get({
                                     key: "dic_search_swipe_exit_locked",
                                     default: "1",
                                     success: (data)=>{
