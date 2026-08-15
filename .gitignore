@@ -5,7 +5,6 @@
 /dist
 /build
 .husky/
-/src/common/dict/
 /.codegraph/
 /.omo/
 /.tmp/
