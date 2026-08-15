@@ -3,14 +3,14 @@ export default {
   data: {
     screenShape: "rect",
     screenWidth: 432,
-    screenHeight: 432,
-    screenAspectRatio: 432 / 432,
+    screenHeight: 514,
+    screenAspectRatio: 432 / 514,
     screenProfile: "rect"
   },
 
   onCreate() {
     console.log("app created")
-    console.log("fixed W432 screen: rect 432x432")
+    console.log("fixed W432 screen: rect 432x514")
   },
 
   onDestroy() {
