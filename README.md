@@ -1,19 +1,15 @@
-<p align="center">
-  <img src="design/wrist-dictionary-home.svg" width="240" alt="腕上词典" />
-</p>
-
-<h1 align="center">腕上词典</h1>
+<h1 align="center">腕上词典 — 432×514 矩形屏 适配版</h1>
 
 <p align="center">
   <em>小米手环上的离线词典 — 抬手即查，无需掏手机</em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-2.3.1-1d74e8?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/版本-2.3.0-1d74e8?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/平台-Mi%20Band-1d74e8?style=flat-square" alt="Platform" />
   <img src="https://img.shields.io/badge/框架-Vela%20QuickApp-1d74e8?style=flat-square" alt="Framework" />
-  <img src="https://img.shields.io/badge/词库-14k%2B-2ea043?style=flat-square" alt="Headwords" />
-  <img src="https://img.shields.io/badge/屏幕-多屏适配-ff6b35?style=flat-square" alt="Screens" />
+  <img src="https://img.shields.io/badge/词库-15k%2B-2ea043?style=flat-square" alt="Headwords" />
+  <img src="https://img.shields.io/badge/屏幕-432×514-ff6b35?style=flat-square" alt="Screens" />
   <img src="https://img.shields.io/badge/输入-英文-1d74e8?style=flat-square" alt="Languages" />
   <img src="https://img.shields.io/badge/工具-aiot--toolkit-ff6b35?style=flat-square" alt="Build" />
 </p>
@@ -24,7 +20,9 @@
 
 **腕上词典** 是一款运行在小米手环上的 Vela 快应用，把一部完整的英汉词典装进手腕。查英语单词、汉字、动词变形——全程离线，抬手即用。
 
-基于小米 `aiot-toolkit` 开发，内置 **14,942 条词汇**（数据源：ECDICT + BNC/COCA 词族），全面适配胶囊屏、iWatch 屏和 466 圆屏。
+本仓库是 **432×514（矩形屏）** 单分辨率适配分支，包名 `com.watch.dic.w432`。基于小米 `aiot-toolkit` 开发，内置 **15,000+ 条词汇**（数据源：ECDICT + CC-CEDICT + BNC/COCA 词族）。
+
+> 本仓库是 5 个分辨率分支之一：`w192`(192×490) / `w212`(212×520) / `w336`(336×480) / `w432`(432×514) / `w466`(466×466)。每个分支独立构建自己的 RPK，互不干扰。
 
 ---
 
@@ -37,9 +35,9 @@
 - **📖 变形查词** — 输入 `ran` → 找到 "run"，输入 `better` → 找到 "good"
 - **❤️ 收藏与历史** — 收藏容量 150 条，支持 A-Z 字母分类筛选，分页加载
 - **📄 分页结果** — 搜索结果分页展示 + 动态增量渲染，翻页自动滚屏
-- **📱 多屏适配** — 胶囊屏 / iWatch 屏 / 466 圆屏，每个页面按屏幕布局自适应排版
+- **📱 432×514 单屏适配** — 本分支针对 432×514 屏幕深度调优，布局、字号、间距全部按此分辨率定制
 - **🌙 深色主题** — 深蓝底色 `#020813` + 蓝色强调 `#1d74e8`，暗光下不刺眼
-- **📦 纯离线** — 词典数据内置于应用，无需网络
+- **📦 纯离线** — 词典数据内置于应用（已纳入 Git 版本管理），无需网络
 
 ---
 
@@ -51,9 +49,11 @@
 | **搜索** | `pages/search` | 输入法输入、光标编辑、自动补全 |
 | **结果** | `pages/results` | 英文/中文查词结果 |
 | **详情** | `pages/detail` | 单词释义、变形、收藏切换 |
+| **跳查** | `pages/filter` | 字母/笔画快速跳转查词 |
 | **记录** | `pages/records` | 历史记录 / 收藏列表（参数区分） |
 | **关于** | `pages/about` | 致谢、版本、许可信息 |
 | **赞助** | `pages/sponsor` | 赞赏码 |
+| **设置** | `pages/settings` | 用户偏好（补全开关、滑动锁） |
 
 ---
 
@@ -66,11 +66,8 @@ npm install
 # 启动开发服务器（热重载）
 npm run start
 
-# 构建生产包
+# 构建 432×514 RPK（npm run build）
 npm run build
-
-# 发布构建（压缩 + 签名）
-npm run release
 
 # 代码检查
 npm run lint
@@ -84,20 +81,9 @@ npm run deploy:watch
 
 # 推送到真机
 npm run deploy:watch -- -Serial 192.168.x.x:5555
-
-### 多分辨率安装包
-
-项目通过条件编译生成五个目标包：192×490、212×520、336×336、432×432、466×466。
-
-```powershell
-npm run build:resolutions
 ```
 
-产物位于 `dist/resolutions/`，其中 `manifest.json` 记录每个包的目标宽度和 SHA-256。安装时请根据设备屏幕宽度选择对应的 `.rpk`。
-
-# 仅推送已有 RPK，跳过构建
-npm run deploy:watch:fast
-```
+构建产物为 `dist/com.watch.dic.w432.debug.2.3.0.rpk`（已纳入 Git）。
 
 ---
 
@@ -105,25 +91,30 @@ npm run deploy:watch:fast
 
 ```
 src/
-├── app.ux                        # 应用生命周期
+├── app.ux                        # 应用生命周期 + 屏幕尺寸定义
 ├── manifest.json                 # 路由、特性声明、权限
 ├── pages/
 │   ├── index/                    # 首页
 │   ├── search/                   # 搜索（输入法 + 光标编辑）
 │   ├── results/                  # 英/中查词结果
+│   ├── filter/                   # 字母跳查
 │   ├── detail/                   # 单词详情 + 收藏
 │   ├── records/                  # 历史 / 收藏列表
 │   ├── about/                    # 关于
-│   └── sponsor/                  # 赞赏
+│   ├── sponsor/                  # 赞赏
+│   └── settings/                 # 设置
 ├── components/
 │   └── InputMethod/              # 英文输入法（全键盘 + 光标控制）
 ├── common/
-│   ├── dict/                     # 紧凑词典分片（自动生成，请勿手动编辑）
-│   └── logo.png                  # 应用图标
+│   ├── dict/                     # 紧凑词典分片（269 个，已纳入 Git）
+│   └── icons/                    # 按钮/装饰图标
 ├── i18n/                         # 国际化文件（zh-CN, en, defaults）
 scripts/
 ├── deploy_watch.ps1              # ADB 部署脚本
 └── generate_watch_dict.py        # 词典生成器（从 ECDICT 生成）
+sign/                             # 签名证书（certificate.pem + private.pem）
+dist/                             # RPK 构建产物（已纳入 Git）
+build/                            # 构建中间产物（已纳入 Git）
 ```
 
 ---
@@ -141,11 +132,11 @@ scripts/
 | **自动补全** | 异步读取并缓存同一份紧凑英文索引；考试标签参与排序 |
 | **模糊搜索** | 扫描紧凑英文索引（≤4000 词、候选池 80），再按 `entryId` 补全完整词条 |
 
-> **14,942 条词汇**，源自 ECDICT + BNC/COCA 词族频率数据。
+> **15,000+ 条词汇**，源自 ECDICT + CC-CEDICT + BNC/COCA 词族频率数据。
 
-不再打包 `index_en.txt` 或 `english_suggestions.js/.json`。compact-v3 优化后 RPK 约 2.8 MiB。
+词典分片 **已纳入 Git 版本管理**（`src/common/dict/`，269 个文件），克隆后无需重新生成即可构建。
 
-### 重新生成词典
+### 重新生成词典（可选）
 
 ```bash
 python scripts/generate_watch_dict.py
@@ -155,20 +146,16 @@ python scripts/generate_watch_dict.py
 
 ---
 
----
-
-
-
 ## 技术栈
 
 | 层级 | 技术 |
 |------|------|
 | **框架** | Xiaomi Vela QuickApp (`.ux` SFC) |
-| **工具链** | `aiot-toolkit` v2.0.5 / `rspack` v1.7.12 |
+| **工具链** | `aiot-toolkit` / `rspack` |
 | **运行时** | Vela JS Engine（JSC 字节码） |
-| **屏幕** | 胶囊屏 / iWatch 屏 / 466 圆屏三端适配，`designWidth: device-width` |
+| **屏幕** | 432×514 矩形屏 单屏适配，`designWidth: device-width` |
 | **存储** | `@system.storage`（JSON） |
-| **路由** | `@system.router`（7 页面） |
+| **路由** | `@system.router`（9 页面） |
 | **代码检查** | ESLint + Prettier + Stylelint |
 | **提交规范** | Commitlint（约定式提交） |
 | **部署** | ADB push + `pm install` |
@@ -184,25 +171,6 @@ python scripts/generate_watch_dict.py
 
 ---
 
-## 版本历史
-
-详见 [CHANGELOG.md](CHANGELOG.md)。
-
-| 版本 | 日期 | 亮点 |
-|------|------|------|
-| **2.2.0** | 2026-07-18 | 收藏重构（150条+A-Z分类）、大键盘输入、结果分页 |
-| **2.1.0** | 2026-07-17 | 多屏适配完成、compact-v3 词典、详情页增强 |
-| **2.0.0** | 2026-07-14 | 词典体积压缩 ~60%、多屏布局适配 |
-| **1.0.0** | 2026-07-08 | 初始发布：查词、输入法、收藏历史 |
-
----
-
 ## 许可
 
 腕上词典是开源的手腕伴侣。词库数据来自 [ECDICT](https://github.com/skywind3000/ECDICT)。
-
----
-
-<p align="center">
-  <sub><a href="https://github.com/pcai7296/wrist-dictionary">GitHub 仓库</a></sub>
-</p>
