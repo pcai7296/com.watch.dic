@@ -1,8 +1,5 @@
 ﻿<template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-text">返回</text>
-    </div>
 
     <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;">
       <list-item
@@ -586,31 +583,12 @@ export default {
 
 <style>
 .page {
-  width: 100%;
-  height: 100%;
-  padding-top: 8px;
+  width: 466px;
+  height: 466px;
+  padding-top: 75px;
   background-color: #020813;
   flex-direction: column;
   align-items: center;
-}
-
-.back-button {
-  width: 78px;
-  height: 54px;
-  margin-bottom: 8px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
-}
-
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
 }
 
 .record-list {

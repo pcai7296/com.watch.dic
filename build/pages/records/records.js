@@ -62,45 +62,12 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "100%",
-                                height: "100%",
-                                paddingTop: "8px",
+                                width: "466px",
+                                height: "466px",
+                                paddingTop: "75px",
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
                                 alignItems: "center"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
-                                    "back-button"
-                                ]
-                            ],
-                            {
-                                width: "78px",
-                                height: "54px",
-                                marginBottom: "8px",
-                                borderRadius: "22px",
-                                backgroundColor: "#0b65ea",
-                                justifyContent: "center",
-                                alignItems: "center"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
-                                    "back-text"
-                                ]
-                            ],
-                            {
-                                width: "70px",
-                                height: "30px",
-                                color: "#ffffff",
-                                fontSize: "22px",
-                                fontWeight: 800,
-                                textAlign: "center"
                             }
                         ],
                         [
@@ -794,29 +761,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             }
                         }, [
-                            aiot.__ce__("div", {
-                                __vm__: _vm_,
-                                __opts__: {
-                                    classList: [
-                                        "back-button"
-                                    ],
-                                    events: {
-                                        click: function(evt) {
-                                            return _vm_.goBack(evt);
-                                        }
-                                    }
-                                }
-                            }, [
-                                aiot.__ce__("text", {
-                                    __vm__: _vm_,
-                                    __opts__: {
-                                        classList: [
-                                            "back-text"
-                                        ],
-                                        value: "返回"
-                                    }
-                                }, [])
-                            ]),
                             aiot.__ci__({
                                 __vm__: _vm_,
                                 __opts__: {

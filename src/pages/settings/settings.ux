@@ -221,6 +221,6 @@ export default {
 }
 
 .page-circle {
-  padding-top: 16px;
+  padding-top: 75px;
 }
 </style>

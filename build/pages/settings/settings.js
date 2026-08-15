@@ -149,7 +149,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ]
                         ],
                         {
-                            paddingTop: "16px"
+                            paddingTop: "75px"
                         }
                     ]
                 ];

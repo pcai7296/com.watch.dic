@@ -973,8 +973,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                 __vm__: _vm_,
                                                 __opts__: {
                                                     style: {
-                                                        width: "480px",
-                                                        height: "321px"
+                                                        width: "330px",
+                                                        height: "221px"
                                                     }
                                                 }
                                             }, [
@@ -992,8 +992,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                             __opts__: {
                                                                 id: "full-keyboard",
                                                                 style: {
-                                                                    width: "480px",
-                                                                    height: "321px"
+                                                                    width: "330px",
+                                                                    height: "221px"
                                                                 }
                                                             }
                                                         }, [
@@ -1002,21 +1002,21 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "38px",
-                                                                        left: "78px",
-                                                                        width: "324px",
-                                                                        height: "52px",
+                                                                        top: "26px",
+                                                                        left: "54px",
+                                                                        width: "223px",
+                                                                        height: "36px",
                                                                         backgroundColor: "rgb(38, 38, 38)",
-                                                                        borderRadius: "12px",
+                                                                        borderRadius: "8px",
                                                                         borderTopColor: "#333333",
                                                                         borderRightColor: "#333333",
                                                                         borderBottomColor: "#333333",
                                                                         borderLeftColor: "#333333",
                                                                         borderStyle: "solid",
-                                                                        borderTopWidth: "3px",
-                                                                        borderRightWidth: "3px",
-                                                                        borderBottomWidth: "3px",
-                                                                        borderLeftWidth: "3px"
+                                                                        borderTopWidth: "2px",
+                                                                        borderRightWidth: "2px",
+                                                                        borderBottomWidth: "2px",
+                                                                        borderLeftWidth: "2px"
                                                                     },
                                                                     show: function() {
                                                                         return "" === _vm_.downFlag && !_vm_.numFlag;
@@ -1031,8 +1031,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     },
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "43px",
-                                                                        left: "355px"
+                                                                        top: "30px",
+                                                                        left: "244px"
                                                                     },
                                                                     src: "/components/InputMethod/assets/full/down.png",
                                                                     events: {
@@ -1059,10 +1059,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                             },
                                                                             style: {
                                                                                 position: "absolute",
-                                                                                top: "38px",
-                                                                                left: "7px",
-                                                                                width: "67px",
-                                                                                height: "52px"
+                                                                                top: "26px",
+                                                                                left: "5px",
+                                                                                width: "46px",
+                                                                                height: "36px"
                                                                             },
                                                                             events: {
                                                                                 click: function(evt) {
@@ -1078,9 +1078,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "-4px",
-                                                                        left: "78px",
-                                                                        width: "324px"
+                                                                        top: "-3px",
+                                                                        left: "54px",
+                                                                        width: "223px"
                                                                     },
                                                                     show: function() {
                                                                         return "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
@@ -1094,7 +1094,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                             "caltext"
                                                                         ],
                                                                         style: {
-                                                                            width: "296px"
+                                                                            width: "204px"
                                                                         },
                                                                         value: function() {
                                                                             return _vm_.cval + "_";
@@ -1111,10 +1111,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     },
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "38px",
-                                                                        left: "80px",
-                                                                        width: "277px",
-                                                                        height: "52px"
+                                                                        top: "26px",
+                                                                        left: "55px",
+                                                                        width: "190px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return "cn" === _vm_.lang && !_vm_.numFlag;
@@ -1174,10 +1174,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     },
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "38px",
-                                                                        left: "80px",
-                                                                        width: "277px",
-                                                                        height: "52px"
+                                                                        top: "26px",
+                                                                        left: "55px",
+                                                                        width: "190px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return "en" === _vm_.lang && !_vm_.numFlag;
@@ -1323,10 +1323,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "95px",
-                                                                        left: "8px",
-                                                                        width: "464px",
-                                                                        height: "52px"
+                                                                        top: "65px",
+                                                                        left: "6px",
+                                                                        width: "319px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return "" === _vm_.downFlag && !_vm_.numFlag;
@@ -1338,9 +1338,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/Q.png",
                                                                         style: {
-                                                                            width: "54px",
-                                                                            height: "52px",
-                                                                            marginRight: "4px"
+                                                                            width: "37px",
+                                                                            height: "36px",
+                                                                            marginRight: "3px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1383,8 +1383,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/P.png",
                                                                         style: {
-                                                                            width: "54px",
-                                                                            height: "52px"
+                                                                            width: "37px",
+                                                                            height: "36px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1399,10 +1399,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "152px",
-                                                                        left: "23px",
-                                                                        width: "438px",
-                                                                        height: "52px"
+                                                                        top: "105px",
+                                                                        left: "16px",
+                                                                        width: "301px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return "" === _vm_.downFlag && !_vm_.numFlag;
@@ -1414,9 +1414,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/btA.png",
                                                                         style: {
-                                                                            width: "60px",
-                                                                            height: "52px",
-                                                                            marginRight: "4px"
+                                                                            width: "41px",
+                                                                            height: "36px",
+                                                                            marginRight: "3px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1459,8 +1459,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/L.png",
                                                                         style: {
-                                                                            width: "60px",
-                                                                            height: "52px"
+                                                                            width: "41px",
+                                                                            height: "36px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1475,10 +1475,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "209px",
-                                                                        left: "56px",
-                                                                        width: "368px",
-                                                                        height: "52px"
+                                                                        top: "144px",
+                                                                        left: "39px",
+                                                                        width: "253px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return "" === _vm_.downFlag && !_vm_.numFlag;
@@ -1490,9 +1490,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/Z.png",
                                                                         style: {
-                                                                            width: "72px",
-                                                                            height: "52px",
-                                                                            marginRight: "4px"
+                                                                            width: "50px",
+                                                                            height: "36px",
+                                                                            marginRight: "3px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1535,8 +1535,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/M.png",
                                                                         style: {
-                                                                            width: "72px",
-                                                                            height: "52px"
+                                                                            width: "50px",
+                                                                            height: "36px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1551,10 +1551,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "95px",
-                                                                        left: "8px",
-                                                                        width: "464px",
-                                                                        height: "52px"
+                                                                        top: "65px",
+                                                                        left: "6px",
+                                                                        width: "319px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return _vm_.numFlag;
@@ -1566,9 +1566,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/1.png",
                                                                         style: {
-                                                                            width: "54px",
-                                                                            height: "52px",
-                                                                            marginRight: "4px"
+                                                                            width: "37px",
+                                                                            height: "36px",
+                                                                            marginRight: "3px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1662,8 +1662,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/0.png",
                                                                         style: {
-                                                                            width: "54px",
-                                                                            height: "52px"
+                                                                            width: "37px",
+                                                                            height: "36px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1678,10 +1678,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "152px",
-                                                                        left: "23px",
-                                                                        width: "438px",
-                                                                        height: "52px"
+                                                                        top: "105px",
+                                                                        left: "16px",
+                                                                        width: "301px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return _vm_.numFlag;
@@ -1693,9 +1693,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/2-1.png",
                                                                         style: {
-                                                                            width: "60px",
-                                                                            height: "52px",
-                                                                            marginRight: "4px"
+                                                                            width: "41px",
+                                                                            height: "36px",
+                                                                            marginRight: "3px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1789,8 +1789,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/2-2.png",
                                                                         style: {
-                                                                            width: "60px",
-                                                                            height: "52px"
+                                                                            width: "41px",
+                                                                            height: "36px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1805,10 +1805,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                 __opts__: {
                                                                     style: {
                                                                         position: "absolute",
-                                                                        top: "209px",
-                                                                        left: "56px",
-                                                                        width: "368px",
-                                                                        height: "52px"
+                                                                        top: "144px",
+                                                                        left: "39px",
+                                                                        width: "253px",
+                                                                        height: "36px"
                                                                     },
                                                                     show: function() {
                                                                         return _vm_.numFlag;
@@ -1820,9 +1820,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/3-1.png",
                                                                         style: {
-                                                                            width: "72px",
-                                                                            height: "52px",
-                                                                            marginRight: "4px"
+                                                                            width: "50px",
+                                                                            height: "36px",
+                                                                            marginRight: "3px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -1916,8 +1916,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     __opts__: {
                                                                         src: "/components/InputMethod/assets/full/3-2.png",
                                                                         style: {
-                                                                            width: "72px",
-                                                                            height: "52px"
+                                                                            width: "50px",
+                                                                            height: "36px"
                                                                         },
                                                                         events: {
                                                                             click: function(evt) {
@@ -2067,8 +2067,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                             __vm__: _vm_,
                                                             __opts__: {
                                                                 style: {
-                                                                    width: "480px",
-                                                                    height: "321px"
+                                                                    width: "330px",
+                                                                    height: "221px"
                                                                 }
                                                             }
                                                         }, [
