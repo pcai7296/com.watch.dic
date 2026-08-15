@@ -6627,7 +6627,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "100%",
                                 height: "100%",
-                                paddingTop: "24px",
+                                paddingTop: "8px",
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
                                 alignItems: "center"
@@ -6637,44 +6637,45 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             [
                                 [
                                     0,
-                                    "search-button"
+                                    "top-row"
                                 ]
                             ],
                             {
-                                width: "78px",
-                                height: "54px",
-                                borderRadius: "22px",
-                                backgroundColor: "#0b65ea",
-                                justifyContent: "center",
-                                alignItems: "center"
+                                width: "432px",
+                                height: "72px",
+                                paddingLeft: "14px",
+                                paddingRight: "8px",
+                                flexDirection: "row",
+                                alignItems: "center",
+                                justifyContent: "flex-start"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "search-icon"
+                                    "back-btn"
                                 ]
                             ],
                             {
-                                width: "40px",
-                                height: "40px"
+                                width: "48px",
+                                height: "48px",
+                                marginRight: "8px",
+                                flexShrink: 0
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "back-text"
+                                    "check-btn"
                                 ]
                             ],
                             {
-                                width: "70px",
-                                height: "30px",
-                                color: "#ffffff",
-                                fontSize: "22px",
-                                fontWeight: 800,
-                                textAlign: "center"
+                                width: "48px",
+                                height: "48px",
+                                marginRight: "8px",
+                                flexShrink: 0
                             }
                         ],
                         [
@@ -6685,12 +6686,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "168px",
+                                width: "311px",
                                 height: "52px",
-                                marginTop: "12px",
-                                marginBottom: "8px",
-                                paddingLeft: "14px",
-                                paddingRight: "14px",
                                 borderTopWidth: "2px",
                                 borderRightWidth: "2px",
                                 borderBottomWidth: "2px",
@@ -6703,6 +6700,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 backgroundColor: "#08172b",
                                 flexDirection: "column",
                                 justifyContent: "flex-end",
+                                paddingLeft: "14px",
+                                paddingRight: "14px",
                                 paddingBottom: "4px"
                             }
                         ],
@@ -6730,51 +6729,49 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "168px",
-                                height: "42px",
+                                width: "231px",
+                                height: "58px",
+                                marginTop: "4px",
                                 marginBottom: "6px",
                                 flexDirection: "row",
-                                justifyContent: "space-between"
+                                justifyContent: "space-between",
+                                alignItems: "center"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "edit-button"
+                                    "move-left-btn"
                                 ]
                             ],
                             {
-                                height: "42px",
-                                borderRadius: "18px",
-                                color: "#ffffff",
-                                fontSize: "20px",
-                                fontWeight: 800,
-                                textAlign: "center"
+                                width: "71px",
+                                height: "50px"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "side-button"
+                                    "move-right-btn"
                                 ]
                             ],
                             {
-                                width: "48px",
-                                backgroundColor: "#0b65ea"
+                                width: "71px",
+                                height: "50px"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "clear-button"
+                                    "clear-btn"
                                 ]
                             ],
                             {
-                                width: "62px",
-                                backgroundColor: "#d82626"
+                                width: "71px",
+                                height: "45px"
                             }
                         ],
                         [
@@ -6785,7 +6782,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "72%"
+                                width: "311px"
                             }
                         ],
                         [
@@ -6860,6 +6857,17 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ],
                             {
                                 paddingTop: "16px"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "page-rect"
+                                ]
+                            ],
+                            {
+                                paddingTop: "8px"
                             }
                         ]
                     ];
@@ -7528,15 +7536,35 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     classList: [
-                                        "search-button"
-                                    ],
-                                    events: {
-                                        click: function(evt) {
-                                            return _vm_.onSearchButtonClick(evt);
-                                        }
-                                    }
+                                        "top-row"
+                                    ]
                                 }
                             }, [
+                                aiot.__ci__({
+                                    __vm__: _vm_,
+                                    __opts__: {
+                                        shown: function() {
+                                            return !_vm_.query;
+                                        }
+                                    }
+                                }, function() {
+                                    return [
+                                        aiot.__ce__("image", {
+                                            __vm__: _vm_,
+                                            __opts__: {
+                                                classList: [
+                                                    "back-btn"
+                                                ],
+                                                src: "/common/icons/Back_B.png",
+                                                events: {
+                                                    click: function(evt) {
+                                                        return _vm_.onSearchButtonClick(evt);
+                                                    }
+                                                }
+                                            }
+                                        }, [])
+                                    ];
+                                }),
                                 aiot.__ci__({
                                     __vm__: _vm_,
                                     __opts__: {
@@ -7550,69 +7578,54 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                             __vm__: _vm_,
                                             __opts__: {
                                                 classList: [
-                                                    "search-icon"
+                                                    "check-btn"
                                                 ],
-                                                src: "/common/search-icon.png"
+                                                src: "/common/icons/check-btn-blue.png",
+                                                events: {
+                                                    click: function(evt) {
+                                                        return _vm_.onSearchButtonClick(evt);
+                                                    }
+                                                }
                                             }
                                         }, [])
                                     ];
                                 }),
-                                aiot.__ci__({
+                                aiot.__ce__("div", {
                                     __vm__: _vm_,
                                     __opts__: {
-                                        shown: function() {
-                                            return !_vm_.query;
-                                        }
-                                    }
-                                }, function() {
-                                    return [
-                                        aiot.__ce__("text", {
-                                            __vm__: _vm_,
-                                            __opts__: {
-                                                classList: [
-                                                    "back-text"
-                                                ],
-                                                value: "返回"
-                                            }
-                                        }, [])
-                                    ];
-                                })
-                            ]),
-                            aiot.__ce__("div", {
-                                __vm__: _vm_,
-                                __opts__: {
-                                    classList: function() {
-                                        const $classValue$ = "input-box input-box-" + _vm_.screenProfile;
-                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
-                                        return $classValue$;
-                                    },
-                                    events: {
-                                        click: function(evt) {
-                                            return _vm_.onInputBoxClick(evt);
-                                        }
-                                    }
-                                }
-                            }, [
-                                aiot.__ce__("marquee", {
-                                    __vm__: _vm_,
-                                    __opts__: {
-                                        id: "marquee-text",
                                         classList: function() {
-                                            const $classValue$ = "input-text input-text-" + _vm_.screenProfile;
+                                            const $classValue$ = "input-box input-box-" + _vm_.screenProfile;
                                             if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
                                             return $classValue$;
                                         },
-                                        scrollamount: function() {
-                                            return _vm_.marqueeSpeed;
-                                        },
-                                        direction: "left",
-                                        loop: "-1",
-                                        textOffset: "40",
-                                        value: function() {
-                                            return _vm_.displayText;
+                                        events: {
+                                            click: function(evt) {
+                                                return _vm_.onInputBoxClick(evt);
+                                            }
                                         }
                                     }
-                                }, [])
+                                }, [
+                                    aiot.__ce__("marquee", {
+                                        __vm__: _vm_,
+                                        __opts__: {
+                                            id: "marquee-text",
+                                            classList: function() {
+                                                const $classValue$ = "input-text input-text-" + _vm_.screenProfile;
+                                                if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                                return $classValue$;
+                                            },
+                                            scrollamount: function() {
+                                                return _vm_.marqueeSpeed;
+                                            },
+                                            direction: "left",
+                                            loop: "-1",
+                                            textOffset: "40",
+                                            value: function() {
+                                                return _vm_.displayText;
+                                            }
+                                        }
+                                    }, [])
+                                ])
                             ]),
                             aiot.__ce__("div", {
                                 __vm__: _vm_,
@@ -7624,15 +7637,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     }
                                 }
                             }, [
-                                aiot.__ce__("input", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "edit-button",
-                                            "side-button"
+                                            "move-left-btn"
                                         ],
-                                        type: "button",
-                                        value: "左",
+                                        src: "/common/icons/btn_back_thin.png",
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.moveLeft(evt);
@@ -7640,15 +7651,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         }
                                     }
                                 }, []),
-                                aiot.__ce__("input", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "edit-button",
-                                            "clear-button"
+                                            "clear-btn"
                                         ],
-                                        type: "button",
-                                        value: "清空",
+                                        src: "/common/icons/btn_delete_fat.png",
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.clearText(evt);
@@ -7656,15 +7665,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         }
                                     }
                                 }, []),
-                                aiot.__ce__("input", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "edit-button",
-                                            "side-button"
+                                            "move-right-btn"
                                         ],
-                                        type: "button",
-                                        value: "右",
+                                        src: "/common/icons/btn_back_mirror_thin.png",
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.moveRight(evt);
