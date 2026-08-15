@@ -1,7 +1,7 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-text">返回</text>
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/Back_B.png" onclick="goBack" />
     </div>
 
     <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;">
@@ -56,6 +56,7 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   protected: {
@@ -76,7 +77,6 @@ export default {
     marqueeArmed: false,
     activeFilter: "全部",
     listHeight: 388,
-    allRecords: [],
     searchPage: 0,
     totalRecordCount: 0,
     marqueeTimer: null,
@@ -120,6 +120,11 @@ export default {
       clearTimeout(this.pageScrollTimer)
       this.pageScrollTimer = null
     }
+    this.allRecords = null
+    // 页面销毁后主动 GC（官方内存文档：及时 runGC 避免泄漏）
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   onShow() {
@@ -137,6 +142,9 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) {
+      return
+    }
     router.back()
   },
 
@@ -317,7 +325,7 @@ export default {
   },
 
   openRecord(item) {
-    if (!item) {
+    if (!item || !navGuard()) {
       return
     }
     if (this.type === "history") {
@@ -423,6 +431,9 @@ export default {
   },
 
   clearHistory() {
+    if (!navGuard()) {
+      return
+    }
     storage.set({
       key: "dic_history",
       value: "[]"
@@ -564,7 +575,8 @@ export default {
     const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 120
 
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
-      router.back()
+      if (!navGuard()) return;
+      router.back();
     }
 
     this.touchStartX = -1
@@ -593,23 +605,21 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  margin-bottom: 8px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
+.back-btn {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
+.top-row {
+  width: 336px;
+  height: 72px;
+  padding-left: 14px;
+  padding-right: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .record-list {

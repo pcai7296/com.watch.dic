@@ -1,7 +1,7 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-mark">返回</text>
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/Back_B.png" onclick="goBack" />
     </div>
 
     <list class="about-list" style="width: {{layoutWidth}}px;">
@@ -9,7 +9,7 @@
         <div class="app-card">
           <text class="app-name">腕上词典</text>
           <text class="app-version">2.3.1</text>
-          <img class="deco-icon-about" src="/common/deco-icon-about.png" />
+          <img class="deco-icon-about" src="/common/logo.png" />
         </div>
       </list-item>
 
@@ -63,6 +63,7 @@
 
 <script>
 import router from "@system.router"
+import {navGuard} from "../../common/navGuard"
 
 export default {
   private: {
@@ -241,6 +242,7 @@ export default {
   },
 
   goBack() {
+    if (!navGuard()) return
     router.back()
   },
 
@@ -266,7 +268,8 @@ export default {
     const mostlyHorizontal = Math.abs(endY - this.touchStartY) <= 60
 
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
-      router.back()
+      if (!navGuard()) return;
+      router.back();
     }
 
     this.touchStartX = -1
@@ -275,7 +278,7 @@ export default {
 
   getTouchPoint(evt) {
     if (evt && evt.changedTouches && evt.changedTouches.length > 0) {
-      return evt.changedTouches[0]
+            return evt.changedTouches[0]
     }
     if (evt && evt.touches && evt.touches.length > 0) {
       return evt.touches[0]
@@ -295,15 +298,23 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  margin-bottom: 12px;
-  border-radius: 22px;
-  background-color: #0b65ea;
-  justify-content: center;
-  align-items: center;
+.back-btn {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
+
+.top-row {
+  width: 336px;
+  height: 72px;
+  padding-left: 14px;
+  padding-right: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 
 .back-mark {
   width: 64px;
