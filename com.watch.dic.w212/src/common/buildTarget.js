@@ -20,10 +20,10 @@ TARGET_PROFILE = "rect"
 TARGET_SHAPE = "rect"
 // endif
 
-// if true: process.env.TARGET_ID === "W432" && process.env.TARGET_WIDTH === "432" && process.env.TARGET_HEIGHT === "432"
+// if true: process.env.TARGET_ID === "W432" && process.env.TARGET_WIDTH === "432" && process.env.TARGET_HEIGHT === "514"
 TARGET_ID = "W432"
 TARGET_WIDTH = 432
-TARGET_HEIGHT = 432
+TARGET_HEIGHT = 514
 TARGET_PROFILE = "rect"
 TARGET_SHAPE = "rect"
 // endif

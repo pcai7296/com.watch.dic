@@ -11,7 +11,7 @@
     "build:192": "cross-env TARGET_ID=W192 TARGET_WIDTH=192 TARGET_HEIGHT=490 aiot build --enable-custom-component",
     "build:212": "cross-env TARGET_ID=W212 TARGET_WIDTH=212 TARGET_HEIGHT=520 aiot build --enable-custom-component",
     "build:336": "cross-env TARGET_ID=W336 TARGET_WIDTH=336 TARGET_HEIGHT=480 aiot build --enable-custom-component",
-    "build:432": "cross-env TARGET_ID=W432 TARGET_WIDTH=432 TARGET_HEIGHT=432 aiot build --enable-custom-component",
+    "build:432": "cross-env TARGET_ID=W432 TARGET_WIDTH=432 TARGET_HEIGHT=514 aiot build --enable-custom-component",
     "build:466": "cross-env TARGET_ID=W466 TARGET_WIDTH=466 TARGET_HEIGHT=466 aiot build --enable-custom-component",
     "build:resolutions": "powershell -ExecutionPolicy Bypass -File scripts\\build_resolution_packages.ps1",
     "release:resolutions": "powershell -ExecutionPolicy Bypass -File scripts\\release_resolution_packages.ps1",
