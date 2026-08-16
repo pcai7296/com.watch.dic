@@ -61,7 +61,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         ],
                         {
                             width: "432px",
-                            height: "48px",
+                            height: "72px",
                             marginBottom: "8px",
                             paddingLeft: "14px",
                             flexDirection: "row",

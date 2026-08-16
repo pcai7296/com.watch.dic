@@ -46,7 +46,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         {
                             width: "100%",
                             height: "100%",
-                            paddingTop: "24px",
+                            paddingTop: "8px",
                             backgroundColor: "#000000",
                             flexDirection: "column",
                             alignItems: "center"
@@ -61,7 +61,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         ],
                         {
                             width: "432px",
-                            height: "48px",
+                            height: "72px",
                             marginBottom: "12px",
                             paddingLeft: "14px",
                             flexDirection: "row",
