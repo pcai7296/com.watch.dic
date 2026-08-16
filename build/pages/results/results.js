@@ -151,7 +151,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "100%",
                                 height: "100%",
-                                paddingTop: "75px",
+                                paddingTop: 0,
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
                                 alignItems: "center"
