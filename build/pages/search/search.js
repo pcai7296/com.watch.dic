@@ -6731,7 +6731,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "235px",
+                                width: "256px",
                                 height: "72px",
                                 marginTop: "4px",
                                 marginBottom: "6px",
@@ -6772,8 +6772,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "55px",
-                                height: "45px"
+                                width: "80px",
+                                height: "72px"
                             }
                         ],
                         [

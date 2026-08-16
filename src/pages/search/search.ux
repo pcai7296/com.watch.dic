@@ -845,7 +845,7 @@ export default {
 }
 
 .edit-row {
-  width: 235px;
+  width: 256px;
   height: 72px;
   margin-top: 4px;
   margin-bottom: 6px;
@@ -861,8 +861,8 @@ export default {
 }
 
 .clear-btn {
-  width: 55px;
-  height: 45px;
+  width: 80px;
+  height: 72px;
 }
 
 .input-box-rect {
