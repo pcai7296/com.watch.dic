@@ -757,6 +757,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     }
                                 },
                                 onInit () {
+                                    this.lang = "cn";
+                                    this.numFlag = false;
+                                    this.numFlag_jp = false;
+                                    this.upperFlag = false;
                                     if (this.maxlength) {
                                         const tempCvalList = [];
                                         for(let i = 0; i < this.maxlength; i++)tempCvalList.push(i);
@@ -808,10 +812,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                             this.resetResultList();
                                             break;
                                         case "lang":
-                                            if ("T9" === this.keyboardtype) this.lang = "cn" === this.lang ? "en" : "cn";
-                                            else if ("cn" === this.lang) this.lang = "en";
-                                            else if ("en" === this.lang) this.lang = "jp";
-                                            else this.lang = "cn";
+                                            this.keyboardtype, this.lang = "cn" === this.lang ? "en" : "cn";
                                             this.cval = "";
                                             this.clearWaiting();
                                             this.resetResultList();
@@ -841,18 +842,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                             }
                                             break;
                                         case "switchNum":
-                                            this.numFlag = true;
-                                            this.numFlag_jp = false;
-                                            this.cval = "";
-                                            this.clearWaiting();
-                                            this.resetResultList();
-                                            break;
                                         case "switchNum_jp":
-                                            this.numFlag = true;
-                                            this.numFlag_jp = true;
-                                            this.cval = "";
-                                            this.clearWaiting();
-                                            this.resetResultList();
+                                            this.numFlag = false;
+                                            this.numFlag_jp = false;
                                             break;
                                         case "switchCn":
                                             this.numFlag = false;
@@ -1034,7 +1026,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         "page"
                                     ],
                                     style: function() {
-                                        return __webpack_require__.g.$translateStyle$("flex-direction: column; height: " + (_vm_.hide ? "0px" : "auto") + "; overflow: " + (_vm_.hide ? "hidden" : "visible") + ";");
+                                        return __webpack_require__.g.$translateStyle$("flex-direction: column; height: " + (_vm_.hide ? "0px" : "auto") + "; overflow: " + (_vm_.hide ? "hidden" : "visible") + "; background-color: transparent;");
                                     }
                                 }
                             }, [
@@ -1058,7 +1050,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                         return !_vm_.hide;
                                                     },
                                                     style: {
-                                                        backgroundColor: "black",
+                                                        backgroundColor: "transparent",
                                                         flexDirection: "column"
                                                     }
                                                 }
@@ -1079,7 +1071,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                     "cvalrow-wrap"
                                                                 ],
                                                                 show: function() {
-                                                                    return ("cn" === _vm_.lang || "jp" === _vm_.lang) && "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
+                                                                    return "cn" === _vm_.lang && "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
                                                                 }
                                                             }
                                                         }, [
@@ -1152,48 +1144,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 },
                                                                                 show: function() {
                                                                                     return _vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, []),
-                                                                        aiot.__ce__("image", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                src: "/components/InputMethod/assets/full/123.png",
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "266px",
-                                                                                    left: "119px",
-                                                                                    width: "120px",
-                                                                                    height: "48px"
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onBtnClick("switchNum", evt);
-                                                                                    }
-                                                                                },
-                                                                                show: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "cn" === _vm_.lang;
-                                                                                }
-                                                                            }
-                                                                        }, []),
-                                                                        aiot.__ce__("image", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                src: "/components/InputMethod/assets/full/123.png",
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "266px",
-                                                                                    left: "119px",
-                                                                                    width: "120px",
-                                                                                    height: "48px"
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onBtnClick("switchNum_jp", evt);
-                                                                                    }
-                                                                                },
-                                                                                show: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "jp" === _vm_.lang;
                                                                                 }
                                                                             }
                                                                         }, []),
@@ -1288,7 +1238,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                             __vm__: _vm_,
                                                                             __opts__: {
                                                                                 shown: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "jp" != _vm_.lang;
+                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "cn" === _vm_.lang;
                                                                                 }
                                                                             }
                                                                         }, function() {
@@ -1296,9 +1246,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 aiot.__ce__("image", {
                                                                                     __vm__: _vm_,
                                                                                     __opts__: {
-                                                                                        src: function() {
-                                                                                            return "/components/InputMethod/assets/full/" + _vm_.lang + ".png";
-                                                                                        },
+                                                                                        src: "/components/InputMethod/assets/full/cn.png",
                                                                                         style: {
                                                                                             position: "absolute",
                                                                                             top: "38px",
@@ -1319,7 +1267,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                             __vm__: _vm_,
                                                                             __opts__: {
                                                                                 shown: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "jp" === _vm_.lang;
+                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "en" === _vm_.lang;
                                                                                 }
                                                                             }
                                                                         }, function() {
@@ -1327,7 +1275,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 aiot.__ce__("image", {
                                                                                     __vm__: _vm_,
                                                                                     __opts__: {
-                                                                                        src: "/components/InputMethod/assets/full/jp.png",
+                                                                                        src: "/components/InputMethod/assets/full/en.png",
                                                                                         style: {
                                                                                             position: "absolute",
                                                                                             top: "38px",
@@ -1354,7 +1302,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     width: "324px"
                                                                                 },
                                                                                 show: function() {
-                                                                                    return ("cn" === _vm_.lang || "jp" === _vm_.lang) && "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
+                                                                                    return "cn" === _vm_.lang && "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
                                                                                 }
                                                                             }
                                                                         }, [
@@ -1384,7 +1332,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     height: "52px"
                                                                                 },
                                                                                 show: function() {
-                                                                                    return ("cn" === _vm_.lang || "jp" === _vm_.lang) && !_vm_.numFlag;
+                                                                                    return "cn" === _vm_.lang && !_vm_.numFlag;
                                                                                 }
                                                                             }
                                                                         }, [
@@ -1451,36 +1399,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     })
                                                                                 ])
                                                                             ])
-                                                                        ]),
-                                                                        aiot.__ce__("div", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "38px",
-                                                                                    left: "80px",
-                                                                                    width: "320px",
-                                                                                    height: "52px",
-                                                                                    alignContent: "center",
-                                                                                    alignItems: "center",
-                                                                                    justifyContent: "center"
-                                                                                },
-                                                                                show: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "en" === _vm_.lang;
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onBtnClick("switchNum", evt);
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                        }, [
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/123_boardless.png"
-                                                                                }
-                                                                            }, [])
                                                                         ]),
                                                                         aiot.__ci__({
                                                                             __vm__: _vm_,
@@ -1796,387 +1714,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 }
                                                                             }, [])
                                                                         ]),
-                                                                        aiot.__ce__("div", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "95px",
-                                                                                    left: "8px",
-                                                                                    width: "464px",
-                                                                                    height: "52px"
-                                                                                },
-                                                                                show: function() {
-                                                                                    return _vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, [
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/1.png",
-                                                                                    style: {
-                                                                                        width: "54px",
-                                                                                        height: "52px",
-                                                                                        marginRight: "4px"
-                                                                                    },
-                                                                                    events: {
-                                                                                        click: function(evt) {
-                                                                                            return _vm_.onSelect("1", evt);
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, []),
-                                                                            aiot.__ci__({
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    shown: function() {
-                                                                                        return !_vm_.numFlag_jp;
-                                                                                    }
-                                                                                }
-                                                                            }, function() {
-                                                                                return [
-                                                                                    aiot.__cf__({
-                                                                                        __vm__: _vm_,
-                                                                                        __opts__: {
-                                                                                            exp: function() {
-                                                                                                return _vm_.keys["sign62"][0];
-                                                                                            },
-                                                                                            key: "$idx",
-                                                                                            value: "item"
-                                                                                        }
-                                                                                    }, function($idx, item) {
-                                                                                        return [
-                                                                                            aiot.__ce__("text", {
-                                                                                                __vm__: _vm_,
-                                                                                                __opts__: {
-                                                                                                    classList: [
-                                                                                                        "calbtnfull"
-                                                                                                    ],
-                                                                                                    events: {
-                                                                                                        click: function(evt) {
-                                                                                                            return _vm_.onSelect(item, evt);
-                                                                                                        }
-                                                                                                    },
-                                                                                                    value: function() {
-                                                                                                        return item;
-                                                                                                    }
-                                                                                                }
-                                                                                            }, [])
-                                                                                        ];
-                                                                                    })
-                                                                                ];
-                                                                            }),
-                                                                            aiot.__ci__({
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    shown: function() {
-                                                                                        return !!_vm_.numFlag_jp;
-                                                                                    }
-                                                                                }
-                                                                            }, function() {
-                                                                                return [
-                                                                                    aiot.__cf__({
-                                                                                        __vm__: _vm_,
-                                                                                        __opts__: {
-                                                                                            exp: function() {
-                                                                                                return _vm_.keys["sign62_jp"][0];
-                                                                                            },
-                                                                                            key: "$idx",
-                                                                                            value: "item"
-                                                                                        }
-                                                                                    }, function($idx, item) {
-                                                                                        return [
-                                                                                            aiot.__ce__("text", {
-                                                                                                __vm__: _vm_,
-                                                                                                __opts__: {
-                                                                                                    classList: [
-                                                                                                        "calbtnfull"
-                                                                                                    ],
-                                                                                                    events: {
-                                                                                                        click: function(evt) {
-                                                                                                            return _vm_.onSelect(item, evt);
-                                                                                                        }
-                                                                                                    },
-                                                                                                    value: function() {
-                                                                                                        return item;
-                                                                                                    }
-                                                                                                }
-                                                                                            }, [])
-                                                                                        ];
-                                                                                    })
-                                                                                ];
-                                                                            }),
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/0.png",
-                                                                                    style: {
-                                                                                        width: "54px",
-                                                                                        height: "52px"
-                                                                                    },
-                                                                                    events: {
-                                                                                        click: function(evt) {
-                                                                                            return _vm_.onSelect("0", evt);
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, [])
-                                                                        ]),
-                                                                        aiot.__ce__("div", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "152px",
-                                                                                    left: "23px",
-                                                                                    width: "438px",
-                                                                                    height: "52px"
-                                                                                },
-                                                                                show: function() {
-                                                                                    return _vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, [
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/2-1.png",
-                                                                                    style: {
-                                                                                        width: "60px",
-                                                                                        height: "52px",
-                                                                                        marginRight: "4px"
-                                                                                    },
-                                                                                    events: {
-                                                                                        click: function(evt) {
-                                                                                            return _vm_.onSelect("~", evt);
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, []),
-                                                                            aiot.__ci__({
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    shown: function() {
-                                                                                        return !_vm_.numFlag_jp;
-                                                                                    }
-                                                                                }
-                                                                            }, function() {
-                                                                                return [
-                                                                                    aiot.__cf__({
-                                                                                        __vm__: _vm_,
-                                                                                        __opts__: {
-                                                                                            exp: function() {
-                                                                                                return _vm_.keys["sign62"][1];
-                                                                                            },
-                                                                                            key: "$idx",
-                                                                                            value: "item"
-                                                                                        }
-                                                                                    }, function($idx, item) {
-                                                                                        return [
-                                                                                            aiot.__ce__("text", {
-                                                                                                __vm__: _vm_,
-                                                                                                __opts__: {
-                                                                                                    classList: [
-                                                                                                        "calbtnfull"
-                                                                                                    ],
-                                                                                                    events: {
-                                                                                                        click: function(evt) {
-                                                                                                            return _vm_.onSelect(item, evt);
-                                                                                                        }
-                                                                                                    },
-                                                                                                    value: function() {
-                                                                                                        return item;
-                                                                                                    }
-                                                                                                }
-                                                                                            }, [])
-                                                                                        ];
-                                                                                    })
-                                                                                ];
-                                                                            }),
-                                                                            aiot.__ci__({
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    shown: function() {
-                                                                                        return !!_vm_.numFlag_jp;
-                                                                                    }
-                                                                                }
-                                                                            }, function() {
-                                                                                return [
-                                                                                    aiot.__cf__({
-                                                                                        __vm__: _vm_,
-                                                                                        __opts__: {
-                                                                                            exp: function() {
-                                                                                                return _vm_.keys["sign62_jp"][1];
-                                                                                            },
-                                                                                            key: "$idx",
-                                                                                            value: "item"
-                                                                                        }
-                                                                                    }, function($idx, item) {
-                                                                                        return [
-                                                                                            aiot.__ce__("text", {
-                                                                                                __vm__: _vm_,
-                                                                                                __opts__: {
-                                                                                                    classList: [
-                                                                                                        "calbtnfull"
-                                                                                                    ],
-                                                                                                    events: {
-                                                                                                        click: function(evt) {
-                                                                                                            return _vm_.onSelect(item, evt);
-                                                                                                        }
-                                                                                                    },
-                                                                                                    value: function() {
-                                                                                                        return item;
-                                                                                                    }
-                                                                                                }
-                                                                                            }, [])
-                                                                                        ];
-                                                                                    })
-                                                                                ];
-                                                                            }),
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/2-2.png",
-                                                                                    style: {
-                                                                                        width: "60px",
-                                                                                        height: "52px"
-                                                                                    },
-                                                                                    events: {
-                                                                                        click: function(evt) {
-                                                                                            return _vm_.onSelect("?", evt);
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, [])
-                                                                        ]),
-                                                                        aiot.__ce__("div", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "209px",
-                                                                                    left: "56px",
-                                                                                    width: "368px",
-                                                                                    height: "52px"
-                                                                                },
-                                                                                show: function() {
-                                                                                    return _vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, [
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/3-1.png",
-                                                                                    style: {
-                                                                                        width: "72px",
-                                                                                        height: "52px",
-                                                                                        marginRight: "4px"
-                                                                                    },
-                                                                                    events: {
-                                                                                        click: function(evt) {
-                                                                                            return _vm_.onSelect("(", evt);
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, []),
-                                                                            aiot.__ci__({
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    shown: function() {
-                                                                                        return !_vm_.numFlag_jp;
-                                                                                    }
-                                                                                }
-                                                                            }, function() {
-                                                                                return [
-                                                                                    aiot.__cf__({
-                                                                                        __vm__: _vm_,
-                                                                                        __opts__: {
-                                                                                            exp: function() {
-                                                                                                return _vm_.keys["sign62"][2];
-                                                                                            },
-                                                                                            key: "$idx",
-                                                                                            value: "item"
-                                                                                        }
-                                                                                    }, function($idx, item) {
-                                                                                        return [
-                                                                                            aiot.__ce__("text", {
-                                                                                                __vm__: _vm_,
-                                                                                                __opts__: {
-                                                                                                    classList: [
-                                                                                                        "calbtnfull"
-                                                                                                    ],
-                                                                                                    events: {
-                                                                                                        click: function(evt) {
-                                                                                                            return _vm_.onSelect(item, evt);
-                                                                                                        }
-                                                                                                    },
-                                                                                                    value: function() {
-                                                                                                        return item;
-                                                                                                    }
-                                                                                                }
-                                                                                            }, [])
-                                                                                        ];
-                                                                                    })
-                                                                                ];
-                                                                            }),
-                                                                            aiot.__ci__({
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    shown: function() {
-                                                                                        return !!_vm_.numFlag_jp;
-                                                                                    }
-                                                                                }
-                                                                            }, function() {
-                                                                                return [
-                                                                                    aiot.__cf__({
-                                                                                        __vm__: _vm_,
-                                                                                        __opts__: {
-                                                                                            exp: function() {
-                                                                                                return _vm_.keys["sign62_jp"][2];
-                                                                                            },
-                                                                                            key: "$idx",
-                                                                                            value: "item"
-                                                                                        }
-                                                                                    }, function($idx, item) {
-                                                                                        return [
-                                                                                            aiot.__ce__("text", {
-                                                                                                __vm__: _vm_,
-                                                                                                __opts__: {
-                                                                                                    classList: [
-                                                                                                        "calbtnfull"
-                                                                                                    ],
-                                                                                                    events: {
-                                                                                                        click: function(evt) {
-                                                                                                            return _vm_.onSelect(item, evt);
-                                                                                                        }
-                                                                                                    },
-                                                                                                    value: function() {
-                                                                                                        return item;
-                                                                                                    }
-                                                                                                }
-                                                                                            }, [])
-                                                                                        ];
-                                                                                    })
-                                                                                ];
-                                                                            }),
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/3-2.png",
-                                                                                    style: {
-                                                                                        width: "72px",
-                                                                                        height: "52px"
-                                                                                    },
-                                                                                    events: {
-                                                                                        click: function(evt) {
-                                                                                            return _vm_.onSelect("\u3001", evt);
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, [])
-                                                                        ]),
                                                                         aiot.__ce__("image", {
                                                                             __vm__: _vm_,
                                                                             __opts__: {
@@ -2216,69 +1753,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 },
                                                                                 show: function() {
                                                                                     return "" === _vm_.downFlag && !_vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, []),
-                                                                        aiot.__ce__("image", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                src: "/components/InputMethod/assets/full/4-2.png",
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "266px",
-                                                                                    left: "242px",
-                                                                                    width: "120px",
-                                                                                    height: "48px"
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onSelect("\u3002", evt);
-                                                                                    }
-                                                                                },
-                                                                                show: function() {
-                                                                                    return _vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, []),
-                                                                        aiot.__ce__("image", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                src: "/components/InputMethod/assets/full/4-1.png",
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "266px",
-                                                                                    left: "119px",
-                                                                                    width: "120px",
-                                                                                    height: "48px"
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onSelect("\uFF0C", evt);
-                                                                                    }
-                                                                                },
-                                                                                show: function() {
-                                                                                    return _vm_.numFlag && !_vm_.numFlag_jp;
-                                                                                }
-                                                                            }
-                                                                        }, []),
-                                                                        aiot.__ce__("image", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                src: "/components/InputMethod/assets/full/4-1.png",
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "266px",
-                                                                                    left: "119px",
-                                                                                    width: "120px",
-                                                                                    height: "48px"
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onSelect("\u3001", evt);
-                                                                                    }
-                                                                                },
-                                                                                show: function() {
-                                                                                    return _vm_.numFlag_jp;
                                                                                 }
                                                                             }
                                                                         }, []),
@@ -2340,27 +1814,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 },
                                                                                 show: function() {
                                                                                     return _vm_.numFlag;
-                                                                                }
-                                                                            }
-                                                                        }, []),
-                                                                        aiot.__ce__("image", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                src: "/components/InputMethod/assets/t9/123.png",
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "99px",
-                                                                                    left: "31px",
-                                                                                    width: "60px",
-                                                                                    height: "60px"
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onBtnClick("switchNum", evt);
-                                                                                    }
-                                                                                },
-                                                                                show: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "cn" === _vm_.lang;
                                                                                 }
                                                                             }
                                                                         }, []),
@@ -2455,7 +1908,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                             __vm__: _vm_,
                                                                             __opts__: {
                                                                                 shown: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag;
+                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "cn" === _vm_.lang;
                                                                                 }
                                                                             }
                                                                         }, function() {
@@ -2463,9 +1916,36 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                 aiot.__ce__("image", {
                                                                                     __vm__: _vm_,
                                                                                     __opts__: {
-                                                                                        src: function() {
-                                                                                            return "/components/InputMethod/assets/t9/" + _vm_.lang + ".png";
+                                                                                        src: "/components/InputMethod/assets/full/cn.png",
+                                                                                        style: {
+                                                                                            position: "absolute",
+                                                                                            top: "35px",
+                                                                                            left: "31px",
+                                                                                            width: "60px",
+                                                                                            height: "60px"
                                                                                         },
+                                                                                        events: {
+                                                                                            click: function(evt) {
+                                                                                                return _vm_.onBtnClick("lang", evt);
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }, [])
+                                                                            ];
+                                                                        }),
+                                                                        aiot.__ci__({
+                                                                            __vm__: _vm_,
+                                                                            __opts__: {
+                                                                                shown: function() {
+                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "en" === _vm_.lang;
+                                                                                }
+                                                                            }
+                                                                        }, function() {
+                                                                            return [
+                                                                                aiot.__ce__("image", {
+                                                                                    __vm__: _vm_,
+                                                                                    __opts__: {
+                                                                                        src: "/components/InputMethod/assets/full/en.png",
                                                                                         style: {
                                                                                             position: "absolute",
                                                                                             top: "35px",
@@ -2542,7 +2022,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     height: "40px"
                                                                                 },
                                                                                 show: function() {
-                                                                                    return ("cn" === _vm_.lang || "jp" === _vm_.lang) && "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
+                                                                                    return "cn" === _vm_.lang && "" === _vm_.downFlag && !_vm_.numFlag && _vm_.cval;
                                                                                 }
                                                                             }
                                                                         }, [
@@ -2572,7 +2052,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     height: "52px"
                                                                                 },
                                                                                 show: function() {
-                                                                                    return ("cn" === _vm_.lang || "jp" === _vm_.lang) && !_vm_.numFlag;
+                                                                                    return "cn" === _vm_.lang && !_vm_.numFlag;
                                                                                 }
                                                                             }
                                                                         }, [
@@ -2639,36 +2119,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     })
                                                                                 ])
                                                                             ])
-                                                                        ]),
-                                                                        aiot.__ce__("div", {
-                                                                            __vm__: _vm_,
-                                                                            __opts__: {
-                                                                                style: {
-                                                                                    position: "absolute",
-                                                                                    top: "35px",
-                                                                                    left: "95px",
-                                                                                    width: "290px",
-                                                                                    height: "60px",
-                                                                                    alignContent: "center",
-                                                                                    alignItems: "center",
-                                                                                    justifyContent: "center"
-                                                                                },
-                                                                                show: function() {
-                                                                                    return "" === _vm_.downFlag && !_vm_.numFlag && "en" === _vm_.lang;
-                                                                                },
-                                                                                events: {
-                                                                                    click: function(evt) {
-                                                                                        return _vm_.onBtnClick("switchNum", evt);
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                        }, [
-                                                                            aiot.__ce__("image", {
-                                                                                __vm__: _vm_,
-                                                                                __opts__: {
-                                                                                    src: "/components/InputMethod/assets/full/123_boardless.png"
-                                                                                }
-                                                                            }, [])
                                                                         ]),
                                                                         aiot.__ci__({
                                                                             __vm__: _vm_,
@@ -7225,7 +6675,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 paddingTop: "24px",
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
-                                alignItems: "center"
+                                alignItems: "center",
+                                position: "relative",
+                                zIndex: 0
                             }
                         ],
                         [
@@ -7254,7 +6706,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "102px",
                                 height: "72px",
-                                flexShrink: 0
+                                flexShrink: 0,
+                                zIndex: 10
                             }
                         ],
                         [
@@ -7267,7 +6720,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "102px",
                                 height: "72px",
-                                flexShrink: 0
+                                flexShrink: 0,
+                                zIndex: 10
                             }
                         ],
                         [
@@ -7304,7 +6758,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "168px",
+                                zIndex: 10,
                                 height: "52px",
                                 marginTop: "12px",
                                 marginBottom: "8px",
@@ -7329,6 +6783,37 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             [
                                 [
                                     0,
+                                    "edit-row"
+                                ]
+                            ],
+                            {
+                                zIndex: 10,
+                                width: "168px",
+                                height: "42px",
+                                marginBottom: "6px",
+                                flexDirection: "row",
+                                justifyContent: "space-between"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "hint-area"
+                                ]
+                            ],
+                            {
+                                zIndex: 10,
+                                width: "100%",
+                                flex: 1,
+                                justifyContent: "center",
+                                alignItems: "center"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
                                     "input-text"
                                 ]
                             ],
@@ -7339,21 +6824,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 fontSize: "26px",
                                 fontWeight: 700,
                                 textAlign: "left"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
-                                    "edit-row"
-                                ]
-                            ],
-                            {
-                                width: "168px",
-                                height: "42px",
-                                marginBottom: "6px",
-                                flexDirection: "row",
-                                justifyContent: "space-between"
                             }
                         ],
                         [
@@ -7440,20 +6910,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ],
                             {
                                 fontSize: "22px"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
-                                    "hint-area"
-                                ]
-                            ],
-                            {
-                                width: "100%",
-                                flex: 1,
-                                justifyContent: "center",
-                                alignItems: "center"
                             }
                         ],
                         [

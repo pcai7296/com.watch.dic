@@ -764,6 +764,8 @@ export default {
   background-color: #020813;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 0;
 }
 
 .top-row {
@@ -794,8 +796,15 @@ export default {
   height: 40px;
 }
 
+.input-box,
+.edit-row,
+.back-btn,
+.check-btn,
+.hint-area {
+  z-index: 10;
+}
+
 .input-box {
-  width: 168px;
   height: 52px;
   margin-top: 12px;
   margin-bottom: 8px;

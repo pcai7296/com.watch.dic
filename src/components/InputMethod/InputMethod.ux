@@ -1,15 +1,15 @@
 <template>
-  <div class="page" style="flex-direction: column; height: {{hide ? '0px' : 'auto'}}; overflow: {{hide ? 'hidden' : 'visible'}};">
+  <div class="page" style="flex-direction: column; height: {{hide ? '0px' : 'auto'}}; overflow: {{hide ? 'hidden' : 'visible'}}; background-color: transparent;">
     <!-- 键盘内容懒建：外 if 保证键盘隐藏时整个子树不进 VDOM（chat/search 首进 1s 卡顿根因：
          旧实现 show 只是不可见，200+ 节点/图片在进页瞬间全部创建），首次弹出才创建，
          之后 keyboardCreated 保活、hide 切换只走内层 show 显隐，不重复重建。 -->
     <div if="{{!hide || keyboardCreated}}">
-      <div show="{{!hide}}" style="background-color:black;flex-direction: column;" >
+      <div show="{{!hide}}" style="background-color:transparent;flex-direction: column;" >
       <!-- 拼音小字行：键盘框外上方单独一行，黑底覆盖，仅中/日模式且有 cval 时显示，只展示不可点。
            circle 屏彻底不建此节点（键盘固定 480x321，外置 28px 行会挤压键盘且顶部多一条黑条），
            circle 的拼音改在键盘内部绝对定位显示；if 而非 show：show 隐藏时节点仍在 VDOM，
            circle 顶部会残留黑条 -->
-      <div if="{{screentype !== 'circle'}}" class="cvalrow-wrap" show="{{(lang==='cn' || lang==='jp') && downFlag==='' && !numFlag && cval}}">
+      <div if="{{screentype !== 'circle'}}" class="cvalrow-wrap" show="{{lang==='cn' && downFlag==='' && !numFlag && cval}}">
         <text class="cvalrow">{{cvalDisplay}}</text>
       </div>
       <!-- 圆屏62 -->
@@ -18,30 +18,26 @@
 		<!-- 这里是480px圆表屏幕的键盘 -->
         <div id="full-keyboard" if="{{keyboardtype!='T9'}}" style="width: 480px;height: 321px;">
           <img src="./assets/full/back2.png" style="position: absolute;top:38px;left:7px;width:466px;height:52px;" @click="onBtnClick('switchCn')" show="{{numFlag}}" />
-          <img src="./assets/full/123.png" style="position: absolute;top:266px;left:119px;width:120px;height:48px;" @click="onBtnClick('switchNum')" show="{{downFlag==='' && !numFlag && lang==='cn'}}" />
-          <img src="./assets/full/123.png" style="position: absolute;top:266px;left:119px;width:120px;height:48px;" @click="onBtnClick('switchNum_jp')" show="{{downFlag==='' && !numFlag && lang==='jp'}}" />
+          <!-- w466 仅保留中文/英文，不显示数字/符号切换键。 -->
           <img src="./assets/full/bigA.png" style="position: absolute;top:266px;left:119px;width:120px;height:48px;" @click="onBtnClick('switchLow')" show="{{downFlag==='' && upperFlag && lang==='en'}}" />
           <img src="./assets/full/A.png" style="position: absolute;top:266px;left:119px;width:120px;height:48px;" @click="onBtnClick('switchUpper')" show="{{downFlag==='' && !upperFlag && lang==='en'}}" />
           <div style="position: absolute;top:38px;left:78px;width:324px;height:52px;background-color:rgb(38,38,38);border-radius: 12px;border: 3px solid #333333" show="{{downFlag===''&& !numFlag}}"></div>
           <img show="{{resultRow0.length > 0}}" style="position: absolute;top:43px;left:355px;" src="./assets/full/down.png" @click="onBtnClick('down')" />
-          <!-- 带变量的相对路径在 aiot-tookit 2.0.4 中修复 -->
-          <img src="./assets/full/{{lang}}.png" style="position: absolute;top:38px;left:7px;width:67px;height:52px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag && lang!='jp'}}" />
-          <img src="./assets/full/jp.png" style="position: absolute;top:38px;left:7px;width:67px;height:52px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag && lang==='jp'}}" />
+          <img src="./assets/full/cn.png" style="position: absolute;top:38px;left:7px;width:67px;height:52px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag && lang==='cn'}}" />
+          <img src="./assets/full/en.png" style="position: absolute;top:38px;left:7px;width:67px;height:52px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag && lang==='en'}}" />
           <!-- 拼音小字行：circle 屏在键盘内部绝对定位（对齐参考工程），浮于候选行上方，不占键盘高度 -->
-          <div style="position: absolute;top:-4px;left:78px;width:324px;" show="{{(lang==='cn' || lang==='jp') && downFlag==='' && !numFlag && cval}}">
+          <div style="position: absolute;top:-4px;left:78px;width:324px;" show="{{lang==='cn' && downFlag==='' && !numFlag && cval}}">
             <text class="caltext" style="width:296px;">{{cvalDisplay}}_</text>
           </div>
           <!-- 候选横滚行：整词在前、单字随后，宽度自适应防长词拥挤（对齐 rect/pill 屏方案），容器止于右侧 down 箭头前 -->
-          <div style="position: absolute;top:38px;left:78px;width:275px;height:52px;" show="{{(lang === 'cn' || lang === 'jp') && !numFlag}}">
+          <div style="position: absolute;top:38px;left:78px;width:275px;height:52px;" show="{{lang === 'cn' && !numFlag}}">
             <scroll scroll-x="{{true}}" style="position:absolute;left:0px;width:100%;height:42px;">
               <div style="position: absolute;left: 0px;height: 42px;padding-left:20px;padding-right:20px">
                 <text for="{{resultRow0}}" show="{{resultRow0.length > $idx}}" class="calbtn02" style="padding-right:10px" @click="onRsSelect(resultRow0[$idx])">{{resultRow0[$idx]}}</text>
               </div>
             </scroll>
           </div>
-          <div style="position: absolute;top:38px;left:80px;width:320px;height:52px;align-content: center;align-items: center;justify-content: center" show="{{downFlag==='' && !numFlag && lang==='en'}}" @click="onBtnClick('switchNum')" >
-            <img src="./assets/full/123_boardless.png" />
-          </div>
+          <!-- 英文模式不提供数字/符号切换。 -->
           <!-- 这里使用show会导致每次输入都会加载全部候选列表，很卡 -->
           <list class="list3" if="{{downFlag==='down'}}">
             <list-item type="waitingRows62t9" class="item3" for="{{itemArray in resultList2}}">
@@ -65,60 +61,38 @@
             <text class="calbtnfull" for="{{item in keys['full62'][2]}}" @click="onSelect(item)">{{item}}</text>
             <img src="./assets/full/M.png" style="width:72px;height:52px;" @click="onSelect('M')" />
           </div>
-          <div style="position: absolute;top:95px;left:8px;width:464px;height:52px;" show="{{numFlag}}">
-            <img src="./assets/full/1.png" style="width:54px;height:52px;margin-right: 4px;" @click="onSelect('1')" />
-            <text if="{{!numFlag_jp}}" class="calbtnfull" for="{{item in keys['sign62'][0]}}" @click="onSelect(item)">{{item}}</text>
-            <text else class="calbtnfull" for="{{item in keys['sign62_jp'][0]}}" @click="onSelect(item)">{{item}}</text>
-            <img src="./assets/full/0.png" style="width:54px;height:52px;" @click="onSelect('0')" />
-          </div>
-          <div style="position: absolute;top:152px;left:23px;width:438px;height:52px;" show="{{numFlag}}">
-            <img src="./assets/full/2-1.png" style="width:60px;height:52px;margin-right: 4px;" @click="onSelect('~')" />
-            <text if="{{!numFlag_jp}}" class="calbtnfull" for="{{item in keys['sign62'][1]}}" @click="onSelect(item)">{{item}}</text>
-            <text else class="calbtnfull" for="{{item in keys['sign62_jp'][1]}}" @click="onSelect(item)">{{item}}</text>
-            <img src="./assets/full/2-2.png" style="width:60px;height:52px;" @click="onSelect('?')" />
-          </div>
-          <div style="position: absolute;top:209px;left:56px;width:368px;height:52px;" show="{{numFlag}}">
-            <img src="./assets/full/3-1.png" style="width:72px;height:52px;margin-right: 4px;" @click="onSelect('(')" />
-            <text if="{{!numFlag_jp}}" class="calbtnfull" for="{{item in keys['sign62'][2]}}" @click="onSelect(item)">{{item}}</text>
-            <text else class="calbtnfull" for="{{item in keys['sign62_jp'][2]}}" @click="onSelect(item)">{{item}}</text>
-            <img src="./assets/full/3-2.png" style="width:72px;height:52px;" @click="onSelect('、')" />
-          </div>
+          <!-- w466 仅保留中文/英文输入；数字和符号键盘不渲染。 -->
           <img src="./assets/full/del.png" style="position: absolute;top:38px;left:406px;width:67px;height:52px;" @click="onBtnClick('D')" show="{{downFlag==='' && !numFlag }}" />
-          <img src="./assets/full/space.png" style="position: absolute;top:266px;left:242px;width:120px;height:48px;" @click="onBtnClick('space')" show="{{downFlag==='' && !numFlag }}" />
-          <img src="./assets/full/4-2.png" style="position: absolute;top:266px;left:242px;width:120px;height:48px;" @click="onSelect('。')" show="{{numFlag }}" />
-          <img src="./assets/full/4-1.png" style="position: absolute;top:266px;left:119px;width:120px;height:48px;" @click="onSelect('，')" show="{{numFlag && !numFlag_jp}}" />
-          <img src="./assets/full/4-1.png" style="position: absolute;top:266px;left:119px;width:120px;height:48px;" @click="onSelect('、')" show="{{numFlag_jp}}" />
+          <img src="./assets/full/space.png" style="position: absolute;top:266px;left:242px;width:120px;height:48px;" @click="onBtnClick('space')" show="{{downFlag==='' && !numFlag}}" />
           <img style="position: absolute;top:204px;left:78px;" src="./assets/full/up.png" @click="onBtnClick('down')" show="{{downFlag==='down'}}" />
         </div>
         <!-- 九键 -->
         <div else style="width: 480px;height: 321px;">
           <img src="./assets/t9/back2.png" style="position: absolute;top:35px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('switchCn')" show="{{numFlag}}" />
-          <img src="./assets/t9/123.png" style="position: absolute;top:99px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('switchNum')" show="{{downFlag==='' && !numFlag && lang==='cn'}}" />
+          <!-- w466 仅保留中文/英文，不显示数字/符号切换键。 -->
           <img src="./assets/t9/bigA.png" style="position: absolute;top:99px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('switchLow')" show="{{downFlag==='' && !numFlag && upperFlag && lang==='en'}}" />
           <img src="./assets/t9/a.png" style="position: absolute;top:99px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('switchUpper')" show="{{downFlag==='' && !numFlag && !upperFlag && lang==='en'}}" />
           <div style="position: absolute;top:35px;left:95px;width:290px;height:60px;background-color:rgb(38,38,38);border-radius: 999px;border: 3px solid #333333" show="{{downFlag===''&& !numFlag}}"></div>
           <img show="{{resultRow0.length > 0}}" style="position: absolute;top:44px;left:338px;" src="./assets/full/down.png" @click="onBtnClick('down')" />
-          <!-- 带变量的相对路径在 aiot-tookit 2.0.4 中修复 -->
-          <img src="./assets/t9/{{lang}}.png" style="position: absolute;top:35px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag}}" />
+          <img src="./assets/full/cn.png" style="position: absolute;top:35px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag && lang==='cn'}}" />
+          <img src="./assets/full/en.png" style="position: absolute;top:35px;left:31px;width: 60px;height: 60px;" @click="onBtnClick('lang')" if="{{downFlag==='' && !numFlag && lang==='en'}}" />
           <div show="{{downFlag==='' && !numFlag}}" style="position: absolute;top:-4px;left:240px;width:145px;height:40px;justify-content:flex-end">
             <text for="{{waitingList}}" class="waiting-keys" style="color:{{$idx===waitingIndex ? 'rgb(13,132,255)' : 'white'}};" @click="onSelectWaiting($idx)">{{waitingList[$idx]}}</text>
           </div>
           <!-- 拼音小字行：circle 屏在键盘内部绝对定位（对齐参考工程），浮于候选行上方，不占键盘高度；左止于 waiting 列表前 -->
-          <div style="position: absolute;top:-4px;left:95px;width:145px;height:40px;" show="{{(lang==='cn' || lang==='jp') && downFlag==='' && !numFlag && cval}}">
+          <div style="position: absolute;top:-4px;left:95px;width:145px;height:40px;" show="{{lang==='cn' && downFlag==='' && !numFlag && cval}}">
             <text class="caltext" style="width:145px;">{{cvalDisplay}}_</text>
           </div>
           <!-- 候选横滚行：整词在前、单字随后，宽度自适应防长词拥挤（对齐 rect/pill 屏方案），容器止于右侧 down 箭头前。
                注意：容器必须给 height（scroll 在无高度容器内不渲染内容，T9 候选曾因此空白） -->
-          <div style="position: absolute;top:39px;left:105px;width:233px;height:52px;" show="{{(lang === 'cn' || lang === 'jp') && !numFlag}}">
+          <div style="position: absolute;top:39px;left:105px;width:233px;height:52px;" show="{{lang === 'cn' && !numFlag}}">
             <scroll scroll-x="{{true}}" style="position:absolute;left:0px;width:100%;height:42px;">
               <div style="position: absolute;left: 0px;height: 42px;padding-left:20px;padding-right:20px">
                 <text for="{{resultRow0}}" show="{{resultRow0.length > $idx}}" class="calbtn02" style="padding-right:10px" @click="onRsSelect(resultRow0[$idx])">{{resultRow0[$idx]}}</text>
               </div>
             </scroll>
           </div>
-          <div style="position: absolute;top:35px;left:95px;width:290px;height:60px;align-content: center;align-items: center;justify-content: center" show="{{downFlag==='' && !numFlag && lang==='en'}}" @click="onBtnClick('switchNum')" >
-            <img src="./assets/full/123_boardless.png" />
-          </div>
+          <!-- w466 仅保留中文/英文，不显示数字/符号切换键。 -->
           <!-- 这里使用show会导致每次输入都会加载全部候选列表，很卡 -->
           <list class="list3" if="{{downFlag==='down'}}">
             <list-item type="waitingRows62full" class="item3" for="{{itemArray in resultList2}}">
@@ -446,6 +420,10 @@ export default {
     },
   },
   onInit() {
+    this.lang = "cn";
+    this.numFlag = false;
+    this.numFlag_jp = false;
+    this.upperFlag = false;
     if (this.maxlength) {
       const tempCvalList = [];
       for (let i = 0; i < this.maxlength; i++) {
@@ -509,17 +487,11 @@ export default {
         this.resetResultList();
         break;
       case "lang":
-        if (this.keyboardtype === "T9") {
-          this.lang = this.lang === "cn" ? "en" : "cn";
-        } else {
-          if (this.lang === "cn") {
-            this.lang = "en";
-          } else if (this.lang === "en") {
-            this.lang = "jp";
+          if (this.keyboardtype === "T9") {
+            this.lang = this.lang === "cn" ? "en" : "cn";
           } else {
-            this.lang = "cn";
+            this.lang = this.lang === "cn" ? "en" : "cn";
           }
-        }
         this.cval = "";
         this.clearWaiting();
         this.resetResultList();
@@ -557,18 +529,10 @@ export default {
         }
         break;
       case "switchNum":
-        this.numFlag = true;
-        this.numFlag_jp = false;
-        this.cval = "";
-        this.clearWaiting();
-        this.resetResultList();
-        break;
       case "switchNum_jp":
-        this.numFlag = true;
-        this.numFlag_jp = true;
-        this.cval = "";
-        this.clearWaiting();
-        this.resetResultList();
+        // w466 仅保留中文/英文输入，不进入数字/符号页。
+        this.numFlag = false;
+        this.numFlag_jp = false;
         break;
       case "switchCn":
         this.numFlag = false;
