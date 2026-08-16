@@ -30,7 +30,7 @@
             <text class="caltext" style="width:296px;">{{cvalDisplay}}_</text>
           </div>
           <!-- 候选横滚行：整词在前、单字随后，宽度自适应防长词拥挤（对齐 rect/pill 屏方案），容器止于右侧 down 箭头前 -->
-          <div style="position: absolute;top:38px;left:78px;width:275px;height:52px;" show="{{lang === 'cn' && !numFlag}}">
+          <div style="position: absolute;top:38px;left:78px;width:275px;height:52px;" show="{{(lang === 'cn' || lang === 'en') && !numFlag}}">
             <scroll scroll-x="{{true}}" style="position:absolute;left:0px;width:100%;height:42px;">
               <div style="position: absolute;left: 0px;height: 42px;padding-left:20px;padding-right:20px">
                 <text for="{{resultRow0}}" show="{{resultRow0.length > $idx}}" class="calbtn02" style="padding-right:10px" @click="onRsSelect(resultRow0[$idx])">{{resultRow0[$idx]}}</text>
@@ -85,7 +85,7 @@
           </div>
           <!-- 候选横滚行：整词在前、单字随后，宽度自适应防长词拥挤（对齐 rect/pill 屏方案），容器止于右侧 down 箭头前。
                注意：容器必须给 height（scroll 在无高度容器内不渲染内容，T9 候选曾因此空白） -->
-          <div style="position: absolute;top:39px;left:105px;width:233px;height:52px;" show="{{lang === 'cn' && !numFlag}}">
+          <div style="position: absolute;top:39px;left:105px;width:233px;height:52px;" show="{{(lang === 'cn' || lang === 'en') && !numFlag}}">
             <scroll scroll-x="{{true}}" style="position:absolute;left:0px;width:100%;height:42px;">
               <div style="position: absolute;left: 0px;height: 42px;padding-left:20px;padding-right:20px">
                 <text for="{{resultRow0}}" show="{{resultRow0.length > $idx}}" class="calbtn02" style="padding-right:10px" @click="onRsSelect(resultRow0[$idx])">{{resultRow0[$idx]}}</text>
@@ -446,6 +446,7 @@ export default {
     }
     this.screenWidth = 466
     this.keyboardLeftOffset = 137
+    this.$emit("ready", {})
     this.$watch("hide", "watchHidePropsChange");
     this.$watch("maxlength", "watchMaxLengthPropsChange");
     this.$watch("keyboardtype", "watchKeyboardTypePropsChange");
@@ -454,12 +455,13 @@ export default {
         this.resetResultList()
       }
     }.bind(this))
+  },
+  onDestroy() {
     this.$unwatch("hide")
     this.$unwatch("maxlength")
     this.$unwatch("keyboardtype")
     onSuggestionsChange(null)
   },
-  addAllTxt(txt) {
     this.$emit("complete", { content: txt });
   },
   onRsSelect(txt) {

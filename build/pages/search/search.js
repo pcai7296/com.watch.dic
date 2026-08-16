@@ -782,7 +782,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     this.$unwatch("hide");
                                     this.$unwatch("maxlength");
                                     this.$unwatch("keyboardtype");
-                                    (0, _suggestionState.onSuggestionsChange)(null);
+                                    this.resetResultList();
                                 },
                                 addAllTxt (txt) {
                                     this.$emit("complete", {
@@ -1332,7 +1332,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     height: "52px"
                                                                                 },
                                                                                 show: function() {
-                                                                                    return "cn" === _vm_.lang && !_vm_.numFlag;
+                                                                                    return ("cn" === _vm_.lang || "en" === _vm_.lang) && !_vm_.numFlag;
                                                                                 }
                                                                             }
                                                                         }, [
@@ -2052,7 +2052,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                                                     height: "52px"
                                                                                 },
                                                                                 show: function() {
-                                                                                    return "cn" === _vm_.lang && !_vm_.numFlag;
+                                                                                    return ("cn" === _vm_.lang || "en" === _vm_.lang) && !_vm_.numFlag;
                                                                                 }
                                                                             }
                                                                         }, [
