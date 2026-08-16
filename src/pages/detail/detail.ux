@@ -1,6 +1,6 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <image class="back-btn" src="/common/icons/Back_B.png" onclick="goBack" />
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <div class="word-area" style="margin-left: {{wordAreaMarginLeft}}px;">
       <marquee if="{{ wordMarqueeOn }}" class="word-marquee" style="width: {{contentWidth}}px;"

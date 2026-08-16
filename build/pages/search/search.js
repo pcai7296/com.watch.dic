@@ -6603,14 +6603,54 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             [
                                 [
                                     0,
+                                    "top-row"
+                                ]
+                            ],
+                            {
+                                width: "100%",
+                                height: "72px",
+                                paddingTop: 0,
+                                flexDirection: "row",
+                                alignItems: "flex-start",
+                                justifyContent: "center"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "back-btn"
+                                ]
+                            ],
+                            {
+                                width: "102px",
+                                height: "72px",
+                                flexShrink: 0
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "check-btn"
+                                ]
+                            ],
+                            {
+                                width: "102px",
+                                height: "72px",
+                                flexShrink: 0
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
                                     "search-button"
                                 ]
                             ],
                             {
-                                width: "78px",
-                                height: "54px",
-                                borderRadius: "22px",
-                                backgroundColor: "#0b65ea",
+                                width: "102px",
+                                height: "72px",
                                 justifyContent: "center",
                                 alignItems: "center"
                             }
@@ -6625,22 +6665,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "40px",
                                 height: "40px"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
-                                    "back-text"
-                                ]
-                            ],
-                            {
-                                width: "70px",
-                                height: "30px",
-                                color: "#ffffff",
-                                fontSize: "22px",
-                                fontWeight: 800,
-                                textAlign: "center"
                             }
                         ],
                         [
@@ -7460,60 +7484,64 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             }
                         }, [
-                            aiot.__ce__("div", {
+                            aiot.__ci__({
                                 __vm__: _vm_,
                                 __opts__: {
-                                    classList: [
-                                        "search-button"
-                                    ],
-                                    events: {
-                                        click: function(evt) {
-                                            return _vm_.onSearchButtonClick(evt);
-                                        }
+                                    shown: function() {
+                                        return !_vm_.query;
                                     }
                                 }
-                            }, [
-                                aiot.__ci__({
-                                    __vm__: _vm_,
-                                    __opts__: {
-                                        shown: function() {
-                                            return _vm_.query;
-                                        }
-                                    }
-                                }, function() {
-                                    return [
-                                        aiot.__ce__("image", {
-                                            __vm__: _vm_,
-                                            __opts__: {
-                                                classList: [
-                                                    "search-icon"
-                                                ],
-                                                src: "/common/search-icon.png"
+                            }, function() {
+                                return [
+                                    aiot.__ce__("image", {
+                                        __vm__: _vm_,
+                                        __opts__: {
+                                            classList: [
+                                                "back-btn"
+                                            ],
+                                            src: "/common/icons/btn_back.png",
+                                            style: {
+                                                width: "102px",
+                                                height: "72px"
+                                            },
+                                            events: {
+                                                click: function(evt) {
+                                                    return _vm_.onSearchButtonClick(evt);
+                                                }
                                             }
-                                        }, [])
-                                    ];
-                                }),
-                                aiot.__ci__({
-                                    __vm__: _vm_,
-                                    __opts__: {
-                                        shown: function() {
-                                            return !_vm_.query;
                                         }
+                                    }, [])
+                                ];
+                            }),
+                            aiot.__ci__({
+                                __vm__: _vm_,
+                                __opts__: {
+                                    shown: function() {
+                                        return _vm_.query;
                                     }
-                                }, function() {
-                                    return [
-                                        aiot.__ce__("text", {
-                                            __vm__: _vm_,
-                                            __opts__: {
-                                                classList: [
-                                                    "back-text"
-                                                ],
-                                                value: "返回"
+                                }
+                            }, function() {
+                                return [
+                                    aiot.__ce__("image", {
+                                        __vm__: _vm_,
+                                        __opts__: {
+                                            classList: [
+                                                "check-btn"
+                                            ],
+                                            src: "/common/icons/btn_check.png",
+                                            style: {
+                                                width: "102px",
+                                                height: "72px"
+                                            },
+                                            events: {
+                                                click: function(evt) {
+                                                    return _vm_.onSearchButtonClick(evt);
+                                                }
                                             }
-                                        }, [])
-                                    ];
-                                })
-                            ]),
+                                        }
+                                    }, [])
+                                ];
+                            }),
                             aiot.__ce__("div", {
                                 __vm__: _vm_,
                                 __opts__: {

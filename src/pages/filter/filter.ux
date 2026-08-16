@@ -1,8 +1,6 @@
 ﻿<template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="back-button" @click="goBack">
-      <text class="back-text">返回</text>
-    </div>
+    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
     <div if="{{ mode === 'input' }}" class="input-row input-row-{{screenProfile}}" style="width: {{cardWidth}}px;">
       <marquee class="input-text input-text-{{screenProfile}}"
         scrollamount="40" direction="left" loop="-1" text-offset="40">
@@ -354,23 +352,19 @@ export default {
   align-items: center;
 }
 
-.back-button {
-  width: 78px;
-  height: 54px;
-  margin-bottom: 8px;
-  border-radius: 22px;
-  background-color: #0b65ea;
+.top-row {
+  width: 100%;
+  height: 72px;
+  padding-top: 0;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
 }
 
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
+.back-btn {
+  width: 102px;
+  height: 72px;
+  flex-shrink: 0;
 }
 
 .filter-list {

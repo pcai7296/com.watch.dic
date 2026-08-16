@@ -46,32 +46,42 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         [
                             [
                                 0,
-                                "search-button"
+                                "top-row"
                             ]
                         ],
                         {
-                            width: "78px",
-                            height: "54px",
-                            borderRadius: "22px",
-                            backgroundColor: "#0b65ea",
-                            justifyContent: "center",
-                            alignItems: "center"
+                            width: "100%",
+                            height: "72px",
+                            flexDirection: "row",
+                            alignItems: "flex-start",
+                            justifyContent: "center"
                         }
                     ],
                     [
                         [
                             [
                                 0,
-                                "back-text"
+                                "back-btn"
                             ]
                         ],
                         {
-                            width: "70px",
-                            height: "30px",
-                            color: "#ffffff",
-                            fontSize: "22px",
-                            fontWeight: 800,
-                            textAlign: "center"
+                            width: "102px",
+                            height: "72px",
+                            flexShrink: 0
+                        }
+                    ],
+                    [
+                        [
+                            [
+                                0,
+                                "search-button"
+                            ]
+                        ],
+                        {
+                            width: "102px",
+                            height: "72px",
+                            justifyContent: "center",
+                            alignItems: "center"
                         }
                     ],
                     [
@@ -309,29 +319,24 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             }
                         }
                     }, [
-                        aiot.__ce__("div", {
+                        aiot.__ce__("image", {
                             __vm__: _vm_,
                             __opts__: {
                                 classList: [
-                                    "search-button"
+                                    "back-btn"
                                 ],
+                                src: "/common/icons/btn_back.png",
+                                style: {
+                                    width: "102px",
+                                    height: "72px"
+                                },
                                 events: {
                                     click: function(evt) {
                                         return _vm_.goBack(evt);
                                     }
                                 }
                             }
-                        }, [
-                            aiot.__ce__("text", {
-                                __vm__: _vm_,
-                                __opts__: {
-                                    classList: [
-                                        "back-text"
-                                    ],
-                                    value: "返回"
-                                }
-                            }, [])
-                        ]),
+                        }, []),
                         aiot.__ce__("div", {
                             __vm__: _vm_,
                             __opts__: {

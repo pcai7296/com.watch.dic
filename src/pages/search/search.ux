@@ -2,10 +2,8 @@
 
 <template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <div class="search-button" @click="onSearchButtonClick">
-      <img class="search-icon" if="{{ query }}" src="/common/search-icon.png" />
-      <text class="back-text" if="{{ !query }}">返回</text>
-    </div>
+    <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
+    <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
 
     <div class="input-box input-box-{{screenProfile}}" @click="onInputBoxClick">
       <!-- 常驻 marquee，短时静态、超长时从右向左平滑滚动 -->
@@ -768,11 +766,25 @@ export default {
   align-items: center;
 }
 
+.top-row {
+  width: 100%;
+  height: 72px;
+  padding-top: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.back-btn,
+.check-btn {
+  width: 102px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
 .search-button {
-  width: 78px;
-  height: 54px;
-  border-radius: 22px;
-  background-color: #0b65ea;
+  width: 102px;
+  height: 72px;
   justify-content: center;
   align-items: center;
 }
@@ -780,15 +792,6 @@ export default {
 .search-icon {
   width: 40px;
   height: 40px;
-}
-
-.back-text {
-  width: 70px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  text-align: center;
 }
 
 .input-box {

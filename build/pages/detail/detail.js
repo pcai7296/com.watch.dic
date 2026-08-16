@@ -762,7 +762,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     classList: [
                                         "back-btn"
                                     ],
-                                    src: "/common/icons/Back_B.png",
+                                    src: "/common/icons/btn_back.png",
+                                    style: {
+                                        width: "102px",
+                                        height: "72px"
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goBack(evt);
