@@ -1,5 +1,8 @@
 ﻿<template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
+    </div>
     <img class="sponsor-code" src="/common/sponsor-code.png" />
     <text class="sponsor-caption">求喂饭</text>
   </div>
@@ -66,16 +69,30 @@ export default {
 .page {
   width: 466px;
   height: 466px;
-  padding-top: 75px;
+  padding-top: 0;
   background-color: #020813;
   flex-direction: column;
   align-items: center;
 }
 
+.top-row {
+  width: 100%;
+  height: 72px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.back-btn {
+  width: 102px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
 .sponsor-code {
   width: 188px;
   height: 188px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .sponsor-caption {

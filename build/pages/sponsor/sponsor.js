@@ -54,10 +54,38 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "466px",
                                 height: "466px",
-                                paddingTop: "75px",
+                                paddingTop: 0,
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
                                 alignItems: "center"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "top-row"
+                                ]
+                            ],
+                            {
+                                width: "100%",
+                                height: "72px",
+                                flexDirection: "row",
+                                alignItems: "flex-start",
+                                justifyContent: "center"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "back-btn"
+                                ]
+                            ],
+                            {
+                                width: "102px",
+                                height: "72px",
+                                flexShrink: 0
                             }
                         ],
                         [
@@ -70,7 +98,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "188px",
                                 height: "188px",
-                                marginTop: "60px"
+                                marginTop: "30px"
                             }
                         ],
                         [
@@ -181,6 +209,33 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             }
                         }, [
+                            aiot.__ce__("div", {
+                                __vm__: _vm_,
+                                __opts__: {
+                                    classList: [
+                                        "top-row"
+                                    ]
+                                }
+                            }, [
+                                aiot.__ce__("image", {
+                                    __vm__: _vm_,
+                                    __opts__: {
+                                        classList: [
+                                            "back-btn"
+                                        ],
+                                        src: "/common/icons/btn_back.png",
+                                        style: {
+                                            width: "102px",
+                                            height: "72px"
+                                        },
+                                        events: {
+                                            click: function(evt) {
+                                                return _vm_.goBack(evt);
+                                            }
+                                        }
+                                    }
+                                }, [])
+                            ]),
                             aiot.__ce__("image", {
                                 __vm__: _vm_,
                                 __opts__: {
