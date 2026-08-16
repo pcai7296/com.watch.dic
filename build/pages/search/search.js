@@ -906,9 +906,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     this.getResultByWord(this.cval + watingStr);
                                 },
                                 setResultListAll () {
+                                    const rowSize = "en" === this.lang ? 1 : parseInt(this.maxlength);
+                                    this.resultRow0 = this.resultList.slice(0, rowSize);
+                                    this.resultRow0IsWord = this.resultRow0.map(function() {
+                                        return false;
+                                    });
                                     this.resultList2 = [];
                                     let array = [];
-                                    const rowSize = "en" === this.lang ? 1 : parseInt(this.maxlength);
                                     for(let i = 0; i < this.resultList.length; i++){
                                         array.push(this.resultList[i]);
                                         if (array.length === rowSize) {
@@ -916,12 +920,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                             array = [];
                                         }
                                     }
-                                    if (array.length > 0 && array.length < rowSize) this.resultList2.push(array);
+                                    if (array.length > 0) this.resultList2.push(array);
                                 },
                                 getResultByWord (val) {
                                     const that = this;
                                     doSearchDic(val, that.lang, function(data) {
-                                        that.resultList = data;
+                                        that.resultList = data.chars || [];
+                                        that.matchedLen = data.matched ? data.matched.length : 0;
                                         that.setResultListAll();
                                     });
                                 },
