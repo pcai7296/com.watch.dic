@@ -462,6 +462,7 @@ export default {
     this.$unwatch("keyboardtype")
     onSuggestionsChange(null)
   },
+  addAllTxt(txt) {
     this.$emit("complete", { content: txt });
   },
   onRsSelect(txt) {

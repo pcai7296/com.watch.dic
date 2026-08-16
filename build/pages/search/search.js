@@ -773,16 +773,19 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     }
                                     this.screenWidth = 466;
                                     this.keyboardLeftOffset = 137;
+                                    this.$emit("ready", {});
                                     this.$watch("hide", "watchHidePropsChange");
                                     this.$watch("maxlength", "watchMaxLengthPropsChange");
                                     this.$watch("keyboardtype", "watchKeyboardTypePropsChange");
                                     (0, _suggestionState.onSuggestionsChange)((function() {
                                         if ("en" === this.lang) this.resetResultList();
                                     }).bind(this));
+                                },
+                                onDestroy () {
                                     this.$unwatch("hide");
                                     this.$unwatch("maxlength");
                                     this.$unwatch("keyboardtype");
-                                    this.resetResultList();
+                                    (0, _suggestionState.onSuggestionsChange)(null);
                                 },
                                 addAllTxt (txt) {
                                     this.$emit("complete", {
