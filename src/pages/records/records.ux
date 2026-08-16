@@ -1,5 +1,8 @@
 ﻿<template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
+    </div>
 
     <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;">
       <list-item
@@ -589,6 +592,20 @@ export default {
   background-color: #020813;
   flex-direction: column;
   align-items: center;
+}
+
+.top-row {
+  width: 100%;
+  height: 72px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.back-btn {
+  width: 102px;
+  height: 72px;
+  flex-shrink: 0;
 }
 
 .record-list {

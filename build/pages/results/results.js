@@ -151,7 +151,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "100%",
                                 height: "100%",
-                                paddingTop: "24px",
+                                paddingTop: "75px",
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
                                 alignItems: "center"
@@ -167,7 +167,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "100%",
                                 height: "72px",
-                                paddingTop: 0,
                                 flexDirection: "row",
                                 alignItems: "flex-start",
                                 justifyContent: "center"
@@ -1968,24 +1967,33 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             }
                         }, [
-                            aiot.__ce__("image", {
+                            aiot.__ce__("div", {
                                 __vm__: _vm_,
                                 __opts__: {
                                     classList: [
-                                        "back-btn"
-                                    ],
-                                    src: "/common/icons/btn_back.png",
-                                    style: {
-                                        width: "102px",
-                                        height: "72px"
-                                    },
-                                    events: {
-                                        click: function(evt) {
-                                            return _vm_.goBack(evt);
+                                        "top-row"
+                                    ]
+                                }
+                            }, [
+                                aiot.__ce__("image", {
+                                    __vm__: _vm_,
+                                    __opts__: {
+                                        classList: [
+                                            "back-btn"
+                                        ],
+                                        src: "/common/icons/btn_back.png",
+                                        style: {
+                                            width: "102px",
+                                            height: "72px"
+                                        },
+                                        events: {
+                                            click: function(evt) {
+                                                return _vm_.goBack(evt);
+                                            }
                                         }
                                     }
-                                }
-                            }, []),
+                                }, [])
+                            ]),
                             aiot.__ci__({
                                 __vm__: _vm_,
                                 __opts__: {
