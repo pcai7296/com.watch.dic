@@ -6767,10 +6767,10 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 borderRightWidth: "2px",
                                 borderBottomWidth: "2px",
                                 borderLeftWidth: "2px",
-                                borderTopColor: "#2f8cff",
-                                borderRightColor: "#2f8cff",
-                                borderBottomColor: "#2f8cff",
-                                borderLeftColor: "#2f8cff",
+                                borderTopColor: "#ffffff",
+                                borderRightColor: "#ffffff",
+                                borderBottomColor: "#ffffff",
+                                borderLeftColor: "#ffffff",
                                 borderRadius: "18px",
                                 backgroundColor: "#08172b",
                                 flexDirection: "column",
@@ -6802,51 +6802,49 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "168px",
-                                height: "42px",
+                                width: "256px",
+                                height: "72px",
+                                marginTop: "4px",
                                 marginBottom: "6px",
                                 flexDirection: "row",
-                                justifyContent: "space-between"
+                                justifyContent: "space-between",
+                                alignItems: "center"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "edit-button"
+                                    "move-left-btn"
                                 ]
                             ],
                             {
-                                height: "42px",
-                                borderRadius: "18px",
-                                color: "#ffffff",
-                                fontSize: "20px",
-                                fontWeight: 800,
-                                textAlign: "center"
+                                width: "80px",
+                                height: "72px"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "side-button"
+                                    "move-right-btn"
                                 ]
                             ],
                             {
-                                width: "48px",
-                                backgroundColor: "#0b65ea"
+                                width: "80px",
+                                height: "72px"
                             }
                         ],
                         [
                             [
                                 [
                                     0,
-                                    "clear-button"
+                                    "clear-btn"
                                 ]
                             ],
                             {
-                                width: "62px",
-                                backgroundColor: "#d82626"
+                                width: "80px",
+                                height: "72px"
                             }
                         ],
                         [
@@ -7670,15 +7668,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     }
                                 }
                             }, [
-                                aiot.__ce__("input", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "edit-button",
-                                            "side-button"
+                                            "move-left-btn"
                                         ],
-                                        type: "button",
-                                        value: "左",
+                                        src: "/common/icons/btn_back_thin.png",
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.moveLeft(evt);
@@ -7686,15 +7682,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         }
                                     }
                                 }, []),
-                                aiot.__ce__("input", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "edit-button",
-                                            "clear-button"
+                                            "clear-btn"
                                         ],
-                                        type: "button",
-                                        value: "清空",
+                                        src: "/common/icons/btn_delete_fat.png",
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.clearText(evt);
@@ -7702,15 +7696,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         }
                                     }
                                 }, []),
-                                aiot.__ce__("input", {
+                                aiot.__ce__("image", {
                                     __vm__: _vm_,
                                     __opts__: {
                                         classList: [
-                                            "edit-button",
-                                            "side-button"
+                                            "move-right-btn"
                                         ],
-                                        type: "button",
-                                        value: "右",
+                                        src: "/common/icons/btn_back_mirror_thin.png",
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.moveRight(evt);

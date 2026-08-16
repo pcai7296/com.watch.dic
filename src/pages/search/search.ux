@@ -14,9 +14,9 @@
     </div>
 
     <div class="edit-row edit-row-{{screenProfile}}">
-      <input class="edit-button side-button" type="button" value="左" @click="moveLeft" />
-      <input class="edit-button clear-button" type="button" value="清空" @click="clearText" />
-      <input class="edit-button side-button" type="button" value="右" @click="moveRight" />
+      <image class="move-left-btn" src="/common/icons/btn_back_thin.png" onclick="moveLeft" />
+      <image class="clear-btn" src="/common/icons/btn_delete_fat.png" onclick="clearText" />
+      <image class="move-right-btn" src="/common/icons/btn_back_mirror_thin.png" onclick="moveRight" />
     </div>
 
     <div if="{{ keyboardHidden }}" class="hint-area">
@@ -800,7 +800,7 @@ export default {
   padding-left: 14px;
   padding-right: 14px;
   border-width: 2px;
-  border-color: #2f8cff;
+  border-color: #ffffff;
   border-radius: 18px;
   background-color: #08172b;
   flex-direction: column;
@@ -818,30 +818,24 @@ export default {
 }
 
 .edit-row {
-  width: 168px;
-  height: 42px;
+  width: 256px;
+  height: 72px;
+  margin-top: 4px;
   margin-bottom: 6px;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
-.edit-button {
-  height: 42px;
-  border-radius: 18px;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 800;
-  text-align: center;
+.move-left-btn,
+.move-right-btn {
+  width: 80px;
+  height: 72px;
 }
 
-.side-button {
-  width: 48px;
-  background-color: #0b65ea;
-}
-
-.clear-button {
-  width: 62px;
-  background-color: #d82626;
+.clear-btn {
+  width: 80px;
+  height: 72px;
 }
 
 .input-box-rect {
