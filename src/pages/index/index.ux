@@ -226,7 +226,7 @@ export default {
 .page {
   width: 466px;
   height: 466px;
-  padding-top: 75px;
+  padding-top: 45px;
   background-color: #020813;
   flex-direction: column;
   align-items: center;

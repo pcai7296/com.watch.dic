@@ -73,7 +73,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "466px",
                                 height: "466px",
-                                paddingTop: "75px",
+                                paddingTop: "45px",
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
                                 alignItems: "center"
