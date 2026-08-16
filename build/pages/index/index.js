@@ -355,8 +355,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "22px",
-                                height: "20px"
+                                width: "36px",
+                                height: "36px"
                             }
                         ]
                     ];
