@@ -825,7 +825,7 @@ export default {
   width: 296px;
   height: 52px;
   border-width: 2px;
-  border-color: #2f8cff;
+  border-color: #ffffff;
   border-radius: 18px;
   background-color: #08172b;
   flex-direction: column;
