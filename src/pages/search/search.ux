@@ -33,7 +33,6 @@
       @key-down="onKeyDown"
       @delete="onDelete"
       @complete="onComplete"
-      @ready="onReady"
     ></input-method>
   </div>
 </template>
@@ -102,7 +101,7 @@ export default {
     englishSuggestionEnabled: true,
     searchSwipeExitLocked: true,
     searchSubmitLocked: false,
-    _suggestionTimer: null,
+    suggestionTimer: null,
     autoSearchTimer: null,
     marqueeTimer: null,
     tapTimes: [],
@@ -175,9 +174,9 @@ export default {
   onDestroy() {
     this.destroyed = true
     this.englishSuggestionToken++
-    if (this._suggestionTimer) {
-      clearTimeout(this._suggestionTimer)
-      this._suggestionTimer = null
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
     }
     if (this.autoSearchTimer) {
       clearTimeout(this.autoSearchTimer)
@@ -499,9 +498,9 @@ export default {
   },
 
   scheduleSuggestionUpdate() {
-    if (this._suggestionTimer) {
-      clearTimeout(this._suggestionTimer)
-      this._suggestionTimer = null
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
     }
     // Disabled or empty seed — clear suggestions immediately
     if (!this.englishSuggestionEnabled || !this.englishSeed) {
@@ -509,7 +508,7 @@ export default {
       return
     }
     var self = this
-    this._suggestionTimer = setTimeout(function () {
+    this.suggestionTimer = setTimeout(function () {
       self._suggestionTimer = null
       self.refreshEnglishSuggestions(self.englishSeed)
     }, 200)
@@ -610,9 +609,9 @@ export default {
 
   clearEnglishSuggestions() {
     this.englishSuggestionToken++
-    if (this._suggestionTimer) {
-      clearTimeout(this._suggestionTimer)
-      this._suggestionTimer = null
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
     }
     this.englishSuggestionsText = ""
     setSuggestionSeed("")
@@ -764,8 +763,6 @@ export default {
   background-color: #020813;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  z-index: 0;
 }
 
 .top-row {
@@ -794,14 +791,6 @@ export default {
 .search-icon {
   width: 40px;
   height: 40px;
-}
-
-.input-box,
-.edit-row,
-.back-btn,
-.check-btn,
-.hint-area {
-  z-index: 10;
 }
 
 .input-box {

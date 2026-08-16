@@ -6678,9 +6678,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 paddingTop: "24px",
                                 backgroundColor: "#020813",
                                 flexDirection: "column",
-                                alignItems: "center",
-                                position: "relative",
-                                zIndex: 0
+                                alignItems: "center"
                             }
                         ],
                         [
@@ -6709,8 +6707,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "102px",
                                 height: "72px",
-                                flexShrink: 0,
-                                zIndex: 10
+                                flexShrink: 0
                             }
                         ],
                         [
@@ -6723,8 +6720,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "102px",
                                 height: "72px",
-                                flexShrink: 0,
-                                zIndex: 10
+                                flexShrink: 0
                             }
                         ],
                         [
@@ -6761,7 +6757,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                zIndex: 10,
                                 height: "52px",
                                 marginTop: "12px",
                                 marginBottom: "8px",
@@ -6786,37 +6781,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             [
                                 [
                                     0,
-                                    "edit-row"
-                                ]
-                            ],
-                            {
-                                zIndex: 10,
-                                width: "168px",
-                                height: "42px",
-                                marginBottom: "6px",
-                                flexDirection: "row",
-                                justifyContent: "space-between"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
-                                    "hint-area"
-                                ]
-                            ],
-                            {
-                                zIndex: 10,
-                                width: "100%",
-                                flex: 1,
-                                justifyContent: "center",
-                                alignItems: "center"
-                            }
-                        ],
-                        [
-                            [
-                                [
-                                    0,
                                     "input-text"
                                 ]
                             ],
@@ -6827,6 +6791,21 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 fontSize: "26px",
                                 fontWeight: 700,
                                 textAlign: "left"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "edit-row"
+                                ]
+                            ],
+                            {
+                                width: "168px",
+                                height: "42px",
+                                marginBottom: "6px",
+                                flexDirection: "row",
+                                justifyContent: "space-between"
                             }
                         ],
                         [
@@ -6913,6 +6892,20 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ],
                             {
                                 fontSize: "22px"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "hint-area"
+                                ]
+                            ],
+                            {
+                                width: "100%",
+                                flex: 1,
+                                justifyContent: "center",
+                                alignItems: "center"
                             }
                         ],
                         [
@@ -7029,7 +7022,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 englishSuggestionEnabled: true,
                                 searchSwipeExitLocked: true,
                                 searchSubmitLocked: false,
-                                _suggestionTimer: null,
+                                suggestionTimer: null,
                                 autoSearchTimer: null,
                                 marqueeTimer: null,
                                 tapTimes: [],
@@ -7097,9 +7090,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             onDestroy () {
                                 this.destroyed = true;
                                 this.englishSuggestionToken++;
-                                if (this._suggestionTimer) {
-                                    clearTimeout(this._suggestionTimer);
-                                    this._suggestionTimer = null;
+                                if (this.suggestionTimer) {
+                                    clearTimeout(this.suggestionTimer);
+                                    this.suggestionTimer = null;
                                 }
                                 if (this.autoSearchTimer) {
                                     clearTimeout(this.autoSearchTimer);
@@ -7344,13 +7337,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 });
                             },
                             scheduleSuggestionUpdate () {
-                                if (this._suggestionTimer) {
-                                    clearTimeout(this._suggestionTimer);
-                                    this._suggestionTimer = null;
+                                if (this.suggestionTimer) {
+                                    clearTimeout(this.suggestionTimer);
+                                    this.suggestionTimer = null;
                                 }
                                 if (!this.englishSuggestionEnabled || !this.englishSeed) return void this.clearEnglishSuggestions();
                                 var self = this;
-                                this._suggestionTimer = setTimeout(function() {
+                                this.suggestionTimer = setTimeout(function() {
                                     self._suggestionTimer = null;
                                     self.refreshEnglishSuggestions(self.englishSeed);
                                 }, 200);
@@ -7428,9 +7421,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             },
                             clearEnglishSuggestions () {
                                 this.englishSuggestionToken++;
-                                if (this._suggestionTimer) {
-                                    clearTimeout(this._suggestionTimer);
-                                    this._suggestionTimer = null;
+                                if (this.suggestionTimer) {
+                                    clearTimeout(this.suggestionTimer);
+                                    this.suggestionTimer = null;
                                 }
                                 this.englishSuggestionsText = "";
                                 (0, _suggestionState.setSuggestionSeed)("");
@@ -7784,9 +7777,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         },
                                         complete: function(evt) {
                                             return _vm_.onComplete(evt);
-                                        },
-                                        ready: function(evt) {
-                                            return _vm_.onReady(evt);
                                         }
                                     }
                                 }
