@@ -475,6 +475,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             var _system = _interopRequireDefault($app_require$1("@app-module/system.vibrator"));
                             var _system2 = _interopRequireDefault($app_require$1("@app-module/system.device"));
                             var _dicUtil = __webpack_require__("./src/components/InputMethod/assets/dicUtil.js");
+                            var _suggestionState = __webpack_require__("./src/common/suggestionState.js");
                             function _interopRequireDefault(e) {
                                 return e && e.__esModule ? e : {
                                     default: e
@@ -542,7 +543,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     ],
                                     percent67: 52,
                                     percent66: 0,
-                                    screenWidth: 336,
+                                    screenWidth: 466,
+                                    keyboardLeftOffset: 137,
                                     keys: {
                                         full: [
                                             [
@@ -765,9 +767,18 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         this.keyboardCreated = true;
                                         this._ensureDictInit();
                                     }
+                                    this.screenWidth = 466;
+                                    this.keyboardLeftOffset = 137;
                                     this.$watch("hide", "watchHidePropsChange");
                                     this.$watch("maxlength", "watchMaxLengthPropsChange");
                                     this.$watch("keyboardtype", "watchKeyboardTypePropsChange");
+                                    (0, _suggestionState.onSuggestionsChange)((function() {
+                                        if ("en" === this.lang) this.resetResultList();
+                                    }).bind(this));
+                                    this.$unwatch("hide");
+                                    this.$unwatch("maxlength");
+                                    this.$unwatch("keyboardtype");
+                                    (0, _suggestionState.onSuggestionsChange)(null);
                                 },
                                 addAllTxt (txt) {
                                     this.$emit("complete", {
@@ -776,29 +787,14 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 },
                                 onRsSelect (txt) {
                                     this.onVibrate();
-                                    var consumed = false;
-                                    if (1 === txt.length && this.sylTopChars.length > 0 && this.cval.length > 0) {
-                                        for(var si = 0; si < this.sylTopChars.length; si++)if (this.sylTopChars[si].char === txt && this.sylTopChars[si].offset > 0 && this.sylTopChars[si].offset <= this.cval.length) {
-                                            this.cval = this.cval.slice(this.sylTopChars[si].offset);
-                                            this.addAllTxt(txt);
-                                            this.clearWaiting();
-                                            this.resetResultList();
-                                            this.downFlag = "";
-                                            consumed = true;
-                                            break;
-                                        }
-                                    }
-                                    if (consumed) return;
-                                    if (1 === txt.length && this.matchedLen > 0 && this.cval.length > this.matchedLen) {
-                                        this.cval = this.cval.slice(this.matchedLen);
-                                        this.addAllTxt(txt);
-                                        this.clearWaiting();
-                                        this.resetResultList();
-                                        this.downFlag = "";
-                                        return;
+                                    let content = txt;
+                                    if ("en" === this.lang) {
+                                        const seed = this.normalizeEnglishSeed((0, _suggestionState.getSuggestionSeed)());
+                                        const word = this.normalizeEnglishSeed(txt);
+                                        if (seed && 0 === word.indexOf(seed) && word.length > seed.length) content = word.slice(seed.length);
                                     }
                                     this.cval = "";
-                                    this.addAllTxt(txt);
+                                    this.addAllTxt(content);
                                     this.clearWaiting();
                                     this.resetResultList();
                                     this.downFlag = "";
@@ -900,8 +896,8 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 resetResultList () {
                                     let watingStr = "";
                                     if (this.lastWaitingStr && this.lastWaitingStr[this.waitingIndex]) watingStr = this.lastWaitingStr[this.waitingIndex];
-                                    this.cvalDisplay = "cn" === this.lang ? _dicUtil.SimpleInputMethod.getSegmentedDisplay(this.cval + watingStr) : this.cval + watingStr;
-                                    if (!(this.cval + watingStr) || "cn" !== this.lang && "jp" !== this.lang) {
+                                    if ("en" === this.lang) return void this.getEnglishResults((0, _suggestionState.getSuggestionSeed)());
+                                    if (!(this.cval + watingStr) || "cn" !== this.lang) {
                                         this.resultList = [];
                                         this.resultWordList = [];
                                         this.setResultListAll();
@@ -910,68 +906,34 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     this.getResultByWord(this.cval + watingStr);
                                 },
                                 setResultListAll () {
-                                    const cap = parseInt(this.maxlength);
-                                    let row0 = [];
-                                    let row0IsWord = [];
-                                    for(let i = 0; i < this.resultWordList.length && row0.length < cap; i++){
-                                        row0.push(this.resultWordList[i]);
-                                        row0IsWord.push(true);
-                                    }
-                                    for(let i = 0; i < this.resultList.length && row0.length < cap; i++)if (-1 === this.resultWordList.indexOf(this.resultList[i])) {
-                                        row0.push(this.resultList[i]);
-                                        row0IsWord.push(false);
-                                    }
-                                    this.resultRow0 = row0;
-                                    this.resultRow0IsWord = row0IsWord;
                                     this.resultList2 = [];
                                     let array = [];
-                                    for(let i = 0; i < this.resultWordList.length; i++){
-                                        array.push(this.resultWordList[i]);
-                                        if (array.length === cap) {
-                                            this.resultList2.push(array);
-                                            array = [];
-                                        }
-                                    }
-                                    for(let i = 0; i < this.resultList.length; i++)if (-1 === this.resultWordList.indexOf(this.resultList[i])) {
+                                    const rowSize = "en" === this.lang ? 1 : parseInt(this.maxlength);
+                                    for(let i = 0; i < this.resultList.length; i++){
                                         array.push(this.resultList[i]);
-                                        if (array.length === cap) {
+                                        if (array.length === rowSize) {
                                             this.resultList2.push(array);
                                             array = [];
                                         }
                                     }
-                                    if (array.length > 0) this.resultList2.push(array);
+                                    if (array.length > 0 && array.length < rowSize) this.resultList2.push(array);
                                 },
                                 getResultByWord (val) {
                                     const that = this;
                                     doSearchDic(val, that.lang, function(data) {
-                                        that.resultList = data.chars;
-                                        that.matchedLen = data.matched ? data.matched.length : 0;
-                                        const multi = data.multi || {
-                                            words: [],
-                                            composed: "",
-                                            sylTopChars: []
-                                        };
-                                        that.sylTopChars = (multi.sylTopChars || []).filter(function(sc) {
-                                            return sc.char && sc.offset > 0;
-                                        });
-                                        let words = (multi.words || []).slice();
-                                        if (0 === words.length && multi.composed && multi.composed.length >= 2) words = [
-                                            multi.composed
-                                        ];
-                                        else if (multi.composed && multi.composed.length >= 2 && -1 === words.indexOf(multi.composed)) words.push(multi.composed);
-                                        const sylOnlyChars = that.sylTopChars.map(function(sc) {
-                                            return sc.char;
-                                        });
-                                        const seen = {};
-                                        const uniqueSylChars = [];
-                                        for(var si = 0; si < sylOnlyChars.length; si++)if (!seen[sylOnlyChars[si]]) {
-                                            seen[sylOnlyChars[si]] = 1;
-                                            uniqueSylChars.push(sylOnlyChars[si]);
-                                        }
-                                        for(var si = 0; si < uniqueSylChars.length; si++)if (-1 === words.indexOf(uniqueSylChars[si])) words.push(uniqueSylChars[si]);
-                                        that.resultWordList = words;
+                                        that.resultList = data;
                                         that.setResultListAll();
                                     });
+                                },
+                                getEnglishResults (seedValue) {
+                                    const seed = this.normalizeEnglishSeed(seedValue);
+                                    if (!seed) {
+                                        this.resultList = [];
+                                        this.setResultListAll();
+                                        return;
+                                    }
+                                    this.resultList = this.parseEnglishSuggestions((0, _suggestionState.getSuggestions)());
+                                    this.setResultListAll();
                                 },
                                 onSelect (num) {
                                     this.$emit("keyDown", {
@@ -993,30 +955,22 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     this.clearWaiting();
                                     this.resetResultList();
                                 },
-                                watchHidePropsChange (newV, oldV) {
+                                watchHidePropsChange (newV) {
                                     this.$emit("visibilityChange", {
-                                        visible: newV
+                                        visible: !newV
                                     });
-                                    if (false === newV) {
-                                        this.keyboardCreated = true;
-                                        this._ensureDictInit();
-                                    }
                                 },
-                                _ensureDictInit () {
-                                    if (this.__dictInitStarted) return;
-                                    this.__dictInitStarted = true;
-                                    _dicUtil.SimpleInputMethod.initDict();
-                                },
-                                watchMaxLengthPropsChange (newV, oldV) {
+                                watchMaxLengthPropsChange (newV) {
                                     if (newV) {
                                         const tempCvalList = [];
                                         for(let i = 0; i < newV; i++)tempCvalList.push(i);
                                         this.cvalList = tempCvalList;
                                     }
                                 },
-                                watchKeyboardTypePropsChange (newV, oldV) {
-                                    if ("T9" === newV && "jp" === this.lang) {
+                                watchKeyboardTypePropsChange () {
+                                    if ("cn" !== this.lang && "en" !== this.lang) {
                                         this.lang = "cn";
+                                        this.numFlag_jp = false;
                                         this.cval = "";
                                         this.clearWaiting();
                                         this.resetResultList();
@@ -1033,9 +987,25 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     let percentTemp66 = event.scrollX / 633 * 100;
                                     this.percent66 = parseInt(percentTemp66 <= 100 ? percentTemp66 : 100);
                                 },
+                                normalizeEnglishSeed (value) {
+                                    const text = (value || "").toLowerCase();
+                                    const match = text.match(/[a-z][a-z'-]*$/);
+                                    return match && match[0] ? match[0] : "";
+                                },
+                                parseEnglishSuggestions (value) {
+                                    const text = value || "";
+                                    if (!text) return [];
+                                    const parts = text.split("|");
+                                    const output = [];
+                                    for(let i = 0; i < parts.length && output.length < 30; i++)if (parts[i]) output.push(parts[i]);
+                                    return output;
+                                },
+                                _ensureDictInit () {
+                                    if (this.__dictInitStarted) return;
+                                    this.__dictInitStarted = true;
+                                    _dicUtil.SimpleInputMethod.initDict();
+                                },
                                 pushCval () {
-                                    this.onVibrate();
-                                    let temp = this.cval;
                                     this.cval = "";
                                     this.clearWaiting();
                                     this.resetResultList();
