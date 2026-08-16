@@ -296,7 +296,7 @@ export default {
 }
 
 .top-row {
-  width: 100%;
+  width: 432px;
   height: 48px;
   margin-bottom: 12px;
   padding-left: 14px;

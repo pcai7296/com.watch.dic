@@ -60,7 +60,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ]
                         ],
                         {
-                            width: "100%",
+                            width: "432px",
                             height: "48px",
                             marginBottom: "12px",
                             paddingLeft: "14px",
