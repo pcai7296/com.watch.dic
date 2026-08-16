@@ -486,11 +486,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     chars: [],
                                     multi: null
                                 });
-                                const res = _dicUtil.SimpleInputMethod.getHanzi(word, lang);
+                                const result = _dicUtil.SimpleInputMethod.getHanzi(word, lang);
                                 cb({
-                                    chars: res.chars,
-                                    matched: res.matched,
-                                    multi: res.multi
+                                    chars: result && result[0] ? result[0] : [],
+                                    matched: result && result[1] ? result[1] : "",
+                                    multi: null
                                 });
                             }
                             function deleteLast(t) {
@@ -922,6 +922,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     doSearchDic(val, that.lang, function(data) {
                                         that.resultList = data.chars || [];
                                         that.matchedLen = data.matched ? data.matched.length : 0;
+                                        that.cvalDisplay = that.cval;
                                         that.setResultListAll();
                                     });
                                 },
@@ -7344,7 +7345,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 if (!this.englishSuggestionEnabled || !this.englishSeed) return void this.clearEnglishSuggestions();
                                 var self = this;
                                 this.suggestionTimer = setTimeout(function() {
-                                    self._suggestionTimer = null;
+                                    self.suggestionTimer = null;
                                     self.refreshEnglishSuggestions(self.englishSeed);
                                 }, 200);
                             },

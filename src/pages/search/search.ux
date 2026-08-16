@@ -509,7 +509,7 @@ export default {
     }
     var self = this
     this.suggestionTimer = setTimeout(function () {
-      self._suggestionTimer = null
+      self.suggestionTimer = null
       self.refreshEnglishSuggestions(self.englishSeed)
     }, 200)
   },

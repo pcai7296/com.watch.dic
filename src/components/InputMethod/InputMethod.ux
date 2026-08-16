@@ -322,8 +322,12 @@ function doSearchDic(word, lang, cb) {
     return;
   }
 
-  const res = SimpleInputMethod.getHanzi(word, lang);
-  cb({ chars: res.chars, matched: res.matched, multi: res.multi });
+  const result = SimpleInputMethod.getHanzi(word, lang);
+  cb({
+    chars: result && result[0] ? result[0] : [],
+    matched: result && result[1] ? result[1] : "",
+    multi: null
+  });
 }
 
 function deleteLast(t) {
@@ -629,6 +633,7 @@ export default {
     doSearchDic(val, that.lang, function (data) {
       that.resultList = data.chars || [];
       that.matchedLen = data.matched ? data.matched.length : 0;
+      that.cvalDisplay = that.cval;
       that.setResultListAll();
     });
   },
