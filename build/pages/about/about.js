@@ -64,7 +64,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             {
                                 width: "466px",
                                 height: "466px",
-                                paddingTop: "75px",
+                                paddingTop: 0,
                                 backgroundColor: "#000000",
                                 flexDirection: "column",
                                 alignItems: "center"
@@ -504,6 +504,33 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             }
                         }, [
+                            aiot.__ce__("div", {
+                                __vm__: _vm_,
+                                __opts__: {
+                                    classList: [
+                                        "top-row"
+                                    ]
+                                }
+                            }, [
+                                aiot.__ce__("image", {
+                                    __vm__: _vm_,
+                                    __opts__: {
+                                        classList: [
+                                            "back-btn"
+                                        ],
+                                        src: "/common/icons/btn_back.png",
+                                        style: {
+                                            width: "102px",
+                                            height: "72px"
+                                        },
+                                        events: {
+                                            click: function(evt) {
+                                                return _vm_.goBack(evt);
+                                            }
+                                        }
+                                    }
+                                }, [])
+                            ]),
                             aiot.__ce__("list", {
                                 __vm__: _vm_,
                                 __opts__: {

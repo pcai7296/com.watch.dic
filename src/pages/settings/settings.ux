@@ -1,6 +1,8 @@
 ﻿<template>
   <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
+    </div>
 
     <div class="content">
       <text class="setting-title">英文输入联想</text>
@@ -162,7 +164,7 @@ export default {
 .page {
   width: 100%;
   height: 100%;
-  padding-top: 24px;
+  padding-top: 0;
   background-color: #020813;
   flex-direction: column;
   align-items: center;
@@ -191,7 +193,7 @@ export default {
 
 .content {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 101px;
   flex-direction: column;
   align-items: center;
 }

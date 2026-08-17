@@ -1,5 +1,8 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+    <div class="top-row">
+      <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
+    </div>
 
     <list class="about-list" bounces="true" style="width: {{layoutWidth}}px;">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
@@ -290,7 +293,7 @@ export default {
 .page {
   width: 466px;
   height: 466px;
-  padding-top: 75px;
+  padding-top: 0;
   background-color: #000000;
   flex-direction: column;
   align-items: center;
