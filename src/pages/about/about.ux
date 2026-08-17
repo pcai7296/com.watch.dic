@@ -34,6 +34,9 @@
         <div class="section-inner" style="{{adaptiveSectionStyle}}">
           <text class="section-title" style="{{sectionTitleStyle}}">使用说明</text>
           <text class="desc-line" style="{{descLineStyle}}" for="{{ line in usageLines }}">{{ line }}</text>
+          <text class="desc-line" style="{{descLineStyle}}"> </text>
+          <text class="desc-line" style="{{descLineStyle}}"> </text>
+          <text class="desc-line" style="{{descLineStyle}}"> </text>
         </div>
       </list-item>
 
