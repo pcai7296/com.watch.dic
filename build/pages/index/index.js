@@ -357,6 +357,56 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 width: "31px",
                                 height: "26px"
                             }
+                        ],
+                        [
+                            [
+                                [
+                                    3,
+                                    "dicPressIn"
+                                ]
+                            ],
+                            {
+                                keyframes: "[{\"time\":0,\"transform\":{\"scaleX\":1,\"scaleY\":1}},{\"time\":100,\"transform\":{\"scaleX\":0.85,\"scaleY\":0.85}}]"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    3,
+                                    "dicPressOut"
+                                ]
+                            ],
+                            {
+                                keyframes: "[{\"time\":0,\"transform\":{\"scaleX\":0.85,\"scaleY\":0.85}},{\"time\":100,\"transform\":{\"scaleX\":1,\"scaleY\":1}}]"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "press-in"
+                                ]
+                            ],
+                            {
+                                animationName: "dicPressIn",
+                                animationDuration: "200ms",
+                                animationTimingFunction: "ease-in",
+                                transformOrigin: "50% 50%"
+                            }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "press-out"
+                                ]
+                            ],
+                            {
+                                animationName: "dicPressOut",
+                                animationDuration: "200ms",
+                                animationTimingFunction: "ease-out",
+                                transformOrigin: "50% 50%"
+                            }
                         ]
                     ];
                     var $app_script$ = function __scriptModule__(module, exports, $app_require$1) {
@@ -383,7 +433,12 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 tc2: "",
                                 tc3: "",
                                 tc4: "",
-                                timeTimer: null
+                                timeTimer: null,
+                                pressedKey: "",
+                                releasingKey: "",
+                                _btnUpTimer: null,
+                                _btnUpStart: 0,
+                                _longPress: false
                             },
                             onInit () {
                                 const app = this.$app.$def;
@@ -404,7 +459,28 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     this._updateTime();
                                 }, 1000);
                             },
+                            onBtnDown (key) {
+                                this.pressedKey = key;
+                                this.releasingKey = "";
+                                this._btnUpStart = Date.now();
+                                this._longPress = false;
+                            },
+                            onBtnUp (key) {
+                                if (Date.now() - this._btnUpStart >= 200) this._longPress = true;
+                                this.pressedKey = "";
+                                this.releasingKey = key;
+                                var self = this;
+                                if (this._btnUpTimer) clearTimeout(this._btnUpTimer);
+                                this._btnUpTimer = setTimeout(function() {
+                                    self._btnUpTimer = null;
+                                    if (self.releasingKey === key) self.releasingKey = "";
+                                }, 200);
+                            },
                             onDestroy () {
+                                if (this._btnUpTimer) {
+                                    clearTimeout(this._btnUpTimer);
+                                    this._btnUpTimer = null;
+                                }
                                 if (this.timeTimer) {
                                     clearInterval(this.timeTimer);
                                     this.timeTimer = null;
@@ -613,8 +689,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goSearch(evt);
+                                        },
+                                        touchstart: function(evt) {
+                                            return _vm_.onBtnDown("search", evt);
+                                        },
+                                        touchend: function(evt) {
+                                            return _vm_.onBtnUp("search", evt);
                                         }
-                                    }
+                                    },
+                                    ":class": "pressedKey === 'search' ? 'press-in' : (releasingKey === 'search' ? 'press-out' : '')"
                                 }
                             }, [
                                 aiot.__ce__("image", {
@@ -653,8 +736,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goInflectSearch(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("inflect", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("inflect", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'inflect' ? 'press-in' : (releasingKey === 'inflect' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -685,8 +775,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goSettings(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("settings", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("settings", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'settings' ? 'press-in' : (releasingKey === 'settings' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -717,8 +814,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goHistory(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("history", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("history", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'history' ? 'press-in' : (releasingKey === 'history' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -749,8 +853,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goFavorites(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("favorites", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("favorites", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'favorites' ? 'press-in' : (releasingKey === 'favorites' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -791,8 +902,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goAbout(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("about", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("about", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'about' ? 'press-in' : (releasingKey === 'about' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -815,8 +933,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goSponsor(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("sponsor", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("sponsor", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'sponsor' ? 'press-in' : (releasingKey === 'sponsor' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
