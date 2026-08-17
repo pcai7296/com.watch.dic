@@ -7771,6 +7771,9 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         complete: function(evt) {
                                             return _vm_.onComplete(evt);
                                         }
+                                    },
+                                    englishonly: function() {
+                                        return "inflect" === _vm_.searchMode;
                                     }
                                 }
                             }, [])

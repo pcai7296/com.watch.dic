@@ -767,11 +767,23 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     if (token !== this.searchToken) return;
                                     const results = [];
                                     const seen = {};
-                                    if ("inflect" === this.searchMode) this.collectInflectResult(normalized, results, seen, ()=>{
-                                        if (token !== this.searchToken) return;
-                                        this.finishEnglishSearch(normalized, token);
-                                    });
-                                    else {
+                                    if ("inflect" === this.searchMode) {
+                                        const first = normalized.charAt(0);
+                                        if (first < "a" || first > "z") return void this.finishEnglishSearch(normalized, token);
+                                        this.readText("/common/dict/words/word_" + first + ".txt", (text)=>{
+                                            if (token !== this.searchToken) return;
+                                            const exactCandidates = [];
+                                            this.collectCompactWordCandidates(text, normalized, exactCandidates, seen, "变形词典", 1);
+                                            this.hydrateCompactCandidates(exactCandidates, results, 0, ()=>{
+                                                if (token !== this.searchToken) return;
+                                                if (0 === exactCandidates.length) return void this.finishEnglishSearch(normalized, token);
+                                                this.collectInflectResult(normalized, results, seen, ()=>{
+                                                    if (token !== this.searchToken) return;
+                                                    this.finishEnglishSearch(normalized, token);
+                                                });
+                                            });
+                                        });
+                                    } else {
                                         const shards = this.getCandidateShards(normalized);
                                         this.collectShardResults(shards, normalized, results, seen, 0, ()=>{
                                             this.collectInflectResult(normalized, results, seen, ()=>{
