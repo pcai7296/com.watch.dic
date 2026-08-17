@@ -116,7 +116,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 ]
                             ],
                             {
-                                width: "320px",
+                                width: "290px",
                                 height: "240px",
                                 paddingLeft: "18px",
                                 paddingTop: "24px",
