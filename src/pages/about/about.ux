@@ -313,7 +313,7 @@ export default {
 }
 
 .app-card {
-  width: 188px;
+  width: 320px;
   height: 240px;
   padding-left: 18px;
   padding-top: 24px;
