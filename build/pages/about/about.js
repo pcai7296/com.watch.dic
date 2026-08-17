@@ -250,6 +250,17 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 fontSize: "18px",
                                 textAlign: "left"
                             }
+                        ],
+                        [
+                            [
+                                [
+                                    0,
+                                    "scroll-spacer"
+                                ]
+                            ],
+                            {
+                                height: "80px"
+                            }
                         ]
                     ];
                     var $app_script$ = function __scriptModule__(module, exports, $app_require$1) {
@@ -499,6 +510,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     classList: [
                                         "about-list"
                                     ],
+                                    bounces: "true",
                                     style: function() {
                                         return __webpack_require__.g.$translateStyle$("width: " + _vm_.layoutWidth + "px;");
                                     }
@@ -764,37 +776,12 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                 }, [])
                                             ];
                                         }),
-                                        aiot.__ce__("text", {
+                                        aiot.__ce__("div", {
                                             __vm__: _vm_,
                                             __opts__: {
                                                 classList: [
-                                                    "desc-line"
-                                                ],
-                                                style: function() {
-                                                    return __webpack_require__.g.$translateStyle$(_vm_.descLineStyle);
-                                                }
-                                            }
-                                        }, []),
-                                        aiot.__ce__("text", {
-                                            __vm__: _vm_,
-                                            __opts__: {
-                                                classList: [
-                                                    "desc-line"
-                                                ],
-                                                style: function() {
-                                                    return __webpack_require__.g.$translateStyle$(_vm_.descLineStyle);
-                                                }
-                                            }
-                                        }, []),
-                                        aiot.__ce__("text", {
-                                            __vm__: _vm_,
-                                            __opts__: {
-                                                classList: [
-                                                    "desc-line"
-                                                ],
-                                                style: function() {
-                                                    return __webpack_require__.g.$translateStyle$(_vm_.descLineStyle);
-                                                }
+                                                    "scroll-spacer"
+                                                ]
                                             }
                                         }, [])
                                     ])

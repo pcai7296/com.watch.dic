@@ -1,7 +1,7 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
 
-    <list class="about-list" style="width: {{layoutWidth}}px;">
+    <list class="about-list" bounces="true" style="width: {{layoutWidth}}px;">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
         <div class="app-card">
           <text class="app-name">腕上词典</text>
@@ -31,9 +31,7 @@
         <div class="section-inner" style="{{adaptiveSectionStyle}}">
           <text class="section-title" style="{{sectionTitleStyle}}">使用说明</text>
           <text class="desc-line" style="{{descLineStyle}}" for="{{ line in usageLines }}">{{ line }}</text>
-          <text class="desc-line" style="{{descLineStyle}}"> </text>
-          <text class="desc-line" style="{{descLineStyle}}"> </text>
-          <text class="desc-line" style="{{descLineStyle}}"> </text>
+          <div class="scroll-spacer"></div>
         </div>
       </list-item>
 
@@ -393,5 +391,8 @@ export default {
   color: #ffffff;
   font-size: 18px;
   text-align: left;
+}
+.scroll-spacer {
+  height: 80px;
 }
 </style>
