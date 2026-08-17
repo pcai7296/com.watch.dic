@@ -763,7 +763,40 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                     }
                                                 }, [])
                                             ];
-                                        })
+                                        }),
+                                        aiot.__ce__("text", {
+                                            __vm__: _vm_,
+                                            __opts__: {
+                                                classList: [
+                                                    "desc-line"
+                                                ],
+                                                style: function() {
+                                                    return __webpack_require__.g.$translateStyle$(_vm_.descLineStyle);
+                                                }
+                                            }
+                                        }, []),
+                                        aiot.__ce__("text", {
+                                            __vm__: _vm_,
+                                            __opts__: {
+                                                classList: [
+                                                    "desc-line"
+                                                ],
+                                                style: function() {
+                                                    return __webpack_require__.g.$translateStyle$(_vm_.descLineStyle);
+                                                }
+                                            }
+                                        }, []),
+                                        aiot.__ce__("text", {
+                                            __vm__: _vm_,
+                                            __opts__: {
+                                                classList: [
+                                                    "desc-line"
+                                                ],
+                                                style: function() {
+                                                    return __webpack_require__.g.$translateStyle$(_vm_.descLineStyle);
+                                                }
+                                            }
+                                        }, [])
                                     ])
                                 ]),
                                 aiot.__ce__("list-item", {
