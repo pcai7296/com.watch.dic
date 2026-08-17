@@ -9,35 +9,35 @@
     <text class="title">腕上词典</text>
     <text class="subtitle">抬手即查</text>
 
-    <div class="main-btn" @click="goSearch">
+    <div class="main-btn" @click="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')" :class="pressedKey === 'search' ? 'press-in' : (releasingKey === 'search' ? 'press-out' : '')">
       <img class="main-btn-icon" src="/common/icons/language.png" />
       <text class="main-btn-label">查单词</text>
     </div>
 
     <div class="grid">
-      <div class="grid-btn" @click="goInflectSearch">
+      <div class="grid-btn" @click="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')" :class="pressedKey === 'inflect' ? 'press-in' : (releasingKey === 'inflect' ? 'press-out' : '')">
         <img class="grid-btn-icon" src="/common/icons/btn_transform_blue.png" />
         <text class="grid-btn-label">变形</text>
       </div>
-      <div class="grid-btn" @click="goSettings">
+      <div class="grid-btn" @click="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')" :class="pressedKey === 'settings' ? 'press-in' : (releasingKey === 'settings' ? 'press-out' : '')">
         <img class="grid-btn-icon" src="/common/icons/settings-2.png" />
         <text class="grid-btn-label">设置</text>
       </div>
-      <div class="grid-btn" @click="goHistory">
+      <div class="grid-btn" @click="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')" :class="pressedKey === 'history' ? 'press-in' : (releasingKey === 'history' ? 'press-out' : '')">
         <img class="grid-btn-icon" src="/common/icons/history.png" />
         <text class="grid-btn-label">历史</text>
       </div>
-      <div class="grid-btn" @click="goFavorites">
+      <div class="grid-btn" @click="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')" :class="pressedKey === 'favorites' ? 'press-in' : (releasingKey === 'favorites' ? 'press-out' : '')">
         <img class="grid-btn-icon" src="/common/icons/star-gradient.png" />
         <text class="grid-btn-label">收藏</text>
       </div>
     </div>
 
     <div class="bottom-row">
-      <div class="circle-btn about-btn" @click="goAbout">
+      <div class="circle-btn about-btn" @click="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')" :class="pressedKey === 'about' ? 'press-in' : (releasingKey === 'about' ? 'press-out' : '')">
         <img class="circle-icon" src="/common/icons/btn_info_i.png" />
       </div>
-      <div class="circle-btn sponsor-btn" @click="goSponsor">
+      <div class="circle-btn sponsor-btn" @click="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')" :class="pressedKey === 'sponsor' ? 'press-in' : (releasingKey === 'sponsor' ? 'press-out' : '')">
         <img class="circle-icon" src="/common/icons/btn_heart_gold.png" />
       </div>
     </div>

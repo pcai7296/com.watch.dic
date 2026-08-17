@@ -696,8 +696,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goSearch(evt);
+                                        },
+                                        touchstart: function(evt) {
+                                            return _vm_.onBtnDown("search", evt);
+                                        },
+                                        touchend: function(evt) {
+                                            return _vm_.onBtnUp("search", evt);
                                         }
-                                    }
+                                    },
+                                    ":class": "pressedKey === 'search' ? 'press-in' : (releasingKey === 'search' ? 'press-out' : '')"
                                 }
                             }, [
                                 aiot.__ce__("image", {
@@ -736,8 +743,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goInflectSearch(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("inflect", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("inflect", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'inflect' ? 'press-in' : (releasingKey === 'inflect' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -768,8 +782,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goSettings(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("settings", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("settings", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'settings' ? 'press-in' : (releasingKey === 'settings' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -800,8 +821,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goHistory(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("history", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("history", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'history' ? 'press-in' : (releasingKey === 'history' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -832,8 +860,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goFavorites(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("favorites", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("favorites", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'favorites' ? 'press-in' : (releasingKey === 'favorites' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -874,8 +909,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goAbout(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("about", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("about", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'about' ? 'press-in' : (releasingKey === 'about' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
@@ -898,8 +940,15 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                         events: {
                                             click: function(evt) {
                                                 return _vm_.goSponsor(evt);
+                                            },
+                                            touchstart: function(evt) {
+                                                return _vm_.onBtnDown("sponsor", evt);
+                                            },
+                                            touchend: function(evt) {
+                                                return _vm_.onBtnUp("sponsor", evt);
                                             }
-                                        }
+                                        },
+                                        ":class": "pressedKey === 'sponsor' ? 'press-in' : (releasingKey === 'sponsor' ? 'press-out' : '')"
                                     }
                                 }, [
                                     aiot.__ce__("image", {
