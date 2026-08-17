@@ -34,6 +34,7 @@
       @delete="onDelete"
       @complete="onComplete"
       @ready="onReady"
+      englishonly="{{ searchMode === 'inflect' }}"
     ></input-method>
   </div>
 </template>
