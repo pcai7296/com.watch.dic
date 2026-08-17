@@ -35,6 +35,7 @@
       @key-down="onKeyDown"
       @delete="onDelete"
       @complete="onComplete"
+      englishonly="{{ searchMode === 'inflect' }}"
       @ready="onReady"
     ></input-method>
   </div>

@@ -403,12 +403,32 @@ export default {
       this._seenEntryId = {}
 
       if (this.searchMode === "inflect") {
-        this.collectInflectResult(normalized, results, seen, () => {
+        const first = normalized.charAt(0)
+        if (first < "a" || first > "z") {
+          this.finishEnglishSearch(normalized, token)
+          return
+        }
+        this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
           if (token !== this.searchToken) {
             return
           }
-
-          this.finishEnglishSearch(normalized, token)
+          const exactCandidates = []
+          this.collectCompactWordCandidates(text, normalized, exactCandidates, seen, "变形词典", 1)
+          this.hydrateCompactCandidates(exactCandidates, results, 0, () => {
+            if (token !== this.searchToken) {
+              return
+            }
+            if (exactCandidates.length === 0) {
+              this.finishEnglishSearch(normalized, token)
+              return
+            }
+            this.collectInflectResult(normalized, results, seen, () => {
+              if (token !== this.searchToken) {
+                return
+              }
+              this.finishEnglishSearch(normalized, token)
+            })
+          })
         })
       } else {
         const shards = this.getCandidateShards(normalized)
