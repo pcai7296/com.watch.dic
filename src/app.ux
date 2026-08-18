@@ -1,4 +1,6 @@
 <script>
+import "./global"
+
 export default {
   data: {
     screenShape: "circle",

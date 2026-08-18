@@ -49,11 +49,12 @@
 
 <script>
 import router from "@system.router"
-import {navGuard} from "../../common/navGuard"
 import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
+
+const {navGuard} = global
 
 const FUZZY_SCAN_LIMIT = 4000
 const FUZZY_POOL_LIMIT = 80
