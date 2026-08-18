@@ -109,6 +109,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             color: "#ffffff",
                             fontSize: "22px",
                             fontWeight: 800,
+                            lineHeight: "30px",
                             textAlign: "center"
                         }
                     ],

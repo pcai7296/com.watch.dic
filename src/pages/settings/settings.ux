@@ -202,6 +202,7 @@ export default {
   color: #ffffff;
   font-size: 22px;
   font-weight: 800;
+  line-height: 30px;
   text-align: center;
 }
 
