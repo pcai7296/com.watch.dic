@@ -55,7 +55,8 @@
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
-import {navGuard} from "../../common/navGuard"
+
+const {navGuard} = global
 
 export default {
   protected: {

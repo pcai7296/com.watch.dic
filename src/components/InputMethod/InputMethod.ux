@@ -326,7 +326,9 @@ import vibrator from "@system.vibrator";
 import device from "@system.device"
 import { SimpleInputMethod } from "./assets/dicUtil.js";
 import {getSuggestionSeed, getSuggestions, onSuggestionsChange} from "../../common/suggestionState"
-import buildTarget from "../../common/buildTarget"
+
+const {buildTarget} = global
+
 const KEY_MAPS = {
   full: [
     ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],

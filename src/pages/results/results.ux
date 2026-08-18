@@ -51,7 +51,8 @@ import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
-import {navGuard} from "../../common/navGuard"
+
+const {navGuard} = global
 
 const FUZZY_SCAN_LIMIT = 4000
 const FUZZY_POOL_LIMIT = 80
