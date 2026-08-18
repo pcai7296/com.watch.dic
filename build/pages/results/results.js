@@ -402,7 +402,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ],
                             {
                                 width: "100%",
-                                height: "22px",
+                                height: "24px",
                                 color: "#aeb0b4",
                                 fontSize: "18px",
                                 fontWeight: 700

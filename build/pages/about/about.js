@@ -198,7 +198,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ],
                             {
                                 width: "180px",
-                                height: "24px",
+                                height: "26px",
                                 color: "#ffffff",
                                 fontSize: "20px",
                                 fontWeight: 800,
@@ -229,7 +229,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             ],
                             {
                                 width: "180px",
-                                height: "22px",
+                                height: "24px",
                                 color: "#ffffff",
                                 fontSize: "18px",
                                 textAlign: "center"
