@@ -330,6 +330,56 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             width: "31px",
                             height: "26px"
                         }
+                    ],
+                    [
+                        [
+                            [
+                                3,
+                                "dicPressIn"
+                            ]
+                        ],
+                        {
+                            keyframes: "[{\"time\":0,\"transform\":{\"scaleX\":1,\"scaleY\":1}},{\"time\":100,\"transform\":{\"scaleX\":0.85,\"scaleY\":0.85}}]"
+                        }
+                    ],
+                    [
+                        [
+                            [
+                                3,
+                                "dicPressOut"
+                            ]
+                        ],
+                        {
+                            keyframes: "[{\"time\":0,\"transform\":{\"scaleX\":0.85,\"scaleY\":0.85}},{\"time\":100,\"transform\":{\"scaleX\":1,\"scaleY\":1}}]"
+                        }
+                    ],
+                    [
+                        [
+                            [
+                                0,
+                                "press-in"
+                            ]
+                        ],
+                        {
+                            animationName: "dicPressIn",
+                            animationDuration: "200ms",
+                            animationTimingFunction: "ease-in",
+                            transformOrigin: "50% 50%"
+                        }
+                    ],
+                    [
+                        [
+                            [
+                                0,
+                                "press-out"
+                            ]
+                        ],
+                        {
+                            animationName: "dicPressOut",
+                            animationDuration: "200ms",
+                            animationTimingFunction: "ease-out",
+                            transformOrigin: "50% 50%"
+                        }
                     ]
                 ];
                 var $app_script$ = function __scriptModule__(module, exports, $app_require$1) {
@@ -379,12 +429,27 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             }, 1000);
                         },
                         onBtnDown (key) {
-                            var el = this.$element('btn-' + key);
-                            if (el) el.style.transform = 'scale(0.85)';
+                            this.pressedKey = key;
+                            this.releasingKey = "";
+                            this._pressStart = Date.now();
+                            this._longPress = false;
                         },
                         onBtnUp (key) {
-                            var el = this.$element('btn-' + key);
-                            if (el) el.style.transform = '';
+                            if (Date.now() - this._pressStart >= 200) this._longPress = true;
+                            this.pressedKey = "";
+                            this.releasingKey = key;
+                            var self = this;
+                            if (this._btnUpTimer) clearTimeout(this._btnUpTimer);
+                            this._btnUpTimer = setTimeout(function() {
+                                self._btnUpTimer = null;
+                                if (self.releasingKey === key) self.releasingKey = "";
+                            }, 200);
+                        },
+                        onDestroy () {
+                            if (this._btnUpTimer) {
+                                clearTimeout(this._btnUpTimer);
+                                this._btnUpTimer = null;
+                            }
                         },
                         _updateTime () {
                             var now = new Date();
@@ -448,7 +513,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             });
                         },
                         goInflectSearch () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/search",
                                 params: {
@@ -458,19 +523,19 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             });
                         },
                         goSearch () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/search"
                             });
                         },
                         goSettings () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/settings"
                             });
                         },
                         goHistory () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/records",
                                 params: {
@@ -479,7 +544,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             });
                         },
                         goFavorites () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/records",
                                 params: {
@@ -488,13 +553,13 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             });
                         },
                         goAbout () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/about"
                             });
                         },
                         goSponsor () {
-                            if (!navGuard()) return;
+                            if (this._longPress || !navGuard()) return;
                             _system3.default.push({
                                 uri: "/pages/sponsor"
                             });
@@ -584,9 +649,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             __vm__: _vm_,
                             __opts__: {
                                 id: "btn-search",
-                                classList: [
-                                    "main-btn"
-                                ],
+                                classList: function() {
+                                    const $classValue$ = "main-btn " + ("search" === _vm_.pressedKey ? "press-in" : "") + " " + ("search" === _vm_.releasingKey ? "press-out" : "");
+                                    if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                    return $classValue$;
+                                },
                                 events: {
                                     click: function(evt) {
                                         return _vm_.goSearch(evt);
@@ -631,9 +698,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     id: "btn-inflect",
-                                    classList: [
-                                        "grid-btn"
-                                    ],
+                                    classList: function() {
+                                        const $classValue$ = "grid-btn " + ("inflect" === _vm_.pressedKey ? "press-in" : "") + " " + ("inflect" === _vm_.releasingKey ? "press-out" : "");
+                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                        return $classValue$;
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goInflectSearch(evt);
@@ -670,9 +739,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     id: "btn-settings",
-                                    classList: [
-                                        "grid-btn"
-                                    ],
+                                    classList: function() {
+                                        const $classValue$ = "grid-btn " + ("settings" === _vm_.pressedKey ? "press-in" : "") + " " + ("settings" === _vm_.releasingKey ? "press-out" : "");
+                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                        return $classValue$;
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goSettings(evt);
@@ -709,9 +780,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     id: "btn-history",
-                                    classList: [
-                                        "grid-btn"
-                                    ],
+                                    classList: function() {
+                                        const $classValue$ = "grid-btn " + ("history" === _vm_.pressedKey ? "press-in" : "") + " " + ("history" === _vm_.releasingKey ? "press-out" : "");
+                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                        return $classValue$;
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goHistory(evt);
@@ -748,9 +821,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     id: "btn-favorites",
-                                    classList: [
-                                        "grid-btn"
-                                    ],
+                                    classList: function() {
+                                        const $classValue$ = "grid-btn " + ("favorites" === _vm_.pressedKey ? "press-in" : "") + " " + ("favorites" === _vm_.releasingKey ? "press-out" : "");
+                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                        return $classValue$;
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goFavorites(evt);
@@ -796,10 +871,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     id: "btn-about",
-                                    classList: [
-                                        "circle-btn",
-                                        "about-btn"
-                                    ],
+                                    classList: function() {
+                                        const $classValue$ = "circle-btn about-btn " + ("about" === _vm_.pressedKey ? "press-in" : "") + " " + ("about" === _vm_.releasingKey ? "press-out" : "");
+                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                        return $classValue$;
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goAbout(evt);
@@ -827,10 +903,11 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 __vm__: _vm_,
                                 __opts__: {
                                     id: "btn-sponsor",
-                                    classList: [
-                                        "circle-btn",
-                                        "sponsor-btn"
-                                    ],
+                                    classList: function() {
+                                        const $classValue$ = "circle-btn sponsor-btn " + ("sponsor" === _vm_.pressedKey ? "press-in" : "") + " " + ("sponsor" === _vm_.releasingKey ? "press-out" : "");
+                                        if ('string' == typeof $classValue$) return $classValue$.split(' ').map((item)=>item.trim()).filter(Boolean);
+                                        return $classValue$;
+                                    },
                                     events: {
                                         click: function(evt) {
                                             return _vm_.goSponsor(evt);
