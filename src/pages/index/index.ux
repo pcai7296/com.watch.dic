@@ -9,35 +9,35 @@
     <text class="title">腕上词典</text>
     <text class="subtitle">抬手即查</text>
 
-    <div class="main-btn" @click="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')" :class="pressedKey === 'search' ? 'press-in' : (releasingKey === 'search' ? 'press-out' : '')">
+    <div id="btn-search" class="main-btn" @click="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
       <img class="main-btn-icon" src="/common/icons/language.png" />
       <text class="main-btn-label">查单词</text>
     </div>
 
     <div class="grid">
-      <div class="grid-btn" @click="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')" :class="pressedKey === 'inflect' ? 'press-in' : (releasingKey === 'inflect' ? 'press-out' : '')">
+      <div id="btn-inflect" class="grid-btn" @click="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
         <img class="grid-btn-icon" src="/common/icons/btn_transform_blue.png" />
         <text class="grid-btn-label">变形</text>
       </div>
-      <div class="grid-btn" @click="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')" :class="pressedKey === 'settings' ? 'press-in' : (releasingKey === 'settings' ? 'press-out' : '')">
+      <div id="btn-settings" class="grid-btn" @click="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
         <img class="grid-btn-icon" src="/common/icons/settings-2.png" />
         <text class="grid-btn-label">设置</text>
       </div>
-      <div class="grid-btn" @click="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')" :class="pressedKey === 'history' ? 'press-in' : (releasingKey === 'history' ? 'press-out' : '')">
+      <div id="btn-history" class="grid-btn" @click="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
         <img class="grid-btn-icon" src="/common/icons/history.png" />
         <text class="grid-btn-label">历史</text>
       </div>
-      <div class="grid-btn" @click="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')" :class="pressedKey === 'favorites' ? 'press-in' : (releasingKey === 'favorites' ? 'press-out' : '')">
+      <div id="btn-favorites" class="grid-btn" @click="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
         <img class="grid-btn-icon" src="/common/icons/star-gradient.png" />
         <text class="grid-btn-label">收藏</text>
       </div>
     </div>
 
     <div class="bottom-row">
-      <div class="circle-btn about-btn" @click="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')" :class="pressedKey === 'about' ? 'press-in' : (releasingKey === 'about' ? 'press-out' : '')">
+      <div id="btn-about" class="circle-btn about-btn" @click="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
         <img class="circle-icon" src="/common/icons/btn_info_i.png" />
       </div>
-      <div class="circle-btn sponsor-btn" @click="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')" :class="pressedKey === 'sponsor' ? 'press-in' : (releasingKey === 'sponsor' ? 'press-out' : '')">
+      <div id="btn-sponsor" class="circle-btn sponsor-btn" @click="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
         <img class="circle-icon" src="/common/icons/btn_heart_gold.png" />
       </div>
     </div>
@@ -61,10 +61,7 @@ export default {
     tc4: "",
     timeTimer: null,
     pressedKey: "",
-    releasingKey: "",
-    _btnUpTimer: null,
-    _btnUpStart: 0,
-    _longPress: false
+    releasingKey: ""
   },
 
   onInit() {
@@ -88,40 +85,20 @@ export default {
   },
 
   onBtnDown(key) {
-    this.pressedKey = key
-    this.releasingKey = ""
-    this._btnUpStart = Date.now()
-    this._longPress = false
+    var el = this.$element('btn-' + key)
+    if (el) {
+      el.style.transform = 'scale(0.85)'
+    }
   },
 
   onBtnUp(key) {
-    if (Date.now() - this._btnUpStart >= 200) {
-      this._longPress = true
+    var el = this.$element('btn-' + key)
+    if (el) {
+      el.style.transform = ''
     }
-    this.pressedKey = ""
-    this.releasingKey = key
-    var self = this
-    if (this._btnUpTimer) {
-      clearTimeout(this._btnUpTimer)
-    }
-    this._btnUpTimer = setTimeout(function() {
-      self._btnUpTimer = null
-      if (self.releasingKey === key) {
-        self.releasingKey = ""
-      }
-    }, 200)
   },
 
-  onDestroy() {
-    if (this._btnUpTimer) {
-      clearTimeout(this._btnUpTimer)
-      this._btnUpTimer = null
-    }
-    if (this.timeTimer) {
-      clearInterval(this.timeTimer)
-      this.timeTimer = null
-    }
-  },
+
 
   _updateTime() {
     var now = new Date()
@@ -408,30 +385,5 @@ export default {
   width: 466px;
 }
 
-/* ==============================
-   按压缩小反馈动画
-   ============================== */
-@keyframes dicPressIn {
-  from { transform: scale(1); }
-  to { transform: scale(0.85); }
-}
 
-@keyframes dicPressOut {
-  from { transform: scale(0.85); }
-  to { transform: scale(1); }
-}
-
-.press-in {
-  animation-name: dicPressIn;
-  animation-duration: 200ms;
-  animation-timing-function: ease-in;
-  transform-origin: 50% 50%;
-}
-
-.press-out {
-  animation-name: dicPressOut;
-  animation-duration: 200ms;
-  animation-timing-function: ease-out;
-  transform-origin: 50% 50%;
-}
 </style>
