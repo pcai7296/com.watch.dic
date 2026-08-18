@@ -9,7 +9,8 @@
 
 <script>
 import router from "@system.router"
-import {navGuard} from "../../common/navGuard"
+
+const {navGuard} = global
 
 export default {
   private: {

@@ -95,8 +95,8 @@
 import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
-import buildTarget from "../../common/buildTarget"
-import {navGuard} from "../../common/navGuard"
+
+const {buildTarget, navGuard} = global
 
 export default {
   private: {

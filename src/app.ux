@@ -1,6 +1,8 @@
 <script>
 import device from "@system.device"
-import buildTarget from "./common/buildTarget"
+import "./global"
+
+const {buildTarget} = global
 
 export default {
   data: {
