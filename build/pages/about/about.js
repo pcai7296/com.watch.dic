@@ -578,7 +578,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                                 classList: [
                                                     "app-version"
                                                 ],
-                                                value: "2.3.1"
+                                                value: "3.0.0"
                                             }
                                         }, []),
                                         aiot.__ce__("image", {
