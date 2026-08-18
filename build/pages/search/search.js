@@ -4762,25 +4762,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             $app_exports$.default.style = $app_style$;
                         };
                     },
-                    "./src/common/buildTarget.js" (__unused_rspack_module, exports) {
-                        "use strict";
-                        Object.defineProperty(exports, "__esModule", {
-                            value: true
-                        });
-                        exports["default"] = void 0;
-                        var TARGET_ID = "W432";
-                        var TARGET_WIDTH = 432;
-                        var TARGET_HEIGHT = 514;
-                        var TARGET_PROFILE = "rect";
-                        var TARGET_SHAPE = "rect";
-                        var _default = exports["default"] = {
-                            id: TARGET_ID,
-                            width: TARGET_WIDTH,
-                            height: TARGET_HEIGHT,
-                            profile: TARGET_PROFILE,
-                            shape: TARGET_SHAPE
-                        };
-                    },
                     "./src/common/dictCodec.js" (__unused_rspack_module, exports) {
                         "use strict";
                         Object.defineProperty(exports, "__esModule", {
@@ -4866,21 +4847,6 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             return {
                                 word: value
                             };
-                        }
-                    },
-                    "./src/common/navGuard.js" (__unused_rspack_module, exports) {
-                        "use strict";
-                        Object.defineProperty(exports, "__esModule", {
-                            value: true
-                        });
-                        exports.navGuard = navGuard;
-                        var lastNavAt = 0;
-                        var NAV_LOCK_MS = 500;
-                        function navGuard() {
-                            const now = Date.now();
-                            if (now - lastNavAt < NAV_LOCK_MS) return false;
-                            lastNavAt = now;
-                            return true;
                         }
                     },
                     "./src/common/suggestionState.js" (__unused_rspack_module, exports) {
@@ -6886,13 +6852,12 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                         var _system5 = _interopRequireDefault($app_require$1("@app-module/system.storage"));
                         var _suggestionState = __webpack_require__("./src/common/suggestionState.js");
                         var _dictCodec = __webpack_require__("./src/common/dictCodec.js");
-                        var _buildTarget = _interopRequireDefault(__webpack_require__("./src/common/buildTarget.js"));
-                        var _navGuard = __webpack_require__("./src/common/navGuard.js");
                         function _interopRequireDefault(e) {
                             return e && e.__esModule ? e : {
                                 default: e
                             };
                         }
+                        const { buildTarget, navGuard } = __webpack_require__.g;
                         const ENGLISH_SUFFIXES = [
                             "s",
                             "ed",
@@ -7012,7 +6977,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.englishSuggestionOrder = [];
                                 this.loadEnglishSuggestionSetting();
                                 this.loadSearchSwipeExitSetting();
-                                this.applyScreenInfo(_buildTarget.default);
+                                this.applyScreenInfo(buildTarget);
                                 const app = this.$app.$def;
                                 _system.default.getInfo({
                                     success: (data)=>{
@@ -7090,7 +7055,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 }
                             },
                             onBackPress () {
-                                if (!(0, _navGuard.navGuard)()) return;
+                                if (!navGuard()) return;
                                 return this.searchSwipeExitLocked;
                             },
                             toggleKeyboard () {
@@ -7098,7 +7063,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.refreshDisplay();
                             },
                             onInputBoxClick () {
-                                if (!(0, _navGuard.navGuard)()) return;
+                                if (!navGuard()) return;
                                 var now = Date.now();
                                 this.tapTimes.push(now);
                                 this.tapTimes = this.tapTimes.filter(function(t) {
@@ -7156,7 +7121,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                                 this.refreshDisplay();
                             },
                             onSearchButtonClick () {
-                                if (!(0, _navGuard.navGuard)()) return;
+                                if (!navGuard()) return;
                                 if (!this.query) return void _system2.default.back();
                                 this.performSearch();
                             },

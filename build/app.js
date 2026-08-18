@@ -9,6 +9,52 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
         var createAppHandler = function() {
             return (()=>{
                 var __webpack_modules__ = {
+                    "./src/common/buildTarget.js" (__unused_rspack_module, exports) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports["default"] = void 0;
+                        var TARGET_ID = "W432";
+                        var TARGET_WIDTH = 432;
+                        var TARGET_HEIGHT = 514;
+                        var TARGET_PROFILE = "rect";
+                        var TARGET_SHAPE = "rect";
+                        var _default = exports["default"] = {
+                            id: TARGET_ID,
+                            width: TARGET_WIDTH,
+                            height: TARGET_HEIGHT,
+                            profile: TARGET_PROFILE,
+                            shape: TARGET_SHAPE
+                        };
+                    },
+                    "./src/common/navGuard.js" (__unused_rspack_module, exports) {
+                        "use strict";
+                        Object.defineProperty(exports, "__esModule", {
+                            value: true
+                        });
+                        exports.navGuard = navGuard;
+                        var lastNavAt = 0;
+                        var NAV_LOCK_MS = 500;
+                        function navGuard() {
+                            const now = Date.now();
+                            if (now - lastNavAt < NAV_LOCK_MS) return false;
+                            lastNavAt = now;
+                            return true;
+                        }
+                    },
+                    "./src/global.js" (__unused_rspack_module, __unused_rspack_exports, __webpack_require__) {
+                        "use strict";
+                        var _buildTarget = _interopRequireDefault(__webpack_require__("./src/common/buildTarget.js"));
+                        var _navGuard = __webpack_require__("./src/common/navGuard.js");
+                        function _interopRequireDefault(e) {
+                            return e && e.__esModule ? e : {
+                                default: e
+                            };
+                        }
+                        __webpack_require__.g.buildTarget = _buildTarget.default;
+                        __webpack_require__.g.navGuard = _navGuard.navGuard;
+                    },
                     "./src/manifest.json" (module) {
                         "use strict";
                         module.exports = JSON.parse('{"package":"com.watch.dic.w432","name":"腕上词典","versionName":"3.0.0","versionCode":6,"minPlatformVersion":1000,"icon":"/common/logo.png","deviceTypeList":["watch","band"],"features":[{"name":"system.router"},{"name":"system.vibrator"},{"name":"system.device"},{"name":"system.file"},{"name":"system.storage"},{"name":"system.prompt"}],"config":{"logLevel":"log","designWidth":"device-width"},"router":{"entry":"pages/index","pages":{"pages/index":{"component":"index"},"pages/search":{"component":"search"},"pages/results":{"component":"results"},"pages/detail":{"component":"detail"},"pages/records":{"component":"records"},"pages/about":{"component":"about"},"pages/sponsor":{"component":"sponsor"},"pages/filter":{"component":"filter"},"pages/settings":{"component":"settings"}}}}');
@@ -40,6 +86,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                 (()=>{
                     __webpack_require__.ruid = "bundler=rspack@1.7.12";
                 })();
+                var __webpack_exports__ = {};
                 (()=>{
                     var $app_style$ = [];
                     var $app_script$ = function __scriptModule__(module, exports, $app_require$1) {
@@ -48,6 +95,7 @@ export default function(global, globalThis, window, $app_exports$, $app_evaluate
                             value: true
                         });
                         exports.default = void 0;
+                        __webpack_require__("./src/global.js");
                         var _default = exports.default = {
                             data: {
                                 screenShape: "rect",

@@ -47,8 +47,8 @@ import file from "@system.file"
 import storage from "@system.storage"
 import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
-import buildTarget from "../../common/buildTarget"
-import {navGuard} from "../../common/navGuard"
+
+const {buildTarget, navGuard} = global
 
 const ENGLISH_SUFFIXES = [
   "s",
