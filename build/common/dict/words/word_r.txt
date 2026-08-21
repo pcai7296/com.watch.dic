@@ -1,57 +1,192 @@
 0rabbit	8a1	1f
+6 fever	y3d	
+6s don't have long tails	y3e	
 4le	8a2	80
 3id	8a3	80
+5 dog	y3f	
 4es	8a4	80
-2ce	8a5	5f
+6 vaccine	y3g	
+4ye or rebiya	y3h	
+2ccoon dog	y3i	
+3e	8a5	5f
+4 car	y3j	
+6ourse	y3k	
+5ground	y3l	
+5of several days	y3m	
+5track	y3n	
+3hmaninoff or rachmaninov	y3o	
 3ial	8a6	1e
+6 discrimination	y3p	
+7segregation	y3q	
+4ng bicycle	y3r	
+7current	y3s	
+7driver	y3t	
+7row-boat	y3u	
+7ship or boat	y3v	
+8kates	y3w	
+7team	y3x	
+9chnique	y3y	
 3k	8a7	7c
+4 and pinion	y3z	
+f jack	y40	
 4et	8a8	3c
+6-tailed treepie	y41	
 6eer	8a9	80
+4ing machine	y42	
 3onteur	8aa	80
 3y	8ab	80
 2dar	8ac	7c
+5 antenna	y43	
+6detector	y44	
+3de's warbler	y45	
 3ial	8ad	8
-5nt	8ae	58
+6 symmetry	y46	
+5nce emanating from the head	y47	
+6t	8ae	58
+7 exposure	y48	
+8with delight	y49	
+dhappiness	y4a	
+djoy	y4b	
 5te	8af	7c
-6ion	8ag	5e
+7d wave	y4c	
+6ing health and vigor	y4d	
+7on	8ag	5e
+9 detection	y4e	
+bose	y4f	
+e rate	y4g	
+aenergy	y4h	
+afield	y4i	
+aintensity	y4j	
+ameter	y4k	
+aplume	y4l	
+brotection	y4m	
+ascattering	y4n	
+bickness	y4o	
+bource	y4p	
+awarning symbol	y4q	
 6or	8ah	8
 4cal	8ai	7c
+7 change	y4r	
+8evil	y4s	
+8of a chinese character	y4t	
+8scavenger	y4u	
+8transformation	y4v	
 7ly	8aj	50
 4o	8ak	23
+5 and television	y4w	
+6broadcast	y4x	
+6drama	y4y	
+6free asia	y4z	
+9quency	y50	
+f noise	y51	
+6operator	y52	
+6reception room	y53	
+7oom	y54	
+6station	y55	
+6taiwan international	y56	
+7elephony	y57	
+ascope	y58	
+7ransmitter	y59	
+6wave	y5a	
+5-controlled car	y5b	
+6frequency identification	y5c	
+6tape recorder	y5d	
 5active	8al	1e
+b contamination	y5e	
+cdecay	y5f	
+cfallout	y5g	
+ciodine	y5h	
+dsotope	y5i	
+cmaterial	y5j	
+cnuclide	y5k	
+cwaste	y5l	
 aity	8am	c
+5logical defense	y5m	
+dweapon	y5n	
 4sh	8an	c
+6 cake	y5o	
+7seed	y5p	
 4um	8ao	e
 5s	8ap	fc
+4x notoginseng	y5q	
 2ffish	8aq	80
 4le	8ar	80
+6 or lottery ticket	y5r	
 3t	8as	60
 4er	8at	80
+4ing on the yangtze river	y5s	
+gellow river	y5t	
 2g	8au	9e
+3 doll	y5u	
 3e	8av	fc
+4 comic	y5v	
+5written across one's face	y5w	
 3ged	8aw	e0
+3ing flames	y5x	
+7inferno	y5y	
+7tide	y5z	
+7waves	y60	
+3s used as shoes	y61	
 3time	8ax	c0
 2id	8ay	fc
 3l	8az	fe
+4 station	y62	
+5track	y63	
+4ings of a balcony	y64	
 4lery	8b0	80
 4road	8b1	1c
+8 switch	y65	
+9tie	y66	
+arack	y67	
+4track connection	y68	
 4way	8b2	23
+7 enthusiast	y69	
+8line	y6a	
+8platform	y6b	
 3n	8b3	3
+4 and dew	y6c	
+9snow	y6d	
+5boots	y6e	
+6ucketing down	y6f	
+5erosion	y6g	
+5frog	y6h	
+5man	y6i	
+5of blood	y6j	
+6r shine	y6k	
+5tarp	y6l	
 4bow	8b4	5e
+7 bee-eater	y6m	
+8lorikeet	y6n	
+8trout	y6o	
 4coat	8b5	23
 4fall	8b6	62
 5orest	8b7	8
 4water	8b8	20
 4y	8b9	f
+5 day	y6p	
+6night	y6q	
+6season	y6r	
+6weather	y6s	
 3se	8ba	43
+5 one's hackles	y6t	
+5d ground	y6u	
+7high	y6v	
+7position	y6w	
 4in	8bb	88
+6g livestock	y6x	
 2ke	8bc	1c
-3ish	8bd	80
+3ing in money	y6y	
+4sh	8bd	80
 2lly	8be	f8
+5ing cry	y6z	
 2m	8bf	80
 3ble	8bg	a8
+5ing and indistinct	y70	
 4unctious	8bh	80
+5tan or rumbutan	y71	
 3ify	8bi	80
+3med earth	y72	
+5rs' work chant	y73	
 3p	8bj	40
 4age	8bk	80
 5nt	8bl	e0
@@ -62,19 +197,53 @@ aity	8am	c
 5ing	8bq	40
 4id	8br	80
 4or	8bs	c0
-3dom	8bt	fa
+3d or randt	y74	
+4om	8bt	fa
+6 access	y75	
+d memory	y76	
+aident	y77	
+7inspection	y78	
+9terval	y79	
+7jottings	y7a	
+7lies and falsehoods	y7b	
+7number	y7c	
+7period of time	y7d	
+7test	y7e	
+8houghts	y7f	
+7variable	y7g	
 3ge	8bu	7e
+5 hood	y7h	
+6of values	y7i	
+6upon range of mountains	y7j	
 5r	8bv	80
 3k	8bw	7e
+4 and emolument of nobility	y7k	
+5of professor	y7l	
+4ine cycle	y7m	
+6g equally	y7n	
 4le	8bx	80
 3som	8by	e0
 3t	8bz	c0
 2p	8c0	58
+3 music	y7o	
+4session	y7p	
 3acious	8c1	c0
+9 aggressor	y7q	
+4tor ornitholestoides	y7r	
 3e	8c2	10
 3id	8c3	3f
+5 advance	y7s	
+6breathing	y7t	
+6diagnostic test	y7u	
+8spatch of an opponent	y7v	
+6growth	y7w	
+6progress	y7x	
+6transit	y7y	
+d system	y7z	
+6victory	y80	
 5ity	8c4	8
 5ly	8c5	c
+7 developing	y81	
 5s	8c6	80
 3port	8c7	80
 4rochement	8c8	80
@@ -82,86 +251,245 @@ aity	8am	c
 3t	8ca	80
 4ure	8cb	48
 2re	8cc	7e
+4 and precious	y82	
+7imal	y83	
+bs and birds	y84	
+6s morning stars	y85	
+5book	y86	
+5capability	y87	
+6ommodity worth hoarding	y88	
+5delicacy	y89	
+5earth	y8a	
+a element	y8b	
+6lement	y8c	
+5food	y8d	
+9stuff	y8e	
+5gas	y8f	
+5honor	y8g	
+5instance	y8h	
+5object	y8i	
+5perfume	y8j	
+8son	y8k	
+5talent	y8l	
+6reasure	y8m	
 4faction	8cd	80
 5y	8ce	40
 4ly	8cf	7c
+6 seen	y8n	
 2scal	8cg	48
 3h	8ch	18
 4ly	8ci	40
 3p	8cj	80
+4berry pi	y8o	
 4y	8ck	80
+3ter graphics	y8p	
 2t	8cl	7f
+3 infestation	y8q	
+4poison	y8r	
+3chet-tailed treepie	y8s	
 3e	8cm	3e
-4 of occurrence of error	bul	
+4 limiting	y8t	
+5of consumption	y8u	
+8deprecation	y8v	
+8flow	y8w	
+8infection	y8x	
+8occurrence	y8y	
+i of error	bul	
+8progress	y8z	
+8return	y90	
+8success	y91	
+8traffic flow	y92	
+4d carrying capacity	y93	
 3her	8cn	1f
+6 die than submit	y94	
+7like	y95	
+7poor	y96	
+7slow	y97	
 3ification	8co	80
 5y	8cp	c0
 4ng	8cq	8
 4o	8cr	7c
 5 of cost of sales	bu8	
 9of depreciation	bjt	
+6seventy to thirty	y98	
 5cination	8cs	80
 5n	8ct	c0
 6al	8cu	fc
+8 and clearly structured	y99	
+9expression	y9a	
+9knowledge	y9b	
+9number	y9c	
 6ing	8cv	40
-3tle	8cw	c8
+6s and fodder	y9d	
+3nasambhava buddha	y9e	
+3tan chair	y9f	
+4le	8cw	c8
+6 stick dance	y9g	
 6snake	8cx	40
 2ucous	8cy	c0
 2vage	8cz	e0
+6d by successive wars	y9h	
 3e	8d0	a0
 4l	8d1	80
 4n	8d2	40
 5ous	8d3	c0
+8 wolf	y9i	
 3ine	8d4	c0
 4sh	8d5	c0
 6ing	8d6	80
 2w	8d7	7e
+3 and semifinished materials	y9j	
+4coal	y9k	
+4fresh vegetables	y9l	
+4hide	y9m	
+4lacquer	y9n	
+4material	y9o	
+cs for making soup	y9p	
+5eat	y9q	
+4opium	y9r	
+5r cold	y9s	
+5yster	y9t	
+4recruit	y9u	
+4score	y9v	
+5ilk	y9w	
+4water	y9x	
 3hide	8d8	40
 2y	8d9	5e
+3 tracing	y9y	
+3leigh criterion	y9z	
 3on	8da	40
+3s of light	ya0	
+8radiation	ya1	
 2ze	8db	c0
 3or	8dc	9e
+5 blade	ya2	
+6wire	ya3	
 1each	8dd	1f
+5 of influence	ya4	
+6truck	ya5	
+5ing the sky	ya6	
 4t	8de	5e
 5ant	8df	80
 5ion	8dg	c
+8 force	ya7	
+9to light	ya8	
 8ary	8dh	80
+b faction	ya9	
+dorces	yaa	
+dramework	yab	
+6ve force	yac	
 5or	8di	8
+7 core	yad	
 3d	8dj	3
 4 of	bki	
 4er	8dk	1c
+6's digest	yae	
 6s	8dl	20
 4ily	8dm	fc
+7 available	yaf	
 5ng	8dn	3e
+7 and writing	yag	
+8comprehension	yah	
+8head	yai	
+8material	yaj	
+8notes	yak	
+8room	yal	
+8span	yam	
 4just	8do	40
 4y	8dp	c3
+5 and waiting	yan	
+7partment	yao	
+7t all times	yap	
+any moment	yaq	
+6to give and take	yar	
+5-made clothes	yas	
+bmeal	yat	
+bphrase	yau	
 3gent	8dq	80
 3l	8dr	1f
+4 ability and learning	yav	
+6nalysis	yaw	
+5combat	yax	
+5estate	yay	
+b agent	yaz	
+cmarket	yb0	
+5income	yb1	
+7tention	yb2	
+5knowledge	yb3	
+5location	yb4	
+5madrid	yb5	
+b soccer team	yb6	
+6eaning	yb7	
+5number	yb8	
+5results	yb9	
+6oot	yba	
+5scene	ybb	
+6incerity	ybc	
+6words and spears	ybd	
+5time	ybe	
+5variable	ybf	
+4-life version	ybg	
+5time report of earthquake data	ybh	
+4gar wine	ybi	
 4ign	8ds	80
 5se	8dt	13
 6m	8du	40
 6tic	8dv	18
+9 portrayal	ybj	
 5ty	8dw	1e
+7 show	ybk	
 5zation	8dx	48
 6e	8dy	4c
 4ly	8dz	1
+6 does not care	ybl	
+7good	ybm	
+8reat	ybn	
+7isn't	ybo	
+7not easy	ybp	
 4m	8e0	fc
+5 of freedom	ybq	
+9necessity	ybr	
 3m	8e1	80
 3p	8e2	fc
 4er	8e3	80
 3r	8e4	7c
+4 admiral	ybs	
+5court	ybt	
+5guard	ybu	
+5naked choke	ybv	
+5sight	ybw	
+5view	ybx	
+5wheel	yby	
 4range	8e5	40
+4view mirror	ybz	
 3son	8e6	63
 6able	8e7	3e
+a grounds	yc0	
+bself-defense	yc1	
+9y priced	yc2	
+6ed conclusion	yc3	
 6ing	8e8	10
 6s	8e9	20
 4surance	8ea	10
 7e	8eb	78
+7ing explanation	yc4	
 2barbative	8ec	80
 4te	8ed	c0
 3el	8ee	5c
+5 army	yc5	
+6band	yc6	
+ait	yc7	
+6faction	yc8	
+6soldier	yc9	
+6youth motorcycle group	yca	
 5lion	8ef	5c
 8us	8eg	c0
+a appearance	ycb	
+bbehavior	ycc	
+bminister	ycd	
+bsubjects	yce	
+5s and traitors	ycf	
+3orn as immortal	ycg	
 3roadcast	8eh	40
 3uff	8ei	80
 4ild	8ej	42
@@ -177,172 +505,517 @@ aity	8am	c
 4st	8et	80
 3ede	8eu	f0
 4ipt	8ev	a2
+7 for a loan	ych	
 5ve	8ew	3
+7d document	yci	
+9in full	ycj	
 7r	8ex	4e
+6ing materials	yck	
+buch help	ycl	
+aparty	ycm	
 4nt	8ey	5f
+6 developments	ycn	
+7graduate	yco	
+7photo	ycp	
+7year	ycq	
+bs	ycr	
 6ly	8ez	4c
+8 made available	ycs	
 4ptacle	8f0	c0
 6ion	8f1	7e
+9 desk	yct	
+aoffice	ycu	
+apavilion	ycv	
+aroom	ycw	
+e for officials	ycx	
+astaff	ycy	
 9ist	8f2	62
 7ve	8f3	c0
 6or	8f4	40
+8 antagonist	ycz	
 4ss	8f5	80
+6 between walls	yd0	
+7in mountains	yd1	
 6ion	8f6	f8
 7ve	8f7	80
+9 gene	yd2	
+3hargeable card	yd3	
 3ipe	8f8	fa
 5ient	8f9	f8
 5rocal	8fa	f8
 9te	8fb	80
+aing motion	yd4	
+esaw	yd5	
 4tal	8fc	e0
 5e	8fd	3f
 3kless	8fe	78
+8 person	yd6	
+9young person	yd7	
 4on	8ff	f8
 3laim	8fg	f8
+7ed water	yd8	
 5mation	8fh	40
 4ine	8fi	a0
+6ing buddha	yd9	
 4use	8fj	c0
 3ognise	8fk	2
 7tion	8fl	5c
 7ze	8fm	5c
 4il	8fn	c0
+6less rifle	yda	
 4llect	8fo	1c
 9ion	8fp	c0
+c of past lives	ydb	
 4mbine	8fq	80
 5mend	8fr	5e
 9ation	8fs	6c
+e letter	ydc	
+9ed by all	ydd	
+cretail price	yde	
 5pense	8ft	80
 6ose	8fu	40
 4ncile	8fv	f8
 8iation	8fw	40
 e of statement of account	bvi	
 5dite	8fx	80
+8ioned or showroom item	ydf	
 5naissance	8fy	80
+e survey	ydg	
 6oiter	8fz	80
 5stitute	8g0	80
+cd milk	ydh	
 7ruct	8g1	40
 bion	8g2	40
+cve surgery	ydi	
 4rd	8g3	3f
+6 entry	ydj	
+7of actual events	ydk	
+bncestors	ydl	
+afamous men	ydm	
+7player	ydn	
+7signing event	ydo	
 6er	8g4	3f
 6ing	8g5	60
+9 machine	ydp	
+astudio	ydq	
 6s	8g6	20
 4unt	8g7	40
 5rse	8g8	c0
 4ver	8g9	7e
 7y	8ga	1c
+8 rate	ydr	
+cio	yds	
 3reation	8gb	7e
+a center	ydt	
 aal	8gc	40
+c drug	ydu	
+dhiking	ydv	
+dvehicle	ydw	
 4uit	8gd	fc
+7ing agency	ydx	
 7ment	8ge	8
-3tangle	8gf	fa
+b meeting	ydy	
+3tal prolapse	ydz	
+5ngle	8gf	fa
 7ular	8gg	48
-4ify	8gh	f8
+b box or chest	ye0	
+cprism	ye1	
+4ification campaign	ye2	
+eof names	ye3	
+6y	8gh	f8
 5tude	8gi	80
+4us abdominis muscle	ye4	
 3umbent	8gj	80
 4perate	8gk	80
 4r	8gl	58
 5rence	8gm	18
+a formula	ye5	
+brelation	ye6	
 8t	8gn	10
 6ing	8go	40
+9 decimal	ye7	
+afever	ye8	
+5ve bow	ye9	
 3ycle	8gp	7a
+7 bin	yea	
 7d	8gq	20
+8 paper	yeb	
+9water	yec	
 6ing	8gr	20
 2d	8gs	3
+3 alder	yed	
+6gae	yee	
+5nd swollen	yef	
+8tense with anger	yeg	
+5rmband	yeh	
+7y	yei	
+5utumnal leaves	yej	
+5vadavat	yek	
+4bean paste	yel	
+5ishop	yem	
+5lood cell	yen	
+5raised pork	yeo	
+6ick clay	yep	
+5ull	yeq	
+4cabbage	yer	
+6ndle	yes	
+6rd	yet	
+7pet	yeu	
+5hip stocks	yev	
+5ollar	yew	
+6ral	yex	
+5rescent	yey	
+6oss	yez	
+9bill	yf0	
+5urrant	yf1	
+4date	yf2	
+5eer	yf3	
+6licious	yf4	
+5warf star	yf5	
+4flag	yf6	
+6owers and green willow	yf7	
+5ort	yf8	
+6x	yf9	
+4giant	yfa	
+5uards	yfb	
+4in the face	yfc	
+4junglefowl	yfd	
+4knot	yfe	
+4lacquer	yff	
+5etter	yfg	
+5ight	yfh	
+6ne	yfi	
+5otus	yfj	
+4mangrove	yfk	
+5eat	yfl	
+5ullet	yfm	
+4neckscarf	yfn	
+5otice	yfo	
+5ut sedge	yfp	
+4of cheeks	yfq	
+5rpiment	yfr	
+4paint	yfs	
+6nda	yft	
+5epper	yfu	
+a paste	yfv	
+5halarope	yfw	
+6oenix	yfx	
+b eyes	yfy	
+7sphorus	yfz	
+5itaya	yg0	
+4radish	yg1	
+5oot gromwell	yg2	
+4sage	yg3	
+6ndalwood	yg4	
+5ea	yg5	
+7 bream	yg6	
+5hift	yg7	
+5oil	yg8	
+6rghum	yg9	
+5pider lily	yga	
+5quare	ygb	
+5tar	ygc	
+5upergiant	ygd	
+4tape	yge	
+5hrough and through	ygf	
+5ide	ygg	
+4waistcoat	ygh	
+5ine	ygi	
+5ood	ygj	
+4yeast rice	ygk	
+3-backed shrike	ygl	
+5illed blue magpie	ygm	
+bchough	ygn	
+bleiothrix	ygo	
+bscimitar babbler	ygp	
+ctarling	ygq	
+btropicbird	ygr	
+5reasted flycatcher	ygs	
+dgoose	ygt	
+dmerganser	ygu	
+dparakeet	ygv	
+4collared woodpecker	ygw	
+5rested pochard	ygx	
+6owned crane	ygy	
+4eye flight	yh0	
+8red eye	ygz	
+4faced cormorant	yh1	
+aliocichla	yh2	
+5lanked bluetail	yh3	
+6eck chalcedony	yh4	
+5ooted booby	yh5	
+bfalcon	yh6	
+5ronted rosefinch	yh7	
+cserin	yh8	
+4headed bullfinch	yh9	
+dnting	yha	
+btrogon	yhb	
+bvulture	yhc	
+4legged crake	yhd	
+5ight district	yhe	
+4mantled rosefinch	yhf	
+4necked grebe	yhg	
+bphalarope	yhh	
+bstint	yhi	
+4orange color	yhj	
+4rumped swallow	yhk	
+4tailed laughingthrush	yhl	
+bminla	yhm	
+bshrike	yhn	
+btropicbird	yho	
+5hroated loon	yhp	
+dpipit	yhq	
+dthrush	yhr	
+4vented bulbul	yhs	
+4wattled lapwing	yht	
+5hiskered bulbul	yhu	
+5inged laughingthrush	yhv	
+3back spider	yhw	
 3dish	8gt	40
+7 brown	yhx	
 3eem	8gu	e0
+6ing quality	yhy	
 4mptive	8gv	80
 3irect	8gw	c2
 4stribution	8gx	80
 3olent	8gy	80
 4ubtable	8gz	80
 3ress	8h0	c0
+3s under the beds	yhz	
 3uce	8h1	5e
-5tion	8h2	5c
+6d fraction	yi0	
+8temperature	yi1	
+9o a shadow	yi2	
+7-price ticket	yi3	
+5ing agent	yi4	
+5tio ad absurdum	yi5	
+8n	8h2	5c
+9 mammaplasty	yi6	
 4ndancy	8h3	90
 8t	8h4	f8
+9 number	yi7	
+aofficials	yi8	
+aposition	yi9	
+4plication of words or syllables	yia	
 2ed	8h5	dc
+4 catkin	yib	
+5flower	yic	
+5mat	yid	
+8ting	yie	
+5parrotbill	yif	
+6ipe	yig	
+5rhizome	yih	
+5screen	yii	
+6tem	yij	
+4-pipe wind instrument	yik	
+4s of a panpipe	yil	
+4ucation through labor	yim	
 4y	8h6	80
+5 wetland	yin	
 3f	8h7	48
+4 island	yio	
+4er container	yip	
 3k	8h8	c0
 4 of	bnn	
+4ing of blood	yiq	
 3l	8h9	fc
+3ves shad	yir	
+6's pheasant	yis	
 2fectory	8ha	80
 4r	8hb	5e
 5ee	8hc	ba
 7s	8hd	20
 6nce	8he	3e
+9 book	yit	
+aellipsoid	yiu	
+amaterial	yiv	
+anews	yiw	
 7dum	8hf	20
+5ring to	yix	
+5s to abrupt transformation	yiy	
+agreenwich mean time	yiz	
+alovemaking	yj0	
+amahatma gandhi	yj1	
 3ine	8hg	7c
 6d	8hh	40
+7 activities of the intellectuals	yj2	
+9nd courteous	yj3	
+csmart	yj4	
+9ppelation	yj5	
+8beauty	yj6	
+8cream cheese	yj7	
+8feelings	yj8	
+8gentleman	yj9	
+9rain	yja	
+8in manner	yjb	
+8oil	yjc	
+9re	yjd	
+8plaything	yje	
+aeasure of poetic minds	yjf	
+8rice	yjg	
+8salt	yjh	
 6ment	8hi	40
 6ry	8hj	88
 3lect	8hk	9e
 7ance	8hl	20
-7ion	8hm	5c
-5xion	8hn	c
+7ed glory	yji	
+alight	yjj	
+7ing surface	yjk	
+btelescope	yjl	
+8on	8hm	5c
+a after an event	yjm	
+bin a deep pond	yjn	
+bnebula	yjo	
+5x action	yjp	
+8ngle	yjq	
+8rc	yjr	
+6ion	8hn	c
+7ve pronoun	yjs	
 3orm	8ho	7e
+6 and opening up	yjt	
+brenewal	yju	
+7of the medical system	yjv	
+ewriting system	yjw	
+7school	yjx	
+7through labor	yjy	
+6-school student	yjz	
 6er	8hp	40
 6ism	8hq	40
-3raction	8hr	c0
+3racting telescope	yk0	
+8on	8hr	c0
+8ve index	yk1	
 7ory	8hs	80
+a brick	yk2	
+bperiod	yk3	
 5in	8ht	b8
 4esh	8hu	de
+7 rate	yk4	
 7ing	8hv	60
 7ment	8hw	7c
 bs	8hx	22
 4igerant	8hy	40
 9te	8hz	40
+bd truck or wagon	yk5	
 aion	8i0	40
 aor	8i1	4e
 3uge	8i2	5c
 6e	8i3	b8
+7 camp	yk6	
+8from a destroyed country	yk7	
 4lgent	8i4	80
 4nd	8i5	70
 4rbish	8i6	c0
 4sal	8i7	3e
 5e	8i8	5f
+5ing to accept	yk8	
 4te	8i9	dc
 2gal	8ia	80
 5e	8ib	80
 4rd	8ic	5f
+6 as useless	yk9	
+7for oneself	yka	
+7wrongdoing with equanimity	ykb	
 6ing	8id	3c
 6less	8ie	7e
 a of	bop	
+d perils	ykc	
+ethe consequences	ykd	
+iseason	yke	
+eweather conditions	ykf	
 6s	8if	2
 3enerate	8ig	58
 9ion	8ih	60
+c through one's own effort	ykg	
 ave	8ii	8
+c braking	ykh	
+dmedicine	yki	
 5t	8ij	80
 3ime	8ik	f8
 6n	8il	40
 7t	8im	88
-8ation	8in	40
+8al command	ykj	
+9tion	8in	40
 4on	8io	3c
+6 code	ykk	
+7lock	ykl	
+7of forest	ykm	
 6al	8ip	60
+8 capital	ykn	
+aourt	yko	
+9dish	ykp	
+9economy	ykq	
+9general acting as governor	ykr	
+9mafia boss	yks	
+9office of a company	ykt	
+9price variation	yku	
+9regulations	ykv	
 4ster	8iq	7e
+8 card	ykw	
+9of names	ykx	
+cshareholders	yky	
+8ed birthplace	ykz	
+bletter	yl0	
+boccupants of a house	yl1	
+bresidence	yl2	
+btrademark	yl3	
+buser	yl4	
 6rar	8ir	20
 8tion	8is	20
+c as a current student	yl5	
+dfee	yl6	
 3ress	8it	80
 7ive	8iu	80
 5t	8iv	1f
 3ular	8iw	7e
+7 army	yl7	
+8bus	yl8	
+8column or segment	yl9	
+8education	yla	
+9xpression	ylb	
+8food	ylc	
+8hexagon	yld	
+8meeting	yle	
+an's haircut	ylf	
+8passenger or cargo ship	ylg	
+atron	ylh	
+btern	yli	
+f of life	ylj	
+9olyhedron	ylk	
+8script	yll	
+9eason	ylm	
+9teamship service	yln	
+8verse	ylo	
 7ity	8ix	8
 7ly	8iy	2c
+9 used expression	ylp	
 6te	8iz	fc
 7ion	8j0	7e
 as	8j1	20
+b and restrictions	ylq	
 7ory	8j2	40
+a plan	ylr	
 2habilitate	8j3	e0
 bion	8j4	40
+e of displaced persons	yls	
 3earsal	8j5	bc
 7e	8j6	c0
 5ting	8j7	40
 2ign	8j8	fc
+5 name of ming emperor	ylt	
+eqing emperor	ylu	
+6title	ylv	
 5ing	8j9	40
 3mburse	8ja	e8
 3n	8jb	9c
 4carnate	8jc	80
+aion or transmigration	ylw	
+4deer moss	ylx	
 4force	8jd	fc
 9d	8je	20
+a concrete	yly	
+bglass	ylz	
+8ing and reducing methods	ym0	
+cmethod	ym1	
 4state	8jf	80
 4terpretation	8jg	40
 3terate	8jh	c0
@@ -356,16 +1029,50 @@ bion	8j4	40
 2lapse	8jp	e0
 4te	8jq	9e
 6d	8jr	20
+7 by marriage	ym2	
+8company	ym3	
+8to	ym4	
+8work units	ym5	
+6s to	ym6	
 5ion	8js	1f
 8s	8jt	20
+9 between labor and capital	ym7	
+semployer	ym8	
+jevels of production	ym9	
+itwo countries	yma	
+awith other people	ymb	
 9hip	8ju	3e
+c involving a sugar-daddy	ymc	
 6ve	8jv	1e
+8 address	ymd	
+9density	yme	
+9humidity	ymf	
+9opposite	ymg	
+9position	ymh	
+h of exhibition booth	ymi	
+aronoun	ymj	
+9superiority	ymk	
 8ly	8jw	c
+a prime	yml	
+bspeaking	ymm	
+8s and friends	ymn	
+eold friends	ymo	
+aby marriage	ymp	
+aof the wife	ymq	
 7ity	8jx	1c
 4x	8jy	5f
 5ation	8jz	e0
 5ed	8k0	40
+7 and alert	ymr	
+cleisurely	yms	
+8frame of mind	ymt	
+8vigilance	ymu	
 4y	8k1	7a
+5 baton	ymv	
+6post-horse mail service	ymw	
+6race	ymx	
+6station	ymy	
+d for post horses	ymz	
 3ease	8k2	fc
 4gate	8k3	88
 4nt	8k4	80
@@ -375,29 +1082,85 @@ bion	8j4	40
 7t	8k8	7e
 3iability	8k9	4c
 6le	8ka	7e
+8 book	yn0	
+9funds	yn1	
+9helper	yn2	
+9source	yn3	
 5nce	8kb	dc
 6t	8kc	40
 4c	8kd	c0
+5t gull	yn4	
 4ef	8ke	7e
+6 aid	yn5	
+7grain	yn6	
+7payment	yn7	
+8rinting	yn8	
+f plate	yn9	
+7sculpture	yna	
+8hading	ynb	
 5ve	8kf	5c
-7 of	bn6	
+7 inflammation or internal heat	ync	
+8of	bn6	
 7d	8kg	c0
 4gion	8kh	fe
+8 other than buddhism	ynd	
 7us	8ki	5e
+9 assembly	yne	
+abelief	ynf	
+aceremony	yng	
+bhant	ynh	
+adoctrine	yni	
+afestival	ynj	
+agrouping	ynk	
+ainvestigator	ynl	
+aleader	ynm	
+aorder	ynn	
+aprecept	yno	
+cocession	ynp	
+arite	ynq	
+bule	ynr	
+es	yns	
+astudies	ynt	
+atext	ynu	
 4nquish	8kj	e0
 4sh	8kk	90
-3uctant	8kl	7c
+3uctance to leave this world	ynv	
+8t	8kl	7c
+9 to admit a mistake	ynw	
+dleave	ynx	
+dpart	yny	
+dspeak about it	ynz	
 3y	8km	7e
-2main	8kn	1f
-6 of	bml	
+4ing on	yo0	
+a inaccessible territory	yo1	
+2m sleep	yo2	
+3ain	8kn	1f
+6 calm and undaunted	yo3	
+7of	bml	
 6der	8ko	d8
+9 of cloth	yo4	
+aterm	yo5	
 6ing	8kp	40
+9 breath	yo6	
+achapters	yo7	
+amoney	yo8	
+aquantity	yo9	
+aunenlightened	yoa	
+ayears of one's life	yob	
 6s	8kq	9c
 4rk	8kr	7e
 6able	8ks	7c
+a ability	yoc	
+cnd original work	yod	
 9y	8kt	40
-3edy	8ku	7c
+a alike	yoe	
+6s column	yof	
+5ried lady	yog	
+3edial class	yoh	
+9stream	yoi	
+5y	8ku	7c
 4mber	8kv	3
+8 at all costs	yoj	
 3ind	8kw	7e
 6 of	bos	
 6er	8kx	c0
@@ -406,40 +1169,89 @@ bion	8j4	40
 6ion	8l0	80
 4t	8l1	c0
 5tance	8l2	a0
+a fee	yok	
+bsent by post	yol	
 6ent	8l3	80
+9 fever	yom	
+6ing bank	yon	
 3nant	8l4	f8
+7 enemy troops	yoo	
+7s after a disaster	yop	
 3onstrance	8l5	80
 9te	8l6	80
 4rse	8l7	a0
 4te	8l8	5e
+6 affinity	yoq	
+8nd desolate	yor	
+j area	yos	
+bfaraway	yot	
+binsignificant	you	
+bobscure	yov	
+bvast	yow	
+9tiquity	yox	
+8rea	yoy	
+7cause	yoz	
+7in time or space	yp0	
+7monitoring	yp1	
+7operation	yp2	
+8utskirts of a city	yp3	
+7region	yp4	
+9latives	yp5	
+7sensing	yp6	
+7town	yp7	
+7village	yp8	
+6st places	yp9	
 4val	8l9	3c
+7 of the kneecaps	ypa	
 5e	8la	de
 3unerate	8lb	80
-9ive	8lc	80
+9ion based on one's output	ypb	
+ave	8lc	80
 2naissance	8ld	78
+4l pelvis	ypc	
 4scent	8le	80
 3d	8lf	c0
 4er	8lg	fc
+6 service to repay kindness	ypd	
 6ing	8lh	c0
 5zvous	8li	a0
 4ition	8lj	c0
 3egade	8lk	80
+8 faction	ype	
 5e	8ll	80
+4sas electronics	ypf	
 4w	8lm	5c
 5able	8ln	40
+9 energy source	ypg	
+afuel	yph	
+aresource	ypi	
 6l	8lo	60
+7 of insurance	ypj	
+3he county in zhejiang	ypk	
+3min university of china	ypl	
 3ounce	8lp	c0
 4vate	8lq	d0
 7ion	8lr	68
 4wn	8ls	80
 6ed	8lt	60
+8 athlete	ypm	
+9expert	ypn	
 3t	8lu	fe
+4 and debt	ypo	
+5deposit	ypp	
+5price	ypq	
+5seeking	ypr	
 4able	8lv	40
 5l	8lw	60
+6 car	yps	
+7room without private bathroom	ypt	
+4ed room for karaoke	ypu	
 3unciate	8lx	80
 9ion	8ly	40
 2orient	8lz	40
 2pair	8m0	7f
+6 shop	ypv	
+7workshop	ypw	
 6s	8m1	2
 4rable	8m2	80
 6tion	8m3	80
@@ -448,7 +1260,16 @@ bion	8j4	40
 4y	8m6	18
 3eal	8m7	88
 5t	8m8	5f
-6edly	8m9	1c
+6 customer	ypx	
+7offender	ypy	
+6ed code	ypz	
+9gaffes	yq0	
+9increments	yq1	
+9layers	yq2	
+9twice	yq3	
+8ly	8m9	1c
+a urging	yq4	
+6ing continuously	yq5	
 4l	8ma	f8
 5lent	8mb	80
 4nt	8mc	bc
@@ -456,28 +1277,47 @@ bion	8j4	40
 4rcussion	8md	80
 5toire	8me	f8
 7ry	8mf	40
+9 item	yq6	
 4tition	8mg	7c
+9us passage	yq7	
 8ve	8mh	40
+a strain injury	yq8	
 3ine	8mi	80
 3lace	8mj	5e
+7d with	yq9	
 7ment	8mk	38
+b guaranteed if not genuine	yqa	
+cpart	yqb	
+cworker	yqc	
+6ing former general	yqd	
 4enish	8ml	c0
 5te	8mm	80
+7 with vice	yqe	
 4ica	8mn	c0
 7te	8mo	40
 4y	8mp	1f
 3ort	8mq	23
+6 a success	yqf	
+7forms	yqg	
+7of a victory	yqh	
+asuccess	yqi	
 6age	8mr	80
 6er	8ms	1e
+8s without borders	yqj	
 6orial	8mt	80
 6s	8mu	20
+7 from foreign news agencies	yqk	
 4se	8mv	80
 5itory	8mw	80
 3rehend	8mx	80
 8sible	8my	80
 5sent	8mz	7e
 9ation	8n0	48
+e of a person	yql	
 cve	8n1	7e
+e individual	yqm	
+foffice	yqn	
+fwork	yqo	
 6s	8n2	50
 7ed	8n3	80
 7ion	8n4	10
@@ -491,25 +1331,49 @@ cve	8n1	7e
 5duce	8nc	5c
 8tion	8nd	48
 ave	8ne	40
+c isolation	yqp	
+dorgan	yqq	
+dsystem	yqr	
 5of	8nf	80
 5ve	8ng	80
 3tile	8nh	f8
 6ian	8ni	80
 3ublic	8nj	5e
+8 of andorra	yqs	
+cchina	yqt	
+droatia	yqu	
+dzechoslovakia	yqv	
+cireland	yqw	
+ckorea	yqx	
+cmacedonia	yqy	
+cpalau	yqz	
+cslovenia	yr0	
 8an	8nk	1c
+a faction	yr1	
+bparty	yr2	
+bsystem of government	yr3	
 4diate	8nl	c0
 4gnance	8nm	80
 8t	8nn	80
 4lse	8no	c0
 6ion	8np	80
 7ve	8nq	40
+9 countenance	yr4	
+aforce	yr5	
 4tation	8nr	fe
+a and integrity	yr6	
+cs calligrapher	yr7	
+bof a business	yr8	
 5e	8ns	c0
 6d	8nt	40
 2quest	8nu	fe
-4ire	8nv	1f
+7 bus stop	yr9	
+8granted	yra	
+4iem mass	yrb	
+5re	8nv	1f
 7 of	bno	
 7ment	8nw	7e
+6ing much time and effort	yrc	
 5site	8nx	88
 5tal	8ny	40
 6e	8nz	80
@@ -518,80 +1382,175 @@ ave	8ne	40
 5ssion	8o2	80
 4ript	8o3	80
 4ue	8o4	fe
+6 team	yrd	
+7worker	yre	
 3earch	8o5	3f
+8 and development	yrf	
+dstudy	yrg	
+area	yrh	
+9center	yri	
+9group	yrj	
+9institute	yrk	
+9organization	yrl	
+9personnel	yrm	
+arototype	yrn	
+9report	yro	
+9student	yrp	
+9worker	yrq	
+fs	yrr	
 8er	8o6	c
 4mblance	8o7	78
 7e	8o8	7e
+7ing nothing on earth	yrs	
 4nt	8o9	f8
 6ful	8oa	40
 6ment	8ob	88
+a and indignation	yrt	
+bover unfair treatment	yru	
 4rvation	8oc	3e
+b price	yrv	
 6e	8od	fe
+7 currency	yrw	
+8fund	yrx	
+8player	yry	
+9rice	yrz	
+8requirement	ys0	
+7d copy	ys1	
+9to	ys2	
 6ior	8oe	4
 6oir	8of	78
 3hape	8og	40
 4uffle	8oh	80
 3ide	8oi	c8
 6nce	8oj	7c
+9 abroad	ys3	
+acertificate	ys4	
+aof a high-ranking official	ys5	
+fnoble	ys6	
+dbarbarian emissary	ys7	
+apermit	ys8	
 7t	8ok	dc
+8 in	ys9	
+9of new york	ysa	
+9physician	ysb	
 8ial	8ol	48
+b and commercial	ysc	
+drea	ysd	
+cbuilding	yse	
+cdistrict	ysf	
+csurveillance	ysg	
+ctower	ysh	
+cvacation	ysi	
 8s	8om	20
 5ual	8on	c8
+8 anger	ysj	
+9effects	ysk	
+9light	ysl	
+9magnetism	ysm	
+9radiation	ysn	
+doactivity	yso	
+9value	ysp	
 6e	8oo	c0
+7 from drilling	ysq	
 4gn	8op	3e
 6ation	8oq	ac
 6ed	8or	80
+8 to one's fate	ysr	
 4lience	8os	a0
 8t	8ot	80
 4n	8ou	c0
+5a ferulae	yss	
 4st	8ov	5e
 6ance	8ow	7c
 8t	8ox	7c
+9 to cold	yst	
 3olute	8oy	58
+8 and taciturn	ysu	
+dupright in character	ysv	
+9individual	ysw	
+9person	ysx	
 7ion	8oz	7c
 5ve	8p0	7c
+6ing power	ysy	
 4nance	8p1	48
 7t	8p2	a0
 4rt	8p3	fc
 4und	8p4	80
 5rce	8p5	7c
 8ful	8p6	80
+b person	ysz	
 8s	8p7	20
 3pect	8p8	5e
+7 for the wise	yt0	
+8the aged	yt1	
 7able	8p9	8
+b woman	yt2	
 7ful	8pa	c
+a closing to a letter	yt3	
+btitle for a doctor	yt4	
+aly yours	yt5	
 7ive	8pb	5c
 aly	8pc	4c
 4iration	8pd	e0
 8ory	8pe	40
+b system	yt6	
+ctract	yt7	
 5te	8pf	80
 4lendent	8pg	80
+b or rich color	yt8	
 4ond	8ph	5e
 7ent	8pi	80
 as	8pj	20
 6se	8pk	bc
+8 time	yt9	
 7ibility	8pl	7e
 9le	8pm	5c
+b and diligent	yta	
+cfor	ytb	
+cperson	ytc	
 8ve	8pn	e0
 aness	8po	80
 3t	8pp	3
+4 area	ytd	
+6ssured	yte	
+5for now	ytf	
+5shelter for couriers	ytg	
 4aurant	8pq	23
 as	8pr	20
+4ed troops	yth	
 4itution	8ps	80
 5ve	8pt	80
 7ness	8pu	80
 4less	8pv	bc
+8 insomnia	yti	
+9with anxiety	ytj	
 4oration	8pw	40
 9ve	8px	80
 6e	8py	fc
 7d	8pz	80
+8 to one's official post	ytk	
+6ing agricultural land to forest	ytl	
 4rain	8q0	fc
+8ed and cautious	ytm	
+8ing fear	ytn	
+cpole	yto	
 8t	8q1	dc
 5ict	8q2	5e
+8ed area	ytp	
+bsense	ytq	
 8ion	8q3	4e
+b enzyme	ytr	
+cmapping	yts	
+con movement	ytt	
+cpattern	ytu	
+bs on entry and exiting	ytv	
 9ve	8q4	40
+b condition	ytw	
 3ult	8q5	3f
 6ant	8q6	18
+9 force	ytx	
+6ing in	yty	
+c sb's death	ytz	
 6s	8q7	20
 4me	8q8	fc
 4rge	8q9	80
@@ -599,42 +1558,82 @@ as	8pr	20
 5rect	8qb	80
 4scitate	8qc	80
 2tail	8qd	fc
+6 department	yu0	
+7merchant	yu1	
+7outlet	yu2	
+7sales	yu3	
+8tore	yu4	
 6er	8qe	40
 6s	8qf	20
 5n	8qg	fc
-6er	8qh	80
+6ed earnings	yu5	
+7r	8qh	80
 4liate	8qi	80
 8ion	8qj	80
 4rd	8qk	c8
+6ed child	yu6	
+9person	yu7	
 3ell	8ql	f
 4ntion	8qm	98
+9 of urine	yu8	
+asample	yu9	
 7ve	8qn	c0
 3icence	8qo	40
 7t	8qp	a0
-5ulation	8qq	80
+5ulated foam	yua	
+cveins	yub	
+9ion	8qq	80
 4nue	8qr	80
 4re	8qs	5e
+6d and quiet	yuc	
+8emperor	yud	
 6ment	8qt	68
+a pension	yue	
 5ing	8qu	80
 3ool	8qv	40
 4rt	8qw	f8
+6 with challenging questions	yuf	
 4uch	8qx	80
 3race	8qy	80
 6t	8qz	c0
+7ile testicle	yug	
 4eat	8r0	fc
+7 route	yuh	
 5nch	8r1	80
 8ment	8r2	80
 4ibution	8r3	c0
 5eve	8r4	fc
 8r	8r5	40
 4oactive	8r6	80
+5flex sound	yui	
+avowel	yuj	
 5grade	8r7	40
 5spect	8r8	78
 aion	8r9	10
 bve	8ra	50
+d account	yuk	
 3urn	8rb	23
+6 address	yum	
+7books	yun	
+7gift	yuo	
+7journey	yup	
+7of spring	yuq	
+athe emperor	yur	
+eprodigal son	yus	
+8n equity	yut	
+ainvestment	yuu	
+7route	yuv	
+7trip	yuw	
+7visit	yux	
+7with thanks	yul	
+6ing flow	yuy	
+awave	yuz	
 2union	8rc	8
-3se	8rd	2
+3sable chopsticks	yv0	
+4e	8rd	2
+5d cooking oil	yv1	
+3ters group plc	yv2	
+8news agency	yv3	
 2veal	8re	5c
 6ing	8rf	80
 4lation	8rg	f8
@@ -644,11 +1643,34 @@ bve	8ra	50
 4rberate	8rk	c0
 5e	8rl	c0
 6d	8rm	40
+7 figure	yv4	
+9riend	yv5	
+8master	yv6	
+8news	yv7	
+8one of the world	yv8	
 6nce	8rn	40
 7t	8ro	20
+8 and respectful	yv9	
 8ly	8rp	40
 5ie	8rq	80
 5se	8rr	fc
+7 direction	yva	
+8engineering	yvb	
+8fault	yvc	
+9low	yvd	
+8gear	yve	
+8order	yvf	
+9smosis	yvg	
+8psychology	yvh	
+8reaction	yvi	
+8side	yvj	
+8transcriptase	yvk	
+iion	yvl	
+l virus	yvm	
+9ype	yvn	
+7d diagonal	yvo	
+9image	yvp	
+9phase	yvq	
 6ible	8rs	40
 7on	8rt	80
 5t	8ru	c0
@@ -656,7 +1678,12 @@ bve	8ra	50
 6er	8rw	2
 4le	8rx	c0
 4se	8ry	fc
+6d and enlarged edition	yvr	
+8draft	yvs	
+8edition	yvt	
+8version	yvu	
 5ion	8rz	6a
+8 history	yvv	
 4talization	8s0	40
 9e	8s1	80
 4val	8s2	40
@@ -664,196 +1691,890 @@ bve	8ra	50
 3ocation of of patent	bl7	
 4ke	8s4	40
 4lt	8s5	fc
+6ing behavior	yvw	
 5ution	8s6	5e
 aary	8s7	5c
 aize	8s8	40
 5ve	8s9	38
+6ing door	yvx	
+afund	yvy	
 3ue	8sa	80
 4lsion	8sb	80
 2ward	8sc	fe
+6 and punishment	yvz	
 6ing	8sd	80
+6s and penalties	yw0	
 3ind	8se	2
 3rite	8sf	2
-1hapsody	8sg	80
-2etoric	8sh	e0
-2inestone	8si	80
+2ynolds number	yw1	
+1f tuner	yw2	
+1h-negative blood type	yw3	
+2apsody	8sg	80
+2ea americana	yw4	
+3sus macaque	yw5	
+8onkey	yw6	
+3toric	8sh	e0
+8al language	yw7	
+bquestion	yw8	
+3umatic fever	yw9	
+7oid arthritis	ywa	
+bfactor	ywb	
+2ine river	ywc	
+5stone	8si	80
 4oceros	8sj	40
+a auklet	ywd	
+bbeetle	ywe	
+2odeus ocellatus	ywf	
+3mbus of michaelis	ywg	
 2ubarb	8sk	80
 2yme	8sl	82
+5 and rhythm	ywh	
+atone	ywi	
+6entry	ywj	
+6for remembering	ywk	
+6group	ywl	
+6scheme	ywm	
+5d language	ywn	
+4ing couplet	ywo	
+8verse	ywp	
 3thm	8sm	7c
 6ic	8sn	c0
+8 declamation	ywq	
+9gymnastics	ywr	
 8al	8so	40
+3zome of anemarrhena	yws	
 1ib	8sp	9c
+3 collar	ywt	
+4meat	ywu	
+4top of socks	ywv	
+3-eye steak	yww	
 3ald	8sq	80
-3bon	8sr	7c
+3bed pattern	ywx	
+4on	8sr	7c
+6 cable	ywy	
+7lap machine	ywz	
+3onucleic acid	yx0	
 2ce	8ss	23
+4 and noodles	yx1	
+6u gratin	yx2	
+5ball	yx3	
+6owl	yx4	
+5cereal for infants	yx5	
+6ooker	yx6	
+6racker	yx7	
+6ultivation	yx8	
+5dishes	yx9	
+5ear	yxa	
+5flour	yxb	
+a meat	yxc	
+5granary	yxd	
+5husk	yxe	
+5krispies	yxf	
+5milk	yxg	
+8ling machine	yxh	
+5paddle	yxi	
+9y	yxj	
+7per	yxk	
+5seedling	yxl	
+d bed	yxm	
+6traw	yxn	
+5tub	yxo	
+5university	yxp	
+5weevil	yxq	
+6ine	yxr	
+7th bonito flakes	yxs	
+ameat and vegetables	yxt	
+9out meat or vegetables	yxu	
+4-flour noodles	yxv	
+5paper plant	yxw	
 3h	8st	3
-3kety	8su	80
+4 and bright colors	yxx	
+9diverse	yxy	
+9fertile	yxz	
+9important person	yy0	
+dsing	yy1	
+anfluential person	yy2	
+9mellow	yy3	
+9overbearing	yy4	
+9powerful	yy5	
+h family	yy6	
+iperson	yy7	
+9variegated	yy8	
+6ttire	yy9	
+5country	yya	
+5family	yyb	
+7re	yyc	
+7vor	yyd	
+5guy	yye	
+5in	yyf	
+5man	yyg	
+8's son	yyh	
+6erchant	yyi	
+5patriarchal family	yyj	
+6easant	yyk	
+7rson	yyl	
+b's ailment	yym	
+6rovincial	yyn	
+5text	yyo	
+5widow	yyp	
+4ard's pipit	yyq	
+4es and honor	yyr	
+6t individual	yys	
+4ly bedecked	yyt	
+7colorful	yyu	
+7ornamented	yyv	
+7provided	yyw	
+f for	yyx	
+7scented	yyy	
+4ter scale	yyz	
+3kettsia prowazekii	yz0	
+brickettsii	yz1	
+6y	8su	80
+4shaw puller	yz2	
+9room	yz3	
+9seat	yz4	
 2d	8sv	5e
 3 of	bmw	
 3dle	8sw	df
+6d with	yz5	
+c problems	yz6	
+6s written on lanterns	yz7	
 3e	8sx	3
+4 cymbal	yz8	
 4r	8sy	8c
 5s	8sz	20
+6 tired and horses weary	yz9	
 3ge	8t0	fc
+5 corner	yza	
+6line	yzb	
+5pole and beams	yzc	
 3icule	8t1	c8
 7ous	8t2	7e
+a person	yzd	
+cresumption talk	yze	
+btalk	yzf	
+4ng and shooting	yzg	
+7boots	yzh	
+2emann surface	yzi	
+7-roch theorem	yzj	
+7ian geometry	yzk	
+bspace	yzl	
 2fe	8t3	80
 3fle	8t4	80
 4raff	8t5	80
 3le	8t6	dc
+5 grenade	yzm	
 3t	8t7	c0
+4 valley	yzn	
+b fever	yzo	
 2g	8t8	a8
+3ged scale	yzp	
 3ht	8t9	3
+5 and unalterable	yzq	
+awrong	yzr	
+7rrow key	yzs	
+7t the end	yzt	
+7way	yzu	
+6forward	yzv	
+6hand	yzw	
+6in the face	yzx	
+6now	yzy	
+6of abode	yzz	
+attribution	z00	
+9first refusal	z01	
+9inheritance	z02	
+9ownership	z03	
+9way	z04	
+7n schedule	z05	
+6rudder	z06	
+6side	z07	
+7trategy	z08	
+6to know	z09	
+9protection by law	z0a	
+9vote	z0b	
+6under sb's nose	z0c	
+7p to the present	z0d	
+6wing	z0e	
+5-angled triangle	z0f	
+6eyed flounder	z0g	
+6hand man	z0h	
+bside	z0i	
+f of a vehicle	z0j	
+6pointing arrow	z0k	
 5eous	8ta	20
+9 anger	z0l	
+aindignation	z0m	
+aman	z0n	
+astruggle	z0o	
+9ness and justice	z0p	
+5ful owner	z0q	
+5ist deviation	z0r	
+5s and benefits	z0s	
+7to a trademark	z0t	
 3id	8tb	fe
+5 body	z0u	
+6conventions	z0v	
+6frame	z0w	
 5ity	8tc	40
 3marole	8td	80
 3or	8te	c0
+5 mortis	z0x	
 5ous	8tf	78
+8 isolation	z0y	
 4ur	8tg	10
 2le	8th	80
 2m	8ti	78
+3 of the eye	z0z	
+3e dictionary	z10	
 2nd	8tj	80
 3g	8tk	43
+4 around the moon	z11	
+5configuration	z12	
+5finger	z13	
+5of fire	z14	
+5road	z15	
+5surface	z16	
+5toss	z17	
+4-like jade belt pendant	z18	
+5shaped door handle	z19	
+cmountain	z1a	
+4back tone	z1b	
 4let	8tl	80
 3se	8tm	c8
-2ot	8tn	f8
+4ing machine	z1c	
+2o de janeiro	z1d	
+4tinto	z1e	
+3t	8tn	f8
+4 control	z1f	
+5police	z1g	
+5shield	z1h	
+6quad	z1i	
 4ous	8to	80
 2p	8tp	f8
 3e	8tq	5e
 4n	8tr	ce
-3ple	8ts	a8
+5ing in autumn	z1j	
+3ping of fabric	z1k	
+4le	8ts	a8
+6 effect	z1l	
 2se	8tt	1f
+4 and fall	z1m	
+5of water level	z1n	
+6r fall in price	z1o	
+5steeply	z1p	
 3ing	8tu	20
+6 and falling	z1q	
+7in spirals	z1r	
+9tonation	z1s	
+7prices	z1t	
+7star	z1u	
+7tide	z1v	
+8one	z1w	
+8rend	z1x	
 3k	8tv	5f
+4 control	z1y	
+5management	z1z	
+5to one's life	z20	
 4s	8tw	20
 4y	8tx	40
+5 conditions	z21	
 2te	8ty	c0
+4s and music	z22	
 3ual	8tz	f8
+6 dishes	z23	
 2val	8u0	fc
+5 in love	z24	
+6product	z25	
+dions	z26	
 5ry	8u1	c0
 3e	8u2	80
 4n	8u3	80
 4r	8u4	3
+5 bank	z27	
+8sin	z28	
+7ed	z29	
+8nd	z2a	
+7lindness	z2b	
+6channel	z2c	
+7onservancy worker	z2d	
+ms	z2e	
+8urse	z2f	
+7rab	z2g	
+6dolphin	z2h	
+7raining to inland sea	z2i	
+6flow	z2j	
+6god	z2k	
+6in henan	z2l	
+7sland	z2m	
+6lapwing	z2n	
+6mouth	z2o	
+6plain	z2p	
+7ort	z2q	
+6sand	z2r	
+7nail	z2s	
+7ource	z2t	
+7teamer	z2u	
+6tern	z2v	
+7hames	z2w	
+7racing	z2x	
+9nsport	z2y	
+6valley	z2z	
+6water	z30	
 5s	8u5	20
+6 and canals	z31	
+blakes	z32	
+bmountains	z33	
+7of blood	z34	
 4t	8u6	a0
+5 gun	z35	
+5ed joint	z36	
 5ing	8u7	80
 3ulet	8u8	80
 1oad	8u9	23
+4 bridge	z37	
+5closure	z38	
+6ondition	z39	
+8struction	z3a	
+6urve	z3b	
+5direction	z3c	
+5grader	z3d	
+5hub	z3e	
+5maintenance tax	z3f	
+5network	z3g	
+5or railway administration	z3h	
+5race	z3i	
+7ge	z3j	
+6oller	z3k	
+5show or promotional tour	z3l	
+6ign	z3m	
+6urface	z3n	
+5tax	z3o	
+6o ruin	z3p	
+6raffic policing	z3q	
+dsafety	z3r	
+4side banquet	z3s	
+9stall	z3t	
 3m	8ua	68
 3r	8ub	7c
+4 of the wind	z3u	
+4ing drunk	z3v	
+8sea	z3w	
 3st	8uc	7e
+5 chicken	z3x	
+6duck	z3y	
+5ed snacks	z3z	
 2b	8ud	1e
 3 of	bni	
+4peter to pay paul	z40	
 3ber	8ue	2c
+6 baron	z41	
 6y	8uf	c
 3e	8ug	9c
+4 of a buddhist priest	z42	
+3in accentor	z43	
+6hood	z44	
+5ia pseudoacacia	z45	
 3ot	8uh	1f
+5 vacuum	z46	
+5ic arm	z47	
 5s	8ui	20
 3ust	8uj	f8
 2ck	8uk	3f
-4et	8ul	1e
+4 'n roll	z48	
+7' roll	z49	
+5bunting	z4a	
+5candy	z4b	
+7rving	z4c	
+7ve	z4d	
+6limbing	z4e	
+6rystal	z4f	
+5debris from glacier	z4g	
+6ove	z4h	
+6rill	z4i	
+5garden	z4j	
+5music	z4k	
+5painting	z4l	
+6tarmigan	z4m	
+5quarry	z4n	
+5salt	z4o	
+7ndpiper	z4p	
+6parrow	z4q	
+6trata	z4r	
+aum	z4s	
+4-firm and unyielding	z4t	
+6orming mineral	z4u	
+5paper-scissors game	z4v	
+4er arm	z4w	
+5t	8ul	1e
+6 artillery	z4x	
+7fuel	z4y	
+7launcher	z4z	
+6-propelled grenade	z50	
+6ing prices	z51	
+4ing chair	z52	
+8horse	z53	
+4man or mega man	z54	
 4s	8um	20
 4y	8un	40
+5 mountain	z55	
+e valley	z56	
+es	z57	
 2d	8uo	5c
+3 mill	z58	
+4used for flogging offenders	z59	
 3ent	8up	40
 2e	8uq	c0
+3 deer	z5a	
+2gowski coil	z5b	
+3ue state	z5c	
 2il	8ur	80
 3ster	8us	80
 2le	8ut	7f
+4-playing game	z5d	
 3l	8uu	7e
-4er	8uv	e
+4 call	z5e	
+5of film	z5f	
+8honor	z5g	
+5sulfur	z5h	
+4-up banner stand	z5i	
+4e's theorem	z5j	
+5d oats	z5k	
+6-up pastry	z5l	
+5r	8uv	e
+6 ball pen	z5m	
+8earing	z5n	
+8lades	z5o	
+bing	z5p	
+7coaster	z5q	
+7shutter	z5r	
+8kates	z5s	
+bing	z5t	
+6ball pen	z5u	
 4icking	8uw	80
+5ng motion	z5v	
+8pin	z5w	
+8steel	z5x	
+aone	z5y	
+9uitcase	z5z	
+4s of dried soymilk cream	z60	
+3y-poly toy	z61	
 0Roman	8ux	c
-0romance	8uy	58
+0roman alphabet	z62	
+6catholicism	z63	
+6empire	z64	
+6law	z65	
+7etters	z66	
+6nose	z67	
+7umerals	z68	
+6sandals	z69	
+5-style sandals	z6a	
+5ce	8uy	58
+7 film	z6b	
+8is in the air	z6c	
+8language family	z6d	
+8novel	z6e	
+5ian language	z6f	
 5tic	8uz	1c
+8 affair	z6g	
+9comedy	z6h	
+buple's world	z6i	
+9fiction	z6j	
+9heartbreak	z6k	
+9love	z6l	
+2nald mcdonald	z6m	
 2of	8v0	5e
+4 beam	z6n	
+5fall	z6o	
+5of the mouth	z6p	
+5plate	z6q	
+5rack	z6r	
+6idge	z6s	
+4top garden	z6t	
+3ibos tea	z6u	
 3kie	8v1	80
 3m	8v2	23
+4 and board	z6v	
+5card	z6w	
+6harge	z6x	
+b in a hotel	z6y	
+5for maneuver	z6z	
+5in the wings	z70	
+5service	z71	
+5temperature	z72	
+6iles	z73	
+6o maneuver	z74	
+5with private bathroom	z75	
 4mate	8v3	20
 3st	8v4	40
 5er	8v5	4a
 3t	8v6	1e
+4 beer	z76	
+5canal therapy	z77	
+7use	z78	
+5directory	z79	
+5mean square	z7a	
+5nodule	z7b	
+5of a tooth	z7c	
+8chinese pulsatilla	z7d	
+gthorowax	z7e	
+aord	z7f	
+8dahurian angelica	z7g	
+8isatis tinctoria	z7h	
+8ningpo figwort	z7i	
+8the nose	z7j	
+ctrouble	z7k	
+9ooth	z7l	
+8unity	z7m	
+8vladimiria souliei	z7n	
+5stock	z7o	
+6ystem	z7p	
+5tuber	z7q	
 2pe	8v7	5f
-2se	8v8	1f
+4 ladder	z7r	
+5of palm fiber	z7s	
+2sary beads	z7t	
+3e	8v8	1f
+4 acacia	z7u	
+6pple	z7v	
+5flower	z7w	
+5hip	z7x	
+5moss	z7y	
+6yrtle	z7z	
+4-ringed parakeet	z80	
+4ate tern	z81	
+4tta stone	z82	
+6e bok choy	z83	
+3s's gull	z84	
 3ter	8v9	80
 4rum	8va	80
 3y	8vb	80
+4 cheeks	z85	
+6louds	z86	
+5minivet	z87	
+5pipit	z88	
+5starling	z89	
 2t	8vc	7e
 3ary	8vd	1c
+6 club	z8a	
+7drum	z8b	
+7electrical interface	z8c	
+7grindstone	z8d	
+7hammer	z8e	
+7motion	z8f	
 4te	8ve	fc
-5ion	8vf	4c
+5ing appointment	z8g	
+9dial	z8h	
+bsk	z8i	
+9flow	z8j	
+9platform	z8k	
+9stage	z8l	
+9turret	z8m	
+6on	8vf	4c
+8 grazing	z8n	
+9of crops	z8o	
+8al angular velocity	z8p	
+bsymmetry	z8q	
 3e	8vg	c0
+4 learning	z8r	
+3or sail	z8s	
+7luice gate	z8t	
+6wing	z8u	
 3ten	8vh	dc
+6 apple	z8v	
+7to the core	z8w	
+7wood	z8x	
 3und	8vi	80
-2ugh	8vj	7e
+2uge and powder	z8y	
+awhite lead	z8z	
+4h	8vj	7e
+5 and ready	z90	
+f outfit	z91	
+6collie	z92	
+7ut	z93	
+6drawing	z94	
+6endoplasmic reticulum	z95	
+7stimate	z96	
+6gentian	z97	
+6lumber	z98	
+6sketch	z99	
+7traw paper	z9a	
+5-and-ready method	z9b	
+6legged buzzard	z9c	
+6textured fabric of waste silk	z9d	
 5en	8vk	80
 5ly	8vl	5c
+7 comparable	z9e	
+8the same	z9f	
 3nd	8vm	3
+5 and bulging	z9g	
+afat	z9h	
+aplump	z9i	
+6dance	z9j	
+6figure	z9k	
+7lat bread	z9l	
+7rame of a sieve	z9m	
+6herring	z9n	
+7ole	z9o	
+6neck	z9p	
+6silk fan	z9q	
+6table	z9r	
+b conference	z9s	
+6white cabbage	z9t	
+7indow	z9u	
+5-bottomed wicker basket	z9v	
+6grained nonglutinous rice	z9w	
+6robin tournament	z9x	
+6trip flight	z9y	
+bticket	z9z	
 5about	8vn	9a
+a route	za0	
 5ed	8vo	40
+7 embroidery design	za1	
 3se	8vp	3c
+5d to warm feelings	za2	
 3t	8vq	80
 4e	8vr	3c
+5 for providing foodstuff	za3	
+6step	za4	
+5d troops	za5	
 4ine	8vs	7e
+7 business	za6	
 7ly	8vt	40
+6g protocol	za7	
+gs	za8	
 2ve	8vu	80
+4 beetle	za9	
+3ing bandit	zaa	
 2w	8vv	5f
+3 house	zab	
+4spacing	zac	
+4upon row	zad	
+3an or mountain-ash	zae	
 3dy	8vw	80
+5 jeering	zaf	
+3ing boat	zag	
+7competition	zah	
+7machine	zai	
 3s	8vx	20
+2xanne or roxane or rosanna	zaj	
 2yal	8vy	3e
+5 canadian navy	zak	
+8ribbean cruise lines	zal	
+7rown	zam	
+6eagle	zan	
+6family	zao	
+7lush	zap	
+6hong kong police force	zaq	
+8usehold	zar	
+6jelly	zas	
+6kin	zat	
+6navy	zau	
+6poinciana	zav	
+8wer	zaw	
+6society	zax	
+6title	zay	
 5ty	8vz	98
+1pm gauge	zaz	
+1t mart	zb0	
 1ub	8w0	7c
 3ber	8w1	3f
+6 ball	zb1	
+9nd	zb2	
+8oots	zb3	
+7dinghy	zb4	
+7or leg	zb5	
+7ring	zb6	
+7shoes or boots	zb7	
+8tamp	zb8	
+7tape	zb9	
+8ire	zba	
+8ree	zbb	
+6ized fabric	zbc	
 6y	8w2	40
-4ish	8w3	7f
+4ing of inscription	zbd	
+7s from a tablet	zbe	
+5sh	8w3	7f
+7 bin	zbf	
+8can	zbg	
 4le	8w4	c0
 3icund	8w5	80
+4k's cube	zbh	
 3y	8w6	18
+4-cheeked sunbird	zbi	
 2ck	8w7	80
 4sack	8w8	80
 2dder	8w9	80
 4y	8wa	80
+5 kingfisher	zbj	
+6shelduck	zbk	
+6turnstone	zbl	
+5-breasted crake	zbm	
 3e	8wb	1e
+4 and forthright	zbn	
+9unreasonable	zbo	
+9violent	zbp	
+5words	zbq	
 3imentary	8wc	c0
 2e	8wd	80
-2ffian	8we	c0
+2fescent prinia	zbr	
+3fian	8we	c0
 4le	8wf	e0
+3ous hawk-cuckoo	zbs	
+7sibia	zbt	
+7treepie	zbu	
+7woodpecker	zbv	
+6-backed sibia	zbw	
+8ellied eagle	zbx	
+fniltava	zby	
+fwoodpecker	zbz	
+8reasted accentor	zc0	
+gbush robin	zc1	
+7capped babbler	zc2	
+8heeked laughingthrush	zc3	
+9inned laughingthrush	zc4	
+8rowned laughingthrush	zc5	
+7faced warbler	zc6	
+8ronted babbler	zc7	
+gushtit	zc8	
+7gorgeted flycatcher	zc9	
+7headed parrotbill	zca	
+erobin	zcb	
+7naped tit	zcc	
+8ecked hornbill	zcd	
+elaughingthrush	zce	
+esnowfinch	zcf	
+7tailed babbler	zcg	
+erobin	zch	
+escrub robin	zci	
+8hroated fulvetta	zcj	
+gpartridge	zck	
+gwren-babbler	zcl	
+7vented laughingthrush	zcm	
+etit	zcn	
+eyuhina	zco	
+7winged buzzard	zcp	
+efulvetta	zcq	
 2g	8wg	1c
 3by	8wh	2
+5 school in england	zcr	
 3ged	8wi	40
+3osa rose	zcs	
 2in	8wj	5e
+4ed at a stroke	zct	
+7in a short time	zcu	
+7wall	zcv	
+bs	zcw	
 4ous	8wk	60
 4s	8wl	40
 2le	8wm	7f
+4 by might	zcx	
+8setting virtuous example	zcy	
+8virtue	zcz	
+5no longer in force	zd0	
+5of law	zd1	
+8man	zd2	
+8thumb	zd3	
 4r	8wn	1f
+5 and compass	zd4	
+h construction	zd5	
 4s	8wo	20
-5 of choice of law	bwq	
+5 and discipline	zd6	
+aregulations	zd7	
+6for political staff	zd8	
+6of choice of law	bwq	
+9the game	zd9	
+droad	zda	
+3ing class	zdb	
+7party	zdc	
 2mble	8wp	c0
+5ing noise	zdd	
 3inant	8wq	80
 6te	8wr	c0
 3or	8ws	50
+5s fly	zde	
 4ur	8wt	2c
 3ple	8wu	80
 2n	8wv	3
+3 around parent's knees	zdf	
+4by the local people	zdg	
+bstate	zdh	
+4off	zdi	
+3-time error	zdj	
+3away carriage	zdk	
 3g	8ww	80
+4 of a ladder	zdl	
 3ic	8wx	80
 3ner	8wy	e
+6 bean	zdm	
 4ing	8wz	2
+7 around in circles	zdn	
+9s fast as flying	zdo	
+8between bases	zdp	
+8dog	zdq	
+bs	zdr	
+8in opposite direction	zds	
+8knot	zdt	
+8machine	zdu	
+ate	zdv	
+9ode	zdw	
+8neck and neck	zdx	
+8of armed forces	zdy	
+8shoes	zdz	
+9tyle	ze0	
+8water	ze1	
 3off	8x0	40
 2pture	8x1	e8
+7 strength	ze2	
 2ral	8x2	fc
+5 area	ze3	
+6folk	ze4	
+6migrant without definite prospects	ze5	
+6school	ze6	
 2se	8x3	80
 3h	8x4	5f
+4 basket	ze7	
+5hour	ze8	
+5repairs	ze9	
+5through one's work	zea	
+4ed and muddled	zeb	
+7work leads to errors	zec	
+3set bush warbler	zed	
+7sparrow	zee	
 0Russia	8x5	23
 6n	8x6	3
-0rust	8x7	7c
+0russian aircraft corporation	zef	
+9rmy	zeg	
+8empire	zeh	
+9thnic minority in china	zei	
+8language	zej	
+8roulette	zek	
+3t	8x7	7c
+4 belt	zel	
+5stain	zem	
+4-resistant iron	zen	
 4ic	8x8	c0
+6 bunting	zeo	
+7charm	zep	
 4le	8x9	80
+6 of skirts	zeq	
 6r	8xa	80
+5ing sound	zer	
 4proof	8xb	40
 4y	8xc	4c
+5 laughingthrush	zes	
+6spot	zet	
+5-bellied shortwing	zeu	
+6capped fulvetta	zev	
+7heeked scimitar babbler	zew	
+6flanked treecreeper	zex	
+7ronted barwing	zey	
+6naped pitta	zez	
 2t	8xd	10
+3gers university	zf0	
 3hless	8xe	78
+8 and lacking in conscience	zf1	
 8ness	8xf	80
+1yder cup	zf2	
+2ukyu islands	zf3	
+7robin	zf4	
+7scops owl	zf5	

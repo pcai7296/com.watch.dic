@@ -1,572 +1,572 @@
 0gab	4ca	80
 3ble	4cb	c0
-2c fruit	n9g	
+2c fruit	msf	
 2dfly	4cc	80
 3get	4cd	80
 2ffe	4ce	80
 2g	4cf	40
-3 order	n9h	
+3 order	msg	
 3e	4cg	40
 3gle	4ch	80
-2i county in liaoning	n9i	
-4larn	n9j	
+2i county in liaoning	msh	
+4larn	msi	
 3ety	4ci	80
 3ly	4cj	20
 3n	4ck	1e
 4ful	4cl	40
-4s and losses	n9k	
+4s and losses	msj	
 5ay	4cm	c0
 3t	4cn	c0
-2lactic disc	n9l	
-4pagos islands	n9m	
+2lactic disc	msk	
+4pagos islands	msl	
 4xy	4co	f8
 3e	4cp	e2
 3l	4cq	80
 4ant	4cr	c0
 7ry	4cs	40
-4eries and pits	n9n	
+4eries and pits	msm	
 6y	4ct	7e
-7 seat	n9o	
+7 seat	msn	
 5y	4cu	80
-6 proof	n9p	
-4ium arsenide	n9q	
-8nitride	n9r	
+6 proof	mso	
+4ium arsenide	msp	
+8nitride	msq	
 4on	4cv	de
 5p	4cw	90
 5ws	4cx	80
-4stone colic	n9s	
-4us gallus domesticus brisson	n9t	
-3ois theory	n9u	
+4stone colic	msr	
+4us gallus domesticus brisson	mss	
+3ois theory	mst	
 3vanization	4cy	40
 8e	4cz	c0
-9d iron	n9v	
-f sheet	n9w	
+9d iron	msu	
+f sheet	msv	
 2mble	4d0	b8
-6rs' den	n9x	
-5ing addict	n9y	
-9chip	n9z	
-9get-together	na0	
-9house	na1	
-9joint	na2	
-9party	na3	
+6rs' den	msw	
+5ing addict	msx	
+9chip	msy	
+9get-together	msz	
+9house	mt0	
+9joint	mt1	
+9party	mt2	
 4ol	4d1	c0
 3e	4d2	3
-4 controller	na4	
-5of chance	na5	
-8thrones	na6	
-5theory	na7	
-3ing device	na8	
+4 controller	mt3	
+5of chance	mt4	
+8thrones	mt5	
+5theory	mt6	
+3ing device	mt7	
 3ma	4d3	40
-5 radiation	na9	
-8y	naa	
-9s	nab	
-3psocleis genus	nac	
-csinensis	nad	
+5 radiation	mt8	
+8y	mt9	
+9s	mta	
+3psocleis genus	mtb	
+csinensis	mtc	
 3ut	4d4	80
 2nder	4d5	80
 3g	4d6	3c
-4 fight	nae	
-5leader	naf	
-5member	nag	
-5of bandits	nah	
-8hoodlums	nai	
-5rape	naj	
-4-related case	nak	
-4es river	nal	
+4 fight	mtd	
+5leader	mte	
+5member	mtf	
+5of bandits	mtg	
+8hoodlums	mth	
+5rape	mti	
+4-related case	mtj	
+4es river	mtk	
 4ling	4d7	80
 5y	4d8	80
 4rene	4d9	80
 4ster	4da	48
 4way	4db	80
-3su leaf warbler	nam	
-3try traveling crane	nan	
+3su leaf warbler	mtl	
+3try traveling crane	mtm	
 2ol	4dc	38
 2p	4dd	7c
-3 between teeth	nao	
-dwo objects	nap	
-4caused by missing teeth	naq	
-4in coverage	nar	
-7protection or defenses	nas	
+3 between teeth	mtn	
+dwo objects	mto	
+4caused by missing teeth	mtp	
+4in coverage	mtq	
+7protection or defenses	mtr	
 3e	4de	e0
-3ing and speechless	nat	
+3ing and speechless	mts	
 2rage	4df	3e
-6 kit	nau	
-7place	nav	
+6 kit	mtt	
+7place	mtu	
 3b	4dg	40
 4age	4dh	7e
-7 can	naw	
-9ollection point	nax	
-for	nay	
-8heap	naz	
-8truck	nb0	
-5nzo bean	nb1	
+7 can	mtv	
+9ollection point	mtw	
+for	mtx	
+8heap	mty	
+8truck	mtz	
+5nzo bean	mu0	
 4le	4di	80
 6d	4dj	80
 3den	4dk	23
-6 area	nb2	
-7fork	nb3	
-7nasturtium	nb4	
-7of eden	nb5	
-agethsemane	nb6	
-7plot	nb7	
-7sunbird	nb8	
+6 area	mu1	
+7fork	mu2	
+7nasturtium	mu3	
+7of eden	mu4	
+agethsemane	mu5	
+7plot	mu6	
+7sunbird	mu7	
 6er	4dl	c
 6ia	4dm	80
 7ng	4dn	2
 3gantuan	4do	80
 4oyle	4dp	80
 3ish	4dq	80
-6 and beautiful	nb9	
+6 and beautiful	mu8	
 3land	4dr	80
 4ic	4ds	1a
-6 bulb	nba	
-7clove	nbb	
-7odor	nbc	
-7paste	nbd	
-8ress	nbe	
-7sauce	nbf	
-8hoots	nbg	
-d and leaves	nbh	
+6 bulb	mu9	
+7clove	mua	
+7odor	mub	
+7paste	muc	
+8ress	mud	
+7sauce	mue	
+8hoots	muf	
+d and leaves	mug	
 3ment	4dt	fa
-7 steamer	nbi	
+7 steamer	muh	
 3ner	4du	c0
 4ish	4dv	c0
 3ret	4dw	80
-4ison area	nbj	
-9commander	nbk	
-9soldier	nbl	
-9trumpet call	nbm	
+4ison area	mui	
+9commander	muj	
+9soldier	muk	
+9trumpet call	mul	
 4ulity	4dx	c0
 6ous	4dy	c0
-9 and sharp-tongued	nbn	
+9 and sharp-tongued	mum	
 2s	4dz	16
-3 coal	nbo	
-5ylinder	nbp	
-4field	nbq	
-6red power station	nbr	
-4guzzler	nbs	
-4heating	nbt	
-5older	nbu	
-4lamp	nbv	
-4mask	nbw	
-4or air outlet	nbx	
-4pedal	nby	
-5ipe	nbz	
-5rojectile	nc0	
-4station	nc1	
-b attendant	nc2	
-6orage	nc3	
-4tank	nc4	
-5urbine	nc5	
-4valve	nc6	
-4welding	nc7	
-3-cooled reactor	nc8	
-4protection boots	nc9	
+3 coal	mun	
+5ylinder	muo	
+4field	mup	
+6red power station	muq	
+4guzzler	mur	
+4heating	mus	
+5older	mut	
+4lamp	muu	
+4mask	muv	
+4or air outlet	muw	
+4pedal	mux	
+5ipe	muy	
+5rojectile	muz	
+4station	mv0	
+b attendant	mv1	
+6orage	mv2	
+4tank	mv3	
+5urbine	mv4	
+4valve	mv5	
+4welding	mv6	
+3-cooled reactor	mv7	
+4protection boots	mv8	
 3eous	4e0	cc
-7 diffusion	nca	
-8state	ncb	
+7 diffusion	mv9	
+8state	mva	
 3h	4e1	c0
 3ification	4e2	80
 3oline	4e3	5c
-8 and diesel oil	ncc	
-9engine	ncd	
-9vehicle	nce	
+8 and diesel oil	mvb	
+9engine	mvc	
+9vehicle	mvd	
 3p	4e4	7c
 3tric	4e5	80
-7 acid	ncf	
-8bypass	ncg	
-8fluid	nch	
-8pits	nci	
-9ouch	ncj	
+7 acid	mve	
+8bypass	mvf	
+8fluid	mvg	
+8pits	mvh	
+9ouch	mvi	
 6tis	4e6	80
-5ocnemius muscle	nck	
-6dia elata	ncl	
-6intestinal tract	ncm	
+5ocnemius muscle	mvj	
+6dia elata	mvk	
+6intestinal tract	mvl	
 6nomy	4e7	80
 2te	4e8	3
-4 to enlightment	ncn	
+4 to enlightment	mvm	
 3her	4e9	1e
 6ing	4ea	8
-9 darkness	nco	
-busk	ncp	
-aplace	ncq	
-3ling gun	ncr	
+9 darkness	mvn	
+busk	mvo	
+aplace	mvp	
+3ling gun	mvq	
 2uche	4eb	c0
 6rie	4ec	80
 3dy	4ed	a0
 3ge	4ee	fc
-3lish or gallic	ncs	
+3lish or gallic	mvr	
 3nt	4ef	a0
-3ssian distribution	nct	
-3ze hat	ncu	
-7eadscarf or veil	ncv	
-6mask	ncw	
+3ssian distribution	mvs	
+3ze hat	mvt	
+7eadscarf or veil	mvu	
+6mask	mvv	
 2vel	4eg	80
 2y	4eh	1e
-3 guy	ncx	
-4love	ncy	
-4marriage	ncz	
-4partner	nd0	
-5erson	nd1	
-2za strip	nd2	
+3 guy	mvw	
+4love	mvx	
+4marriage	mvy	
+4partner	mvz	
+5erson	mw0	
+2za strip	mw1	
 3e	4ei	dc
 4tte	4ej	40
 7er	4ek	80
-3ing fixedly	nd3	
+3ing fixedly	mw2	
 1ear	4el	fc
-4 change	nd4	
-5drive	nd5	
-5hob	nd6	
-5lever	nd7	
-5ratio	nd8	
-5shift	nd9	
-5tooth	nda	
-4ed to practical situations	ndb	
-2ier or gayer	ndc	
-3ger counter	ndd	
-2ju sect of tibetan buddhist	nde	
-2l ink pen	ndf	
-3ao ethnic group	ndg	
-4tin dessert	ndh	
-7ous matter	ndi	
-3ugpa school of tibetan buddhism	ndj	
+4 change	mw3	
+5drive	mw4	
+5hob	mw5	
+5lever	mw6	
+5ratio	mw7	
+5shift	mw8	
+5tooth	mw9	
+4ed to practical situations	mwa	
+2ier or gayer	mwb	
+3ger counter	mwc	
+2ju sect of tibetan buddhist	mwd	
+2l ink pen	mwe	
+3ao ethnic group	mwf	
+4tin dessert	mwg	
+7ous matter	mwh	
+3ugpa school of tibetan buddhism	mwi	
 2m	4em	c0
-3s of wisdom	ndk	
+3s of wisdom	mwj	
 4tone	4en	40
 2nder	4eo	30
-6 dysphoria	ndl	
-7identity disorder	ndm	
-7role	ndn	
+6 dysphoria	mwk	
+7identity disorder	mwl	
+7role	mwm	
 3e	4ep	b4
-4 bank	ndo	
-5technology	ndp	
-6herapy	ndq	
-4alogical record	ndr	
+4 bank	mwn	
+5technology	mwo	
+6herapy	mwp	
+4alogical record	mwq	
 9st	4eq	10
 8y	4er	80
 4ral	4es	7f
-7 academic senior high school	nds	
-9dministration of customs	ndt	
-9nesthesia	ndu	
-9rmaments department	ndv	
-9ssembly	ndw	
-9viation	ndx	
-8collection	ndy	
-angress	ndz	
-aunsel	ne0	
-brse	ne1	
-9ulture	ne2	
-arriculum	ne3	
-8designation	ne4	
-9iscussion	ne5	
-8education	ne6	
-h course	ne7	
-jurriculum	ne8	
-9lection	ne9	
-dric	nea	
-9mergency	neb	
-9xposition	nec	
-8headquarters	ned	
-9istory of a county	nee	
-9ospital	nef	
-8idea	neg	
-9mpressions	neh	
-9nvestigation	nei	
-8knowledge	nej	
-8layout	nek	
-9ogistics department	nel	
-8manager	nem	
-atters	nen	
-9eeting	neo	
-archandise	nep	
-9iddle school	neq	
-9obilization	ner	
-aod	nes	
-ators	net	
-8office	neu	
-9utline	nev	
-9verview	new	
-8pardon	nex	
-9lan	ney	
-9olicy	nez	
-ctical department	nf0	
-9ractitioner	nf1	
-ainciple	nf2	
-8relativity	nf3	
-9ule	nf4	
-8scholastic ability test	nf5	
-9ecretary	nf6	
-anse	nf7	
-9hareholders' meeting	nf8	
-9ituation	nf9	
-9taff headquarters	nfa	
-aore	nfb	
-9urgery	nfc	
-bvey	nfd	
-8tenor	nfe	
-arm	nff	
-c for scoundrel	nfg	
-iquids	nfh	
-9rade	nfi	
-auth	nfj	
+7 academic senior high school	mwr	
+9dministration of customs	mws	
+9nesthesia	mwt	
+9rmaments department	mwu	
+9ssembly	mwv	
+9viation	mww	
+8collection	mwx	
+angress	mwy	
+aunsel	mwz	
+brse	mx0	
+9ulture	mx1	
+arriculum	mx2	
+8designation	mx3	
+9iscussion	mx4	
+8education	mx5	
+h course	mx6	
+jurriculum	mx7	
+9lection	mx8	
+dric	mx9	
+9mergency	mxa	
+9xposition	mxb	
+8headquarters	mxc	
+9istory of a county	mxd	
+9ospital	mxe	
+8idea	mxf	
+9mpressions	mxg	
+9nvestigation	mxh	
+8knowledge	mxi	
+8layout	mxj	
+9ogistics department	mxk	
+8manager	mxl	
+atters	mxm	
+9eeting	mxn	
+archandise	mxo	
+9iddle school	mxp	
+9obilization	mxq	
+aod	mxr	
+ators	mxs	
+8office	mxt	
+9utline	mxu	
+9verview	mxv	
+8pardon	mxw	
+9lan	mxx	
+9olicy	mxy	
+ctical department	mxz	
+9ractitioner	my0	
+ainciple	my1	
+8relativity	my2	
+9ule	my3	
+8scholastic ability test	my4	
+9ecretary	my5	
+anse	my6	
+9hareholders' meeting	my7	
+9ituation	my8	
+9taff headquarters	my9	
+aore	mya	
+9urgery	myb	
+bvey	myc	
+8tenor	myd	
+arm	mye	
+c for scoundrel	myf	
+iquids	myg	
+9rade	myh	
+auth	myi	
 7ity	4et	80
 8zation	4eu	48
 9e	4ev	f8
-ad anxiety disorder	nfk	
+ad anxiety disorder	myj	
 7ly	4ew	4c
-9 accepted view	nfl	
-aspeaking	nfm	
+9 accepted view	myk	
+aspeaking	myl	
 6te	4ex	fc
-7ing function	nfn	
-bline	nfo	
+7ing function	mym	
+bline	myn	
 8on	4ey	9e
-a after generation	nfp	
-cnd age ranking	nfq	
-bgap	nfr	
-bof ideas	nfs	
-by	nft	
-aal change	nfu	
+a after generation	myo	
+cnd age ranking	myp	
+bgap	myq	
+bof ideas	myr	
+by	mys	
+aal change	myt	
 7or	4ez	9c
 5ic	4f0	a0
-7 term	nfv	
-c for a knight-errant	nfw	
-hpottery	nfx	
+7 term	myu	
+c for a knight-errant	myv	
+hpottery	myw	
 5osity	4f1	88
 6us	4f2	7e
-8 and forgiving	nfy	
-9friendship	nfz	
-9gift	ng0	
-ds	ng1	
-9reward	ng2	
-9treatment	ng3	
+8 and forgiving	myx	
+9friendship	myy	
+9gift	myz	
+ds	mz0	
+9reward	mz1	
+9treatment	mz2	
 4sis	4f3	c0
 4tic	4f4	f4
-7 code	ng4	
-8disorder	ng5	
-8engineering	ng6	
-8information	ng7	
-8material	ng8	
-9odification	ng9	
-9utation	nga	
+7 code	mz3	
+8disorder	mz4	
+8engineering	mz5	
+8information	mz6	
+8material	mz7	
+9odification	mz8	
+9utation	mz9	
 7ally	4f5	40
-b modified food	ngb	
+b modified food	mza	
 7s	4f6	c8
 3ial	4f7	e0
-4tal wart	ngc	
-5ive case	ngd	
+4tal wart	mzb	
+5ive case	mzc	
 4us	4f8	7c
-6 loci	nge	
+6 loci	mzd	
 3ome	4f9	80
 3re	4fa	c0
-5 of writing	ngf	
+5 of writing	mze	
 3teel	4fb	c0
-4ian violet	ngg	
+4ian violet	mzf	
 5lity	4fc	40
 4le	4fd	fe
-6 and agreeable	ngh	
-bbeautiful	ngi	
-bkind	ngj	
-blovely	ngk	
-bquiet	ngl	
-brefined	ngm	
-dserved	ngn	
-7feelings	ngo	
-7laughter	ngp	
-7stick moxibustion	ngq	
-7wind and warm sunshine	ngr	
+6 and agreeable	mzg	
+bbeautiful	mzh	
+bkind	mzi	
+blovely	mzj	
+bquiet	mzk	
+brefined	mzl	
+dserved	mzm	
+7feelings	mzn	
+7laughter	mzo	
+7stick moxibustion	mzp	
+7wind and warm sunshine	mzq	
 6man	4fe	1f
 5y	4ff	1c
 4ry	4fg	c0
 3uflect	4fh	80
 4ine	4fi	fc
-7 goods at fair prices	ngs	
-8leather	ngt	
-8or fake	ngu	
-8people and true events	ngv	
-9hotograph	ngw	
-8reason	ngx	
-8talent	ngy	
-8work	ngz	
+7 goods at fair prices	mzr	
+8leather	mzs	
+8or fake	mzt	
+8people and true events	mzu	
+9hotograph	mzv	
+8reason	mzw	
+8talent	mzx	
+8work	mzy	
 4s	4fj	c0
-5 allium	nh0	
-7rtocarpus	nh1	
-6brassica	nh2	
-6carex	nh3	
-7ebidae	nh4	
-6lycium	nh5	
-6perilla	nh6	
-6rhizobium	nh7	
-7uta	nh8	
-6tyrannosaurus	nh9	
-2ocentric latitude	nha	
-btheory	nhb	
-3desic curvature	nhc	
+5 allium	mzz	
+7rtocarpus	n00	
+6brassica	n01	
+6carex	n02	
+7ebidae	n03	
+6lycium	n04	
+6perilla	n05	
+6rhizobium	n06	
+7uta	n07	
+6tyrannosaurus	n08	
+2ocentric latitude	n09	
+btheory	n0a	
+3desic curvature	n0b	
 3graphic	4fk	60
-a latitude	nhd	
-bpole	nhe	
-bsituation	nhf	
+a latitude	n0c	
+bpole	n0d	
+bsituation	n0e	
 aal	4fl	8
-c area of command	nhg	
-dlocation	nhh	
+c area of command	n0f	
+dlocation	n0g	
 8y	4fm	3f
 3logic	4fn	40
-8al fault line	nhi	
-bhistory	nhj	
-btime scale	nhk	
+8al fault line	n0h	
+bhistory	n0i	
+btime scale	n0j	
 6y	4fo	3c
 3magnetic	4fp	40
-b storm	nhl	
+b storm	n0k	
 4etric	4fq	40
-9 figure	nhm	
-amean	nhn	
-aoptics	nho	
-aprogression	nhp	
-aquantity	nhq	
-aseries	nhr	
-atopology	nhs	
+9 figure	n0l	
+amean	n0m	
+aoptics	n0n	
+aprogression	n0o	
+aquantity	n0p	
+aseries	n0q	
+atopology	n0r	
 9al	4fr	8
 9ian	4fs	80
 7y	4ft	7e
-3rge i of great brittain	nht	
-3stationary orbit	nhu	
-esatellite	nhv	
-4ynchronous orbit	nhw	
-fsatellite	nhx	
-3technical engineering	nhy	
-4hermal electric power station	nhz	
-cnergy	ni0	
-bheat	ni1	
-bresources	ni2	
+3rge i of great brittain	n0s	
+3stationary orbit	n0t	
+esatellite	n0u	
+4ynchronous orbit	n0v	
+fsatellite	n0w	
+3technical engineering	n0x	
+4hermal electric power station	n0y	
+cnergy	n0z	
+bheat	n10	
+bresources	n11	
 2rm	4fu	fc
-4 layer	ni3	
-5warfare	ni4	
-4ain's swiftlet	ni5	
+4 layer	n12	
+5warfare	n13	
+4ain's swiftlet	n14	
 0German	4fv	2e
-0german academic exchange service	ni6	
-7bundesland	ni7	
-7federation	ni8	
-7institute for standardization	ni9	
-7mark	nia	
-8easles	nib	
-7person or people	nic	
-7shepherd	nid	
-f dog	nie	
+0german academic exchange service	n15	
+7bundesland	n16	
+7federation	n17	
+7institute for standardization	n18	
+7mark	n19	
+8easles	n1a	
+7person or people	n1b	
+7shepherd	n1c	
+f dog	n1d	
 6e	4fw	c0
-6ic language	nif	
+6ic language	n1e	
 0Germany	4fx	2e
 0germicide	4fy	80
 5nate	4fz	c0
-4line cell	nig	
+4line cell	n1f	
 3ontocracy	4g0	80
 7logy	4g1	80
 3rymander	4g2	80
-2stalt psychology	nih	
-etherapy	nii	
-8test	nij	
-9herapy	nik	
+2stalt psychology	n1g	
+etherapy	n1h	
+8test	n1i	
+9herapy	n1j	
 5te	4g3	80
-6ional age	nil	
+6ional age	n1k	
 4iculate	4g4	80
 4ure	4g5	bf
-7s in opera	nim	
+7s in opera	n1l	
 2t	4g6	23
-3ting away with it	nin	
-8killed	nio	
+3ting away with it	n1m	
+8killed	n1n	
 2yser	4g7	80
 1hastly	4g8	a0
-2etto blaster	nip	
-2illie suit	niq	
+2etto blaster	n1o	
+2illie suit	n1p	
 2ost	4g9	14
-5 marriage	nir	
-7ovie	nis	
-6story	nit	
-6town	niu	
-6world	niv	
-5writer or substitute calligrapher	niw	
-3uls and bogies	nix	
+5 marriage	n1q	
+7ovie	n1r	
+6story	n1s	
+6town	n1t	
+6world	n1u	
+5writer or substitute calligrapher	n1v	
+3uls and bogies	n1w	
 1iant	4ga	5c
-5 african snail	niy	
-6babax	niz	
-6clam	nj0	
-6grouper	nj1	
-6laughingthrush	nj2	
-6oarfish	nj3	
-6panda	nj4	
-6salamander	nj5	
-7tag beetle	nj6	
-9r	nj7	
-8one arrangement	nj8	
-6taro	nj9	
+5 african snail	n1x	
+6babax	n1y	
+6clam	n1z	
+6grouper	n20	
+6laughingthrush	n21	
+6oarfish	n22	
+6panda	n23	
+6salamander	n24	
+7tag beetle	n25	
+9r	n26	
+8one arrangement	n27	
+6taro	n28	
 2bbon	4gb	40
-4s free energy	nja	
+4s free energy	n29	
 3e	4gc	c0
 2ddy	4gd	80
 2ft	4ge	3
-4 as thanks	njb	
-5coupon	njc	
-5from above	njd	
-5money	nje	
-5of fruit or pastries	njf	
-5voucher	njg	
+4 as thanks	n2a	
+5coupon	n2b	
+5from above	n2c	
+5money	n2d	
+5of fruit or pastries	n2e	
+5voucher	n2f	
 4ed	4gf	42
-6 child	njh	
-7or skillful writing	nji	
-7scholar	njj	
-2g economy	njk	
-3a electron volt gev	njl	
+6 child	n2g	
+7or skillful writing	n2h	
+7scholar	n2i	
+2g economy	n2j	
+3a electron volt gev	n2k	
 4ntic	4gg	78
-8 dragon	njm	
-9in stature	njn	
-6oraptor erlianensis	njo	
+8 dragon	n2l	
+9in stature	n2m	
+6oraptor erlianensis	n2n	
 3gle	4gh	b0
-5ing noise	njp	
-2lbert islands	njq	
-7's syndrome	njr	
+5ing noise	n2o	
+2lbert islands	n2p	
+7's syndrome	n2q	
 3d	4gi	c0
-4ed silverware	njs	
+4ed silverware	n2r	
 4ing	4gj	40
-7 the lily	njt	
-3l slit	nju	
-3t-edged securities	njv	
-ctock	njw	
+7 the lily	n2s	
+3l slit	n2t	
+3t-edged securities	n2u	
+ctock	n2v	
 2mmick	4gk	80
-2n and tonic	njx	
+2n and tonic	n2w	
 3ger	4gl	88
-6 ale	njy	
+6 ale	n2x	
 6ly	4gm	80
-4ival disease	njz	
-3i coefficient	nk0	
-3seng and young deer antler	nk1	
+4ival disease	n2y	
+3i coefficient	n2z	
+3seng and young deer antler	n30	
 2raffe	4gn	3
 3der	4go	c0
 4le	4gp	c0
-3ella punctata	nk2	
+3ella punctata	n31	
 3l	4gq	3
-4 delinquent	nk3	
-5fairy	nk4	
-6rom a wealthy family	nk5	
-athe mainland	nk6	
-5group	nk7	
+4 delinquent	n32	
+5fairy	n33	
+6rom a wealthy family	n34	
+athe mainland	n35	
+5group	n36	
 4friend	4gr	20
-a of a married man	nk8	
-4s' festival	nk9	
+a of a married man	n37	
+4s' festival	n38	
 3th	4gs	80
 2st	4gt	e0
 2ve	4gu	23
-4 a course	nka	
-5compliments and not remarks	nkb	
+4 a course	n39	
+5compliments and not remarks	n3a	
 5of	bjl	
-4n leave to sue	nkc	
-6to lust	nkd	
-d for women	nke	
-3ing succor to the enemy	nkf	
+4n leave to sue	n3b	
+6to lust	n3c	
+d for women	n3d	
+3ing succor to the enemy	n3e	
 1lacial	4gv	c0
-7 acetic acid	nkg	
-8sediment	nkh	
+7 acetic acid	n3f	
+8sediment	n3g	
 5er	4gw	60
 3d	4gx	3
-4 and diligent	nki	
-5tidings	nkj	
+4 and diligent	n3h	
+5tidings	n3i	
 4e	4gy	80
 4iator	4gz	80
 3mor	4h0	10
@@ -574,118 +574,118 @@ d for women	nke
 5ur	4h2	78
 3nce	4h3	9e
 4d	4h4	60
-5 producing external secretion	nkk	
+5 producing external secretion	n3j	
 5ular	4h5	40
-9 hair	nkl	
-4s penis	nkm	
+9 hair	n3k	
+4s penis	n3l	
 3re	4h6	fe
-5 of sunlight	nkn	
+5 of sunlight	n3m	
 4ing	4h7	40
-7 error	nko	
+7 error	n3n	
 3ss	4h8	23
-5 bottle	nkp	
-6cover of oil lamp	nkq	
-6eye	nkr	
-6slide for medical sample	nks	
-6tube	nkt	
-5-reinforced plastic	nku	
+5 bottle	n3o	
+6cover of oil lamp	n3p	
+6eye	n3q	
+6slide for medical sample	n3r	
+6tube	n3s	
+5-reinforced plastic	n3t	
 5house	4h9	2
 5ware	4ha	40
 5y	4hb	40
-3uber's salt	nkv	
-4cous gull	nkw	
-8-winged gull	nkx	
+3uber's salt	n3u	
+4cous gull	n3v	
+8-winged gull	n3w	
 3ze	4hc	c0
 5d	4hd	40
-6 pagoda	nky	
-7roof tile	nkz	
-7tile	nl0	
+6 pagoda	n3x	
+7roof tile	n3y	
+7tile	n3z	
 2eam	4he	e8
-5 of light	nl1	
-5ing with tears	nl2	
+5 of light	n40	
+5ing with tears	n41	
 4n	4hf	c0
 3e	4hg	80
-2ial cell	nl3	
+2ial cell	n42	
 3b	4hh	c0
-4 of tongue	nl4	
-5repartee	nl5	
+4 of tongue	n43	
+5repartee	n44	
 3de	4hi	fc
 5r	4hj	48
 3mmer	4hk	a0
 4pse	4hl	fc
 3sten	4hm	80
-7ing and piercing	nl6	
-bteardrops	nl7	
-bwhite	nl8	
+7ing and piercing	n45	
+bteardrops	n46	
+bwhite	n47	
 3tch	4hn	80
 4ter	4ho	bc
-7 glue	nl9	
-8of light	nla	
-7ing jewels	nlb	
-blight	nlc	
+7 glue	n48	
+8of light	n49	
+7ing jewels	n4a	
+blight	n4b	
 2oaming	4hp	80
 4t	4hq	c0
 3bal	4hr	7c
-6 climate	nld	
-7module	nle	
-7network	nlf	
-7scope	nlg	
-8ystem for mobile communications	nlh	
-7times	nli	
-8rade	nlj	
-7village	nlk	
-7warming	nll	
+6 climate	n4c	
+7module	n4d	
+7network	n4e	
+7scope	n4f	
+8ystem for mobile communications	n4g	
+7times	n4h	
+8rade	n4i	
+7village	n4j	
+7warming	n4k	
 4e	4hs	1e
-5 artichoke	nlm	
-4ular protein	nln	
+5 artichoke	n4l	
+4ular protein	n4m	
 3om	4ht	c0
 5y	4hu	fc
-6 and cold	nlo	
-bdull	nlp	
+6 and cold	n4n	
+bdull	n4o	
 3rify	4hv	c8
 5ous	4hw	7c
-8 achievement	nlq	
-9deed	nlr	
-9revolution	nls	
+8 achievement	n4p	
+9deed	n4q	
+9revolution	n4r	
 4y	4hx	1e
-5 and splendor	nlt	
+5 and splendor	n4s	
 3ss	4hy	a0
 5ary	4hz	e8
 5y	4i0	c0
-6 black	nlu	
-7ibis	nlv	
-3ttal consonant	nlw	
-8stop	nlx	
-3ucester city in southwest england	nly	
+6 black	n4t	
+7ibis	n4u	
+3ttal consonant	n4v	
+8stop	n4w	
+3ucester city in southwest england	n4x	
 3ve	4i1	1f
-5 compartment	nlz	
-6puppet	nm0	
-cry	nm1	
+5 compartment	n4y	
+6puppet	n4z	
+cry	n50	
 3w	4i2	bc
-4 of the setting sun	nm2	
-5stick	nm3	
+4 of the setting sun	n51	
+5stick	n52	
 4er	4i3	80
 4ing	4i4	c0
-7 with health and vivacity	nm4	
+7 with health and vivacity	n53	
 2ucose	4i5	80
-7-fructose syrup	nm5	
+7-fructose syrup	n54	
 3e	4i6	7e
-4 gun	nm6	
-5stick	nm7	
+4 gun	n55	
+5stick	n56	
 3t	4i7	c0
-4eal fold	nm8	
-8muscle	nm9	
-5n-free diet	nma	
-5us maximus	nmb	
+4eal fold	n57	
+8muscle	n58	
+5n-free diet	n59	
+5us maximus	n5a	
 4inous	4i8	80
-9 barley	nmc	
-arice	nmd	
-e cake	nme	
-fflour	nmf	
-fwine	nmg	
+9 barley	n5b	
+arice	n5c	
+e cake	n5d	
+fflour	n5e	
+fwine	n5f	
 4tonous	4i9	80
-2ycerin enema	nmh	
-8e suppository	nmi	
+2ycerin enema	n5g	
+8e suppository	n5h	
 1narled	4ia	80
 3t	4ib	80
 3w	4ic	c8
@@ -693,410 +693,410 @@ fwine	nmg
 2ome	4ie	80
 4ic	4if	80
 1o	4ig	23
-2 so far as to	nmj	
-3to hell	nmk	
+2 so far as to	n5i	
+3to hell	n5j	
 2ad	4ih	e0
 3l	4ii	7e
-4 ball	nml	
+4 ball	n5k	
 4s	4ij	20
 3t	4ik	1f
-4 meat	nmm	
+4 meat	n5l	
 2bble	4il	80
-3i desert	nmn	
+3i desert	n5m	
 3let	4im	80
 0God	4in	17
-0god of fire	nmo	
-7heaven	nmp	
-7longevity	nmq	
-9ve	nmr	
-7the north sky	nms	
-9under	nmt	
-7water	nmu	
-8ealth	nmv	
-4the father	nmw	
-8son	nmx	
-3damn business	nmy	
-8thing	nmz	
+0god of fire	n5n	
+7heaven	n5o	
+7longevity	n5p	
+9ve	n5q	
+7the north sky	n5r	
+9under	n5s	
+7water	n5t	
+8ealth	n5u	
+4the father	n5v	
+8son	n5w	
+3damn business	n5x	
+8thing	n5y	
 4ess	4io	8
-7 of beauty	nn0	
-bfertility	nn1	
-3lewski's bunting	nn2	
-3s and buddhas	nn3	
+7 of beauty	n5z	
+bfertility	n60	
+3lewski's bunting	n61	
+3s and buddhas	n62	
 2ggle	4ip	80
-2ing around a mountain	nn4	
-din circles	nn5	
-7s far as to	nn6	
-bst as possible	nn7	
-6beyond	nn8	
-6directly	nn9	
-6hand in hand	nna	
-6in the same direction	nnb	
-6off on tangents	nnc	
-7n foot	nnd	
-7r staying	nne	
-6smoothly and easily	nnf	
-6the same way	nng	
-8rough the motions	nnh	
-7o	nni	
-8o far	nnj	
-6well	nnk	
-7ith the tide	nnl	
-3tered gazelle	nnm	
-2ji berry	nnn	
-2lan heights	nno	
+2ing around a mountain	n63	
+din circles	n64	
+7s far as to	n65	
+bst as possible	n66	
+6beyond	n67	
+6directly	n68	
+6hand in hand	n69	
+6in the same direction	n6a	
+6off on tangents	n6b	
+7n foot	n6c	
+7r staying	n6d	
+6smoothly and easily	n6e	
+6the same way	n6f	
+8rough the motions	n6g	
+7o	n6h	
+8o far	n6i	
+6well	n6j	
+7ith the tide	n6k	
+3tered gazelle	n6l	
+2ji berry	n6m	
+2lan heights	n6n	
 3d	4iq	37
-4 and jade	nnp	
-9silver	nnq	
-f foil	nnr	
-gleaf	nns	
-5band	nnt	
-7r	nnu	
-6rick	nnv	
-7ocade	nnw	
-5characters	nnx	
-6oin	nny	
-7llar	nnz	
-8or	no0	
-7ntent	no1	
-9ract	no2	
-5dust	no3	
-5exchange standard	no4	
-5leaf	no5	
-7ttering	no6	
-5medal	no7	
-6ine	no8	
-5ore	no9	
-7naments	noa	
-5panner	nob	
-5ring	noc	
-6ush	nod	
-5standard	noe	
-8r	nof	
-4-crowned kinglet	nog	
-5naped finch	noh	
+4 and jade	n6o	
+9silver	n6p	
+f foil	n6q	
+gleaf	n6r	
+5band	n6s	
+7r	n6t	
+6rick	n6u	
+7ocade	n6v	
+5characters	n6w	
+6oin	n6x	
+7llar	n6y	
+8or	n6z	
+7ntent	n70	
+9ract	n71	
+5dust	n72	
+5exchange standard	n73	
+5leaf	n74	
+7ttering	n75	
+5medal	n76	
+6ine	n77	
+5ore	n78	
+7naments	n79	
+5panner	n7a	
+5ring	n7b	
+6ush	n7c	
+5standard	n7d	
+8r	n7e	
+4-crowned kinglet	n7f	
+5naped finch	n7g	
 4brick	4ir	80
 4en	4is	1f
-6 age	noi	
-7babbler	noj	
-8ritish shorthair	nok	
-8ush robin	nol	
-7cicada	nom	
-8olored	non	
-8row	noo	
-7eagle	nop	
-8ye-grass	noq	
-7globe award	nor	
-7horde	nos	
-7mean	not	
-9lody awards	nou	
-7parrotbill	nov	
-8heasant	now	
-7ratio	nox	
-8etriever	noy	
-8ule	noz	
-7seal	np0	
-9ction	np1	
-8nub-nosed monkey	np2	
-7touch	np3	
-8riangle	np4	
-7years	np5	
-6-breasted fulvetta	np6	
-9ight and dazzling	np7	
-7crested myna	np8	
-7fronted fulvetta	np9	
-fleafbird	npa	
-7headed cisticola	npb	
-7throated barbet	npc	
+6 age	n7h	
+7babbler	n7i	
+8ritish shorthair	n7j	
+8ush robin	n7k	
+7cicada	n7l	
+8olored	n7m	
+8row	n7n	
+7eagle	n7o	
+8ye-grass	n7p	
+7globe award	n7q	
+7horde	n7r	
+7mean	n7s	
+9lody awards	n7t	
+7parrotbill	n7u	
+8heasant	n7v	
+7ratio	n7w	
+8etriever	n7x	
+8ule	n7y	
+7seal	n7z	
+9ction	n80	
+8nub-nosed monkey	n81	
+7touch	n82	
+8riangle	n83	
+7years	n84	
+6-breasted fulvetta	n85	
+9ight and dazzling	n86	
+7crested myna	n87	
+7fronted fulvetta	n88	
+fleafbird	n89	
+7headed cisticola	n8a	
+7throated barbet	n8b	
 4fish	4it	2
-4man sachs	npd	
+4man sachs	n8c	
 3f	4iu	3e
-4 ball	npe	
-6uddy	npf	
-5course	npg	
-3gi apparatus	nph	
-6complex	npi	
-2me electrical appliances	npj	
-2ne forever	npk	
-5missing	npl	
-5soft	npm	
-5to the dogs	npn	
-5with the wind	npo	
-9out a trace	npp	
+4 ball	n8d	
+6uddy	n8e	
+5course	n8f	
+3gi apparatus	n8g	
+6complex	n8h	
+2me electrical appliances	n8i	
+2ne forever	n8j	
+5missing	n8k	
+5soft	n8l	
+5to the dogs	n8m	
+5with the wind	n8n	
+9out a trace	n8o	
 3g	4iv	80
-4 bao chicken	npq	
-5county in henan	npr	
-4s and drums	nps	
+4 bao chicken	n8p	
+5county in henan	n8q	
+4s and drums	n8r	
 2od	4iw	23
-4 actions	npt	
-6fternoon	npu	
-6gricultural land	npv	
-6nd bad	npw	
-c intermingled	npx	
-dluck	npy	
-dmingle	npz	
-dpeople intermingled	nq0	
-9evil	nq1	
-9honest	nq2	
-6spects	nq3	
-6t	nq4	
-7 arguing	nq5	
-8everything	nq6	
-5book	nq7	
-6reed	nq8	
-5chinese wood-oil tree	nq9	
-6ompanion	nqa	
-5day	nqb	
-6eeds	nqc	
-6octor	nqd	
-5enough	nqe	
-5faith	nqf	
-6igure	nqg	
-6ortune	nqh	
-c and reputation	nqi	
-6riday	nqj	
-8end	nqk	
-5guy	nql	
-5harbor	nqm	
-6ealth	nqn	
-6orse	nqo	
-5idea	nqp	
-6ntention	nqq	
-es	nqr	
-5karma	nqs	
-5letter	nqt	
-6ittle boy	nqu	
-6ooks	nqv	
-6uck	nqw	
-9 and long life	nqx	
-acharm	nqy	
-5manners	nqz	
-c in drinking	nr0	
-6edicine	nr1	
-6ood	nr2	
-5name	nr3	
-6ews	nr4	
-6ight	nr5	
-5omen	nr6	
-6pinion	nr7	
-6r bad	nr8	
-5people	nr9	
-7rson	nra	
-6lan	nrb	
-6rospects	nrc	
-5quality and cheap	nrd	
-5reputation	nre	
-5samaritan	nrf	
-5taste	nrg	
-6imber	nrh	
-8es and hardships	nri	
-5versus evil	nrj	
-5wine	nrk	
-6ords	nrl	
-4-for-nothing or queer character	nrm	
-5looking and intelligent	nrn	
-5neighbor policy	nro	
+4 actions	n8s	
+6fternoon	n8t	
+6gricultural land	n8u	
+6nd bad	n8v	
+c intermingled	n8w	
+dluck	n8x	
+dmingle	n8y	
+dpeople intermingled	n8z	
+9evil	n90	
+9honest	n91	
+6spects	n92	
+6t	n93	
+7 arguing	n94	
+8everything	n95	
+5book	n96	
+6reed	n97	
+5chinese wood-oil tree	n98	
+6ompanion	n99	
+5day	n9a	
+6eeds	n9b	
+6octor	n9c	
+5enough	n9d	
+5faith	n9e	
+6igure	n9f	
+6ortune	n9g	
+c and reputation	n9h	
+6riday	n9i	
+8end	n9j	
+5guy	n9k	
+5harbor	n9l	
+6ealth	n9m	
+6orse	n9n	
+5idea	n9o	
+6ntention	n9p	
+es	n9q	
+5karma	n9r	
+5letter	n9s	
+6ittle boy	n9t	
+6ooks	n9u	
+6uck	n9v	
+9 and long life	n9w	
+acharm	n9x	
+5manners	n9y	
+c in drinking	n9z	
+6edicine	na0	
+6ood	na1	
+5name	na2	
+6ews	na3	
+6ight	na4	
+5omen	na5	
+6pinion	na6	
+6r bad	na7	
+5people	na8	
+7rson	na9	
+6lan	naa	
+6rospects	nab	
+5quality and cheap	nac	
+5reputation	nad	
+5samaritan	nae	
+5taste	naf	
+6imber	nag	
+8es and hardships	nah	
+5versus evil	nai	
+5wine	naj	
+6ords	nak	
+4-for-nothing or queer character	nal	
+5looking and intelligent	nam	
+5neighbor policy	nan	
 4by	4ix	10
 6e	4iy	1
 4ness	4iz	1e
 4s	4j0	3e
-5 for export	nrp	
-6in great demand	nrq	
-6lift	nrr	
-6on consignment	nrs	
-6sold open	nrt	
-6that sell well	nru	
-7rain	nrv	
+5 for export	nao	
+6in great demand	nap	
+6lift	naq	
+6on consignment	nar	
+6sold open	nas	
+6that sell well	nat	
+7rain	nau	
 4will	4j1	80
-8 ambassador	nrw	
+8 ambassador	nav	
 3se	4j2	1f
-5 barnacle	nrx	
-7umps	nry	
-6down	nrz	
-6feather	ns0	
-d snow	ns1	
-7oot	ns2	
-6pimples	ns3	
+5 barnacle	naw	
+7umps	nax	
+6down	nay	
+6feather	naz	
+d snow	nb0	
+7oot	nb1	
+6pimples	nb2	
 2rge	4j3	c0
 5ous	4j4	f8
-8-looking woman	ns4	
-4on fruit	ns5	
+8-looking woman	nb3	
+4on fruit	nb4	
 3illa	4j5	c8
 3mandize	4j6	80
 2sling	4j7	80
 3pel	4j8	c0
-6 according to st john	ns6	
-nluke	ns7	
-nmark	ns8	
-ptthew	ns9	
-7of john	nsa	
+6 according to st john	nb5	
+nluke	nb6	
+nmark	nb7	
+ptthew	nb8	
+7of john	nb9	
 3samer	4j9	80
 4ip	4ja	78
-6 is a fearful thing	nsb	
-2thic style	nsc	
-8ubculture or aesthetic	nsd	
+6 is a fearful thing	nba	
+2thic style	nbb	
+8ubculture or aesthetic	nbc	
 2uge	4jb	80
-3ld's shortwing	nse	
+3ld's shortwing	nbd	
 3rmand	4jc	c0
 5et	4jd	c0
-7 food	nsf	
+7 food	nbe	
 2vern	4je	5e
 6ance	4jf	80
-a and education	nsg	
-6ing capacity	nsh	
+a and education	nbf	
+6ing capacity	nbg	
 6ment	4jg	3f
-a advisor	nsi	
-cffairs	nsj	
-cnd education	nsk	
-crmy	nsl	
-bbond	nsm	
-fs	nsn	
-cy usurper	nso	
-bcircle	nsp	
-bdebt	nsq	
-dcree	nsr	
-cignitary	nss	
-bemployee	nst	
-bfunctionary	nsu	
-eded	nsv	
-bjob	nsw	
-bleader	nsx	
-bminister	nsy	
-boffice	nsz	
-h in feudal china	nt0	
-cwned	nt1	
-bpost in han dynasty	nt2	
-brepository	nt3	
-dvenue	nt4	
-bstake	nt5	
-cub-prefect	nt6	
-btreasury	nt7	
-doops	nt8	
-bworker	nt9	
-fmen	nta	
+a advisor	nbh	
+cffairs	nbi	
+cnd education	nbj	
+crmy	nbk	
+bbond	nbl	
+fs	nbm	
+cy usurper	nbn	
+bcircle	nbo	
+bdebt	nbp	
+dcree	nbq	
+cignitary	nbr	
+bemployee	nbs	
+bfunctionary	nbt	
+eded	nbu	
+bjob	nbv	
+bleader	nbw	
+bminister	nbx	
+boffice	nby	
+h in feudal china	nbz	
+cwned	nc0	
+bpost in han dynasty	nc1	
+brepository	nc2	
+dvenue	nc3	
+bstake	nc4	
+cub-prefect	nc5	
+btreasury	nc6	
+doops	nc7	
+bworker	nc8	
+fmen	nc9	
 as	4jh	20
 6or	4ji	5c
-8 of a march	ntb	
-eprovince	ntc	
-cguangdong and guangxi	ntd	
-chong kong	nte	
+8 of a march	nca	
+eprovince	ncb	
+cguangdong and guangxi	ncc	
+chong kong	ncd	
 2wn	4jj	3e
 1rab	4jk	78
 3ce	4jl	fc
-5 period	ntf	
+5 period	nce	
 5ful	4jm	5c
-8 and subdued	ntg	
-9bearing	nth	
-4ilaria confervoides	nti	
+8 and subdued	ncf	
+9bearing	ncg	
+4ilaria confervoides	nch	
 5ous	4jn	fc
 3dation	4jo	80
 4e	4jp	23
-5 a	ntj	
-6c	ntk	
-6exam	ntl	
-6one state protected	ntm	
-6point	ntn	
-6separation	nto	
+5 a	nci	
+6c	ncj	
+6exam	nck	
+6one state protected	ncl	
+6point	ncm	
+6separation	ncn	
 4ient	4jq	48
-8 echo	ntp	
-5ng system	ntq	
+8 echo	nco	
+5ng system	ncp	
 4ual	4jr	3c
-7 change	ntr	
-8forward progress	nts	
-8loss of speech	ntt	
-8progress	ntu	
+7 change	ncq	
+8forward progress	ncr	
+8loss of speech	ncs	
+8progress	nct	
 7ly	4js	e
-9 falling	ntv	
-aweakening	ntw	
+9 falling	ncu	
+aweakening	ncv	
 6te	4jt	5e
-8 school	ntx	
-atudent	nty	
-dies	ntz	
+8 school	ncw	
+atudent	ncx	
+dies	ncy	
 8d	4ju	80
-9 measuring cylinder	nu0	
-ascale	nu1	
+9 measuring cylinder	ncz	
+ascale	nd0	
 8s	4jv	20
 7ion	4jw	2
-a ceremony	nu2	
-bproject	nu3	
+a ceremony	nd1	
+bproject	nd2	
 3ft	4jx	c0
-3ham or graeme	nu4	
+3ham or graeme	nd3	
 3in	4jy	fe
-5 chaff	nu5	
-7rops	nu6	
-6depot	nu7	
-6farmer	nu8	
-6kernel	nu9	
-6mill	nua	
-6not fully grown	nub	
-6of cooked rice	nuc	
-9glutinous sorghum	nud	
-9rice	nue	
-9sand	nuf	
-9wheat	nug	
-6reserves	nuh	
-8tailer	nui	
-6size	nuj	
-7talks	nuk	
-8ore	nul	
-7upply station	num	
-6tax	nun	
-7ransported by water	nuo	
-5s of sand	nup	
+5 chaff	nd4	
+7rops	nd5	
+6depot	nd6	
+6farmer	nd7	
+6kernel	nd8	
+6mill	nd9	
+6not fully grown	nda	
+6of cooked rice	ndb	
+9glutinous sorghum	ndc	
+9rice	ndd	
+9sand	nde	
+9wheat	ndf	
+6reserves	ndg	
+8tailer	ndh	
+6size	ndi	
+7talks	ndj	
+8ore	ndk	
+7upply station	ndl	
+6tax	ndm	
+7ransported by water	ndn	
+5s of sand	ndo	
 3m	4jz	2
-4 negative	nuq	
-5stain	nur	
+4 negative	ndp	
+5stain	ndq	
 4mar	4k0	3f
 6tical	4k1	c
 5e	4k2	1c
-5y award	nus	
+5y award	ndr	
 4ophone	4k3	8
-a record	nut	
-3n canaria	nuu	
+a record	nds	
+3n canaria	ndt	
 4ary	4k4	a0
 4d	4k5	7e
-5 and heroic	nuv	
-6ball	nuw	
-8nquet	nux	
-6canyon of colorado river	nuy	
-7eremony	nuz	
-7hancellor	nv0	
-7ontest	nv1	
-6dreams	nv2	
-7uchy	nv3	
-8ke	nv4	
-6event	nv5	
-6feast	nv6	
-7inale	nv7	
-6hyatt	nv8	
-6jury	nv9	
-8stice	nva	
-6niece	nvb	
-6occasion	nvc	
-6piano	nvd	
-7rince	nve	
-9x	nvf	
-8ospect	nvg	
-6reputation	nvh	
-6scribe	nvi	
-7lam	nvj	
-7tyle	nvk	
-6theft auto	nvl	
-7otal	nvm	
-6view	nvn	
+5 and heroic	ndu	
+6ball	ndv	
+8nquet	ndw	
+6canyon of colorado river	ndx	
+7eremony	ndy	
+7hancellor	ndz	
+7ontest	ne0	
+6dreams	ne1	
+7uchy	ne2	
+8ke	ne3	
+6event	ne4	
+6feast	ne5	
+7inale	ne6	
+6hyatt	ne7	
+6jury	ne8	
+8stice	ne9	
+6niece	nea	
+6occasion	neb	
+6piano	nec	
+7rince	ned	
+9x	nee	
+8ospect	nef	
+6reputation	neg	
+6scribe	neh	
+7lam	nei	
+7tyle	nej	
+6theft auto	nek	
+7otal	nel	
+6view	nem	
 5child	4k6	3
 5daughter	4k7	f
-d's husband	nvo	
+d's husband	nen	
 5eur	4k8	c0
 5father	4k9	d
-b's sister	nvp	
-eyounger brother	nvq	
+b's sister	neo	
+eyounger brother	nep	
 5iose	4ka	80
-9 but impractical	nvr	
-aplan	nvs	
+9 but impractical	neq	
+aplan	ner	
 5ma	4kb	1
 6other	4kc	1d
-b's brother	nvt	
-l's wife	nvu	
+b's brother	nes	
+l's wife	net	
 5pa	4kd	1
 7rent	4ke	1
 bs	4kf	2
@@ -1104,457 +1104,457 @@ bs	4kf	2
 6tand	4kh	80
 4ite	4ki	c8
 4ny	4kj	3
-6 gray	nvv	
+6 gray	neu	
 4t	4kk	bc
 5s	4kl	28
 4ular	4km	20
-7ted sugar	nvw	
+7ted sugar	nev	
 6e	4kn	80
 3pe	4ko	1f
-5 juice	nvx	
+5 juice	new	
 4h	4kp	7e
-5 paper	nvy	
-6theory	nvz	
+5 paper	nex	
+6theory	ney	
 5ic	4kq	f0
-7 design	nw0	
-eer	nw1	
-8symbol	nw2	
-7al representation	nw3	
-asymbol	nw4	
-auser interface	nw5	
+7 design	nez	
+eer	nf0	
+8symbol	nf1	
+7al representation	nf2	
+asymbol	nf3	
+auser interface	nf4	
 7s	4kr	40
-8 card	nw6	
-9processing unit	nw7	
+8 card	nf5	
+9processing unit	nf6	
 6te	4ks	c8
-8 carbon	nw8	
+8 carbon	nf7	
 3sp	4kt	5e
 5ing	4ku	80
-8 functionary	nw9	
+8 functionary	nf8	
 4s	4kv	23
-5 carp	nwa	
-6jelly	nwb	
-6mower	nwc	
-6roots	nwd	
-6seed	nwe	
-7tirring in the wind	nwf	
-6widow	nwg	
+5 carp	nf9	
+6jelly	nfa	
+6mower	nfb	
+6roots	nfc	
+6seed	nfd	
+7tirring in the wind	nfe	
+6widow	nff	
 5hopper	4kw	48
-5roots lawyer	nwh	
-bnetizens	nwi	
-bunit	nwj	
+5roots lawyer	nfg	
+bnetizens	nfh	
+bunit	nfi	
 5y	4kx	8
-6 area	nwk	
-7hill	nwl	
+6 area	nfj	
+7hill	nfk	
 3te	4ky	a0
 5ful	4kz	de
-5s on the ear	nwm	
+5s on the ear	nfl	
 4ification	4l0	80
 6y	4l1	c0
 5ng	4l2	80
 5s	4l3	80
 5tude	4l4	fc
-9 and grudges	nwn	
-afor good treatment	nwo	
+9 and grudges	nfm	
+afor good treatment	nfn	
 4uitous	4l5	c0
 7y	4l6	a0
 3ve	4l7	bc
-5 and dignified	nwp	
-astern	nwq	
-6danger	nwr	
-7igger	nws	
-6mishap	nwt	
-7ound	nwu	
-6situation	nwv	
+5 and dignified	nfo	
+astern	nfp	
+6danger	nfq	
+7igger	nfr	
+6mishap	nfs	
+7ound	nft	
+6situation	nfu	
 5l	4l8	a8
 4itation	4l9	40
 bal	4la	c0
-d acceleration	nww	
-fnomaly	nwx	
-efield	nwy	
-ewave	nwz	
+d acceleration	nfv	
+fnomaly	nfw	
+efield	nfx	
+ewave	nfy	
 6y	4lb	fe
 3y	4lc	c
-4 alder	nx0	
-6nd loathsome	nx1	
-9venerable	nx2	
-6rea	nx3	
-5cloth	nx4	
-6ollar	nx5	
-5hair	nx6	
-5matter	nx7	
-6ongoose	nx8	
-6ullet	nx9	
-5starling	nxa	
-5water	nxb	
-4's anatomy	nxc	
-7grasshopper warbler	nxd	
-4ish purple color	nxe	
+4 alder	nfz	
+6nd loathsome	ng0	
+9venerable	ng1	
+6rea	ng2	
+5cloth	ng3	
+6ollar	ng4	
+5hair	ng5	
+5matter	ng6	
+6ongoose	ng7	
+6ullet	ng8	
+5starling	ng9	
+5water	nga	
+4's anatomy	ngb	
+7grasshopper warbler	ngc	
+4ish purple color	ngd	
 3ze	4ld	f8
-4ing land	nxf	
+4ing land	nge	
 2ease	4le	f8
-6 trap	nxg	
+6 trap	ngf	
 5y	4lf	40
-6 dirt	nxh	
+6 dirt	ngg	
 4t	4lg	3
-5 acts	nxi	
-7mbition	nxj	
-8ount	nxk	
-7ncestor	nxl	
-8d lasting happiness	nxm	
-7spiration	nxn	
-7unt	nxo	
-6barbet	nxp	
-7ear	nxq	
-7lessing	nxr	
-7ritain	nxs	
-7ustard	nxt	
-6calligraphy master	nxu	
-8pacity for alcohol	nxv	
-8tastrophe	nxw	
-8use	nxx	
-7elebration	nxy	
-7hanges	nxz	
-7ircle	ny0	
-7ormorant	ny1	
-7rested grebe	ny2	
-6dane	ny3	
-9ger	ny4	
-7espite minor blemishes	ny5	
-6eared nightjar	ny6	
-8st african rift valley	ny7	
-7gret	ny8	
-7mptiness	ny9	
-7rror	nya	
-7uropean scholar	nyb	
-7xpectations	nyc	
-art	nyd	
-8tinction of species	nye	
-6family	nyf	
-8st	nyg	
-7eat	nyh	
-7irewall of china	nyi	
-7rigatebird	nyj	
-7urnace	nyk	
-6goal	nyl	
-7rey owl	nym	
-6harmony	nyn	
-7eat	nyo	
-8ro	nyp	
-7opes	nyq	
-8rnbill	nyr	
-6immortal	nys	
-7ora	nyt	
-6jerboa	nyu	
-6kindness	nyv	
-7not	nyw	
-6master	nyx	
-cwort	nyy	
-7erit	nyz	
-7igration of peoples	nz0	
-7yna	nz1	
-6pagoda of yangon	nz2	
-8rrotbill	nz3	
-7erson	nz4	
-c of the past	nz5	
-7ower	nz6	
-7yrenees	nz7	
-6qing dynasty	nz8	
-bempire	nz9	
-6reed warbler	nza	
-8lish	nzb	
-7osefinch	nzc	
-6sage	nzd	
-7callop	nze	
-7ervice	nzf	
-7ichuan earthquake	nzg	
-7kill and strategy	nzh	
-7laty woodpecker	nzi	
-7potted woodpecker	nzj	
-7tone-curlew	nzk	
-6talent	nzl	
-8ngshan earthquake	nzm	
-7eacher	nzn	
-7it	nzo	
-7rust	nzp	
-7urmoil	nzq	
-6uncle	nzr	
-8dertaking	nzs	
-6valley	nzt	
-7ictory	nzu	
-6wall hotel	nzv	
-8ves	nzw	
-7hite pelican	nzx	
-cshark	nzy	
-7ide world	nzz	
-8sdom and knowledge	o00	
-7ork	o01	
-7riter	o02	
-5-sage sun	o03	
-5er celandine	o04	
-9hina	o05	
-9oucal	o06	
-9rested tern	o07	
-8flamingo	o08	
-8han nationalism	o09	
-8london	o0a	
-8necklaced laughingthrush	o0b	
-8painted-snipe	o0c	
-art	o0d	
-8racket-tailed drongo	o0e	
-9hea	o0f	
-8sand plover	o0g	
-9caup	o0h	
-9hort-toed lark	o0i	
-9potted eagle	o0j	
-8than	o0k	
-8white-fronted goose	o0l	
-8yellownape	o0m	
-6st common divisor gcd	o0n	
+5 acts	ngh	
+7mbition	ngi	
+8ount	ngj	
+7ncestor	ngk	
+8d lasting happiness	ngl	
+7spiration	ngm	
+7unt	ngn	
+6barbet	ngo	
+7ear	ngp	
+7lessing	ngq	
+7ritain	ngr	
+7ustard	ngs	
+6calligraphy master	ngt	
+8pacity for alcohol	ngu	
+8tastrophe	ngv	
+8use	ngw	
+7elebration	ngx	
+7hanges	ngy	
+7ircle	ngz	
+7ormorant	nh0	
+7rested grebe	nh1	
+6dane	nh2	
+9ger	nh3	
+7espite minor blemishes	nh4	
+6eared nightjar	nh5	
+8st african rift valley	nh6	
+7gret	nh7	
+7mptiness	nh8	
+7rror	nh9	
+7uropean scholar	nha	
+7xpectations	nhb	
+art	nhc	
+8tinction of species	nhd	
+6family	nhe	
+8st	nhf	
+7eat	nhg	
+7irewall of china	nhh	
+7rigatebird	nhi	
+7urnace	nhj	
+6goal	nhk	
+7rey owl	nhl	
+6harmony	nhm	
+7eat	nhn	
+8ro	nho	
+7opes	nhp	
+8rnbill	nhq	
+6immortal	nhr	
+7ora	nhs	
+6jerboa	nht	
+6kindness	nhu	
+7not	nhv	
+6master	nhw	
+cwort	nhx	
+7erit	nhy	
+7igration of peoples	nhz	
+7yna	ni0	
+6pagoda of yangon	ni1	
+8rrotbill	ni2	
+7erson	ni3	
+c of the past	ni4	
+7ower	ni5	
+7yrenees	ni6	
+6qing dynasty	ni7	
+bempire	ni8	
+6reed warbler	ni9	
+8lish	nia	
+7osefinch	nib	
+6sage	nic	
+7callop	nid	
+7ervice	nie	
+7ichuan earthquake	nif	
+7kill and strategy	nig	
+7laty woodpecker	nih	
+7potted woodpecker	nii	
+7tone-curlew	nij	
+6talent	nik	
+8ngshan earthquake	nil	
+7eacher	nim	
+7it	nin	
+7rust	nio	
+7urmoil	nip	
+6uncle	niq	
+8dertaking	nir	
+6valley	nis	
+7ictory	nit	
+6wall hotel	niu	
+8ves	niv	
+7hite pelican	niw	
+cshark	nix	
+7ide world	niy	
+8sdom and knowledge	niz	
+7ork	nj0	
+7riter	nj1	
+5-sage sun	nj2	
+5er celandine	nj3	
+9hina	nj4	
+9oucal	nj5	
+9rested tern	nj6	
+8flamingo	nj7	
+8han nationalism	nj8	
+8london	nj9	
+8necklaced laughingthrush	nja	
+8painted-snipe	njb	
+art	njc	
+8racket-tailed drongo	njd	
+9hea	nje	
+8sand plover	njf	
+9caup	njg	
+9hort-toed lark	njh	
+9potted eagle	nji	
+8than	njj	
+8white-fronted goose	njk	
+8yellownape	njl	
+6st common divisor gcd	njm	
 5ly	4lh	c
-7 disappointed	o0o	
+7 disappointed	njn	
 0Greece	4li	22
 0greed	4lj	8
 5y	4lk	7e
-6 for sex	o0p	
-7mandarin	o0q	
-7person	o0r	
+6 for sex	njo	
+7mandarin	njp	
+7person	njq	
 0Greek	4ll	e
-0greek alphabet	o0s	
-6language	o0t	
-7iterature	o0u	
-6mythology	o0v	
+0greek alphabet	njr	
+6language	njs	
+7iterature	njt	
+6mythology	nju	
 4n	4lm	a3
-5 alder	o0w	
-8gae	o0x	
-7nd flourishing	o0y	
-alush	o0z	
-7rea	o10	
-6bean	o11	
-6cochoa	o12	
-6fodder	o13	
-8xtail	o14	
-6grass	o15	
-6hat	o16	
-7ills	o17	
-b and clear waters	o18	
-6imperial pigeon	o19	
-7n the face	o1a	
-6lacewing	o1b	
-7eaf	o1c	
-7ight	o1d	
-6manure	o1e	
-7ustard	o1f	
-6onion	o1g	
-7r greene	o1h	
-6paper	o1i	
-7eafowl	o1j	
-9s	o1k	
-8pper	o1l	
-7lant	o1m	
-7ool	o1n	
-6sandpiper	o1o	
-7creen	o1p	
-7hrike-babbler	o1q	
-7oybean	o1r	
-6tea	o1s	
-9 powder	o1t	
-7rain	o1u	
-7urban	o1v	
-6unripe fruit	o1w	
-6vegetables	o1x	
-7itriol	o1y	
-6water	o1z	
-7illows and red flowers	o20	
-8th envy	o21	
-6zone	o22	
-5-backed flycatcher	o23	
-dtit	o24	
-7illed malkoha	o25	
-6crowned warbler	o26	
-6eared barbet	o27	
-6legged partridge	o28	
-6tailed sunbird	o29	
-6winged teal	o2a	
+5 alder	njv	
+8gae	njw	
+7nd flourishing	njx	
+alush	njy	
+7rea	njz	
+6bean	nk0	
+6cochoa	nk1	
+6fodder	nk2	
+8xtail	nk3	
+6grass	nk4	
+6hat	nk5	
+7ills	nk6	
+b and clear waters	nk7	
+6imperial pigeon	nk8	
+7n the face	nk9	
+6lacewing	nka	
+7eaf	nkb	
+7ight	nkc	
+6manure	nkd	
+7ustard	nke	
+6onion	nkf	
+7r greene	nkg	
+6paper	nkh	
+7eafowl	nki	
+9s	nkj	
+8pper	nkk	
+7lant	nkl	
+7ool	nkm	
+6sandpiper	nkn	
+7creen	nko	
+7hrike-babbler	nkp	
+7oybean	nkq	
+6tea	nkr	
+9 powder	nks	
+7rain	nkt	
+7urban	nku	
+6unripe fruit	nkv	
+6vegetables	nkw	
+7itriol	nkx	
+6water	nky	
+7illows and red flowers	nkz	
+8th envy	nl0	
+6zone	nl1	
+5-backed flycatcher	nl2	
+dtit	nl3	
+7illed malkoha	nl4	
+6crowned warbler	nl5	
+6eared barbet	nl6	
+6legged partridge	nl7	
+6tailed sunbird	nl8	
+6winged teal	nl9	
 5grocer	4ln	2
 5horn	4lo	80
 7use	4lp	9c
-a effect	o2b	
-bgas	o2c	
-5ish warbler	o2d	
-9yellow	o2e	
-5wich mean time	o2f	
+a effect	nla	
+bgas	nlb	
+5ish warbler	nlc	
+9yellow	nld	
+5wich mean time	nle	
 4t	4lq	1e
 5ing	4lr	1f
-8 card	o2g	
+8 card	nlf	
 3garious	4ls	c0
 aness	4lt	80
-4orian calendar	o2h	
-6y or grigory	o2i	
+4orian calendar	nlg	
+6y or grigory	nlh	
 3nade	4lu	80
-7 launcher	o2j	
-3tai securities market	o2k	
+7 launcher	nli	
+3tai securities market	nlj	
 3y	4lv	1c
-4 bunting	o2l	
-7sh chat	o2m	
-5heron	o2n	
-5laughingthrush	o2o	
-5nightjar	o2p	
-5partridge	o2q	
-6eacock-pheasant	o2r	
-6lover	o2s	
-5sibia	o2t	
-5treepie	o2u	
-5wagtail	o2v	
-4-backed shrike	o2w	
-cthrush	o2x	
-6ellied tesia	o2y	
-dwren-babbler	o2z	
-6reasted prinia	o30	
-5capped greenfinch	o31	
-cpygmy woodpecker	o32	
-6heeked fulvetta	o33	
-dwarbler	o34	
-7inned minivet	o35	
-6rested tit	o36	
-7owned warbler	o37	
-5eyed bulbul	o38	
-5faced buzzard	o39	
-5headed bullfinch	o3a	
-ccanary-flycatcher	o3b	
-clapwing	o3c	
-cparakeet	o3d	
-frotbill	o3e	
-cswamphen	o3f	
-cwoodpecker	o3g	
-6ooded fulvetta	o3h	
-cparrotbill	o3i	
-cwarbler	o3j	
-5necked bunting	o3k	
-5sided bush warbler	o3l	
-blaughingthrush	o3m	
-bscimitar babbler	o3n	
-bthrush	o3o	
-6treaked flycatcher	o3p	
-5tailed tattler	o3q	
-6hroated babbler	o3r	
-emartin	o3s	
-5winged blackbird	o3t	
-4lag goose	o3u	
+4 bunting	nlk	
+7sh chat	nll	
+5heron	nlm	
+5laughingthrush	nln	
+5nightjar	nlo	
+5partridge	nlp	
+6eacock-pheasant	nlq	
+6lover	nlr	
+5sibia	nls	
+5treepie	nlt	
+5wagtail	nlu	
+4-backed shrike	nlv	
+cthrush	nlw	
+6ellied tesia	nlx	
+dwren-babbler	nly	
+6reasted prinia	nlz	
+5capped greenfinch	nm0	
+cpygmy woodpecker	nm1	
+6heeked fulvetta	nm2	
+dwarbler	nm3	
+7inned minivet	nm4	
+6rested tit	nm5	
+7owned warbler	nm6	
+5eyed bulbul	nm7	
+5faced buzzard	nm8	
+5headed bullfinch	nm9	
+ccanary-flycatcher	nma	
+clapwing	nmb	
+cparakeet	nmc	
+frotbill	nmd	
+cswamphen	nme	
+cwoodpecker	nmf	
+6ooded fulvetta	nmg	
+cparrotbill	nmh	
+cwarbler	nmi	
+5necked bunting	nmj	
+5sided bush warbler	nmk	
+blaughingthrush	nml	
+bscimitar babbler	nmm	
+bthrush	nmn	
+6treaked flycatcher	nmo	
+5tailed tattler	nmp	
+6hroated babbler	nmq	
+emartin	nmr	
+5winged blackbird	nms	
+4lag goose	nmt	
 2id	4lw	20
-4 girl	o3v	
-5paper	o3w	
-4dle cake	o3x	
+4 girl	nmu	
+5paper	nmv	
+4dle cake	nmw	
 4iron	4lx	80
 3ef	4ly	b8
-5 and indignation	o3y	
-5-stricken thoughts	o3z	
+5 and indignation	nmx	
+5-stricken thoughts	nmy	
 4vance	4lz	c0
 5e	4m0	fc
-6d appearance	o40	
+6d appearance	nmz	
 5ous	4m1	80
-3ffon vulture	o41	
+3ffon vulture	nn0	
 3ll	4m2	a2
-5ed food on skewers	o42	
+5ed food on skewers	nn1	
 3m	4m3	f8
 4ace	4m4	80
-4m's fairy tales	o43	
+4m's fairy tales	nn2	
 3n	4m5	b8
-4 of dissatisfaction	o44	
+4 of dissatisfaction	nn3	
 4d	4m6	fc
-5ing machine	o45	
-bterial	o46	
-9stone	o47	
-9wheel	o48	
-4nell college	o49	
-5ing from ear to ear	o4a	
+5ing machine	nn4	
+bterial	nn5	
+9stone	nn6	
+9wheel	nn7	
+4nell college	nn8	
+5ing from ear to ear	nn9	
 3p	4m7	7c
-4 on the road	o4b	
+4 on the road	nna	
 4e	4m8	80
-4ing pain	o4c	
+4ing pain	nnb	
 4ping	4m9	80
 3sly	4ma	80
 4tle	4mb	80
 3t	4mc	a0
-3zzly bear	o4d	
+3zzly bear	nnc	
 2oan	4md	bc
 3cer	4me	1e
 6y	4mf	c
-7 store	o4e	
+7 store	nnd	
 3om	4mg	80
 4ve	4mh	88
 3pe	4mi	f8
 3ss	4mj	bc
-5 anatomy	o4f	
-6calorific value	o4g	
-6domestic product	o4h	
-mion	o4i	
-6income	o4j	
-6national product	o4k	
-6product	o4l	
-9fit	o4m	
-6weight	o4n	
+5 anatomy	nne	
+6calorific value	nnf	
+6domestic product	nng	
+mion	nnh	
+6income	nni	
+6national product	nnj	
+6product	nnk	
+9fit	nnl	
+6weight	nnm	
 3tesque	4mk	80
-9 and variegated	o4o	
-avisage	o4p	
+9 and variegated	nnn	
+avisage	nno	
 4to	4ml	80
 3uch	4mm	80
 6y	4mn	40
 4nd	4mo	23
-6 attack aircraft	o4q	
-7ball	o4r	
-8eetle	o4s	
-8reaking ceremony	o4t	
-7control	o4u	
-8rew	o4v	
-7floor	o4w	
-8orces	o4x	
-7level	o4y	
-7meat	o4z	
-7pepper	o50	
-8lane	o51	
-8ressure	o52	
-7rule	o53	
-7stream	o54	
-7tit	o55	
-8roops	o56	
-7zero	o57	
-6-to-air missile	o58	
+6 attack aircraft	nnp	
+7ball	nnq	
+8eetle	nnr	
+8reaking ceremony	nns	
+7control	nnt	
+8rew	nnu	
+7floor	nnv	
+8orces	nnw	
+7level	nnx	
+7meat	nny	
+7pepper	nnz	
+8lane	no0	
+8ressure	no1	
+7rule	no2	
+7stream	no3	
+7tit	no4	
+8roops	no5	
+7zero	no6	
+6-to-air missile	no7	
 6ed	4mp	80
-6less fears	o59	
-brumor	o5a	
+6less fears	no8	
+brumor	no9	
 4p	4mq	a3
-5 buying	o5b	
-6championship	o5c	
-6leader	o5d	
-7icentiousness	o5e	
-6meeting	o5f	
-8mber	o5g	
-8ntality	o5h	
-6of horse-mounted bandits	o5i	
-9islands	o5j	
-9people	o5k	
-7r team	o5l	
-6photo	o5m	
-b of whole family	o5n	
-6scuffle	o5o	
-6theory	o5p	
-7ravel	o5q	
+5 buying	noa	
+6championship	nob	
+6leader	noc	
+7icentiousness	nod	
+6meeting	noe	
+8mber	nof	
+8ntality	nog	
+6of horse-mounted bandits	noh	
+9islands	noi	
+9people	noj	
+7r team	nok	
+6photo	nol	
+b of whole family	nom	
+6scuffle	non	
+6theory	noo	
+7ravel	nop	
 5s	4mr	20
 4se	4ms	80
 3ve	4mt	88
 5l	4mu	80
 3w	4mv	3
-4ing as a thicket	o5r	
-8flowers	o5s	
-8teeth	o5t	
+4ing as a thicket	noq	
+8flowers	nor	
+8teeth	nos	
 4l	4mw	a8
-4n wild	o5u	
+4n wild	not	
 4th	4mx	3e
-6 hormone	o5v	
-7mindset	o5w	
-7plate	o5x	
-7rate	o5y	
-8ing	o5z	
+6 hormone	nou	
+7mindset	nov	
+7plate	now	
+7rate	nox	
+8ing	noy	
 2udge	4my	e0
 3el	4mz	2
 5ing	4n0	80
@@ -1563,142 +1563,142 @@ b of whole family	o5n
 3mble	4n3	e8
 4py	4n4	c0
 3nt	4n5	8
-5ing of pigs	o60	
-1ua sha	o61	
-3ngdong and kowloon	o62	
-l railway	o63	
-aocean university	o64	
-apidgin	o65	
-auniversity of foreign studies	o66	
-5nan and yanshan	o67	
-5xu emperor	o68	
-5zhou academy of fine arts	o69	
-adaily	o6a	
-auniversity of chinese medicine	o6b	
-4ine nucleotide	o6c	
-4tanamo bay	o6d	
-4zhong plain in shaanxi	o6e	
+5ing of pigs	noz	
+1ua sha	np0	
+3ngdong and kowloon	np1	
+l railway	np2	
+aocean university	np3	
+apidgin	np4	
+auniversity of foreign studies	np5	
+5nan and yanshan	np6	
+5xu emperor	np7	
+5zhou academy of fine arts	np8	
+adaily	np9	
+auniversity of chinese medicine	npa	
+4ine nucleotide	npb	
+4tanamo bay	npc	
+4zhong plain in shaanxi	npd	
 3rantee	4n6	fe
-9 certificate	o6f	
-aperiod	o6g	
-aslip	o6h	
-ato pay compensations	o6i	
-9d to cure all diseases	o6j	
+9 certificate	npe	
+aperiod	npf	
+aslip	npg	
+ato pay compensations	nph	
+9d to cure all diseases	npi	
 4d	4n7	1f
-5 at gate	o6k	
-6of honor	o6l	
-6rail	o6m	
-5's van	o6n	
+5 at gate	npj	
+6of honor	npk	
+6rail	npl	
+5's van	npm	
 5ian	4n8	20
-8 angel	o6o	
-9deity	o6p	
-2errilla band	o6q	
-awarfare	o6r	
+8 angel	npn	
+9deity	npo	
+2errilla band	npp	
+awarfare	npq	
 3ss	4n9	3
 4t	4na	23
-5 and host	o6s	
-7t a banquet	o6t	
-6from afar	o6u	
-bthe same country	o6v	
-6house	o6w	
-6of honor	o6x	
-6player	o6y	
-6room	o6z	
+5 and host	npr	
+7t a banquet	nps	
+6from afar	npt	
+bthe same country	npu	
+6house	npv	
+6of honor	npw	
+6player	npx	
+6room	npy	
 5s	4nb	20
-6 feel at home	o70	
+6 feel at home	npz	
 2ffaw	4nc	80
-2ggenheim jet propulsion center	o71	
+2ggenheim jet propulsion center	nq0	
 2idance	4nd	3e
 4e	4ne	3e
-5 dog	o72	
-6line	o73	
-6pulley	o74	
-6to the reader	o75	
-5d tour	o76	
+5 dog	nq1	
+6line	nq2	
+6pulley	nq3	
+6to the reader	nq4	
+5d tour	nq5	
 5line	4nf	30
-4ing principle	o77	
+4ing principle	nq6	
 3ld	4ng	20
 4e	4nh	c0
 5less	4ni	c0
-4in medical university	o78	
+4in medical university	nq7	
 4lotine	4nj	80
 4t	4nk	98
-5 by association	o79	
+5 by association	nq8	
 5y	4nl	9e
-6 conscience	o7a	
-7of monstrous crimes	o7b	
-aterrible crimes	o7c	
-7plea	o7d	
-3nea fowl	o7e	
-7pig	o7f	
-7squash	o7g	
-4ness world records	o7h	
+6 conscience	nq9	
+7of monstrous crimes	nqa	
+aterrible crimes	nqb	
+7plea	nqc	
+3nea fowl	nqd	
+7pig	nqe	
+7squash	nqf	
+4ness world records	nqg	
 3se	4nm	c0
 3tar	4nn	3b
-6 strap	o7i	
-7tablature	o7j	
+6 strap	nqh	
+7tablature	nqi	
 2lch	4no	80
 3f	4np	5c
-4 of aden	o7k	
-8guinea	o7l	
-8jiaozhou	o7m	
-8mexico	o7n	
-8oman	o7o	
-8tonkin	o7p	
-5port	o7q	
-5states	o7r	
-5war	o7s	
+4 of aden	nqj	
+8guinea	nqk	
+8jiaozhou	nql	
+8mexico	nqm	
+8oman	nqn	
+8tonkin	nqo	
+5port	nqp	
+5states	nqq	
+5war	nqr	
 3l	4nq	c0
-4-billed tern	o7t	
+4-billed tern	nqs	
 4ible	4nr	80
 4y	4ns	80
 3p	4nt	c0
 2m	4nu	9c
-3 arabic	o7u	
+3 arabic	nqt	
 2n	4nv	1f
-3 barrel	o7v	
-6ttle	o7w	
-5olt	o7x	
-4cover	o7y	
-4salute	o7z	
-4turret	o80	
-3metal gray	o81	
+3 barrel	nqu	
+6ttle	nqv	
+5olt	nqw	
+4cover	nqx	
+4salute	nqy	
+4turret	nqz	
+3metal gray	nr0	
 3powder	4nw	c
-3s in general	o82	
-4hot wound	o83	
-2omindang or kuomintang	o84	
-2qin or seven-stringed zither	o85	
-2rgling sound of flowing water	o86	
+3s in general	nr1	
+4hot wound	nr2	
+2omindang or kuomintang	nr3	
+2qin or seven-stringed zither	nr4	
+2rgling sound of flowing water	nr5	
 3u	4nx	80
 2sh	4ny	e0
 4er	4nz	80
-4ing spring	o87	
+4ing spring	nr6	
 3t	4o0	e8
 4ation	4o1	80
 6ory	4o2	80
-5v stresemann	o88	
+5v stresemann	nr7	
 4o	4o3	80
 4y	4o4	40
 2t	4o5	10
 3less	4o6	80
 3ter	4o7	88
 4le	4o8	80
-4ural fricative	o89	
-9sound	o8a	
+4ural fricative	nr8	
+9sound	nr9	
 2y	4o9	b4
-3 from the north	o8b	
+3 from the north	nra	
 2zzle	4oa	80
-1yanendra of nepal	o8c	
-2eongbokgung palace in central seoul	o8d	
+1yanendra of nepal	nrb	
+2eongbokgung palace in central seoul	nrc	
 2m	4ob	21
 3nasium	4oc	3d
 6tic	4od	40
 9s	4oe	42
-a team	o8e	
-4ocypris przewalskii	o8f	
+a team	nrd	
+4ocypris przewalskii	nre	
 2naecocracy	4of	80
-3ecological examination	o8g	
-2psophila paniculata	o8h	
-4um wallboard	o8i	
+3ecological examination	nrf	
+2psophila paniculata	nrg	
+4um wallboard	nrh	
 2rate	4og	80
 5ion	4oh	40

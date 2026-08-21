@@ -1,322 +1,322 @@
 0yacht	bhk	88
-2le university	1k1w	
-2m bean	1k1x	
-4paste	1k1y	
-3a's palace	1k1z	
-4zaki or yamasaki	1k20	
-2n style	1k21	
-3bian university	1k22	
-3chi county in ningxia	1k23	
-3gshan deepwater port	1k24	
-9port	1k25	
-4tze and yellow rivers	1k26	
-8river	1k27	
-d delta	1k28	
-j economic zone	1k29	
-eeconomic belt	1k2a	
-3jing beer	1k2b	
-3zhao metropolis daily	1k2c	
-2o ethnic group	1k2d	
-3han retail group	1k2e	
+2le university	1jen	
+2m bean	1jeo	
+4paste	1jep	
+3a's palace	1jeq	
+4zaki or yamasaki	1jer	
+2n style	1jes	
+3bian university	1jet	
+3chi county in ningxia	1jeu	
+3gshan deepwater port	1jev	
+9port	1jew	
+4tze and yellow rivers	1jex	
+8river	1jey	
+d delta	1jez	
+j economic zone	1jf0	
+eeconomic belt	1jf1	
+3jing beer	1jf2	
+3zhao metropolis daily	1jf3	
+2o ethnic group	1jf4	
+3han retail group	1jf5	
 2rd	bhl	3f
-4 line	1k2f	
+4 line	1jf6	
 4stick	bhm	40
-3kant river in xinjiang	1k2g	
+3kant river in xinjiang	1jf7	
 3n	bhn	e0
-4 cotton	1k2h	
-7unt	1k2i	
+4 cotton	1jf8	
+7unt	1jf9	
 2w	bho	80
-3 axis	1k2j	
+3 axis	1jfa	
 3n	bhp	fe
-2yuncun neighborhood of beijing	1k2k	
-1e jiangchuan	1k2l	
+2yuncun neighborhood of beijing	1jfb	
+1e jiangchuan	1jfc	
 2ar	bhq	3
-4 after year	1k2m	
-5number	1k2n	
-5of bad harvest	1k2o	
-8famine	1k2p	
-8the boar	1k2q	
-ccock	1k2r	
-cdog	1k2s	
-dragon	1k2t	
-chorse	1k2u	
-cmonkey	1k2v	
-crabbit	1k2w	
-em	1k2x	
-et	1k2y	
-csnake	1k2z	
-ctiger	1k30	
-5with bumper harvest	1k31	
-4-end bonus	1k32	
+4 after year	1jfd	
+5number	1jfe	
+5of bad harvest	1jff	
+8famine	1jfg	
+8the boar	1jfh	
+ccock	1jfi	
+cdog	1jfj	
+dragon	1jfk	
+chorse	1jfl	
+cmonkey	1jfm	
+crabbit	1jfn	
+em	1jfo	
+et	1jfp	
+csnake	1jfq	
+ctiger	1jfr	
+5with bumper harvest	1jfs	
+4-end bonus	1jft	
 4ly	bhr	1c
-6 salary	1k33	
+6 salary	1jfu	
 4n	bhs	e8
-4s of age	1k34	
+4s of age	1jfv	
 3st	bht	88
-5 for fermenting rice wine	1k35	
-2katerina or ekaterina	1k36	
+5 for fermenting rice wine	1jfw	
+2katerina or ekaterina	1jfx	
 2ll	bhu	5e
 4ow	bhv	23
-6 and withered	1k37	
-7bicycle	1k38	
-9ttern	1k39	
-8one marrow	1k3a	
-8unting	1k3b	
-7card	1k3c	
-8hives	1k3d	
-9rysanthemum	1k3e	
-8roaker	1k3f	
-7enzyme	1k3g	
-7face	1k3h	
-8ever	1k3i	
-c virus	1k3j	
-8loating heart	1k3k	
-awer	1k3l	
-ds	1k3m	
-7green	1k3n	
-8um	1k3o	
-7oriole	1k3p	
-7pages	1k3q	
-8eril	1k3r	
-7quartz	1k3s	
-7red	1k3t	
-8iver or huang he	1k3u	
-8osewood	1k3v	
-7sea	1k3w	
-8oil	1k3x	
-9ybean paste	1k3y	
-8pot	1k3z	
-7tit	1k40	
-6-bellied bush warbler	1k41	
-fflowerpecker	1k42	
-fprinia	1k43	
-ftit	1k44	
-fwarbler	1k45	
-8illed blue magpie	1k46	
-eloon	1k47	
-enuthatch	1k48	
-8reasted bunting	1k49	
-ggreenfinch	1k4a	
-9owed bunting	1k4b	
-etit	1k4c	
-ewarbler	1k4d	
-7cheeked tit	1k4e	
-8rested cockatoo	1k4f	
-7eyed babbler	1k4g	
-cpigeon	1k4h	
-7footed green pigeon	1k4i	
-7legged buttonquail	1k4j	
-7rumped flycatcher	1k4k	
-ehoneyguide	1k4l	
-7skinned people	1k4m	
-8treaked warbler	1k4n	
-7throated bunting	1k4o	
-gfulvetta	1k4p	
-glaughingthrush	1k4q	
-7vented flowerpecker	1k4r	
-ewarbler	1k4s	
+6 and withered	1jfy	
+7bicycle	1jfz	
+9ttern	1jg0	
+8one marrow	1jg1	
+8unting	1jg2	
+7card	1jg3	
+8hives	1jg4	
+9rysanthemum	1jg5	
+8roaker	1jg6	
+7enzyme	1jg7	
+7face	1jg8	
+8ever	1jg9	
+c virus	1jga	
+8loating heart	1jgb	
+awer	1jgc	
+ds	1jgd	
+7green	1jge	
+8um	1jgf	
+7oriole	1jgg	
+7pages	1jgh	
+8eril	1jgi	
+7quartz	1jgj	
+7red	1jgk	
+8iver or huang he	1jgl	
+8osewood	1jgm	
+7sea	1jgn	
+8oil	1jgo	
+9ybean paste	1jgp	
+8pot	1jgq	
+7tit	1jgr	
+6-bellied bush warbler	1jgs	
+fflowerpecker	1jgt	
+fprinia	1jgu	
+ftit	1jgv	
+fwarbler	1jgw	
+8illed blue magpie	1jgx	
+eloon	1jgy	
+enuthatch	1jgz	
+8reasted bunting	1jh0	
+ggreenfinch	1jh1	
+9owed bunting	1jh2	
+etit	1jh3	
+ewarbler	1jh4	
+7cheeked tit	1jh5	
+8rested cockatoo	1jh6	
+7eyed babbler	1jh7	
+cpigeon	1jh8	
+7footed green pigeon	1jh9	
+7legged buttonquail	1jha	
+7rumped flycatcher	1jhb	
+ehoneyguide	1jhc	
+7skinned people	1jhd	
+8treaked warbler	1jhe	
+7throated bunting	1jhf	
+gfulvetta	1jhg	
+glaughingthrush	1jhh	
+7vented flowerpecker	1jhi	
+ewarbler	1jhj	
 3p	bhw	40
 2n	bhx	60
 2oman	bhy	80
-2rsinia pestis	1k4t	
+2rsinia pestis	1jhk	
 2s	bhz	3
 3terday	bi0	3
-9 and today	1k4u	
-aevening	1k4v	
+9 and today	1jhl	
+aevening	1jhm	
 2t	bi1	3
-3 again	1k4w	
-1i ethnic group	1k4x	
-3new year	1k4y	
-3opera	1k4z	
-2ddish language	1k50	
+3 again	1jhn	
+1i ethnic group	1jho	
+3new year	1jhp	
+3opera	1jhq	
+2ddish language	1jhr	
 2eld	bi2	7c
-5 per unit area	1k51	
-6rate	1k52	
-6to maturity	1k53	
-5-to-weight ratio	1k54	
+5 per unit area	1jhs	
+6rate	1jht	
+6to maturity	1jhu	
+5-to-weight ratio	1jhv	
 5ing	bi3	88
-2lan county in northeast taiwan	1k55	
-2n and yang	1k56	
-4mountains in inner mongolia	1k57	
-3gpan township in yunnan	1k58	
-2zhuang town in beijing municipality	1k59	
+2lan county in northeast taiwan	1jhw	
+2n and yang	1jhx	
+4mountains in inner mongolia	1jhy	
+3gpan township in yunnan	1jhz	
+2zhuang town in beijing municipality	1ji0	
 1oga	bi4	20
-4 mat	1k5a	
-5pants	1k5b	
-4chara school of buddhism	1k5c	
+4 mat	1ji1	
+5pants	1ji2	
+4chara school of buddhism	1ji3	
 3hurt	bi5	2
 2ke	bi6	a8
-4 one has to endure	1k5d	
+4 one has to endure	1ji4	
 4l	bi7	80
 2lk	bi8	48
-4 sac	1k5e	
-2miuri shimbun	1k5f	
-2nghe temple	1k5g	
-4jia prefecture in zhejiang	1k5h	
+4 sac	1ji5	
+2miuri shimbun	1ji6	
+2nghe temple	1ji7	
+4jia prefecture in zhejiang	1ji8	
 2rk	bi9	20
 2u	bia	3
-3 ain't seen nothin' yet	1k5i	
-5ll	1k5j	
-5nd i	1k5k	
-5re the one	1k5l	
-5sked for it	1k5m	
-4flatter me	1k5n	
-4let me win	1k5o	
-4may dispense with curtseying	1k5p	
-5ight as well	1k5q	
-5ust not	1k5r	
-4reap what you sow	1k5s	
-3're incredible	1k5t	
-7on your own	1k5u	
-7welcome	1k5v	
+3 ain't seen nothin' yet	1ji9	
+5ll	1jia	
+5nd i	1jib	
+5re the one	1jic	
+5sked for it	1jid	
+4flatter me	1jie	
+4let me win	1jif	
+4may dispense with curtseying	1jig	
+5ight as well	1jih	
+5ust not	1jii	
+4reap what you sow	1jij	
+3're incredible	1jik	
+7on your own	1jil	
+7welcome	1jim	
 3ng	bib	3
-5 and clumsy	1k5w	
-aignorant	1k5x	
-bnexperienced	1k5y	
-apretty	1k5z	
-comising	1k60	
-atender	1k61	
-avigorous	1k62	
-6beauties	1k63	
-7ird	1k64	
-7oy	1k65	
-6child	1k66	
-9nese cyber-nationalists	1k67	
-7riminal	1k68	
-6disciple	1k69	
-6fellow	1k6a	
-8male cop	1k6b	
-dworker	1k6c	
-7oreign girl	1k6d	
-6generation	1k6e	
-9tleman	1k6f	
-7irl	1k6g	
-7uard	1k6h	
-8y	1k6i	
-6hooligan	1k6j	
-8rse	1k6k	
-6lady	1k6l	
-a of the house	1k6m	
-6male worker	1k6n	
-8n	1k6o	
-8rried couple	1k6p	
-ewoman	1k6q	
-8ster	1k6r	
-c of the house	1k6s	
-6people	1k6t	
-8rson	1k6u	
-c with graying hair	1k6v	
-7ioneers of china	1k6w	
-7lant	1k6x	
-6rowdy	1k6y	
-7ussian woman	1k6z	
-6servant	1k70	
-7prout	1k71	
-7quid	1k72	
-7uccessor	1k73	
-6thug	1k74	
-6woman	1k75	
-8rker	1k76	
-6years	1k77	
-5er brother	1k78	
-f's wife	1k79	
-8cousins via female line	1k7a	
-kmale line	1k7b	
-8fellow student	1k7c	
-amale patrilineal cousin	1k7d	
-8generation	1k7e	
-i of a family	1k7f	
-8male patrilineal cousin	1k7g	
-8or junior male schoolmate	1k7h	
-8sibling	1k7i	
-aster	1k7j	
-e's husband	1k7k	
-9tepbrother	1k7l	
-csister	1k7m	
-6st brother	1k7n	
-9child	1k7o	
-9daughter	1k7p	
-9son	1k7q	
+5 and clumsy	1jin	
+aignorant	1jio	
+bnexperienced	1jip	
+apretty	1jiq	
+comising	1jir	
+atender	1jis	
+avigorous	1jit	
+6beauties	1jiu	
+7ird	1jiv	
+7oy	1jiw	
+6child	1jix	
+9nese cyber-nationalists	1jiy	
+7riminal	1jiz	
+6disciple	1jj0	
+6fellow	1jj1	
+8male cop	1jj2	
+dworker	1jj3	
+7oreign girl	1jj4	
+6generation	1jj5	
+9tleman	1jj6	
+7irl	1jj7	
+7uard	1jj8	
+8y	1jj9	
+6hooligan	1jja	
+8rse	1jjb	
+6lady	1jjc	
+a of the house	1jjd	
+6male worker	1jje	
+8n	1jjf	
+8rried couple	1jjg	
+ewoman	1jjh	
+8ster	1jji	
+c of the house	1jjj	
+6people	1jjk	
+8rson	1jjl	
+c with graying hair	1jjm	
+7ioneers of china	1jjn	
+7lant	1jjo	
+6rowdy	1jjp	
+7ussian woman	1jjq	
+6servant	1jjr	
+7prout	1jjs	
+7quid	1jjt	
+7uccessor	1jju	
+6thug	1jjv	
+6woman	1jjw	
+8rker	1jjx	
+6years	1jjy	
+5er brother	1jjz	
+f's wife	1jk0	
+8cousins via female line	1jk1	
+kmale line	1jk2	
+8fellow student	1jk3	
+amale patrilineal cousin	1jk4	
+8generation	1jk5	
+i of a family	1jk6	
+8male patrilineal cousin	1jk7	
+8or junior male schoolmate	1jk8	
+8sibling	1jk9	
+aster	1jka	
+e's husband	1jkb	
+9tepbrother	1jkc	
+csister	1jkd	
+6st brother	1jke	
+9child	1jkf	
+9daughter	1jkg	
+9son	1jkh	
 5ster	bic	7c
-9's talent	1k7r	
+9's talent	1jki	
 3r	bid	3
-4 age	1k7t	
-6ppearance	1k7u	
-6rrival	1k7v	
-5beautiful article	1k7w	
-6irthday	1k7x	
-6usiness	1k7y	
-5company	1k7z	
-7nsideration	1k80	
-5daughter	1k81	
-6istinguished country	1k82	
-jname	1k83	
-jself	1k84	
-jthoughts	1k85	
-5esteemed father	1k86	
-emother	1k87	
-ename	1k88	
-eolder brother	1k89	
-eparent	1k8a	
-fresence	1k8b	
-eson	1k8c	
-6xcellency	1k8d	
-5face	1k8e	
-7ther	1k8f	
-7vors	1k8g	
-5great kindness	1k8h	
-5highness	1k8i	
-6ome	1k8j	
-7use	1k8k	
-6umble servant	1k8l	
-5illness	1k8m	
-6nestimable assistance	1k8n	
-7structions	1k8o	
-5kind efforts	1k8p	
-aoffer	1k8q	
-5letter	1k8r	
-5majesty	1k8s	
-c the emperor	1k8t	
-6om's a prostitute	1k8u	
-7st brilliant pupil	1k8v	
-7ther	1k8w	
-5name	1k7s	
-5order	1k8x	
-5parent	1k8y	
-bs	1k8z	
-7tronage	1k90	
-6lace	1k91	
-5residence	1k92	
-8pected opinion	1k93	
-5sagacious majesty	1k94	
-6chool	1k95	
-6ervant	1k96	
-6ide	1k97	
-6on	1k98	
-5valued advice	1k99	
-6isit	1k9a	
-5wife	1k9b	
-6ork	1k9c	
+4 age	1jkk	
+6ppearance	1jkl	
+6rrival	1jkm	
+5beautiful article	1jkn	
+6irthday	1jko	
+6usiness	1jkp	
+5company	1jkq	
+7nsideration	1jkr	
+5daughter	1jks	
+6istinguished country	1jkt	
+jname	1jku	
+jself	1jkv	
+jthoughts	1jkw	
+5esteemed father	1jkx	
+emother	1jky	
+ename	1jkz	
+eolder brother	1jl0	
+eparent	1jl1	
+fresence	1jl2	
+eson	1jl3	
+6xcellency	1jl4	
+5face	1jl5	
+7ther	1jl6	
+7vors	1jl7	
+5great kindness	1jl8	
+5highness	1jl9	
+6ome	1jla	
+7use	1jlb	
+6umble servant	1jlc	
+5illness	1jld	
+6nestimable assistance	1jle	
+7structions	1jlf	
+5kind efforts	1jlg	
+aoffer	1jlh	
+5letter	1jli	
+5majesty	1jlj	
+c the emperor	1jlk	
+6om's a prostitute	1jll	
+7st brilliant pupil	1jlm	
+7ther	1jln	
+5name	1jkj	
+5order	1jlo	
+5parent	1jlp	
+bs	1jlq	
+7tronage	1jlr	
+6lace	1jls	
+5residence	1jlt	
+8pected opinion	1jlu	
+5sagacious majesty	1jlv	
+6chool	1jlw	
+6ervant	1jlx	
+6ide	1jly	
+6on	1jlz	
+5valued advice	1jm0	
+6isit	1jm1	
+5wife	1jm2	
+6ork	1jm3	
 4s	bie	3
-5 sincerely	1k9d	
-6truly	1k9e	
+5 sincerely	1jm4	
+6truly	1jm5	
 5elf	bif	3
 7ves	big	3
 3th	bih	3e
-5 corps	1k9f	
-6hostel	1k9g	
+5 corps	1jm6	
+6hostel	1jm7	
 5ful	bii	c
-8 age	1k9h	
-9time	1k9i	
-9years	1k9j	
-1u river	1k9k	
-3shyi-kun taiwanese politician	1k9l	
-2an or mongol dynasty	1k9m	
-5river	1k9n	
-2catan peninsula	1k9o	
-2e state	1k9p	
-2gur ethnic group	1k9q	
-2lan magnolia	1k9r	
+8 age	1jm8	
+9time	1jm9	
+9years	1jma	
+1u river	1jmb	
+3shyi-kun taiwanese politician	1jmc	
+2an or mongol dynasty	1jmd	
+5river	1jme	
+2catan peninsula	1jmf	
+2e state	1jmg	
+2gur ethnic group	1jmh	
+2lan magnolia	1jmi	
 2mmy	bij	2
-2nlin county in taiwan	1k9s	
-3nan and tibet	1k9t	
+2nlin county in taiwan	1jmj	
+3nan and tibet	1jmk	

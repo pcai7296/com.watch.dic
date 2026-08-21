@@ -1,4 +1,167 @@
-0worthwhile result		名堂
+0wool yarn		毛线
+4en blanket		羊毛毯
+7fabric made in tibet		氆氇
+7knitwear		毛线衣
+7textiles		毛织物
+8hread		绒线
+4len cloth		毛料
+5y mammoth		长毛象
+2rcestershire sauce		伍斯特酱
+3d class		词类
+5family		词族
+6ormation		组字
+e and inflection		词法
+6requency		词频
+5having alternative pronunciations		异读词
+5order		词序
+5placed after		后置词
+6rocessing		文字处理
+5segmentation		分词
+6tem		词干
+7ock		词库
+4s and actions		言行
+asentences		词句
+athoughts		心口
+6carved into cliff face		崖刻
+6flowing like pearl beads		珠流
+6of advice on parting		临别赠言
+9enormous weight		一言千金
+9love		情话
+9politeness		客气话
+9the ancient thinkers		前言
+ddeceased		遗言
+aruth		文以载道
+7r phrase		字词
+6spoken during sleep		梦话
+don sb's behalf		好话
+3k and rest		劳逸
+5chant		号子
+5especially hard		俾夜作昼
+5flow in manufacturing		流程
+6orce		劳力
+5is now underway		百废俱兴
+5method		做法
+6ore and get more		多劳多得
+5of art		艺术品
+5permit		工作证
+6oint		工分
+5regulations		操作规程
+5schedule		作息时间表
+6hift		时段
+a starting around daybreak		早早班
+6tation		工作台
+5team		工作组
+5unit		单位
+5within the communist party		党务
+4-point recorder		记工员
+5related matters		公事
+5study program		勤工俭学
+4ed material		熟料
+7up		激昂
+5r ant		工蚁
+7bee		工蜂
+7employed by the month		月工
+7in science and technology		科技工作者
+7on probation		试工
+7with rivets		铆工
+6's party		工党
+6s and peasants		工农
+8stadium		北京工人体育场
+7' living quarters		工房
+9party		工人党
+4ing capital		周转金
+9lass		工人阶级
+9ommittee		工作委员会
+andition		工况
+auple		双职工
+8day		工作日
+9og		工作犬
+8group		工作组
+8hard together		齐心合力
+9ours		工作时间
+8meal		工作餐
+amory		工作记忆
+8people		劳动人民
+9rocedure		工序
+8report		工作报告
+8surface		工作面
+8woman		女工
+4place overseer		监工
+3ld bank		世界银行
+7est		顶尖
+6championship		世锦赛
+7ultural heritage		世界文化遗产
+8p		世界杯
+8stoms organization		世界海关组织
+6economic forum		世界经济论坛
+7xpo		世博会
+6famous		世界知名
+7inancial center		世界金融中心
+7ood program		世界粮食署
+6games		世界运动会
+6health assembly		世界卫生大会
+dorganization		世界卫生组织
+8ritage site		世界文化遗产地
+7onored one		世尊
+6intellectual property organization		世界知识产权组织
+6meteorological organization		世界气象组织
+6of its own		别有天地
+9mortals		下方
+9science		科学界
+9the living		阳世
+9warcraft		魔兽世界
+7utlook		世界观
+6peace		世界和平
+7ower		世界强国
+6ranking		举世
+7ecord		世界纪录
+6tourism organization		世界旅游组织
+7rade		世界贸易
+b center		世界贸易中心
+corganization		世界贸易组织
+6uighur congress		世界维吾尔代表大会
+7niversity games		大运
+6war		世界大战
+9 i		一战
+bi		二战
+aone		第一次世界大战
+atwo		二次世界大战
+7ide web		全球资讯网
+8ldlife fund		世界野生生物基金会
+j wwf		世界自然基金会
+8th only two people		二人世界
+5's first		全世界第一
+5ly affairs		世务
+8desires		欲海
+8wisdom		人情世故
+5s apart		不啻天渊
+5wide green parties		绿党
+3m and worm gear		蜗杆副
+5drive		蜗杆副
+4-gear pair		蜗杆副
+3n next to the skin		贴身
+5out		人困马乏
+8 or worn smooth		麻花
+4-out footwear		破鞋
+9shoes		敝屣
+3ried facial expression		忧容
+8or downhearted		食不知味
+8too much		焦虑不安
+6s about the future consequences		后顾之忧
+3se than a beast		禽兽不如
+4t punishment		上刑
+3th hearing a hundred times		百听不厌
+6it		划得来
+6listening to		受听
+6seeing		可看
+6the money		值得
+5less nobody		不是东西
+aobject		土牛木马
+aperson		熊包
+ascholar		措大
+btuff		秕糠
+athing		粪土
+5while result		名堂
 5y little brother		贤弟
 7match		敌手
 7of celebration		可喜可贺
@@ -335,151 +498,3 @@ c with graying hair		少白头
 8rker		打工仔
 6years		芳华
 5er brother		兄弟
-f's wife		弟妹
-8cousins via female line		表弟妹
-kmale line		堂弟妹
-8fellow student		砚弟
-amale patrilineal cousin		堂妹
-8generation		后辈
-i of a family		下辈
-8male patrilineal cousin		堂弟
-8or junior male schoolmate		师弟
-8sibling		弟妹
-aster		妹妹
-e's husband		妹夫
-9tepbrother		继弟
-csister		继妹
-6st brother		季子
-9child		老幺
-9daughter		幺女
-9son		幺儿
-5ster's talent		头角
-3r name		大号
-5age		贵庚
-6ppearance		紫芝眉宇
-6rrival		驾临
-5beautiful article		兰章
-6irthday		千秋
-6usiness		贵干
-5company		贵公司
-7nsideration		盼睐
-5daughter		令爱
-6istinguished country		贵国
-jname		大名
-jself		阁下
-jthoughts		雅教
-5esteemed father		令尊
-emother		令慈
-ename		雅号
-eolder brother		令兄
-eparent		令亲
-fresence		驾临
-eson		令郎
-6xcellency		执事
-5face		尊容
-7ther		尊公
-7vors		盼睐
-5great kindness		雅爱
-5highness		主公
-6ome		贵府
-7use		覃第
-6umble servant		鄙人
-5illness		贵恙
-6nestimable assistance		鼎助
-7structions		钧谕
-5kind efforts		鼎力
-aoffer		雅意
-5letter		来示
-5majesty		主公
-c the emperor		皇上
-6om's a prostitute		妈卖批
-7st brilliant pupil		高足
-7ther		令堂
-5order		尊命
-5parent		尊亲
-bs		令尊令堂
-7tronage		惠顾
-6lace		宝地
-5residence		潭府
-8pected opinion		尊意
-5sagacious majesty		圣人
-6chool		贵校
-6ervant		奴家
-6ide		贵方
-6on		公子
-5valued advice		雅意
-6isit		见访
-5wife		令正
-6ork		大作
-4s sincerely		敬上
-6truly		敬上
-3th corps		青年团
-6hostel		青年旅舍
-5ful age		绮岁
-9time		花季
-9years		英年
-1u river		郁江
-3shyi-kun taiwanese politician		游锡堃
-2an or mongol dynasty		元朝
-5river		沅水
-2catan peninsula		尤卡坦半岛
-2e state		越国
-2gur ethnic group		裕固
-2lan magnolia		玉兰
-2nlin county in taiwan		云林
-3nan and tibet		滇藏
-0zagros mountains of southwest iran		扎格罗斯
-2ppey's flycatcher		琉璃蓝鹟
-1ebra crossing		斑马线
-6tilapia		布氏非鲫
-2iss company		蔡司公司
-2n buddhism		禅宗
-4saying repeated as cant		口头禅
-3er diode		恒压二极管
-2ppelin dirigible airship		齐柏林飞艇
-2ro curvature		零曲率
-5defect		零缺点
-7gree		零度
-6istance		零距离
-5hour		零时
-5initial		零声母
-5of a function		零点
-5power reactor		零功率堆
-5tolerance		零容忍
-5wait state		零等待状态
-7ste		零废弃
-4-day vulnerability		零日漏洞
-5point energy		零点能
-5sum game		零和博弈
-1haijiao sect of buddhism		斋教
-3ng three and li four		张三李四
-5tou wooden rod puppetry		杖头木偶
-3oqing university		肇庆大学
-2ejiang cuisine		浙菜
-9university		浙江大学
-3ng coding		郑码
-6shangyou		争上游
-5zhou university		郑州大学
-2ong kui		钟馗
-3u dynasty		周代
-4shan island		舟山群岛
-2uang language		壮语
-3hai and macau		珠澳
-1igzag road		之字路
-2ka virus		寨卡病毒
-2nc chloride		氯化锌
-5oxide		氧化锌
-2p code		邮政编码
-4line		溜索
-4ties		扎线带
-2rcon sand		锆英砂
-2tting cisticola		棕扇尾莺
-2zyphus vulgaris		枣树
-1ombie network		僵尸网络
-2ne plate		波带片
-2om ring		变焦环
-4flight telecom		中复电讯
-4orphic mask motif		饕餮纹
-2u county in shandong		邹县
-1ulu people		祖鲁人
-1ygomatic arch		颧弓

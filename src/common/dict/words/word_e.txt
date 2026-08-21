@@ -1,383 +1,383 @@
-0e pluribus unum	kdd	
-1-book reader	kde	
-2mail inbox	kdf	
-1a's origin platform	kdg	
+0e pluribus unum	jwc	
+1-book reader	jwd	
+2mail inbox	jwe	
+1a's origin platform	jwf	
 2ch	381	3
-4 and every family	kdh	
-fmoment	kdi	
-fone	kdj	
-5character is perfect	kdk	
-6ountry	kdl	
-5displays their own strengths	kdm	
-6oes his utmost	kdn	
-5goes his own way	kdo	
-5has its own merits	kdp	
-5minding his own business	kdq	
-6onth	kdr	
+4 and every family	jwg	
+fmoment	jwh	
+fone	jwi	
+5character is perfect	jwj	
+6ountry	jwk	
+5displays their own strengths	jwl	
+6oes his utmost	jwm	
+5goes his own way	jwn	
+5has its own merits	jwo	
+5minding his own business	jwp	
+6onth	jwq	
 5of	bll	
-6ne distinguishable	kds	
-6ther	kdt	
-5person	kdu	
-5takes what he needs	kdv	
-6o his own	kdw	
-5unto his own	kdx	
-5word carries weight	kdy	
-ais a teardrop	kdz	
-dhighly valued	ke0	
-5year	ke1	
+6ne distinguishable	jwr	
+6ther	jws	
+5person	jwt	
+5takes what he needs	jwu	
+6o his own	jwv	
+5unto his own	jww	
+5word carries weight	jwx	
+ais a teardrop	jwy	
+dhighly valued	jwz	
+5year	jx0	
 2ger	382	5e
-5 for	ke2	
-6to	ke3	
-8 be first	ke4	
-9excel	ke5	
-9study	ke6	
-9win	ke7	
-5ly attentive	ke8	
+5 for	jx1	
+6to	jx2	
+8 be first	jx3	
+9excel	jx4	
+9study	jx5	
+9win	jx6	
+5ly attentive	jx7	
 3le	383	3e
 5t	384	80
 2r	385	3
-3 canal	ke9	
-6re day	kea	
-4nose and throat	keb	
-4of grain	kec	
-7maize	ked	
-7wheat	kee	
-5rnament	kef	
-4pick	keg	
-4thermometer	keh	
-3ed pitta	kei	
-3l grey tea	kej	
-4dom or countship	kek	
+3 canal	jx8	
+6re day	jx9	
+4nose and throat	jxa	
+4of grain	jxb	
+7maize	jxc	
+7wheat	jxd	
+5rnament	jxe	
+4pick	jxf	
+4thermometer	jxg	
+3ed pitta	jxh	
+3l grey tea	jxi	
+4dom or countship	jxj	
 4y	386	3
-5 autumn	kel	
-6bird discount	kem	
-bticket	ken	
-6childhood	keo	
-f education	kep	
-6dawn	keq	
-7emise	ker	
-6education	kes	
-7vening	ket	
-6frost	keu	
-6historical times	kev	
-6in the month	kew	
-frning	kex	
-6morning	key	
-d sunlight	kez	
-6part	kf0	
-6season rice	kf1	
-7pring	kf2	
-7tage	kf3	
-b of pregnancy	kf4	
-7ummer	kf5	
-6train	kf6	
-6vote	kf7	
-6warning	kf8	
-d system	kf9	
-7inter	kfa	
-6years	kfb	
-7outh	kfc	
-5-morning autumn dew	kfd	
+5 autumn	jxk	
+6bird discount	jxl	
+bticket	jxm	
+6childhood	jxn	
+f education	jxo	
+6dawn	jxp	
+7emise	jxq	
+6education	jxr	
+7vening	jxs	
+6frost	jxt	
+6historical times	jxu	
+6in the month	jxv	
+frning	jxw	
+6morning	jxx	
+d sunlight	jxy	
+6part	jxz	
+6season rice	jy0	
+7pring	jy1	
+7tage	jy2	
+b of pregnancy	jy3	
+7ummer	jy4	
+6train	jy5	
+6vote	jy6	
+6warning	jy7	
+d system	jy8	
+7inter	jy9	
+6years	jya	
+7outh	jyb	
+5-morning autumn dew	jyc	
 3n	387	16
-4ed run average	kfe	
+4ed run average	jyd	
 5st	388	dc
-7 money	kff	
-7ly and sincerely	kfg	
+7 money	jye	
+7ly and sincerely	jyf	
 4ings	389	8
-8 rate	kfh	
-9yield	kfi	
+8 rate	jyg	
+9yield	jyh	
 3plug	38a	80
 3ring	38b	80
 3shot	38c	80
 4plitting	38d	80
 3th	38e	3
-5 dam	kfj	
-7eity	kfk	
-6god	kfl	
-6history	kfm	
-6orbit	kfn	
-6science	kfo	
-7pirit	kfp	
-5's gravity	kfq	
-8magnetic field	kfr	
-8orbit	kfs	
-5en bowl	kft	
-8kiln	kfu	
-8levee	kfv	
-9iquor jar	kfw	
+5 dam	jyi	
+7eity	jyj	
+6god	jyk	
+6history	jyl	
+6orbit	jym	
+6science	jyn	
+7pirit	jyo	
+5's gravity	jyp	
+8magnetic field	jyq	
+8orbit	jyr	
+5en bowl	jys	
+8kiln	jyt	
+8levee	jyu	
+9iquor jar	jyv	
 7ware	38f	48
-b pot	kfx	
+b pot	jyw	
 5ly	38g	80
-7 world	kfy	
+7 world	jyx	
 5quake	38h	5e
-a aftershock	kfz	
-clert	kg0	
-crea	kg1	
-bbelt	kg2	
-cureau	kg3	
-bepicenter	kg4	
-bintensity	kg5	
-bresistant	kg6	
-bscientist	kg7	
-cwarm	kg8	
-a-resistant construction	kg9	
+a aftershock	jyy	
+clert	jyz	
+crea	jz0	
+bbelt	jz1	
+cureau	jz2	
+bepicenter	jz3	
+bintensity	jz4	
+bresistant	jz5	
+bscientist	jz6	
+cwarm	jz7	
+a-resistant construction	jz8	
 5shaking	38i	80
 5y	38j	80
 2se	38k	3e
-4 of use	kga	
+4 of use	jz9	
 4l	38l	80
-5 painting	kgb	
-3ier said than done	kgc	
+5 painting	jza	
+3ier said than done	jzb	
 4ly	38m	6
-6 bullied	kgd	
-7moved to tears	kge	
-7obtained	kgf	
-7swayed person	kgg	
-7understood	kgh	
+6 bullied	jzc	
+7moved to tears	jzd	
+7obtained	jze	
+7swayed person	jzf	
+7understood	jzg	
 3t	38n	3
-4 africa	kgi	
-bn community	kgj	
-drift valley	kgk	
-6nd west	kgl	
-d germany	kgm	
-ehemispheres	kgn	
-6sia	kgo	
-9n countries	kgp	
-bgames	kgq	
-brainy season	kgr	
-btigers	kgs	
-5china	kgt	
-a normal university	kgu	
-bsea	kgv	
-6oast	kgw	
-5european plain	kgx	
-5face	kgy	
-5germany	kgz	
-5india company	kh0	
-5longitude	kh1	
-5pacific	kh2	
-c rise	kh3	
-5sea	kh4	
-8 fleet	kh5	
-6ichuan and chongqing	kh6	
-7de	kh7	
-5to west	kh8	
-6urkestan	kh9	
-e islamic movement	kha	
-5west south north	khb	
-5xinjiang	khc	
-5yunnan	khd	
-4-west distance	khe	
+4 africa	jzh	
+bn community	jzi	
+drift valley	jzj	
+6nd west	jzk	
+d germany	jzl	
+ehemispheres	jzm	
+6sia	jzn	
+9n countries	jzo	
+bgames	jzp	
+brainy season	jzq	
+btigers	jzr	
+5china	jzs	
+a normal university	jzt	
+bsea	jzu	
+6oast	jzv	
+5european plain	jzw	
+5face	jzx	
+5germany	jzy	
+5india company	jzz	
+5longitude	k00	
+5pacific	k01	
+c rise	k02	
+5sea	k03	
+8 fleet	k04	
+6ichuan and chongqing	k05	
+7de	k06	
+5to west	k07	
+6urkestan	k08	
+e islamic movement	k09	
+5west south north	k0a	
+5xinjiang	k0b	
+5yunnan	k0c	
+4-west distance	k0d	
 0Easter	38o	32
-0easter egg	khf	
-7island	khg	
-7week	khh	
-6ly wind	khi	
+0easter egg	k0e	
+7island	k0f	
+7week	k0g	
+6ly wind	k0h	
 6n	38p	36
-7 and western culture	khj	
-8barbarian	khk	
-bn owl	khl	
-9uzzard	khm	
-8cattle egret	khn	
-9ivilization	kho	
-9rowned warbler	khp	
-8equine encephalitis virus	khq	
-9urope	khr	
-9xtremity	khs	
-8grass owl	kht	
-8imperial eagle	khu	
-8marsh harrier	khv	
-9yanmar plateau	khw	
-8olivaceous warbler	khx	
-9rthodox church	khy	
-8part	khz	
-8roman empire or byzantium	ki0	
-8shield-backed katydid	ki1	
-9pot-billed duck	ki2	
-9tandard time	ki3	
-8wu	ki4	
-8yellow wagtail	ki5	
-8zhou	ki6	
-4man kodak company	ki7	
+7 and western culture	k0i	
+8barbarian	k0j	
+bn owl	k0k	
+9uzzard	k0l	
+8cattle egret	k0m	
+9ivilization	k0n	
+9rowned warbler	k0o	
+8equine encephalitis virus	k0p	
+9urope	k0q	
+9xtremity	k0r	
+8grass owl	k0s	
+8imperial eagle	k0t	
+8marsh harrier	k0u	
+9yanmar plateau	k0v	
+8olivaceous warbler	k0w	
+9rthodox church	k0x	
+8part	k0y	
+8roman empire or byzantium	k0z	
+8shield-backed katydid	k10	
+9pot-billed duck	k11	
+9tandard time	k12	
+8wu	k13	
+8yellow wagtail	k14	
+8zhou	k15	
+4man kodak company	k16	
 4ward	38q	8
 8s	38r	2
 3y	38s	3
-4 and comfortable	ki8	
-9relaxed	ki9	
-9unhurried	kia	
-6s pie	kib	
-5childbirth	kic	
-5job	kid	
-5money	kie	
-5on the eyes	kif	
-5task	kig	
-6o carry	kih	
-8get along with	kii	
-9rasp	kij	
-8handle	kik	
-8learn	kil	
-8push around	kim	
-8remember	kin	
-8take in	kio	
-8understand	kip	
-9se	kiq	
-4-open can	kir	
+4 and comfortable	k17	
+9relaxed	k18	
+9unhurried	k19	
+6s pie	k1a	
+5childbirth	k1b	
+5job	k1c	
+5money	k1d	
+5on the eyes	k1e	
+5task	k1f	
+6o carry	k1g	
+8get along with	k1h	
+9rasp	k1i	
+8handle	k1j	
+8learn	k1k	
+8push around	k1l	
+8remember	k1m	
+8take in	k1n	
+8understand	k1o	
+9se	k1p	
+4-open can	k1q	
 2t	38t	3
 3 of	bld	
-3ing and drinking	kis	
-7champion	kit	
-7without working	kiu	
-2u de cologne	kiv	
-2ves board	kiw	
+3ing and drinking	k1r	
+7champion	k1s	
+7without working	k1t	
+2u de cologne	k1u	
+2ves board	k1v	
 5drop	38u	80
 1bb	38v	d0
-3 and flow	kix	
-2inur river in xinjiang	kiy	
-2ola virus	kiz	
-2ro river	kj0	
+3 and flow	k1w	
+2inur river in xinjiang	k1x	
+2ola virus	k1y	
+2ro river	k1z	
 2ullience	38w	80
 1ccentric	38x	f8
-9 notion	kj1	
-aperson	kj2	
+9 notion	k20	
+aperson	k21	
 9ity	38y	40
 2dysis	38z	80
-2helon formation	kj3	
+2helon formation	k22	
 3o	390	7c
-4 chamber	kj4	
+4 chamber	k23	
 2lat	391	40
 3ectic	392	80
 8ism	393	c0
-6us roratus	kj5	
+6us roratus	k24	
 3ipse	394	78
-7 of the moon	kj6	
-8season	kj7	
-5tic line	kj8	
+7 of the moon	k25	
+8season	k26	
+5tic line	k27	
 3ogue	395	80
 2ological	396	40
-a community	kj9	
-bfootprint	kja	
-bniche	kjb	
-bstate	kjc	
+a community	k28	
+bfootprint	k29	
+bniche	k2a	
+bstate	k2b	
 7st	397	c0
 6y	398	7a
 3nomic	399	7c
-8 activity	kjd	
-9circles	kje	
-arime investigation	kjf	
-csis	kjg	
-aycle	kjh	
-9depression	kji	
-bvelopment	kjj	
-aifficulty	kjk	
-9foundation	kjl	
-auture	kjm	
-9growth	kjn	
-f rate	kjo	
-9outlook	kjp	
-9problem	kjq	
-9recession	kjr	
-bform	kjs	
-aights	kjt	
-9sanctions	kju	
-aecurity	kjv	
-aituation	kjw	
-atrength	kjx	
-aystem	kjy	
+8 activity	k2c	
+9circles	k2d	
+arime investigation	k2e	
+csis	k2f	
+aycle	k2g	
+9depression	k2h	
+bvelopment	k2i	
+aifficulty	k2j	
+9foundation	k2k	
+auture	k2l	
+9growth	k2m	
+f rate	k2n	
+9outlook	k2o	
+9problem	k2p	
+9recession	k2q	
+bform	k2r	
+aights	k2s	
+9sanctions	k2t	
+aecurity	k2u	
+aituation	k2v	
+atrength	k2w	
+aystem	k2x	
 8al	39a	fc
 aly	39b	8
-c backward	kjz	
-dindependent	kk0	
+c backward	k2y	
+dindependent	k2z	
 8s	39c	7c
-7es of scale	kk1	
+7es of scale	k30	
 7ze	39d	40
 6y	39e	3c
-7 and informatization commission	kk2	
-ctrade	kk3	
-8class	kk4	
-8seat	kk5	
+7 and informatization commission	k31	
+ctrade	k32	
+8class	k33	
+8seat	k34	
 3system	39f	48
 2stasy	39g	c0
 5tic	39h	80
-2topic pregnancy	kk6	
+2topic pregnancy	k35	
 2umenical	39i	80
 1ddy	39j	a0
-4 current	kk7	
+4 current	k36	
 2entate	39k	40
 2ge	39l	7f
-4 and corner	kk8	
-5ball	kk9	
-5city	kka	
-5of a field	kkb	
-8the road	kkc	
-cwater	kkd	
-8wheel	kke	
-4s and corners	kkf	
+4 and corner	k37	
+5ball	k38	
+5city	k39	
+5of a field	k3a	
+8the road	k3b	
+cwater	k3c	
+8wheel	k3d	
+4s and corners	k3e	
 2ible	39m	78
-6 bird's nest	kkg	
-7mushroom	kkh	
+6 bird's nest	k3f	
+7mushroom	k3g	
 3ct	39n	80
 3fice	39o	c0
 4y	39p	c0
 3t	39q	38
-4ed version	kki	
+4ed version	k3h	
 4ion	39r	3e
-7 currently in circulation	kkj	
-8number	kkk	
+7 currently in circulation	k3i	
+8number	k3j	
 4or	39s	3e
-6 in charge	kkl	
-cief	kkm	
-6's commentary	kkn	
-9note	kko	
+6 in charge	k3k	
+cief	k3l	
+6's commentary	k3m	
+9note	k3n	
 6ial	39t	3c
 2ucable	39u	40
 5te	39v	16
 7d	39w	40
-8 and well-balanced	kkp	
-appearance	kkq	
-9youth	kkr	
+8 and well-balanced	k3o	
+appearance	k3p	
+9youth	k3q	
 6ion	39x	77
-9 from father	kks	
-agrant	kkt	
-areform	kku	
+9 from father	k3r	
+agrant	k3s	
+areform	k3t	
 9al	39y	20
-b administration	kkv	
-cbackground	kkw	
-cestablishment	kkx	
-cinstitute	kky	
-kion	kkz	
-clevel	kl0	
-cmaterials	kl1	
-corganization	kl2	
-csoftware	kl3	
-dystem	kl4	
-ctelevision	kl5	
-doy	kl6	
+b administration	k3u	
+cbackground	k3v	
+cestablishment	k3w	
+cinstitute	k3x	
+kion	k3y	
+clevel	k3z	
+cmaterials	k40	
+corganization	k41	
+csoftware	k42	
+dystem	k43	
+ctelevision	k44	
+doy	k45	
 6or	39z	2
 4e	3a0	40
 1erie	3a1	80
 1fface	3a2	c0
 3ect	3a3	7e
 6ive	3a4	7c
-9 implement	kl7	
-aprescription	kl8	
-astrategy	kl9	
+9 implement	k46	
+aprescription	k47	
+astrategy	k48	
 9ly	3a5	20
 9ness	3a6	40
-d of fertilizer	kla	
+d of fertilizer	k49	
 6s	3a7	20
 4minate	3a8	80
-a man	klb	
-4rent nerve	klc	
-buron	kld	
+a man	k4a	
+4rent nerve	k4b	
+buron	k4c	
 5vesce	3a9	c0
-ant tablet	kle	
+ant tablet	k4d	
 4te	3aa	80
 3icacious	3ab	80
 7y	3ac	c0
 5iency	3ad	5c
-a of production	klf	
+a of production	k4e	
 8t	3ae	7c
-9 and unscrupulous	klg	
+9 and unscrupulous	k4f	
 4gy	3af	c0
 3luent	3ag	40
 5via	3ah	80
@@ -386,25 +386,25 @@ a of production	klf
 3ulgent	3ak	80
 1galitarian	3al	80
 2g	3am	3
-3 balancing	klh	
-5eater	kli	
-4fried on both sides	klj	
-arice	klk	
-4pancake	kll	
-5roducts	klm	
-4roll	kln	
-8ing	klo	
-4tart	klp	
-5imer	klq	
-5ofu	klr	
-6oth	kls	
-4white	klt	
-4yolk	klu	
-3-based products	klv	
-3drop soup	klw	
+3 balancing	k4g	
+5eater	k4h	
+4fried on both sides	k4i	
+arice	k4j	
+4pancake	k4k	
+5roducts	k4l	
+4roll	k4m	
+8ing	k4n	
+4tart	k4o	
+5imer	k4p	
+5ofu	k4q	
+6oth	k4r	
+4white	k4s	
+4yolk	k4t	
+3-based products	k4u	
+3drop soup	k4v	
 3plant	3an	2
 3shell	3ao	40
-8 china	klx	
+8 china	k4w	
 2o	3ap	38
 3centric	3aq	80
 3ism	3ar	c0
@@ -412,317 +412,317 @@ arice	klk
 2regious	3at	80
 4ss	3au	c0
 0Egyptian	3av	2a
-0egyptian nightjar	kly	
-9vulture	klz	
-1iffel tower	km0	
+0egyptian nightjar	k4x	
+9vulture	k4y	
+1iffel tower	k4z	
 2ght	3aw	3
-5 grade wage scale	km2	
-6jaundices	km1	
-6methods of treatment	km3	
-6surges	km4	
-5-hour workday system	km5	
-6jewel elixir	km6	
-dye ointment	km7	
-6to-two powder	km8	
-7rigram battle array	km9	
+5 grade wage scale	k51	
+6jaundices	k50	
+6methods of treatment	k52	
+6surges	k53	
+5-hour workday system	k54	
+6jewel elixir	k55	
+dye ointment	k56	
+6to-two powder	k57	
+7rigram battle array	k58	
 5een	3ax	17
 5h	3ay	3
-6 finals	kma	
-7month	kmb	
-7note	kmc	
+6 finals	k59	
+7month	k5a	
+7note	k5b	
 5y	3az	17
-6 percent	kmd	
-2nstein's theory of gravity	kme	
+6 percent	k5c	
+2nstein's theory of gravity	k5d	
 2ther	3b0	3
-6 end of a bridge	kmf	
-7one or the other	kmg	
-7side	kmh	
-7this or that	kmi	
-7way	kmj	
+6 end of a bridge	k5e	
+7one or the other	k5f	
+7side	k5g	
+7this or that	k5h	
+7way	k5i	
 1jaculate	3b1	80
-8ory duct	kmk	
+8ory duct	k5j	
 2ect	3b2	78
-5ion capsule	kml	
-9seat	kmm	
+5ion capsule	k5k	
+9seat	k5l	
 1ke	3b3	20
-1l salvador	kmn	
+1l salvador	k5m	
 2aborate	3b4	fc
-9 and refined	kmo	
-afeast	kmp	
-bormalities	kmq	
+9 and refined	k5n	
+afeast	k5o	
+bormalities	k5p	
 9ly	3b5	40
-b packaged	kmr	
+b packaged	k5q	
 8ion	3b6	80
 3pse	3b7	78
 3stic	3b8	3c
-7 deformation	kms	
-8force	kmt	
+7 deformation	k5r	
+8force	k5s	
 7ity	3b9	40
 3ted	3ba	a0
 4ion	3bb	40
-2be river	kmu	
+2be river	k5t	
 3ow	3bc	fc
-5 and armpit	kmv	
-6pad	kmw	
-8sta	kmx	
-6support	kmy	
-2d's deer	kmz	
+5 and armpit	k5u	
+6pad	k5v	
+8sta	k5w	
+6support	k5x	
+2d's deer	k5y	
 3er	3bd	37
-5 and younger brother	kn0	
-6brother	kn1	
-d and his wife	kn2	
-6or elderberry	kn3	
-6sister	kn4	
+5 and younger brother	k5z	
+6brother	k60	
+d and his wife	k61	
+6or elderberry	k62	
+6sister	k63	
 5ly	3be	34
-7 buddhist monk	kn5	
-hnun	kn6	
-8gentleman	kn7	
-8lady	kn8	
-8mother	kn9	
-8person	kna	
-4st brother	knb	
-7child in a family	knc	
-7daughter	knd	
-7grandson	kne	
-7of father's younger brothers	knf	
-7son	kng	
+7 buddhist monk	k64	
+hnun	k65	
+8gentleman	k66	
+8lady	k67	
+8mother	k68	
+8person	k69	
+4st brother	k6a	
+7child in a family	k6b	
+7daughter	k6c	
+7grandson	k6d	
+7of father's younger brothers	k6e	
+7son	k6f	
 2ect	3bf	16
-5ed by acclamation	knh	
+5ed by acclamation	k6g	
 5ion	3bg	4c
-8 assistant	kni	
-9campaign	knj	
-aommittee	knk	
-burt	knl	
-9participant	knm	
-dner	knn	
-5oral college	kno	
-adistrict	knp	
+8 assistant	k6h	
+9campaign	k6i	
+aommittee	k6j	
+burt	k6k	
+9participant	k6l	
+dner	k6m	
+5oral college	k6n	
+adistrict	k6o	
 8te	3bh	80
-5ra complex	knq	
+5ra complex	k6p	
 6ic	3bi	1f
-8 arc	knr	
-c welding	kns	
-9bass	knt	
-aell	knu	
-aicycle	knv	
-g or scooter	knw	
-alanket	knx	
-9car	kny	
-ahain pulley block	knz	
-dr	ko0	
-crge	ko1	
-f coupling	ko2	
-gon nucleus	ko3	
-aircuit	ko4	
-aonsumption	ko5	
-9drill	ko6	
-9eel	ko7	
-aquipment	ko8	
-9fan	ko9	
-aield	koa	
-ausebox	kob	
-9guitar	koc	
-9hand torch	kod	
-aeater for liquid	koe	
-9iron	kof	
-9kettle	kog	
-by	koh	
-9light	koi	
-e socket	koj	
-eing	kok	
-aocomotive	kol	
-9mill	kom	
-aosquito repellent	kon	
-iswatter	koo	
-btor	kop	
-9or magnetic poles	koq	
-9pole	kor	
-btential	kos	
-bwer	kot	
-e plant	kou	
-fsource	kov	
-9ray	kow	
-aice cooker	kox	
-9saw	koy	
-ahock	koz	
-aocket	kp0	
-bldering iron	kp1	
-apark	kp2	
-atove	kp3	
-awitch	kp4	
-9toothbrush	kp5	
-arain	kp6	
-bolley pole	kp7	
-9vehicle	kp8	
-9wave	kp9	
-aelding	kpa	
+8 arc	k6q	
+c welding	k6r	
+9bass	k6s	
+aell	k6t	
+aicycle	k6u	
+g or scooter	k6v	
+alanket	k6w	
+9car	k6x	
+ahain pulley block	k6y	
+dr	k6z	
+crge	k70	
+f coupling	k71	
+gon nucleus	k72	
+aircuit	k73	
+aonsumption	k74	
+9drill	k75	
+9eel	k76	
+aquipment	k77	
+9fan	k78	
+aield	k79	
+ausebox	k7a	
+9guitar	k7b	
+9hand torch	k7c	
+aeater for liquid	k7d	
+9iron	k7e	
+9kettle	k7f	
+by	k7g	
+9light	k7h	
+e socket	k7i	
+eing	k7j	
+aocomotive	k7k	
+9mill	k7l	
+aosquito repellent	k7m	
+iswatter	k7n	
+btor	k7o	
+9or magnetic poles	k7p	
+9pole	k7q	
+btential	k7r	
+bwer	k7s	
+e plant	k7t	
+fsource	k7u	
+9ray	k7v	
+aice cooker	k7w	
+9saw	k7x	
+ahock	k7y	
+aocket	k7z	
+bldering iron	k80	
+apark	k81	
+atove	k82	
+awitch	k83	
+9toothbrush	k84	
+arain	k85	
+bolley pole	k86	
+9vehicle	k87	
+9wave	k88	
+aelding	k89	
 8al	3bj	3e
-a ballast	kpb	
-bconductance	kpc	
-iivity	kpd	
-bdischarge	kpe	
-benergy	kpf	
-dgineering	kpg	
-bheating	kph	
-binsulation	kpi	
-blead	kpj	
-ekage	kpk	
-bmachinery	kpl	
-bpower	kpm	
-bsignal	kpn	
-bwork	kpo	
-aly charged particles	kpp	
+a ballast	k8a	
+bconductance	k8b	
+iivity	k8c	
+bdischarge	k8d	
+benergy	k8e	
+dgineering	k8f	
+bheating	k8g	
+binsulation	k8h	
+blead	k8i	
+ekage	k8j	
+bmachinery	k8k	
+bpower	k8l	
+bsignal	k8m	
+bwork	k8n	
+aly charged particles	k8o	
 8ian	3bk	38
 9ty	3bl	3e
-b generator	kpq	
-cpylon	kpr	
-ctransmission	kps	
-7fied wire netting	kpt	
+b generator	k8p	
+cpylon	k8q	
+ctransmission	k8r	
+7fied wire netting	k8s	
 6ode	3bm	8
-7lyte solution	kpu	
-aic capacitor	kpv	
+7lyte solution	k8t	
+aic capacitor	k8u	
 7magnetic	3bn	40
-f compatibility	kpw	
-gfields	kpx	
-horce	kpy	
-ginduction	kpz	
-iteraction	kq0	
-lference	kq1	
-gnoise	kq2	
-goscillation	kq3	
-gpulse	kq4	
-gtheory	kq5	
-gwave	kq6	
-8otive force	kq7	
+f compatibility	k8v	
+gfields	k8w	
+horce	k8x	
+ginduction	k8y	
+iteraction	k8z	
+lference	k90	
+gnoise	k91	
+goscillation	k92	
+gpulse	k93	
+gtheory	k94	
+gwave	k95	
+8otive force	k96	
 7n	3bo	5c
-8 cloud	kq8	
-9hole	kq9	
-9microscope	kqa	
-9shell	kqb	
-e number	kqc	
-9volt	kqd	
+8 cloud	k97	
+9hole	k98	
+9microscope	k99	
+9shell	k9a	
+e number	k9b	
+9volt	k9c	
 8ic	3bp	3e
-a book	kqe	
-f reader	kqf	
-bcomputer	kqg	
-bdance music	kqh	
-cictionary	kqi	
-cocument	kqj	
-bedition	kqk	
-cngineering	kql	
-cxchange of data	kqm	
-bkeyboard	kqn	
-bmoney	kqo	
-cusic	kqp	
-bnetwork	kqq	
-borganizer	kqr	
-breader	kqs	
-bstability program	kqt	
-cwitching system	kqu	
+a book	k9d	
+f reader	k9e	
+bcomputer	k9f	
+bdance music	k9g	
+cictionary	k9h	
+cocument	k9i	
+bedition	k9j	
+cngineering	k9k	
+cxchange of data	k9l	
+bkeyboard	k9m	
+bmoney	k9n	
+cusic	k9o	
+bnetwork	k9p	
+borganizer	k9q	
+breader	k9r	
+bstability program	k9s	
+cwitching system	k9t	
 as	3bq	2c
-b industry	kqv	
-7static generator	kqw	
+b industry	k9u	
+7static generator	k9v	
 3gance	3br	40
 6t	3bs	7a
-7 and calm	kqx	
-cgraceful posture	kqy	
-cornate	kqz	
-cpure	kr0	
-cstately	kr1	
-dupple	kr2	
-ctasteful	kr3	
-9ppearance	kr4	
-8bearing	kr5	
-8demeanor	kr6	
-8manner	kr7	
-8name	kr8	
-8orderliness	kr9	
-8pastime	kra	
-9laything	krb	
-8scholar	krc	
-9ituation	krd	
-4iac address	kre	
-8tablet	krf	
-8words	krg	
+7 and calm	k9w	
+cgraceful posture	k9x	
+cornate	k9y	
+cpure	k9z	
+cstately	ka0	
+dupple	ka1	
+ctasteful	ka2	
+9ppearance	ka3	
+8bearing	ka4	
+8demeanor	ka5	
+8manner	ka6	
+8name	ka7	
+8orderliness	ka8	
+8pastime	ka9	
+9laything	kaa	
+8scholar	kab	
+9ituation	kac	
+4iac address	kad	
+8tablet	kae	
+8words	kaf	
 4y	3bt	80
 3ment	3bu	5c
 7al	3bv	8
 8ry	3bw	fc
-a algebra	krh	
-beducation	kri	
-bschool	krj	
+a algebra	kag	
+beducation	kah	
+bschool	kai	
 7s	3bx	20
 3phant	3by	1f
-8 seal	krk	
-9trunk clam	krl	
-ausk	krm	
+8 seal	kaj	
+9trunk clam	kak	
+ausk	kal	
 8ine	3bz	80
 3vate	3c0	f8
-7d and cold	krn	
-9road	kro	
+7d and cold	kam	
+9road	kan	
 6ion	3c1	48
 6or	3c2	7c
-8 shaft	krp	
+8 shaft	kao	
 4en	3c3	3
-6th lunar month	krq	
-9month	krr	
+6th lunar month	kap	
+9month	kaq	
 2icit	3c4	e8
 3gible	3c5	f8
 3minate	3c6	fc
-9 vice and exalt virtue	krs	
+9 vice and exalt virtue	kar	
 8ion	3c7	4c
-b of the weak	krt	
+b of the weak	kas	
 3te	3c8	f8
-5 soldiers	kru	
-7quad	krv	
-6troops	krw	
+5 soldiers	kat	
+7quad	kau	
+6troops	kav	
 3xir	3c9	c0
-6 of life	krx	
-2liot's laughingthrush	kry	
-9pheasant	krz	
+6 of life	kaw	
+2liot's laughingthrush	kax	
+9pheasant	kay	
 4psis	3ca	80
-5tic curve	ks0	
-9function	ks1	
-9integral	ks2	
+5tic curve	kaz	
+9function	kb0	
+9integral	kb1	
 8al	3cb	c8
-a machine	ks3	
-btrainer	ks4	
-4s island	ks5	
+a machine	kb2	
+btrainer	kb3	
+4s island	kb4	
 2m	3cc	80
 2ocution	3cd	80
 3ngate	3ce	c0
-7ion stage	ks6	
+7ion stage	kb5	
 3quence	3cf	c8
 7t	3cg	78
-8 and cunning	ks7	
-9person	ks8	
+8 and cunning	kb6	
+9person	kb7	
 2se	3ch	3
 4where	3ci	3c
-3holtzia ciliata	ks9	
+3holtzia ciliata	kb8	
 2ucidate	3cj	c0
 3de	3ck	c0
 3sive	3cl	c0
-7 matters	ksa	
+7 matters	kb9	
 1maciate	3cm	c0
 8d	3cn	40
-9 look	ksb	
+9 look	kba	
 7ion	3co	80
 3il	3cp	21
-5 address	ksc	
-6inbox	ksd	
+5 address	kbb	
+6inbox	kbc	
 3nate	3cq	c0
 4cipate	3cr	c0
 9ion	3cs	40
 3sculate	3ct	80
 2balm	3cu	40
 4nkment	3cv	80
-a between fields	kse	
+a between fields	kbd	
 4rgo	3cw	a0
-7 on arms sale	ksf	
+7 on arms sale	kbe	
 5k	3cx	38
 5rass	3cy	fe
 4ssy	3cz	3a
-7 and consulate	ksg	
+7 and consulate	kbf	
 3ed	3d0	f0
 4llish	3d1	c0
 9ment	3d2	40
@@ -732,284 +732,284 @@ a between fields	kse
 3lazon	3d6	80
 4em	3d7	40
 6atic	3d8	80
-3odied ai	ksh	
+3odied ai	kbg	
 6ment	3d9	80
 5y	3da	f8
 4lden	3db	80
 4som	3dc	40
 5s	3dd	c0
-6ed wallpaper	ksi	
+6ed wallpaper	kbh	
 3race	3de	fc
 4oider	3df	c0
-9ed shoes	ksj	
+9ed shoes	kbi	
 9y	3dg	48
-a frame	ksk	
+a frame	kbj	
 6l	3dh	80
 4yo	3di	40
-6 sac	ksl	
+6 sac	kbk	
 6logical	3dj	40
 6nic	3dk	c0
-9 period	ksm	
-2ei leaf warbler	ksn	
-5shan liocichla	kso	
+9 period	kbl	
+2ei leaf warbler	kbm	
+5shan liocichla	kbn	
 3nd	3dl	c0
 3rald	3dm	80
-7 green	ksp	
+7 green	kbo	
 4ge	3dn	7c
 6nce	3do	40
 8ies	3dp	20
 8y	3dq	be
-9 aid committee	ksq	
-abraking	ksr	
-adesk	kss	
-aevacuation	kst	
-bxit	ksu	
-cposure	ksv	
-amanagement	ksw	
-bedical care	ksx	
-aprovisions	ksy	
-arelief	ksz	
-boom	kt0	
-astandby	kt1	
-cop	kt2	
-atreatment	kt3	
+9 aid committee	kbp	
+abraking	kbq	
+adesk	kbr	
+aevacuation	kbs	
+bxit	kbt	
+cposure	kbu	
+amanagement	kbv	
+bedical care	kbw	
+aprovisions	kbx	
+arelief	kby	
+boom	kbz	
+astandby	kc0	
+cop	kc1	
+atreatment	kc2	
 5ing	3dr	50
-8 industry	kt4	
-4itus professor	kt5	
-4y wheel	kt6	
+8 industry	kc3	
+4itus professor	kc4	
+4y wheel	kc5	
 2igrant	3ds	40
 6te	3dt	f8
 3nence	3du	c0
 6t	3dv	f0
-7 status	kt7	
-8writer	kt8	
+7 status	kc6	
+8writer	kc7	
 3ssary	3dw	80
 5ion	3dx	48
-8 nebula	kt9	
+8 nebula	kc8	
 3t	3dy	fc
-2manuel or emmanuelle	kta	
-3y award	ktb	
+2manuel or emmanuelle	kc9	
+3y award	kca	
 2ollient	3dz	80
 4ument	3e0	c0
 3te	3e1	80
-4icon collection	ktc	
+4icon collection	kcb	
 5on	3e2	7c
 7al	3e3	4c
-9 abuse	ktd	
-ablackmail	kte	
-aintelligence	ktf	
-m quotient	ktg	
-bssue	kth	
-aoutlet	kti	
-astate	ktj	
-cirring	ktk	
-avalue	ktl	
-9ly dependent	ktm	
-cintense	ktn	
-cunrestrained	kto	
-7s at time of parting	ktp	
-9expressed in writing	ktq	
+9 abuse	kcc	
+ablackmail	kcd	
+aintelligence	kce	
+m quotient	kcf	
+bssue	kcg	
+aoutlet	kch	
+astate	kci	
+cirring	kcj	
+avalue	kck	
+9ly dependent	kcl	
+cintense	kcm	
+cunrestrained	kcn	
+7s at time of parting	kco	
+9expressed in writing	kcp	
 2pathy	3e4	80
 3eror	3e5	3e
-7 huizong	ktr	
-8in hindu mythology	kts	
-8ningzong of southern song	ktt	
-8of a former dynasty	ktu	
-bjapan	ktv	
-bthe sea	ktw	
-8penguin	ktx	
-7's carriage	kty	
-bourt dress	ktz	
-afavorite courtier	ku0	
-agenerosity towards a favorite	ku1	
-aoffspring	ku2	
-ason-in-law	ku3	
-ayoung brother	ku4	
+7 huizong	kcq	
+8in hindu mythology	kcr	
+8ningzong of southern song	kcs	
+8of a former dynasty	kct	
+bjapan	kcu	
+bthe sea	kcv	
+8penguin	kcw	
+7's carriage	kcx	
+bourt dress	kcy	
+afavorite courtier	kcz	
+agenerosity towards a favorite	kd0	
+aoffspring	kd1	
+ason-in-law	kd2	
+ayoung brother	kd3	
 3hasis	3e6	5c
 7ze	3e7	7c
 5tic	3e8	c0
 3ire	3e9	1e
-6 state building	ku5	
+6 state building	kd4	
 5ical	3ea	b8
 7ism	3eb	80
 3loy	3ec	5e
 6ee	3ed	7c
-8 identification card	ku6	
-9number	ku7	
+8 identification card	kd5	
+9number	kd6	
 8s	3ee	20
 7r	3ef	7c
 6ment	3eg	3c
-a agent	ku8	
-cs sex worker	ku9	
-bopportunity	kua	
-brate	kub	
-bservice	kuc	
-chop	kud	
+a agent	kd7	
+cs sex worker	kd8	
+bopportunity	kd9	
+brate	kda	
+bservice	kdb	
+chop	kdc	
 3ower	3eh	c0
-3ress dowager	kue	
-f ci'an of qing	kuf	
-8michiko of japan	kug	
-7's body	kuh	
-aphysical condition	kui	
-athrone	kuj	
+3ress dowager	kdd	
+f ci'an of qing	kde	
+8michiko of japan	kdf	
+7's body	kdg	
+aphysical condition	kdh	
+athrone	kdi	
 3ty	3ei	63
-5 and quiet	kuk	
-asilent	kul	
-atrite	kum	
-6fame	kun	
-8ntasy	kuo	
-7ormality	kup	
-6handed	kuq	
-6interior	kur	
-6nest	kus	
-6place	kut	
-7rattle	kuu	
-8omise	kuv	
-ds	kuw	
-6set	kux	
-7hell	kuy	
-7pace	kuz	
-6talk	kv0	
-6words	kv1	
-7rist	kv2	
+5 and quiet	kdj	
+asilent	kdk	
+atrite	kdl	
+6fame	kdm	
+8ntasy	kdn	
+7ormality	kdo	
+6handed	kdp	
+6interior	kdq	
+6nest	kdr	
+6place	kds	
+7rattle	kdt	
+8omise	kdu	
+ds	kdv	
+6set	kdw	
+7hell	kdx	
+7pace	kdy	
+6talk	kdz	
+6words	ke0	
+7rist	ke1	
 3yreal	3ej	80
 7n	3ek	80
 2ulate	3el	c0
-6ion server	kv3	
+6ion server	ke2	
 4sify	3em	80
-6on paint	kv4	
-1n masse	kv5	
-3route	kv6	
-8 to	kv7	
+6on paint	ke3	
+1n masse	ke4	
+3route	ke5	
+8 to	ke6	
 2able	3en	5c
 3ct	3eo	c0
 5ment	3ep	40
 3mel	3eq	80
 4ored	3er	80
-3ntiomeric isomer	kv8	
-jism	kv9	
+3ntiomeric isomer	ke7	
+jism	ke8	
 2capsulate	3es	80
 4se	3et	40
-3einte of a city gate	kva	
+3einte of a city gate	ke9	
 3hant	3eu	c8
-7ing scenery	kvb	
-cmile	kvc	
+7ing scenery	kea	
+cmile	keb	
 3ipher	3ev	80
-4rcling the city	kvd	
+4rcling the city	kec	
 3lose	3ew	7c
-7d pasture	kve	
-9with letter	kvf	
+7d pasture	ked	
+9with letter	kee	
 6ure	3ex	f8
-9 for carrier pigeons	kvg	
-amovement	kvh	
+9 for carrier pigeons	kef	
+amovement	keg	
 3omiast	3ey	80
 6um	3ez	80
 5pass	3f0	c0
 4unter	3f1	fc
-9 with a beautiful woman	kvi	
+9 with a beautiful woman	keh	
 5rage	3f2	5f
 9ment	3f3	2
 3roach	3f4	c0
 3umber	3f5	c0
-8ed by wife and children	kvj	
+8ed by wife and children	kei	
 3yclopedia	3f6	f0
-c of china publishing house	kvk	
+c of china publishing house	kej	
 bc	3f7	80
-c dictionary	kvl	
+c dictionary	kek	
 2d	3f8	23
-3 face	kvm	
-4line	kvn	
-4of a banquet	kvo	
-9fixed term	kvp	
-9historical era	kvq	
-9show	kvr	
-9vacation	kvs	
-7friendship	kvt	
-7month	kvu	
-7quote	kvv	
-7school	kvw	
-7term examination	kvx	
-8he century	kvy	
-bmonth	kvz	
-bwar	kw0	
-corld	kw1	
-byear	kw2	
-4paper	kw3	
-6rt	kw4	
-5oint	kw5	
-5roduct	kw6	
-4seat	kw7	
-5tage	kw8	
-7tion	kw9	
-5ystem	kwa	
-4user	kwb	
-3-to-end encryption	kwc	
+3 face	kel	
+4line	kem	
+4of a banquet	ken	
+9fixed term	keo	
+9historical era	kep	
+9show	keq	
+9vacation	ker	
+7friendship	kes	
+7month	ket	
+7quote	keu	
+7school	kev	
+7term examination	kew	
+8he century	kex	
+bmonth	key	
+bwar	kez	
+corld	kf0	
+byear	kf1	
+4paper	kf2	
+6rt	kf3	
+5oint	kf4	
+5roduct	kf5	
+4seat	kf6	
+5tage	kf7	
+7tion	kf8	
+5ystem	kf9	
+4user	kfa	
+3-to-end encryption	kfb	
 3anger	3f9	48
 8ed	3fa	40
-a species	kwd	
+a species	kfc	
 3earing	3fb	80
-9ly silly	kwe	
+9ly silly	kfd	
 5vor	3fc	58
 7ur	3fd	68
 4mic	3fe	80
 3ing	3ff	3e
-6 theme song	kwf	
-7up as	kwg	
+6 theme song	kfe	
+7up as	kff	
 3less	3fg	4e
-7 crime	kwh	
-8happiness	kwi	
-8loop	kwj	
-8mist	kwk	
-9umbling	kwl	
-8prattle	kwm	
+7 crime	kfg	
+8happiness	kfh	
+8loop	kfi	
+8mist	kfj	
+9umbling	kfk	
+8prattle	kfl	
 7ly	3fh	40
-9 interesting	kwn	
-3ocrine gland	kwo	
-4genic force	kwp	
-4plasmic reticulum	kwq	
+9 interesting	kfm	
+3ocrine gland	kfn	
+4genic force	kfo	
+4plasmic reticulum	kfp	
 4rse	3fi	e0
 4therm	3fj	40
 5oxin	3fk	40
-5racheal intubation	kwr	
+5racheal intubation	kfq	
 4w	3fl	f8
 5ment	3fm	40
-3s of the earth	kws	
+3s of the earth	kfr	
 3ue	3fn	c0
 4rance	3fo	78
-9 race	kwt	
+9 race	kfs	
 5e	3fp	dc
 5ing	3fq	c0
-8 peace	kwu	
-9while the world lasts	kwv	
+8 peace	kft	
+9while the world lasts	kfu	
 2emy	3fr	17
-5 camp	kww	
-7ountry	kwx	
-6defense	kwy	
-6garrison	kwz	
-6occupied territory	kx0	
-7f the emperor	kx1	
-6plane	kx2	
-6radio station	kx3	
-6spy	kx4	
-6territory	kx5	
-7roops	kx6	
-6within one's own ranks	kx7	
-5-held territory	kx8	
+5 camp	kfv	
+7ountry	kfw	
+6defense	kfx	
+6garrison	kfy	
+6occupied territory	kfz	
+7f the emperor	kg0	
+6plane	kg1	
+6radio station	kg2	
+6spy	kg3	
+6territory	kg4	
+7roops	kg5	
+6within one's own ranks	kg6	
+5-held territory	kg7	
 3rgetic	3fs	7a
-9 looks	kx9	
-amood	kxa	
-aresponse	kxb	
+9 looks	kg8	
+amood	kg9	
+aresponse	kga	
 5ies	3ft	20
 6ze	3fu	48
 5y	3fv	3d
-6 channels	kxc	
-8onsumption	kxd	
-8risis	kxe	
-7drink	kxf	
-7efficiency	kxg	
-7left over	kxh	
-9vel	kxi	
-7metabolism	kxj	
+6 channels	kgb	
+8onsumption	kgc	
+8risis	kgd	
+7drink	kge	
+7efficiency	kgf	
+7left over	kgg	
+9vel	kgh	
+7metabolism	kgi	
 4vate	3fw	c0
 2feeble	3fx	80
 4tter	3fy	80
@@ -1021,34 +1021,34 @@ aresponse	kxb
 5ing	3g4	c0
 3ender	3g5	c0
 3ine	3g6	3e
-6 capacity	kxk	
-7displacement	kxl	
-7knock	kxm	
-7oil	kxn	
-7room	kxo	
-7temperature gauge	kxp	
+6 capacity	kgj	
+7displacement	kgk	
+7knock	kgl	
+7oil	kgm	
+7room	kgn	
+7temperature gauge	kgo	
 6er	3g7	3f
-8's scale	kxq	
-8ed ceramics	kxr	
+8's scale	kgp	
+8ed ceramics	kgq	
 8ing	3g8	3c
-b as an academic subject	kxs	
-ccollege	kxt	
-cgraphics	kxu	
+b as an academic subject	kgr	
+ccollege	kgs	
+cgraphics	kgt	
 8s	3g9	20
 0England	3ga	21
-0england and germany	kxv	
-8premier soccer league	kxw	
+0england and germany	kgu	
+8premier soccer league	kgv	
 0English	3gb	3
-0english channel	kxx	
-9orner	kxy	
-8department	kxz	
-8horn	ky0	
-8language teaching	ky1	
-8translation	ky2	
-7-chinese parallel text	ky3	
+0english channel	kgw	
+9orner	kgx	
+8department	kgy	
+8horn	kgz	
+8language teaching	kh0	
+8translation	kh1	
+7-chinese parallel text	kh2	
 0Englishman	3gc	4
 0engrave	3gd	e0
-7d blocks	ky4	
+7d blocks	kh3	
 6ing	3ge	40
 4oss	3gf	e0
 7ment	3gg	80
@@ -1056,51 +1056,51 @@ cgraphics	kxu
 2hance	3gi	fc
 2igma	3gj	40
 6tic	3gk	40
-9 and impossible to predict	ky5	
+9 and impossible to predict	kh4	
 2join	3gl	80
 4y	3gm	3
 5able	3gn	2
-5ing exceptional advantages	ky6	
+5ing exceptional advantages	kh5	
 2large	3go	1e
-6ing paper	ky7	
+6ing paper	kh6	
 3ighten	3gp	f8
-9ed sage	ky8	
-dovereign	ky9	
+9ed sage	kh7	
+dovereign	kh8	
 9ing	3gq	80
-c remarks	kya	
+c remarks	kh9	
 9ment	3gr	40
-d dawns	kyb	
+d dawns	kha	
 4st	3gs	d0
-6ed sailor in navy	kyc	
-6ment age	kyd	
+6ed sailor in navy	khb	
+6ment age	khc	
 4ven	3gt	80
 2mesh	3gu	80
 3ity	3gv	c0
-6 leading to sin	kye	
+6 leading to sin	khd	
 2noble	3gw	80
 3ui	3gx	c0
-2oki mushroom	kyf	
+2oki mushroom	khe	
 3rmity	3gy	c0
 5ous	3gz	fc
-8 lie	kyg	
-9sum	kyh	
+8 lie	khf	
+9sum	khg	
 3ugh	3h0	3
-6 is enough	kyi	
+6 is enough	khh	
 2quire	3h1	30
 6y	3h2	22
 2rage	3h3	c0
 4pture	3h4	c0
 3ich	3h5	78
-6ed uranium	kyj	
+6ed uranium	khi	
 3oll	3h6	7c
 6ment	3h7	20
 5ment	3h8	20
 2sconce	3h9	80
 3emble	3ha	e0
-8 of heroes	kyk	
-3hi county in southwest hubei	kyl	
+8 of heroes	khj	
+3hi county in southwest hubei	khk	
 4rine	3hb	80
-5ouded in mist	kym	
+5ouded in mist	khl	
 3ign	3hc	80
 3lave	3hd	c0
 3nare	3he	80
@@ -1109,53 +1109,53 @@ d dawns	kyb
 2tail	3hh	f8
 4ngle	3hi	e0
 8ment	3hj	40
-3echinus major	kyn	
+3echinus major	khm	
 4r	3hk	17
-5ing and leaving a country	kyo	
-9tone	kyp	
+5ing and leaving a country	khn	
+9tone	kho	
 5prise	3hl	fa
 9ing	3hm	40
-c spirit	kyq	
+c spirit	khp	
 5tain	3hn	5c
 9er	3ho	40
-9ing anecdote	kyr	
-din conversation	kys	
-gone's speech	kyt	
+9ing anecdote	khq	
+din conversation	khr	
+gone's speech	khs	
 9ment	3hp	7e
-d at folk festival	kyu	
-ecenter	kyv	
+d at folk festival	kht	
+ecenter	khu	
 3hral	3hq	40
 7l	3hr	c0
 8ing	3hs	80
 4usiasm	3ht	7c
-a of the new convert	kyw	
+a of the new convert	khv	
 9tic	3hu	3e
-c praise	kyx	
+c praise	khw	
 cally	3hv	40
 3ice	3hw	c0
 4re	3hx	1e
-6 household	kyy	
-7set	kyz	
-7text	kz0	
-7world	kz1	
-7year	kz2	
-6ly different	kz3	
-9in one's element	kz4	
-9outside the norm	kz5	
-9regrettable	kz6	
+6 household	khx	
+7set	khy	
+7text	khz	
+7world	ki0	
+7year	ki1	
+6ly different	ki2	
+9in one's element	ki3	
+9outside the norm	ki4	
+9regrettable	ki5	
 6ty	3hy	80
 4tle	3hz	fc
 7d	3i0	40
 5y	3i1	f8
 3ourage	3i2	80
 3rance	3i3	fe
-8 and exit	kz7	
-h door	kz8	
-9door	kz9	
-9examination	kza	
-9hall	kzb	
-9or staircase	kzc	
-9portal	kzd	
+8 and exit	ki6	
+h door	ki7	
+9door	ki8	
+9examination	ki9	
+9hall	kia	
+9or staircase	kib	
+9portal	kic	
 7ing	3i4	80
 5p	3i5	40
 4eat	3i6	a8
@@ -1165,730 +1165,730 @@ h door	kz8
 5preneur	3ia	f8
 4ust	3ib	80
 4y	3ic	fe
-5 pass for imperial examination	kze	
-6visa	kzf	
+5 pass for imperial examination	kid	
+6visa	kie	
 3wine	3id	80
 2umerate	3ie	c0
-8ion comma	kzg	
+8ion comma	kif	
 3nciate	3if	c0
 2velop	3ig	40
 7e	3ih	1e
-8 for a padded coverlet	kzh	
-8d in clouds and mist	kzi	
+8 for a padded coverlet	kig	
+8d in clouds and mist	kih	
 3ious	3ii	8
 4ron	3ij	80
 7ment	3ik	3f
-b protection office	kzj	
+b protection office	kii	
 bal	3il	28
-d activism	kzk	
-edamage	kzl	
-efactor	kzm	
-eimpact	kzn	
-k assessment	kzo	
-v eia	kzp	
-epollution	kzq	
-frotection	kzr	
-esanitation	kzs	
-fcience	kzt	
-etemperature	kzu	
-dly friendly	kzv	
+d activism	kij	
+edamage	kik	
+efactor	kil	
+eimpact	kim	
+k assessment	kin	
+v eia	kio	
+epollution	kip	
+frotection	kiq	
+esanitation	kir	
+fcience	kis	
+etemperature	kit	
+dly friendly	kiu	
 7s	3im	80
 4sage	3in	b8
 5ion	3io	c0
 3oy	3ip	40
 3y	3iq	3e
 2zyme	3ir	e0
-1ocene system	kzw	
-2sinophil granulocyte	kzx	
+1ocene system	kiv	
+2sinophil granulocyte	kiw	
 1paulet	3is	80
 2hemeral	3it	e0
 2ic	3iu	c0
-4 narrative	kzy	
-4anthal fold of upper eyelid	kzz	
+4 narrative	kix	
+4anthal fold of upper eyelid	kiy	
 4ure	3iv	80
 7an	3iw	80
 3demic	3ix	f8
-8 area	l00	
-9cerebrospinal meningitis	l01	
-9disease	l02	
-9situation	l03	
-atrain	l04	
-7ological survey	l05	
+8 area	kiz	
+9cerebrospinal meningitis	kj0	
+9disease	kj1	
+9situation	kj2	
+atrain	kj3	
+7ological survey	kj4	
 5rmis	3iy	c0
 3gram	3iz	80
-3leptic seizure	l06	
+3leptic seizure	kj5	
 4ogue	3j0	80
-3nephelus septemfasciatus	l07	
-3physeal line	l08	
-bplate	l09	
+3nephelus septemfasciatus	kj6	
+3physeal line	kj7	
+bplate	kj8	
 3sode	3j1	fc
 6ic	3j2	80
-4tle of st james	l0a	
-fude	l0b	
+4tle of st james	kj9	
+fude	kja	
 3taph	3j3	80
 4het	3j4	80
 4ome	3j5	80
 6ize	3j6	80
 2och	3j7	f8
-3xy resin	l0c	
-2som salts	l0d	
+3xy resin	kjb	
+2som salts	kjc	
 1quable	3j8	80
 4l	3j9	7e
-5 difference	l0e	
-6in value	l0f	
-6pay for equal work	l0g	
-7ressure	l0h	
-6rights	l0i	
-6temperament	l0j	
-7o	l0k	
-8 the capital	l0l	
-5-value exchange	l0m	
+5 difference	kjd	
+6in value	kje	
+6pay for equal work	kjf	
+7ressure	kjg	
+6rights	kjh	
+6temperament	kji	
+7o	kjj	
+8 the capital	kjk	
+5-value exchange	kjl	
 5ity	3ja	5e
-8 between the sexes	l0n	
-9of ethnic groups	l0o	
-cthe sexes	l0p	
-5ly famous	l0q	
-8matched	l0r	
-8true for	l0s	
+8 between the sexes	kjm	
+9of ethnic groups	kjn	
+cthe sexes	kjo	
+5ly famous	kjp	
+8matched	kjq	
+8true for	kjr	
 4nimity	3jb	80
 4te	3jc	c8
 5ion	3jd	fc
-8 expressing a relation	l0t	
-9of a chemical reaction	l0u	
-8s of motion	l0v	
+8 expressing a relation	kjs	
+9of a chemical reaction	kjt	
+8s of motion	kju	
 5or	3je	f8
-7ial counter current	l0w	
-bguinea	l0x	
-bmount	l0y	
-brain forest	l0z	
+7ial counter current	kjv	
+bguinea	kjw	
+bmount	kjx	
+brain forest	kjy	
 3estrian	3jf	c0
-a archery	l10	
-3iaxial crystal system	l11	
-4lateral triangle	l12	
+a archery	kjz	
+3iaxial crystal system	kk0	
+4lateral triangle	kk1	
 5ibrium	3jg	e8
-b of forces	l13	
+b of forces	kk2	
 4ne	3jh	80
-6 recurrent uveitis	l14	
+6 recurrent uveitis	kk3	
 4p	3ji	5e
 5e	3jj	8
 5ment	3jk	7e
-5ped with	l15	
+5ped with	kk4	
 4table	3jl	60
 5y	3jm	a0
-6 participation	l16	
-7shares	l17	
-4valence relation	l18	
+6 participation	kk5	
+7shares	kk6	
+4valence relation	kk7	
 9t	3jn	fc
 5ocal	3jo	60
-9 speech	l19	
+9 speech	kk8	
 8te	3jp	c0
 9ion	3jq	80
 1ra	3jr	5c
-3 name	l1a	
+3 name	kk9	
 3dicate	3js	e8
-3sable pen	l1b	
+3sable pen	kka	
 4e	3jt	f0
 5r	3ju	3
 4ure	3jv	80
 2ect	3jw	fc
-5ile dysfunction	l1c	
-9tissue	l1d	
-2ga omnes rights	l1e	
-3onomic chair	l1f	
-2hai lake	l1g	
-2lenmeyer flask	l1h	
-3ian basin in inner mongolia	l1i	
+5ile dysfunction	kkb	
+9tissue	kkc	
+2ga omnes rights	kkd	
+3onomic chair	kke	
+2hai lake	kkf	
+2lenmeyer flask	kkg	
+3ian basin in inner mongolia	kkh	
 2ode	3jx	40
-5d by ice	l1j	
+5d by ice	kki	
 3sion	3jy	78
-7 by groundwater	l1k	
-3tic dance	l1l	
-8ream	l1m	
-7picture	l1n	
-8rint	l1o	
-7verse	l1p	
+7 by groundwater	kkj	
+3tic dance	kkk	
+8ream	kkl	
+7picture	kkm	
+8rint	kkn	
+7verse	kko	
 2r	3jz	c0
 3and	3k0	a8
-6 boy	l1q	
+6 boy	kkp	
 4tic	3k1	e0
 7ally	3k2	40
 3oneous	3k3	78
-9 character	l1r	
-atendencies	l1s	
-aviews	l1t	
-9ly translated as sirloin	l1u	
+9 character	kkq	
+atendencies	kkr	
+aviews	kks	
+9ly translated as sirloin	kkt	
 4r	3k4	5e
-5 and negligence	l1v	
-6in a text	l1w	
-6message	l1x	
-6note	l1y	
-6of judgment	l1z	
+5 and negligence	kku	
+6in a text	kkv	
+6message	kkw	
+6note	kkx	
+6of judgment	kky	
 2satz	3k5	80
 3twhile	3k6	80
 2udite	3k7	c0
-7 and informed	l20	
-crefined	l21	
-csophisticated	l22	
+7 and informed	kkz	
+crefined	kl0	
+csophisticated	kl1	
 3pt	3k8	fa
 5ion	3k9	48
-2yngium foetidum	l23	
-3thrina variegata	l24	
-6ocyte sedimentation rate	l25	
+2yngium foetidum	kl2	
+3thrina variegata	kl3	
+6ocyte sedimentation rate	kl4	
 1scalate	3ka	f0
 7ion	3kb	80
 7or	3kc	60
 4pe	3kd	5e
-6 character	l26	
-7room	l27	
-9ute	l28	
-7sequence	l29	
-7velocity	l2a	
-6d prisoner	l2b	
+6 character	kl5	
+7room	kl6	
+9ute	kl7	
+7sequence	kl8	
+7velocity	kl9	
+6d prisoner	kla	
 5ism	3ke	80
 7t	3kf	40
-3herichia coli	l2c	
+3herichia coli	klb	
 5w	3kg	c0
 3ort	3kh	f8
-6 vessel	l2d	
-2ophageal cancer	l2e	
+6 vessel	klc	
+2ophageal cancer	kld	
 7us	3ki	80
 3teric	3kj	80
-8 buddhism	l2f	
+8 buddhism	kle	
 2pecially	3kk	1f
-a urgent	l2g	
+a urgent	klf	
 3ionage	3kl	80
-9 thriller	l2h	
+9 thriller	klg	
 3ousal	3km	80
 6e	3kn	80
-3resso coffee	l2i	
+3resso coffee	klh	
 3y	3ko	80
 2say	3kp	3e
 3ence	3kq	78
 5tial	3kr	fc
-9 factor	l2j	
-aoil	l2k	
-apoint	l2l	
-fs	l2m	
+9 factor	kli	
+aoil	klj	
+apoint	klk	
+fs	kll	
 2tablish	3ks	3c
-9ed and irrefutable	l2n	
-cpractice	l2o	
-crules	l2p	
+9ed and irrefutable	klm	
+cpractice	kln	
+crules	klo	
 9ment	3kt	1c
 d of	blw	
 4te	3ku	7c
-6 tax	l2q	
+6 tax	klp	
 3eem	3kv	70
-6ed father	l2r	
-9guest	l2s	
-9mother	l2t	
+6ed father	klq	
+9guest	klr	
+9mother	kls	
 3hetic	3kw	8
-8 activity	l2u	
-9conception	l2v	
-9pleasure	l2w	
-aoint of view	l2x	
+8 activity	klt	
+9conception	klu	
+9pleasure	klv	
+aoint of view	klw	
 3imable	3kx	c0
 6te	3ky	7c
-8d due date	l2y	
+8d due date	klx	
 3range	3kz	80
 8d	3l0	80
 3uary	3l1	80
-1t cetera	l2z	
+1t cetera	kly	
 2ch	3l2	c0
 4ing	3l3	80
 2ernal	3l4	f8
-7 glory	l30	
-8life	l31	
-8paragon	l32	
-bting	l33	
-8regret	l34	
-2hanoic acid	l35	
+7 glory	klz	
+8life	km0	
+8paragon	km1	
+bting	km2	
+8regret	km3	
+2hanoic acid	km4	
 3ereal	3l5	80
-8 quality	l36	
+8 quality	km5	
 3ic	3l6	40
 5al	3l7	8
-7 awareness	l37	
-8dilemma	l38	
-8family relations	l39	
+7 awareness	km6	
+8dilemma	km7	
+8family relations	km8	
 7ly	3l8	40
 5s	3l9	c8
-6 and ability	l3a	
-3moid bone	l3b	
+6 and ability	km9	
+3moid bone	kma	
 3nic	3la	f8
-6 chinese	l3c	
-e person or people	l3d	
-8leansing	l3e	
-7group	l3f	
-7malays	l3g	
-8inority	l3h	
-7township	l3i	
+6 chinese	kmb	
+e person or people	kmc	
+8leansing	kmd	
+7group	kme	
+7malays	kmf	
+8inority	kmg	
+7township	kmh	
 4ology	3lb	80
 3os	3lc	80
-3yl acetate	l3j	
-6group	l3k	
-5amino group	l3l	
-5ene oxide	l3m	
+3yl acetate	kmi	
+6group	kmj	
+5amino group	kmk	
+5ene oxide	kml	
 2iquette	3ld	e0
-2on public school	l3n	
+2on public school	kmm	
 2ymology	3le	80
 1ucalyptus	3lf	80
-a oil	l3o	
-3lidean geometry	l3p	
+a oil	kmn	
+3lidean geometry	kmo	
 2genic	3lg	80
 2logistic	3lh	80
 6ze	3li	80
 5y	3lj	c0
-2patorium fortunei	l3q	
+2patorium fortunei	kmp	
 3hemism	3lk	80
-9 for a bribe	l3r	
-ejapanese porn movie	l3s	
-eprostitution-based economy	l3t	
-esexual intercourse	l3u	
-aor honorific for ill	l3v	
+9 for a bribe	kmq	
+ejapanese porn movie	kmr	
+eprostitution-based economy	kms	
+esexual intercourse	kmt	
+aor honorific for ill	kmu	
 4onious	3ll	c0
 6y	3lm	40
 5ria	3ln	80
-4rates river	l3w	
-2rasian bittern	l3x	
-aullfinch	l3y	
-9collared dove	l3z	
-bntinent	l40	
-bot	l41	
-arag martin	l42	
-bimson-winged finch	l43	
-aurlew	l44	
-9dotterel	l45	
-9eagle-owl	l46	
-9golden oriole	l47	
-bshawk	l48	
-ariffon vulture	l49	
-9hinterland	l4a	
-aobby	l4b	
-bopoe	l4c	
-9jay	l4d	
-9land bridge	l4e	
-9magpie	l4f	
-9nuthatch	l4g	
-9oystercatcher	l4h	
-9scops owl	l4i	
-aiskin	l4j	
-akylark	l4k	
-aparrowhawk	l4l	
-boonbill	l4m	
-atone-curlew	l4n	
-9teal	l4o	
-ahree-toed woodpecker	l4p	
-aree sparrow	l4q	
-dcreeper	l4r	
-9wigeon	l4s	
-aoodcock	l4t	
-aren	l4u	
-3o cent	l4v	
+4rates river	kmv	
+2rasian bittern	kmw	
+aullfinch	kmx	
+9collared dove	kmy	
+bntinent	kmz	
+bot	kn0	
+arag martin	kn1	
+bimson-winged finch	kn2	
+aurlew	kn3	
+9dotterel	kn4	
+9eagle-owl	kn5	
+9golden oriole	kn6	
+bshawk	kn7	
+ariffon vulture	kn8	
+9hinterland	kn9	
+aobby	kna	
+bopoe	knb	
+9jay	knc	
+9land bridge	knd	
+9magpie	kne	
+9nuthatch	knf	
+9oystercatcher	kng	
+9scops owl	knh	
+aiskin	kni	
+akylark	knj	
+aparrowhawk	knk	
+boonbill	knl	
+atone-curlew	knm	
+9teal	knn	
+ahree-toed woodpecker	kno	
+aree sparrow	knp	
+dcreeper	knq	
+9wigeon	knr	
+aoodcock	kns	
+aren	knt	
+3o cent	knu	
 0Europe	3lo	21
-0europe and asia	l4w	
+0europe and asia	knv	
 0European	3lp	23
-0european bee-eater	l4x	
-9central bank	l4y	
-aommon market	l4z	
-buncil	l50	
-crt of justice	l51	
-aup	l52	
-9free trade association	l53	
-9golden plover	l54	
-dfinch	l55	
-areenfinch	l56	
-9herring gull	l57	
-9imported turbot	l58	
-9nightjar	l59	
-9parliament	l5a	
-aied flycatcher	l5b	
-aoplar	l5c	
-9robin	l5d	
-bller	l5e	
-9space agency	l5f	
-9turtle dove	l5g	
-9union	l5h	
-9wild cabbage	l5i	
-4vision song contest	l5j	
-2stachian tube	l5k	
+0european bee-eater	knw	
+9central bank	knx	
+aommon market	kny	
+buncil	knz	
+crt of justice	ko0	
+aup	ko1	
+9free trade association	ko2	
+9golden plover	ko3	
+dfinch	ko4	
+areenfinch	ko5	
+9herring gull	ko6	
+9imported turbot	ko7	
+9nightjar	ko8	
+9parliament	ko9	
+aied flycatcher	koa	
+aoplar	kob	
+9robin	koc	
+bller	kod	
+9space agency	koe	
+9turtle dove	kof	
+9union	kog	
+9wild cabbage	koh	
+4vision song contest	koi	
+2stachian tube	koj	
 1vacuate	3lq	fc
-7ion hospital	l5l	
-bto an air-raid shelter	l5m	
+7ion hospital	kok	
+bto an air-raid shelter	kol	
 3de	3lr	f0
 3luate	3ls	7e
 7ion	3lt	88
 3nescent	3lu	80
 3porate	3lv	fc
 8ion	3lw	48
-9ve air conditioner	l5n	
-ccooler	l5o	
+9ve air conditioner	kom	
+ccooler	kon	
 3sion	3lx	c0
 5ve	3ly	c0
 2e	3lz	14
 3n	3m0	e3
-4 and smooth	l5p	
-5better	l5q	
-5function	l5r	
-5if	l5s	
-5more	l5t	
-9 difficult	l5u	
-5now	l5v	
-6umber	l5w	
-5though	l5x	
+4 and smooth	koo	
+5better	kop	
+5function	koq	
+5if	kor	
+5more	kos	
+9 difficult	kot	
+5now	kou	
+6umber	kov	
+5though	kow	
 4-tempered	3m1	80
 4handed	3m2	80
 4ing	3m3	23
-7 classes	l5y	
-9ollege	l5z	
-8dress	l60	
-8meal	l61	
-9ist	l62	
-8news	l63	
-cpaper	l64	
-8or night	l65	
-8party	l66	
-9rayer	l67	
-aimrose	l68	
-aogram	l69	
-8scene	l6a	
-ahool	l6b	
-9how	l6c	
-4ki ethnic group	l6d	
+7 classes	kox	
+9ollege	koy	
+8dress	koz	
+8meal	kp0	
+9ist	kp1	
+8news	kp2	
+cpaper	kp3	
+8or night	kp4	
+8party	kp5	
+9rayer	kp6	
+aimrose	kp7	
+aogram	kp8	
+8scene	kp9	
+ahool	kpa	
+9how	kpb	
+4ki ethnic group	kpc	
 4ly	3m4	48
-6 matched	l6e	
+6 matched	kpd	
 4t	3m5	36
-5 horizon	l6f	
-6tracking	l6g	
-5-related potential	l6h	
+5 horizon	kpe	
+6tracking	kpf	
+5-related potential	kpg	
 5ful	3m6	40
-8 years	l6i	
+8 years	kph	
 5ual	3m7	40
-8 downturn	l6j	
+8 downturn	kpi	
 8ly	3m8	7e
 3r	3m9	3
-4 more	l6k	
-9 critical	l6l	
-5since	l6m	
-5victorious	l6n	
+4 more	kpj	
+9 critical	kpk	
+5since	kpl	
+5victorious	kpm	
 4green	3ma	40
-9 plant	l6o	
-atree	l6p	
+9 plant	kpn	
+atree	kpo	
 4lasting	3mb	e8
-4ton soccer team	l6q	
+4ton soccer team	kpp	
 4y	3mc	3
-5 aspect	l6s	
-6beginning is difficult	l6t	
-6color under the sun	l6u	
-8untry	l6v	
-6day	l6w	
-9 and every hour	l6x	
-kmonth	l6y	
-asees new developments	l6z	
-7og has its day	l70	
-6family	l71	
-c has its problems	l72	
-7rown and every smile	l73	
-6household	l74	
-6illness	l75	
-7tem has a weakness	l76	
-6kettle has its lid	l77	
-7ind	l78	
-a of	l6r	
-d animal	l79	
-ecereal crop	l7a	
-6little bit	l7b	
-dmove	l7c	
-8ving being	l7d	
-6manifestation of nature	l7e	
-8tter	l7f	
-7oment counts	l7g	
-8nth	l7h	
-6night	l7i	
-6person	l7j	
-7lace	l7k	
-6seat taken	l7l	
-7ingle	l7m	
-c movement	l7n	
-done	l7o	
-6time	l7p	
-7rade	l7q	
-6week	l7r	
-7ord and action	l7s	
-fdeed	l7t	
-bis a gem	l7u	
-6year	l7v	
+5 aspect	kpr	
+6beginning is difficult	kps	
+6color under the sun	kpt	
+8untry	kpu	
+6day	kpv	
+9 and every hour	kpw	
+kmonth	kpx	
+asees new developments	kpy	
+7og has its day	kpz	
+6family	kq0	
+c has its problems	kq1	
+7rown and every smile	kq2	
+6household	kq3	
+6illness	kq4	
+7tem has a weakness	kq5	
+6kettle has its lid	kq6	
+7ind	kq7	
+a of	kpq	
+d animal	kq8	
+ecereal crop	kq9	
+6little bit	kqa	
+dmove	kqb	
+8ving being	kqc	
+6manifestation of nature	kqd	
+8tter	kqe	
+7oment counts	kqf	
+8nth	kqg	
+6night	kqh	
+6person	kqi	
+7lace	kqj	
+6seat taken	kqk	
+7ingle	kql	
+c movement	kqm	
+done	kqn	
+6time	kqo	
+7rade	kqp	
+6week	kqq	
+7ord and action	kqr	
+fdeed	kqs	
+bis a gem	kqt	
+6year	kqu	
 5body	3md	3
-9 celebrating together	l7w	
+9 celebrating together	kqv	
 5day	3me	17
-8 business	l7x	
-9harmony	l7y	
-9implement	l7z	
-9life	l80	
-9routine	l81	
+8 business	kqw	
+9harmony	kqx	
+9implement	kqy	
+9life	kqz	
+9routine	kr0	
 5one	3mf	3
-8 comments disapprovingly	l82	
-9gives of their best	l83	
-ftheir own view	l84	
-9has their defect	l85	
-9is anxious	l86	
-9loves beauty	l87	
-9makes mistakes	l88	
-ainds their own business	l89	
-9participates in reforms	l8a	
-aresent	l8b	
-g applauds	l8c	
-9without exception	l8d	
+8 comments disapprovingly	kr1	
+9gives of their best	kr2	
+ftheir own view	kr3	
+9has their defect	kr4	
+9is anxious	kr5	
+9loves beauty	kr6	
+9makes mistakes	kr7	
+ainds their own business	kr8	
+9participates in reforms	kr9	
+aresent	kra	
+g applauds	krb	
+9without exception	krc	
 5thing	3mg	3
-a and more	l8e	
-cs before	l8f	
-bbroken and in disorder	l8g	
-bhas a rightful owner	l8h	
-bin disorder	l8i	
-cs going smoothly	l8j	
-ethere	l8k	
-eunfamiliar	l8l	
-bsticking out	l8m	
-bturned on its head	l8n	
-bunder the sun	l8o	
+a and more	krd	
+cs before	kre	
+bbroken and in disorder	krf	
+bhas a rightful owner	krg	
+bin disorder	krh	
+cs going smoothly	kri	
+ethere	krj	
+eunfamiliar	krk	
+bsticking out	krl	
+bturned on its head	krm	
+bunder the sun	krn	
 5where	3mh	3
-a and all directions	l8p	
-bpresent	l8q	
+a and all directions	kro	
+bpresent	krp	
 2ict	3mi	a0
 5ion	3mj	80
 3dence	3mk	7e
-8 of murder	l8r	
-9that reveals the villain	l8s	
+8 of murder	krq	
+9that reveals the villain	krr	
 6t	3ml	5e
 3l	3mm	1c
-4 air	l8t	
-5behavior	l8u	
-5clutches	l8v	
-6onduct	l8w	
-8sequence	l8x	
-6reature	l8y	
-6ult	l8z	
-7stom	l90	
-5desire	l91	
-6octrine	l92	
-7mestic animal	l93	
-6ragon	l94	
-5forces	l95	
-5gentry	l96	
-6rin	l97	
-5influence	l98	
-7tent	l99	
-bion	l9a	
-es	l9b	
-5monster	l9c	
-cs	l9d	
-5oath	l9e	
-6men	l9f	
-6r wicked conduct	l9g	
-5person	l9h	
-6lan	l9i	
-5reputation	l9j	
-5schemes	l9k	
-6mell	l9l	
-7ile	l9m	
-6pirit	l9n	
-bs	l9o	
-5tendencies	l9p	
-6hought	l9q	
-6idings	l9r	
-6ongue	l9s	
-6ricks	l9t	
-6yrant	l9u	
-5ways	l9v	
-6ind	l9w	
-6ords	l9x	
+4 air	krs	
+5behavior	krt	
+5clutches	kru	
+6onduct	krv	
+8sequence	krw	
+6reature	krx	
+6ult	kry	
+7stom	krz	
+5desire	ks0	
+6octrine	ks1	
+7mestic animal	ks2	
+6ragon	ks3	
+5forces	ks4	
+5gentry	ks5	
+6rin	ks6	
+5influence	ks7	
+7tent	ks8	
+bion	ks9	
+es	ksa	
+5monster	ksb	
+cs	ksc	
+5oath	ksd	
+6men	kse	
+6r wicked conduct	ksf	
+5person	ksg	
+6lan	ksh	
+5reputation	ksi	
+5schemes	ksj	
+6mell	ksk	
+7ile	ksl	
+6pirit	ksm	
+bs	ksn	
+5tendencies	kso	
+6hought	ksp	
+6idings	ksq	
+6ongue	ksr	
+6ricks	kss	
+6yrant	kst	
+5ways	ksu	
+6ind	ksv	
+6ords	ksw	
 3nce	3mn	c0
 3scerate	3mo	c0
 2ocative	3mp	80
-9 of the past	l9y	
+9 of the past	ksx	
 3ke	3mq	f8
 3lution	3mr	7e
 9ary	3ms	48
-c line	l9z	
+c line	ksy	
 4ve	3mt	dc
 1we	3mu	80
-3nke language	la0	
+3nke language	ksz	
 3r	3mv	80
-1x gratia	la1	
-9 payment	la2	
+1x gratia	kt0	
+9 payment	kt1	
 2acerbate	3mw	a0
 4t	3mx	d6
 5ing	3my	c0
 6tude	3mz	80
 5ly	3n0	6
-7 like	la3	
-8what one wants	la4	
-iould wish	la5	
+7 like	kt2	
+8what one wants	kt3	
+iould wish	kt4	
 3ggerate	3n1	fc
 9ion	3n2	c0
 3lt	3n3	c0
 5ation	3n4	80
 5ed	3n5	40
 3m	3n6	21
-4 board	la6	
-5candidate	la7	
-5mark	la8	
-5outline	la9	
-5paper	laa	
-5question	lab	
-5room	lac	
+4 board	kt5	
+5candidate	kt6	
+5mark	kt7	
+5outline	kt8	
+5paper	kt9	
+5question	kta	
+5room	ktb	
 4ination	3n7	2d
-b discipline	lad	
-cpaper	lae	
-croom	laf	
+b discipline	ktc	
+cpaper	ktd	
+croom	kte	
 6e	3n8	1f
-7 sb's political record	lag	
+7 sb's political record	ktf	
 4ple	3n9	23
-7 from the past	lah	
-8sentence	lai	
+7 from the past	ktg	
+8sentence	kth	
 7s	3na	20
 4s	3nb	20
 3sperate	3nc	e0
-9ingly slow	laj	
+9ingly slow	kti	
 2cavate	3nd	e0
-8d soil	lak	
-e and rock	lal	
+8d soil	ktj	
+e and rock	ktk	
 7ion	3ne	40
 3eed	3nf	fc
 6ingly	3ng	3c
-b obese	lam	
-cremote or distant	lan	
+b obese	ktl	
+cremote or distant	ktm	
 4l	3nh	f8
-5lence award	lao	
+5lence award	ktn	
 8t	3ni	5f
-9 and unrivaled	lap	
-ain every respect	laq	
-dvoice and expression	lar	
-aquality	las	
-awine	lat	
+9 and unrivaled	kto	
+ain every respect	ktp	
+dvoice and expression	ktq	
+aquality	ktr	
+awine	kts	
 4pt	3nj	3
-6 for	lau	
+6 for	ktt	
 6ion	3nk	7c
 9able	3nl	80
 al	3nm	f8
 bly	3nn	40
-d beautiful	lav	
-fig	law	
-fright kid	lax	
-egifted	lay	
-food	laz	
-eintelligent	lb0	
-etalented	lb1	
+d beautiful	ktu	
+fig	ktv	
+fright kid	ktw	
+egifted	ktx	
+food	kty	
+eintelligent	ktz	
+etalented	ku0	
 4rpt	3no	f0
 4ss	3np	fc
-6 code	lb2	
-7load	lb3	
-7profit	lb4	
+6 code	ku1	
+7load	ku2	
+7profit	ku3	
 6ive	3nq	5c
-9 blinking of the eyes	lb5	
-aconcern	lb6	
-apraise	lb7	
-arain	lb8	
-aself-defense	lb9	
-bleepiness	lba	
-btress	lbb	
-bupervision	lbc	
-atendency to clemency	lbd	
+9 blinking of the eyes	ku4	
+aconcern	ku5	
+apraise	ku6	
+arain	ku7	
+aself-defense	ku8	
+bleepiness	ku9	
+btress	kua	
+bupervision	kub	
+atendency to clemency	kuc	
 9ly	3nr	8
-b salty	lbe	
-ctolerant	lbf	
+b salty	kud	
+ctolerant	kue	
 3hange	3ns	7e
-8 of goods	lbg	
-cideas	lbh	
-cunequal values	lbi	
-9rate	lbj	
-9student	lbk	
-9value	lbl	
-aisits	lbm	
-8-traded fund	lbn	
+8 of goods	kuf	
+cideas	kug	
+cunequal values	kuh	
+9rate	kui	
+9student	kuj	
+9value	kuk	
+aisits	kul	
+8-traded fund	kum	
 4equer	3nt	80
 3ise	3nu	80
 4tability	3nv	80
 7le	3nw	40
-9 person	lbo	
+9 person	kun	
 5e	3nx	5f
 6ment	3ny	74
 5ing	3nz	7c
 3laim	3o0	fc
 5mation	3o1	88
-8ory phrase	lbp	
+8ory phrase	kuo	
 4ude	3o2	fc
 5sion	3o3	40
-9 principle	lbq	
+9 principle	kup	
 7ve	3o4	fc
-9 agency	lbr	
-acontrol	lbs	
-aeconomic zone	lbt	
-ainvestment	lbu	
+9 agency	kuq	
+acontrol	kur	
+aeconomic zone	kus	
+ainvestment	kut	
 aof	bkr	
-aproperty	lbv	
-aright to trade	lbw	
+aproperty	kuu	
+aright to trade	kuv	
 9ly	3o5	6c
-b for	lbx	
+b for	kuw	
 3ogitate	3o6	80
 4riate	3o7	80
 3rement	3o8	20
 5te	3o9	88
-6ory system	lby	
+6ory system	kux	
 4uciate	3oa	80
 3ulpate	3ob	c0
 4rsion	3oc	fc
 7ve	3od	80
 4se	3oe	63
-6 me	lbz	
-7note	lc0	
+6 me	kuy	
+7note	kuz	
 2ecrable	3of	80
 6te	3og	80
 7ion	3oh	80
 4ute	3oi	fc
 6ion	3oj	68
-9 by fire	lc1	
-aground	lc2	
+9 by fire	kv0	
+aground	kv1	
 7ve	3ok	7c
-9 chef	lc3	
-bommittee	lc4	
-j member	lc5	
-cuncil of hong kong	lc6	
-aorder	lc7	
-apower	lc8	
-broducer	lc9	
-asecretary	lca	
+9 chef	kv2	
+bommittee	kv3	
+j member	kv4	
+cuncil of hong kong	kv5	
+aorder	kv6	
+apower	kv7	
+broducer	kv8	
+asecretary	kv9	
 3mplary	3ol	c0
-9 character	lcb	
+9 character	kva	
 6ify	3om	f8
 5t	3on	f8
-6 from punishment	lcc	
+6 from punishment	kvb	
 6ion	3oo	40
-9 from responsibility	lcd	
+9 from responsibility	kvc	
 3rcise	3op	23
-8 book	lce	
-dlet	lcf	
-9or exam question	lcg	
-9yard	lch	
+8 book	kvd	
+dlet	kve	
+9or exam question	kvf	
+9yard	kvg	
 4t	3oq	fc
-5ing all one's strength	lci	
+5ing all one's strength	kvh	
 6on	3or	40
 2hale	3os	c0
 4ust	3ot	fc
-7 fan	lcj	
-8gas	lck	
-8pipe	lcl	
-8vent	lcm	
+7 fan	kvi	
+8gas	kvj	
+8pipe	kvk	
+8vent	kvl	
 7ed	3ou	40
-9 and hungry	lcn	
-ein disarray	lco	
+9 and hungry	kvm	
+ein disarray	kvn	
 7ing	3ov	40
 8on	3ow	44
 8ve	3ox	c0
 3ibit	3oy	5c
 7ion	3oz	7e
-a hall	lcp	
-bmatch	lcq	
-bof goods	lcr	
-broom	lcs	
+a hall	kvo	
+bmatch	kvp	
+bof goods	kvq	
+broom	kvr	
 4larate	3p0	e0
 9ing	3p1	40
 aon	3p2	80
@@ -1902,35 +1902,35 @@ aon	3p2	80
 7t	3pa	20
 8ial	3pb	80
 5ing	3pc	20
-8 state of affairs	lct	
+8 state of affairs	kvs	
 3t	3pd	5e
-4 and entry administration bureau	lcu	
-5door	lcv	
-5poll	lcw	
+4 and entry administration bureau	kvt	
+5door	kvu	
+5poll	kvv	
 2ocrine	3pe	40
-8 gland	lcx	
+8 gland	kvw	
 3dus	3pf	c0
-6 from hong kong	lcy	
-7to hong kong	lcz	
+6 from hong kong	kvx	
+7to hong kong	kvy	
 3nerate	3pg	80
 3rbitant	3ph	e0
-a demands	ld0	
-blevies	ld1	
-bprice	ld2	
-btaxation	ld3	
+a demands	kvz	
+blevies	kw0	
+bprice	kw1	
+btaxation	kw2	
 4cise	3pi	80
-7ing god	ld4	
-7tic ablutions	ld5	
-3thermic reaction	ld6	
+7ing god	kw3	
+7tic ablutions	kw4	
+3thermic reaction	kw5	
 4ic	3pj	f8
-6 delicacies	ld7	
-7flower	ld8	
-7odors assail the nostrils	ld9	
-7tale	lda	
+6 delicacies	kw6	
+7flower	kw7	
+7odors assail the nostrils	kw8	
+7tale	kw9	
 2pand	3pk	fe
-6able baton	ldb	
-6ed polystyrene	ldc	
-9view	ldd	
+6able baton	kwa	
+6ed polystyrene	kwb	
+9view	kwc	
 6ing	3pl	40
 5se	3pm	40
 6ion	3pn	7c
@@ -1940,286 +1940,286 @@ btaxation	ld3
 3ect	3pr	3
 6ancy	3ps	20
 7tion	3pt	1e
-6ed date of childbirth	lde	
-9value	ldf	
-6ing mother	ldg	
-ayour reply	ldh	
+6ed date of childbirth	kwd	
+9value	kwe	
+6ing mother	kwf	
+ayour reply	kwg	
 4diency	3pu	80
 8t	3pv	e0
 6te	3pw	40
 7ion	3px	78
-a ship	ldi	
-aary force	ldj	
+a ship	kwh	
+aary force	kwi	
 9us	3py	c0
 4l	3pz	fc
 4nd	3q0	b4
 6iture	3q1	fc
-b and income	ldk	
+b and income	kwj	
 5se	3q2	16
 7s	3q3	20
 6ive	3q4	23
 4rience	3q5	3f
-a is a good teacher	ldl	
+a is a good teacher	kwk	
 ad	3q6	60
-b and careful	ldm	
-gknowledgeable	ldn	
-cperson	ldo	
-cscholar	ldp	
+b and careful	kwl	
+gknowledgeable	kwm	
+cperson	kwn	
+cscholar	kwo	
 6ment	3q7	3f
 aal	3q8	3c
-c liquid	ldq	
-dpsychology	ldr	
-dstation	lds	
-dverification	ldt	
+c liquid	kwp	
+dpsychology	kwq	
+dstation	kwr	
+dverification	kws	
 cly	3q9	8
 btion	3qa	8
 as	3qb	20
 5t	3qc	36
-6 cart-driver	ldu	
-8ommentary	ldv	
-7evaluation	ldw	
-7flower grower	ldx	
-7in	ldy	
-9 a certain field	ldz	
-7on strategy	le0	
-awriting systems	le1	
-7system	le2	
+6 cart-driver	kwt	
+8ommentary	kwu	
+7evaluation	kwv	
+7flower grower	kww	
+7in	kwx	
+9 a certain field	kwy	
+7on strategy	kwz	
+awriting systems	kx0	
+7system	kx1	
 6ise	3qd	f8
 3iate	3qe	80
 6ion	3qf	80
 4ration	3qg	80
-a date	le3	
+a date	kx2	
 5e	3qh	f8
-5y date	le4	
+5y date	kx3	
 3lain	3qi	1f
 5nation	3qj	1e
-b of classic text	le5	
-8ory diagram	le6	
-cnote	le7	
-csection in a document	le8	
+b of classic text	kx4	
+8ory diagram	kx5	
+cnote	kx6	
+csection in a document	kx7	
 4icable	3qk	80
 7te	3ql	80
 6it	3qm	fa
 4ode	3qn	7e
 5it	3qo	fe
 7ation	3qp	58
-7ing class	le9	
+7ing class	kx8	
 5ration	3qq	48
 6e	3qr	7e
 7r	3qs	42
 5sion	3qt	3c
-9 of light	lea	
+9 of light	kx9	
 7ve	3qu	fc
-9 force	leb	
-apower	lec	
+9 force	kxa	
+apower	kxb	
 3onent	3qv	c0
 8ial	3qw	40
-b function	led	
-cincrease	lee	
+b function	kxc	
+cincrease	kxd	
 bly	3qx	80
 4rt	3qy	36
-6 amount	lef	
-7ban	leg	
-8usiness	leh	
-7goods	lei	
-7item	lej	
-7product	lek	
+6 amount	kxe	
+7ban	kxf	
+8usiness	kxg	
+7goods	kxh	
+7item	kxi	
+7product	kxj	
 4se	3qz	7e
-6d to the sun	lel	
+6d to the sun	kxk	
 5ition	3r0	e8
 7ory	3r1	80
 5tulate	3r2	80
 5ure	3r3	fc
-8 meter	lem	
+8 meter	kxl	
 4und	3r4	c0
 3ress	3r5	1f
-7 delivery	len	
-8lane	leo	
-8mail	lep	
-c service	leq	
-7ing preliminary judgment	ler	
+7 delivery	kxm	
+8lane	kxn	
+8mail	kxo	
+c service	kxp	
+7ing preliminary judgment	kxq	
 8on	3r6	1e
-a of censure	les	
-egratitude	let	
-eopinion	leu	
+a of censure	kxr	
+egratitude	kxs	
+eopinion	kxt	
 8ve	3r7	40
-a power	lev	
+a power	kxu	
 7ly	3r8	c0
-9 stipulated	lew	
+9 stipulated	kxv	
 4opriate	3r9	80
 3ulsion	3ra	a0
-9 warrant	lex	
+9 warrant	kxw	
 4nge	3rb	80
 4rgate	3rc	80
-9d edition	ley	
+9d edition	kxx	
 2quisite	3rd	f8
-9 wine	lez	
-9ly beautiful	lf0	
-cmade	lf1	
+9 wine	kxy	
+9ly beautiful	kxz	
+cmade	ky0	
 2tant	3re	c0
-6 fragment	lf2	
-7work of a calligrapher	lf3	
+6 fragment	ky1	
+7work of a calligrapher	ky2	
 3emporaneous	3rf	c0
 8ize	3rg	80
 4nd	3rh	fc
 6ed	3ri	40
-8 borrowing	lf4	
-9family	lf5	
-9leave	lf6	
-aine	lf7	
-9meaning	lf8	
-6ing forever into the distance	lf9	
-ainto the distance	lfa	
-awidely	lfb	
-5sible markup language	lfc	
+8 borrowing	ky3	
+9family	ky4	
+9leave	ky5	
+aine	ky6	
+9meaning	ky7	
+6ing forever into the distance	ky8	
+ainto the distance	ky9	
+awidely	kya	
+5sible markup language	kyb	
 7on	3rj	7e
-9 cord	lfd	
+9 cord	kyc	
 7ve	3rk	7c
-9 amount of	lfe	
-areading	lff	
-csidence	lfg	
-asorrow	lfh	
+9 amount of	kyd	
+areading	kye	
+csidence	kyf	
+asorrow	kyg	
 5t	3rl	7c
-6 of a drop	lfi	
-crise	lfj	
-bn increase	lfk	
-aone's rights	lfl	
+6 of a drop	kyh	
+crise	kyi	
+bn increase	kyj	
+aone's rights	kyk	
 5uate	3rm	c0
 4rior	3rn	7c
-8 and interior	lfm	
+8 and interior	kyl	
 5minate	3ro	e0
-aion of an entire family	lfn	
+aion of an entire family	kym	
 5nal	3rp	7c
-8 aid	lfo	
-appearance	lfp	
-auditory meatus	lfq	
-9demand	lfr	
-aiameter	lfs	
-9force	lft	
-9irradiation	lfu	
-9link	lfv	
-9oblique muscle	lfw	
-9plasma membrane	lfx	
-aropaganda	lfy	
-9regulation	lfz	
-9threat	lg0	
-9wall	lg1	
+8 aid	kyn	
+appearance	kyo	
+auditory meatus	kyp	
+9demand	kyq	
+aiameter	kyr	
+9force	kys	
+9irradiation	kyt	
+9link	kyu	
+9oblique muscle	kyv	
+9plasma membrane	kyw	
+aropaganda	kyx	
+9regulation	kyy	
+9threat	kyz	
+9wall	kz0	
 8ize	3rq	80
 3inct	3rr	fc
-7 profession	lg2	
-8volcano	lg3	
+7 profession	kz1	
+8volcano	kz2	
 7ion	3rs	c8
-a of a race	lg4	
+a of a race	kz3	
 5guish	3rt	f8
 4rpation	3ru	80
 3ol	3rv	c0
 4rt	3rw	e0
-6ion and blackmail	lg5	
+6ion and blackmail	kz4	
 3ra	3rx	3e
-5 bus or train	lg6	
-6income	lg7	
-6pay for hot weather	lg8	
-6time	lg9	
-7roops	lga	
-5cellular fluid	lgb	
+5 bus or train	kz5	
+6income	kz6	
+6pay for hot weather	kz7	
+6time	kz8	
+7roops	kz9	
+5cellular fluid	kza	
 6t	3ry	f8
 7ion	3rz	8
 6urricular	3s0	8
-f reading material	lgc	
+f reading material	kzb	
 5dite	3s1	80
-5galactic nebula	lgd	
-estar system	lge	
-5marital affair	lgf	
+5galactic nebula	kzc	
+estar system	kzd	
+5marital affair	kze	
 5neous	3s2	c0
 5ordinarily	3s3	8
-f beautiful music	lgg	
-qwoman	lgh	
-hrave	lgi	
+f beautiful music	kzf	
+qwoman	kzg	
+hrave	kzh	
 cy	3s4	5e
-d image	lgj	
-esplendor	lgk	
-ftrength	lgl	
-etalent	lgm	
+d image	kzi	
+esplendor	kzj	
+ftrength	kzk	
+etalent	kzl	
 5polate	3s5	80
-5sensory perception	lgn	
+5sensory perception	kzm	
 5vagance	3s6	80
-c and waste	lgo	
+c and waste	kzn	
 at	3s7	78
-b and dissipated	lgp	
-cfood	lgq	
-cin the extreme	lgr	
-clifestyle	lgs	
-bly showy	lgt	
-7sated blood	lgu	
-6ehicular activity	lgv	
+b and dissipated	kzo	
+cfood	kzp	
+cin the extreme	kzq	
+clifestyle	kzr	
+bly showy	kzs	
+7sated blood	kzt	
+6ehicular activity	kzu	
 4eme	3s8	3e
-7 boundary	lgw	
-8cold	lgx	
-8depth of sorrow	lgy	
-9istress	lgz	
-8emergency	lh0	
-8fastidiousness	lh1	
-8happiness	lh2	
-atred	lh3	
-8laziness	lh4	
-8north	lh5	
-8point	lh6	
-8right	lh7	
-d-winger	lh8	
-8shortage	lh9	
-9orrow turns to joy	lha	
-auth	lhb	
-9port	lhc	
-8unction	lhd	
+7 boundary	kzv	
+8cold	kzw	
+8depth of sorrow	kzx	
+9istress	kzy	
+8emergency	kzz	
+8fastidiousness	l00	
+8happiness	l01	
+atred	l02	
+8laziness	l03	
+8north	l04	
+8point	l05	
+8right	l06	
+d-winger	l07	
+8shortage	l08	
+9orrow turns to joy	l09	
+auth	l0a	
+9port	l0b	
+8unction	l0c	
 7ly	3s9	e
-9 abundant	lhe	
-bged	lhf	
-bngry	lhg	
-cxious	lhh	
-bshamed	lhi	
-acareful	lhj	
-cutious	lhk	
-blose	lhl	
-boncerned	lhm	
-adaring	lhn	
-dk or morally transgressive	lho	
-beferential	lhp	
-bifficult	lhq	
-cverse	lhr	
-aelegant	lhs	
-bxcited or energetic	lht	
-cpensive	lhu	
-afew	lhv	
-ahot	lhw	
-d weather	lhx	
-aimportant	lhy	
-akitsch	lhz	
-bnowledgeable	li0	
-alarge	li1	
-bong	li2	
-cw price	li3	
-bucky	li4	
-amoved	li5	
-anervous	li6	
-apoor but not destitute	li7	
-cssible	li8	
-brecious	li9	
-aquickly	lia	
-det	lib	
-arare	lic	
-besentful	lid	
-asad and lonely	lie	
-bkillful	lif	
-dnny person	lig	
-bmall	lih	
-btingy	lii	
-cupid	lij	
-athin person	lik	
-augly	lil	
-brgent	lim	
-avast	lin	
-awealthy	lio	
-borried and troubled	lip	
+9 abundant	l0d	
+bged	l0e	
+bngry	l0f	
+cxious	l0g	
+bshamed	l0h	
+acareful	l0i	
+cutious	l0j	
+blose	l0k	
+boncerned	l0l	
+adaring	l0m	
+dk or morally transgressive	l0n	
+beferential	l0o	
+bifficult	l0p	
+cverse	l0q	
+aelegant	l0r	
+bxcited or energetic	l0s	
+cpensive	l0t	
+afew	l0u	
+ahot	l0v	
+d weather	l0w	
+aimportant	l0x	
+akitsch	l0y	
+bnowledgeable	l0z	
+alarge	l10	
+bong	l11	
+cw price	l12	
+bucky	l13	
+amoved	l14	
+anervous	l15	
+apoor but not destitute	l16	
+cssible	l17	
+brecious	l18	
+aquickly	l19	
+det	l1a	
+arare	l1b	
+besentful	l1c	
+asad and lonely	l1d	
+bkillful	l1e	
+dnny person	l1f	
+bmall	l1g	
+btingy	l1h	
+cupid	l1i	
+athin person	l1j	
+augly	l1k	
+brgent	l1l	
+avast	l1m	
+awealthy	l1n	
+borried and troubled	l1o	
 6ist	3sa	80
 7ty	3sb	40
 4icable	3sc	80
@@ -2227,42 +2227,42 @@ borried and troubled	lip
 5nsic	3se	80
 4overt	3sf	80
 4ude	3sg	c0
-7d profile	liq	
-5sion nozzle	lir	
-7ve rock	lis	
+7d profile	l1p	
+5sion nozzle	l1q	
+7ve rock	l1r	
 2uberance	3sh	80
 8t	3si	e0
-9 character	lit	
+9 character	l1s	
 3de	3sj	c0
 3lt	3sk	80
 5ant	3sl	c0
 1ye	3sm	23
-3 candy	liu	
-5hart	liv	
-5ream	liw	
-4disease	lix	
-5rops	liy	
-4floaters	liz	
-4line	lj0	
-4mask	lj1	
-5ovement	lj2	
-4of a needle	lj3	
-9vortex	lj4	
-5intment	lj5	
-4shadow	lj6	
-5ignal	lj7	
-5ocket	lj8	
-5talk	lj9	
-6rain	lja	
-4tooth	ljb	
+3 candy	l1t	
+5hart	l1u	
+5ream	l1v	
+4disease	l1w	
+5rops	l1x	
+4floaters	l1y	
+4line	l1z	
+4mask	l20	
+5ovement	l21	
+4of a needle	l22	
+9vortex	l23	
+5intment	l24	
+4shadow	l25	
+5ignal	l26	
+5ocket	l27	
+5talk	l28	
+6rain	l29	
+4tooth	l2a	
 3-catching	3sn	40
 3brow	3so	10
-7 pencil	ljc	
-7ed thrush	ljd	
-awren-babbler	lje	
-7s and eyelashes	ljf	
-3glasses frame	ljg	
-3s and ears	ljh	
+7 pencil	l2b	
+7ed thrush	l2c	
+awren-babbler	l2d	
+7s and eyelashes	l2e	
+3glasses frame	l2f	
+3s and ears	l2g	
 4ight	3sp	3e
-8 testing	lji	
+8 testing	l2h	
 3witness	3sq	42

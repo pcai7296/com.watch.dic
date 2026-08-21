@@ -1,5 +1,37 @@
 0x-ray	bhf	25
+5 image	1jdr	
+6radiation	1jds	
+2shaped frame	1jdt	
+1anthanate gum	1jdu	
 1enophobe	bhg	80
 8ia	bhh	80
+5sylla vexabilis	1jdv	
 2rophyte	bhi	80
 4x	bhj	18
+1i'an international studies university	1jdw	
+6jiaotong university	1jdx	
+2a dynasty	1jdy	
+3men university	1jdz	
+3ng opera	1je0	
+4yang bridge	1je1	
+3o river in hebei	1je2	
+4mi fan	1je3	
+4zhai neighborhood of xi'an	1je4	
+2be ethnic group	1je5	
+2chang satellite launch center	1je6	
+2dan neighborhood of central beijing	1je7	
+3ian university	1je8	
+2eju opera	1je9	
+2he river in fuxin	1jea	
+2jiang river	1jeb	
+2lai temple	1jec	
+2nglin district of xiamen city	1jed	
+3hua daily newspaper	1jee	
+7news network	1jef	
+3jiang ground jay	1jeg	
+5n county in liaoning	1jeh	
+3min evening news	1jei	
+2shi clasps at her heart	1jej	
+2zhimen neighborhood of beijing	1jek	
+1lr connector	1jel	
+1yy syndrome	1jem	
