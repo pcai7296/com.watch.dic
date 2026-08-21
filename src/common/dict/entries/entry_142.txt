@@ -1,0 +1,500 @@
+0volcanic island		火山岛
+9rock		火山岩
+3ga river		伏尔加河
+3kswagen beetle		甲虫车
+3te face		转头
+3ume of freight		运输量
+atrade		贸易额
+ause		使用量
+awater		水量
+bebsite traffic		浏览量
+6s of classics		经卷
+bscriptures		经卷
+6tric analysis		容量分析
+bcylinder		量筒
+befficiency		容积效率
+bpricing		阶梯计价
+4ntary worker		义务工作者
+6eer army		志愿军
+asoldier		志愿兵
+awork		义工
+eer		义工
+2mer bone		犁骨
+2n schrenck's bittern		紫背苇鳽
+2odoo religion		巫毒教
+2te of no-confidence		不信任投票
+8thanks		铭谢
+4r base		基本盘
+6registration		选民登记
+6turnout		参选率
+3ing booth		圈票处
+7machine		投票机器
+7place		投票地点
+7rights		参政权
+2wel harmony		元音和谐
+1ulgar style		低俗之风
+3nerable spot		死穴
+3pes zerda		耳廓狐
+1ying in beauty and glamor		争妍斗艳
+0wa ethnic group		佤族
+2cky behavior		搞怪
+2de-giles system		威妥玛拼法
+3ing boots		涉水靴
+7pool		游戏池
+2fer cookie		威化饼干
+2ge adjustment		调资
+5ceiling		最高工资限额
+4s arrears		欠薪
+2ist and back		腰板
+6drum		腰鼓
+6measurement		腰围
+6of trousers		裤腰
+6pack		腰包
+7urse		腰包
+5-drum dance		腰鼓
+6to-hip ratio		腰臀比
+5band of a skirt		裙带
+3t a minute		待会
+8oment		等一等
+4ing anxiously		眼巴巴
+8for		以期
+b a vacancy		候缺
+8list		候补名单
+8room		候诊室
+8time		等待时间
+2ke island		威克岛
+4-up call		叫醒服务
+3ing from hibernation		启蛰
+2ley or whaley		韦利
+3k-off home run		再见全垒打
+5up apartment		步登公寓
+4ing corpse		行尸走肉
+8dictionary		活字典
+8leisurely		款段
+8path		步道
+9low		步犁
+8race		竞走
+8speed		脚程
+9tick		拐杖
+3l brick		板砖
+5calendar		挂历
+6hart		挂图
+6lock		挂钟
+5effect		壁效应
+5hanging		壁挂
+5lamp		壁灯
+5newspaper		壁报
+5of intestine		肠壁
+8the uterus		子宫壁
+5plug		壁塞
+5scroll		条幅
+6treet journal		华尔街日报
+4ed-in path		甬道
+4is and futuna		瓦利斯和富图纳
+4owing in lust		色荒
+4s have ears		隔壁有耳
+3nut kernel		核桃仁
+2n and sallow		憔悴
+3dering tattler		漂鹬
+3g ying		王英
+4jing neighborhood of beijing		望京
+3ing moon		月亏
+3t to stop but can't		欲罢不能
+4ed circular		通缉令
+8riminal		通缉犯
+7poster		通缉令
+4on destruction of forested lands		滥砍滥伐
+7or lascivious behavior		淫行
+awillful		恣情
+2r chariot		战车
+5rime		战争罪
+8inal		战犯
+7sis		戎事倥偬
+4exploits		汗马
+4game		军事演习
+4of aggression		侵略战争
+8ttrition		持久战
+7independence		独立战争
+7resistance against japan		抗日战争
+7words		口水战
+5n terrorism		反恐战争
+4party		鹰派
+5ennant		征旆
+4secret		战机
+5ituation		战局
+4zone		战区
+3bling white-eye		日本绣眼鸟
+3d's trogon		红腹咬鹃
+4s off disease		驱病
+3ehouse assistant		理货员
+aor storage receipt		栈单
+arent		栈租
+3lords vying for supremacy		群雄
+3m air		暖气
+6nd fine		煦煦
+9generous		温厚
+9kind		温良
+5blooded		温血
+6reeze		暖风
+5color		暖色
+6urrent		暖流
+5feeling		暖流
+6ront		暖锋
+5partition of a room		暖阁
+5relations		融融
+6oom		暖阁
+5south wind		熏风
+5tone		暖调
+3ner brothers		华纳兄弟
+7music group		华纳音乐集团
+4ing device		报警器
+8sign		征兆
+cal		警号
+3p and woof		经纬
+5brocade		经丝彩色显花
+3rant officer		士官
+7y period		保修期
+4ior in white		白衣战士
+2seda university		早稻田大学
+3h basin		洗手池
+4ed out		没精打采
+4ing appliance		洗涤器
+8machine		洗涤机
+8or color fastness		耐洗涤性
+8powder		洗衣粉
+8tank		洗涤槽
+7ton post		华盛顿邮报
+btimes		华盛顿时报
+3p of the family sphecidae		蠮螉
+5poison		蜂毒
+3te disposal bag		清洁袋
+6heat		废热
+6liquid		贫液
+cs		废液
+6paper		废纸
+7ipe		排水管
+7roduct		残渣
+ds		废料
+6remaining after processing ore		尾矿
+6soil		废土
+7tabilization pond		稳定塘
+6water		废水
+5d effort		付诸东流
+7money		冤枉钱
+5paper basket		字纸篓
+5water that contains feces		粪水
+2tch battery		扣式电池
+6face		表盘
+6glass		表蒙子
+6tower		更楼
+6you don't		提防
+5man's clapper		梆子
+3er and fire		龙虎
+agrass		水草
+aland		水陆
+e transport		水陆交通
+asoil		水土
+7uthority		水务局
+6bill		水费
+7ong		水烟袋
+7uffalo		水牛
+6cannon		水枪
+7hannel		明渠
+7lock		滴漏计时器
+7onservancy		水利
+8oler		饮水机
+6damage		水渍
+7ispenser		饮水器
+7rop		滴水
+6flea		鱼虫
+7rom a mountain		山水
+6gate		水闸
+7lass		水玻璃
+7ruel		稀粥
+7un		水枪
+6hazard		水障碍
+7eater		热水器
+7ole		水坑
+7yacinth		水葫芦
+6ice		水冰
+7nlet		进水口
+8take		取水
+6jar		水缸
+6leak		透水
+8vel		水位
+7ily		睡莲
+6mains		自来水管
+8nager		水利家
+7eter		水表
+7ill		水碾
+6of crystallization		结晶水
+7utlet		出水口
+6park		水上乐园
+7ick		冲牙器
+8pe		水烟壶
+9it		水鹨
+8stol		水枪
+7lantain rhizome		泽泻
+7ollution		水污染
+9o		水球
+a pool		水球场
+8t or goblet		水盂
+7ressure		水压
+8imrose		水龙
+7ump		唧筒
+aing station		抽水站
+8rifier		净水器
+6quality		水质
+6rail		西方秧鸡
+7eservoir		蓄水池
+9istant		抗水
+7oute		水道
+6salute		水门
+7creen		水幕
+7eepage		渗水
+7hortage		缺水
+7kiing		滑水
+7lide		滑水道
+7nake		水蛇
+7oluble		水溶
+8urce		水源
+7ports		水上运动
+9t		水渍
+9ut		落水管
+7tain		水渍
+8orage		蓄水
+7upply		水务
+c and drainage		给排水
+8rface		水面
+6tank		水箱
+7emperature		水温
+7ower		水塔
+7reatment		水处理
+f plant		污水处理厂
+6under the bridge		珠流璧转
+6vapor		水气
+6wheel		龙骨车
+5-driven armillary sphere		漏水转浑天仪
+dventilation		水力鼓风
+6filled barrier		水马
+6induction engineering		引水工程
+6storage tank		储水箱
+5borne transport		水运
+5ed down		掺水
+5gate scandal		水门事件
+5ing can		喷桶
+5loo station		滑铁卢火车站
+5proof footwear		雨鞋
+5side promenade		亲水长廊
+3tle-necked soft-shelled turtle		山瑞
+2ve after wave		联翩
+5band		波段
+5crest		波峰
+5equation		波方程
+6rosion		浪蚀
+5front		波面
+6unction		波函数
+5mechanics		波动力学
+6otion		波动
+5number		波数
+5velocity		波速
+4length division multiplexing		分波多工
+4s surging forth		波涛汹涌
+2x apple		洋蒲桃
+4gourd		冬瓜
+4paper		蜡纸
+5lay		滴蜡
+4therapy		蜡疗
+3ing and waning		圆缺
+7crescent		眉月
+7gibbous moon		盈凸月
+2y bill		运单
+4of doing an activity		玩法
+7eating		吃法
+8xperiencing a place		玩法
+aressing something		措词
+7life		生活方式
+8ooking at things		眼光
+7making a living		饭碗
+7proceeding		进路
+7speaking		说法
+7the celestial master		五斗米道
+9inking		心态
+7writing a character		写法
+5ut		下台阶
+4to survive		活路
+3s and means		路径
+5of the world		人事
+1e are all ears		洗耳恭听
+3warmly invite		诚邀
+2ak acid		弱酸
+6nd indecisive		蔫呼呼
+bept person		扶不起的阿斗
+5base		弱碱
+5force		弱相互作用
+5interaction		弱作用
+5link		薄弱环节
+5point		弱点
+6ulse		弱脉
+5side		弱侧
+6tudent		差生
+3lth and influence		财势
+bofficial post		利禄
+bprofit		财利
+7never survives three generations		富不过三代
+6y and influential family		豪门
+crespectable people		非富即贵
+8farmer		庄稼户
+8husband		金龟婿
+8person		阔佬
+8son-in-law		金龟婿
+8woman		富婆
+3pon of mass destruction		大规模杀伤性武器
+7system		武器系统
+6s and ammunition		军火
+drmor		戎甲
+8of war		干戈
+3r and tear		消损
+5resistant		耐磨
+4ing out by friction		磨耗
+4y old body		老骨头
+3ther board		封檐板
+9ureau		气象局
+8conditions		天时
+8forecast		天气预报
+ging office		气象台
+8satellite		气象卫星
+9tation		气象站
+8vane		风向标
+3ving girl of folk tales		织女
+2b addiction		网瘾
+5pplication		网路应用
+4crawler		爬虫
+4design		网页设计
+4feed		消息来源
+4page		网页
+5ortal		入口网
+4series		网剧
+3site sitemap		网站导览
+2dding anniversary		结婚纪念日
+8banquet		喜宴
+8car		喜车
+9elebration		婚庆
+aremony		婚礼
+9ontract		婚约
+8day		佳期
+9ress		婚纱
+8feast		喜酒
+astivities		洞房花烛
+8invitation		喜帖
+8night		初夜
+8photos		婚纱摄影
+8reception		婚宴
+8veil		头纱
+8witness		证婚人
+7s and funerals		红白喜事
+3ge-tailed green pigeon		楔尾绿鸠
+dshearwater		曳尾鹱
+2ed killer		除草剂
+3kend spouse		半糖夫妻
+4ly assembly		周会
+7meeting		周会
+7publication		周报
+7salary		周薪
+3ping bitter tears		痛哭流涕
+8uncontrollably		涕泪交加
+8willow		垂柳
+2i and jin dynasties		魏晋
+4of the northern dynasties		拓跋魏
+4sheng		尾生
+3ghing every word		字斟句酌
+5t belt		铅带
+7capacity of a vehicle		载重量
+7load		荷重
+7training		负重训练
+6-carrying capacity		载重能力
+6ed average		加权平均
+3mar republic		威玛共和国
+3r valve		节流
+4d and wonderful		古里古怪
+3xin or wechat		微信
+2lcome fall of rain		喜雨
+3d nugget		熔核
+4ing point		焊点
+8together		融合
+arch		焊枪
+8wire		焊丝
+3fare agency		福利院
+8committee		福委会
+8services		福利事业
+3l bucket		水筲
+5coordinated		默契
+5developed		丰满
+6isciplined		罄然
+5established		相沿成习
+g and growing strongly		根深叶茂
+5known		周知
+5off		殷富
+6rdered		清明
+5proportioned		匀称
+6ulley		辘轳
+5qualified		称职
+5received		喜闻乐见
+7garded		吃香
+5shaped		匀称
+6upported		多助
+6weep		桔槔
+5worth a second look		耐看
+4-bred young lady		闺秀
+5cultivated land		平畴
+5field system		井田制
+5informed and experienced		博物多闻
+eperson		活字典
+5known commentator		名嘴
+bfar and near		遐迩皆知
+cigure		佼佼者
+bpiece of music		名曲
+bscenic spot		胜地
+5off and respected		安富尊荣
+5rounded argument		通论
+5structured and ordered		纲举目张
+5trodden path		熟道
+3t seam		折缝
+2n wei po		文汇报
+3ge or wengue		鸡翅木
+3hui news		文汇报
+2re it not for		若非
+2st africa		西非
+5bengal		西孟加拉邦
+5china		华西
+5germany		西德
+5indies		西印度
+5longitude		西经
+5of liaoning		辽西
+5side		西边
+4ern calendar		阳历
+apercaillie		西方松鸡
+9ountries		西方
+8equine encephalitis virus		西方马脑炎病毒
+9urope		西欧
+ean union		西欧联盟
+9xtremity		西端
+8goods		洋货
+8hooded pitta		绿胸八色鸫
+8jin dynasty		西晋
+8kham		西康省
+8language		西文
+9earning		洋学
+8marsh harrier		白头鹞
+9edicine		西药
+8opera		歌剧
+8part		西边
+8regions		西域
+8sahara		西撒哈拉
+amoa		西萨摩亚
+andpiper		西方滨鹬
+9ichuan		川西
+9kills		西艺
+9tyle		洋味
+d guns		洋枪
+8taste		洋味

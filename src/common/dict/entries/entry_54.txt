@@ -1,0 +1,500 @@
+0emperor's favorite courtier		弄臣
+agenerosity towards a favorite		恩宠
+aoffspring		龙种
+ason-in-law		驸马
+ayoung brother		御弟
+3ire state building		帝国大厦
+3loyee identification card		工作证
+9number		工号
+6ment agent		荐头
+cs sex worker		性工作
+bopportunity		就业机会
+brate		就业率
+bservice		就服
+chop		荐头店
+3ress dowager		太后
+f ci'an of qing		慈安太后
+8michiko of japan		美智子
+7's body		凤体
+aphysical condition		凤体
+athrone		后座
+3ty and quiet		空阒
+asilent		空寂
+atrite		陈腐
+6fame		虚誉
+8ntasy		空幻
+7ormality		虚文
+6handed		空身
+6interior		中空
+6nest		空巢
+6place		空位
+7rattle		有嘴无心
+8omise		空头支票
+ds		空口白话
+6set		空集
+7hell		形同虚设
+7pace		空白点
+6talk		光动嘴
+6words		假大空
+7rist		虚腕
+2ulation server		仿真服务器
+4sion paint		乳胶漆
+1n masse		集体
+3route		途中
+8 to		取道
+2antiomeric isomer		对映异构体
+jism		对映异构
+2ceinte of a city gate		瓮城
+3hanting scenery		别有天地
+cmile		媚笑
+3ircling the city		环城
+3losed pasture		圐圙
+9with letter		随信附上
+6ure for carrier pigeons		鸽房
+amovement		圈地运动
+3ounter with a beautiful woman		艳遇
+3umbered by wife and children		携眷
+3yclopedia of china publishing house		中国大百科全书出版社
+bc dictionary		百科词典
+2d face		端面
+4line		端线
+4of a banquet		散席
+9fixed term		期终
+9historical era		季世
+9show		散戏
+9vacation		收假
+7friendship		友尽
+7month		月末
+7quote		引号完
+7school		散学
+7term examination		期考
+8he century		世纪末
+bmonth		月尾
+bwar		终战
+corld		世界末日
+byear		年尾
+4paper		扉页
+6rt		底端
+5oint		端点
+5roduct		终产物
+4seat		末席
+5tage		晚期
+7tion		端站
+5ystem		端系统
+4user		终端用户
+3-to-end encryption		端到端加密
+3angered species		濒危物种
+3earingly silly		呆萌
+3ing theme song		片尾曲
+7up as		落得
+3less crime		业海
+8happiness		长乐未央
+8loop		死循环
+8mist		长烟
+9umbling		哩哩罗罗
+8prattle		絮絮
+7ly interesting		妙趣横生
+3ocrine gland		内分泌腺
+4genic force		内营力
+4plasmic reticulum		内质网
+4tracheal intubation		气管插管术
+3s of the earth		天边
+3urance race		耐力赛
+5ing peace		永久和平
+9while the world lasts		天长地久
+2emy camp		敌营
+7ountry		敌国
+6defense		守敌
+6garrison		守敌
+6occupied territory		敌占区
+7f the emperor		御敌
+6plane		敌机
+6radio station		敌台
+6spy		敌探
+6territory		敌地
+7roops		敌军
+6within one's own ranks		内奸
+5-held territory		沦陷区
+3rgetic looks		气势
+amood		奋发
+aresponse		积极反应
+5y channels		经络
+8onsumption		能耗
+8risis		能源危机
+7drink		能量饮料
+7efficiency		能效
+7left over		余力
+9vel		能级
+7metabolism		能量代谢
+2gine capacity		排量
+7displacement		排量
+7knock		爆声
+7oil		机油
+7room		机房
+7temperature gauge		水温表
+6er's scale		比例尺
+8ed ceramics		精密陶瓷
+8ing as an academic subject		工科
+ccollege		工业大学
+cgraphics		工程图
+3land and germany		英德
+8premier soccer league		英超
+4ish channel		英吉利海峡
+9orner		英语角
+8department		英语系
+8horn		英国管
+8language teaching		英语教学
+8translation		英译
+7-chinese parallel text		英汉对译
+3raved blocks		刻版
+2igmatic and impossible to predict		深不可测
+2joying exceptional advantages		得天独厚
+2larging paper		放大纸
+3ightened sage		圣明
+dovereign		开明君主
+9ing remarks		高论
+9ment dawns		开窍
+4sted sailor in navy		水兵
+6ment age		役龄
+2mity leading to sin		冤孽
+2oki mushroom		金菇
+3rmous lie		瞒天大谎
+9sum		巨富
+3ugh is enough		是可忍，孰不可忍
+2riched uranium		浓缩铀
+2semble of heroes		群英
+3hi county in southwest hubei		恩施县
+4rouded in mist		雾锁
+2techinus major		翠青蛇
+4ring and leaving a country		进出境
+9tone		促声
+5prising spirit		进取心
+5taining anecdote		趣事
+din conversation		健谈
+gone's speech		舌灿莲花
+9ment at folk festival		杂戏
+ecenter		娱乐中心
+3husiasm of the new convert		热炒热卖
+9tic praise		盛称
+3ire household		合家
+7set		整套
+7text		全文
+7world		全世界
+7year		卒岁
+6ly different		天差地远
+9in one's element		得心应手
+9outside the norm		一反常态
+9regrettable		糟透
+3rance and exit		出入
+h door		出入门
+9door		入门
+9examination		联考
+9hall		门厅
+9or staircase		单元
+9portal		朝门
+4y pass for imperial examination		报录
+6visa		入境签证
+2umeration comma		顿号
+2velope for a padded coverlet		被单
+8d in clouds and mist		云山雾罩
+3ironment protection office		环保局
+bal activism		环境行动主义
+edamage		环境损害
+efactor		环境因素
+eimpact		环境影响
+k assessment		环评
+v eia		环境影响评估
+epollution		公害
+frotection		环保
+esanitation		环境卫生
+fcience		环保科学
+etemperature		环境温度
+dly friendly		环保
+1ocene system		始新统
+2sinophil granulocyte		嗜酸性球
+1pic narrative		物语
+4anthal fold of upper eyelid		重眼皮
+3demic area		疫区
+9cerebrospinal meningitis		流脑
+9disease		流行病
+9situation		疫情
+atrain		流行株
+7ological survey		流调
+3leptic seizure		癫痫发作
+3nephelus septemfasciatus		七带石斑鱼
+3physeal line		骨骺线
+bplate		骺软骨板
+3stle of st james		雅各书
+fude		犹大书
+2oxy resin		环氧树脂
+2som salts		泻盐
+1qual difference		等差
+6in value		等价
+6pay for equal work		同工同酬
+7ressure		等压
+6rights		平权
+6temperament		十二平均律
+7o		一样
+8 the capital		对本
+5-value exchange		等价交换
+5ity between the sexes		两性平等
+9of ethnic groups		民族平等
+cthe sexes		男女平等
+5ly famous		齐名
+8matched		不分轩轾
+8true for		莫不然
+4tion expressing a relation		关系式
+9of a chemical reaction		反应式
+8s of motion		运动方程
+5orial counter current		反赤道流
+bguinea		赤道几内亚
+bmount		赤道仪
+brain forest		赤道雨林
+3estrian archery		骑射
+3iaxial crystal system		等轴晶系
+4lateral triangle		等边三角形
+5ibrium of forces		均势
+4ne recurrent uveitis		月盲症
+4pped with		具备
+4ty participation		参股
+7shares		股权
+4valence relation		等价关系
+5ocal speech		隐约其辞
+1ra name		年号
+3sable pen		擦擦笔
+2ectile dysfunction		不举
+9tissue		海绵体
+2ga omnes rights		对世权
+3onomic chair		人体工学椅
+2hai lake		洱海
+2lenmeyer flask		锥形瓶
+3ian basin in inner mongolia		二连
+2oded by ice		冰蚀
+3sion by groundwater		溶蚀
+3tic dance		艳舞
+8ream		春梦
+7picture		春宫
+8rint		春画
+7verse		艳诗
+2rand boy		马前卒
+3oneous character		讹字
+atendencies		偏向
+aviews		谬见
+9ly translated as sirloin		牛腩
+4r and negligence		错漏
+6in a text		讹误
+6message		出错信息
+6note		错票
+6of judgment		误判
+2udite and informed		博古通今
+crefined		彬蔚
+csophisticated		渊识
+2yngium foetidum		假芫茜
+3thrina variegata		刺桐
+6ocyte sedimentation rate		红细胞沉降率
+1scape character		转义字符
+7room		密室逃脱
+9ute		后路
+7sequence		转义序列
+7velocity		宇宙速度
+6d prisoner		越狱犯
+3herichia coli		大肠杆菌
+3ort vessel		护航舰
+2ophageal cancer		食道癌
+3teric buddhism		密教
+2pecially urgent		特急
+3ionage thriller		谍战
+3resso coffee		浓缩
+2sential factor		要素
+aoil		精油
+apoint		闪光点
+fs		纲要
+2tablished and irrefutable		确凿不移
+cpractice		定规
+crules		成规
+4te tax		遗产税
+3eemed father		老太爷
+9guest		嘉宾
+9mother		老太太
+3hetic activity		审美活动
+9conception		审美观
+9pleasure		审美快感
+aoint of view		审美观
+3imated due date		预产期
+1t cetera		等等
+2ernal glory		永垂不朽
+8life		永生
+8paragon		万世师表
+bting		永别
+8regret		终天之恨
+2hanoic acid		乙酸
+3ereal quality		仙气
+3ical awareness		道德认识
+8dilemma		道德困境
+8family relations		天伦
+5s and ability		德才
+3moid bone		筛骨
+3nic chinese		华裔
+e person or people		华人
+8leansing		种族清除
+7group		族群
+7malays		巫裔
+8inority		少数族裔
+7township		少数民族乡
+3yl acetate		醋酸乙酯
+6group		乙基
+5amino group		乙氨基
+5ene oxide		环氧乙烷
+2on public school		伊顿公学
+1ucalyptus oil		桉叶油
+3lidean geometry		欧式几何
+2patorium fortunei		佩兰
+3hemism for a bribe		回扣
+ejapanese porn movie		岛国动作片
+eprostitution-based economy		她经济
+esexual intercourse		行房
+aor honorific for ill		违和
+4rates river		幼发拉底河
+2rasian bittern		大麻鳽
+aullfinch		红腹灰雀
+9collared dove		灰斑鸠
+bntinent		亚欧大陆
+bot		骨顶鸡
+arag martin		岩燕
+bimson-winged finch		赤翅沙雀
+aurlew		白腰杓鹬
+9dotterel		小嘴鸻
+9eagle-owl		雕鸮
+9golden oriole		金黄鹂
+bshawk		苍鹰
+ariffon vulture		兀鹫
+9hinterland		亚欧大陆腹地
+aobby		燕隼
+bopoe		戴胜
+9jay		松鸦
+9land bridge		亚欧大陆桥
+9magpie		欧亚喜鹊
+9nuthatch		普通䴓
+9oystercatcher		蛎鹬
+9scops owl		西红角鸮
+aiskin		黄雀
+akylark		云雀
+aparrowhawk		雀鹰
+boonbill		白琵鹭
+atone-curlew		欧石鸻
+9teal		绿翅鸭
+ahree-toed woodpecker		三趾啄木鸟
+aree sparrow		树麻雀
+dcreeper		旋木雀
+9wigeon		赤颈鸭
+aoodcock		丘鹬
+aren		巧妇
+3o cent		欧分
+4pe and asia		欧亚
+6an bee-eater		黄喉蜂虎
+9central bank		欧洲中央银行
+aommon market		欧洲共同市场
+buncil		欧洲理事会
+crt of justice		欧洲法院
+aup		欧洲杯
+9free trade association		欧洲自由贸易联盟
+9golden plover		欧金斑鸻
+dfinch		红额金翅雀
+areenfinch		欧金翅雀
+9herring gull		银鸥
+9imported turbot		多宝鱼
+9nightjar		欧夜鹰
+9parliament		欧洲议会
+aied flycatcher		斑姬鹟
+aoplar		欧洲山杨
+9robin		欧亚鸲
+bller		蓝胸佛法僧
+9space agency		欧洲航天局
+9turtle dove		欧斑鸠
+9union		欧洲联盟
+9wild cabbage		野甘蓝
+4vision song contest		欧洲歌唱大赛
+2stachian tube		咽鼓管
+1vacuation hospital		后送医院
+bto an air-raid shelter		防空避难
+3porative air conditioner		蒸发空调
+ccooler		蒸发空调
+2en and smooth		匀溜
+5better		更胜一筹
+5function		偶函数
+5if		不怕
+5more		多多
+9 difficult		难上加难
+5now		时至今日
+6umber		偶数
+5though		不怕
+4ing classes		业余教育
+9ollege		夜大
+8dress		晚礼服
+8meal		晚饭
+9ist		暮气
+8news		晚报
+cpaper		晚报
+8or night		夜间
+8party		晚会
+9rayer		晚祷
+aimrose		待宵草
+aogram		夜间部
+8scene		晚景
+ahool		夜校
+9how		夜场
+4ki ethnic group		鄂温克
+4ly matched		势均力敌
+4t horizon		事界
+6tracking		埋点
+5-related potential		事件相关电位
+5ful years		峥嵘岁月
+5ual downturn		长空
+3r more		益发
+9 critical		愈演愈烈
+5since		自从
+5victorious		战无不胜，攻无不克
+4green plant		常绿植物
+atree		常绿树
+4ton soccer team		埃弗顿
+4y kind of		形形色色
+6aspect		点点滴滴
+6beginning is difficult		万事开头难
+6color under the sun		五颜六色
+8untry		各国
+6day		天天
+9 and every hour		每时每日
+kmonth		日月
+asees new developments		日新月异
+7og has its day		也有今天
+6family		千家万户
+c has its problems		家家有本难念的经
+7rown and every smile		一颦一笑
+6household		家家户户
+6illness		百病
+7tem has a weakness		一物降一物
+6kettle has its lid		一个萝卜一个坑
+7ind		万般
+a of animal		百兽
+ecereal crop		百谷
+6little bit		一点一滴
+dmove		一举手一投足
+8ving being		芸芸众生
+6manifestation of nature		万象
+8tter		诸事
+7oment counts		分秒必争
+8nth		月月
+6night		夜夜
+6person		人人
+7lace		各处
+6seat taken		满座
+7ingle		但凡
+c movement		一举手一投足
+done		悉数
+6time		每次
+7rade		三百六十行
+6week		每周
+7ord and action		一言一行
+fdeed		一言一动
+bis a gem		字字珠玑
+6year		每年

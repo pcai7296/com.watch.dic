@@ -1,68 +1,307 @@
 0kaleidoscope	5rn	80
 bic	5ro	80
-2ngaroo	5rp	a2
+3ij pheasant	qzj	
+4mantan island	qzk	
+4ningrad oblast	qzl	
+2ma sutra	qzm	
+3chatka leaf warbler	qzn	
+3ikaze unit	qzo	
+2nas lake in xinjiang	qzp	
+3dahar province of afghanistan	qzq	
+3garoo	5rp	a2
+4won province of north korea	qzr	
+3sei engineering	qzs	
+2posi's sarcoma	qzt	
+2rakorum mountains	qzu	
+4oke hall	qzv	
+3mic hindrance	qzw	
+7retribution	qzx	
+i within one's lifetime	qzy	
+9ward	qzz	
+2tsuobushi or dried bonito flakes	r00	
+3ydid or long-horned grasshopper	r01	
+2ya state of myanmar	r02	
+2zakh ethnic group	r03	
+7language	r04	
+7people	r05	
+9rson	r06	
+7written language	r07	
 1een	5rq	7c
+4 and alert	r08	
+5for knowledge	r09	
+5interest	r0a	
+4ly aware	r0b	
+7desired	r0c	
+7felt pain	r0d	
+7observant of trivial details	r0e	
 3p	5rr	23
+4 silent	r0f	
+5your thoughts to yourself	r0g	
 4er	5rs	e
+4ing behind one's back	r0h	
+8to one's role	r0i	
+2i truck	r0j	
+3rin cycle race	r0k	
 2lp	5rt	20
 2n	5ru	c0
 3nel	5rv	c0
-2rnel	5rw	e8
+3tish plover	r0l	
+4ucky fried chicken	r0m	
+2pt man	r0n	
+5woman	r0o	
+2rchief as head ornament	r0p	
+9covering head	r0q	
+3nel	5rw	e8
 3osene	5rx	40
-2ttle	5ry	5e
+8 lamp	r0r	
+2togenic diet	r0s	
+4ne group	r0t	
+3tle	5ry	5e
 2y	5rz	23
+3 and lock	r0u	
+4constituent	r0v	
+4document	r0w	
+4element	r0x	
+4figure	r0y	
+4information	r0z	
+4job	r10	
+4location	r11	
+4moment	r12	
+a for action	r13	
+4participant	r14	
+5erformance indicator	r15	
+5oint	r16	
+6st	r17	
+5rinciple	r18	
+4section	r19	
+5ignature	r1a	
+5trength	r1b	
+4task	r1c	
+5one	r1d	
+6pic	r1e	
+5ravel	r1f	
+4word	r1g	
 3board	5s0	5f
+8 and mouse	r1h	
+9instrument	r1i	
+9shortcut	r1j	
+9warrior	r1k	
+3ed up	r1l	
+3hole saw	r1m	
+3note speech	r1n	
+3pad tone	r1o	
 3s	5s1	20
+4 of authority	r1p	
+4ight technologies	r1q	
 3words	5s2	20
+1hyber pass	r1r	
+8rovince of pakistan	r1s	
 1ick	5s3	1f
 2d	5s4	17
+3 leather	r1t	
+3die ride	r1u	
 3nap	5s5	f8
 4ey	5s6	b8
+6 bean	r1v	
+7inflammation	r1w	
+7stone	r1x	
 3s	5s7	20
 2ll	5s8	17
 4er	5s9	20
+6 app	r1y	
+alication	r1z	
 4joy	5sa	80
 3n	5sb	40
 3o	5sc	13
+4base pair	r20	
 4gram	5sd	7
 8s	5se	20
 4meter	5sf	4
 7re	5sg	11
 4watt	5sh	8
+8-hour meter	r21	
 2n	5si	b8
 3d	5sj	3
+4 and charitable	r22	
+9honest	r23	
+5of	bl5	
+7 chinese wine	r24	
+8dumpling	r25	
+8work in production	r26	
+5patronage	r27	
+5words	r28	
 4ergarten	5sk	32
+c bus	r29	
+4hearted person	r2a	
 4le	5sl	e8
 4ness	5sm	1e
 4red	5sn	80
+7 spirit	r2b	
+es	r2c	
 3etic	5so	c8
+7 energy	r2d	
 3g	5sp	37
+4 arthur	r2e	
+5cobra or ghost chili	r2f	
+7unty	r2g	
+6rab	r2h	
+5david	r2i	
+5fahd of saudi arabia	r2j	
+5helu of wu	r2k	
+6uai of chu	r2l	
+5kong	r2m	
+5min of qi	r2n	
+6ohammed vi of morocco	r2o	
+5oyster mushroom	r2p	
+5prawn	r2q	
+5salmon	r2r	
+6callop	r2s	
+6olomon's seal	r2t	
+5trumpet mushroom	r2u	
+5xuan of qi	r2v	
+4's palace	r2w	
+8unishment	r2x	
 4dom	5sq	5e
+7 hall	r2y	
+8monera	r2z	
+8of heaven	r30	
+bnaples	r31	
+cepal	r32	
+bthe netherlands	r33	
+funderworld	r34	
+8plantae	r35	
+4ston upon hull	r36	
 3ship	5sr	10
 2osk	5ss	80
 2ss	5st	17
+4ing scene	r37	
+9ound	r38	
+8technique	r39	
 2t	5su	38
 3chen	5sv	63
+7 counter	r3a	
+8exhaust hood	r3b	
+8implements	r3c	
+8knife	r3d	
+8sink	r3e	
+8utensils	r3f	
+8waste	r3g	
+9orker	r3h	
+7s and bathrooms	r3i	
 3e	5sw	1f
+3h and kin	r3j	
 3s	5sx	20
+3ty hawk	r3k	
+2wi fruit	r3l	
+1lebs-loeddler bacillus	r3m	
+5iella pnenmoniae	r3n	
+3in or kline	r3o	
+2m royal dutch airlines	r3p	
+2ondike in northwest canada	r3q	
+3ss's leaf warbler	r3r	
 1nack	5sy	80
+5 of doing business	r3s	
 3psack	5sz	40
 3ve	5t0	80
 2ead	5t1	80
+5ing or chopping board	r3t	
 3e	5t2	1f
+4 brace	r3u	
 4l	5t3	1c
 3ll	5t4	40
 2ife	5t5	23
+5 and fork	r3v	
+6blade	r3w	
+6work	r3x	
 3ght	5t6	8
+6 of the zhao state	r3y	
 3t	5t7	bc
+4ted cotton	r3z	
+8garment	r40	
+5ing needle	r41	
+9wool	r42	
 2ob	5t8	3c
+4-billed duck	r43	
 3ck	5t9	3
+5down price	r44	
+5ed about	r45	
+8down	r46	
+5out drops	r47	
+bug	r48	
 3ll	5ta	80
 3t	5tb	3c
-4ty	5tc	80
+4 on an elm tree	r49	
+4less netting	r4a	
+4ted or slow pulse	r4b	
+5y	5tc	80
+6 and deeply-rooted difficulties	r4c	
+7problem	r4d	
 3w	5td	3
+4 all	r4e	
+5of	bks	
 4-how	5te	80
+4ing how to accumulate wealth	r4f	
+8one's place	r4g	
 4ledge	5tf	3f
+9 and experience	r4h	
+abase	r4i	
+ais the best charity	r4j	
+aof the fundamentals	r4k	
+aworker	r4l	
 9able	5tg	40
-1udos	5th	80
+d and experienced	r4m	
+iperspicacious	r4n	
+iversatile	r4o	
+eperson	r4p	
+4n chinese character	r4q	
+6far and wide	r4r	
+6to everybody	r4s	
+eone	r4t	
+2uth or canute	r4u	
+1oklass pheasant	r4v	
+2modo dragon	r4w	
+2ninkrijk der nederlanden	r4x	
+2rea and japan	r4y	
+7s geographic term	r4z	
+6strait	r50	
+5n a'ak	r51	
+7ethnic minority in china	r52	
+7language	r53	
+8etters	r54	
+7nuclear problem	r55	
+7peninsula	r56	
+7war	r57	
+8ritten language	r58	
+3yo ginseng	r59	
+2shihikari rice	r5a	
+2ta kinabalu	r5b	
+2wloon district of hong kong	r5c	
+8motor bus	r5d	
+8walled city	r5e	
+1raft paper	r5f	
+2ebs cycle	r5g	
+2istian or christian	r5h	
+2ohn's disease	r5i	
+1tv hostess	r5j	
+1u klux klan	r5k	
+2dos	5th	80
+2mbum monastery in qinghai	r5l	
+2ng flu	r5m	
+6u	r5n	
+7 balls	r5o	
+5pao chicken	r5p	
+4fu movie	r5q	
+3lun mountain range	r5s	
+l in xinjiang	r5r	
+3ming lake	r5t	
+2rd ethnic group	r5u	
+4ish person or people	r5v	
+6tan worker's party	r5w	
+3osawa akira japanese movie director	r5x	
+5hio current	r5y	
+1wai cheong	r5z	
+7ung	r60	
+3y chap	r61	
 1ymograph	5ti	40
+2rghiz language	r62	
+4yz ethnic group	r63	

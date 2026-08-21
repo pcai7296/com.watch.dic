@@ -1,0 +1,500 @@
+0pants pocket		裤兜
+2o chui		三皇炮捶
+2pa john's		棒约翰
+4l bull		印玺
+3er airplane		纸飞机
+6bag		纸袋
+6clip		回形针
+7one used as hailer		纸盆
+7rane		纸鹤
+7up		纸杯
+8rrency		纸币
+8tter		裁纸机
+aing		窗花
+6docket confirming a transaction		凭条
+6flower		纸花
+6gold		纸黄金
+6hot pot		纸火锅
+6ingots		纸锭
+6made from silkworm cocoons		蚕茧纸
+7oney		钞票
+7ulberry		构树
+6napkin		餐巾纸
+7otepad		记事本
+6patten		纸样
+7roducts		纸品
+7ulp		浆纸
+6quality		纸质
+6shredder		碎纸机
+7treamer		纸带
+6tape		纸带
+7est		笔试
+7iger		纸老虎
+8ssue		抽纸
+7owel		纸巾
+6wedding		纸婚
+5-cut silhouette		剪影
+5less office		无纸化办公
+5making craft shop		槽坊
+cprocess		造纸术
+5s and books		书报
+3ua new guinea		巴布亚新几内亚
+5-new guinea		纽几内亚
+2r excellence		独领风骚
+4value		票面值
+3achute jumping		跳伞
+4de guards		标兵
+7squad		仪队
+5ise fish		盖斑斗鱼
+4ffin wax		石蜡
+4gon of virtue and learning		师表
+4llel and antithesis		排偶
+9bars		双杠
+9computing		并行计算
+bnnection		并联
+9excitation		并激
+9lines		平行线
+9port		并口
+arogram		并行程序
+cse		骈俪
+9universe		平行世界
+5ympic games		残奥会
+6zed person		瘫子
+4meter space		参量空间
+5ount pictures		派拉蒙影业
+4nasal sinus		鼻旁窦
+4phyletic group		并系群
+4scaris equorum		马蛔虫
+5itic government		蠹政
+ajaeger		短尾贼鸥
+aworm		蛲虫
+4thyroid gland		甲状旁腺
+chormone		副甲状腺素
+5yphoid fever		副伤寒
+3cel of land		地块
+3don me		对不住
+3ent and child		亲子
+bsubsidiary		母子
+7company		母公司
+7directory		父目录
+7language		母语
+7material		母质
+7population		母群体
+7shell		母弹
+8tar		母星
+6's generation		亲代
+6-teacher conference		家长会
+6al advisory label		脏标
+9leave		育婴假
+aove		舐犊之爱
+6s' association		家长会
+4to efficiency		帕累托最优
+7optimality		帕累托最优
+7principle		帕累托法则
+3ietal bone		顶骨
+9lobe		顶叶
+4ng knife		水果刀
+4s green		巴黎绿
+6hilton		帕丽斯·希尔顿
+3k hyatt		柏悦
+4a jacket		派克大衣
+4er pen company		派克
+4ing bay		停车格
+9rake		驻车制动器
+8lot		停车场
+8meter		停车计时器
+8space		泊位
+aot		车位
+6son's disease		巴金森氏症
+3liamentary or congressional seat		席位
+esystem		议会制
+3mesan cheese		巴马干酪
+3otid gland		耳下腺
+3rot fever		鹦鹉热
+3s perculairs		岛盖部
+3t number		料号
+5of speech		词性
+8the official staff		有编制
+4-of-speech tagging		词性标注
+5time college		业大
+awork		半职
+eer		杂役
+4ed hair		分头
+4ial color blindness		色弱
+8derivative		偏微分
+9ifferential		偏微分
+k equation		偏微分方程
+8eclipse		偏蚀
+f of the moon		月偏食
+nsun		日偏食
+8hair dye		挑染
+8to		偏食
+5cipant in an expedition		征人
+9tion in politics		参政
+6ular abilities		能事
+dout one's dress		穿着讲究
+bkind		特种
+brequirement		特需
+bsolution		特解
+bthanks		特别感谢
+byear		年份
+9te matter		悬浮微粒
+5es to a contract		合同各方
+5ng ceremony		告别式
+8sorrow		离愁
+7s and reunions		悲欢离合
+5tion board		隔扇
+awall		间壁
+9ed-off area		隔间
+4ly employed		半失业
+7released from productive labor		半脱产
+4ner for dating		约会对象
+7s in notoriety		臭味相投
+4y a		甲方
+7ffairs		党务
+7nd government administration		党政
+lorganizations		党政机关
+6b		乙方
+7oss		党魁
+6caucus		党团
+7hief		党主席
+7ommittee		党委
+8ngress		党代会
+9stitution		党章
+6dancing		舞会舞
+6involved		事主
+6leader		党首
+cship group		党组
+6meeting		党派集会
+8mber		党人
+cship		党票
+g dues		党费
+6of compromise		中间派
+8ficials and ordinary people		干群
+6platform		党纲
+7rogram		党纲
+6school		党校
+7tanding		党龄
+6venue		轰趴馆
+2s de deux		双人舞
+3cal's hexagon		帕斯卡六边形
+9triangle		帕斯卡三角形
+3hto language		阿富汗语
+3sbook entry machine		补登机
+4ed on		传承
+9 from ancestors		祖传
+5nger cabin		客舱
+cpacity		载客量
+aelevator		客梯
+afare		车费
+blow		客流
+ainspection		旅检
+alift		客梯
+aplane		客机
+aship		客船
+atrain		客车
+dnsportation		客运
+avehicle		乘用车
+4ing line or score		及格线
+8thought		浮想
+9raveler		过客
+5on flower		西番莲
+9or drinking		酒兴
+9ruit		百香果
+8or egg fruit		鸡蛋果
+7ate love		男欢女爱
+5ve immunity		被动免疫
+9ncome		被动收入
+8smoking		被动吸烟
+4word protection		密码保护
+3t and present		今昔
+5days		来日
+6ynasties		历代
+5events		前事
+5generations		上辈子
+6rievance		旧恶
+5history		来路
+5master		高手
+6idnight		转钟
+5one's prime		过气
+5participle		过去分词
+5tense		过去式
+5years' almanac		老皇历
+4eurized beer		熟啤酒
+4ing table		涂浆台
+4ry bag		裱花袋
+7flour		低筋面粉
+4ure for cattle and horses		牧圉
+2tch of bruising		淤血斑
+9cloth		铺衬
+3ent drugs		专利药品
+7law		专利法
+8eather shoes		漆皮鞋
+7medicine		成药
+7office		专利局
+7right		专利权
+4rnal aunt		姑姑
+9female cousin		堂姊妹
+9grandfather		祖父
+emother		王母
+eparents		祖父母
+beat-aunt		姑奶奶
+fgrandfather		曾祖父
+kmother		曾祖母
+9line		父系
+aove		父爱
+9male cousin		堂兄弟
+9uncle		从父
+6ity leave		陪产假
+aor maternity test		亲子鉴定
+3h between fields		田陌
+5for the visually impaired		导盲道
+5leading to a grave		墓道
+5to the underworld		冥道
+6raveled		路程
+4ogenic bacteria		病菌
+benergy		邪气
+binfluence		风邪
+8y in tcm		病邪
+5logical changes		病变
+dscience		病因学
+3ient and accommodating		忍让
+8confidentiality		医密
+8zero		零号病人
+7's condition		病势
+3riarchal clan system		宗法
+csystem		家长制
+5otic health committee		爱国卫生运动委员会
+aoverseas compatriot		海外赤子
+4ol boat		巡逻艇
+7car		巡逻车
+7officer		巡警
+7vessel		巡逻船
+5n of a brothel		嫖客
+7saint		主保圣人
+3ter of rain		淅沥
+6ing sound		滴答
+6n matching		连连看
+8or die		模具
+8sheet		样张
+2ulson or powellson		保尔森
+3per's grave		义冢
+9thatched hut		蓬居
+3se button		暂停键
+2ved path		甬路
+away		甬道
+3ilion housing a stele		碑亭
+8s and kiosks		亭台楼阁
+2w print		爪印
+3n shop		质铺
+2x americana		美利坚治世
+2y and provisions for soldiers		兵饷
+3-per-click advertising		点击付费广告
+3able at sight		见票即付
+8to bearer		见票即付
+bthe bearer		无记名
+3ing special care		加意
+3ment and pension		俸恤
+8for goods		货款
+ctea		茶钱
+8in installments		分期付款
+8made afterwards		后付
+9ethod		付款方式
+8of claims		理赔
+bmoney owing		回款
+8slip		交款单
+8to a porter		力钱
+1e ratio		市盈率
+2a crab		豆蟹
+4gruel		豌豆粥
+4or bean		豆皀
+4shoots		豆苗
+4weevil		豌豆象
+3ce all year round		时绥
+7nd happiness		安乐
+aprosperity		太平盛世
+asecurity		太平
+6conference		和会
+8rps		和平队
+6discussions		和平会谈
+6envoy		和平特使
+6keeping group		保安团
+6negotiations		和平谈判
+6party		鸽派
+6talks		和平会谈
+7reaty		和平条约
+6wherever you go		出入平安
+5ful and carefree		安闲
+dharmonious		静好
+dquiet		清静
+9relations		和睦
+bunification		和平统一
+4h blossom		桃花
+6color		桃色
+6tree		桃树
+4ock river in xinjiang		孔雀河
+3k of a pagoda		塔尖
+8excitement		兴奋高潮
+5period		旺季
+5season		盛季
+5value		峰值
+4ed cap		大盖帽
+3nut butter		花生酱
+7gallery		吃瓜群众
+3r tree		梨树
+4l barley		洋薏仁
+6gray		珠灰
+6harbor		珍珠港
+6milk tea		珍珠奶茶
+6of great price		无价珍珠
+7yster		马氏珍珠贝
+6river		珠江
+b delta		珠三角
+5s and jades		珠玉
+5y white teeth		贝齿
+3sant and worker		农工
+8family		农家
+8movement		农运
+8party		农民党
+8woman		农妇
+2chora pipit		北鹨
+3king order		班辈
+3tinophora gassypiella		红铃虫
+4oral fin		胸鳍
+9muscles		胸肌
+9sandpiper		斑胸滨鹬
+8is major muscle		胸大肌
+2dantic and impractical		迂儒
+dstubborn		迂执
+dunrealistic view		迂见
+3dlers and common people		贩夫俗子
+3estal for stone tablet		碑座
+9type wc		坐便器
+6rian area		步行区
+bbridge		天桥
+bcrossing		横断步道
+j with zebra stripes		人行横道线
+bgroup		集体行走
+bprecinct		人行区
+bstreet		步行街
+bunderpass		人行地下通道
+bzone		徒步区
+a-vehicle mixed use		人车混行
+3icab driver		三轮车夫
+5el and calyx of muskmelon		瓜蒂
+2e inducing		走肾
+3l out		烧胎
+4ed garlic clove		蒜米
+7on the spot		现剥
+3p show		西洋镜
+4ing tom		偷窥狂
+3r competition		分庭抗礼
+7unseling		同侪咨商
+5group		同侪团体
+5pressure		同侪压力
+5review		同侪审查
+4less artwork		绝品
+2gu city in south myanmar		勃固
+2iping or beiping		北平
+2king ape-man		北京猿人
+7duck		北京烤鸭
+7gazette		京报
+7opera		二黄
+7university		北京大学
+2lagic cormorant		海鸬鹚
+3e's hair		火山毛
+3vic basin internal to ilium		髂窝
+7fin		腹鳍
+8loor		盆底
+2n and ink		笔墨
+4for animals		豢圉
+8livestock		畜栏
+4name		假名
+4pal		笔友
+5oint		笔尖
+4rack		笔架
+3al servitude		苦役
+5ty for a crime		罪刑
+8kick		十二码
+8points		扣分
+8shot		罚球
+4nnular jade pendant		玉玦
+3cil case		铅笔盒
+7sharpener		刨笔刀
+8kirt		一步裙
+3dente lite		在诉讼期间
+4ulum clock		摆钟
+3etrating insight		真知灼见
+cradiation		穿透辐射
+9on of a cutting tool		吃刀
+3g bo		彭勃
+5county in sichuan		彭县
+5zu		彭祖
+3hold grip		直拍
+3is or vulva		小便
+3nant used on expedition		征旆
+4e pasta		尖管面
+5d words		词翰
+4iless and full of care		穷愁
+agood-for-nothing		穷光蛋
+4y stocks		仙股
+6wise and pound foolish		贪小失大
+3sion granted as a favor		恩俸
+3t-up frustration		窝囊气
+9ury		积愤
+8unspoken grievances		哑巴亏
+4asorbital sodium		戊巴比妥钠
+5tonic scale		五声音阶
+2ony card		牡丹卡
+6used in tcm		芍药
+3ple disperse home		云散风流
+7far from home		远人
+7killed in battle		阵亡者
+7living on the frontiers		边民
+7not understanding each other		鸡同鸭讲
+7of a country		国族
+cnation		国民
+bncient times		古人
+aone's grandparents' generation		祖父辈
+gparents' generation		父辈
+athis province		本省人
+7who feel		有心人
+bregularly eat out		外食族
+buse their heads		有心人
+6's action party		人民行动党
+armed police		武警部队
+9bank of china		中国人民银行
+bsic needs		衣食住行
+9commune		人民公社
+burt		人民法院
+9daily		人民日报
+aemocratic dictatorship		人民民主专政
+krepublic of korea		朝鲜民主主义人民共和国
+9expectations		人意
+9government		人民政府
+9liberation army		人民解放军
+o air force		中国人民解放军空军
+bvelihood		民生
+9militia		民兵
+9organization		人民团体
+9party		人民党
+9republic of bangladesh		孟加拉人民共和国
+lchina		中华人民共和国
+lmongolia		蒙古人民共和国
+9tribunal		人民法院
+9welfare		民生
+2p talk		精神训话
+3ino melon		人参果
+3per genus		胡椒属
+7spray		胡椒喷雾
+6mint oil		薄荷油
+3si light		百事轻怡
+3tide bond co-nh		肽键
+8chain		肽链
+8group		肽基
+8unit		肽单位
+6oglycan or murein		肽聚糖
+2r book		账载
+4diem		按天
+4mensem		按月
+4person		每人

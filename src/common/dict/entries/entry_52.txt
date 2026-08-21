@@ -1,0 +1,500 @@
+0door and window		户牖
+5bolt		门闩
+5frame		门框
+5god		门神
+5handle		门把
+6inge		门铰
+5knob		门把
+8cker		铜环
+5latch		扂楔
+6ock		门锁
+5number		门号
+5of a room		房门
+5pillars		门边框
+6late		门牌
+5to door		门到门
+5with grating		栅门
+2rm room		宿舍
+4ant bank account		死账
+8insect		蛰虫
+8volcano		休眠火山
+4itory building		宿舍楼
+3sal fin		背鳍
+2t matrix		点阵
+a printer		针式打印机
+4product		点乘
+4stroke		一点
+3ted line		虚线
+2u dizhu		斗地主
+3ble and single		双独
+8rched bridge		双曲拱桥
+7bass		低音提琴
+8ed		双人床
+8ond		双键
+7chin		双下巴
+8olumn surface grinding machine		龙门刨
+9ntact		连击
+8rochet		长针
+7dealing and back stabbing		两面三刀
+9cker		双层
+8oor		双开门
+8utch		天书
+7entendre		一语双关
+8xposure of photo		重影
+8yelid		重眼皮
+7fault		双误
+7glazing		中空玻璃
+7happiness		双喜
+8eading		重联
+aring		复听
+8it		连击
+7layered jacket		夹袄
+7major		双主修
+7nature		二重性
+8inth or yang festival		九九重阳
+7one		对幺
+7pendulum		双摆
+9riodicity		双周期性
+8inyin		双拼
+8rime symbol		角秒符号
+7queen pawn opening		封闭性开局
+9otes		双引号
+7reed		双簧
+b wind instrument		双簧管
+8oom		双人房
+7set		双套
+8tandard		双标
+ar		双星
+9randed		双链
+8ubscript		二重下标
+7the amount		两倍
+8ier		双层
+7vision		复视
+6-bang firecracker		二踢脚
+7decker bus		双层公共汽车
+7edged blade		双刃
+dsword		两面刃
+7sided tape		双面胶
+8tranded nucleic acid		双链核酸
+7yolk egg		双黄蛋
+5y indexed		二重下标
+4t stemming from ignorance		疑冰
+5s and suspicions		疑团
+3gh dumpling		面疙瘩
+6figurine		面人儿
+6modeling		面塑
+5-drop soup		疙瘩汤
+2ve faction		鸽派
+5of peace		和平鸽
+5tree		珙桐
+2w jones		道琼
+9 industrial average		道指
+3ager's hump		富贵包
+3n and out		落托
+6rrow key		下箭头键
+5jacket		防寒服
+5payment		定金
+5quark		下夸克
+5syndrome		唐氏症
+5to		以至
+4-filled garment		羽绒服
+5pointing arrow		下箭头
+4cast wretch		丧气鬼
+4hill path		下坡路
+9road		下坡路
+9slope		下坡
+4ing street		唐宁街
+4town area		街市
+4ward fluctuation		下浮
+8-facing dog		下犬式
+3ry contract		婚前财产公证
+1r faustus		浮士德博士
+2aft animal		力畜
+cs		役使动物
+6beer		扎啤
+6of a document		稿子
+6paper		稿纸
+6remittance		票汇
+8solution		提案
+5y place		风口
+3g and drop		拖拉
+5queen		变装皇后
+4ging one's feet		拖拖沓沓
+4on and phoenix		龙凤
+7bean		龙豆
+8oat		龙舟
+b festival		五月节
+7dance		舞龙
+7eye fruit		龙眼
+7fruit		火龙果
+7in flight		飞龙
+7king		龙王
+7lantern		龙灯
+8i		狸花猫
+7pearl fruit		火龙果
+7robe		龙袍
+7tree		龙血树
+6's blood		血竭
+9pool and tiger's den		龙潭虎穴
+6-boat race		赛龙船
+3in water		废水
+5age area		流域
+9divide		分水岭
+9hole		排水口
+9outlet		出水口
+9system		排泄系统
+5ed weight		固形量
+3ma queen		戏精
+5tic increase		剧增
+9series		连续剧
+3pe effect		垂感
+3stic measure		猛药
+3wing method		画法
+4n game		和棋
+2eadful to hear		惨不忍闻
+4m of golden millet		黄粱梦
+4ry and fuzzy		凄迷
+3gs of a decoction		药渣
+9society		人渣
+3nched in sunlight		阳光普照
+dweat		汗流浃背
+3ss rehearsal		彩排
+6shoes		时装鞋
+5ed in western-style clothes		西装革履
+5ing room		化妆室
+9table		梳妆台
+2ibs and drabs		点点滴滴
+3ed beancurd		豆皮
+6fish		鱼干
+7ood		干儿
+7ruit		干果
+6ginger		干姜
+7rape		葡萄干
+9ss		藁草
+6human placenta		紫河车
+6jujubes		南枣
+6leaf		干叶
+7ongan pulp		元肉
+6meat		肉脯
+6nasal mucus		鼻垢
+6out		干瘪
+7yster meat		蚝豉
+6persimmon		柿饼
+7lum		青丝
+6sea sponge		海绵
+7hrimps		海米
+7weet potato slices		地瓜干
+6tangerine peel		陈皮
+6up		枯竭
+6vegetable		干菜
+3ft net		流网
+5ing along		苟且
+and homeless		飘零
+3ll bit		钻头
+7ook		操典
+6chuck		钻卡
+6ground		操坪
+6rules		操法
+5ed hole		钻孔
+5ing machine		钻探机
+9platform		钻井平台
+3nk and drive		饮酒驾车
+6in a carton		纸包饮品
+5ing as personality test		酒德
+9buddy		酒伴
+9culture		酒桌文化
+9fountain		饮水机
+9game chips		酒筹
+alass		玻璃杯
+9house		酒缸
+9money		酒资
+9or drinkable		饮用
+9party		酒会
+e with female entertainers		花酒
+9straw		水草
+9vessel		酒器
+9water		吃水
+3p drip		滴答
+5of rain		掉点儿
+4-irrigation pipe		滴管
+4ping everywhere		四溢
+9water		滴水
+aet		水淋淋
+aith gold and silver		穿金戴银
+eoil		油汪汪
+esweat		大汗淋漓
+3ve letter		盘符
+6mechanism		驱动
+6shaft		传动轴
+6wheel		驱动轮
+5-in theater		汽车戏院
+5r and conductor		司售人员
+7training		驾培
+6's license		驾照
+9seat		驾驶席
+4ing force		推动力
+8range		练习场
+8school		驾校
+9kills		车技
+8test		路考
+8under the influence		酒后驾车
+2one equipped for aerial photography		空拍机
+3p box		收存箱
+5dead		夭寿
+5in elevation		落差
+8price		掉价
+6t		不提也罢
+5of height in waterway		跌水
+8water		水滴
+5sharply		猛跌
+7ot		吊球
+5the subject		别提了
+4let infection		飞沫传染
+4out student		肄业生
+4ping bottle		滴瓶
+3ught and famine		荒旱
+8conditions		旱情
+8demon		旱魃
+3wsy or slow-moving cat		懒猫
+2ug addict		瘾君子
+bion		吸毒成瘾
+5detector dog		缉毒犬
+5enforcement		缉毒
+5lord		毒枭
+5money		毒资
+5produced by biotechnology		生技医药
+8hibition		禁毒
+5rehabilitation center		戒毒所
+7sistance		抗药性
+5tolerance		耐药性
+4s manufacturing factory		制药厂
+6test		药检
+7rade		贩毒
+3m and bass		鼓打贝斯
+5beat		鼓点
+5kit		架子鼓
+5marking night watches		更鼓
+5practice pad		哑鼓
+5roll		滚奏
+5skin		皮面
+5tower marking night watches		更楼
+3nk as drunk can be		泥醉
+6driving		醉酒驾车
+5en expression		酒色
+8fighting		酗酒滋事
+8shrimp		醉虾
+9tate		醉态
+2y and clean		干爽
+8heavy		干涩
+8rough		干涩
+4cell		干电池
+5leaning		干洗
+4distillation		干馏
+4fruits		干果
+4ice		干冰
+4land		陆地
+6w		禁酒
+5ot		饲养场
+4mouth		干渴
+4powder		干粉
+4rations		糗粮
+4season		旱季
+3-erase marker		白板笔
+4fried potato slices		干煸土豆丝
+3ing room		烤房
+3wall saw		墙板锯
+1u fu's thatched cottage		杜甫草堂
+3mu tang dynasty poet		杜牧
+2al attachment station		双连接站
+5citizenship		双重国籍
+6ore		双核
+5degree		双学位
+5nationality		多重国籍
+5polyhedron		对偶多面体
+4-track pension system		养老金双轨制
+2bious call		黑哨
+9lassic text		次经
+8or hard-to-treat cases		疑难杂症
+2chenne muscular dystrophy		杜兴氏肌肉营养不良症
+3k down		鸭绒
+5foot		鸭掌
+4's egg		鸭子儿
+3t tape		宽胶带
+2d movie		烂片
+2e diligence		尽职调查
+4to		出乎
+3l of words		舌战
+2four gland		杜氏腺
+2ke of pei		沛公
+2ll and insipid		索然寡味
+5gray		灰不喇唧
+5pain		隐痛
+4-witted and tongue-tied		心拙口笨
+2mb luck		狗屎运
+5terminal		哑终端
+4struck and unable to reply		哑口无言
+3my corporation		皮包公司
+6run		试演
+3p box		车斗
+5of mining waste		尾矿库
+5truck		翻斗卡车
+4ling restaurant		饺子馆
+9skin		面皮
+2nce cap		高帽子
+5s' class		放牛班
+3g and dirt		粪土
+5beetle		屎蚵螂
+3huang caves in gansu		敦煌石窟
+3kin' donuts		唐恩都乐
+2rable and finely crafted		坚致
+8goods		耐用品
+3ian fruit		榴莲
+4ng litigation		在诉讼期间
+7one's life		生前
+dvisit to china		在华
+7the current year		年内
+bday		日里
+bnight		夜里
+9ose years		年间
+8ime		在这期间
+4o zibethinus		榴莲
+2sky crag martin		纯色岩燕
+6eagle-owl		乌雕鸮
+6fulvetta		褐顶雀鹛
+6thrush		斑鸫
+6warbler		褐柳莺
+3t cloud		尘云
+5devil		尘暴
+5fall		落尘
+6ilter		滤尘器
+5haze		灰霾
+5jacket		护封
+5mite		尘螨
+5storm		塕埲
+4ing machine		除尘机
+2tch auction		荷兰式拍卖
+6gulden		荷兰盾
+6studies		兰学
+3y free		免税
+5to defend the country		守土有责
+4-free district		保税区
+1vd player		影碟机
+1warf bayberry		矮杨梅
+6hamster		侏儒仓鼠
+6in legends		诤人
+6planet		矮行星
+6star		矮星
+2elling on the past		恋旧情结
+9place		住所
+1ye factory		染厂
+3ing and weaving		染织
+2namic balancing		动平衡
+8equilibrium		动平衡
+8image		动图
+8memory		动态存储器
+8update		动态更新
+8webpage		动态网页
+7-link library		动态链接库
+7al system		动力系统
+4stic genealogy		帝王谱
+9history		国史
+9records of imperial china		会要
+0e pluribus unum		合众为一
+1-book reader		电子书
+2mail inbox		电子信箱
+1a's origin platform		烂橘子
+2ch and every family		家家户户
+fmoment		每分每秒
+fone		一个个
+5character is perfect		一字千金
+6ountry		各国
+5displays their own strengths		各显所长
+6oes his utmost		各尽所能
+5goes his own way		各行其是
+5has its own merits		各有千秋
+5minding his own business		自顾自
+6onth		每月
+5one distinguishable		历历可数
+6ther		互相
+5person		每人
+5takes what he needs		各取所需
+6o his own		一个萝卜一个坑
+5unto his own		各异
+5word carries weight		一言为重
+ais a teardrop		一字一泪
+dhighly valued		一字千金
+5year		每年
+2ger for		巴不能够
+6to		急于
+8 be first		好强
+9excel		要强
+9study		好学
+9win		好胜
+5ly attentive		殷勤
+2r canal		耳道
+6re day		爱耳日
+4nose and throat		耳鼻咽喉
+4of grain		谷穗
+7maize		棒子
+7wheat		麦穗
+5rnament		耳饰
+4pick		挖耳勺
+4thermometer		耳温枪
+3ed pitta		双辫八色鸫
+3l grey tea		格雷伯爵茶
+4dom or countship		伯爵
+4y autumn		初秋
+6bird discount		早鸟优惠
+bticket		早鸟票
+6childhood		小儿
+f education		学前教育
+6dawn		薄明
+7emise		早逝
+6education		早教
+7vening		初夜
+6frost		早霜
+6historical times		上古
+6in the month		月初
+frning		一早
+6morning		早上
+d sunlight		朝曦
+6part		初叶
+6season rice		早稻
+7pring		早春
+7tage		前期
+b of pregnancy		早孕
+7ummer		初夏
+6train		早车
+6vote		提前投票
+6warning		预警
+d system		预警系统
+7inter		初冬
+6years		初年
+7outh		少年
+5-morning autumn dew		玉露
+3ned run average		防御率
+5st money		保证金
+7ly and sincerely		诚心实意
+4ings rate		收益率
+9yield		收益率
+3th dam		土坝
+7eity		后土
+6god		土神
+6history		地史
+6orbit		地球轨道
+6science		地球科学
+7pirit		地祇
+5's gravity		地心引力
+8magnetic field		地球磁场
+8orbit		地球轨道
+5en bowl		钵头
+8kiln		土窑
+8levee		土坎
+9iquor jar		樽罍
+7ware pot		砂锅
+5ly world		人寰
+5quake aftershock		余震
+clert		地震速报
+crea		震区
+bbelt		地震区
+cureau		地震局

@@ -1,0 +1,500 @@
+0deck of cards		卡池
+8playing cards		纸叶子
+3laration of independence		独立宣言
+9ve sentence		陈述句
+4ine with thanks		璧谢
+8and fall		衰亡
+8in fortunes		衰运
+8to comment		不置可否
+6ing birthrate		少子化
+afortune		颓运
+aindustry		夕阳产业
+3omposed corpse		腐尸
+6ression schedule		减压时间表
+fickness		减压病
+etable		减压表
+4ntaminating agent		洗消剂
+gfield		洗消场
+4rated archway		牌楼
+acarriage		华毂
+borridor		画廊
+apleasure boat		画舫
+7ive border		花边
+bcarved pattern		雕花
+bdesign		花纹
+bitem		摆设
+bmirror		镜花
+cotif		纹饰
+5ous talking		客气话
+3reed by fate		命中注定
+5pit house		危房
+2dicated network		专用网路
+ato one's work		敬业
+3uctive reasoning		演绎法
+2ep and detailed investigation		极深研几
+9profound		沉邃
+h meaning		渊诣
+9resounding		凝重
+9shrewd		胸有城府
+aomber		杳杳
+bnorous		宽亮
+atill		渊渊
+9wide		深广
+6t night		更深
+5black		元青
+5chasm		九渊
+6leansing		深层清洁
+6ommitment		热衷
+7njugal love		伉俪情深
+5distress		落汤鸡
+7tch		沟壑
+5earthquake		深源地震
+5fried food balls		炸丸子
+btripe		爆肚
+9ndship		情同手足
+5gratitude up to death		结草
+7ief		苦难深重
+7owling thunder		沉雷
+5in debt		负债累累
+8one's heart		内心深处
+8sorrow		沉痛
+8the mountains		深山
+7sight		灼见
+5layer		深层
+6earning		深度学习
+7vel		深层次
+5natural pond		深潭
+6ight		更阑
+5or shallow		深浅
+5pit		深潭
+6lowing		深耕
+c and careful cultivation		深耕细作
+6ool		潭府
+5red		深红色
+6ooted and influential		积厚流广
+9s and vigorous foliage		根深叶茂
+5sea		深海
+7t		深陷
+6igh		长叹
+6pace		深空
+7rings		渊泉
+6tate		深层政府
+5throating		深喉
+5valley		幽谷
+5water		潭水
+a and scorching fire		水深火热
+4-fried cake		炸油饼
+bdoughcake		油饼
+bfish		炸鱼
+cood		炸物
+bnoodle cake		馓子
+5rooted practice		积习
+5seated lovesickness		刻骨相思
+4est or most distant part		深处
+4ly accumulated filth		积垢
+8ffecting		动人心魄
+8ttached		一往情深
+7distressed		创巨痛深
+fing		扎心
+7entrenched		难以撼动
+7felt		深切
+b but not mawkish		哀而不伤
+7grateful		感恩戴德
+7ingrained		习以成性
+7moved		感慨
+aing		回肠荡气
+7obliged		无任感激
+7rooted		积弊
+7touching		感人肺腑
+8roubled		甚感诧异
+7worried		焦灼
+4water port		深水港
+3r horn		鹿角
+2feated remnants		残部
+4ctive goods		残品
+ain one's pronunciation		口糊
+asentence		病句
+4nded military base		据点
+6ing counsel		辩护人
+5se against natural disasters		抗灾
+8budget		国防预算
+8department		国防部
+8industry		国防工业
+aterests		国防利益
+8minister		国防部长
+8secretary		国防部长
+7s against floods		抗涝
+6ive art		防御术
+acity		卫城
+afort over border post		关城
+agate		防门
+aline or perimeter		防线
+amidfielder		后腰
+aposition		守势
+astructure		工事
+atower		敌台
+awall		胸墙
+beapon		防卫武器
+4rential treatment		礼遇
+5red death sentence		死刑缓期执行
+3iciency disease		营养不良
+4nite and reliable information		准信
+article		定冠词
+9in his opinion		有棱有角
+9news		确信
+9opinion		定见
+9thing		实物
+9view		主心骨
+8ly not		才不
+7ive evidence		真凭实据
+3lagrating spoon		燃烧匙
+3ormed child		畸形儿
+2generate custom		颓风
+bpleasures		淫乐
+3ree certificate		学位证书
+7of a polynomial		次数
+acontrast		对比度
+bredibility		可信度
+adifficulty		难度
+k or ease		难易
+csparity		等差
+aearthquake		震级
+aforbearance		气量
+areduction		降幅
+asaltiness		咸淡
+ctisfaction		满意度
+beriousness		轻重
+btability		稳定度
+8n employment scale		位次
+6s of freedom		自由度
+2ionized water		去离子水
+2jected and depressed		灰头土脸
+2layed action		延发
+8effect		后劲
+8lesion		迟发性损伤
+8neutron		缓发中子
+5ing tactics		拖字诀
+3i food		熟食
+4berate digression		曲笔
+bprocrastination		拖延战术
+aly mystifying		故弄玄虚
+dprovocative		讨俏
+9ive assembly		协商会议
+4cacies from land and sea		水陆
+6te and beautiful		纤美
+dcharming		雅趣
+dpretty		清秀
+9colors		粉艳
+9fragrance		幽香
+9hands		纤手
+9interest and charm		雅意
+8ly pretty		娇滴滴
+5ious cakes		香饽饽
+afood		佳肴
+4ghted to		心甘情愿
+c oblige		甜心
+4mited area		区间
+4rious ravings		梦呓
+autterances		狂言
+4very address		配送地址
+9box		收存箱
+9mechanism of a medicine		剂型
+9of goods		收存
+9room		产房
+9service		传送服务
+9time		交货期
+aricycle		黄鱼车
+3ta asia financial group		汇业财经集团
+4oid muscle		三角肌
+3usional disorder		妄想症
+8s of grandeur		自大狂
+4xe model		豪华型
+2mand deposit		活存
+7exceeds supply		僧多粥少
+7loan		活期贷款
+6ing with menaces		诛求
+3ilitarized zone		非军事区
+3o recording		试听带
+4cracy movement		民运
+7tic centralism		民主集中制
+bparty		民主党
+brepublic of congo		刚果民主共和国
+dvolution		民主革命
+aally elected		民选
+4graphic dividend		人口红利
+4iselle crane		蓑羽鹤
+4lition of homes		清拆户
+4n in buddhism		罗刹
+6personifying pestilence		瘟神
+5s and ghosts		魔怪
+6trative pronoun		指示代词
+4ralizing talk		丧气话
+4tion to commoner		削职为民
+3urrage charge		滞期费
+2ndritic cell		树状细胞
+3g xiaoping theory		邓小平理论
+4ue fever		典型登革热
+7hemorrhagic fever		出血性登革热
+7vaccine		登革疫苗
+8irus		登革病毒
+3ial-of-service attack		拒绝服务攻击
+3ominal verb		名源动词
+8tor of a fraction		分母
+4ted by		记为
+3se and creamy		浓稠
+asticky substance		油子
+6fog		迷雾
+6wood		榛薮
+9l fabric		呢子
+5ly populated		人口密集
+8woven		密实
+4ity gauge		密度计
+8wave		密度波
+3tal bacterial plaque		牙菌斑
+8ridge		牙桥
+7consonant		齿音
+7disease		牙病
+7floss		牙线
+7implant		植牙
+aression tray		牙托
+7plaque		牙垢
+7transition		齿更
+4ure base		牙托
+3umerable set		可数集
+2oxyribonucleic acid		去氧核糖核酸
+eoside monophosphate		脱氧核苷酸
+2parted spirit		亡魂
+6ment head		处长
+bof agriculture		农业厅
+echemistry		化学系
+fommerce		商务部
+eeducation		教育厅
+flectronics		电子学系
+fnvironmental protection		环保厅
+efinance		财税厅
+foreign languages		外文系
+egynecology and obstetrics		妇产科
+ehealth		卫生厅
+fomeland security		国土安全局
+ejustice		律政司
+etrade		商务部
+hnsport		交通管理局
+bstore		商城
+aal selfishness		本位主义
+6ure date		行期
+agate		登机口
+alounge		出港大厅
+3endency injection		依赖注入
+8t on		依存
+avariable		因变数
+6ing on the situation		看情况
+3ilatory medicine		脱毛剂
+3leted uranium		贫铀
+6ion of the spleen		脾虚
+3osit when submitting a tender		标金
+7-reserve ratio		存款准备金率
+7ory receipt		存托凭证
+bshare		存托凭证
+7s accumulated over long periods		积淀
+3ressed and frustrated		郁卒
+4ivation of freedom		自由刑
+3th charge		深水炸弹
+6indicator or gauge		深度尺
+6of field		景深
+5s of misery		苦海
+3uty chair of board		副院长
+9ief		次长
+7director		副主任
+7general		偏将
+8overnor		副州长
+7leader		二把手
+7mayor		副市长
+7prime minister		副相
+7secretary		副书记
+7to the people's congress		人民代表
+2r spiegel		明镜
+3eliction of duty		有亏职守
+3ivative product		衍生产品
+bword		派生词
+5ed category		导出范畴
+8function		导函数
+8sense		引申义
+8value		导出值
+3mo-muscular sac		皮肤肌肉囊
+3ogatory sense		贬义
+bterm		贬称
+3rick crane		三脚架
+3ung ethnic group		独龙
+2scendant via the female line		外孙
+as of feudal aristocrats		贵胄
+fnobles		华胄
+fthe dragon		龙的传人
+7ed from an old family		故家子弟
+7ing colon		降结肠
+border		降序
+a-price auction		荷兰式拍卖
+4riptive geometry		画法几何
+3ert finch		巨嘴沙雀
+8ox		沙漠之狐
+7locust		沙蝗
+7mountain		荒山
+5ving of a good spanking		欠扁
+3ign and color		花色
+7norm		设计规范
+7plans		图纸
+8rocess		设计程序
+4rable male partner		钻石王老五
+anumber		靓号
+5e for good food		口腹之欲
+bknowledge		求知欲
+7to commit murder		杀机
+aexist		生愿
+6d trajectory		轨道
+5ous of		想要
+3k calendar		台历
+6lock		座钟
+5fan		台扇
+5lamp		桌灯
+4top computer		台式电脑
+8model		台式
+3olate and cold		荒寒
+dlonely		离索
+dpoor		荒瘠
+duninhabited		荒无人烟
+area outside a town		荒郊
+3perate getaway		血路
+asituation		残局
+btraits		绝境
+duggle		殊死
+9ly hard		拼死拼活
+cserious		不得了
+4icable and filthy		卑污
+4otic rule		暴政
+3tination address		目标地址
+6y will make enemies meet		不是冤家不聚头
+5tute and homeless		家破人亡
+abut honest		清苦
+aman		穷光蛋
+4roy the four olds		破四旧
+5uction by fire		回禄
+9ve power		杀伤力
+ctyphoon		风灾
+2tached palace		离宫
+4iled accounting		叙明
+and fine		玲珑
+dreliable		详实
+bswer		详解
+9drawing		大样
+9edition		繁本
+axplanation		分述
+9list		清册
+ding		细目
+9record or log		台账
+aules and regulations		细则
+6s inside		内详
+8known only to insiders		秘辛
+3ection kit		检毒盒
+aunit		侦毒器
+7ve work		侦破
+6or tube		侦毒管
+4ntion center		拘押营
+4riorating day by day		江河日下
+5mined not to fall short		争气
+5rent force		威慑力量
+2utsche bank		德意志银行
+9lufthansa ag		德国汉莎航空公司
+2vastating disorder		祸乱
+csetback		重挫
+3eloped area		发达地区
+anation		发达国
+7ing country		发展中国家
+beconomic state		新兴经济国家
+bnation		新兴经济国家
+bto the greatest extent		尽性
+7ment and change		流变
+cbank		开发银行
+ccycle		开发周期
+cperiod		开发周期
+cresearch center		发展研究中心
+czone		开发区
+bal biology		发育生物学
+3ice driver		驱动
+4l incarnate		混世魔王
+6king		魔王
+6mask		鬼脸
+6spawn		业障
+5's trumpet		曼陀罗
+4ous means of attack		软刀子
+3oid of conscience		丧天害理
+afear		一身是胆
+4ted to one's job		守职
+hparents		孝顺
+hwork		爱岗敬业
+5ion to duty		奉职
+cone's work		事业心
+4ur raw meat and fowl		茹毛饮血
+2w point		露点
+1harma-character school of buddhism		法相宗
+1i-n-propyl ether		二正丙醚
+2abetes sufferer		糖友
+6ic foot		糖尿病足
+3gnosis and treatment		诊疗
+7tic property		特征
+btrait		临床特征
+4onal muscle		斜肌
+4ram of cosmological scheme		太极图
+3l calipers		游标卡尺
+5tone		拨号音
+4-up connection		拨号连接
+8networking		拨号连接
+4ectal accent		方音
+7ical materialism		辩证唯物主义
+4og box		对话框
+4ysis machine		透析机
+3meter of hole		孔径
+cthe moon		月径
+k's orbit		月径
+4ond ring		钻戒
+3n hong tea		滇红
+4shan lake in shanghai		淀山湖
+4thus caryophyllus		狮头石竹
+ahinensis		石竹
+9genus		石竹属
+9repens		簇茎石竹
+3per rash		尿布疹
+3stolic blood pressure		心脏舒张压
+2bble seeding		点播
+3utyl ether		二丁醚
+2ce cup		色盅
+5tower		骰塔
+4d chicken meat		鸡丁
+6meat		肉丁
+3lofenac painkiller		双氯灭痛
+bsodium		二氯苯胺苯乙酸钠
+2dn't expect		没想到
+2e stamping		凹凸印刷
+3-hard fan		铁杆粉丝
+9otaku		死宅
+3hard conservative attitudes		因循守旧
+8followers		死党
+3lectric constant		介电常数
+3sel engine		柴油机
+7fuel		柴油
+7locomotive		内燃机车
+6-electric locomotive		柴电机车
+3t coke		健怡可乐
+5pepsi		百事轻怡
+4ary fiber		膳食纤维
+8supplement		补充剂
+4hylene glycol		二甘醇
+2fference equation		差分方程
+bin price		差价
+etemperature		温差
+bquotient		差商
+as and similarities		异同
+8t as black and white		截然不同
+aedition		异文
+afunction		异能
+ain nature		异性
+akind		异类
+e of		别样

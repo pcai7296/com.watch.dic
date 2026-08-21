@@ -1,283 +1,1691 @@
-0nadir	6qi	80
+0n-propyl ether	u2w	
+1abeyaki egg noodles	u2x	
+2dir	6qi	80
+5 of one's fortunes	u2y	
 2g	6qj	80
 2il	6qk	5e
+4 clipper	u2z	
+5gun	u30	
+5hammer	u31	
+5polish	u32	
+b remover	u33	
 3ve	6ql	98
+5 and innocent look	u34	
 5ty	6qm	80
-2ked	6qn	7c
+2kajima or nakashima	u35	
+3ed	6qn	7c
+5 body	u36	
+6carp	u37	
+6eye	u38	
+6man	u39	
+6oat	u3a	
+6sword	u3b	
+6woman	u3c	
+3hi ethnic group	u3d	
+2lat grasslands	u3e	
 2me	6qo	3
+4 and reality	u3f	
+5card	u3g	
+5day	u3h	
+5in religion	u3i	
+5of a book	u3j	
+afamous necropolis	u3k	
+hopera	u3l	
+ashop	u3m	
+atank	u3n	
+9n official post	u3o	
+8country	u3p	
+dy	u3q	
+8deceased	u3r	
+9isease in tcm	u3s	
+9onor	u3t	
+8mythical ape	u3u	
+8product	u3v	
+8river	u3w	
+8several historical figures	u3x	
+grivers	u3y	
+8traditional tune	u3z	
+6n a roster	u40	
+5service	u41	
+5tag	u42	
+5without substance	u43	
+4-brand product	u44	
+4d above	u45	
+7fter	u46	
+b oneself	u47	
 4ly	6qp	3c
+4s and appearances	u48	
+3po city in north korea	u49	
+2ngarhar province of afghanistan	u4a	
+3jiao river	u4b	
+5ng agricultural university	u4c	
+3kai university	u4d	
+4een night heron	u4e	
+3tou county in central taiwan	u4f	
+3yang county in henan	u4g	
+8siang pau	u4h	
 2p	6qq	3c
+3hthalene ball	u4i	
 3kin	6qr	18
 2rcissism	6qs	80
 9t	6qt	80
+7us flycatcher	u4j	
 4otic	6qu	e0
+3ita airport	u4k	
 3rate	6qv	10
 6ion	6qw	48
 7ve	6qx	b8
+9 history	u4l	
+aof long journey	u4m	
+apoem	u4n	
+awriting	u4o	
 6or	6qy	60
 4ow	6qz	5e
+6 alley	u4p	
+8nd bending	u4q	
+bshallow	u4r	
+cmall	u4s	
+7gap	u4t	
+7lane	u4u	
+7mountain pass	u4v	
+7path	u4w	
+7sense	u4x	
+8lit	u4y	
+8treet	u4z	
+aip of water	u50	
+7winding path	u51	
 2sal	6r0	80
+5 bone	u52	
+6cavity	u53	
+7oncha	u54	
+6feeding	u55	
+6mucous membrane	u56	
+9us	u57	
+b and spittle	u58	
+6polyp	u59	
+6septum	u5a	
+7ound	u5b	
 3cent	6r1	80
+3daq composite index	u5c	
+3olabial fold	u5d	
+4pharyngeal carcinoma	u5e	
+3r or nasser	u5f	
 3ty	6r2	3c
-2tal	6r3	a0
+5 person	u5g	
+2ta de coco	u5h	
+4l	6r3	a0
+5 chart	u5i	
 4tion	6r4	80
+3hu la	u5j	
 3ion	6r5	1e
 6al	6r6	3f
-8ities	6r7	20
+8 anthem	u5k	
+art museum of china	u5l	
+9basketball association	u5m	
+aorder	u5n	
+aroadcasting company	u5o	
+aureau of statistics	u5p	
+9calamity	u5q	
+bpital	u5r	
+aheng kung university	u5s	
+aivil service exam	u5t	
+aoat of arms	u5u	
+bmmittee of cultural heritage	u5v	
+9day	u5w	
+aebt	u5x	
+bcline	u5y	
+bfense	u5z	
+aisaster	u60	
+9economy	u61	
+amblem	u62	
+assence	u63	
+9flower	u64	
+aood specialty	u65	
+ctball team member	u66	
+9general congress	u67	
+auard	u68	
+9health insurance	u69	
+gservice	u6a	
+bro	u6b	
+aighway	u6c	
+bstory	u6d	
+aoliday	u6e	
+9industry	u6f	
+9key disciplines	u6g	
+9land	u6h	
+bw	u6i	
+aibrary	u6j	
+9museum of china	u6k	
+cic	u6l	
+9or dynastic history book	u6m	
+9park	u6n	
+cliament	u6o	
+bstime	u6p	
+aeople's congress	u6q	
+aolice agency	u6r	
+dtics	u6s	
+arestige	u6t	
+9reconnaissance office	u6u	
+bpresentative	u6v	
+bsort district	u6w	
+bvolutionary army	u6x	
+9security	u6y	
+h act	u6z	
+jgency	u70	
+ibureau	u71	
+blf-determination	u72	
+aoccer team	u73	
+cialism	u74	
+buthwest combined university	u75	
+aport	u76	
+atandard	u77	
+brength	u78	
+aubsidy	u79	
+bpervision commission	u7a	
+9taipei university of technology	u7b	
+cwan university	u7c	
+aeam	u7d	
+areasure	u7e	
+gy	u7f	
+9unified entrance exam	u7g	
+cty	u7h	
+cversity of singapore	u7i	
+8ist feelings	u7j	
+cgovernment	u7k	
+cparty	u7l	
+csentiment	u7m	
+9ties	6r7	20
 ay	6r8	7e
+6s of the persian gulf	u7n	
 6wide	6r9	42
 4ve	6ra	3e
+6 american	u7o	
+7dog	u7p	
+7language	u7q	
+7person	u7r	
+8lace	u7s	
+7resource	u7t	
+7soil	u7u	
+8tate	u7v	
+7to	u7w	
+7words	u7x	
+6s of one's own country	u7y	
 3ty	6rb	80
 3ural	6rc	7f
+7 and relaxed	u7z	
+cunforced	u80	
+erestrained	u81	
+8birth	u82	
+8cavern	u83	
+9hange	u84	
+brm	u85	
+aild	u86	
+9olor	u87	
+anditions	u88	
+apper	u89	
+8disaster	u8a	
+bposition	u8b	
+8economy	u8c	
+9ndowments	u8d	
+avironment	u8e	
+8fiber	u8f	
+9lavor	u8g	
+8gas	u8h	
+9ift	u8i	
+8history	u8j	
+8instincts	u8k	
+8language	u8l	
+aw	u8m	
+ayer	u8n	
+9eader	u8o	
+9ife span	u8p	
+9ogarithm	u8q	
+8moat	u8r	
+ather	u8s	
+8note	u8t	
+9umber	u8u	
+8parents	u8v	
+9erson	u8w	
+9henomenon	u8x	
+8qualities	u8y	
+8resource	u8z	
+gs	u90	
+9ubber	u91	
+8science	u92	
+f fund	u93	
+fs	u94	
+9election	u95	
+9ilk	u96	
+8therapy	u97	
+9oxin	u98	
+8uranium	u99	
 7ist	6rd	40
 aic	6re	40
 7ly	6rf	c
+9 evolving sequence	u9a	
+aflowing water	u9b	
+9-formed feet	u9c	
 5e	6rg	3f
+6 and scenery	u9d	
+7reserve	u9e	
+7versus nurture	u9f	
 2ught	6rh	20
 6y	6ri	5c
+7 and mischievous	u9g	
+3mann's thrush	u9h	
+3ng mung scimitar babbler	u9i	
 3sea	6rj	a0
 6te	6rk	80
 3tical	6rl	a0
+8 ephemeris	u9j	
+9mile	u9k	
 2val	6rm	7c
+5 and air military base	u9l	
+6base	u9m	
+6mine	u9n	
+6port	u9o	
+6vessel	u9p	
 3e	6rn	8
+4l orange	u9q	
 3igable	6ro	20
 6te	6rp	c0
 7ion	6rq	7c
+a lock	u9r	
+bmarker	u9s	
+broute	u9t	
 3y	6rr	1e
+4 and air force	u9u	
+army	u9v	
+5blue	u9w	
+5vessel	u9x	
 2ysay	6rs	80
 6er	6rt	80
-1ear	6ru	3
+2zi germany	u9y	
+5party	u9z	
+1eanderthal man	ua0	
+3p tide	ua1	
+3r	6ru	3
+4 ancient history	ua2	
+7d distant relatives	ua3	
+6t hand	ua4	
+5east	ua5	
+5in time	ua6	
+5the mark	ua7	
+6o	ua8	
+4-earth object	ua9	
+5field communication	uaa	
 4by	6rv	1e
+6 and therefore convenient	uab	
+7regions	uac	
+4ctic realm	uad	
+4ing completion	uae	
+8death	uaf	
 4ly	6rw	43
+6 going to	uag	
 3t	6rx	7e
+4 and tidy	uah	
+9well-spaced	uai	
+4ly laid out	uaj	
 2bula	6ry	40
+5izer treatment	uak	
 5ous	6rz	80
 2cessarily	6s0	c
 8y	6s1	3
+9 and sufficient condition	ual	
+acondition	uam	
 6itate	6s2	38
 8ous	6s3	80
 8y	6s4	5c
 3k	6s5	7f
+4 of a bottle	uan	
+4ar river in germany	uao	
 4lace	6s6	1e
 4tie	6s7	2
 3ropolis	6s8	80
 3tar	6s9	c0
+6 source	uap	
 2ed	6sa	3
+4 not	uaq	
 4le	6sb	9e
+6 and thread	uar	
+7felting	uas	
+6-leaved forest	uat	
+eplant	uau	
 6ss	6sc	c
+8 to say	uav	
 6work	6sd	c0
 4y	6se	c0
 2farious	6sf	80
 2gate	6sg	c0
 5ion	6sh	a0
 6ve	6si	7c
+8 character	uaw	
+aonnotation	uax	
+brrelation	uay	
+9electric charge	uaz	
+fode	ub0	
+anergy	ub1	
+axample	ub2	
+9feedback	ub3	
+9growth	ub4	
+9infinity	ub5	
+bteger	ub6	
+aon	ub7	
+9number	ub8	
+9pole	ub9	
+aressure	uba	
+9repercussions	ubb	
+9score	ubc	
+aentence	ubd	
+9value	ube	
 3lect	6sj	7c
+7ed or overlooked area	ubf	
 4igence	6sk	e0
 8t	6sl	50
+9 homicide	ubg	
 6ible	6sm	78
 3otiable	6sn	a0
+a instrument	ubh	
+ls act	ubi	
+bprice	ubj	
+bsecurities	ubk	
+iy	ubl	
 7te	6so	da
+9d settlement	ubm	
 8ion	6sp	48
 3ro	6sq	1c
 2ighbor	6sr	50
+8 on farmland	ubn	
 8hood	6ss	14
+c warden	ubo	
 8ing	6st	20
+b and allied	ubp	
+ccountry	ubq	
 7ur	6su	f
 9hood	6sv	e
+d committee	ubr	
 9ing	6sw	8
 3ther	6sx	3
+7 fish nor fowl	ubs	
+8haughty nor humble	ubt	
+9ere nor there	ubu	
+8obsequious nor supercilious	ubv	
+9f	bmt	
+9verbearing nor servile	ubw	
+8servile nor overbearing	ubx	
+9ide wins	uby	
+9upercilious nor obsequious	ubz	
+8war nor peace	uc0	
+2lson or nillson	uc1	
 2mesis	6sy	80
-2oclassical	6sz	40
+2o catechumenal way	uc2	
+3-confucian idealistic school	uc3	
+erationalistic school	uc4	
+3classical	6sz	40
 3lithic	6t0	80
+9 era	uc5	
 4ogism	6t1	80
 3n	6t2	40
+4 lights	uc6	
 4ate	6t3	80
 3phyte	6t4	80
-2phew	6t5	1e
+2pal fulvetta	uc7	
+6house martin	uc8	
+3hew	6t5	1e
+6 by the male line	uc9	
 4ritis	6t6	80
 3otism	6t7	80
 2rve	6t8	9c
+5 agent	uca	
+6center	ucb	
+7ord	ucc	
+6fiber	ucd	
+6gas	uce	
+6process	ucf	
 4ous	6t9	7f
+7 abnormality	ucg	
+8breakdown	uch	
+8system	uci	
 2st	6ta	1e
+4 egg	ucj	
 4le	6tb	80
 5ing	6tc	80
+8 pigeon	uck	
+4orian christianity	ucl	
 2t	6td	5e
-3hermost	6te	80
+3 addiction	ucm	
+4bag	ucn	
+6ll	uco	
+4cage	ucp	
+5ontents	ucq	
+4income	ucr	
+4present value	ucs	
+6ofit	uct	
+4receipts	ucu	
+4used to catch fish	ucv	
+4value	ucw	
+4weight	ucx	
+5orth	ucy	
+4zero	ucz	
+3her world	ud0	
+6lands antilles	ud1	
+6most	6te	80
 3s	6tf	20
-3tle	6tg	c0
+3ted enclosure	ud2	
+7veins	ud3	
+4le	6tg	c0
+6 cell of medusa	ud4	
 3work	6th	3e
-2urology	6ti	90
+7 adapter card	ud5	
+adress translation	ud6	
+aministrator	ud7	
+9pplication	ud8	
+8browser	ud9	
+8design	uda	
+8environment	udb	
+9quipment	udc	
+8infrastructure	udd	
+8layer	ude	
+d protocol	udf	
+9ink layer	udg	
+8management	udh	
+i interface	udi	
+jsystem	udj	
+er	udk	
+9igration	udl	
+8node	udm	
+c interface	udn	
+8of blood vessels	udo	
+9perating system	udp	
+8plan	udq	
+cner	udr	
+btform	uds	
+9rotocol	udt	
+8router	udu	
+8segment	udv	
+arvice	udw	
+8technology	udx	
+2ural net	udy	
+awork	udz	
+7tube	ue0	
+4ology	6ti	90
+9 department	ue1	
 5n	6tj	48
 5sis	6tk	a0
 5tic	6tl	20
 6ransmitter	6tm	40
 3tral	6tn	5c
+7 country	ue2	
+8gear	ue3	
+8tone	ue4	
 7ize	6to	e0
+9ing antibody	ue5	
 5on	6tp	c8
+7 bomb	ue6	
+8capture	ue7	
+8number	ue8	
+8radiography	ue9	
+8source	uea	
+9tar	ueb	
 2ver	6tq	3
+5 before	uec	
+6did	ued	
+6let go	uee	
+6mind	uef	
+6occurring	ueg	
+6seen before	ueh	
+bsince ancient times	uei	
+6to be forgotten	uej	
+6weakening	uek	
+5-ending struggle	uel	
+dtreadmill	uem	
 5theless	6tr	3c
 2w	6ts	3
+3 addition to a family	ueo	
+5ge	uep	
+5nd dashing	ueq	
+9ifferent	uer	
+8elegant	ues	
+8pointed	uet	
+5ppointee	ueu	
+5rmies	uev	
+4blood	uew	
+4caledonia	uex	
+5haracter	uey	
+5onstruction	uez	
+5ustom	uf0	
+4deal	uf1	
+6mocracy	uf2	
+4edition	uf3	
+5ngland	uf4	
+4faction	uf5	
+5orce	uf6	
+5riend	uf7	
+4generation	uf8	
+e of youths	uf9	
+5uinea	ufa	
+4hand	ufb	
+5igh	ufc	
+5ome	ufd	
+6using development	ufe	
+4idea	uff	
+8s	ufg	
+4knowledge	ufh	
+4latin	ufi	
+5ease of life	ufj	
+5ife	ufk	
+5ow	ufl	
+4model	ufm	
+6on	ufn	
+4or unfamiliar words	ufo	
+4party	ufp	
+5olicy	ufq	
+5roblems arise unexpectedly	ufr	
+4recruit	uen	
+6sidence	ufs	
+5ule	uft	
+6ral cooperative medical scheme	ufu	
+4south wales	ufv	
+5trait times	ufw	
+6udent	ufx	
+6yle	ufy	
+4taiwan dollar	ufz	
+5erritories	ug0	
+6stament	ug1	
+5rend	ug2	
+4version	ug3	
+4wave	ug4	
+5ord	ug5	
+7k	ug6	
+7ld leaf-nosed bats	ug7	
+4year	ug8	
+8 greeting card	uga	
+9holidays	ugb	
+9picture	ug9	
+9reception	ugc	
+8's card	ugd	
+bday	uge	
+beve	ugf	
+5ork	ugg	
+8 city	ugh	
+9post	ugi	
+9state	ugj	
+bock exchange	ugk	
+9times	ugl	
+9university	ugm	
+9yankees	ugn	
+8er	ugo	
+4zealand	ugp	
+3-born baby	ugq	
+3born animal	ugr	
+8baby	ugs	
+c's excrement	ugt	
+3castle disease	ugu	
 3ly	6tt	c
+5 arrived	ugv	
+6born	ugw	
+7uilt	ugx	
+6elected	ugy	
+7merging	ugz	
+7nlisted officer student	uh0	
+6hatched bird	uh1	
+echicken	uh2	
+efish	uh3	
+esilkworm	uh4	
+6made	uh5	
+8rried	uh6	
+d couple	uh7	
+6promoted team	uh8	
+6rich	uh9	
+6set up	uha	
+5-emerged cicada nymph	uhb	
+5weds' home	uhc	
 3s	6tu	3
+4 agency	uhd	
+6rticle	uhe	
+5bureau	uhf	
+5conference	uhg	
+5digest	uhh	
+5feed	uhi	
+6rom the grapevine	uhj	
+5items	uhk	
+5media	uhl	
+5of sb's death	uhm	
+6ne has heard	uhn	
+5service	uho	
+6tory	uhp	
+5tidbits	uhq	
 4cast	6tv	40
 4paper	6tw	23
+9 chain	uhr	
+butting	uhs	
+aindustry	uht	
+aoffice	uhu	
+br magazine masthead	uhv	
+areport	uhw	
 9s	6tx	20
+a and periodicals	uhx	
 4stand	6ty	40
+4week magazine	uhy	
+3ton meter	uhz	
+6ian mechanics	ui0	
 2xt	6tz	3
+4 chapter	ui1	
+5day	ui2	
+6oor	ui3	
+5episode	ui4	
+5life	ui5	
+5month	ui6	
+5of kin	ui7	
+7fice holder	ui8	
+6ne	ui9	
+5page	uia	
+6eriod	uib	
+5service	uic	
+5time	uid	
+6o	uie	
+7 nothing	uif	
+8serve	uig	
+8the aisle	uih	
+5week	uii	
+5year	uij	
+4-door neighbor	uik	
+is	uil	
+5to-last item on a program	uim	
 3us	6u0	80
-1ib	6u1	80
+1gawang choepel	uin	
+1iagara falls	uio	
+2b	6u1	80
 3ble	6u2	e0
 2ce	6u3	83
+4 and salty	uip	
+9warm	uiq	
+5one	uir	
+5person	uis	
+5surprise	uit	
+5to hear	uiu	
+8meet you	uiv	
 4ty	6u4	a0
 3he	6u5	c0
+5 for statue	uiw	
+6within an ecosystem	uix	
 3k	6u6	80
 4el	6u7	78
+6 sheet	uiy	
 4name	6u8	58
+8 for a panda	uiz	
+dbald people	uj0	
+dlas vegas	uj1	
+dofficial	uj2	
+dtaipei	uj3	
+ehe city suzhou	uj4	
+dvictoria beckham	uj5	
+9of korean singer psy	uj6	
 3otine	6u9	c0
+7ic acid	uj7	
+3titating membrane	uj8	
 2ece	6ua	1e
-2ggard	6ub	80
+5's husband	uj9	
+3lsen or nelson	uja	
+2ger river of west africa	ujb	
+3gard	6ub	80
 4ling	6uc	80
 3ht	6ud	23
+5 attack	ujc	
+6blindness	ujd	
+6clothes	uje	
+8ub	ujf	
+7urfew	ujg	
+6demon	ujh	
+8parture	uji	
+6journey	ujj	
+6life	ujk	
+6market	ujl	
+6of sexual bliss	ujm	
+7wl	ujn	
+6patrol	ujo	
+6scene	ujp	
+8hool	ujq	
+7hift	ujr	
+7ky	ujs	
+7oil	ujt	
+7weats	uju	
+6terror	ujv	
+7rain	ujw	
+6vision	ujx	
+c device	ujy	
+6walk	ujz	
+8tchman	uk0	
+e's clapper	uk1	
+5-blooming jessamine	uk2	
+6scented lily	uk3	
 5mare	6ue	b8
+5time entertainment venue	uk4	
+asnack	uk5	
 2hilism	6uf	80
+2kolai chernyshevsky	uk6	
+4n corporation	uk7	
 2l	6ug	a0
 2mble	6uh	c0
 2ne	6ui	3
+4 tones and six modes	uk8	
+4-tailed fox	uk9	
+cturtle of mythology	uka	
 4teen	6uj	17
 5y	6uk	3
-3th	6ul	3
+6 percent	ukb	
+3gpo figwort	ukc	
+3tendo direct	ukd	
+4h	6ul	3
+5 heaven	uke	
+6month	ukf	
 2p	6um	80
+3ah virus	ukg	
 3pers	6un	80
 4ing	6uo	80
+4on lily	ukh	
+7telegraph and telephone	uki	
 2tpick	6up	80
-3rogen	6uq	7c
+3ric acid	ukj	
+7oxide	ukk	
+5le glove	ukl	
+8rubber	ukm	
+4ogen	6uq	7c
+8 dioxide	ukn	
+9fixation	uko	
+9mustard	ukp	
+9oxide	ukq	
+5us acid	ukr	
+2ya river in southern xinjiang	uks	
 1o	6ur	3
+2 admittance	ukt	
+3chance	uku	
+4lue where to start	ukv	
+4omment	ukw	
+6plaints	ukx	
+5nnection	uky	
+3effort at all	ukz	
+3first use	ul0	
+5xed time	ul1	
+4rills	ul2	
+3gap between them	ul3	
+4ood	ul4	
+3hard feelings	ul5	
+6m	ul6	
+4elp	ul7	
+3less than	ul8	
+4onger a child	ul9	
+chigh priority	ula	
+acultivated	ulb	
+3match for	ulc	
+6ter	uld	
+9 how	ule	
+aif	ulf	
+awhat	ulg	
+e or how	ulh	
+4ore than	uli	
+3name	ulj	
+4eed	ulk	
+7 for	ull	
+3other choice	ulm	
+3prior study	uln	
+5oblem	ulo	
+6fit	ulp	
+3respect for seniors	ulq	
+4isk at all	ulr	
+3sense of priorities	uls	
+4ign of success yet	ult	
+4mall matter	ulu	
+5oke without fire	ulv	
+7ing	ulw	
+4ooner said than done	ulx	
+4urrender	uly	
+3thanks	ulz	
+4ime to spare	um0	
+4race of politeness	um1	
+9to be seen	um2	
+4wo ways about it	um3	
+3unanimous decision	um4	
+4se	um5	
+6 whatsoever	um6	
+3vacancies	um7	
+9y	um8	
+3way	um9	
+6 out	uma	
+7to get by	umb	
+4onder	umc	
+2-confidence motion	umd	
+3fly zone	ume	
 2.	6us	2
-2bility	6ut	20
+2ah's ark	umf	
+3m chomsky	umg	
+2bel peace prize	umh	
+7rize	umi	
+b in literature	umj	
+fphysics	umk	
+3ility	6ut	20
+8 of spirit	uml	
 3le	6uu	3e
+5 and benevolent character	umm	
+aclean-living	umn	
+alowly	umo	
+avirtuous	ump	
+7spirations	umq	
+6behavior	umr	
+6dendrobium	ums	
+6family	umt	
+6gas	umu	
+6house	umv	
+6lady	umw	
+6or official family	umx	
+6principle	umy	
+6warrior	umz	
 3ody	6uv	3
+6 is perfect	un0	
 2cturnal	6uw	c0
+9 bird	un1	
+aemission	un2	
 2d	6ux	5f
+3ding acquaintance	un3	
+8off to sleep	un4	
 2ise	6uy	23
+5 pollution	un5	
+6reduction	un6	
+f equipment	un7	
 4ily	6uz	2
 4ome	6v0	80
 4y	6v1	7e
+5 and in disarray	un8	
+6drinking sound	un9	
+6prattle	una	
 2mad	6v2	80
 5ic	6v3	c0
+7 camp	unb	
 3inal	6v4	b8
+7 bank account	unc	
+8classifier	und	
+8position	une	
+8value	unf	
 6te	6v5	f8
+7ive case	ung	
 5ee	6v6	60
-2n-drinker	6v7	20
+2n-action scene	unh	
+5lcoholic beer	uni	
+6igned movement	unj	
+4buddhist vegetarian	unk	
+4canonical text	unl	
+5hinese citizen of chinese ancestry	unm	
+5ompete clause	unn	
+aitive election	uno	
+6re subject	unp	
+4dairy creamer	unq	
+h powder	unr	
+5isclosure agreement	uns	
+5rinker	6v7	20
+4euclidean geometry	unt	
+4ferrous metals	unu	
+5ungible token	unv	
+4governmental organization	unw	
+4irrigated farmland on low hills	unx	
+4latin characters	uny	
+4metropolitan county	unz	
+5otorized vehicle	uo0	
+4nuclear country	uo1	
+cweapon states	uo2	
+4party member	uo3	
+gs	uo4	
+5hysical abuse	uo5	
+5layable character	uo6	
+5ropertied person	uo7	
+5ublic information	uo8	
+4real estate assets	uo9	
+4secret code	uoa	
+5taple food	uob	
+fs	uoc	
+7te actor	uod	
+6ick pan	uoe	
+6riated muscle	uof	
+5urgical cosmetic procedure	uog	
+4vegetarian dish	uoh	
+6ssel-owning common carrier	uoi	
+5ocal acting	uoj	
 3chalance	6v8	80
 9t	6v9	80
-4ommittal	6va	80
+4ommissioned officer	uok	
+8ttal	6va	80
+7ssioned officer	uol	
 5nformist	6vb	c0
 bty	6vc	40
+d gets punished	uom	
 3e	6vd	3
+4 doesn't	uon	
+5lacking	uoo	
+5missing	uop	
+5of	bls	
 4ntity	6ve	80
 4such	6vf	80
 4theless	6vg	58
 3fiction	6vh	40
 4lammable	6vi	80
+3ggang babbler	uoq	
 3human	6vj	40
+3level tone	uor	
+4inear optics	uos	
+3migratory bird	uot	
 3pareil	6vk	80
 4lus	6vl	80
 4orous	6vm	80
 4rofessional	6vn	40
+7it organization	uou	
 3radioactive	6vo	80
 3sense	6vp	5c
 7ical	6vq	80
+4top flight	uov	
 3traditional	6vr	40
 3verbal	6vs	40
 4iable	6vt	80
 5olence	6vu	40
 2odle	6vv	13
+6 broth	uow	
+7dishes	uox	
+7restaurant	uoy	
+7soup	uoz	
+8tall or counter	up0	
+6s in meat soup	up1	
+bsoup	up2	
 3k	6vw	40
 3n	6vx	3
+4 break	up3	
 3se	6vy	80
 2r	6vz	3
+3dic combined	up4	
+4mann's greenshank	up5	
+3folk island	up6	
 3m	6w0	f8
 4al	6w1	7f
+6 and proper practice	up7	
+7cost	up8	
+7distribution	up9	
+7fault	upa	
+8orce	upb	
+7line	upc	
+7operation	upd	
+7position	upe	
+8ractice	upf	
+9oduct	upg	
+7school	uph	
+8tate	upi	
+7university	upj	
+7vector	upk	
 6ization	6w2	18
 6ly	6w3	4c
+5ndy peninsula	upl	
+4s expected of women	upm	
 0North	6w4	3
-0northeast	6w5	1e
+0north africa	upn	
+7merica	upo	
+7nd south	upp	
+f america	upq	
+nn continents	upr	
+gkorea	ups	
+gpoles	upt	
+7sia	upu	
+7tlantic	upv	
+6central area	upw	
+7hina	upx	
+b army	upy	
+cnavy	upz	
+cplain	uq0	
+6europe	uq1	
+6face	uq2	
+6hebei	uq3	
+6korea	uq4	
+b-china	uq5	
+bn central news agency	uq6	
+drefugee	uq7	
+6latitude	uq8	
+6macedonia	uq9	
+6sea	uqa	
+9 fleet	uqb	
+7ide	uqc	
+7lope	uqd	
+7tar	uqe	
+6to south	uqf	
+6university of china	uqg	
+6vietnam	uqh	
+dese	uqi	
+6wind	uqj	
+5-south distance	uqk	
+5east	6w5	1e
+9 asia	uql	
+achina	uqm	
+9ern university	uqn	
 6rn	6w6	1f
+8 and southern dynasties	uqo	
+9dynasties	uqp	
+9extremity	uqq	
+9frontier	uqr	
+aulmar	uqs	
+9hawk-owl	uqt	
+9ireland	uqu	
+9lapwing	uqv	
+aights	uqw	
+9mariana islands	uqx	
+aountain	uqy	
+9part	uqz	
+aintail	ur0	
+9shoveler	ur1	
+brike	ur2	
+aide	ur3	
+9taiwan	ur4	
+ahailand	ur5	
+9xinjiang	ur6	
+5rop grumman	ur7	
 5ward	6w7	8
 9s	6w8	a
 6est	6w9	1e
+9 airlines	ur8	
+achina	ur9	
+afrontier province	ura	
+apart	urb	
+auniversity	urc	
+9ern polytechnical university	urd	
 2se	6wa	3
+4 and throat	ure	
+5flute	urf	
+5hair	urg	
+5pad	urh	
+5ring	uri	
+4-acupuncture therapy	urj	
 3talgia	6wb	e0
 4rum	6wc	80
+3y parker	urk	
 2t	6wd	3
+3 a bit	url	
+6chance	urm	
+7lue	urn	
+6soul in sight	uro	
+7traightforward matter	urp	
+5ble	urq	
+5cclimatized	urr	
+7ording with decorum	urs	
+7ustomed	urt	
+6quainted with the situation	uru	
+5fraid of being executed	urv	
+5gree or tally with	urw	
+9ing	urx	
+5like	ury	
+6lowed	urz	
+6together inexcusable	us0	
+5menable to reason	us1	
+5n exaggeration	us2	
+5s good as	us3	
+6hamed to	us4	
+6king for favors	us5	
+5t all	us6	
+a surprising	us7	
+bthe same	us8	
+5uthoritative	us9	
+4bad	usa	
+6t an eyelid	usb	
+7ting an eyelid	usc	
+5e able to hear	usd	
+7capable	use	
+7without some advantage	usf	
+6aring a name	usg	
+6neficial	ush	
+8volent	usi	
+6yond the scope of	usj	
+5ordered	usk	
+6thered with the details	usl	
+5reathing a word	usm	
+6ooking argument	usn	
+4care about one's appearance	uso	
+8d for	usp	
+7rying any load	usq	
+6sual	usr	
+5lear	uss	
+6osing properly	ust	
+5ompletely	usu	
+6nfine oneself to	usv	
+8orm to	usw	
+bing to reality	usx	
+7nected	usy	
+7solidated	usz	
+7tent to lag behind	ut0	
+cwith	ut1	
+6st-effective	ut2	
+6unt as	ut3	
+5rowded	ut4	
+4daring	ut5	
+5ifferentiable	ut6	
+6luted by one drop	ut7	
+6stinguishing junior and senior	ut8	
+4ended	ut9	
+6ough	uta	
+a time	utb	
+co go around	utc	
+5qual to	utd	
+5ssential	ute	
+5ver	utf	
+5xcessive	utg	
+6pected at the outset	uth	
+aing any reward	uti	
+8nding the slightest effort	utj	
+7osed	utk	
+7ress an opinion	utl	
+4feel like eating	utm	
+9well	utn	
+5it for the occasion	uto	
+5ollow the beaten track	utp	
+6r profit	utq	
+5rivolous	utr	
+5ully proficient	uts	
+4good	utt	
+8 at	utu	
+9enough	utv	
+9for	utw	
+5reasy or strongly flavored	utx	
+5uilty	uty	
+4happy	utz	
+6ving any special skill	uu0	
+bthe face	uu1	
+bundergone	uu2	
+5elping in the least	uu3	
+6sitate	uu4	
+4important	uu5	
+7ressed by	uu6	
+5n a position to	uu7	
+8greement with	uu8	
+7detail	uu9	
+7good condition	uua	
+7harmony	uub	
+7the least	uuc	
+g concerned	uud	
+hinferior	uue	
+bmood to	uuf	
+7use	uug	
+7vain	uuh	
+6cidental	uui	
+7onvenienced	uuj	
+6ferior in any respect	uuk	
+dto	uul	
+4just	uum	
+4know where to start	uun	
+8ing one's limits	uuo	
+8n to anyone	uup	
+4lax	uuq	
+5eaning to one side	uur	
+5iable to taxation	uus	
+6kely	uut	
+6mited to	uuu	
+6vely	uuv	
+7ing up to expectations	uuw	
+5ong	uux	
+8 ago	uuy	
+9before	uuz	
+4manifesting one's inner quality	uv0	
+6stered	uv1	
+5erely	uv2	
+5iss the farming season	uv3	
+8ing an iota	uv4	
+5uch	uv5	
+8 between them	uv6	
+9difference	uv7	
+ht	uv8	
+6tually exclusive	uv9	
+4necessarily	uva	
+6ed	uvb	
+6gligent	uvc	
+6rvous	uvd	
+5ormal	uve	
+4obliged to	uvf	
+5n time	uvg	
+6e's responsibility or job	uvh	
+6ly	uvi	
+5verstepping the prescribed limits	uvj	
+4particularly	uvk	
+g good	uvl	
+6y attention to	uvm	
+5laced	uvn	
+5resentable	uvo	
+6ofitable	uvp	
+7per	uvq	
+7viding any news	uvr	
+4quite clear	uvs	
+aright	uvt	
+4reaching	uvu	
+6cognizing tiredness	uvv	
+8nciled to	uvw	
+6gard as a matter	uvx	
+6signed to	uvy	
+7ting on one's laurels	uvz	
+5ight	uw0	
+7id	uw1	
+7orous	uw2	
+4satisfactory	uw3	
+6y a word	uw4	
+5cruple	uw5	
+5erious	uw6	
+5haken by poverty	uw7	
+7rp	uw8	
+5imply	uw9	
+5mooth	uwa	
+5o	uwb	
+6 bad	uwc	
+7far	uwd	
+7good	uwe	
+7long ago	uwf	
+5pare	uwg	
+6eaking fluently	uwh	
+7cially good	uwi	
+9fic	uwj	
+5tandard	uwk	
+6ick to	uwl	
+c one pattern	uwm	
+7nt	uwn	
+6opping at anything	uwo	
+6raightforward	uwp	
+5uitable	uwq	
+c for children	uwr	
+6re	uws	
+7prising	uwt	
+4tempted by riches	uwu	
+5hat great	uwv	
+6e least bit concerned	uww	
+8only	uwx	
+c one	uwy	
+8right flavor	uwz	
+8same	ux0	
+c thing	ux1	
+8usual type	ux2	
+6orough	ux3	
+5o allow	ux4	
+8rrive	ux5	
+7be allowed	ux6	
+aconcerned	ux7	
+brushed	ux8	
+adenied	ux9	
+bisclosed	uxa	
+aoneself	uxb	
+butdone	uxc	
+apooh-poohed	uxd	
+bresent	uxe	
+bushed around	uxf	
+arepeated	uxg	
+atrifled with	uxh	
+aworried about	uxi	
+7care	uxj	
+8omply	uxk	
+7deviate an iota	uxl	
+8iscuss	uxm	
+8o anything productive	uxn	
+aone's best	uxo	
+7enjoy popular support	uxp	
+8xert oneself	uxq	
+7fight back	uxr	
+8orgive easily	uxs	
+7get along well	uxt	
+bone's way	uxu	
+8ive in	uxv	
+e to	uxw	
+8lance sideways	uxx	
+8o along with	uxy	
+7have	uxz	
+b access	uy0	
+dny meaning	uy1	
+cthe guts	uy2	
+8esitate to	uy3	
+8old anything back	uy4	
+8urry	uy5	
+7know	uy6	
+b one's place	uy7	
+7let go	uy8	
+boff	uy9	
+e easily	uya	
+8isten	uyb	
+7matter	uyc	
+8eet	uyd	
+9ntion	uye	
+8ince words	uyf	
+ad	uyg	
+7object to	uyh	
+9serve priorities	uyi	
+8ne's liking	uyj	
+7pay attention to	uyk	
+7refuse to	uyl	
+7seek	uym	
+8how concern	uyn	
+8peak	uyo	
+c of	uyp	
+8tand on ceremony	uyq	
+8ubmit to force	uyr	
+7take seriously	uys	
+8he point	uyt	
+8ire of	uyu	
+8ouch upon	uyv	
+8ry at all	uyw	
+7understand the situation	uyx	
+7worry	uyy	
+7yield an inch	uyz	
+6o bad	uz0	
+8encouraging	uz1	
+8well	uz2	
+6tally heartless	uz3	
+5roublesome	uz4	
+4understood	uz5	
+5p on things	uz6	
+7to much	uz7	
+apar	uz8	
+astandard	uz9	
+athe task	uza	
+6right	uzb	
+4valid	uzc	
+5ery	uzd	
+4want to be outdone	uze	
+5ell	uzf	
+8 coordinated	uzg	
+8-read	uzh	
+5ide of the mark	uzi	
+6thout	uzj	
+5ork	uzk	
+8ing	uzl	
+b properly	uzm	
+7ried	uzn	
+8y about	uzo	
+7th	uzp	
+9 bothering with	uzq	
+aconsidering	uzr	
+ait	uzs	
+amentioning	uzt	
+athe trip	uzu	
+9while	uzv	
+4yet	uzw	
+7 over	uzx	
 3ability	6we	80
 5le	6wf	f8
+7 former families	uzy	
 6y	6wg	40
 4ry	6wh	20
+6 office	uzz	
 4te	6wi	40
 5ion	6wj	68
 3ch	6wk	e0
 3e	6wl	43
+4 acknowledging receipt	v00	
 4book	6wm	3f
+8 computer	v01	
+bntaining a record	v02	
 4d	6wn	48
+5 school of thought	v03	
 4s	6wo	20
+5 and commentary	v04	
+6smuggled into an exam	v05	
 4worthy	6wp	10
 3hing	6wq	23
+7 alarming is happening	v06	
+8can be done	v07	
+csurpass	v08	
+8else	v09	
+c but	v0a	
+8gold can stay	v0b	
+9reat about it	v0c	
+8he can't do	v0d	
+8is impossible	v0e	
+btaboo	v0f	
+coo bizarre	v0g	
+bup	v0h	
+8left	v0i	
+c to live for	v0j	
+8more	v0k	
+c than	v0l	
+8new to show	v0m	
+8one can't do	v0n	
+9ther than	v0o	
+9ut of the ordinary	v0p	
+8serious	v0q	
+9pecial	v0r	
+f to look at	v0s	
+8they can't do	v0t	
+9o choose between them	v0u	
+bwrite home about	v0v	
 3ice	6wr	7f
+6 to leave	v0w	
 6able	6ws	1c
 4fication	6wt	8
 5y	6wu	3c
 4on	6wv	7c
-3orious	6ww	f8
+6al diagram	v0x	
+3opterygium root	v0y	
+4rious	6ww	f8
+9 far and wide	v0z	
+bor his misdeeds	v10	
+eone's misdeeds	v11	
 9ly	6wx	40
+3re-dame cathedral	v12	
 3withstanding	6wy	58
 2ught	6wz	28
 3n	6x0	1c
+4 of locality	v13	
 3rish	6x1	f8
 7ing	6x2	40
 7ment	6x3	68
+3veau riche	v14	
 2va	6x4	80
 3el	6x5	7e
+5 and competitive	v15	
+6coronavirus	v16	
+6idea	v17	
+7n the vernacular	v18	
+6of denunciation	v19	
+9ghosts and goblins	v1a	
 5ist	6x6	2
 5ty	6x7	f8
 0November	6x8	23
 0novice	6x9	e0
+6 buddhist monk	v1b	
 2w	6xa	3
+3 and then	v1c	
+4one understands	v1d	
 3adays	6xb	5e
 3here	6xc	3e
+7 to be found	v1e	
+bgo	v1f	
+bhide	v1g	
 2xious	6xd	e0
-1uance	6xe	a0
+7 influence	v1h	
+1th power	v1i	
+1u ethnic group	v1j	
+2ance	6xe	a0
 2bile	6xf	80
 2clear	6xg	5e
+7 arms	v1k	
+asenal	v1l	
+8bomb	v1m	
+cer	v1n	
+8chain reaction	v1o	
+9olumn	v1p	
+aunter strike	v1q	
+8defense	v1r	
+bormation	v1s	
+aterrence	v1t	
+gt	v1u	
+avice	v1v	
+9isarmament	v1w	
+8electro-magnetic pulse	v1x	
+9nergy	v1y	
+agineering	v1z	
+9quipoise	v20	
+9xplosion	v21	
+h device	v22	
+bort control	v23	
+8facility	v24	
+9ission	v25	
+9uel	v26	
+c reprocessing	v27	
+asion	v28	
+8hardening	v29	
+9eat	v2a	
+8incident	v2b	
+adustry	v2c	
+astallation	v2d	
+ateraction	v2e	
+9sobar	v2f	
+8land mine	v2g	
+8magnetic resonance	v2h	
+aterial	v2i	
+9edicine	v2j	
+9ine	v2k	
+assile	v2l	
+9odel	v2m	
+8nations	v2n	
+9egotiations	v2o	
+9onproliferation	v2p	
+8parity	v2q	
+9hysics	v2r	
+9otential	v2s	
+awer	v2t	
+d generation	v2u	
+eplant	v2v	
+9roliferation	v2w	
+bpulsion	v2x	
+8radiation	v2y	
+9eaction	v2z	
+dor	v30	
+aentry vehicle	v31	
+8shielding	v32	
+9pin	v33	
+9talemate	v34	
+aructure	v35	
+9ubmarine	v36	
+8technology	v37	
+ast	v38	
+c reactor	v39	
+dsite	v3a	
+9hreshold	v3b	
+9ransformation	v3c	
+dmutation	v3d	
+8underground burst	v3e	
+dwater burst	v3f	
+8warfare	v3g	
+bhead	v3h	
+aste	v3i	
+9eapon	v3j	
+e states	v3k	
+e-free zone	v3l	
+es reduction	v3m	
+9inter	v3n	
+8yield	v3o	
+7-free zone	v3p	
+8powered aircraft carrier	v3q	
 6te	6xh	80
 5i	6xi	40
+6c acid	v3r	
+c test	v3s	
 5us	6xj	fc
+7 accumbens	v3t	
 2de	6xk	80
+4 body	v3u	
+5model	v3v	
+5photograph	v3w	
+6icture	v3x	
+5scene	v3y	
 3ge	6xl	80
 2gatory	6xm	80
 2isance	6xn	3c
 2ll	6xo	60
+4 hypothesis	v3z	
+5value	v40	
 4ify	6xp	a0
 2mb	6xq	f2
+4 with cold	v41	
 4er	6xr	3
-3erical	6xs	78
+6 field	v42	
+8or verification	v43	
+7in a sequence	v44	
+7line	v45	
+7of	v46	
+9 animals	v47	
+aclicks	v48	
+adays	v49	
+begrees	v4a	
+ahits	v4b	
+ainfected persons	v4c	
+btems	v4d	
+f or individuals	v4e	
+alaps	v4f	
+bines	v4g	
+amilitary unit	v4h	
+apeople	v4i	
+g killed	v4j	
+blaces	v4k	
+brint run	v4l	
+arevolutions per minute	v4m	
+aseats occupied	v4n	
+cntences	v4o	
+btrings	v4p	
+atimes	v4q	
+avaccinations	v4r	
+botes	v4s	
+8ne	v4t	
+a in the country	v4u	
+7plate	v4v	
+9us classifier	v4w	
+7theory	v4x	
+8wo	v4y	
+6s of	bli	
+3eral-classifier compound	v4z	
+6tor of a fraction	v50	
+5ical	6xs	78
+9 analysis	v51	
+cswer	v52	
+acode	v53	
+cntrol	v54	
+amathematics	v55	
+arange	v56	
+aseries	v57	
+bolution	v58	
+avalue	v59	
+f of electrical impedance	v5a	
 5ology	6xt	80
 6us	6xu	fc
+8 and close together	v5b	
+eomplicated	v5c	
+fnfused	v5d	
+ddisorderly	v5e	
+dwide-ranging	v5f	
+9similar cases	v5g	
+9types	v5h	
 3inous	6xv	80
 4smatic	6xw	80
 9st	6xx	80
 2n	6xy	8
+3 or sister	v5i	
+3chaku martial arts	v5j	
 2ptial	6xz	80
 2rse	6y0	63
+5's aide	v5k	
 5ry	6y1	3e
+7 rhyme	v5l	
+8school	v5m	
+5s' station	v5n	
 4ing	6y2	22
+7 assistant	v5o	
+8home	v5p	
+8infant	v5q	
+8school	v5r	
+9tudent	v5s	
 3ture	6y3	f8
+7 makes second nature	v5t	
 2t	6y4	1e
 3rient	6y5	c8
+8 fluid	v5u	
 5ment	6y6	40
 5tion	6y7	fa
 9al	6y8	40
 8us	6y9	40
 3s	6ya	20
-1ylon	6yb	3e
+1yeva or neva river	v5v	
+2lon	6yb	3e
+5 buckle	v5w	
 2mph	6yc	80

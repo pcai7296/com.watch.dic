@@ -1,0 +1,500 @@
+0relay baton		接力棒
+6post-horse mail service		驿传
+6race		接力赛
+6station		中继站
+d for post horses		驿站
+3iable book		善本
+9funds		的款
+9helper		膀臂
+9source		着落
+4ct gull		遗鸥
+4ef aid		赈恤
+7grain		救济粮
+7payment		抚恤金
+8rinting		凸版印刷
+f plate		凸版
+7sculpture		浮雕
+8hading		烘染
+5ve inflammation or internal heat		败火
+4gion other than buddhism		外教
+7us assembly		法会
+abelief		信教
+aceremony		宗教仪式
+bhant		陀罗尼
+adoctrine		释义
+afestival		祭典
+agrouping		宗教团
+ainvestigator		慕道友
+aleader		精神领袖
+aorder		修会
+aprecept		戒规
+cocession		赛会
+arite		祭礼
+bule		教权
+es		教规
+astudies		宗教学
+atext		经籍
+3uctance to leave this world		凡心
+8t to admit a mistake		嘴硬
+dleave		留恋
+dpart		依依
+dspeak about it		三缄其口
+3ying on		凭着
+a inaccessible territory		凭险
+2m sleep		快速动眼期
+3ain calm and undaunted		坦然无惧
+6der of cloth		料头
+aterm		余项
+6ing breath		残喘
+achapters		残卷
+amoney		剩钱
+aquantity		储量
+aunenlightened		暗昧
+ayears of one's life		残生
+4rkable ability		神通
+cnd original work		石破天惊
+9y alike		活脱
+6s column		备注
+5ried lady		二婚头
+3edial class		辅导班
+9stream		慢班
+4mber at all costs		切记
+3ittance fee		汇水
+bsent by post		邮汇
+6ent fever		弛张热
+6ing bank		汇出行
+3nant enemy troops		残敌
+7s after a disaster		劫余
+3ote affinity		远缘
+8nd desolate		鸟不拉屎，鸡不生蛋
+j area		山陬海澨
+bfaraway		僻远
+binsignificant		渺乎其微
+bobscure		窅然
+bvast		旷渺
+9tiquity		邃古
+8rea		边裔
+7cause		远因
+7in time or space		悠悠
+7monitoring		远程监控
+7operation		遥控操作
+8utskirts of a city		远郊
+7region		荒遐
+9latives		堂房
+7sensing		遥感
+7town		边城
+7village		乡曲
+6st places		天边
+4val of the kneecaps		膑刑
+3uneration based on one's output		计件工资
+2nal pelvis		肾盂
+3der service to repay kindness		报效
+3egade faction		叛党
+4sas electronics		瑞萨
+4wable energy source		再生能源
+afuel		再生燃料
+aresource		再生资源
+6l of insurance		续保
+3he county in zhejiang		仁和县
+3min university of china		中国人民大学
+3owned athlete		名将
+9expert		名家
+3t and debt		租债
+5deposit		押租
+5price		租价
+5seeking		寻租
+4al car		出租车
+7room without private bathroom		雅房
+4ed room for karaoke		包房
+2pair shop		修理厂
+7workshop		修造厂
+3eat customer		回头客
+7offender		累犯
+6ed code		重码
+9gaffes		屡出狂言
+9increments		层层加码
+9layers		叠层
+9twice		二重
+8ly urging		千叮万嘱
+6ing continuously		此起彼伏
+4rtory item		保留剧目
+4titious passage		重文
+8ve strain injury		三手病
+3laced with		代之以
+7ment guaranteed if not genuine		如假包换
+cpart		配件
+cworker		替工
+6ing former general		更代
+4ete with vice		恶贯满盈
+3ort a success		报捷
+7forms		报表
+7of a victory		捷报
+asuccess		捷报
+6ers without borders		无国界记者
+6s from foreign news agencies		外电
+3resentation of a person		肖像
+cve individual		代表人物
+foffice		代表处
+fwork		代表作
+4oductive isolation		生殖隔离
+dorgan		生殖器
+dsystem		生殖系统
+3ublic of andorra		安道尔共和国
+cchina		中华民国
+droatia		克罗地亚共和国
+dzechoslovakia		捷克斯洛伐克
+cireland		爱尔兰共和国
+ckorea		大韩民国
+cmacedonia		马其顿共和国
+cpalau		帕劳
+cslovenia		斯洛文尼亚共和国
+8an faction		共和派
+bparty		共和党
+bsystem of government		共和政体
+4lsive countenance		面目可憎
+aforce		推斥力
+4tation and integrity		名节
+cs calligrapher		书名
+bof a business		招牌
+2quest bus stop		招呼站
+8granted		照准
+4iem mass		安魂弥撒
+5ring much time and effort		耗时耗力
+2scue team		救援队
+7worker		救护人员
+3earch and development		研发
+dstudy		研习
+area		研究领域
+9center		研究中心
+9group		研究小组
+9institute		研究所
+9organization		研究机构
+9personnel		研究人员
+arototype		科研样机
+9report		研究报告
+9student		研究生
+9worker		研修员
+fs		调研人员
+4mbling nothing on earth		非驴非马
+4ntment and indignation		怨愤
+bover unfair treatment		冤气
+4rvation price		保留价
+6e currency		储备货币
+8fund		准备金
+8player		替补队员
+9rice		保留价
+8requirement		存款准备金
+7d copy		正本
+9to		独属
+3idence abroad		旅居
+acertificate		户口本
+aof a high-ranking official		宅邸
+fnoble		甲第
+dbarbarian emissary		蛮邸
+apermit		居住证
+7t in		居住
+9of new york		纽约客
+9physician		住院医师
+8ial and commercial		住商
+drea		住地
+cbuilding		住宅楼
+cdistrict		街道
+csurveillance		监视居住
+ctower		居民楼
+cvacation		宅度假
+5ual anger		余怒
+9effects		后遗症
+9light		余光
+9magnetism		剩磁
+9radiation		剩余辐射
+doactivity		剩余放射性
+9value		残值
+6e from drilling		钻粉
+4gned to one's fate		苟且
+4na ferulae		阿魏
+4stant to cold		耐寒
+3olute and taciturn		刚毅木讷
+dupright in character		刚烈
+9individual		硬骨头
+9person		有心人
+5ving power		解像力
+4urceful person		智多星
+3pect for the wise		礼贤下士
+8the aged		尊老
+7able woman		良家女子
+7ful closing to a letter		敬启
+btitle for a doctor		医官
+aly yours		此致敬礼
+4iratory system		呼吸系统
+ctract		呼吸道
+4lendent or rich color		华彩
+4onse time		反应时
+7ible and diligent		尽职尽责
+cfor		主管
+cperson		责任人
+3t area		憩息处
+6ssured		万安
+5for now		且休
+5shelter for couriers		邮亭
+4ed troops		休兵
+4less insomnia		卧不安
+9with anxiety		火烧火燎
+4ored to one's official post		官复原职
+6ing agricultural land to forest		退耕还林
+4rained and cautious		拘检
+8ing fear		忌惮
+cpole		钢叉
+5icted area		戒严区
+bsense		狭义
+8ion enzyme		限制酶
+cmapping		限制酶图谱
+con movement		禁足
+cpattern		限制酶图谱
+bs on entry and exiting		门禁
+9ve condition		约束条件
+3ultant force		合力
+6ing in		落得
+c sb's death		出人命
+2tail department		门市部
+7merchant		零售商
+7outlet		奥特莱斯
+7sales		门市
+8tore		分销
+5ned earnings		留存收益
+4rded child		低能儿
+9person		智障人士
+3ention of urine		癃闭
+asample		留样
+3iculated foam		网状泡沫
+cveins		网状脉
+4red and quiet		恬雅
+8emperor		太上皇
+6ment pension		退下金
+3ort with challenging questions		便难
+3ractile testicle		走肾
+4eat route		后路
+4oflex sound		翘舌音
+avowel		卷舌元音
+5spective account		追记
+3urn with thanks		璧还
+7address		回信地址
+7books		还书
+7gift		答礼
+7journey		来回
+7of spring		回春
+athe emperor		回銮
+eprodigal son		败子回头
+8n equity		股本回报率
+ainvestment		投资回报率
+7route		归路
+7trip		回程
+7visit		回访
+6ing flow		回流
+awave		回波
+2usable chopsticks		环保筷
+4ed cooking oil		回锅油
+3ters group plc		路透集团
+8news agency		路透社
+2vered figure		教主
+9riend		畏友
+8master		尊师
+8news		敬悉
+8one of the world		世尊
+6nt and respectful		毕恭毕敬
+5se direction		逆向
+8engineering		逆向工程
+8fault		逆断层
+9low		倒流
+8gear		倒车挡
+8order		倒序
+9smosis		反渗透
+8psychology		逆反心理
+8reaction		逆反应
+8side		反面
+8transcriptase		逆转录酶
+iion		反转录
+l virus		反录病毒
+9ype		反白
+7d diagonal		反斜线
+9image		倒影
+9phase		反相
+3ised and enlarged edition		增订本
+8draft		修改稿
+8edition		修订本
+8version		修订版
+5ion history		修订历史
+3olting behavior		德性
+5ving door		旋转门
+afund		周转金
+2ward and punishment		赏罚
+6s and penalties		奖惩
+2ynolds number		雷诺数
+1f tuner		射频调谐器
+1h-negative blood type		熊猫血
+2ea americana		美洲鸵
+3sus macaque		恒河猴
+8onkey		恒河猴
+3torical language		丹彩
+bquestion		反问
+3umatic fever		风湿热
+7oid arthritis		风湿性关节炎
+bfactor		类风湿因子
+2ine river		莱茵河
+4oceros auklet		角嘴海雀
+bbeetle		独角仙
+2odeus ocellatus		高体鳑鲏
+3mbus of michaelis		麦凯斯菱
+2yme and rhythm		音韵
+atone		韵调
+6entry		韵目
+6for remembering		口诀
+6group		大韵
+6scheme		韵律
+5d language		韵语
+4ing couplet		对联
+8verse		韵诗
+3thmic declamation		讴吟
+9gymnastics		艺术体操
+3zome of anemarrhena		知母
+1ib collar		罗口
+4meat		连骨肉
+4top of socks		罗口
+3-eye steak		肋眼
+3bed pattern		罗纹
+4on cable		带状电缆
+7lap machine		并卷机
+3onucleic acid		核糖核酸
+2ce and noodles		米面
+6u gratin		焗饭
+5ball		抟饭
+6owl		饭碗
+5cereal for infants		米精
+6ooker		电饭煲
+6racker		米果
+6ultivation		稻作
+5dishes		饭类
+5ear		稻穗
+5flour		米粉
+a meat		米粉肉
+5granary		米仓
+5husk		稻壳
+5krispies		卜卜米
+5milk		米浆
+8ling machine		碾米机
+5paddle		饭勺
+9y		稻田
+7per		糯米纸
+5seedling		稻苗
+d bed		秧田
+6traw		稻草
+5tub		饭桶
+5university		莱斯大学
+5weevil		米虫
+6ine		米酒
+7th bonito flakes		猫饭
+ameat and vegetables		盖浇饭
+9out meat or vegetables		空口
+4-flour noodles		米粉
+5paper plant		通脱木
+3h and bright colors		文采
+9diverse		缤纷
+9fertile		沃衍
+9important person		舍人
+dsing		财大气粗
+anfluential person		豪富
+9mellow		香醇
+9overbearing		财大气粗
+9powerful		富强
+h family		门阀
+iperson		富豪
+9variegated		渊富
+6ttire		盛装
+5country		富国
+5family		大户
+7re		盛馔
+7vor		恩膏
+5guy		富哥
+5in		富含
+5man		财主
+8's son		小开
+6erchant		富商
+5patriarchal family		鼎族
+6easant		富农
+7rson		富人
+b's ailment		富贵病
+6rovincial		土财主
+5text		富文本
+5widow		富孀
+4ard's pipit		田鹨
+4es and honor		富贵
+6t individual		首富
+4ly bedecked		穿金戴银
+7colorful		丰富多彩
+7ornamented		雕梁画栋
+7provided		富饶
+f for		富富有余
+7scented		香馥馥
+4ter scale		芮氏规模
+3kettsia prowazekii		普氏立克次体
+brickettsii		立氏立克次体
+4shaw puller		人力车夫
+9room		车房
+9seat		座儿
+2ddled with		累累
+c problems		百孔千疮
+6s written on lanterns		灯谜
+3e cymbal		叠音钹
+4rs tired and horses weary		人困马乏
+3ge corner		棱角
+6line		脊线
+5pole and beams		栋梁
+3iculous person		活宝
+cresumption talk		妄说
+btalk		怪话
+4ng and shooting		骑射
+7boots		马靴
+2emann surface		黎曼曲面
+7-roch theorem		黎曼罗赫定理
+7ian geometry		黎曼几何
+bspace		黎曼空间
+2fle grenade		枪榴弹
+3t valley		裂谷
+b fever		裂谷热
+2gged scale		假秤
+3ht and unalterable		天经地义
+awrong		是非
+7rrow key		右箭头键
+7t the end		临了
+7way		即便
+6forward		右前卫
+6hand		右手
+6in the face		劈脸
+6now		时下
+6of abode		居留权
+attribution		归属权
+9first refusal		优先承购权
+9inheritance		继承权
+9ownership		拥有权
+9way		路权
+7n schedule		如约而至
+6rudder		右舵
+6side		右侧
+7trategy		良图
+6to know		知情权
+9protection by law		受法律保护权
+9vote		投票权
+6under sb's nose		眼皮子底下
+7p to the present		直到现在
+6wing		右派
+5-angled triangle		直角三角形
+6eyed flounder		龙利
+6hand man		左右手
+bside		右手
+f of a vehicle		外手
+6pointing arrow		右箭头
+5eous anger		义怒
+aindignation		义愤
+aman		义人
+astruggle		正义斗争
+9ness and justice		道义
+5ful owner		正主

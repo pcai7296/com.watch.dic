@@ -1,110 +1,400 @@
 0jabber	5ol	80
 2ck	5om	8
+4 of all trades	qri	
+5snipe	qrj	
+5the ripper	qrk	
+4al and wolf	qrl	
 4et	5on	3f
+6 front	qrm	
+7worn for chinese wrestling	qrn	
+3quard weave	qro	
+5eline onassis kennedy	qrp	
 2de	5oo	80
+4 and jade-like stone	qrq	
+9stone	qrr	
+6rtifact	qrs	
+5emperor	qrt	
+5garden of celestial ruler	qru	
+5or pearl necklace	qrv	
+7nament	qrw	
+5pendant	qrx	
+6ot for cold water	qry	
+4-like stone	qrz	
 4d	5op	80
 2gged	5oq	a0
-2il	5or	2c
+2i alai	qs0	
+3l	5or	2c
+4 cell	qs1	
+2laid or zhalaid	qs2	
 2m	5os	3e
 3b	5ot	80
 4oree	5ou	80
-2nitor	5ov	20
+3es bond	qs3	
+6clerk maxwell	qs4	
+2ne's defense weekly	qs5	
+3itor	5ov	20
+7's office	qs6	
+3kowski's bunting	qs7	
 0January	5ow	23
-2pan	5ox	3
-5ese	5oy	23
-0jape	5oz	80
+0jap lover	qs8	
+0Japan	5ox	3
+0japan airlines	qs9	
+7nd korea	qsa	
+7tomic energy research institute	qsb	
+0Japanese	5oy	23
+0japanese allspice	qsc	
+ardisia	qsd	
+bmy	qse	
+9banana	qsf	
+aush warbler	qsg	
+9cedar	qsh	
+ahess	qsi	
+aormorant	qsj	
+cnel	qsk	
+arested ibis	qsl	
+auisine	qsm	
+9devil	qsn	
+9encephalitis	qso	
+asoteric buddhism	qsp	
+9flag	qsq	
+areshwater eel	qsr	
+9gagaku	qss	
+aentian	qst	
+airl	qsu	
+aoods	qsv	
+arosbeak	qsw	
+9hop	qsx	
+9language	qsy	
+aeaf warbler	qsz	
+aimited company	qt0	
+9manga	qt1	
+ailitary officer	qt2	
+aurrelet	qt3	
+9news media	qt4	
+aight heron	qt5	
+9occupation	qt6	
+agonori	qt7	
+9person	qt8	
+airates	qt9	
+aygmy woodpecker	qta	
+9quail	qtb	
+9robin	qtc	
+bse	qtd	
+9scops owl	qte	
+apanish mackerel	qtf	
+crrowhawk	qtg	
+atyle	qth	
+aurname osaka	qti	
+aword	qtj	
+9tea ceremony	qtk	
+ahrush	qtl	
+ait	qtm	
+aroops	qtn	
+9wagtail	qto	
+brring states period	qtp	
+bxwing	qtq	
+ahite pine	qtr	
+9yew	qts	
+3e	5oz	80
 2r	5p0	de
 3gon	5p1	90
 3ring	5p2	80
+2smine tea	qtt	
 2undice	5p3	80
 8d	5p4	80
 4t	5p5	80
 5y	5p6	80
+2va sparrow	qtu	
+4n leafbird	qtv	
+6myna	qtw	
+6pond heron	qtx	
 2w	5p7	5e
 2zz	5p8	96
 1ealous	5p9	7c
 7y	5pa	c8
 3n	5pb	8
+4-baptiste-joseph fourier	qty	
 4s	5pc	37
+2choniah or jeconiah	qtz	
 2ep	5pd	2
 3r	5pe	e0
+2ff kinney	qu0	
+5or geoff	qu1	
+2hovah's witnesses	qu2	
 2june	5pf	80
-2lly	5pg	48
+2llied fruit	qu3	
+8tofu	qu4	
+4y	5pg	48
 5fish	5ph	40
 2opardize	5pi	88
 7y	5pj	c0
-2rk	5pk	e8
+2rdon's baza	qu5	
+aush chat	qu6	
+3emy or jeremiah	qu7	
+3k	5pk	e8
+4ing motion	qu8	
+3ry or gerry	qu9	
+6seinfeld	qua	
+5-built building project	qub	
+3usalem artichoke	quc	
 2st	5pl	80
 4ing	5pm	80
 0Jesus	5pn	8
-0jet	5po	1e
+0jesus christ	qud	
+5' body	que	
+2t	5po	1e
+3 aircraft	quf	
+4engine	qug	
+4injector	quh	
+4lag	qui	
+4plane	quj	
+4ski	quk	
 3tison	5pp	c0
-2wel	5pq	5e
+2w's harp	qul	
+3el	5pq	5e
 5er	5pr	40
 5lery	5ps	8
 5ry	5pt	72
+7 center	qum	
 5s	5pu	40
 0Jewish	5pv	c
-0jibe	5pw	80
+0ji county in hebei	qun	
+2ading district of northwest shanghai	quo	
+3ling river in sichuan	qup	
+3musi university	quq	
+3ng shi	qur	
+5huai mandarin	qus	
+5nan university	qut	
+5su and zhejiang	quu	
+8cuisine	quv	
+7-gansu railway	quw	
+3otong university	qux	
+2be	5pw	80
 2gsaw	5px	80
-2ngle	5py	8
+6 puzzle	quy	
+2lin university	quz	
+2n county in hebei	qv0	
+4dynasty	qv1	
+4tower	qv2	
+3g-guang railway	qv3	
+4jiu railway	qv4	
+4le	5py	8
+5ing of bells	qv5	
 4oism	5pz	80
+4po ethnic group	qv6	
+4shan park	qv7	
+3hua ham	qv8	
+3o ethnic group	qv9	
+3shan suburban district of shanghai	qva	
+3tian uprising	qvb	
 2tter	5q0	80
 1ob	5q1	23
+3 agency	qvc	
+5pplicant	qvd	
+btion	qve	
+5s an official	qvf	
+4broker	qvg	
+4fair	qvh	
+4market	qvi	
+4opening	qvj	
+4title	qvk	
+3-hopping foreigner	qvl	
 3s	5q2	20
-2ckey	5q3	80
+2ck itch	qvm	
+4ey	5q3	80
 3ose	5q4	40
 3ular	5q5	80
+7 appellation	qvn	
 4nd	5q6	80
 2g	5q7	fa
 3ging	5q8	40
+2hn paul	qvo	
+5the baptist	qvp	
+4s hopkins university	qvq	
+5on or johnston	qvr	
+3or bahru	qvs	
 2in	5q9	43
+4ed at the hip	qvt	
 4t	5qa	1c
+5 announcement	qvu	
+6cavity	qvv	
+7onference	qvw	
+6declaration	qvx	
+6guarantee	qvy	
+6hearing	qvz	
+7ousehold	qw0	
+6interment	qw1	
+6liability	qw2	
+6military exercise	qw3	
+7ovement for self-strengthening	qw4	
+6name	qw5	
+6operation	qw6	
+6participation	qw7	
+7erformance	qw8	
+7lan	qw9	
+7roject	qwa	
+7ublic private operation	qwb	
+6screening	qwc	
+7ignatures	qwd	
+7tock	qwe	
+6venture	qwf	
+5-stock company	qwg	
+climited company	qwh	
+5ing stage	qwi	
 2ke	5qb	17
+4s of a visceral nature	qwj	
+3ing matter	qwk	
 2lly	5qc	9c
 3t	5qd	e0
 4ing	5qe	40
+2rdan river	qwl	
+3ge luis borges	qwm	
+2sh or joshi	qwn	
+3s paper	qwo	
+5stick and candle	qwp	
 2t	5qf	80
 2urnal	5qg	7c
 7ism	5qh	40
 9t	5qi	7e
 aic	5qj	40
+c circles	qwq	
 5ey	5qk	1e
+7 around the world	qwr	
 2vial	5ql	c0
+5n planet	qws	
 2y	5qm	17
+3 written across one's face	qwt	
 3ful	5qn	c
+6ly satisfied	qwu	
 3ous	5qo	40
+6 and contented look	qwv	
+bharmonious	qww	
+3s and sorrows	qwx	
+9tribulations	qwy	
 1ubilant	5qp	c0
 6tion	5qq	80
+2che idea	qwz	
 2dge	5qr	1e
+5 of	bkp	
+5's desk	qx0	
 5ment	5qs	5e
+9 defaulter	qx1	
+5s and prosecutors	qx2	
+4ing from this	qx3	
+4ment bar	qx4	
+9day	qx5	
+9seat	qx6	
 3icial	5qt	b0
+8 authorities	qx7	
+hy	qx8	
+9independence	qx9	
+9officer	qxa	
+9precedent	qxb	
+7ry court	qxc	
 6ous	5qu	c0
 9ness	5qv	80
 2g	5qw	58
+3 ears	qxd	
 3gernaut	5qx	80
 4le	5qy	10
 2ice	5qz	63
+5 box	qxe	
 4y	5r0	42
+5 peach	qxf	
+2jube paste	qxg	
+7tree	qxh	
+7witches' broom	qxi	
+2lian day	qxj	
+7or julien	qxk	
+4enned potato	qxl	
+5t or juliette	qxm	
 0July	5r1	23
 0jumble	5r2	e0
+6d mass	qxn	
 3p	5r3	3
+4 wire	qxo	
+4ing pit	qxp	
+8spider	qxq	
+8through hoops	qxr	
+7-off point	qxs	
 2nction	5r4	f8
+8 box	qxt	
 5ure	5r5	c0
 0June	5r6	23
-0jungle	5r7	7e
+0jungian psychology	qxu	
+4le	5r7	7e
 3ior	5r8	3e
+6 academician	qxv	
+7college	qxw	
+7female student or apprentice	qxx	
+7high school	qxy	
+dtudent	qxz	
+7members of a group	qy0	
+7or younger female schoolmate	qy1	
+imale schoolmate	qy2	
+7partner in sworn brotherhood	qy3	
+7school education	qy4	
+4per berry	qy5	
 3k	5r9	3a
+4 bonds	qy6	
+5food	qy7	
+5mail	qy8	
 0Jupiter	5ra	48
-0jurisdiction	5rb	c0
+0jurchen language	qy9	
+3isdiction	5rb	c0
 5prudence	5rc	80
 3y	5rd	7c
 2st	5re	3
+4 a few steps away	qya	
+7moment ago	qyb	
+7while before	qyc	
+6bout right	qyd	
+6nd forceful	qye	
+9honorable	qyf	
+6round the corner	qyg	
+6s	qyh	
+7 bad	qyi	
+8expected	qyj	
+8if	qyk	
+8one feels like	qyl	
+cwishes	qym	
+6t that time	qyn	
+ae time of	qyo	
+5before	qyp	
+b parting	qyq	
+cthe battle	qyr	
+gcontest	qys	
+gend	qyt	
+7low the crutch	qyu	
+6y chance	qyv	
+5comment	qyw	
+5enough	qyx	
+5hot air	qyy	
+5in case	qyz	
+8time	qz0	
+5like	qz1	
+5now	qz2	
+5off the boat	qz3	
+5passable	qz4	
+5recently	qz5	
+6ight	qz6	
+5the opposite	qz7	
+9thing	qz8	
+ainiest bit	qz9	
+8n	qza	
+7is once	qzb	
+5what the doctor ordered	qzc	
 4ice	5rf	5e
+7 department	qzd	
+8of the peace	qze	
+6ialist party	qzf	
 5fiable	5rg	80
 7cation	5rh	a8
 6y	5ri	fc
 4ly	5rj	40
 2venile	5rk	f0
+8 delinquent	qzg	
+js	qzh	
+9militia	qzi	
 2xtapose	5rl	80
 8ition	5rm	40

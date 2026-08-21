@@ -1,67 +1,214 @@
-0quack	886	80
+0qi and blood	ygc	
+3field	ygd	
+3of southern dynasties	yge	
+6the northern dynasties	ygf	
+2an sanqiang	ygg	
+4g ethnic group	ygh	
+6flute	ygi	
+2lian mountains in qinghai	ygj	
+2n dynasty	ygk	
+3g dynasty	ygl	
+c person	ygm	
+5government	ygn	
+4hai and tibet	ygo	
+8lake	ygp	
+7-tibet highway	ygq	
+erailway	ygr	
+dan plateau	ygs	
+4jiang river in hubei	ygt	
+4ke barley	ygu	
+4pu suburban district of shanghai	ygv	
+2ongzhou strait	ygw	
+2u county in hebei	ygx	
+1q instant messenger	ygy	
+1r code	ygz	
+1uack	886	80
+5 medicine	yh0	
 3drangle	887	80
-5ilateral	888	40
+6tic curve	yh1	
+aequation	yh2	
+afunction	yh3	
+apolynomial	yh4	
+aroot	yh5	
+5ic surface	yh6	
+7eps muscle group	yh7	
+6lateral	888	40
 5uped	889	80
 3ff	88a	80
 3gmire	88b	80
 3il	88c	c0
 4nt	88d	c0
+6 charm	yh8	
 3ke	88e	2
 3lification	88f	7a
 ds	88g	20
 7ed	88h	c0
+9 teacher	yh9	
+aword	yha	
+dker	yhb	
 6y	88i	7c
+7ing clause	yhc	
+bexam	yhd	
+bround	yhe	
 5tative	88j	38
+b change	yhf	
+cinorganic analysis	yhg	
+cleap	yhh	
+ctheory	yhi	
+6ies that delight children	yhj	
 6y	88k	7e
+7 and quantity	yhk	
+9ssurance	yhl	
+8control	yhm	
+8fake	yhn	
+8goods	yho	
+d need no advertising	yhp	
+8inspection	yhq	
+i office	yhr	
+8management	yhs	
+8of material	yht	
+ceat	yhu	
+bservice	yhv	
+bwork	yhw	
+8product	yhx	
 4m	88l	80
 5s	88m	80
 3ndary	88n	c0
-4tify	88o	18
+4tificational logic	yhy	
+7y	88o	18
 6tative	88p	78
+c analysis	yhz	
+dchange	yi0	
+deasing	yi1	
+dpsychology	yi2	
+7ies of	bmc	
 7y	88q	5e
+8 contained	yi3	
+9of data	yi4	
+celectric charge	yi5	
+cflow	yi6	
+cheat	yi7	
+clight	yi8	
+crainfall	yi9	
+csand	yia	
+dediment	yib	
+9used as a parameter	yic	
 5um	88r	80
+7 chromodynamics	yid	
+8electrodynamics qed	yie	
+9ntanglement	yif	
+8field theory	yig	
+9oam	yih	
+8mechanics	yii	
+8theory	yij	
+8well	yik	
 3rantine	88s	80
+a bureau	yil	
 4rel	88t	1e
+7some but loving couple	yim	
 5y	88u	e0
 4t	88v	1c
 5er	88w	63
+7 of a year	yin	
 7ly	88x	7c
+9 meeting	yio	
+apublication	yip	
+areport	yiq	
 6t	88y	80
 5z	88z	58
+6 clock	yir	
+7halogen lamp	yis	
+7vein	yit	
+7watch	yiu	
 3sh	890	80
+4i-stationary spiral structure qsss	yiv	
 3ver	891	80
 3y	892	80
 2easy	893	80
 3en	894	1f
+5 ant	yiw	
+6bee	yix	
+6dowager	yiy	
+6mother	yiz	
+6victoria	yj0	
+5's counsel	yj1	
+8university	yj2	
 4r	895	fc
+5 face	yj3	
 3ll	896	c0
 3nch	897	f8
-3rulous	898	80
+3rcus acutissima	yj4	
+4ulous	898	80
 4y	899	c0
 3st	89a	f8
 5ion	89b	3
+8 and answer	yj7	
+9bank	yj8	
+9mark	yj9	
+9number	yj5	
+9order	yj6	
 8able	89c	58
 8naire	89d	7a
 8s	89e	20
+9 from previous years' exams	yja	
 3ue	89f	9e
 2ibble	89g	c0
 3ck	89h	3
+5 and skillful	yjb	
+aviolent	yjc	
+7ttack	yjd	
+6buck	yje	
+6decision	yjf	
+6fix	yjg	
+6meal	yjh	
+6results	yji	
+6sketch	yjj	
+7tep	yjk	
+6witted	yjl	
+c in an emergency	yjm	
+5-acting agent	yjn	
+6tempered person	yjo	
 5en	89i	c
+5ly and easily	yjp	
+dffortlessly	yjq	
 3escent	89j	c0
 4t	89k	3
+5 and comfortable	yjr	
+cntented	yjs	
+adesolate	yjt	
+agentle	yju	
+aremote	yjv	
+asafe	yjw	
+becluded	yjx	
 3ll	89l	80
+5 pen	yjy	
 4t	89m	5e
-5er	89n	40
-3ntessence	89o	80
+5ed cotton trousers	yjz	
+6r	89n	40
+3nine powder	yk0	
+4tessence	89o	80
+c of national culture	yk1	
 3p	89p	80
 3rk	89q	90
 3sling	89r	80
 3t	89s	3e
 4e	89t	3
+5 a bit	yk2	
+8few	yk3	
+8lot	yk4	
+8while	yk5	
+6impressive	yk6	
+6possible	yk7	
+6separate	yk8	
 3ver	89u	f8
 3xotic	89v	80
 3z	89w	1e
 2ota	89x	f0
 5tion	89y	4c
+9 mark	yk9	
+aof market price	yka	
+bn market price	ykb	
+arequest	ykc	
 4e	89z	9c
+5d price	ykd	
 4idian	8a0	80

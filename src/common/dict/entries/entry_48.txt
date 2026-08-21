@@ -1,0 +1,500 @@
+0cooking skills		厨艺
+9mells		烟火气
+9tarch		粉芡
+8utensils		灶具
+8vessels		炊器
+8wine		料酒
+3l and refreshing		凉爽
+5breeze		清风
+5color		冷色
+5eye		冷眼
+5fresh air		爽气
+5water		凉水
+4ant temperature gauge		水温表
+4ing and heating		冷暖房
+8tower		冷却塔
+8water		冷却水
+7-off period		冷静期
+3perative education		建教合作
+cinteraction		协同作用
+cproduction		联产
+ctransport		集运
+3rdinate axis		座标轴
+bframe		参照系
+bgeometry		解析几何
+bmethod		坐标法
+bspace		坐标空间
+cystem		坐标系
+ad process		一条龙
+csequence of strategic moves		连环计
+cuniversal time		协调世界时
+9ive compound word		联合式合成词
+2pper clappers		铜板
+8oin		铜板
+7gold alloy		金铜合铸
+7mine		铜矿
+7ore		铜矿
+7paint		金漆
+8late		铜板
+7ware		铜器
+8ire		铜丝
+6-nickel alloy		白铜
+6smith barbet		赤胸拟啄木鸟
+3rinus comatus		鸡腿菇
+3y editor		编审
+5kept for archiving		留底
+5of dvd		翻版碟
+4ing paper		仿纸
+4right statement		权利声明
+2quettish glances		媚眼
+2ral lily		山丹
+6reef		珊瑚礁
+3e business		本业
+5course		通识课程
+6urriculum		基础课
+5diameter		纤芯直径
+5network		主干网络
+5of the earth		地核
+3iander leaf		芫荽叶
+7rum sativum		香菜
+3k flooring		软木砖
+5tile		软木砖
+4-tree bark		黄檗
+4age fee		开瓶费
+3n bunting		黍鹀
+5cake		玉米糕
+6ob		玉米棒
+6rake		长脚秧鸡
+5grits		玉米糁
+5kernel		玉米粒
+5mush		棒子面
+5starch		玉米淀粉
+6yrup		玉米糖浆
+4ell university		康奈尔大学
+5r bracket		角钉
+7case		边角案例
+7gate		角门
+7kick		角球
+7label		角标
+7of a page		书角
+aeye near temple		眼梢
+athe mouth		口角
+6ed enemy		穷寇
+4y joke		冷笑话
+3ona australis		南冕座
+7borealis		北冕座
+7discharge		电晕
+6l consonants of middle chinese		舌音
+6ry artery		冠状动脉
+9bypass operation		冠状动脉旁路移植手术
+9circulation		冠脉循环
+9heart disease		冠心病
+3poral punishment		肉刑
+j or execution		刑戮
+7te bonds		公司债
+adrone		社畜
+afinance		公司理财
+agovernance		公司治理
+asocial responsibility		企业社会责任
+6eal and incorporeal		有无
+abody		肉身
+4se pose		仰卧式
+4us callosum		胼胝体
+9vernosum		海绵体
+8hristi		基督圣体节
+7luteum		黄体
+3rect diagnosis		对症
+8exegesis		真诠
+8interpretation		真意
+8mindfulness		正念
+8or incorrect		正误
+8usage		正用
+7ing lens		矫正透镜
+8on fluid		修正液
+aal institution		劳教所
+dlabor camp		劳改营
+8ve agent		矫味剂
+binfluence		感化
+5spondence course		函授课程
+fdesk		中转柜台
+funiversity		函大
+ct post		记者站
+estation		记者站
+aing author		通讯作者
+emember		通讯院士
+eto reality		切合实际
+4upt official		贪官
+gs		蠹吏
+fting		黑哨
+8practice		卷地皮
+7ing environment		大染缸
+3tex liriodendri		凹朴皮
+4ical visual impairment		皮层性视损伤
+2smetic contact lens		放大片
+9surgery		美容手术
+4ic ray		宇宙射线
+3t of housing		房价
+8living		生活费
+8storage		栈租
+4-performance ratio		性价比
+4a cruises		歌诗达邮轮
+6rica		哥斯大黎加
+5l cartilage		软肋
+4ume drama		古装剧
+5s root		木香
+2ttage cheese		乡村奶酪
+4on and silk textiles		布帛
+7ball		棉球
+8oll		棉铃
+bworm		棉铃虫
+8ud		棉棒
+7candy		棉花糖
+8loth		棉布
+7field		棉田
+7gin		轧花机
+7mill		纱厂
+7pad		拭子
+8icker		采棉机
+8ygmy goose		棉凫
+7rose hibiscus		木芙蓉
+7swab		棉棒
+7thread		棉线
+8ree		木棉
+7wadding		棉絮
+7yarn		棉纱
+6-padded clothes		棉衣
+ehat		棉帽
+ejacket		棉袄
+emattress		垫褥
+eshoes		毛窝
+etrousers		棉裤
+2ugh mixture		止咳糖浆
+6suppressant		镇咳
+h syrup		止咳糖浆
+3ld happen at any moment		一触即发
+6it be		莫非
+5n't be		没法儿
+b better		再好不过
+cmore		满点
+9care less		满不在乎
+3ncil on foreign relations		外交关系理事会
+4sellor on military strategy		策士
+4t of votes		计票
+5able noun		可数名词
+aset		可数集
+5er of a bar		吧台
+8scale		案称
+7feit article		假货
+ccurrency		伪币
+cmoney		假币
+cobject		仿冒品
+5less changes		千变万化
+adifficulties		万难
+5ries of the indian ocean		西洋
+6y bumpkin		土包子
+8code		国家代码
+8folk		乡下人
+8holding revolving presidency		主席国
+8money-bags		土财主
+9usic		乡村音乐
+8of origin		原产国
+8path		野径
+9oor in oil		贫油国
+8with an ancient history		故国
+7's border		国门
+aterritory		国土
+7man living abroad		侨胞
+5y administration		县政府
+8nnals		县志
+7capital		郡会
+8ourt		地方法院
+7government		县府
+7head magistrate		知县
+7level		县级
+7magistrate		县令
+7regional government		县政府
+7seat		县地
+7town		县地
+6's head commissioner		县长
+6-level city		县级市
+3ple living in destitute misery		牛衣对泣
+6d phrases		对偶
+3rage and insight		胆识
+cresource		胆略
+cstrength		勇力
+7ous and daring		敢打敢冲
+fstrong		孔武有力
+bspirit		骨气
+4se credit		学分
+7in life		后尘
+7of action		作法
+bn expedition		征途
+adevelopment		沿革
+bisease		病程
+aevents		事态发展
+astudy		教程
+atime		天时
+breatment		疗程
+7syllabus		教学大纲
+4t academician		博士
+6beads		朝珠
+6councilor		朝臣
+6dress in former times		朝服
+6eunuch		太监
+6hearing		庭审
+6lady		仕女
+6music and vulgar music		雅郑
+6of final appeal		终审法院
+9law		法庭
+8ficial		臣僚
+6recorder		史官
+7uling		法院裁决
+5esy costs nothing		礼多人不怪
+9name		台甫
+9umbrella		爱心伞
+5yard house		合院
+2valent bond		共价键
+3er charge		服务费
+6letter		求职信
+6of lamp		灯罩
+6song		口水歌
+6version		翻唱
+5ed all over		满身
+9rbitrage		抛补套利
+8bridge		廊桥
+8ditch		暗渠
+8in		沾满
+a bloodstains		血渍斑斑
+bdirt		灰头土脸
+cust		尘封
+8stall		货棚
+8truck		篷车
+5ing everything		弥天
+9the sky		横空
+dwhole land		满山遍野
+5t activities		暗箱操作
+7investigator		密探
+7operation		秘密活动
+2w horn		牛角
+4pox		牛痘病
+3's milk		牛乳
+3ardly and panicking		惊怯
+3herb seeds		王不留行
+6d and weaving maid		牛郎织女
+8boy		牛郎
+2x report		考克斯报告
+3sachie a intestinal virus		柯萨奇病毒
+2zy and comfortable		申申
+1rab meat		蟹粉
+5nebula		蟹状星云
+5of family sesarmidae		相手蟹
+5paste		蟹酱
+4-eating mongoose		蟹獴
+3ck horsemen		铁骑
+5ed version		破解版
+3dle cap		乳痂
+3ft beer		精酿啤酒
+5sman engaged in carving characters		篆工
+5y and evil		奸恶
+bfawning		奸佞
+bunruly		刁蛮
+7character		粉头
+7fellow		老油子
+7plots and machinations		阴谋诡计
+7scheme		诡计
+9oundrel		奸人
+3m class		补习班
+5school		补习班
+3ne shot		俯瞰摄影
+4ial nerves		脑神经
+4k handle		摇手
+3pe myrtle		紫薇
+3sh course		速成班
+7ymbal		碎音钹
+5ing sound		哗啦啦
+3ving for material things		物欲
+crebirth		生愿
+3wling or creeping		跂跂
+3ze for learning english		英语热
+6or fad		风潮
+4y about sex		色色迷迷
+6fall		狂跌
+6person		蛇精病
+6talk		呓语
+2eaking and grating		吱吱嘎嘎
+5y voice		吱嘎声
+4m color		乳白
+6of tartar		塔塔粉
+ahe crop		尖子
+6puff		泡芙
+6sponge		奶油鸡蛋
+5ed cauliflower		奶油菜花
+4tion myth		创世纪
+6ve commons		知识共享
+bncept		意境
+9genius		鬼才
+9industries		文创产业
+bspiration		灵感
+5or and admin		群主
+3dit card		信用卡
+b debt		卡债
+coverpayment		溢缴款
+8risis		信用危机
+7default swap		信贷违约掉期
+9rivative		信贷衍生产品
+7hour		学分小时
+7level		信用等级
+8imit		信用额
+7period		账期
+7rating		信用评等
+8eporting		征信
+8isk		信用风险
+7side		贷方
+8ystem		学分制
+7transaction		赊欠
+7union		信用社
+7watch		信用观察
+8ith the people		威信
+6or country		债权国
+8's rights		债权
+4ulous person		软耳朵
+3eping oxalis		酢浆草
+3matory oven		焚尸炉
+3nelated parapet wall		女儿墙
+3ole language		克里奥尔语
+3puscular rays		耶稣光
+3scent moon		弯月
+9shape		弯月
+8-shaped barbican		月城
+4ted bunting		凤头鹀
+8finchbill		凤头雀嘴鹎
+8goshawk		凤头鹰
+8honey buzzard		凤头蜂鹰
+8ibis		朱鹮
+8kingfisher		冠鱼狗
+8lark		凤头百灵
+8myna		八哥
+8serpent eagle		蛇雕
+9helduck		冠麻鸭
+8tit-warbler		凤头雀莺
+9reeswift		凤头树燕
+3utzfeldt-jakob disease		克雅氏病
+3w cut		寸头
+5member		船员
+5neck		圆领
+2ib mobile		床铃
+5sheet		小抄
+3es of joy or approval		欢声
+3me against humanity		反人道罪行
+epublic order		公共安全罪
+7nd punishment		罪刑
+6committed by an organization		单位犯罪
+6of spying		间谍罪
+6scene		案发现场
+7yndicate		犯罪集团
+5s against humanity		反人类罪
+4inal activity		犯罪行为
+at large		流窜犯
+9case		刑案
+bught red-handed		现行犯
+aharge		控罪
+aourt		刑事审判庭
+9detention		刑事拘留
+9elements		恶势力
+9gang		匪帮
+9intent		犯意
+bvestigation		刑侦
+m bureau		刑事局
+9law		刑律
+9offense		刑事犯罪
+9police		刑事警察
+arocedure		刑事诉讼法
+csecution		公诉
+9record		前科
+aingleader		罪魁
+9suspect		嫌犯
+9to be executed		刑人
+9underworld		黑社会
+4ping pliers		压线钳
+4son sunbird		黄腰太阳鸟
+7-browed finch		红眉松雀
+3sis after crisis		风波不断
+4p and clear		清寒
+atasty		爽脆
+5ly and clearly		嘎然
+5y and tasty		脆爽
+7fried chicken		炸子鸡
+7short-crust pastry		蝴蝶酥
+8kin		脆皮
+3tical annotations between the lines		夹批
+9circumstances		险境
+9hit		暴击
+9illness		险症
+9juncture		坎儿
+9mass		临界质量
+9opportunity		先机
+9phase		关节
+aoint		临界点
+9shortage of grain		粮荒
+aituation		急难
+atate		临界状态
+9time		夹当
+8ly ill		危重
+e patient		危重病人
+6ize without grounds		雌黄
+2ochet hook		钩针
+8needle		钩针
+4odile clip		鳄鱼夹
+atears		假慈悲
+4s shoes		洞洞鞋
+3hn's disease		克隆氏病
+3ny capitalism		裙带资本主义
+3ok of the arm		臂弯
+5ed methods		邪门歪道
+3p circle		麦田怪圈
+5failure		歉收
+5land		庄稼地
+5top		脐装
+4s sown in late autumn		小春
+3ss country running		越野跑
+6entropy		交叉熵
+6flow		横流
+6or wall-eyed		斜眼
+6product		叉乘
+6road		十字
+6shape		十字形
+5-country orienteering		定向越野
+erunning		越野赛跑
+6hatched graphic pattern		交叉阴影线
+6strait service trade agreement		服贸
+5bow shooter		弓弩手
+5ed leg posture		全跏坐
+5over dribble		交叉运球
+5wise pattern		横棱纹
+3tch of trousers		裤裆
+3uching tiger		卧虎
+3w's beak		乌鸦嘴
+7feet		鱼尾纹
+4-billed drongo		鸦嘴卷尾
+4d knowledge		众智
+6of people		人丛
+5ed tightly		挤挤插插
+9o bursting point		挤满
+agether		密集
+4n bar		顶杆
+6of a tooth		牙冠
+9the head		天灵盖
+6prince		太子
+c's chambers		春宫
+5e plaza		皇冠假日酒店
+2ucial moment		夹当
+8point		刀刃
+8thing		要着
+6n carp		鲫鱼
+5ferae or brassicaceae		十字花科
+3de and ill-educated		粗鲁不文
+6oil		原油
+5ly-made goods		行货
+3el and tyrannical person		阎王
+aunfeeling		残酷无情
+cscrupulous		狼心狗肺

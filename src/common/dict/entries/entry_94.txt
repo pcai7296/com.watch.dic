@@ -1,0 +1,500 @@
+0sea rescue service		救捞局
+4salt		海盐
+6nd		海沙
+5lug		海蛞蝓
+5nail		海螺
+5ponge		海绵
+5quirt		海鞘
+5tar		海星
+4transport		海运费
+6ial		试航
+4urchin		海胆
+4view		海景
+4wave		海浪
+3floor spreading		海底扩张
+4ood delicacy		海错
+8sauce		海鲜酱
+9how		水产展
+3going ship		海船
+3l case		印盒
+6ommando unit		海豹突击队
+5impression		印鉴
+5of authority		印把子
+8state		国玺
+5script		篆书
+4ant gun		打胶枪
+4ed cabin		密闭舱
+8ompartment		密封舱
+7off		密不透风
+7pot calcination		暗煅
+7ribbon fastening correspondence		印绶
+4ing clay		封泥
+8glue		密封胶
+3mless connection		无缝连接
+3rch and rescue		搜救
+h dog		搜救犬
+7engine		搜寻引擎
+7party		搜索队
+7tree		搜索树
+7warrant		搜查令
+3s and oceans		重洋
+4onable rain		喜雨
+7l allergic rhinitis		花粉症
+9insect		候虫
+9medication		令药
+9vegetable		时菜
+is		时蔬
+9worker		短工
+3t belt		安全带
+5cover		座椅套子
+5number		座号
+5of honor		上位
+8prefectural government		府治
+8the government		六扇门
+4ed around		围坐
+7image		坐像
+4ing arrangement		座次
+2baceous glands		皮脂腺
+2cant line		割线
+3luded path		幽径
+3ond after		次于
+7baby		二宝
+8ook of chronicles		历代志下
+fkings		列王纪下
+fmoses		出埃及记
+fsamuel		撒母耳记下
+8rother		二哥
+7child		二宝
+8lass		二等
+c cabin		二等舱
+7daughter		次女
+7edition		再版
+8pistle of peter		彼得后书
+ist john		约翰二书
+7generation		二世
+h only child		独二代
+8iven name		中间名
+7half		下半
+b of the night		下半夜
+jyear		下半年
+9nd		秒针
+b goods		二水货
+7in command		副司令
+7job		第二职业
+7lieutenant		少尉
+7manchu invasion of korea		丙子战争
+9rriage		二婚
+9te		二副
+8onth		二月
+c of autumn		仲秋
+gsummer		仲夏
+7officer		二副
+8nly to		次于
+e father		亚父
+8rder		二阶
+7part		二分
+8ersecution		二遍苦
+8lace		亚军
+8regnancy		二胎
+7quarter		第二季度
+7round		二轮
+7section of large intestine		横结肠
+8on		次子
+8pring		第二春
+8tage		二级头
+7time		二次
+8o none		寡二少双
+9ne		二声
+b in mandarin		第二声
+7wife		二奶
+8orld		第二世界
+7year of university		大二
+6-class carriage		二等车
+eitizen		二等公民
+7eldest child in a family		老二
+7hand book		旧书
+ccar		二手车
+f market		旧车市场
+cgoods		二手货
+chouse		二手房
+csmoke		二手烟
+ging		被动吸烟
+7rank concubine		婕妤
+8un movie		二轮片
+6ary capital		陪都
+adisaster		次生灾害
+aeducation		中等教育
+agrowth of forest		次生林
+aindustry		第二产业
+cfection		续发感染
+anormal school		中师
+aofficial		次官
+6hand clothes		估衣
+3ret account		密帐
+8gent		密探
+8ppointment		密约
+7ballot		不记名投票
+7concern		隐忧
+7document		机密文件
+fs		密件
+7envoy		密使
+7illicit sex		偷香窃玉
+8mperial edict		密诏
+8nner room		洞房
+9struction		密令
+7know-how		秘诀
+7language		隐语
+8etter		密函
+8ove affair		地下情
+7mark		暗记
+8eeting		密会
+8ind		心里话
+7order		密令
+7place		暗处
+an		密谋
+8olice		秘密警察
+8urse		私房钱
+7recipe		秘方
+9port		密报
+8oom		密室
+7service		特工
+e agent		特工
+8ociety		帮会
+8tash of money		私房钱
+9ore		私藏
+7telegram		密电
+8rouble		苦衷
+7virtue		阴德
+7worry		心病
+6ary of state		国务卿
+6ory granule		分泌颗粒
+3t leader		掌门
+4arian bias		门户之见
+4ion chief		科长
+8head		部长
+8of a retail store		门市部
+bland		地皮
+8view		剖视图
+4or of society		界别
+3ure and lucrative job		金饭碗
+7employment		铁饭碗
+7sockets layer		加密套接字协议层
+5ities commission		证券委
+epany		证券公司
+bdealer		券商
+bhouse		证券行
+8zation ratio		证券化率
+7y bureau		安全局
+9camera		监视器
+aheck		安检
+aouncil		安全理事会
+9door		防盗门
+9forces		保安部队
+9guard		保全
+9issue		安全问题
+9measures		关防
+9personnel		保安人员
+2dan chair		轿子
+4tive drug		镇定药
+3ge herb		三棱草
+6warbler		水蒲苇莺
+3iment content		输沙量
+8ary belt		沉积带
+crock		沉积岩
+3uctive appearance		媚态
+2e-through clothing		透视装
+3d collecting		采种
+5dressing		拌种
+5enclosed in artificial capsule		包衣种子
+5held back for planting		留种
+5kernel		种仁
+5of ajwain		阿育魏实
+8sterculia lychnophora		胖大海
+5plant		种子植物
+6od		荚果
+5selection		选育
+5tuber		种块
+4ed player		种子选手
+4ling stage		苗期
+4s of litchi or lychee		荔枝核
+9pepper		胡椒子
+3ing eye dog		导盲犬
+7is believing		百闻不如一见
+7riches provokes evil designs		见财起意
+7that		照得
+3king instruction		求教
+3mingly familiar		似曾相识
+4s as if		似的
+b floating		飐飐
+6not		几乎不
+3n periodically		散见
+2gmentation fault		段错误
+3way pt		赛格威
+2ine net		围网
+3smic defenses		抗震
+8wave		地震波
+8zone		地震区
+2lected works		文选
+e of mao zedong		毛泽东选集
+ariting		集子
+6ion test		甄试
+7ve listening		偏听偏信
+3f-addressed stamped envelope		回邮信封
+6ppointed moral arbiter		正义魔人
+5balancing scooter		平衡车
+5centered show-off		大爷
+5defense force		自卫队
+7precatory expression		谦辞
+6rive hire		自驾租赁
+5evident truth		公理
+5inking stamp		回墨印
+5regulation organization		自律性组织
+7spect of old person		老脸
+6ising flour		自发粉
+5service meal		自助餐
+dticketing		无人售票
+4ie stick		自拍杆
+5sh departmentalism		本位主义
+asire		私欲
+8motives		私心
+8preference		私偏
+4less and public spirited		舍己为公
+3l-by date		有效期
+4er's first offer		开价
+9market		卖方市场
+4ing point		卖点
+9rice		售价
+4s well		走俏
+2mantic analysis		语义分析
+9categorization		语义分类
+9space		语义空间
+3en euryales		芡实
+6trachyspermi coptici		阿育魏实
+3i-able-bodied or part time worker		半劳动力
+5liquid food		半流食
+5manufactured goods		半成品
+5owner peasant		半自耕农
+5precious stone		半宝石
+5solid fat-based substance		油膏
+5tenant peasant		半自耕农
+4circular canal		半规管
+5onducting ceramic		半导瓷
+7servative replication		半保留复制
+5ursive script		行草
+4feudal and semicolonial		半封建半殖民地
+5inal or quarterfinal		复赛
+7ished articles		半成品
+dmaterials		坯料
+dproduct		坯子
+ks		半成品
+4liquid stool		溏便
+5unar valve		半月瓣
+4nal receptacle		受精囊
+8vesicle		储精囊
+4polished rice		胚芽米
+4tic language		闪语
+2nile dementia		老年性痴呆症
+4or academic or professional title		高职
+7captain		大尉
+8enter		托老所
+8olonel		大校
+9ncubine		贵妃
+7engineer		高工
+8xecutive		高层执行员
+7fellow student		砚兄
+7high school		高中
+i enrollment		中招
+jstudent		高中生
+7member of a profession		祭酒
+8inister		资政
+8onk		圣僧
+b's seat or title		上座
+7nurse		护师
+7officer		长官
+cial		大夫
+8r older female schoolmate		学姐
+gmale schoolmate		学长
+7palace maiden		怨女
+9rtner in sworn brotherhood		盟兄
+8ost		高级职务
+7statesmen's assembly		元老院
+9udent		高年级生
+7technical specialist		技正
+6ity and prestige		资望
+ain the family		班辈
+3na leaf		番泻叶
+3sational effect		轰动效应
+cnews		花边新闻
+4e of accomplishment		成功感
+bhievement		成就感
+9beauty		美感
+blonging		归属感
+9direction		方向感
+9gain		获得感
+9hearing		耳根
+blplessness		无力感
+aonor		廉耻
+aumor		幽默感
+9inferiority		自卑心理
+9movement		动感
+9pain		痛觉
+ariority		轻重缓急
+9reality		真实感
+bsponsibility		责任心
+9satisfaction		满足感
+aecurity		安全感
+amell		嗅觉
+9taste		味觉
+7rgan		感官
+bs		感觉器官
+4ible act		明智之举
+and reasonable		入情入理
+9enthalpy		显焓
+5tive plant		含羞草
+ato people's needs		亲民
+8ity to other's feelings		情面
+ftiming		时效性
+4ory receptor		感受器
+3t document		来文
+4ence pattern		句型
+9structure		句式
+8s and phrases		句读
+4ient beings		有情
+5ment analysis		情感分析
+cd face		情面
+9ally attached to		眷爱
+4ry post		哨所
+2oul national university snu		国立首尔大学
+2pak takraw		藤球
+4rable word		离合词
+6te edition		单行
+9government		分治
+8d by		相隔
+c a generation		隔世
+given distance		相距
+afor a long time		阔别
+brom		失散
+ain life and death		生离死别
+dtime		时隔
+alovers		牛郎织女
+aworlds apart		天涯海角
+8ly and exclusively		单另
+7ion and reunion		离合
+bof powers		三权分立
+8st group		分裂组织
+3tic tank		化粪池
+2quence number		序号
+9of numbers		数列
+cprocesses		流程
+csongs		串烧
+6tial order		先后顺序
+2rac band		冰塔林
+3b ethnic group		塞族
+4ia and montenegro		塞尔维亚和黑山
+6n language		塞语
+3ene and beautiful		恬美
+belegant		幽雅
+3f liberation day		西藏百万农奴解放纪念日
+3geant first class		四级士官
+9major		六级士官
+3ial crime		连续犯
+7killer		连环杀手
+7number		字号
+7port		串口
+7verb construction		连动
+6ized drama		连续剧
+4es of calamities		灾害链
+4ous about the matter		郑重其事
+8concern		严重关切
+9rime		重案
+cinal		重犯
+bticism		重责
+8fire		火灾
+8illness		大病
+9njury		重伤
+aquiries only		非诚勿扰
+8mistake		大过
+8problem		严重问题
+7ly ill		病病殃殃
+bnjured		身负重伤
+3ous membrane		浆膜
+3pens cauda		巨蛇尾
+3rated edge		牙子
+6us anterior muscle		前锯肌
+3vant girl		丫环
+7s of an official		差使
+4er push		推送
+4ice cap		大盖帽
+9harge		手续费
+9ontract		劳务合同
+8desk		服务台
+8fault		失误
+8industry		服务业
+8module		推进舱
+8pipe		自来水管
+9rovider		服务提供商
+8regulation		服务规章
+8ticket		工单
+9o the public		公益事业
+7man wounded in action		荣誉军人
+5ng chopsticks		公筷
+8spoon		公勺
+2same biscuit		芝麻饼
+8un		芝麻包
+7oil		天花
+7paste		芝麻酱
+7seed		胡麻籽
+3sile medusa		座生水母
+8polyp		水螅体
+2t at		定于
+4dressing		装饰道具
+4meal		份儿饭
+4of hanging scrolls		屏条
+7bells		编钟
+7cards		牌组
+8oordinated items		套装
+7rational numbers		有理数集
+8eal numbers		实数集
+4pattern of behavior		一套
+5hrase		固定词组
+5iece		定位球
+5rescription		成方
+6op		大道具
+4square		丁字尺
+4theory		集合论
+4wide apart		疏离
+3-top box		机顶盒
+3ose asparagus		文竹
+3ting off each other		掩映
+8sun		斜阳
+7-up exercises during the break		课间操
+4ling time		安定时间
+3up man		布局投手
+6pitcher		布局投手
+6time		建立时间
+2ven emotional states		七情
+6floor pagoda		七级浮屠
+6relations		七情
+6samurai		七武士
+5-spotted ladybug		七星瓢虫
+6year itch		七年之痒
+5th month		七月
+6y years old		古稀
+4ral billion		数十亿
+8days		几天
+9egrees		几度
+8hours		数小时
+9undred		数百
+8kinds		几样
+8million		数百万
+9onths		数月
+8possible meanings		歧义
+8tens of thousands		数万
+9housand		几千
+9imes		几倍
+d in succession		蝉联
+8weeks		数周
+8years		好几年
+6nce pay		资遣费
+5e acute respiratory syndrome		严重急性呼吸系统综合症
+7disaster		重灾

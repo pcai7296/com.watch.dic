@@ -1,345 +1,1926 @@
-0waddle	b7u	80
+0wa ethnic group	1ita	
+2cky behavior	1itb	
+2ddle	b7u	80
 3e	b7v	c8
-2ffle	b7w	80
+4-giles system	1itc	
+3ing boots	1itd	
+7pool	1ite	
+2fer cookie	1itf	
+3fle	b7w	80
 3t	b7x	80
 2g	b7y	ca
 3e	b7z	de
+4 adjustment	1itg	
+5ceiling	1ith	
 4r	b80	20
+4s arrears	1iti	
 3gish	b81	80
 4on	b82	2c
 3on	b83	54
 2il	b84	e0
 3st	b85	5e
+5 and back	1itj	
+6drum	1itk	
+6measurement	1itl	
+6of trousers	1itm	
+6pack	1itn	
+7urse	1ito	
+5-drum dance	1itp	
+6to-hip ratio	1itq	
+5band of a skirt	1itr	
 3t	b86	3
+4 a minute	1its	
+8oment	1itt	
 4er	b87	3e
+4ing anxiously	1itu	
+8for	1itv	
+b a vacancy	1itw	
+8list	1itx	
+8room	1ity	
+8time	1itz	
 4ress	b88	3a
 3ve	b89	c0
 2ke	b8a	3
+4 island	1iu0	
+4-up call	1iu1	
 4n	b8b	1c
-2lk	b8c	3
+3ing from hibernation	1iu2	
+2ley or whaley	1iu3	
+3k	b8c	3
+4-off home run	1iu4	
+5up apartment	1iu5	
 4ing	b8d	20
+7 corpse	1iu6	
+8dictionary	1iu7	
+8leisurely	1iu8	
+8path	1iu9	
+9low	1iua	
+8race	1iub	
+8speed	1iuc	
+9tick	1iud	
 4man	b8e	2
 4out	b8f	40
 3l	b8g	23
-4et	b8h	1e
+4 brick	1iue	
+5calendar	1iuf	
+6hart	1iug	
+6lock	1iuh	
+5effect	1iui	
+5hanging	1iuj	
+5lamp	1iuk	
+5newspaper	1iul	
+5of intestine	1ium	
+8the uterus	1iun	
+5plug	1iuo	
+5scroll	1iup	
+6treet journal	1iuq	
+4ed-in path	1iur	
+5t	b8h	1e
+4is and futuna	1ius	
 4op	b8i	80
 5w	b8j	80
+6ing in lust	1iut	
 4s	b8k	20
+5 have ears	1iuu	
 3nut	b8l	4a
+6 kernel	1iuv	
 3rus	b8m	80
 2n	b8n	c0
+3 and sallow	1iuw	
 3d	b8o	40
 4er	b8p	7e
+6ing tattler	1iux	
 6lust	b8q	80
 3e	b8r	e0
-3gle	b8s	80
+3g ying	1iuy	
+4jing neighborhood of beijing	1iuz	
+4le	b8s	80
+3ing moon	1iv0	
 3t	b8t	83
+4 to stop but can't	1iv1	
+4ed circular	1iv2	
+8riminal	1iv3	
+7poster	1iv4	
 4on	b8u	80
+6 destruction of forested lands	1iv5	
+7or lascivious behavior	1iv6	
+awillful	1iv7	
 2r	b8v	1f
+3 chariot	1iv8	
+5rime	1iv9	
+8inal	1iva	
+7sis	1ivb	
+4exploits	1ivc	
+4game	1ivd	
+4of aggression	1ive	
+8ttrition	1ivf	
+7independence	1ivg	
+7resistance against japan	1ivh	
+7words	1ivi	
+5n terrorism	1ivj	
+4party	1ivk	
+5ennant	1ivl	
+4secret	1ivm	
+5ituation	1ivn	
+4zone	1ivo	
 3ble	b8w	80
+5ing white-eye	1ivp	
 3d	b8x	7a
+4's trogon	1ivq	
 4en	b8y	a0
 4robe	b8z	b8
+4s off disease	1ivr	
 3e	b90	48
 4house	b91	fa
+9 assistant	1ivs	
+aor storage receipt	1ivt	
+arent	1ivu	
 3fare	b92	58
+3lords vying for supremacy	1ivv	
 3m	b93	23
+4 air	1ivw	
+6nd fine	1ivx	
+9generous	1ivy	
+9kind	1ivz	
+5blooded	1iw0	
+6reeze	1iw1	
+5color	1iw2	
+6urrent	1iw3	
+5feeling	1iw4	
+6ront	1iw5	
+5partition of a room	1iw6	
+5relations	1iw7	
+6oom	1iw8	
+5south wind	1iw9	
+5tone	1iwa	
 4ing	b94	20
 4onger	b95	80
 4th	b96	1e
 3n	b97	5d
+4 of	bnd	
+4er brothers	1iwb	
+7music group	1iwc	
 4ing	b98	a
+7 device	1iwd	
+8sign	1iwe	
+cal	1iwf	
 3p	b99	c0
+4 and woof	1iwg	
+5brocade	1iwh	
 3rant	b9a	d8
+7 officer	1iwi	
 7able	b9b	40
 7ed	b9c	80
 7y	b9d	e0
+8 period	1iwj	
 4ior	b9e	40
+7 in white	1iwk	
 3y	b9f	e0
-2sh	b9g	3
+2seda university	1iwl	
+3h	b9g	3
+4 basin	1iwm	
+4ed out	1iwn	
 4ing	b9h	20
+7 appliance	1iwo	
+8machine	1iwp	
+8or color fastness	1iwq	
+8powder	1iwr	
+8tank	1iws	
+7ton post	1iwt	
+btimes	1iwu	
 4room	b9i	2
 3p	b9j	8
+4 of the family sphecidae	1iwv	
+5poison	1iww	
 4ish	b9k	80
 3te	b9l	bf
+5 disposal bag	1iwx	
+6heat	1iwy	
+6liquid	1iwz	
+cs	1ix0	
+6paper	1ix1	
+7ipe	1ix2	
+7roduct	1ix3	
+ds	1ix4	
+6remaining after processing ore	1ix5	
+6soil	1ix6	
+7tabilization pond	1ix7	
+6water	1ix8	
+5d effort	1ix9	
+7money	1ixa	
 5ful	b9m	8
+5paper basket	1ixb	
+5water that contains feces	1ixc	
 4rel	b9n	80
 2tch	b9o	43
+5 battery	1ixd	
+6face	1ixe	
+6glass	1ixf	
+6tower	1ixg	
+6you don't	1ixh	
 5dog	b9p	20
 5ful	b9q	8
+5man's clapper	1ixi	
 3er	b9r	23
+5 and fire	1ixj	
+agrass	1ixk	
+aland	1ixl	
+e transport	1ixm	
+asoil	1ixn	
+7uthority	1ixo	
+6bill	1ixp	
+7ong	1ixq	
+7uffalo	1ixr	
+6cannon	1ixs	
+7hannel	1ixt	
+7lock	1ixu	
+7onservancy	1ixv	
+8oler	1ixw	
+6damage	1ixx	
+7ispenser	1ixy	
+7rop	1ixz	
+6flea	1iy0	
+7rom a mountain	1iy1	
+6gate	1iy2	
+7lass	1iy3	
+7ruel	1iy4	
+7un	1iy5	
+6hazard	1iy6	
+7eater	1iy7	
+7ole	1iy8	
+7yacinth	1iy9	
+6ice	1iya	
+7nlet	1iyb	
+8take	1iyc	
+6jar	1iyd	
+6leak	1iye	
+8vel	1iyf	
+7ily	1iyg	
+6mains	1iyh	
+8nager	1iyi	
+7eter	1iyj	
+7ill	1iyk	
+6of crystallization	1iyl	
+7utlet	1iym	
+6park	1iyn	
+7ick	1iyo	
+8pe	1iyp	
+9it	1iyq	
+8stol	1iyr	
+7lantain rhizome	1iys	
+7ollution	1iyt	
+9o	1iyu	
+a pool	1iyv	
+8t or goblet	1iyw	
+7ressure	1iyx	
+8imrose	1iyy	
+7ump	1iyz	
+aing station	1iz0	
+8rifier	1iz1	
+6quality	1iz2	
+6rail	1iz3	
+7eservoir	1iz4	
+9istant	1iz5	
+7oute	1iz6	
+6salute	1iz7	
+7creen	1iz8	
+7eepage	1iz9	
+7hortage	1iza	
+7kiing	1izb	
+7lide	1izc	
+7nake	1izd	
+7oluble	1ize	
+8urce	1izf	
+7ports	1izg	
+9t	1izh	
+9ut	1izi	
+7tain	1izj	
+8orage	1izk	
+7upply	1izl	
+c and drainage	1izm	
+8rface	1izn	
+6tank	1izo	
+7emperature	1izp	
+7ower	1izq	
+7reatment	1izr	
+f plant	1izs	
+6under the bridge	1izt	
+6vapor	1izu	
+6wheel	1izv	
 5-clock	b9s	20
+6driven armillary sphere	1izw	
+dventilation	1izx	
+6filled barrier	1izy	
+6induction engineering	1izz	
 6proof	b9t	20
 6skiing	b9u	20
+7torage tank	1j00	
+5borne transport	1j01	
 5course	b9v	40
+5ed down	1j02	
 5fall	b9w	3c
+5gate scandal	1j03	
+5ing can	1j04	
+5loo station	1j05	
 5melon	b9x	3
 5proof	b9y	5c
+a footwear	1j06	
 5shed	b9z	80
+6ide promenade	1j07	
 5tight	ba0	8
 5y	ba1	8
 3t	ba2	18
+4le-necked soft-shelled turtle	1j08	
 2ve	ba3	3e
+4 after wave	1j09	
+5band	1j0a	
+5crest	1j0b	
+5equation	1j0c	
+6rosion	1j0d	
+5front	1j0e	
+6unction	1j0f	
+5mechanics	1j0g	
+6otion	1j0h	
+5number	1j0i	
+5velocity	1j0j	
 4length	ba4	c
+a division multiplexing	1j0k	
 4r	ba5	e8
+4s of	blz	
+6surging forth	1j0l	
 3y	ba6	40
 2x	ba7	fe
+3 apple	1j0m	
+4gourd	1j0n	
+4paper	1j0o	
+5lay	1j0p	
+4therapy	1j0q	
+3ing and waning	1j0r	
+7crescent	1j0s	
+7gibbous moon	1j0t	
 3y	ba8	40
 2y	ba9	43
+3 bill	1j0u	
+4of doing an activity	1j0v	
+7eating	1j0w	
+8xperiencing a place	1j0x	
+aressing something	1j0y	
+7life	1j0z	
+8ooking at things	1j10	
+7making a living	1j11	
+7proceeding	1j12	
+7speaking	1j13	
+7the celestial master	1j14	
+9inking	1j15	
+7writing a character	1j16	
+5ut	1j17	
+4to survive	1j18	
 3lay	baa	80
-3side	bab	2
+3s and means	1j19	
+5of the world	1j1a	
+4ide	bab	2
 1e	bac	3
+2 are all ears	1j1b	
+3warmly invite	1j1c	
 2ak	bad	1f
+4 acid	1j1d	
+6nd indecisive	1j1e	
+bept person	1j1f	
+5base	1j1g	
+5force	1j1h	
+5interaction	1j1i	
+5link	1j1j	
+5point	1j1k	
+6ulse	1j1l	
+5side	1j1m	
+6tudent	1j1n	
 4en	bae	c
 4ness	baf	e
 3lth	bag	3f
+6 and influence	1j1o	
+bofficial post	1j1p	
+bprofit	1j1q	
+7never survives three generations	1j1r	
 6y	bah	1e
+7 and influential family	1j1s	
+crespectable people	1j1t	
+8farmer	1j1u	
+8husband	1j1v	
+8person	1j1w	
+8son-in-law	1j1x	
+8woman	1j1y	
 3n	bai	80
 3pon	baj	7c
+6 of mass destruction	1j1z	
+7system	1j20	
+6s and ammunition	1j21	
+drmor	1j22	
+8of war	1j23	
 3r	bak	63
+4 and tear	1j24	
+5resistant	1j25	
 4iness	bal	40
+6g out by friction	1j26	
 5some	bam	80
 4y	ban	fc
+5 of	bnf	
+7ld body	1j27	
 3sel	bao	80
 3ther	bap	e3
+7 board	1j28	
+9ureau	1j29	
+8conditions	1j2a	
+8forecast	1j2b	
+ging office	1j2c	
+8satellite	1j2d	
+9tation	1j2e	
+8vane	1j2f	
 7ing	baq	40
 7man	bar	2
 3ve	bas	7c
 5r	bat	48
 6bird	bau	40
+4ing girl of folk tales	1j2g	
 2b	bav	3a
+3 addiction	1j2h	
+5pplication	1j2i	
+4crawler	1j2j	
+4design	1j2k	
+4feed	1j2l	
+4page	1j2m	
+5ortal	1j2n	
+4series	1j2o	
 3site	baw	23
+7 sitemap	1j2p	
 2d	bax	40
 3ding	bay	7e
+7 anniversary	1j2q	
+8banquet	1j2r	
+8car	1j2s	
+9elebration	1j2t	
+aremony	1j2u	
+9ontract	1j2v	
+8day	1j2w	
+9ress	1j2x	
+8feast	1j2y	
+astivities	1j2z	
+8invitation	1j30	
+8night	1j31	
+8photos	1j32	
+8reception	1j33	
+8veil	1j34	
+8witness	1j35	
+7s and funerals	1j36	
 3ge	baz	38
 5-shaped	bb0	40
+6tailed green pigeon	1j37	
+dshearwater	1j38	
 0Wednesday	bb1	23
 0weed	bb2	fe
+4 killer	1j39	
 4s	bb3	20
 3k	bb4	3
 4day	bb5	1f
 7s	bb6	20
 4end	bb7	23
+7 spouse	1j3a	
 7s	bb8	20
 4ly	bb9	3e
+6 assembly	1j3b	
+7meeting	1j3c	
+7publication	1j3d	
+7salary	1j3e	
 3p	bba	5e
-2igh	bbb	1f
+4ing bitter tears	1j3f	
+8uncontrollably	1j3g	
+8willow	1j3h	
+2i and jin dynasties	1j3i	
+4of the northern dynasties	1j3j	
+4sheng	1j3k	
+3gh	bbb	1f
+5ing every word	1j3l	
 5t	bbc	23
-3rd	bbd	f0
+6 belt	1j3m	
+7capacity of a vehicle	1j3n	
+7load	1j3o	
+7training	1j3p	
+6-carrying capacity	1j3q	
+6ed average	1j3r	
+3mar republic	1j3s	
+3r valve	1j3t	
+4d	bbd	f0
+5 and wonderful	1j3u	
+3xin or wechat	1j3v	
 2lcome	bbe	3
+7 fall of rain	1j3w	
 3d	bbf	fc
+4 nugget	1j3x	
+4ing point	1j3y	
+8together	1j3z	
+arch	1j40	
+8wire	1j41	
 3fare	bbg	7e
+7 agency	1j42	
+8committee	1j43	
+8services	1j44	
 3l	bbh	43
+4 bucket	1j45	
+5coordinated	1j46	
+5developed	1j47	
+6isciplined	1j48	
+5established	1j49	
+g and growing strongly	1j4a	
+5known	1j4b	
+5off	1j4c	
+6rdered	1j4d	
+5proportioned	1j4e	
+6ulley	1j4f	
+5qualified	1j4g	
+5received	1j4h	
+7garded	1j4i	
+5shaped	1j4j	
+6upported	1j4k	
+6weep	1j4l	
+5worth a second look	1j4m	
 4-being	bbi	40
+6red young lady	1j4n	
+5cultivated land	1j4o	
+5field system	1j4p	
 5groomed	bbj	80
+5informed and experienced	1j4q	
+eperson	1j4r	
 5known	bbk	c
+a commentator	1j4s	
+bfar and near	1j4t	
+cigure	1j4u	
+bpiece of music	1j4v	
+bscenic spot	1j4w	
+5off and respected	1j4x	
+5rounded argument	1j4y	
+5structured and ordered	1j4z	
+5trodden path	1j50	
 0Welsh	bbl	80
-0welter	bbm	80
+0welt seam	1j51	
+4er	bbm	80
+2n wei po	1j52	
+3ge or wengue	1j53	
+3hui news	1j54	
+2re it not for	1j55	
 2st	bbn	23
+4 africa	1j56	
+5bengal	1j57	
+5china	1j58	
+5germany	1j59	
+5indies	1j5a	
+5longitude	1j5b	
+5of	bm8	
+7 liaoning	1j5c	
+5side	1j5d	
 4ern	bbo	23
+7 calendar	1j5e	
+apercaillie	1j5f	
+9ountries	1j5g	
+8equine encephalitis virus	1j5h	
+9urope	1j5i	
+ean union	1j5j	
+9xtremity	1j5k	
+8goods	1j5l	
+8hooded pitta	1j5m	
+8jin dynasty	1j5n	
+8kham	1j5o	
+8language	1j5p	
+9earning	1j5q	
+8marsh harrier	1j5r	
+9edicine	1j5s	
+8opera	1j5t	
+8part	1j5u	
+8regions	1j5v	
+8sahara	1j5w	
+amoa	1j5x	
+andpiper	1j5y	
+9ichuan	1j5z	
+9kills	1j60	
+9tyle	1j61	
+d guns	1j62	
+8taste	1j63	
+9ragopan	1j64	
+8yellow wagtail	1j65	
+8zhou	1j66	
+c and eastern zhou	1j67	
+7-style clothes	1j68	
+edress	1j69	
+efood	1j6a	
+ehouse	1j6b	
+epastry	1j6c	
 7er	bbp	22
+9 employed in qing china	1j6d	
+7ized chinese person	1j6e	
+cperson of asian appearance	1j6f	
 4ward	bbq	c
 8s	bbr	2
 2t	bbs	3
+3 and slippery	1j6g	
+4dream	1j6h	
+4look	1j6i	
+4market	1j6j	
+4nurse	1j6k	
+4spot	1j6l	
+4through	1j6m	
+4wipe	1j6n	
 3land	bbt	20
+3suit booties	1j6o	
+3ting agent	1j6p	
 1hale	bbu	5f
+5 fall	1j6q	
+6shark	1j6r	
 5s	bbv	20
+3mpoa military academy	1j6s	
 3rf	bbw	8
 3t	bbx	3
+4 a pity	1j6u	
+5bad luck	1j6v	
+5course to follow	1j6w	
+5for	1j6x	
+5goes around comes around	1j6y	
+5harm is there in	1j6z	
+7s happened	1j70	
+5is	1j71	
+7 actually happening	1j72	
+8on one's mind	1j73	
+5kind	1j74	
+9 of	1j75	
+c person	1j76	
+5of	bkz	
+6ne acquires	1j77	
+9does	1j78	
+9has always been	1j79	
+dlearned	1j7a	
+aears	1j7b	
+e and sees	1j7c	
+aopes to gain	1j7d	
+9knows	1j7e	
+9says	1j7f	
+aees	1j7g	
+9thinks	1j7h	
+5path to take	1j7i	
+6lace	1j7j	
+5say is true	1j6t	
+5time	1j7k	
+6o do	1j7l	
+5way	1j7m	
+4's done is done	1j7n	
+7more	1j7o	
+7to be done	1j7p	
+7up	1j7q	
 4ever	bby	3f
+8 you like	1j7r	
 4soever	bbz	14
 2eat	bc0	5f
+5 bran	1j7s	
+6flour	1j7t	
+6germ	1j7u	
+6starch	1j7v	
 3edle	bc1	c0
 4l	bc2	3f
+5 alignment	1j7w	
+7nd axle	1j7x	
+6rim	1j7y	
+6spoke	1j7z	
 5s	bc3	20
 3lm	bc4	80
 4p	bc5	80
 3n	bc6	3
+4 it comes to	1j80	
+7's convenient	1j81	
+5night falls	1j82	
+5one has time	1j83	
+5taking action	1j84	
+6he moment comes	1j85	
+9time comes	1j86	
 4ever	bc7	1f
 3re	bc8	3
-5as	bc9	7c
+5 i am	1j87	
+7t was before	1j88	
+5abouts unknown	1j89	
+6s	bc9	7c
 5by	bca	28
 5ver	bcb	1e
+8 one goes	1j8a	
 3t	bcc	80
+4 the appetite	1j8b	
 4her	bcd	3
+7 or not	1j8c	
 2ich	bce	3
+5 day of the week	1j8d	
+6means	1j8e	
 5ever	bcf	1e
 3ff	bcg	80
+3g party	1j8f	
 3le	bch	3
+5 doing it	1j8g	
+6holding a post	1j8h	
+6in high spirits	1j8i	
+7t's still hot	1j8j	
+6living	1j8k	
+6still alive	1j8l	
+8ocks last	1j8m	
 4st	bci	2c
 3m	bcj	c0
 4sical	bck	80
 5y	bcl	80
 3ne	bcm	80
 3p	bcn	3c
+4 scar	1j8n	
+4ped cream	1j8o	
+5ing with bamboo strips	1j8p	
 3r	bco	40
 4l	bcp	3c
+5ing dance	1j8q	
 5pool	bcq	80
-3sker	bcr	8
+5wind kick	1j8r	
+asomersault	1j8s	
+3sk broom	1j8t	
+5er	bcr	8
+7ed tern	1j8u	
+ayuhina	1j8v	
 5y	bcs	1c
 4per	bct	9e
+7ed conversation	1j8w	
+7ing in sb's ear	1j8x	
 4tle	bcu	be
+7 note	1j8y	
+7r's warbler	1j8z	
+6ing arrow	1j90	
+aor rushing sound	1j91	
+asound	1j92	
 3t	bcv	c0
+4 sunday	1j93	
 4e	bcw	3
+5 aconite	1j94	
+7gate	1j95	
+7maranth	1j96	
+8ur bream	1j97	
+7nt	1j98	
+7rea	1j99	
+8senic	1j9a	
+6balance	1j9b	
+8ndit	1j9c	
+7ear	1j9d	
+8ech mushroom	1j9e	
+7lood cell	1j9f	
+7one spirit	1j9g	
+8ok	1j9h	
+6cane	1j9i	
+7ement	1j9j	
+7hocolate	1j9k	
+7loud	1j9l	
+7oal	1j9m	
+9t hypertension	1j9n	
+bsyndrome	1j9o	
+6day	1j9p	
+7iarrhea	1j9q	
+7warf	1j9r	
+6eared pheasant	1j9s	
+6face	1j9t	
+7lag	1j9u	
+8owered gourd or calabash	1j9v	
+7ungus	1j9w	
+6glove	1j9x	
+8ue	1j9y	
+7o chess piece	1j9z	
+8ld	1ja0	
+8ods	1ja1	
+8urd	1ja2	
+7ranulated sugar	1ja3	
+cocyte	1ja4	
+6hair	1ja5	
+ay melon	1ja6	
+8nd	1ja7	
+7ead of hair	1ja8	
+9t	1ja9	
+8rring	1jaa	
+7ole	1jab	
+8use	1jac	
+6iron	1jad	
+6jade	1jae	
+6kidney beans	1jaf	
+6lab rat	1jag	
+7ie	1jah	
+8ne	1jai	
+7otus	1jaj	
+b society	1jak	
+6marble	1jal	
+7eat	1jam	
+7ouse	1jan	
+6night	1jao	
+7oise	1jap	
+6of the eye	1jaq	
+7r gray hair	1jar	
+6paper	1jas	
+7eppercorn	1jat	
+7hosphorus	1jau	
+7oplar	1jav	
+8ttery	1jaw	
+6rabbit	1jax	
+6sea	1jay	
+7ilk mourning dress	1jaz	
+7lave	1jb0	
+7tick	1jb1	
+8ork	1jb2	
+7ugar	1jb3	
+6tea	1jb4	
+8eth	1jb5	
+8rn	1jb6	
+9ror	1jb7	
+7iger	1jb8	
+6vinegar	1jb9	
+6wagtail	1jba	
+7ine	1jbb	
+5's thrush	1jbc	
+5-backed woodpecker	1jbd	
+7ellied erpornis	1jbe	
+egreen pigeon	1jbf	
+eheron	1jbg	
+eredstart	1jbh	
+esea eagle	1jbi	
+ewoodpecker	1jbj	
+7reasted parrotbill	1jbk	
+fwaterhen	1jbl	
+8owed bush robin	1jbm	
+dcrake	1jbn	
+dfantail	1jbo	
+eulvetta	1jbp	
+dlaughingthrush	1jbq	
+dpiculet	1jbr	
+dshortwing	1jbs	
+dtit	1jbt	
+g-warbler	1jbu	
+dwagtail	1jbv	
+6capped bunting	1jbw	
+dredstart	1jbx	
+7heeked partridge	1jby	
+estarling	1jbz	
+7ollar slave	1jc0	
+dworker	1jc1	
+ced blackbird	1jc2	
+fyuhina	1jc3	
+7rested laughingthrush	1jc4	
+8owned forktail	1jc5	
+ependuline tit	1jc6	
+6eared night heron	1jc7	
+csibia	1jc8	
+7dged morning glory	1jc9	
+7yed buzzard	1jca	
+briver martin	1jcb	
+6faced heron	1jcc	
+6gorgeted flycatcher	1jcd	
+6headed capuchin	1jce	
+dduck	1jcf	
+7ooded babbler	1jcg	
+6naped crane	1jch	
+cyuhina	1jci	
+7ecked laughingthrush	1jcj	
+alaced partridge	1jck	
+6rumped munia	1jcl	
+dsandpiper	1jcm	
+ehama	1jcn	
+enowfinch	1jco	
+dvulture	1jcp	
+6shouldered ibis	1jcq	
+hstarling	1jcr	
+7peckled laughingthrush	1jcs	
+atacled warbler	1jct	
+6tailed eagle	1jcu	
+dflycatcher	1jcv	
+dnuthatch	1jcw	
+drobin	1jcx	
+dtropicbird	1jcy	
+7hroated bulbul	1jcz	
+hsh chat	1jd0	
+fdipper	1jd1	
+ffantail	1jd2	
+fkingfisher	1jd3	
+flaughingthrush	1jd4	
+fneedletail	1jd5	
+fredstart	1jd6	
+gock thrush	1jd7	
+6water raft	1jd8	
+7hiskered laughingthrush	1jd9	
+7inged grosbeak	1jda	
+dlark	1jdb	
+dmagpie	1jdc	
+dsnowfinch	1jdd	
+dtern	1jde	
+dwoodpecker	1jdf	
+5board ledge	1jdg	
+bmarker	1jdh	
+h tray	1jdi	
+5ning agent	1jdj	
 5wash	bcx	1c
+9ed wall	1jdk	
+7ter rafter	1jdl	
 4tle	bcy	c0
 2o	bcz	3
+3 cares	1jdm	
+5ould have thought that	1jdn	
+4would have expected that	1jdo	
+fthought	1jdp	
+m that	1jdq	
 3ever	bd0	1c
 3le	bd1	1f
+5 army	1jdr	
+7udience	1jds	
+6body	1jdt	
+6city	1jdu	
+6day	1jdv	
+7uration	1jdw	
+6edition	1jdx	
+6family	1jdy	
+6gale	1jdz	
+7rain	1je0	
+6nation	1je1	
+7umber	1je2	
+6or entire body	1je3	
+6performance	1je4	
+6sky	1je5	
+7tory	1je6	
+6territory of hong kong	1je7	
+7one	1je8	
+6wheat	1je9	
+6year	1jea	
+5-piece shark's fin	1jeb	
+6wheat bread	1jec	
 5sale	bd2	60
+9 business	1jed	
+agrain store	1jee	
+aprice	1jef	
+astore	1jeg	
 9r	bd3	40
 6ome	bd4	f8
+9 thinking	1jeh	
 4ly	bd5	1c
+6 devoted	1jei	
+7foreign-owned enterprise	1jej	
+7owned subsidiary	1jek	
 3m	bd6	3
+3oper swan	1jel	
+5ing cough	1jem	
+3rl of fingerprint	1jen	
 3se	bd7	3
 2y	bd8	3
-1ick	bd9	80
+3 don't you	1jeo	
+4on earth	1jep	
+4should	1jeq	
+1i-fi hotspot	1jer	
+2ck	bd9	80
 4ed	bda	bc
+6 and crafty	1jes	
+7beyond redemption	1jet	
+7deed	1jeu	
+7idea	1jev	
+7landlord	1jew	
+6ness of former times	1jex	
+5r basket	1jey	
+7or bamboo winnowing basket	1jez	
+7sewing basket	1jf0	
+8uitcase	1jf1	
+5t door	1jf2	
 2de	bdb	23
+4 and bright	1jf3	
+9knowledgeable	1jf4	
+9open	1jf5	
+7gle camera shot	1jf6	
+6rea network	1jf7	
+5belt	1jf8	
+5expanse	1jf9	
+5mouth	1jfa	
+5of the mark	1jfb	
+6pen	1jfc	
+9 road	1jfd	
+5ranging influence	1jfe	
+5scale	1jff	
+6urvey	1jfg	
+4-angle lens	1jfh	
+5ranging and profound	1jfi	
+5screen movie	1jfj	
 4ly	bdc	c
+6 circulated	1jfk	
+7different	1jfl	
+7known	1jfm	
+7read	1jfn	
+b and knowledgeable	1jfo	
+8umored	1jfp	
+7spread	1jfq	
 4n	bdd	c
-4spread	bde	5e
+4screen movie	1jfr	
+5pread	bde	5e
+a rain	1jfs	
 3ow	bdf	5c
+5 who does not remarry	1jft	
+5's peak	1jfu	
+5ed queen	1jfv	
 3th	bdg	3c
+5 of a flag	1jfw	
+broom	1jfx	
+9chest	1jfy	
 2eld	bdh	e8
 2fe	bdi	3
+4 and child	1jfz	
+eren	1jg0	
+5of a gay man	1jg1	
+8father's elder brother	1jg2	
+hyounger brother	1jg3	
+8mother's brother	1jg4	
+8the young master	1jg5	
+5swapping	1jg6	
+4's aunt	1jg7	
+7brother	1jg8	
+7elder sister	1jg9	
+7family	1jga	
+9ther	1jgb	
+7mother	1jgc	
+7older brother	1jgd	
+dsister	1jge	
+7parents' home	1jgf	
+7sibling's daughter	1jgg	
+hson	1jgh	
+7uncle	1jgi	
+7younger brother	1jgj	
+fsister	1jgk	
 2g	bdj	80
 3gle	bdk	80
+2kimedia foundation	1jgl	
 2ld	bdl	1e
+4 and disorderly	1jgm	
+9fanciful thoughts	1jgn	
+7gling	1jgo	
+7imal	1jgp	
+5babble	1jgq	
+6oar	1jgr	
+5card	1jgs	
+5dog	1jgt	
+6uck	1jgu	
+5fantasy	1jgv	
+6lower	1jgw	
+6ruit	1jgx	
+5goose	1jgy	
+6rassland	1jgz	
+5hemp	1jh0	
+7rb	1jh1	
+6orse	1jh2	
+5mandarin duck	1jh3	
+5nature	1jh4	
+5reaction	1jh5	
+5schemes	1jh6	
+5talk	1jh7	
+4card character	1jh8	
 4erness	bdm	20
+a areas	1jh9	
 4life	bdn	62
+8 park	1jha	
 3e	bdo	80
 3ful	bdp	8
 3l	bdq	3
+4 be very grateful	1jhb	
+5get nowhere	1jhc	
+6o ahead whatever happens	1jhd	
+5inevitably	1jhe	
+5never	1jhf	
+a be forgotten	1jhg	
+6ot	1jhh	
+5of heaven	1jhi	
+8the gods	1jhj	
+5perhaps	1jhk	
+5to fight	1jhl	
+5work	1jhm	
 4ful	bdr	80
-4ing	bds	1e
+7ly slaughter the innocent	1jhn	
+4iam or wilhelm	1jho	
+5ng	bds	1e
+7 to help others	1jhp	
 7ly	bdt	2
+9 and gladly	1jhq	
 7ness	bdu	2
+b to accept new ideas	1jhr	
 4ow	bdv	e8
+6 catkin	1jhs	
+7ptarmigan	1jht	
+7tit	1jhu	
+8ree	1jhv	
+7warbler	1jhw	
 6y	bdw	80
+3son's storm petrel	1jhx	
 3t	bdx	80
 3y	bdy	80
+4 old fox	1jhy	
+2mbledon championships	1jhz	
 2n	bdz	1f
+3 or loss	1ji0	
+4rate	1ji1	
 3ce	be0	80
 3d	be1	23
+4 and frost	1ji2	
+9rain	1ji3	
+5cave	1ji4	
+6heater	1ji5	
+7ill	1ji6	
+8mes	1ji7	
+5damper	1ji8	
+6irection	1ji9	
+5erosion	1jia	
+5farm	1jib	
+6orce	1jic	
+5gap	1jid	
+5instrument	1jie	
+5jacket	1jif	
+5noise	1jig	
+5park	1jih	
+6ower	1jii	
+5screen	1jij	
+6hear	1jik	
+6peed	1jil	
+5tunnel	1jim	
+5vane	1jin	
+4-powered waterwheel	1jio	
 4bag	be2	80
+5lown dust	1jip	
 5reaker	be3	2
 4fall	be4	80
+8 profit tax	1jiq	
 4ing	be5	88
+7 and turning	1jir	
+8corridor	1jis	
+8lane	1jit	
+8road	1jiu	
+8stairs	1jiv	
 4mill	be6	8
 4ow	be7	23
-4swept	be8	40
+6 curtains	1jiw	
+7decoration	1jix	
+7frame	1jiy	
+7hook	1jiz	
+7latch	1jj0	
+atice	1jj1	
+7pane	1jj2	
+8eriod	1jj3	
+7seat	1jj4	
+7with an iron grating	1jj5	
+6s registry	1jj6	
+4shield washer fluid	1jj7	
+ciper	1jj8	
+5wept	be8	40
 4y	be9	8b
 3e	bea	1f
+4 and meat	1jj9	
+9women	1jja	
+5cellar	1jjb	
+6up	1jjc	
+5factory	1jjd	
+6lavored with chinese mugwort	1jje	
+5industry	1jjf	
+5jar	1jjg	
+5lees	1jjh	
+6ist	1jji	
+5pot	1jjj	
+5reception	1jjk	
+5shop	1jjl	
+9 sign	1jjm	
+5vessel	1jjn	
+4-drinking game	1jjo	
 3g	beb	3f
-4span	bec	40
+4 chun	1jjp	
+5flap	1jjq	
+5to wing	1jjr	
+4ed insect	1jjs	
+4man aircraft	1jjt	
+4s of a sanitary pad	1jju	
+5pan	bec	40
 3k	bed	98
 4le	bee	80
 3ner	bef	f
+6 takes all	1jjv	
+4ie the pooh	1jjw	
+5ng percentage	1jjx	
 4ow	beg	80
 3some	beh	80
 3ter	bei	3
+6 and summer	1jjy	
+7bamboo shoots	1jjz	
+8reak	1jk0	
+7cherry	1jk1	
+8limate	1jk2	
+9othes	1jk3	
+cing	1jk4	
+7daphne	1jk5	
+7games	1jk6	
+7jasmine	1jk7	
+7olympics	1jk8	
+7palace	1jk9	
+9ralympics	1jka	
+8lowing	1jkb	
+7sets in	1jkc	
+7vacation	1jkd	
+7wear	1jke	
+8hite dwarf hamster	1jkf	
 2pe	bej	1e
 2re	bek	1e
+4 copy	1jkg	
+6utting pincers	1jkh	
+5drawing	1jki	
+5fraud	1jkj	
+5grass	1jkk	
+5mesh fence	1jkl	
+5netting	1jkm	
+5stripper	1jkn	
+4-tailed swallow	1jko	
 4less	bel	c
+8 telephone	1jkp	
 4tap	bem	80
 2sdom	ben	3e
+6 of past lives	1jkq	
+fsages	1jkr	
+7tooth	1jks	
 3e	beo	3f
+4 and able person	1jkt	
+9farsighted	1jku	
+9holy man	1jkv	
+9just	1jkw	
+9kind	1jkx	
+9resolute	1jky	
+9virtuous woman	1jkz	
+5companion	1jl0	
+5man	1jl1	
+6ove	1jl2	
+5opinion	1jl3	
+5policy	1jl4	
 3h	bep	3
-3py	beq	40
+4 list	1jl5	
+4ful thinking	1jl6	
+4ing pond	1jl7	
+8well	1jl8	
+3ps of blood	1jl9	
+4y	beq	40
 3tful	ber	c0
 2t	bes	fc
 3ch	bet	90
+5 doctor	1jla	
 3h	beu	3
+4 a big smile	1jlc	
+7common purpose	1jld	
+8rash	1jle	
+7direct gaze	1jlf	
+7heavy hand	1jlg	
+7loud bang	1jlh	
+7sad air	1jli	
+8hock	1jlj	
+8wagger	1jlk	
+7thunderous noise	1jll	
+7worried frown	1jlm	
+flook	1jln	
+6bsolutely nothing	1jlo	
+6dmiration	1jlp	
+6lacrity	1jlq	
+7l of one's heart	1jlr	
+ane's heart	1jls	
+fmight	1jlt	
+fstrength	1jlu	
+9sincerity	1jlv	
+6mple experience	1jlw	
+6n ax to grind	1jlx	
+6rms crossed	1jly	
+6stonishment	1jlz	
+5back to the mountain	1jm0	
+7re hands	1jm1	
+6est wishes	1jm2	
+5complete devotion	1jm3	
+bx feelings	1jm4	
+aiments	1jlb	
+5deliberate steps	1jm5	
+9cate features	1jm6	
+6ifferent father	1jm7	
+fjobs	1jm8	
+9iculty	1jm9	
+7shevelled hair	1jma	
+8patch	1jmb	
+5each passing year	1jmc	
+7se	1jmd	
+6mphasis	1jme	
+6very passing day	1jmf	
+aone lending a hand	1jmg	
+athing needed available	1jmh	
+5fangs bared	1jmi	
+6ear and trepidation	1jmj	
+6illing	1jmk	
+7xed attention	1jml	
+6ull force	1jmm	
+aself-confidence	1jmn	
+5glaring eyes	1jmo	
+6reat alarm	1jmp	
+bcare	1jmq	
+bdifficulty	1jmr	
+bjoy	1jms	
+bpleasure	1jmt	
+creoccupation	1jmu	
+bscope	1jmv	
+btrouble	1jmw	
+6usto	1jmx	
+5hands behind one's back	1jmy	
+6eart and soul	1jmz	
+6orses and soldiers gagged	1jn0	
+5ice	1jn1	
+6ndifference	1jn2	
+6rresistible force	1jn3	
+5keen interest	1jn4	
+5little learning	1jn5	
+5meticulous care	1jn6	
+6ight and main	1jn7	
+5no difficulty	1jn8	
+8hope of reprieve	1jn9	
+8regard for others	1jna	
+8worries	1jnb	
+5one's bare hands	1jnc	
+bclothes on	1jnd	
+bhair down	1jne	
+bown ears	1jnf	
+gyes	1jng	
+bthoughts wandering	1jnh	
+5particular attention	1jni	
+5rapt attention	1jnj	
+6edoubled power	1jnk	
+7gard to	1jnl	
+bs to this	1jnm	
+5single-minded devotion	1jnn	
+6trict precaution	1jno	
+6udden force	1jnp	
+6wagger	1jnq	
+6yncopated cadence	1jnr	
+5the current	1jns	
+9help of	1jnt	
+7is	1jnu	
+5undivided attention	1jnv	
+6tmost care	1jnw	
 4draw	bev	fe
 8al	bew	40
 4er	bex	e8
+6ed and fallen	1jnx	
+drotten	1jny	
+9tree	1jnz	
 4hold	bey	b8
 4in	bez	1e
+6 a certain time limit	1jo0	
+8nd without the borders	1jo1	
+7china	1jo2	
+7easy reach	1jo3	
+7it	1jo4	
+7one's area of responsibility	1jo5	
+dpowers	1jo6	
+7reach	1jo7	
+7sight	1jo8	
+7that	1jo9	
+b interval	1joa	
+9e body	1job	
+drders	1joc	
+dsom	1jod	
+bhome	1joe	
+bnext few days	1jof	
+corms	1jog	
+bparty	1joh	
+brules	1joi	
+byear	1joj	
 4out	bf0	3
+7 a break	1jok	
+aclue	1jol	
+adoubt	1jom	
+amoment's hesitation	1jon	
+aretreat route	1joo	
+asecond thought	1jop	
+btitch of clothing	1joq	
+atrace	1jor	
+9gricultural chemicals	1jos	
+9ny defect	1jot	
+doubt	1jou	
+cexceptions	1jov	
+cfear of consequences	1jow	
+cqualifications	1jox	
+creason	1joy	
+csense of shame	1joz	
+9uthorization	1jp0	
+8borders	1jp1	
+aundaries	1jp2	
+fy	1jp3	
+8care or worries	1jp4	
+cful consideration	1jp5	
+ause or reason	1jp6	
+9oncealing anything	1jp7	
+bsulting anyone	1jp8	
+jothers	1jp9	
+8delay	1jpa	
+9iscrepancy	1jpb	
+9oubt	1jpc	
+9ue care	1jpd	
+8eloquence	1jpe	
+9nd	1jpf	
+aergy	1jpg	
+9xception	1jph	
+aterior help	1jpi	
+bra trouble	1jpj	
+8following a model	1jpk	
+aoling around	1jpl	
+aundation	1jpm	
+8giving due consideration	1jpn	
+9uilt	1jpo	
+8hesitating	1jpp	
+gon	1jpq	
+9ope	1jpr	
+8inconvenience	1jps	
+8leave	1jpt	
+9ofty ambition	1jpu	
+8meaning	1jpv	
+9ishap	1jpw	
+bsing a word	1jpx	
+9uch extra effort	1jpy	
+8noticing	1jpz	
+8one's own opinions	1jq0	
+9stentation	1jq1	
+9utside help	1jq2	
+8paying attention	1jq3	
+9eer in this generation	1jq4	
+armission	1jq5	
+9rospects	1jq6	
+8qualms	1jq7	
+8regard for others' feelings	1jq8	
+alatives or friends	1jq9	
+aservation	1jqa	
+btraint	1jqb	
+9hyme or reason	1jqc	
+9ival	1jqd	
+8slacking	1jqe	
+9topping to rest	1jqf	
+9upport	1jqg	
+8taking extra trouble	1jqh	
+9he slightest difference	1jqi	
+noubt	1jqj	
+mhesitation	1jqk	
+mscruple	1jql	
+ainking the matter through	1jqm	
+8warning	1jqn	
+9orries	1jqo	
 4stand	bf1	fc
 3ness	bf2	fe
+7 stand or box	1jqp	
+8testimony	1jqq	
 3ticism	bf3	80
 4y	bf4	48
+2ves and concubines	1jqr	
 2zardry	bf5	80
 3en	bf6	80
 5ed	bf7	80
-1obble	bf8	80
+1o river in shanxi	1jqs	
+2bble	bf8	80
 2e	bf9	88
+2k spatula	1jqt	
+4with a long handle	1jqu	
 2lf	bfa	1f
+4 child	1jqv	
+6ub	1jqw	
+5spider	1jqx	
 3longong	bfb	20
+3ves howling	1jqy	
 2man	bfc	3
-2nder	bfd	5f
+5 from a respectable family	1jqz	
+cn ordinary family	1jr0	
+6in childbirth	1jr1	
+6of distinction	1jr2	
+9easy virtue	1jr3	
+9mature years	1jr4	
+6recuperating after childbirth	1jr5	
+6with a manly spirit	1jr6	
+5's dress	1jr7	
+8handbag or shoulder bag	1jr8	
+9eaddress	1jr9	
+8lover	1jra	
+8period	1jrb	
+8tender and soft hands	1jrc	
+5-on-top sex position	1jrd	
+5ly temperament	1jre	
+3en and children	1jrf	
+6dancers and singers	1jrg	
+6love bad guys	1jrh	
+6meddle in politics	1jri	
+6of the new society	1jrj	
+5's association	1jrk	
+8basketball	1jrl	
+i team	1jrm	
+athroom	1jrn	
+8clothes	1jro	
+8doubles	1jrp	
+8league	1jrq	
+9ove	1jrr	
+8movement	1jrs	
+8quarters	1jrt	
+8rights	1jru	
+8singles	1jrv	
+9occer team	1jrw	
+9uffrage	1jrx	
+8underwear	1jry	
+8volleyball	1jrz	
+2n't do	1js0	
+6last long	1js1	
+6work	1js2	
+3der	bfd	5f
 6ful	bfe	1f
+9 scenery	1js3	
+4rous effect	1js4	
+9wisdom and knowledge	1js5	
 3t	bff	80
 2o	bfg	82
 3d	bfh	3f
+4 alcohol	1js6	
+5block puzzle	1js7	
+5chip	1js8	
+5jade	1js9	
+5moth	1jsa	
+5sandpiper	1jsb	
+6havings	1jsc	
+6nipe	1jsd	
+6pirit	1jse	
+5turning	1jsf	
+5warbler	1jsg	
 4cut	bfi	80
 4en	bfj	1e
+6 and slow of speech	1jsh	
+8rticles	1jsi	
+7bench	1jsj	
+c or stool	1jsk	
+8oat	1jsl	
+7clappers	1jsm	
+9ogs	1jsn	
+9ub	1jso	
+8rossbar	1jsp	
+7fish	1jsq	
+8rame	1jsr	
+7horse	1jss	
+c stratagem	1jst	
+7ladle	1jsu	
+7pan used as toilet	1jsv	
+9rtition	1jsw	
+8ile	1jsx	
+8ole	1jsy	
+7stick	1jsz	
+8word	1jt0	
+7tamp	1jt1	
+7writing strips	1jt2	
+4house or wodehouse	1jt3	
 4pecker	bfk	8
 4s	bfl	60
+5 and marshes	1jt4	
+aravines	1jt5	
+4wind instrument	1jt6	
+9music	1jt7	
+5ork lathe	1jt8	
+4y plant	1jt9	
+3f brocade	1jta	
+5woof	1jtb	
 3l	bfm	5c
+4 oil	1jtc	
+5yarn	1jtd	
 4en	bfn	40
+6 blanket	1jte	
+7fabric made in tibet	1jtf	
+7knitwear	1jtg	
+7textiles	1jth	
+8hread	1jti	
 4len	bfo	e
+7 cloth	1jtj	
 5y	bfp	40
-2rd	bfq	3
+6 mammoth	1jtk	
+2rcestershire sauce	1jtl	
+3d	bfq	3
+4 class	1jtm	
+5family	1jtn	
+6ormation	1jto	
+e and inflection	1jtp	
+6requency	1jtq	
+5having alternative pronunciations	1jtr	
+5order	1jts	
+5placed after	1jtt	
+6rocessing	1jtu	
+5segmentation	1jtv	
+6tem	1jtw	
+7ock	1jtx	
 4ing	bfr	20
 4s	bfs	20
+5 and actions	1jty	
+asentences	1jtz	
+athoughts	1ju0	
+6carved into cliff face	1ju1	
+6flowing like pearl beads	1ju2	
+6of advice on parting	1ju3	
+9enormous weight	1ju4	
+9love	1ju5	
+9politeness	1ju6	
+9the ancient thinkers	1ju7	
+ddeceased	1ju8	
+aruth	1ju9	
+7r phrase	1jua	
+6spoken during sleep	1jub	
+don sb's behalf	1juc	
 3k	bft	3
+4 and rest	1jud	
+5chant	1jue	
+5especially hard	1juf	
+5flow in manufacturing	1jug	
+6orce	1juh	
+5is now underway	1jui	
+5method	1juj	
+6ore and get more	1juk	
+5of art	1jul	
+5permit	1jum	
+6oint	1jun	
+5regulations	1juo	
+5schedule	1jup	
+6hift	1juq	
+a starting around daybreak	1jur	
+6tation	1jus	
+5team	1jut	
+5unit	1juu	
+5within the communist party	1juv	
+4-point recorder	1juw	
+5related matters	1jux	
+5study program	1juy	
 4day	bfu	2
-4er	bfv	23
+4ed material	1juz	
+7up	1jv0	
+5r	bfv	23
+6 ant	1jv1	
+7bee	1jv2	
+7employed by the month	1jv3	
+7in science and technology	1jv4	
+7on probation	1jv5	
+7with rivets	1jv6	
+6's party	1jv7	
+6s and peasants	1jv8	
+8stadium	1jv9	
+7' living quarters	1jva	
+9party	1jvb	
 4force	bfw	2
 4ing	bfx	20
+7 capital	1jvc	
+9lass	1jvd	
+9ommittee	1jve	
+andition	1jvf	
+auple	1jvg	
+8day	1jvh	
+9og	1jvi	
+8group	1jvj	
+8hard together	1jvk	
+9ours	1jvl	
+8meal	1jvm	
+amory	1jvn	
+8people	1jvo	
+9rocedure	1jvp	
+8report	1jvq	
+8surface	1jvr	
+8woman	1jvs	
 4load	bfy	60
 4man	bfz	c
 6te	bg0	2
 4piece	bg1	8
 5lace	bg2	2
+9 overseer	1jvt	
 4s	bg3	2
 5hop	bg4	3c
 8s	bg5	20
 3ld	bg6	23
+5 bank	1jvu	
+7est	1jvv	
+6championship	1jvw	
+7ultural heritage	1jvx	
+8p	1jvy	
+8stoms organization	1jvz	
+6economic forum	1jw0	
+7xpo	1jw1	
+6famous	1jw2	
+7inancial center	1jw3	
+7ood program	1jw4	
+6games	1jw5	
+6health assembly	1jw6	
+dorganization	1jw7	
+8ritage site	1jw8	
+7onored one	1jw9	
+6intellectual property organization	1jwa	
+6meteorological organization	1jwb	
+6of its own	1jwc	
+9mortals	1jwd	
+9science	1jwe	
+9the living	1jwf	
+9warcraft	1jwg	
+7utlook	1jwh	
+6peace	1jwi	
+7ower	1jwj	
+6ranking	1jwk	
+7ecord	1jwl	
+6tourism organization	1jwm	
+7rade	1jwn	
+b center	1jwo	
+corganization	1jwp	
+6uighur congress	1jwq	
+7niversity games	1jwr	
+6war	1jws	
+9 i	1jwt	
+bi	1jwu	
+aone	1jwv	
+atwo	1jww	
+7ide web	1jwx	
+8ldlife fund	1jwy	
+j wwf	1jwz	
+8th only two people	1jx0	
+5's first	1jx1	
 5-wide	bg7	c
 5ly	bg8	40
+7 affairs	1jx2	
+8desires	1jx3	
+8wisdom	1jx4	
+5s apart	1jx5	
 5wide	bg9	56
+9 green parties	1jx6	
 3m	bga	5e
+4 and worm gear	1jx7	
+5drive	1jx8	
+4-gear pair	1jx9	
 3n	bgb	2
+4 next to the skin	1jxa	
+5out	1jxb	
+8 or worn smooth	1jxc	
+4-out footwear	1jxd	
+9shoes	1jxe	
 3ried	bgc	2
+7 facial expression	1jxf	
+8or downhearted	1jxg	
+8too much	1jxh	
+6s about the future consequences	1jxi	
 4y	bgd	3
 3se	bge	1e
+5 than a beast	1jxj	
 4hip	bgf	bc
 4t	bgg	1e
+5 punishment	1jxk	
 3th	bgh	3
+5 hearing a hundred times	1jxl	
+6it	1jxm	
+6listening to	1jxn	
+6seeing	1jxo	
+6the money	1jxp	
 5less	bgi	e
+9 nobody	1jxq	
+aobject	1jxr	
+aperson	1jxs	
+ascholar	1jxt	
+btuff	1jxu	
+athing	1jxv	
 5while	bgj	3e
+a result	1jxw	
 5y	bgk	5e
+6 little brother	1jxx	
+7match	1jxy	
+7of	bmz	
+9 celebration	1jxz	
+apraise	1jy0	
+cide	1jy1	
+athe name	1jy2	
 2uld	bgl	3
+5 be better	1jy3	
+6like to invite	1jy4	
+6prefer	1jy5	
+6rather	1jy6	
 3nd	bgm	1f
+5 track	1jy7	
 5ed	bgn	2
+7 and captured	1jy8	
+8person	1jy9	
+enel	1jya	
+8soldiers	1jyb	
+5ing complaints	1jyc	
+2ven bamboo mat	1jyd	
+6cloth	1jye	
+7oconut fiber	1jyf	
+6fabric	1jyg	
+c with many-colored woof	1jyh	
+6mat	1jyi	
+6palm fiber	1jyj	
+8ttern	1jyk	
+6rush raincoat	1jyl	
+6silk fabric	1jym	
+6window screen	1jyn	
 1raith	bgo	80
 3ngle	bgp	80
 7r	bgq	c0
 3p	bgr	7c
+4ping cloth	1jyo	
+9paper	1jyp	
 3th	bgs	c8
 2eak	bgt	80
 4th	bgu	1c
 6e	bgv	a0
+7d hornbill	1jyq	
 3ck	bgw	7c
 5age	bgx	84
 3n	bgy	40
 4ch	bgz	b8
 3stle	bh0	2a
 6ing	bh1	40
+9 ring	1jyr	
 3tched	bh2	b8
+8 feelings	1jys	
+9look	1jyt	
+9poverty	1jyu	
+9sight	1jyv	
+btuation	1jyw	
+atate	1jyx	
+9wind and rain	1jyy	
 2ight	bh3	40
+6's stain	1jyz	
+6ia tinctoria	1jz0	
+4ley's doublemint	1jz1	
 3ng	bh4	48
 4kle	bh5	fa
+7d giant hyssop	1jz2	
+9up	1jz3	
 3st	bh6	de
 5watch	bh7	40
 3t	bh8	80
 4e	bh9	3
+5 of	bkm	
 5r	bha	2c
 4ing	bhb	3e
+7 as a livelihood	1jz4	
+8brush	1jz5	
+d and ink stone	1jz6	
+eof weasel bristle	1jz7	
+8concerning love and sex	1jz8	
+8desk	1jz9	
+8for practical purposes	1jza	
+8lines	1jzb	
+8on the blackboard	1jzc	
+8pad	1jzd	
+aper	1jze	
+8skill	1jzf	
+9tyle	1jzg	
+9ymbol	1jzh	
+8tablet	1jzi	
+7s in the vernacular	1jzj	
+4ten account	1jzk	
+9greement	1jzl	
+9ppeal	1jzm	
+9rticle explaining a moral	1jzn	
+8calculation	1jzo	
+9harge in court	1jzp	
+9omments from a superior	1jzq	
+bposition	1jzr	
+anfession	1jzs	
+cirmation of a debt	1jzt	
+8estimate of price	1jzu	
+9vidence	1jzv	
+9xamination	1jzw	
+8in a forceful hand	1jzx	
+bplain language	1jzy	
+avitation	1jzz	
+8language	1k00	
+8narration	1k01	
+9otice	1k02	
+8pledge	1k03	
+9olemics	1k04	
+8repentance	1k05	
+bort	1k06	
+aquest for instructions	1k07	
+8self-introduction	1k08	
+9logan	1k09	
+e or phrase	1k0a	
+9tatement	1k0b	
+9ummary of a meeting	1k0c	
+8translation	1k0d	
+8war challenge	1k0e	
+9orks	1k0f	
 2ong	bhc	3
+5 path	1k0g	
+6road	1k0h	
+6way	1k0i	
 3ught	bhd	e0
+7 iron	1k0j	
 2y	bhe	c0
+3 face	1k0k	
+4mouth	1k0l	
+1u county in jiangsu	1k0m	
+3dialects	1k0n	
+3state	1k0o	
+2daokou neighborhood of beijing	1k0p	
+3u city in gansu	1k0q	
+2han accent	1k0r	
+6iron and steel	1k0s	
+6university	1k0t	
+2liangye liquor	1k0u	
+4ng powder	1k0v	
+2sun kingdom of central asia	1k0w	
+2tai city in shanxi	1k0x	
+2xi opera	1k0y	
+2yishan national nature reserve	1k0z	

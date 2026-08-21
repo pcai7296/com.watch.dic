@@ -1,53 +1,209 @@
 0ubiquitous	ar5	80
-1gly	ar6	bf
+1don noodles	1hu2	
+1efa champions league	1hu3	
+1fo enthusiast	1hu4	
+1gg boots	1hu5	
+2ly	ar6	bf
+4 duckling	1hu6	
+5expression	1hu7	
+5girl	1hu8	
+6uy	1hu9	
+5person	1hua	
+5talk	1hub	
+1ighur language	1huc	
+7person or people	1hud	
+1k chancellor of exchequer	1hue	
+3life peer	1huf	
 1lcer	ar7	80
 5ate	ar8	80
+7ion of oral cavity	1hug	
 2terior	ar9	80
+8 motive	1huh	
 3imate	ara	dc
+8 power	1hui	
 8ly	arb	2c
+a useless	1huj	
 7um	arc	60
-3ramundane	ard	80
+3ra high speed	1huk	
+6short wave	1hul	
+5basic rock	1hum	
+5marine flycatcher	1hun	
+6undane	ard	80
 5sonic	are	48
+a scan	1huo	
+bwave	1hup	
 as	arf	40
+7und scan	1huq	
 5violet	arg	78
-1mbrage	arh	80
+b light	1hur	
+cray	1hus	
+2ungur lake in xinjiang	1hut	
+8river in xinjiang	1huu	
+1mbilical cord	1huv	
+3rage	arh	80
 4ella	ari	3
+8 brand	1huw	
 2pire	arj	80
-1nable	ark	e
+1na corda pedal	1hux	
+3ble	ark	e
+6 to	1huy	
+9 adapt	1huz	
+cvance or retreat	1hv0	
+abear	1hv1	
+e the pain	1hv2	
+brake	1hv3	
+ceak the custom	1hv4	
+aconceive a child	1hv5	
+dtain one's joy	1hv6	
+erol one's tongue	1hv7	
+lself	1hv8	
+adeal with	1hv9	
+biscipline a child	1hva	
+bo anything right	1hvb	
+aendure	1hvc	
+bscape	1hvd	
+afigure out	1hve	
+cnd out	1hvf	
+crmly or securely	1hvg	
+aget along	1hvh	
+eover	1hvi	
+bo to school	1hvj	
+akeep	1hvk	
+amake ends meet	1hvl	
+fit through	1hvm	
+fsense of	1hvn	
+bove	1hvo	
+e freely	1hvp	
+aremain calm	1hvq	
+cspond	1hvr	
+dtrain a smile	1hvs	
+joneself	1hvt	
+cturn the favor	1hvu	
+asay	1hvv	
+bing in tune	1hvw	
+ct still	1hvx	
+bpeak	1hvy	
+athink calmly	1hvz	
+bolerate	1hw0	
+aunderstand	1hw1	
+avoice objections	1hw2	
+await	1hw3	
+bithstand	1hw4	
+4ridged edition	1hw5	
+3cceptable as uncorroborated evidence	1hw6	
+dbehavior	1hw7	
+5ounted for	1hw8	
 3dorned	arl	40
 3ffected	arm	80
 3ided	arn	40
+3lterable truth	1hw9	
 3nimity	aro	40
 6ous	arp	f8
-3ssuming	arq	80
-3voidable	arr	8
+4nounced inspection	1hwa	
+3ssigned phone number	1hwb	
+5uming	arq	80
+3thletic person	1hwc	
+3uthorized goods	1hwd	
+3vailable goods	1hwe	
+4oidable	arr	8
+3ware of the disasters ahead	1hwf	
+finner workings	1hwg	
 2bearable	ars	4e
+a to look at	1hwh	
 4coming	art	c0
 4lievable	aru	2
+by good	1hwi	
 4nd	arv	80
 3iased	arw	40
+8 view	1hwj	
 4dden	arx	80
-3lemished	ary	40
+3leached and undyed cloth	1hwk	
+5mished	ary	40
+3oiled water	1hwl	
+4rn child	1hwm	
 3ridgeable	arz	40
 6led	as0	c0
 4oken	as1	40
+8 chain of peaks	1hwn	
 2canny	as2	c0
+7 workmanship	1hwo	
 3ertain	as3	e
-3harted	as4	40
-3le	as5	3
+6ified staff	1hwp	
+3hanging since times immemorial	1hwq	
+5rted	as4	40
+3ivilized person	1hwr	
+cterritory	1hws	
+3laimed articles	1hwt	
+alost property	1hwu	
+4e	as5	3
+5 sam	1hwv	
+5ar articulation	1hww	
 3omfortable	as6	2e
 5mitted	as7	80
 4nditional	as8	22
+d surrender	1hwx	
+bed reflex	1hwy	
 5scionable	as9	80
 9us	asa	ee
+b mind	1hwz	
+6trained in one's sexuality	1hx0	
+hstyle	1hx1	
 5ventional	asb	48
+e gambit	1hx2	
+fmethod	1hx3	
 6incing	asc	60
-4operative	asd	80
-4uth	ase	c0
+4oked rice	1hx4	
+5perative	asd	80
+4untable noun	1hx5	
+cset	1hx6	
+5th	ase	c0
+7 fellow	1hx7	
 4ver	asf	5c
+7ed oil lamp	1hx8	
 3tuous	asg	80
+8 fawning	1hx9	
+3ultivated land	1hxa	
+4t edition	1hxb	
+6jade	1hxc	
 2daunted	ash	40
-3er	asi	3
+9 by perils	1hxd	
+3ecided and unclear	1hxe	
+abetween taking and leaving	1hxf	
+6pherable handwriting	1hxg	
+4filed body	1hxh	
+4r	asi	3
+5 arrest	1hxi	
+7utomatic control	1hxj	
+6construction	1hxk	
+8ver	1hxl	
+6development	1hxm	
+6false pretenses	1hxn	
+7ull sail	1hxo	
+6investigation	1hxp	
+6joint management	1hxq	
+6one's chin	1hxr	
+dommand	1hxs	
+entrol or administration	1hxt	
+cown name	1hxu	
+cpersonal command	1hxv	
+6sb's control	1hxw	
+bname	1hxx	
+7ecretary of state	1hxy	
+6the banner of	1hxz	
+acircumstances	1hy0	
+afoot	1hy1	
+aguise of	1hy2	
+ainfluence of alcohol	1hy3	
+ajurisdiction of	1hy4	
+askin	1hy5	
+bun	1hy6	
+aumbrella of	1hy7	
+awater	1hy8	
+8read	1hy9	
+5-the-table manipulations	1hya	
+5age male servant	1hyb	
+9prostitute	1hyc	
+6rm stink	1hyd	
 5bid	asj	80
 5cut	ask	80
 5developed	asl	40
@@ -57,19 +213,39 @@ dd	aso	80
 5gird	asp	80
 6o	asq	7c
 6raduate	asr	7c
+d course	1hye	
+k of study	1hyf	
+estudent	1hyg	
 7ound	ass	63
-5handed	ast	80
+b bank	1hyh	
+cdrainpipe	1hyi	
+cmine storage room	1hyj	
+cnuclear explosion	1hyk	
+ktest	1hyl	
+cpalace	1hym	
+criver	1hyn	
+cstem	1hyo	
+cwater channel	1hyp	
+5hand trickery	1hyq	
+9ed	ast	80
+b tactics	1hyr	
 5lie	asu	50
 7ne	asv	3e
 8g	asw	80
 6ying	asx	f8
+a cause of poverty	1hys	
+bforce	1hyt	
+bmedical condition	1hyu	
 5mine	asy	f8
 5neath	asz	7c
 5play	at0	80
 5rate	at1	80
 5score	at2	c0
+6ecretary of state	1hyv	
 6tand	at3	43
 aing	at4	3e
+d and adaptable	1hyw	
+ienjoying	1hyx	
 8te	at5	80
 ad	at6	80
 ament	at7	80
@@ -78,136 +254,407 @@ ament	at7	80
 8ing	ata	4c
 5utilized	atb	80
 5water	atc	40
+a camera	1hyy	
+bnuclear explosion	1hyz	
 6ear	atd	a
+6orld gang	1hz0	
 6rite	ate	a0
+9ing company	1hz1	
+dgroup	1hz2	
+dspread	1hz3	
 4served	atf	c0
+a fortune	1hz4	
 5irable	atg	98
+b customs	1hz5	
 3ifferentiated	ath	40
 4rected	ati	80
-4sputable	atj	80
+4sclosed account	1hz6	
+cstrength or information	1hz7	
+6overed talent	1hz8	
+eraitor	1hz9	
+5putable	atj	80
 5torted	atk	40
 6urbed	atl	40
 4vided	atm	2
 3o	atn	7e
 4ubtedly	ato	7c
+b will	1hza	
+3reamed of	bp4	
+7t of	bp0	
 3ue	atp	20
-4late	atq	80
+5 trouble	1hzb	
+4lant fever	1hzc	
+6te	atq	80
+5ose extinction	1hzd	
+3ying gratitude	1hze	
 2earth	atr	c0
 7ly	ats	80
 4sy	att	3c
+6 and confused	1hzf	
+bnervous	1hzg	
+3ducated person	1hzh	
 3mployed	atu	40
+a and idle	1hzi	
+bperson	1hzj	
 8ment	atv	3a
+c rate	1hzk	
 3nlightened	atw	80
+3qual clause	1hzl	
+7led in his time	1hzm	
 3ven	atx	20
+6 bars	1hzn	
+7in texture	1hzo	
+7stones	1hzp	
+7tone	1hzq	
 6ly	aty	40
 3xceptionable	atz	80
 cl	au0	80
 4pected	au1	1c
+a accident	1hzr	
+bcalamity	1hzs	
+circumstance	1hzt	
+bguest	1hzu	
+bmisfortune	1hzv	
+etake or mishap	1hzw	
+bsplendour	1hzx	
+btricky move	1hzy	
+curn of events	1hzz	
 5lored	au2	40
+5urgated version	1i00	
 2failing	au3	80
 5r	au4	6e
+6 clause	1i01	
+8ompetition	1i02	
+4miliar character	1i03	
 4sten	au5	80
 4vorable	au6	40
 3eigned	au7	80
 4rtilized	au8	40
-3it	au9	a
-3lappable	aua	80
+3ilial conduct	1i04	
+9son	1i05	
+5led work place	1i06	
+5tered rice wine	1i07	
+4nished business	1i08	
+4red earthenware	1i09	
+4t	au9	a
+5 for anything	1i0a	
+3lagging efforts	1i0b	
+5ppable	aua	80
+4inching righteousness	1i0c	
 3old	aub	fa
-4rtunate	auc	e
+6ing on a magnificent scale	1i0d	
+4reseen event	1i0e	
+bsituation	1i0f	
+5med stool	1i0g	
+5tunate	auc	e
+b man	1i0h	
 bly	aud	5e
+d cannot enjoy	1i0i	
 4unded	aue	80
+9 gossip	1i0j	
+arumor	1i0k	
+3ulfilled ambition	1i0l	
+cpromises	1i0m	
 2gainly	auf	a0
-3rudging	aug	80
+3raduated ruler	1i0n	
+4udging	aug	80
 3uarded	auh	80
 4ent	aui	80
 2happy	auj	e
+7 love affair	1i0o	
 3ealthy	auk	22
-2icorn	aul	80
-3dimensional	aum	80
+9 tendency	1i0p	
+brend	1i0q	
+5rd of	bp3	
+4lpful comment	1i0r	
+3ulled rice	1i0s	
+4sked rice	1i0t	
+2icellular organism	1i0u	
+4orn	aul	80
+3dentified flying object	1i0v	
+dorigin	1i0w	
+4imensional	aum	80
+5rectional current	1i0x	
 3fication	aun	80
+b and independence	1i0y	
+5ed administration	1i0z	
+8examination	1i10	
+8goods	1i11	
+avernment purchase	1i12	
 4orm	auo	fe
+7 invoice	1i13	
+8velocity	1i14	
 7ity	aup	40
 7ly	auq	8
 4y	aur	f8
 3lateral	aus	a0
+a declaration	1i15	
 3maginable	aut	40
+by far away	1i16	
 4passioned	auu	80
 5eachable	auv	80
+d conduct	1i17	
 5ortant	auw	2
-3nhabited	aux	40
+b thing	1i18	
+3ncorporated firm	1i19	
+4habited	aux	40
+b region	1i1a	
 4itiated	auy	80
+4spired imitation	1i1b	
+4terested in self-indulgence	1i1c	
+gwealth and glory	1i1d	
+4vited or unexpected guest	1i1e	
 3on	auz	7e
+5 jack	1i1f	
+6of the comoros	1i1g	
+6pacific railroad	1i1h	
 3que	av0	fe
+6 of its kind	1i1i	
+7skill	1i1j	
 6ness	av1	40
 3son	av2	80
 3t	av3	1f
+4 in charge of construction	1i1k	
+5of heat	1i1l	
+8length	1i1m	
+8volume	1i1n	
+8weight	1i1o	
+5price	1i1p	
+5tangent vector	1i1q	
+6rust	1i1r	
+5vector	1i1s	
 4e	av4	1e
 5d	av5	20
+6 arab emirates	1i1t	
+8s one	1i1u	
+7countries	1i1v	
+7front	1i1w	
+7kingdom	1i1x	
+7nations	1i1y	
+e charter	1i1z	
+hildren's fund	1i20	
+fdevelopment program	1i21	
+fenvironment program	1i22	
+fgeneral assembly	1i23	
+fsecretariat	1i24	
+iurity council	1i25	
+7parcel service	1i26	
+8ress international	1i27	
+7states	1i28	
+d coast guard	1i29	
+egeological survey	1i2a	
+ehouse of representatives	1i2b	
+eof america	1i2c	
+esenate	1i2d	
+evirgin islands	1i2e	
+7technologies corporation	1i2f	
 4y	av6	5c
+5 is strength	1i2g	
 3versal	av7	7e
+9 acclaim	1i2h	
+blgebra	1i2i	
+bpprobation	1i2j	
+abevel	1i2k	
+acelebration	1i2l	
+bharacter set ucs	1i2m	
+adeclaration of human rights	1i2n	
+bifferential equation	1i2o	
+aexposition	1i2p	
+ahypothesis	1i2q	
+amusic group	1i2r	
+apostal union	1i2s	
+arecords	1i2t	
+cjoicing	1i2u	
+asuffrage	1i2v	
 9ly	av8	8
+b abhorrent	1i2w	
+ddmired	1i2x	
+dppreciated	1i2y	
+cshocking	1i2z	
 7e	av9	5e
 7ities	ava	20
+c and colleges	1i30	
 9y	avb	1f
+a and high school students	1i31	
+bcity	1i32	
+bfor nationalities	1i33	
+bof alaska	1i34	
+frkansas	1i35	
+ebonn	1i36	
+fusiness studies	1i37	
+ecalifornia	1i38	
+gmbridge	1i39	
+fhicago	1i3a	
+fommunications	1i3b	
+eguam	1i3c	
+eleiden	1i3d	
+emanila	1i3e	
+fedicine	1i3f	
+fichigan	1i3g	
+enanking	1i3h	
+eoxford	1i3i	
+eparis	1i3j	
+fennsylvania	1i3k	
+escience and engineering	1i3l	
+ethe philippines	1i3m	
+fwente	1i3n	
+bpreparatory course	1i3o	
+bstudent	1i3p	
+bundergraduate course	1i3q	
 4ocal	avc	80
 2just	avd	c
+6 charge	1i3r	
+7enrichment	1i3s	
 6ified	ave	80
 6ly	avf	80
 2kempt	avg	80
+7 interior	1i3t	
 3ind	avh	c
 3nown	avi	e
-2leash	avj	80
+7 cause of death	1i3u	
+8factor	1i3v	
+8name	1i3w	
+9umber	1i3x	
+8whereabouts	1i3y	
+2lawful activities	1i3z	
+3eash	avj	80
+5vened dough	1i40	
 4ss	avk	5f
-3ike	avl	1e
+3icensed motor vehicle	1i42	
+bor unofficial taxi	1i43	
+bprostitute	1i41	
+bshop	1i44	
+ctreet vendor	1i45	
+4ke	avl	1e
+6 one's parents	1i46	
 6ly	avm	7c
 4mited	avn	8
+9 usage	1i47	
+4ned garment	1i48	
+8trousers	1i49	
+8upper garment	1i4a	
 3oad	avo	5c
+6ing point	1i4b	
 4ck	avp	8
+4oked-for happy event	1i4c	
 3ucky	avq	c
-2married	avr	2
+7 fate	1i4d	
+2manned aerial vehicle	1i4e	
+4rried	avr	2
+9 lady	1i4f	
+aman	1i4g	
+aold woman	1i4h	
+awoman	1i4i	
 4tched	avs	40
+9 in his generation	1i4j	
+3entionable disease	1i4k	
+eword	1i4l	
 3itigated	avt	80
 3oved	avu	80
-2necessary	avv	c
+7 by force or persuasion	1i4m	
+2named hero	1i4n	
+4tural relationship	1i4o	
+3ecessarily elaborate writing	1i4p	
+ay	avv	c
+b detail	1i4q	
+cexpenses	1i4r	
 3oticed	avw	80
+9 transformation	1i4s	
 2obstructed	avx	40
+c passage	1i4t	
 4trusive	avy	80
+3ccupied space or time	1i4u	
+3fficial biography	1i4v	
+bhistory	1i4w	
 3rthodox	avz	8
+a couple	1i4x	
 2pack	aw0	40
+4dded shoes	1i4y	
 4id	aw1	8
+6 leave	1i4z	
 4latable	aw2	c0
 4ralleled	aw3	40
-3leasant	aw4	e
+4steurized beer	1i50	
+3ixelated or uncensored	1i51	
+3laited pigtails	1i52	
+5stered masonry wall	1i53	
+7icized polyvinyl chloride	1i54	
+4easant	aw4	e
+a ailment	1i55	
+bmanner	1i56	
+bodor	1i57	
+bsmell	1i58	
+bto drink	1i59	
+ehear	1i5a	
+elook at	1i5b	
+ethe eye	1i5c	
+ls	1i5d	
+aly murky	1i5e	
 3recedented	aw5	c8
+d in history	1i5f	
 5dictable	aw6	40
+d situation	1i5g	
 5meditated	aw7	80
 5possessing	aw8	80
 5tentious	aw9	80
 4incipled	awa	80
-4oductive	awb	80
+4ocessed medicinal herb	1i5h	
+5ductive	awb	80
+c social interaction	1i5i	
 5mising	awc	40
 5voked	awd	80
+3urified water	1i5j	
 2qualified	awe	80
 4estionably	awf	40
 aing	awg	40
+d filial piety	1i5k	
+4iet state of mind	1i5l	
 2ravel	awh	e0
-3easonable	awi	8
+3ealistic argument	1i5m	
+cideas	1i5n	
+7zable plan	1i5o	
+5sonable	awi	8
+c remarks	1i5p	
+dwords	1i5q	
+4cognized talent	1i5r	
+6nciled to	1i5s	
+6verable debt	1i5t	
+4dressed injustice	1i5u	
+4fined sugar	1i5v	
 4generate	awj	80
+5istered and operating illegally	1i5w	
+dresident or household	1i5x	
 5ulated	awk	80
 4liable	awl	28
 4mitting	awm	80
+b efforts	1i5y	
+cin one's efforts	1i5z	
 4pentant	awn	80
 4quited	awo	80
 4served	awp	80
+5olved case	1i60	
+bquestion	1i61	
 5t	awq	22
 6rained	awr	40
+c attack	1i62	
+dby convention	1i63	
 7icted	aws	40
-3uly	awt	40
+c warfare	1i64	
+3ighted wrong	1i65	
+4pe wheat grain	1i66	
+3uffled by sentiment	1i67	
+4ly	awt	40
+6 people	1i68	
 2safe	awu	2
 4tisfactory	awv	4c
+5urated fatty acid	1i69	
+4vory character	1i6a	
+9track record	1i6b	
 3cathed	aww	80
 4ented	awx	80
 4rupulous	awy	c0
+c businessperson	1i6c	
+dcareerist	1i6d	
 cly	awz	40
 cness	ax0	80
 3easonably	ax1	40
@@ -215,99 +662,328 @@ cness	ax0	80
 4lfish	ax3	40
 4ttle	ax4	80
 7ing	ax5	80
+3ightly manners	1i6e	
+3killed labor	1i6f	
+aworker	1i6g	
 3ocial	ax6	20
+4iled by corrupt practices	1i6h	
+4licited mail	1i6i	
+5vable case	1i6j	
+6ed case	1i6k	
+9mystery	1i6l	
+9problem	1i6m	
 4phisticated	ax7	40
+f country person	1i6n	
 4und	ax8	80
-3poiled	ax9	c0
+3pecified period	1i6o	
+4oiled	ax9	c0
+5ken approval	1i6p	
+9criticism	1i6q	
+9rules	1i6r	
 5tted	axa	80
 3table	axb	4c
+8 equilibrium	1i6s	
+9situation	1i6t	
 4inting	axc	80
+4ratified rock	1i6u	
 3ubstantiated	axd	c0
 4ccessful	axe	2
 4itable	axf	c
+4sceptible to change	1i6v	
+3werving determination	1i6w	
+bfrom start to finish	1i6x	
 2tamed	axg	40
 4pped	axh	c0
-3hreatening	axi	80
+3hinking obedience	1i6y	
+4reatening	axi	80
 3ie	axj	8
 4l	axk	3
+5 now	1i6z	
+6the end of time	1i70	
+8is moment	1i71	
+6we meet again	1i72	
 4mely	axl	80
-3old	axm	a0
+8 death	1i73	
+3o one's dying day	1i74	
+4ld	axm	a0
+6 dangers and difficulties	1i75	
 4uched	axn	40
 4ward	axo	80
 3rue	axp	2
+6 statement	1i76	
+7to one's convictions	1i77	
 3utored	axq	80
 2usual	axr	3e
+7 condition	1i78	
+8new development	1i79	
+8person	1i7a	
 7ly	axs	c
 2veil	axt	40
-2warranted	axu	80
+6ing ceremony	1i7b	
+3oicing of voiced consonant	1i7c	
+2wanted presence	1i7d	
+9third guest	1i7e	
+4rranted	axu	80
+b thought	1i7f	
 3ieldy	axv	c0
 4lling	axw	e
+9 to accept	1i7g	
+dbe left out	1i7h	
+dconcede	1i7i	
+dgive up	1i7j	
+dlet go	1i7k	
+drespond	1i7l	
+4se move	1i7m	
 4tting	axx	80
 3onted	axy	80
 4rldly	axz	80
+5thy of	bow	
+9son	1i7n	
+3ritten law	1i7o	
+2yielding attitude	1i7p	
+bcharacter	1i7q	
 1p	ay0	3
-2-to-date	ay1	2c
+2 arrow key	1i7r	
+3in the sky	1i7s	
+3quark	1i7t	
+3till	1i7u	
+4o	1i7v	
+5 it	1i7w	
+6now	1i7x	
+6one's old tricks	1i7y	
+6par	1i7z	
+6the eyeballs	1i80	
+amaximum	1i81	
+apresent	1i82	
+atask	1i83	
+9n	1i84	
+3until now	1i85	
+9that point	1i86	
+2-pointing arrow	1i87	
+3to-date	ay1	2c
 2braid	ay2	c0
 2date	ay3	38
 2front	ay4	80
 2grade	ay5	d8
 2heaval	ay6	c0
+3ill road	1i88	
+7section	1i89	
 3old	ay7	f8
 2keep	ay8	20
 2land	ay9	40
+6 pipit	1i8a	
 2on	aya	1f
+4 investigation	1i8b	
 2per	ayb	1e
+5 arm	1i8c	
+6beam	1i8d	
+7ound	1i8e	
+6chamber	1i8f	
+7lass	1i8g	
+6echelon	1i8h	
+7yelid	1i8i	
+6garment	1i8j	
+6house	1i8k	
+6jacket	1i8l	
+6layer	1i8m	
+7eft	1i8n	
+8vel	1i8o	
+7imb	1i8p	
+9it	1i8q	
+8p	1i8r	
+6outer garment	1i8s	
+6part	1i8t	
+a of the body	1i8u	
+6reaches	1i8v	
+8spiratory tract infection	1i8w	
+7ight	1i8x	
+6section	1i8y	
+7tage	1i8z	
+6teeth	1i90	
+5-class woman	1i91	
+5case letters	1i92	
+5s of a shoe	1i93	
 2right	ayc	fc
+7 and above board	1i94	
+cfrank	1i95	
+chonest	1i96	
+forable	1i97	
+coutspoken	1i98	
+gtanding	1i99	
+cplainspoken	1i9a	
+ctall	1i9b	
+cunafraid	1i9c	
+eyielding	1i9d	
+8gentleman	1i9e	
+8person	1i9f	
+8stone	1i9g	
 4sing	ayd	60
 3oar	aye	d8
 6ious	ayf	80
+a laughter	1i9h	
 4ot	ayg	40
-2scale	ayh	40
+2s and down	1i9i	
+cs	1i9j	
+d of fortune	1i9k	
+3cale	ayh	40
 3et	ayi	7e
-3ide-down	ayj	4c
+5 stomach	1i9l	
+3ide down	1i9m	
+b writing	1i9n	
+6-down	ayj	4c
 3tage	ayk	80
 5irs	ayl	1f
+5nding person	1i9o	
 5rt	aym	80
 3urge	ayn	80
 3wing	ayo	80
 2tight	ayp	80
 3odate	ayq	4
 2ward	ayr	1e
+6 momentum	1i9p	
+7of	bm3	
+7trend	1i9q	
+6-facing dog	1i9r	
 6s	ays	c
-1ranium	ayt	8
+7 of	bnq	
+1racil nucleotide	1i9s	
+3l mountains	1i9t	
+5owl	1i9u	
+3nium	ayt	8
+7 dioxide	1i9v	
+8enrichment	1i9w	
+8hexafluoride	1i9x	
+8oxide	1i9y	
+8tetrafluoride	1i9z	
 2ban	ayu	5e
+5 area	1ia0	
+6development project	1ia1	
+7istrict	1ia2	
+6heat island effect	1ia3	
+6legend	1ia4	
+6railway	1ia5	
 5e	ayv	40
 5ism	ayw	40
 6te	ayx	40
 6zation	ayy	40
+c level	1ia6	
 7e	ayz	40
 2chin	az0	a0
+2ea formaldehyde	1ia7	
 2ge	az1	5e
 4ncy	az2	40
 5t	az3	de
-2sine	az4	80
+6 advice	1ia8	
+7matter	1ia9	
+7need	1iaa	
+7task	1iab	
+6ly required	1iac	
+2ic acid	1iad	
+3nary bladder	1iae	
+8catheter	1iaf	
+8incontinence	1iag	
+8or defecatory urgency	1iah	
+agans	1iai	
+8system	1iaj	
+8tract	1iak	
+8urgency	1ial	
+5tion and defecation	1iam	
+4e and feces	1ian	
+6sample	1iao	
+6test	1iap	
+4ogenital tract	1iaq	
+2n burial	1iar	
+2sa minor	1ias	
+3ine	az4	80
+2text edition	1iat	
 1s	az5	1
-2age	az6	3c
+2 and canada	1iau	
+7eu	1iav	
+7north korea	1iaw	
+7uk	1iax	
+4rmed forces	1iay	
+6y	1iaz	
+3congress	1ib0	
+3defense language institute	1ib1	
+5partment of energy	1ib2	
+hstate	1ib3	
+4ollar	1ib4	
+9 bill	1ib5	
+3open	1ib6	
+3securities and exchange commission	1ib7	
+2a and germany	1ib8	
+4eastern standard time	1ib9	
+3ble value	1iba	
+3ge	az6	3c
+5 amount	1ibb	
+6rights	1ibc	
+2b flash drive	1ibd	
 2e	az7	3
+3 both carrot and stick	1ibe	
+4gentle methods and force	1ibf	
 3d	az8	1d
+4 bike market	1ibg	
+5for its intended purpose	1ibh	
+5goods	1ibi	
+5in advertising	1ibj	
+6tems for sale	1ibk	
+5properly	1ibl	
+5to	1ibm	
+5up	1ibn	
 3ful	az9	3f
+6 talents	1ibo	
 3less	aza	6e
+7 person	1ibp	
+8thing	1ibq	
+9roops	1ibr	
+8weakling	1ibs	
+9retch	1ibt	
 3r	azb	e
+4 friendliness	1ibu	
+5interface	1ibv	
+4-generated content	1ibw	
 2her	azc	40
+2ing extreme force of will	1ibx	
+6materials at hand	1iby	
+6several	1ibz	
+7pies	1ic0	
+6the toilet	1ic1	
+2suri river	1ic2	
 2ual	azd	3f
+5 place	1ic3	
+7ractice	1ic4	
+6trick	1ic5	
 5ly	aze	2
 3rp	azf	80
 4y	azg	80
 1tensil	azh	c8
+7 made of bamboo	1ic6	
 7s	azi	20
+3rine bleeding	1ic7	
 2ilitarian	azj	c0
 6y	azk	6c
+7 frequency	1ic8	
+8knife	1ic9	
+8pole	1ica	
 5zation	azl	48
 6e	azm	dc
 2most	azn	3c
+6 effort	1icb	
 0Utopia	azo	80
 6n	azp	c0
-0utter	azq	dc
+0utopian socialism	1icc	
+2tar pradesh	1icd	
+3er	azq	dc
+5 humiliation	1ice	
 5ance	azr	40
 5ly	azs	60
+7 confused	1icf	
+8defeated	1icg	
+9ifferent	1ich	
+ascomfited	1ici	
+8fearless	1icj	
+8sincere	1ick	
 1xorious	azt	80
+1yghur ethnic group	1icl	
+1zbek ethnic group	1icm	
+6language	1icn	

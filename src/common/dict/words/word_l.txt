@@ -1,453 +1,2054 @@
-0lab	5tj	3f
+0l-shaped staircase	r64	
+1a marseillaise	r65	
+3salle	r66	
+2b	5tj	3f
 3el	5tk	5c
-3ile	5tl	80
+3ial angle	r67	
+7consonant	r68	
+4le	5tl	80
 3or	5tm	10
+5 and employer	r69	
+6camp	r6a	
+7ommittee	r6b	
+8ntract	r6c	
+eor	r6d	
+8st	r6e	
+6exchange	r6f	
+es	r6g	
+6force	r6h	
+6insurance	r6i	
+6market	r6j	
+6pains	r6k	
+8rty	r6l	
+7ower	r6m	
+6value	r6n	
+6ward	r6o	
 5atory	5tn	6d
+a flask	r6p	
+binfection	r6q	
+bmedicine	r6r	
 5ed	5to	80
 6r	5tp	40
+7 from mainland china	r6s	
 5ious	5tq	60
+9 at pains	r6t	
+aeffort	r6u	
 9ly	5tr	40
 4ur	5ts	f
 6er	5tt	2
+3rador retriever	r6v	
 3yrinth	5tu	c0
-2ce	5tv	fc
+9us vestibularis	r6w	
+2c tree	r6x	
+3e	5tv	fc
+4 border	r6y	
+6ug	r6z	
+5hemming	r70	
+4bark pine	r71	
+4d woodpecker	r72	
 4rate	5tw	80
 7ion	5tx	80
 3hrymose	5ty	80
 3k	5tz	36
+4 of	bm5	
+7 discipline	r73	
+8order	r74	
+8regard	r75	
+8sticking power	r76	
+9upplies	r77	
 4adaisical	5u0	80
 4ey	5u1	c0
+4ing a sense of perspective	r78	
+8class	r79	
+8happiness	r7a	
+8in class	r7b	
+confidence	r7c	
+bdetail	r7d	
+bmanners	r7e	
+bpropriety	r7f	
+bsubstance	r7g	
+bvitality	r7h	
+8oxygen	r7i	
+8skill	r7j	
+9trength	r7k	
+g and support	r7l	
+8three key attributes	r7m	
+8youthful vigor	r7n	
 4luster	5u2	80
 3onic	5u3	80
-3tic	5u4	80
+3rimal gland	r7o	
+9punctum	r7p	
+3tation period	r7q	
+4ic	5u4	80
+6 acid	r7r	
+b bacteria	r7s	
+4obacillus acidophilus	r7t	
+5se intolerance	r7u	
 2d	5u5	10
 3der	5u6	1e
 3en	5u7	20
+5 with grief	r7v	
+3ies and gentlemen	r7w	
+7bicycle	r7x	
+6' man	r7y	
 3y	5u8	17
+4 amherst's pheasant	r7z	
+5boss	r80	
+5day	r81	
+5macbeth	r82	
+5of a certain age	r83	
+4's chamber	r84	
+7demeanor	r85	
+8ressing case	r86	
+groom	r87	
+7fingers	r88	
+7private room or bedroom	r89	
+4bell root	r8a	
 2g	5u9	fc
 3gard	5ua	80
+4ing behind	r8b	
 3oon	5ub	c0
+2hu ethnic group	r8c	
 2ir	5uc	80
 3ty	5ud	80
 2ke	5ue	23
+4 balkhash in southeast kazakhstan	r8d	
+5chad	r8e	
+6onstance	r8f	
+5dianchi in yunnan	r8g	
+5front	r8h	
+5of burning sulfur	r8i	
+5tanganyika in east africa	r8j	
+6ianchi in xinjiang	r8k	
+7ticaca	r8l	
 4s	5uf	20
-2mb	5ug	3f
+5 and marshes	r8m	
+aponds	r8n	
+2ma temple	r8o	
+3b	5ug	3f
+4 chop	r8p	
+5kebab	r8q	
 4aste	5uh	80
 3e	5ui	3e
+4 joke	r8r	
+5person	r8s	
 4nt	5uj	e0
 6able	5uk	80
 7tion	5ul	8
-3inate	5um	80
+3inar flow	r8t	
+6te	5um	80
+7ing film	r8u	
+bmachine	r8v	
+bpouch	r8w	
 3p	5un	7f
+4 wick	r8x	
 4oon	5uo	80
 4shade	5up	40
 2nce	5uq	80
+5olated warbler	r8y	
 5t	5ur	80
 3d	5us	63
+4 area	r8z	
+5grader	r90	
+5in common use	r91	
+6s extremely expensive	r92	
+5management	r93	
+6ine	r94	
+5of fantasy	r95	
+9ish and rice	r96	
+8milk and honey	r97	
+8plenty	r98	
+5price	r99	
+5reclamation	r9a	
+7form	r9b	
+7gister	r9c	
+7nt	r9d	
+7sources	r9e	
+6oute	r9f	
+7ver	r9g	
+5snail	r9h	
+5tax	r9i	
+6ransport	r9j	
+5under heaven	r9k	
+6se plan	r9l	
+4-based missile	r9m	
+5holding peasant	r9n	
+5owning household	r9o	
 4fill	5ut	80
 4ing	5uu	4c
+7 account	r9p	
+8craft	r9q	
+8platform	r9r	
+8site	r9s	
+9tage	r9t	
 4lady	5uv	3c
+5ine telecommunications	r9u	
 5ocked	5uw	80
+a country	r9v	
 6rd	5ux	1c
+8 of a building	r9w	
 4mark	5uy	c0
 6ss	5uz	40
 4scape	5v0	68
+9 design	r9x	
+ain a pot	r9y	
+apainting	r9z	
 5lide	5v1	c0
 3e	5v2	3c
-3guage	5v3	23
+4s and alleys	ra0	
+3gfeng mountain	ra1	
+4uage	5v3	23
+8 barrier	ra2	
+aranch	ra3	
+9deficit	ra4	
+9family	ra5	
+9laboratory	ra6	
+9of the trade	ra7	
+9training	ra8	
+aype	ra9	
 5id	5v4	e0
 6sh	5v5	c0
 5or	5v6	80
 3k	5v7	c0
 3tern	5v8	1e
+7 festival	raa	
+9ish	rab	
+8slides	rac	
+3zhou and xinjiang	rad	
+8university	rae	
+7-xinjiang railway	raf	
+8zhengzhou-changsha oil pipeline	rag	
+2o zi	rah	
 2p	5v9	be
+3 dance	rai	
+3el badge	raj	
+6of jacket	rak	
 3idary	5va	80
+4s lazuli	ral	
+3land longspur	ram	
 3se	5vb	b0
 3top	5vc	10
-2rder	5vd	80
+6 computer	ran	
+2rch tree	rao	
+3der	5vd	80
 3ge	5ve	3
+5 amount	rap	
+7nd beautiful	raq	
+afirm-fleshed	rar	
+ainfluential family	ras	
+asmall	rat	
+bpacious	rau	
+7rea	rav	
+8my	raw	
+6breasts	rax	
+7us	ray	
+6caliber	raz	
+7ity	rb0	
+7ompany	rb1	
+7uckooshrike	rb2	
+6distance	rb3	
+6elegiac scroll	rb4	
+6fall	rb5	
+7lat bread	rb6	
+6hammer	rb7	
+8wk-cuckoo	rb8	
+6inscribed stele	rb9	
+6knife	rba	
+6landholding	rbb	
+alord	rbc	
+7eaf gentian	rbd	
+6meatball	rbe	
+7ilitary unit	rbf	
+7onastery	rbg	
+f or convent	rbh	
+6niltava	rbi	
+7umber of people	rbj	
+cs of	rbk	
+6pool in a bathhouse	rbl	
+6quantities of	rbm	
+dy	rbn	
+6river	rbo	
+7ound baked wheat pancake	rbp	
+6scale	rbq	
+b unification	rbr	
+8imitar babbler	rbs	
+7hip	rbt	
+7ize	rbu	
+7trides	rbv	
+7um of money	rbw	
+6warship	rbx	
+7heel	rby	
+7icker basket	rbz	
+7oodshrike	rc0	
+5-billed crow	rc1	
+dleaf warbler	rc2	
+6leaved dogwood	rc3	
+6scale chinese opera	rc4	
+doncerted effort	rc5	
+cimport and export	rc6	
+cwar	rc7	
+6tailed nightjar	rc8	
+5head hairtail	rc9	
 5ly	5vf	5c
 5ss	5vg	80
 7e	5vh	80
+6t typeface	rca	
+7-size housepainter's brush	rcb	
 3k	5vi	80
 3va	5vj	c0
 5e	5vk	40
-3ynx	5vl	40
-2ser	5vm	7e
+3yngeal prominence	rcc	
+5x	5vl	40
+2scivious pose	rcd	
+3er	5vm	7e
+5 cutting	rce	
+6diode	rcf	
+6pointer	rcg	
+7rinter	rch	
 3h	5vn	f0
-3situde	5vo	80
+4 mark	rci	
+3sa virus	rcj	
+4itude	5vo	80
 4o	5vp	80
+5 on long wooden pole	rck	
+6pole	rcl	
 3t	5vq	2
+4 bus or train	rcm	
+5chance	rcn	
+5day	rco	
+6isciple of a master	rcp	
+5few days	rcq	
+5gasp	rcr	
+5item on a program	rcs	
+fshow	rct	
+5month	rcu	
+5night	rcv	
+5one in line	rcw	
+5page	rcx	
+7ragraph	rcy	
+8t	rcz	
+6hase	rd0	
+5service	rd1	
+7veral years	rd2	
+6tage	rd3	
+5third of the month	rd4	
+6ime	rd5	
+5week	rd6	
+6ords of the dying	rd7	
+5year	rd8	
+4-man-standing game	rd9	
 4ing	5vr	c0
+7 blessings	rda	
+8for ages	rdb	
+8happiness	rdc	
+8peace	rdd	
+8until	rde	
 2tch	5vs	80
 3e	5vt	3
+4 afternoon	rdf	
+6t night	rdg	
+6utumn	rdh	
+5childbirth	rdi	
+5degenerate stage	rdj	
+5fine	rdk	
+5in the month	rdl	
+5last year	rdm	
+5ming	rdn	
+5qing	rdo	
+5season of a year	rdp	
+6leeper	rdq	
+6tage	rdr	
+5tang period	rds	
+5wife	rdt	
+4-night snack	rdu	
+cupper	rdv	
 4ly	5vu	5e
 4ncy	5vv	80
 5t	5vw	f8
+6 heat	rdw	
+b of evaporation	rdx	
+7image	rdy	
+7menstruation	rdz	
 4r	5vx	1e
+5 generation	re0	
+gs	re1	
+6jin dynasty	re2	
+6king huai of chu	re3	
+6on	re4	
+6period	re5	
+5-period homo sapiens	re6	
 5al	5vy	f0
-4st	5vz	22
-3he	5w0	c8
+7 consonant	re7	
+aurt	re8	
+8malleolus	re9	
+8root	rea	
+8side	reb	
+9ulcus or sylvian fissure	rec	
+4s calcarifer	red	
+5t	5vz	22
+6 fashion	ree	
+4x paint	ref	
+3ham's snipe	reg	
+4e	5w0	c8
+5 operator	reh	
+6work	rei	
 0Latin	5w1	1c
-0latitude	5w2	f8
-3ter	5w3	5e
+0latin alphabet	rej	
+7merica	rek	
+6dance	rel	
+6letters	rem	
+6name	ren	
+6square	reo	
+4ssimus dorsi muscle	rep	
+4tude	5w2	f8
+3rine pit	req	
+3te macchiato	rer	
+5r	5w3	5e
+6 half	res	
+b of one's life	ret	
 4ice	5w4	88
 2ud	5w5	c0
 4able	5w6	60
 3gh	5w7	3
+5 in one's sleeve	reu	
+6lines	rev	
+5able low-budget special effects	rew	
+5ing dove	rex	
+9gas	rey	
+aull	rez	
+9maitreya	rf0	
+btter	rf1	
+9out loud	rf2	
+9sound	rf3	
 5ter	5w8	1e
 3nch	5w9	7c
+6 pad	rf4	
+7site	rf5	
+6ing ceremony	rf6	
+asilo	rf7	
 4dry	5wa	7e
+7 detergent	rf8	
+8room	rf9	
 3rel	5wb	40
+6 crown	rfa	
+7leaf	rfb	
+7tree	rfc	
 6s	5wc	40
 2va	5wd	e0
+4 flow	rfd	
+5lake	rfe	
 4tory	5we	1e
 3e	5wf	c0
 3ish	5wg	e0
+6 meal	rff	
+7treatment	rfg	
 2w	5wh	3f
+3 and order	rfh	
+4court	rfi	
+4enforcement	rfj	
+4firm	rfk	
+4of behavior	rfl	
+7conservation of charge	buh	
+nenergy	but	
+nmass	bv0	
+ptter	bwp	
+oomentum	bwt	
+7elasticity of demand	bwo	
+7moses	rfm	
+7perdurability of matter	bwr	
+asistance of energy	bv6	
+7sines	rfn	
+4school	rfo	
+3-abiding citizenry	rfp	
+3less area	rfq	
 3n	5wi	7c
-3suit	5wj	48
+4 bowls	rfr	
+5mower	rfs	
+3s and decrees	rft	
+5of motion	rfu	
+4uit	5wj	48
 3yer	5wk	3e
 2x	5wl	20
 3ative	5wm	80
 2y	5wn	7f
+3 name	rfv	
+4practitioners of buddhism	rfw	
 3er	5wo	7c
+5 of frozen soil	rfx	
+9soil	rfy	
+9tissue in embryology	rfz	
+6upon layer	rg0	
+5ed skirt	rg1	
 5ing	5wp	40
+3flat industrial hose	rg2	
+3ing hen	rg3	
 3man	5wq	f8
+6's eyes	rg4	
 3off	5wr	38
 4ut	5ws	7c
+6 and graphics	rg5	
 4ver	5wt	80
+3san albatross	rg6	
 2zy	5wu	17
-1ead	5wv	57
+4 person	rg7	
+5susan	rg8	
+1e figaro	rg9	
+3havre	rga	
+2ach's storm petrel	rgb	
+3d	5wv	57
+4 actor	rgc	
+6ircraft	rgd	
+5foil	rge	
+6rame	rgf	
+5guitar	rgg	
+5ore	rgh	
+5paragraph	rgi	
+6lotter	rgj	
+6osition	rgk	
+5singer	rgl	
+6tory	rgm	
+5underwriter	rgn	
+4-acid accumulator	rgo	
 4er	5ww	f
+6 of a criminal gang	rgp	
+cgroup	rgq	
+ctheatrical troupe	rgr	
 6ship	5wx	5c
+a authority	rgs	
+bconference	rgt	
+bgroup	rgu	
+bmeeting	rgv	
 4ing	5wy	5e
+7 actors	rgw	
+8figure	rgx	
+9oot	rgy	
+8light	rgz	
+8principles	rh0	
+8singer	rh1	
+8to	rh2	
+a good consequences	rh3	
+8vowel of diphthong	rh4	
 3f	5wz	1f
+4 arrangement	rh5	
+5blower	rh6	
+6ud	rh7	
+5fat	rh8	
+5lard	rh9	
+6itter	rha	
+5mustard	rhb	
+5sheath	rhc	
+6urface	rhd	
+5tobacco	rhe	
+5venation	rhf	
+5warbler	rhg	
+4-nosed bat	rhh	
+4cutter bee	rhi	
 4let	5x0	38
 3gue	5x1	42
+6 member	rhj	
+7of legends	rhk	
+7table	rhl	
+8ournament	rhm	
 3k	5x2	fe
 4age	5x3	88
 4y	5x4	40
+5 pot	rhn	
 3n	5x5	dc
+4 and hungry look	rho	
+5meat	rhp	
+5type	rhq	
+5year	rhr	
+4ing tower	rhs	
+d of pisa	rht	
+4ness-enhancing agent	rhu	
 3p	5x6	7c
+4 month	rhv	
+5year	rhw	
 3rn	5x7	23
+5 from past mistake	rhx	
+6of	bmi	
 5ed	5x8	1e
+7 and erudite	rhy	
+8helplessness	rhz	
+8person	ri0	
+8scholar	ri1	
 5ing	5x9	1c
+8 difficulties	ri2	
+bsability	ri3	
 3se	5xa	f8
 4h	5xb	c0
 4t	5xc	3f
+5 common multiple	ri4	
+6sandpiper	ri5	
+7quares	ri6	
+d method	ri7	
+6upper bound	ri8	
+6value	ri9	
 3ther	5xd	5e
+7 bag	ria	
+9elt	rib	
+8cover	ric	
+ding	rid	
+8float	rie	
+8goods	rif	
+8jacket or coat	rig	
+8pants	rih	
+9ouch	rii	
+9roducts	rij	
+9urse	rik	
+8shoes	ril	
+9trap	rim	
+9uitcase	rin	
+8upper	rio	
 3ve	5xe	23
+5 it in your hands	rip	
+9to me	riq	
+6of absence request	rir	
+hwithout pay	ris	
+6the past behind	rit	
+6without pay	riu	
 5n	5xf	80
-2ctern	5xg	80
+6ing agent	riv	
+4ing aside	riw	
+8much to be desired	rix	
+8none left	riy	
+2bedev or lebedyev	riz	
+2cherous devil	rj0	
+3tern	5xg	80
 4ure	5xh	3e
-2dge	5xi	40
+7 hall	rj1	
+8theater	rj2	
+2d strip light	rj3	
+3ge	5xi	40
 5r	5xj	80
 2er	5xk	80
 4y	5xl	80
 3ward	5xm	80
 5y	5xn	80
 2ft	5xo	3
+4 and right	rj4	
+e hands	rj5	
+6rrow key	rj6	
+5bank	rj7	
+5forward	rj8	
+5hook and right hook	rj9	
+5panel	rja	
+5rudder	rjb	
+5side	rjc	
+5to one's own devices	rjd	
+5unattended	rje	
+5wing	rjf	
+4-hand side	rjg	
+e of a vehicle	rjh	
+5luggage office	rji	
+5pointing arrow	rjj	
 4over	5xp	2
+8 agricultural plastic	rjk	
+9food	rjl	
+9men	rjm	
+8s from a meal	rjn	
 2g	5xq	3
+3 press	rjo	
+4vise	rjp	
+4warmers	rjq	
+5rappings	rjr	
 3acy	5xr	d8
 4l	5xs	7e
+5 affairs	rjs	
+7id	rjt	
+6case	rju	
+7ode	rjv	
+8nfrontation	rjw	
+6dispute	rjx	
+6fees	rjy	
+7iction	rjz	
+7orce	rk0	
+6holiday	rk1	
+6net	rk2	
+6person	rk3	
+7rinciple	rk4	
+6representative of a corporation	rk5	
+6sanction	rk6	
+7tudies	rk7	
+7ystem and institutions	rk8	
 5ize	5xt	40
+5ly binding seal	rk9	
+7-traded salt	rka	
 3end	5xu	fc
 6ary	5xv	40
+9 abode of immortals	rkb	
+abeast	rkc	
+bird with nine heads	rkd	
+agiant bird	rke	
+brass conferring invisibility	rkf	
+amagic potion of immortals	rkg	
+bountain spirit	rkh	
+aperson	rki	
+areputation	rkj	
+astock investor	rkk	
 4rdemain	5xw	80
 3ible	5xx	c0
 4on	5xy	c0
+6ella bacteria	rkl	
+6naires' disease	rkm	
 4slate	5xz	e0
 8ion	5y0	fc
+9ve assembly	rkn	
+ccommittee	rko	
+euncil	rkp	
+j of macao	rkq	
+celections	rkr	
+cyuan	rks	
 8ure	5y1	c0
 4timate	5y2	b8
-3ume	5y3	40
-2isure	5y4	7c
+a defense	rkt	
+3s and feet	rku	
+3um baccalaureus	rkv	
+6doctor	rkw	
+5e	5y3	40
+6 family	rkx	
+6-based product	rky	
+5inous plant	rkz	
+2hman or leymann	rl0	
+2ica camera	rl1	
+3sure	5y4	7c
+7 shoes	rl2	
+8time	rl3	
 7liness	5y5	80
 8y	5y6	40
+9 and carefree	rl4	
+m mood	rl5	
+fomfortable	rl6	
+efree	rl7	
+everbose	rl8	
+aframe of mind	rl9	
+amood	rla	
+3zhou peninsula	rlb	
 2mon	5y7	36
+5 chicken	rlc	
+6juice	rld	
+6tea	rle	
+5-rumped warbler	rlf	
 5ade	5y8	3
 2nd	5y9	3
 4er	5ya	20
+4ing interest rate	rlg	
 3gth	5yb	3e
+6 and breadth	rli	
+7of a book	rlj	
+cfilm	rlh	
+cmusical note	rlk	
+alife	rll	
+amarried life	rlm	
+bilitary service	rln	
+aschooling	rlo	
+atime	rlp	
 6en	5yc	48
 6y	5yd	40
 3iency	5ye	80
 6t	5yf	a0
+7 treatment	rlq	
+3ovo group	rlr	
 3s	5yg	7c
-2opard	5yh	48
+3ticular brackets	rls	
+2o minor	rlt	
+3pard	5yh	48
+7 cat	rlu	
+8lily	rlv	
 2prosy	5yi	20
+2roy merlin	rlw	
 2sion	5yj	80
 3s	5yk	16
+4 advanced	rlx	
+5crowded	rly	
+5serious case	rlz	
+5than	rm0	
+4-than-truck-load freight	rm1	
 4en	5yl	c
+5r adjutant	rm2	
+7black-backed gull	rm3	
+7coucal	rm4	
+8rested tern	rm5	
+8uckoo	rm6	
+7fish eagle	rm7	
+8rigatebird	rm8	
+7galangale	rm9	
+8rey shrike	rma	
+7kestrel	rmb	
+7necklaced laughingthrush	rmc	
+7panda	rmd	
+7racket-tailed drongo	rme	
+7shortwing	rmf	
+8potted woodpecker	rmg	
+7whistling duck	rmh	
+ate-fronted goose	rmi	
+cthroat	rmj	
+7yellowlegs	rmk	
+dnape	rml	
 4on	5ym	3
+6 plan	rmm	
+7to be learned	rmn	
 6s	5yn	20
 3t	5yo	1c
+4er or leicester	rmo	
 2t	5yp	23
+3 alone	rmq	
+4bygones be bygones	rmr	
+4have his way	rmp	
+4it be	rms	
+7pass	rmt	
+4the matter drop	rmu	
+3's not talk about it	rmv	
 3hal	5yq	e0
+6 agent	rmw	
+7dose	rmx	
+7point	rmy	
+7weapon	rmz	
 5rgic	5yr	c0
 7y	5ys	c0
+3sie iii of lesotho	rn0	
 3ter	5yt	23
+6 from afar	rn1	
+7of appointment	rn2	
+acongratulations	rn3	
+bredit	rn4	
+aintent	rn5	
+arepentance	rn6	
+athanks	rn7	
+7paper	rn8	
+8uzzle	rn9	
+7sent by express mail	rna	
+8heet	rnb	
+7written in reply	rnc	
+6s or words	rnd	
+4ing everyone have their say	rne	
 4uce	5yu	40
 2vee	5yv	80
 4l	5yw	3f
+5 and broad	rnf	
+aoblique tones	rng	
+6crossing	rnh	
+6farmland	rni	
+6ground	rnj	
+6of heat	rnk	
+9illumination	rnl	
+9mastery	rnm	
+9support	rnn	
+7r even tone	rno	
+6road	rnp	
+6surface	rnq	
+6with one's knees	rnr	
+hshoulders	rns	
 5headed	5yx	80
 5s	5yy	20
 4r	5yz	bc
+5 arm	rnt	
+6hoist pulley	rnu	
+6pulley block	rnv	
+5-style guillotine	rnw	
 5age	5z0	4
-3ity	5z1	c0
+8d buyout	rnx	
+3ies in kind	rny	
+4sticum officinale	rnz	
+4ty	5z1	c0
 3y	5z2	f0
+2wd demon	ro0	
+5song	ro1	
+5talk	ro2	
 2xical	5z3	80
+7 category	ro3	
+8item	ro4	
 5ographer	5z4	80
 6n	5z5	80
-1iability	5z6	b8
+2y lines	ro5	
+1halu suburb of lhasa	ro6	
+2oba ethnic group	ro7	
+1i ethnic group of hainan	ro8	
+3wei gong	ro9	
+2ability	5z6	b8
+9 insurance	roa	
 4le	5z7	3c
 3ison	5z8	e0
+7 officer	rob	
+3n county in guangdong	roc	
+4g dynasty	rod	
+6of the southern dynasties	roe	
+5shan city in shandong	rof	
+5xiang town in beijing municipality	rog	
+3odong peninsula	roh	
+4ning university	roi	
 3r	5z9	c
+4's dice	roj	
 2bel	5za	c0
 5ous	5zb	80
 4ral	5zc	7c
+7 arts	rok	
+8democratic party	rol	
+8education	rom	
+8party	ron	
+8treatment	roo	
+8with one's money	rop	
 7ity	5zd	80
 7ly	5ze	40
 6te	5zf	de
 7ion	5zg	e
+a day	roq	
+bmovement	ror	
+btigers of tamil eelam	ros	
 5tine	5zh	80
 6y	5zi	de
 3ido	5zj	80
 3rarian	5zk	5e
 7es	5zl	20
 6y	5zm	23
+7 card	rot	
+9ollection	rou	
+8holdings	rov	
 4etto	5zn	80
 2cence	5zo	24
 5se	5zp	9f
+7 plate	row	
+6ing agreement	rox	
 5tious	5zq	80
 3hen	5zr	40
 3it	5zs	80
 3k	5zt	3c
+3orice root	roy	
 2d	5zu	1e
+3ded teacup	roz	
 2e	5zv	3
+3 algebra	rp0	
+4group	rp1	
 3n	5zw	80
+4teric diarrhea	rp2	
+3s and slander	rp3	
+gs	rp4	
 3utenant	5zx	c
-2fe	5zy	3
+a colonel	rp5	
+dmmander	rp6	
+bgovernor of us state	rp7	
+2fan group	rp8	
+3e	5zy	3
+4 after birth	rp9	
+6nd death	rpa	
+e crisis	rpb	
+9livelihood	rpc	
+5cycle	rpd	
+5expectancy	rpe	
+5force	rpf	
+5imprisonment	rpg	
+6nsurance	rph	
+6s but a dream	rpi	
+8motion	rpj	
+5jacket	rpk	
+5mentor	rpl	
+5of debauchery	rpm	
+6r death	rpn	
+5sciences	rpo	
+6entence	rpp	
+6pan	rpq	
+5tenure	rpr	
+5vest	rps	
+4's daily necessities	rpt	
+7necessities	rpu	
+7vicissitudes	rpv	
+4-and-death power	rpw	
+5long smoker	rpx	
+4boat service	rpy	
+4long partner or companion	rpz	
 4saver	5zz	40
 5tyle	600	20
+9 diseases	rq0	
 4time	601	1e
+8 achievements	rq1	
 3t	602	77
 2gature	603	80
 3ht	604	23
-5en	605	c
+5 and airy	rq2	
+e feeling	rq3	
+aconvenient	rq4	
+aeasy to use	rq5	
+agraceful	rq6	
+aquick	rq7	
+ashade	rq8	
+eow	rq9	
+boft	rqa	
+7s a feather	rqb	
+6beam	rqc	
+8er	rqd	
+7lue	rqe	
+7rown	rqf	
+7ulb	rqg	
+8t bulky goods	rqh	
+6cavalry	rqi	
+7olor	rqj	
+8ne	rqk	
+8tton fabric	rql	
+7yan	rqm	
+6dinner	rqn	
+6element	rqo	
+7nergy	rqp	
+8gineering	rqq	
+6green	rqr	
+6in august	rqs	
+9optical spectrum	rqt	
+8dustry	rqu	
+8tellectual conversation	rqv	
+6literature	rqw	
+6machine gun	rqx	
+8keup	rqy	
+7eter	rqz	
+7otorcycle	rr0	
+7usic	rr1	
+9lin	rr2	
+6of firefly	rr3	
+9the setting sun	rr4	
+7n one's feet	rr5	
+6pen	rr6	
+8troleum	rr7	
+f product	rr8	
+7illar	rr9	
+7ollution	rra	
+6radiation	rrb	
+8il	rrc	
+9n	rrd	
+8y	rre	
+7eading	rrf	
+8flected from an object	rrg	
+9reshments	rrh	
+7oast	rri	
+6sensitive	rrj	
+7ilk	rrk	
+7ource	rrl	
+8y sauce	rrm	
+6tan	rrn	
+7herapy	rro	
+7o the barbarian	rrp	
+6van	rrq	
+6water	rrr	
+b reactor	rrs	
+8ve	rrt	
+7eapon	rru	
+7ind	rrv	
+6yellow	rrw	
+5-emitting diode	rrx	
+6vented bulbul	rry	
+5ed buoy	rrz	
+6n	605	c
 6r	606	8
 5house	607	40
+a keeper	rs0	
+5ing effect	rs1	
 5ly	608	c
+7 pigmented	rs2	
+8touching the water	rs3	
+8wounded	rs4	
 5ning	609	1e
+9 and thunder	rs5	
+brrester	rs6	
+bttack	rs7	
+abug	rs8	
+aflashes	rs9	
+arod	rsa	
+aspeed	rsb	
+btrike	rsc	
+awar	rsd	
 5s	60a	20
+6 out	rse	
+5weight and portable	rsf	
 3neous	60b	80
+3usticum levisticum	rsg	
+broot	rsh	
+2jiang old town	rsi	
 2ke	60c	3
+4 a drowned rat	rsj	
+7father	rsk	
+7wisp of smoke	rsl	
+5gold or jade	rsm	
+5old friends	rsn	
+5polarities repel each other	rso	
+5repels like	rsp	
+5this	rsq	
+5wildfire	rsr	
 4lihood	60d	3c
+a of being worthwhile	rss	
 5y	60e	1e
+6 to be fruitful	rst	
+aturn out well	rsu	
 4n	60f	80
 5ess	60g	8
+8 of a person	rsv	
+cmind	rsw	
+4s and dislikes	rsx	
 4wise	60h	7c
-2ly	60i	8
+2lac daphne	rsy	
+3y	60i	8
+4 magnolia	rsz	
+5of the valley	rt0	
+4-white hands	rt1	
 2mb	60j	fc
 4er	60k	80
+4ic system	rt2	
 4o	60l	80
+4s and trunk	rt3	
 3e	60m	c
+4 plaster	rt4	
 4rick	60n	80
 4stone	60o	c8
+9 leaf warbler	rt5	
 3it	60p	1e
+5 on daily price variation	rt6	
+9price	rt7	
 5ation	60q	5c
 5ed	60r	9c
+7 company	rt8	
+8period of time	rt9	
+8term of imprisonment	rta	
+8vision	rtb	
+5less reaches	rtc	
+asupply	rtd	
+5s of decorum	rte	
+aone's authority	rtf	
 3n	60s	80
 4er	60t	40
 3ousine	60u	80
 3p	60v	f8
+4 and numb	rtg	
 4id	60w	c0
-2ne	60x	3f
+6 autumn waters	rth	
+2n county in henan	rti	
+3e	60x	3f
+4 ball	rtj	
+6reak	rtk	
+6y line	rtl	
+c scanning	rtm	
+5chart	rtn	
+5diagram	rto	
+6rawing	rtp	
+5feed	rtq	
+5graph	rtr	
+5judge	rts	
+5of battle	rtt	
+8command	rtu	
+8descent	rtv	
+8latitude	rtw	
+9ongitude	rtx	
+8magnetic flux	rty	
+8project	rtz	
+8reasoning	ru0	
+8sight	ru1	
+5segment	ru2	
 4age	60y	c0
 5l	60z	80
 5ments	610	80
 5r	611	f8
+6 accelerator	ru3	
+8lgebra	ru4	
+7equation	ru5	
+7function	ru6	
+7operator	ru7	
+7programming	ru8	
+7regression	ru9	
+7system	rua	
+7velocity	rub	
+7wave	ruc	
+5ted barbet	rud	
+4d jacket	rue	
+6up close	ruf	
 4n	612	fc
+5 or cotton fabric	rug	
 4r	613	3c
-3ger	614	f8
-4ual	615	80
+4s of latitude and longitude	ruh	
+3g county in hunan	rui	
+4er	614	f8
+6 on faintly	ruj	
+6ing enthusiasm	ruk	
+afear	rul	
+bragrance	rum	
+aimpression	run	
+asound	ruo	
+4gu temple	rup	
+4ua franca	ruq	
+6l	615	80
+7 papillae	rur	
 5istic	616	d8
+a field	rus	
 as	617	e0
+4zhi or reishi mushroom	rut	
 3ing	618	8
+6 of gut	ruu	
 3k	619	3e
-3oleum	61a	80
+4 layer	ruv	
+4ed frame	ruw	
+7in a chain	rux	
+cunbroken chain	ruy	
+7list	ruz	
+4ing arms	rv0	
+8verb	rv1	
+3olenic acid	rv2	
+6um	61a	80
 3t	61b	80
 2on	61c	1f
+4 dance	rv3	
 4ize	61d	80
 4s	61e	20
 2p	61f	5e
+3 balm	rv4	
+4gloss	rv5	
+4liner	rv6	
 3id	61g	40
-3stick	61h	8
-2quefy	61i	80
+3s and tongue	rv7	
+4tick	61h	8
+2quefied petroleum gas	rv8	
+6y	61i	80
 4id	61j	de
+6 ammonia	rv9	
+8ssets	rva	
+7crystal	rvb	
+e display	rvc	
+fscreen	rvd	
+7food	rve	
+9undation	rvf	
+7gas	rvg	
+7hand soap	rvh	
+7laundry detergent	rvi	
+8ipstick	rvj	
+7nitrogen	rvk	
+7water	rvl	
+8ith precipitate skimmed off	rvm	
 6ate	61k	80
 4or	61l	3c
+6 cabinet	rvn	
+7store	rvo	
+2riodendron chinense	rvp	
 2ssome	61m	80
 3t	61n	bf
-4en	61o	3
+4 of deaths	rvq	
+8emperors and kings	rvr	
+8gifts	rvs	
+9ods and immortals	rvt	
+8items	rvu	
+8names	rvv	
+8of prices	bju	
+doperty	bjn	
+bquotation	bjw	
+bshareholders	bjx	
+8plays or operas	rvw	
+9rizewinners	rvx	
+8words	rvy	
+5price	rvz	
+4ed company	rw0	
+5n	61o	3
 6er	61p	4
+6ing ability	rw1	
+bnd speaking	rw2	
+acomprehension	rw3	
+5ria bacillus	rw4	
+9monocytogene	rw5	
 4less	61q	c0
-2ter	61r	c
+3u ethnic group	rw6	
+2tchi or lychee fruit	rw7	
+3er	61r	c
+5 and decaliter dry measure	rw8	
 5acy	61s	78
+8 rate	rw9	
 6l	61t	88
+7 sense	rwa	
+8translation	rwb	
 7ly	61u	78
 6ry	61v	5e
+8 circles	rwc	
+9excellence	rwd	
+9giant	rwe	
+arace	rwf	
+9inquisition	rwg	
+9master	rwh	
+aiscellany	rwi	
+9name	rwj	
+9person	rwk	
+9reputation	rwl	
+9society	rwm	
+9talent	rwn	
+arifles	rwo	
+9work	rwp	
+ds	rwq	
 6te	61w	d0
 7i	61x	80
 7ure	61y	3e
+a and art	rwr	
+fhistory	rws	
+flanguage	rwt	
+bin braille	rwu	
 3he	61z	c0
+5 body	rwv	
+4ium battery	rww	
+8ion battery	rwx	
 4ograph	620	40
+aic plate	rwy	
+erinting	rwz	
 5sphere	621	40
 3igant	622	80
 6tion	623	80
+3mus paper	rx0	
 3re	624	12
 3ter	625	fb
+6 carried by pack animal	rx1	
 4le	626	3
+6 bell	rx2	
+8ittern	rx3	
+9yatch	rx4	
+8oy	rx5	
+8rother	rx6	
+8unting	rx7	
+9stard	rx8	
+8y little	rx9	
+7cormorant	rxa	
+8rake	rxb	
+8uckoo-dove	rxc	
+9rlew	rxd	
+7darling	rxe	
+8emon	rxf	
+9vil	rxg	
+7egret	rxh	
+7finger	rxi	
+8orktail	rxj	
+7girl	rxk	
+8ull	rxl	
+9y	rxm	
+7imagined	rxn	
+7mistake	rxo	
+8onkey	rxp	
+7new year's eve	rxq	
+7owl	rxr	
+7person	rxs	
+8ied flycatcher	rxt	
+7red riding hood	rxu	
+8inged plover	rxv	
+7sister	rxw	
+8piderhunter	rxx	
+8tint	rxy	
+8wan	rxz	
+7tern	ry0	
+7water and few utensils	ry1	
 4oral	627	80
+8 or riparian	ry2	
+2ulimiao town in beijing municipality	ry3	
 2ve	628	23
+4 action	ry4	
+6mmunition	ry5	
+5betting	ry6	
+6roadcast	ry7	
+5cargo	ry8	
+6oal	ry9	
+5electrical wire	rya	
+5or fresh	ryb	
+5pig	ryc	
+6oultry	ryd	
+5recording	rye	
+7lay	ryf	
+5show venue	ryg	
+6pecimen	ryh	
+5target	ryi	
+5vlogger	ryj	
 4lihood	629	40
 5y	62a	5f
+6 and full of enthusiasm	ryk	
+brealistic	ryl	
+8tmosphere	rym	
 4r	62b	5c
+5 cancer	ryn	
+6disease	ryo	
+6fluke	ryp	
 4stock	62c	64
+9 husbandry	ryq	
+aor aquaculture farm	ryr	
+araising	rys	
 3id	62d	80
 4ng	62e	1e
+6 a simple life	ryt	
+8nimals	ryu	
+8rea	ryv	
+7body	ryw	
+8uddha	ryx	
+7example	ryy	
+9penses	ryz	
+7facilities	rz0	
+8ish	rz1	
+8ossil	rz2	
+8rom hand to mouth	rz3	
+7in poverty	rz4	
+aseclusion	rz5	
+awater	rz6	
+9cognito	rz7	
+7museum	rz8	
+7person	rz9	
+7quarters	rza	
+7room	rzb	
+7standards	rzc	
+7thing	rzd	
+8ogether	rze	
+7will	rzf	
 6-room	62f	4
+3or mortis	rzg	
 2zard	62g	40
 1oad	62h	5e
+4 actually carried	rzh	
+5balancing	rzi	
+5capacity	rzj	
+4ing capacity	rzk	
+4s of	bo8	
 3f	62i	be
+4 cake	rzl	
+4er shoes	rzm	
 3m	62j	80
 3n	62k	7c
+4 character	rzn	
+5shark	rzo	
+5to agriculture	rzp	
+6ranslation	rzq	
+5word	rzr	
 4s	62l	20
 3th	62m	e0
 5e	62n	c0
 5some	62o	40
-2bby	62p	f8
+9 person	rzs	
+2bachevskian geometry	rzt	
+4r pneumonia	rzu	
+3by	62p	f8
+5 group	rzv	
 3e	62q	80
+4 of the brain	rzw	
 3ster	62r	40
 2cal	62s	3e
+5 accent	rzx	
+7dministrative official	rzy	
+7nesthesia	rzz	
+dtic	s00	
+7rea network	s01	
+7utonomy	s02	
+6bully	s03	
+8s or train	s04	
+6capital	s05	
+7hronicles	s06	
+7olor	s07	
+8nditions	s08	
+g and customs	s09	
+9stable	s0a	
+7uisine	s0b	
+8rrency	s0c	
+6despot	s0d	
+7ifferences in price	s0e	
+6economy	s0f	
+7xpress	s0g	
+6faction	s0h	
+6girl	s0i	
+7od	s0j	
+7uide	s0k	
+6magistrate	s0l	
+8nagement interface	s0m	
+6official	s0n	
+7r neighborhood policeman	s0o	
+9regional confrontation	s0p	
+6people	s0q	
+7olice station	s0r	
+by	s0s	
+7roduce	s0t	
+ct	s0u	
+6ruffian	s0v	
+6scope	s0w	
+7pecialty	s0x	
+7trong man	s0y	
+6tax	s0z	
+7ime	s10	
+7radition	s11	
+9in	s12	
+7utelary god	s13	
+7yrant	s14	
+6wealthy landlord	s15	
 5e	62t	80
 5ity	62u	78
+6zed pain disorder	s16	
 5ly	62v	40
 4te	62w	5c
+6d in china	s17	
 5ion	62x	7c
+8 of a grave	s18	
 8s	62y	20
+6ve case	s19	
+3h ness monster	s1a	
 3k	62z	37
-4er	630	30
+4 out	s1b	
+5up	s1c	
+4-up period	s1d	
+4able compartment	s1e	
+4ed in	s1f	
+9 a stalemate	s1g	
+abattle	s1h	
+5r	630	30
+4out buzzer system	s1i	
 3omote	631	40
 7ion	632	c0
 8ve	633	fc
+a depot	s1j	
 4weed	634	40
 3us	635	80
 5t	636	8a
+6 nymph	s1k	
+7tree	s1l	
 4tion	637	80
 2de	638	c0
 3ge	639	7c
 4ing	63a	68
+7 house	s1m	
+2ess cave	s1n	
+6landform	s1o	
+6plateau of northwest china	s1p	
 2ft	63b	80
 4y	63c	f8
+5 ambition	s1q	
+7nd steep	s1r	
+aunsullied	s1s	
+cyielding character	s1t	
+7spiration	s1u	
+6ideal	s1v	
+bs	s1w	
+6mountain	s1x	
+e range	s1y	
+6quality	s1z	
 2g	63d	fc
+3arithmic function	s20	
+3ger vick	s21	
+6head sea turtle	s22	
 3ic	63e	7c
+5 bomb	s23	
+6gate	s24	
 5al	63f	5c
+7 basis	s25	
+8calculation	s26	
+9onsistency	s27	
+8error	s28	
+8gate	s29	
+8link control	s2a	
+8thinking	s2b	
+7ly consistent	s2c	
 4stics	63g	88
 3jam	63h	80
+3ue or rogge	s2d	
 2iter	63i	80
-2ll	63j	a0
+2k ma chau	s2e	
+2licon or rorikon	s2f	
+3l	63j	a0
+2monosov ridge	s2g	
 0London	63k	23
-0lone	63l	40
-4ly	63m	1f
+0london stock exchange	s2h	
+3e	63l	40
+4 bird	s2i	
+5person	s2j	
+5wolf	s2k	
+4liness of faithful widow	s2l	
+5y	63m	1f
+6 soul	s2m	
 3g	63n	43
-4-lasting	63o	40
+4 ago	s2n	
+6nd arduous	s2o	
+g journey	s2p	
+9continuous	s2q	
+9difficult trek	s2r	
+arawn-out	s2s	
+9narrow	s2t	
+9tedious	s2u	
+ahin	s2v	
+5bean	s2w	
+5covid	s2x	
+5dark night	s2y	
+6elay	s2z	
+6istance	s30	
+d missile	s31	
+7vision	s32	
+6rawn out	s33	
+5established	s34	
+5gown	s35	
+5hair	s36	
+7llway	s37	
+7ndle	s38	
+5island iced tea	s39	
+5journey	s3a	
+6ump	s3b	
+5kick	s3c	
+5legs	s3d	
+6ife	s3e	
+9 and prosperity	s3f	
+7ne	s3g	
+5march	s3h	
+7y you live	s3i	
+5narrow table	s3j	
+5peduncled alder	s3k	
+7nding case	s3l	
+7riod of time	s3m	
+6oem	s3n	
+7sition	s3o	
+5queue	s3p	
+a of slow-moving traffic	s3q	
+5range	s3r	
+5shot	s3s	
+6igh	s3t	
+6leeves	s3u	
+5tail	s3v	
+6erm	s3w	
+6ime	s3x	
+9 ago	s3y	
+aoff	s3z	
+5underwear	s40	
+e pants	s41	
+5vacation	s42	
+5years of oppression	s43	
+4-billed bush warbler	s44	
+cdowitcher	s45	
+cmurrelet	s46	
+cplover	s47	
+cthrush	s48	
+cwren-babbler	s49	
+5cherished view	s4a	
+fwish	s4b	
+5distance bus	s4c	
+ecall charge	s4d	
+foach	s4e	
+ephone call	s4f	
+erelationship	s4g	
+fomance	s4h	
+funner	s4i	
+iing	s4j	
+5eared owl	s4k	
+6stablished rules of conduct	s4l	
+5grained non-glutinous rice	s4m	
+drice	s4n	
+5haul flight	s4o	
+6eld opinion	s4p	
+6orned grasshopper	s4q	
+5lasting	63o	40
+6egged buzzard	s4r	
+5married couple	s4s	
+5nosed pit viper	s4t	
 5range	63p	40
-5standing	63q	40
+6unning abuse	s4u	
+5sleeved shirt	s4v	
+6tanding	63q	40
+d abuse	s4w	
+ecommitment	s4x	
+edebt	s4y	
+eenemy	s4z	
+elegal dispute	s50	
+eresentment	s51	
+5tailed broadbill	s52	
+cduck	s53	
+cjaeger	s54	
+cminivet	s55	
+cparakeet	s56	
+crosefinch	s57	
+cshrike	s58	
+dibia	s59	
+cthrush	s5a	
+dit	s5b	
+6erm care	s5c	
+boexistence	s5d	
+cnsiderations	s5e	
+apeace and stability	s5f	
+brospects	s5g	
+aresident	s5h	
+astrategy	s5i	
+6oed stint	s5j	
 5winded	63r	80
+b empty talk	s5k	
+4an fruit	s5l	
 4evity	63s	c8
+9 peach bun	s5m	
+4horn beetle	s5n	
+f larva	s5o	
 4ing	63t	c8
+7 for	s5p	
+b departed beloved	s5q	
 5tude	63u	78
+9 and latitude	s5r	
+8inal beam	s5s	
+dmuscle	s5t	
+dsection	s5u	
+elit	s5v	
+dwave	s5w	
+4jing tea	s5x	
+4shan culture	s5y	
 2ok	63v	3
+4 where you're going	s5z	
+4-up method for chinese characters	s60	
+4ing askance	s61	
+9t the big picture	s62	
+8for a mate	s63	
+8melancholy	s64	
+8or feeling sickly	s65	
+8up expectantly	s66	
+4out post	s67	
+8tower	s68	
+4s and demeanor	s69	
+6impressive but is worthless	s6a	
 3m	63w	f0
 3n	63x	80
 3p	63y	fc
+4 of a necktie	s6b	
+8rope	s6c	
 4hole	63z	80
 3se	640	5e
+5 and comfortable	s6d	
+adisorganized soldiers	s6e	
+6change	s6f	
+6goods	s6g	
+6in morals	s6h	
+6or defective contact	s6i	
+6powder	s6j	
+6socks	s6k	
+6woman	s6l	
+5-fitting garment	s6m	
+epants	s6n	
 5ly	641	48
 5n	642	dc
 3t	643	40
 2pe	644	80
 3sided	645	80
 2quacious	646	80
+5t fruit	s6o	
+7tree	s6p	
 2rd	647	1c
+4 brahma	s6q	
+5derby's parakeet	s6r	
+5guan	s6s	
+5of heaven	s6t	
+4's prayer	s6u	
 3e	648	c0
 3ry	649	1e
-2se	64a	1f
+2s angeles clippers	s6v	
+clakers	s6w	
+ctimes	s6x	
+3e	64a	1f
+3ing battle	s6y	
 3s	64b	3e
+4 of food taste	s6z	
+8goods	s70	
+8love	s71	
+5prevention	s72	
+4y compression	s73	
+3t and found	s74	
+5battle	s75	
+5game	s76	
+5in boundless mists	s77	
+8thought	s78	
+5letter	s79	
+5or apocryphal story	s7a	
+5territory	s7b	
+6o the ages	s7c	
+6rade	s7d	
 2t	64c	83
+3 number	s7e	
+4of	bkt	
 3h	64d	20
+3s and lots	s7f	
+5of	bmg	
+7 different	s7g	
 3tery	64e	f0
+7 machine	s7h	
+8player	s7i	
+8scratchcard	s7j	
+8ticket	s7k	
+3us flower	s7l	
+6leaf	s7m	
+6root	s7n	
+6seat	s7o	
+8ed	s7p	
+a bun	s7q	
+bhead	s7r	
+bpaste	s7s	
 2ud	64f	17
+4 and clear	s7t	
+6rrogant talk	s7u	
+5fart	s7v	
+5pedal	s7w	
+5sound	s7x	
+5voice	s7y	
 4ly	64g	2
 4speaker	64h	1e
+b box	s7z	
+3ghborough university	s80	
+3is or lewis	s81	
+6vuitton	s82	
 3nge	64i	ba
+3se egg	s83	
 3t	64j	80
 4ish	64k	80
 2ve	64l	3
+4 affair	s84	
+8inity	s85	
+6nd hate	s86	
+9marriage	s87	
+9respect	s88	
+6perture	s89	
+7ple	s8a	
+6t first sight	s8b	
+5bite	s8c	
+5egg	s8d	
+5hotel	s8e	
+5letter	s8f	
+5nest	s8g	
+5others as self	s8h	
+5poem	s8i	
+5song	s8j	
+5triangle	s8k	
+5will find a way	s8l	
+4-struck fool	s8m	
+4d by all	s8n	
 4ly	64m	3
+6 as a flower	s8o	
+7color	s8p	
+7spring sunshine	s8q	
+7wife	s8r	
 4r	64n	14
+5s' rendezvous	s8s	
+4sick person	s8t	
+3ing affection	s8u	
 2w	64o	83
-3-risk	64p	20
+3 altitude	s8v	
+5nd deep	s8w	
+8gently sloping	s8x	
+8small	s8y	
+8unhurried	s8z	
+4beam	s90	
+5lood pressure	s91	
+4consumption	s92	
+6st	s93	
+4dose irradiation	s94	
+4earth dyke separating fields	s95	
+aorbit	s96	
+5bb	s97	
+4fat	s98	
+5idelity	s99	
+4grade	s9a	
+9 ore	s9b	
+4heat	s9c	
+6eled	s9d	
+5urdles	s9e	
+4income	s9f	
+6terest	s9g	
+c loan	s9h	
+4level	s9i	
+4marks	s9j	
+4pitch	s9k	
+5lank	s9l	
+5ressure	s9m	
+6ice	s9n	
+4ranking	s9o	
+b official	s9p	
+4score	s9q	
+5peed	s9r	
+5tatus	s9s	
+6ool	s9t	
+4temperature	s9u	
+5ide	s9v	
+4voltage	s9w	
+4water	s9x	
+9 level	s9y	
+5ood	s9z	
+4yield	sa0	
+3-alcohol beer	sa1	
+4budget eatery	sa2	
+4class prostitute	sa3	
+5ut neckline	sa4	
+4enriched uranium	sa5	
+4gluten flour	sa6	
+5rade brothel	sa7	
+afever	sa8	
+4level drug dealer	saa	
+agovernment official	sab	
+alanguage	sa9	
+awaste	sac	
+5ying area	sad	
+ahumid terrain	sae	
+4powered motorized scooter or bike	saf	
+5ressure zone	sag	
+4quality commodities	sah	
+cgoods	sai	
+4rent housing	saj	
+5isk	64p	20
+4velocity zone	sak	
 3bred	64q	80
 3er	64r	14
+5 abdomen	sal	
+7psis	sam	
+6back	san	
+7ody	sao	
+8und	sap	
+bary	saq	
+6cambrian	sar	
+e series	sas	
+7hamber	sat	
+7lass	sau	
+7ourse of a river	sav	
+6echelon	saw	
+7lementary school	sax	
+7yelid	say	
+6half of one's body	saz	
+7ouse	sb0	
+b of bicameral assembly	sb1	
+6jaw	sb2	
+9bone	sb3	
+6left	sb4	
+8g	sb5	
+8vel	sb6	
+7imb	sb7	
+8p	sb8	
+6margin of a page	sb9	
+7illstone	sba	
+6part of the body	sbb	
+6reaches	sbc	
+7ight	sbd	
+6sluice gate	sbe	
+7trata	sbf	
+6than average in age	sbg	
+blow	sbh	
+8e curtain	sbi	
+6yield	sbj	
+5-priced model of lamborghini	sbk	
+4st common denominator	sbl	
+7ebb	sbm	
+7limit	sbn	
+7note	sbo	
+7pitch	sbp	
+8oint	sbq	
+7voice	sbr	
+6-ranked noncommissioned officer	sbs	
+3land white-eye	sbt	
 2yal	64s	fc
+5 and brave	sbu	
+adependable	sbv	
+k person	sbw	
+arighteous	sbx	
+asincere	sby	
+6heart	sbz	
+6to the end	sc0	
 5ty	64t	1c
-1ubricant	64u	80
+1uan and phoenix	sc1	
+5river	sc2	
+2bricant	64u	80
 7te	64v	bc
-8ion	64w	40
+8ing oil	sc3	
+csystem	sc4	
+9on	64w	40
 6ious	64x	80
 2cid	64y	a0
+5 dream	sc5	
 3k	64z	37
+4 with the ladies	sc6	
+awomen	sc7	
 4y	650	17
+5 bamboo	sc8	
+6day	sc9	
+7raw	sca	
+6guy	scb	
+6omen	scc	
+6star	scd	
 3rative	651	e0
+9 job	sce	
+apost	scf	
 4e	652	80
 3ubrate	653	80
 2dicrous	654	a0
 2g	655	c0
 3gage	656	1e
+7 carousel	scg	
+brier	sch	
+8office	sci	
+8rack	scj	
+2hu park in central guangzhou	sck	
 2kewarm	657	80
 2ll	658	e0
 4aby	659	80
-2mber	65a	dc
+2mbar disc herniation	scl	
+7intervertebral disk	scm	
+7vertebra	scn	
+fe	sco	
+4er	65a	dc
+6 yard	scp	
 6ing	65b	40
 6jack	65c	80
 3en	65d	80
 3inary	65e	80
 5osity	65f	40
 6us	65g	68
+8 eyes of a woman	scq	
+9flux	scr	
+9intensity	scs	
+9style	sct	
 3p	65h	fc
+4 coal	scu	
 2nar	65i	fc
+5 calendar	scv	
+8ustic	scw	
+7rater	scx	
+6eclipse	scy	
+7xploration	scz	
+6halo	sd0	
+6mare	sd1	
+6new year	sd2	
+e's day	sd3	
+heve	sd4	
+6soil	sd5	
 4tic	65j	80
 3ch	65k	23
+5 banquet	sd6	
+7ox	sd7	
+7reak	sd8	
+6room	sd9	
 5eon	65l	8
+5time nap	sda	
 3g	65m	5e
+4 cancer	sdb	
+5disease	sdc	
+5irritant	sdd	
+4s of the planet	sde	
+2ohan quan	sdf	
+2pus erythematosus	sdg	
 2rch	65n	c0
 3e	65o	f0
+4 fishing	sdh	
 3id	65p	80
 3k	65q	e0
 2scious	65r	80
 3h	65s	80
+4 green	sdi	
 3t	65t	c0
 4er	65u	40
 4rous	65v	c0
+8 and black	sdj	
+9jade	sdk	
 4y	65w	c0
+2teal phase	sdl	
+3heran church	sdm	
 2xuriant	65x	c0
+9 black hair	sdn	
+aflowers	sdo	
+agrowth	sdp	
+avegetation	sdq	
 6ous	65y	c8
 5y	65z	fc
-1ynch	660	80
+6 car	sdr	
+ariage	sds	
+7foodstuff from distant locations	sdt	
+7item	sdu	
+1ying down	sdv	
+6fallen over one another	sdw	
+5-in woman	sdx	
+2me disease	sdy	
+3phatic system	sdz	
+avessel	se0	
+2nch	660	80
+3x rufus	se1	
 2ric	661	c0
+5 poetry	se2	
 5ally	662	40
 5ist	663	40
+2sosomal storage disease	se3	
