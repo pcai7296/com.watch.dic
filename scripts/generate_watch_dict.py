@@ -597,6 +597,8 @@ def load_wordnet_derived_links(word_set):
     return stats
 
 
+PHRASES_SOURCE = ROOT / "data" / "phrases.csv"
+
 def main():
     rows = []
     with SOURCE.open("r", encoding="utf-8", newline="") as handle:
@@ -614,6 +616,31 @@ def main():
                     "exchange": clean_text(row.get("exchange")),
                 }
             )
+
+    # 合并高频词组
+    existing_words = {row["word"].lower() for row in rows}
+    phrase_count = 0
+    if PHRASES_SOURCE.exists():
+        with PHRASES_SOURCE.open("r", encoding="utf-8", newline="") as handle:
+            reader = csv.DictReader(handle)
+            for row in reader:
+                word = clean_text(row.get("word"))
+                if not word or word.lower() in existing_words:
+                    continue
+                rows.append(
+                    {
+                        "word": word,
+                        "phonetic": clean_text(row.get("phonetic")),
+                        "translation": clean_text(row.get("translation")),
+                        "tag": clean_text(row.get("tag")),
+                        "exchange": "",
+                    }
+                )
+                existing_words.add(word.lower())
+                phrase_count += 1
+        print(f"  [PHRASES] 已合并 {phrase_count} 个高频词组")
+    else:
+        print("  [PHRASES] 跳过（phrases.csv 未找到）")
 
     if OUT.exists():
         shutil.rmtree(OUT)

@@ -2,7 +2,7 @@
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
-    <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;">
+    <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;" onscroll="onRecordListScroll">
       <list-item
         class="record-item"
         type="recordCard"
@@ -22,8 +22,8 @@
         <div else class="record-card" style="width: {{cardWidth}}px; height: {{ item.cardHeight }}px;" @click="openRecord(item)">
           <div class="record-head">
             <text if="{{ !item.wordMarqueeOn }}" class="record-title">{{ item.title }}</text>
-            <text if="{{ item.wordMarqueeOn && !marqueeArmed }}" class="record-title">{{ item.title }}</text>
-            <marquee if="{{ item.wordMarqueeOn && marqueeArmed }}" class="record-title-marquee"
+            <text if="{{ item.wordMarqueeOn && !item.marqueeOn }}" class="record-title">{{ item.title }}</text>
+            <marquee if="{{ item.wordMarqueeOn && item.marqueeOn }}" class="record-title-marquee"
               scrollamount="{{ item.wordMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
               {{ item.title }}   {{ item.title }}
             </marquee>
@@ -75,7 +75,6 @@ export default {
     contentWidth: 164,
     screenWidth: 0,
     wordMarqueeThreshold: 10,
-    marqueeArmed: false,
     activeFilter: "全部",
     listHeight: 388,
     searchPage: 0,
@@ -146,14 +145,14 @@ export default {
       })
     }
     this.loadRecords()
-    // 1.5s 让人先看清单词，再齐步启动所有跑马灯
+    // 1.5s 让人先看清单词，再按可见范围启动跑马灯
     if (this.marqueeTimer) {
       clearTimeout(this.marqueeTimer)
     }
     this.marqueeTimer = setTimeout(() => {
       this.marqueeTimer = null
       if (!this.destroyed) {
-        this.marqueeArmed = true
+        this._updateVisibleMarquees(0)
       }
     }, 1500)
   },
@@ -178,6 +177,59 @@ export default {
     // 速度 ≈ 词长 × 4，让长词追上视觉上的同步循环。除非 word 太长会失控，用 60 封顶。
     const len = (word || "").length
     return Math.min(60, Math.max(40, len * 4))
+  },
+
+  // 滚动事件：滚动中暂停全部跑马灯，停止后按可见范围重开
+  onRecordListScroll(e) {
+    if (!e) {
+      return
+    }
+    if (e.scrollState === 0) {
+      this._updateVisibleMarquees(e.scrollY || 0)
+    } else {
+      this._pauseAllMarquees()
+    }
+  },
+
+  _pauseAllMarquees() {
+    var cards = this.recordItems || []
+    var changed = false
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].marqueeOn) {
+        cards[i].marqueeOn = false
+        changed = true
+      }
+    }
+    if (changed) {
+      this.recordItems = cards.slice()
+    }
+  },
+
+  // 只让视口内可见的卡片跑跑马灯：胶囊屏一次最多 3~4 张在动画，不卡
+  _updateVisibleMarquees(scrollY) {
+    var cards = this.recordItems || []
+    var viewportH = this.listHeight || 388
+    var top = scrollY || 0
+    var bottom = top + viewportH
+    var acc = 0
+    var changed = false
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i]
+      if (!card.wordMarqueeOn) {
+        continue
+      }
+      var cardTop = acc
+      var cardBottom = acc + (card.itemHeight || card.cardHeight + 10)
+      acc = cardBottom
+      var on = cardBottom > top && cardTop < bottom
+      if (!!card.marqueeOn !== on) {
+        card.marqueeOn = on
+        changed = true
+      }
+    }
+    if (changed) {
+      this.recordItems = cards.slice()
+    }
   },
 
   canFitWithTag(word, tag) {
@@ -359,7 +411,8 @@ export default {
         params: {
           query: item.query || item.word || "",
           searchMode: "",
-          inflectDepth: "0"
+          inflectDepth: "0",
+          phraseMode: item.phraseMode || "0"
         }
       })
       return
@@ -400,7 +453,7 @@ export default {
           continue
         }
         const displayTitle = query
-        const visibleTag = ""
+        const visibleTag = item.type === "phrase" ? "短语" : "单词"
         const cardHeight = Math.max(80, 64)
         const titleLen = displayTitle.length
         const wordMarqueeOn = titleLen > this.wordMarqueeThreshold
@@ -409,6 +462,7 @@ export default {
           id: this.normalizeWord(query) + "_" + i,
           title: displayTitle,
           query: query,
+          phraseMode: item.type === "phrase" ? "1" : "0",
           recordKind: "history",
           translationLines: [""],
           rawTag: "",
@@ -416,7 +470,8 @@ export default {
           cardHeight: cardHeight,
           itemHeight: cardHeight + 10,
           wordMarqueeOn: wordMarqueeOn,
-          wordMarqueeSpeed: wordMarqueeSpeed
+          wordMarqueeSpeed: wordMarqueeSpeed,
+          marqueeOn: false
         })
         continue
       }
@@ -449,7 +504,8 @@ export default {
         cardHeight: cardHeight,
         itemHeight: cardHeight + 10,
         wordMarqueeOn: wordMarqueeOn,
-        wordMarqueeSpeed: wordMarqueeSpeed
+        wordMarqueeSpeed: wordMarqueeSpeed,
+        marqueeOn: false
       })
     }
     return output

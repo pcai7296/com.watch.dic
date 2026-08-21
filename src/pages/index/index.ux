@@ -105,7 +105,8 @@ export default {
     currentTime: "",
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
-    releasingKey: ""
+    releasingKey: "",
+    btnScaleEnabled: false
   },
 
   onInit() {
@@ -123,6 +124,7 @@ export default {
     this._loadLayout()
     this._cleanInvalidHistory()
     this._trackLaunch()
+    this._loadBtnScale()
   },
 
   _updateTime() {
@@ -206,6 +208,9 @@ export default {
   },
 
   onBtnDown(key) {
+    if (!this.btnScaleEnabled) {
+      return
+    }
     this.pressedKey = key
     this.releasingKey = ""
     this._pressStart = Date.now()
@@ -213,6 +218,9 @@ export default {
   },
 
   onBtnUp(key) {
+    if (!this.btnScaleEnabled) {
+      return
+    }
     if (Date.now() - this._pressStart >= 200) {
       this._longPress = true
     }
@@ -228,6 +236,23 @@ export default {
         self.releasingKey = ""
       }
     }, 200)
+  },
+
+  _loadBtnScale() {
+    var self = this
+    storage.get({
+      key: "dic_button_scale",
+      default: "1",
+      success: function(data) {
+        var value = data && (data.value || data)
+        self.btnScaleEnabled = value === "1"
+      },
+      fail: function() {}
+    })
+  },
+
+  onShow() {
+    this._loadBtnScale()
   },
 
   onDestroy() {

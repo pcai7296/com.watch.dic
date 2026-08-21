@@ -25,12 +25,8 @@
         </div>
         <div else class="result-card" style="width: {{cardWidth}}px; height: {{ item.cardHeight }}px;" @click="openDetail(item)">
           <div class="result-head">
-            <text if="{{ !item.wordMarqueeOn }}" class="result-word">{{ item.word }}</text>
-            <text if="{{ item.wordMarqueeOn && !marqueeArmed }}" class="result-word">{{ item.word }}</text>
-            <marquee if="{{ item.wordMarqueeOn && marqueeArmed }}" class="result-word-marquee"
-              scrollamount="{{ item.wordMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
-              {{ item.word }}   {{ item.word }}
-            </marquee>
+            <text if="{{ !item.wordMarqueeOn }}" class="result-word" style="font-size: {{ item.wordFontSize }}px;">{{ item.word }}</text>
+            <marquee if="{{ item.wordMarqueeOn }}" class="result-word-marquee" style="font-size: {{ item.wordFontSize }}px;" scrollamount="40" direction="left" loop="-1" text-offset="40">{{ item.word }}   {{ item.word }}</marquee>
             <text class="result-tag">{{ item.tag }}</text>
           </div>
           <text class="result-phonetic">{{ item.phonetic }}</text>
@@ -117,7 +113,8 @@ export default {
   protected: {
     query: "",
     searchMode: "",
-    inflectDepth: ""
+    inflectDepth: "",
+    phraseMode: "0"
   },
 
   private: {
@@ -136,8 +133,6 @@ export default {
     screenWidth: 0,
     queryMarqueeOn: false,
     queryMarqueeSpeed: 40,
-    wordMarqueeThreshold: 0,
-    marqueeArmed: false,
     flushTimer: null,
     searchPage: 0,
     totalResultCount: 0,
@@ -209,7 +204,6 @@ export default {
       this.cardWidth = sw - 20
     }
     this.contentWidth = this.cardWidth - 24
-    this.wordMarqueeThreshold = this.resolveWordMarqueeThreshold(sw)
     this.queryText = this.normalizeWord(this.query)
     this.applyQueryMarquee(this.queryText)
     this.performSearch()
@@ -227,16 +221,7 @@ export default {
       this.applyQueryMarquee(currentQuery)
       this.performSearch()
     }
-    // marquee 在搜索完成后通过 _finishWithMarquee 启动
-  },
-
-  resolveWordMarqueeThreshold(sw) {
-    if (sw === 192) return 9
-    if (sw === 212) return 10
-    if (sw === 336) return 20
-    if (sw === 432) return 25
-    if (sw === 466) return 25
-    return 10
+    // 超长单词用 marquee 跑马灯展示全文（list 内嵌 scroll 在 Band 10 上无法接收触摸事件，拖动无效）
   },
 
   applyQueryMarquee(text) {
@@ -248,12 +233,6 @@ export default {
       this.queryMarqueeOn = false
       this.queryMarqueeSpeed = 40
     }
-  },
-
-  calcCardWordMarqueeSpeed(word) {
-    // 速度 ≈ 词长 × 4，让长词追上视觉上的同步循环。除非 word 太长会失控，用 60 封顶。
-    const len = (word || "").length
-    return Math.min(60, Math.max(40, len * 4))
   },
 
   goBack() {
@@ -350,12 +329,15 @@ export default {
       success: function(data) {
         if (token !== self.searchToken) return
         var list = self._parseHistoryList(data)
-        for (var i = 0; i < list.length; i++) {
-          var entry = list[i]
-          if (entry.query === normalized && entry.ids && entry.ids.length > 0) {
-            self.historyCache = list
-            self._hydrateFromCachedIds(entry.ids, token)
-            return
+        // 词组模式不使用历史缓存（历史记录是单词模式的）
+        if (self.phraseMode !== "1") {
+          for (var i = 0; i < list.length; i++) {
+            var entry = list[i]
+            if (entry.query === normalized && entry.ids && entry.ids.length > 0) {
+              self.historyCache = list
+              self._hydrateFromCachedIds(entry.ids, token)
+              return
+            }
           }
         }
         self.historyCache = list
@@ -381,7 +363,6 @@ export default {
         }
         this._flushResults()
         this._stopFlushTimer()
-        this.marqueeArmed = true
         if (this.resultCards.length > 0) {
           this._saveSearchHistory()
           if (this.resultCards.length >= 20) {
@@ -437,6 +418,12 @@ export default {
           })
         })
       } else {
+        // 词组精准模式（由 search.ux 通过 phraseMode 参数传入）
+        if (this.phraseMode === "1") {
+          this.performPhraseSearch(normalized, token)
+          return
+        }
+
         const shards = this.getCandidateShards(normalized)
 
         this.collectShardResults(shards, normalized, results, seen, 0, () => {
@@ -511,7 +498,6 @@ export default {
     function done() {
       self._flushResults()
       self._stopFlushTimer()
-      self.marqueeArmed = true
       if (self.resultCards.length === 0) {
         self.statusText = "未找到"
       } else if (self.resultCards.length >= 20) {
@@ -541,7 +527,6 @@ export default {
         }
         this._flushResults()
         this._stopFlushTimer()
-        this.marqueeArmed = true
         if (this.resultCards.length === 0) {
           this.statusText = "未找到"
         } else {
@@ -553,7 +538,6 @@ export default {
     }
 
     this._stopFlushTimer()
-    this.marqueeArmed = true
     if (this.resultCards.length === 0) {
       this.statusText = "未找到"
     } else if (this.resultCards.length >= 20) {
@@ -568,6 +552,110 @@ export default {
     }
     this._saveSearchHistory()
     this._appendNextButton()
+  },
+
+  // 词组精准模式：跳过单词索引，全量匹配词组
+  performPhraseSearch(query, token) {
+    this.loadShardIndex(() => {
+      if (token !== this.searchToken) {
+        return
+      }
+
+      const results = []
+      const seen = {}
+      const shards = this.getCandidateShards(query)
+
+      this.collectShardResults(shards, query, results, seen, 0, () => {
+        if (token !== this.searchToken) {
+          return
+        }
+
+        this._flushResults()
+        this._stopFlushTimer()
+        if (this.resultCards.length === 0) {
+          this.statusText = "未找到"
+        } else if (this.resultCards.length >= 20) {
+          this._collectExtraEnglishIds(query, () => {
+            this._finalizeAfterSearch()
+          })
+          return
+        } else {
+          this.totalResultCount = this.resultCards.length
+          this._finalizeAfterSearch()
+          return
+        }
+        this._saveSearchHistory()
+        this._appendNextButton()
+      }, "phrase")
+    })
+  },
+
+  // 普通模式：单词结果不足10条时补充词组
+  collectPhraseSupplement(query, token, done) {
+    if (this.resultCards.length >= 10 || token !== this.searchToken) {
+      done()
+      return
+    }
+
+    // 计算词组限流数量
+    var phraseLimit = 2
+    if (query.length >= 2) {
+      phraseLimit = 3
+    }
+    // 若精确命中单词索引，放宽至5条
+    if (this.resultCards.length > 0) {
+      phraseLimit = 5
+    }
+
+    const results = []
+    const seen = {}
+    // 标记已有的单词结果
+    for (var i = 0; i < this.resultCards.length; i++) {
+      seen[this.resultCards[i].id] = true
+    }
+
+    const shards = this.getCandidateShards(query)
+    this.collectShardResults(shards, query, results, seen, 0, () => {
+      if (token !== this.searchToken) {
+        done()
+        return
+      }
+
+      // 按排序规则排序：考试标签权重 > 词组长度（短优先）
+      results.sort((a, b) => {
+        const tagA = this._getTagWeight(a.tag)
+        const tagB = this._getTagWeight(b.tag)
+        if (tagA !== tagB) {
+          return tagB - tagA
+        }
+        return a.word.length - b.word.length
+      })
+
+      // 限流：只添加指定数量的词组
+      var added = 0
+      for (var j = 0; j < results.length && added < phraseLimit; j++) {
+        if (!this.resultCards.find(function(c) { return c.id === results[j].id })) {
+          this._enqueueCard(results[j])
+          added++
+        }
+      }
+
+      done()
+    })
+  },
+
+  // 获取考试标签权重
+  _getTagWeight(tag) {
+    if (!tag) return 0
+    if (tag.indexOf("中考") >= 0) return 100
+    if (tag.indexOf("高考") >= 0) return 90
+    if (tag.indexOf("四级") >= 0) return 80
+    if (tag.indexOf("六级") >= 0) return 70
+    if (tag.indexOf("考研") >= 0) return 60
+    if (tag.indexOf("雅思") >= 0) return 50
+    if (tag.indexOf("托福") >= 0) return 50
+    if (tag.indexOf("GRE") >= 0) return 40
+    return 0
   },
 
   performChineseSearch(query, token) {
@@ -592,7 +680,6 @@ export default {
 
         this._flushResults()
         this._stopFlushTimer()
-        this.marqueeArmed = true
         if (this.resultCards.length === 0) {
           this.statusText = "未找到"
         } else if (this.resultCards.length >= 20) {
@@ -855,7 +942,7 @@ export default {
     return []
   },
 
-  collectShardResults(shards, query, results, seen, index, done) {
+  collectShardResults(shards, query, results, seen, index, done, source) {
     if (index >= shards.length || this.resultCards.length >= 20) {
       done()
       return
@@ -864,9 +951,9 @@ export default {
     const shard = shards[index]
     this.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
       const candidates = []
-      this.collectCompactWordCandidates(text, query, candidates, seen, "", 20 - this.resultCards.length)
+      this.collectCompactWordCandidates(text, query, candidates, seen, source || "", 20 - this.resultCards.length)
       this.hydrateCompactCandidates(candidates, results, 0, () => {
-        this.collectShardResults(shards, query, results, seen, index + 1, done)
+        this.collectShardResults(shards, query, results, seen, index + 1, done, source)
       })
     })
   },
@@ -1116,12 +1203,19 @@ export default {
       if (!lower || seen[lower]) {
         continue
       }
-      if (source) {
+      // 模式过滤：词组模式=前缀匹配+只留含空格条目；普通模式=前缀匹配+排除含空格条目；其他来源（变形）=精确匹配
+      if (source === "phrase") {
+        if (lower.indexOf(" ") < 0 || lower.indexOf(normalizedQuery) !== 0) {
+          continue
+        }
+      } else if (source) {
         if (lower !== normalizedQuery) {
           continue
         }
-      } else if (lower.indexOf(normalizedQuery) !== 0) {
-        continue
+      } else {
+        if (lower.indexOf(" ") >= 0 || lower.indexOf(normalizedQuery) !== 0) {
+          continue
+        }
       }
 
       const entryId = this.parseEntryId(parts[1])
@@ -1471,7 +1565,8 @@ export default {
 
   _writeHistoryBlock(data, query, ids) {
     var list = this._parseHistoryList(data)
-    var item = {query: query}
+    var type = this.phraseMode === "1" ? "phrase" : "word"
+    var item = {query: query, type: type}
     if (ids.length > 0) {
       item.ids = ids
     }
@@ -1479,7 +1574,7 @@ export default {
     var output = [item]
     for (var i = 0; i < list.length && output.length < 20; i++) {
       var oldItem = list[i]
-      if (oldItem && oldItem.query && this.normalizeWord(oldItem.query) !== query) {
+      if (oldItem && oldItem.query && (this.normalizeWord(oldItem.query) !== query || (oldItem.type || "word") !== type)) {
         output.push(oldItem)
       }
     }
@@ -1499,8 +1594,7 @@ export default {
         recordKind: "next-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false,
-        wordMarqueeSpeed: 40
+        wordMarqueeOn: false
       })
       this.resultCards = this.resultCards.slice()
     }
@@ -1540,7 +1634,8 @@ export default {
       })
     } else {
       this.totalResultCount = this.resultCards.length
-      this.statusText = baseStatus + " " + this.resultCards.length + "条"
+      var prefix = this.phraseMode === "1" ? "短语" : ""
+      this.statusText = prefix + baseStatus + " " + this.resultCards.length + "条"
       this._saveSearchHistory()
       this._appendNextButton()
     }
@@ -1549,16 +1644,22 @@ export default {
   _updatePaginationStatus() {
     var total = this.totalResultCount
     var pageNum = this.searchPage + 1
+    var prefix = this.phraseMode === "1" ? "短语" : ""
     if (total <= 20) {
-      this.statusText = "一共" + total + "条"
+      this.statusText = prefix + "找到" + total + "条"
     } else if (this.mightHaveMore) {
-      this.statusText = "当前第" + pageNum + "页，最多加载60条"
+      this.statusText = prefix + "当前第" + pageNum + "页，最多加载60条"
     } else {
-      this.statusText = "当前第" + pageNum + "页，一共" + total + "条"
+      this.statusText = prefix + "当前第" + pageNum + "页，一共" + total + "条"
     }
   },
 
   _collectExtraEnglishIds(query, done) {
+    // 词组模式不补充英文词，只保留词组结果
+    if (this.phraseMode === "1") {
+      done()
+      return
+    }
     var first = query.charAt(0)
     if (first < "a" || first > "z") {
       done()
@@ -1704,8 +1805,7 @@ export default {
         recordKind: "prev-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false,
-        wordMarqueeSpeed: 40
+        wordMarqueeOn: false
       })
     }
     for (var i = 0; i < cards.length; i++) {
@@ -1718,8 +1818,7 @@ export default {
         recordKind: "next-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false,
-        wordMarqueeSpeed: 40
+        wordMarqueeOn: false
       })
     }
     this.resultCards = pageCards
@@ -1750,9 +1849,27 @@ export default {
     const cardHeight = Math.max(100, 64 + safeLines.length * lineHeight)
     const bestTag = this.highestTag(tag)
     const showTag = this.canFitWithTag(word || "", bestTag)
-    const wordLen = (word || "").length
-    const wordMarqueeOn = wordLen > this.wordMarqueeThreshold
-    const wordMarqueeSpeed = wordMarqueeOn ? this.calcCardWordMarqueeSpeed(word) : 40
+
+    // 按真实字形宽度连续计算能填满卡片宽度的最大字号(无级缩放，避免阶梯式字号造成的"空隙感")。
+    // getCharWidth 按翻译(700)标定，实际设备字形更宽且单词为 800 粗体，用 WORD_SCALE 补偿真实宽度；
+    // 上一版用 1.4 仍偏小(出现右侧空隙)，说明真实比例低于 1.4，下调到 1.38 以贴满宽度且不再裁切。
+    const headWidth = this.cardWidth - 24
+    const tagReserve = showTag ? 8 + this.measureWordWidth(bestTag, 18) * 1.1 : 8
+    const avail = headWidth - tagReserve
+    const WORD_SCALE = 1.38
+    const SAFETY = 1.05
+    const unitW = this.measureWordWidth(word || "", 1) || 1
+    let wordFontSize = 28
+    let wordMarqueeOn = false
+    const fitFont = Math.floor(avail / (unitW * WORD_SCALE * SAFETY))
+    if (fitFont >= 28) {
+      wordFontSize = 28
+    } else if (fitFont >= 18) {
+      wordFontSize = fitFont
+    } else {
+      wordMarqueeOn = true
+      wordFontSize = 18
+    }
 
     return {
       entryId: entryId,
@@ -1768,7 +1885,7 @@ export default {
       cardHeight: cardHeight,
       itemHeight: cardHeight + 10,
       wordMarqueeOn: wordMarqueeOn,
-      wordMarqueeSpeed: wordMarqueeSpeed
+      wordFontSize: wordFontSize
     }
   },
 
@@ -1878,6 +1995,15 @@ export default {
     return 8
   },
 
+  measureWordWidth(word, font) {
+    const s = word || ""
+    let w = 0
+    for (let i = 0; i < s.length; i++) {
+      w += this.getCharWidth(s.charAt(i))
+    }
+    return w * (font / 18)
+  },
+
   readText(uri, done) {
     const cached = this.fileCache.get(uri)
     if (cached !== undefined) {
@@ -1907,7 +2033,7 @@ export default {
   },
 
   isEnglishWord(value) {
-    return /^[a-z][a-z'-]{0,20}$/.test(value || "")
+    return /^[a-z][a-z' -]{0,30}$/.test(value || "")
   },
 
   showToast(message) {
@@ -2155,11 +2281,11 @@ export default {
   color: #ffffff;
   font-size: 28px;
   font-weight: 800;
+  lines: 1;
 }
 
-.result-word-marquee {
-  lines: 1;
-  text-overflow: clip;
+.result-word {
+  overflow: visible;
 }
 
 .result-tag {

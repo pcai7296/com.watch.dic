@@ -339,6 +339,7 @@ export default {
     if (this.searchSubmitLocked) {
       return
     }
+    const raw = this.query
     const normalized = this.normalizeWord(this.query)
     this.keyboardHidden = true
     this.refreshDisplay()
@@ -356,7 +357,8 @@ export default {
       params: {
         query: normalized,
         searchMode: this.searchMode || "",
-        inflectDepth: this.inflectDepth || "0"
+        inflectDepth: this.inflectDepth || "0",
+        phraseMode: raw.indexOf(" ") >= 0 ? "1" : "0"
       }
     })
   },
@@ -765,7 +767,7 @@ export default {
   },
 
   isEnglishWord(value) {
-    return /^[a-z][a-z'-]{0,20}$/.test(value || "")
+    return /^[a-z][a-z' -]{0,30}$/.test(value || "")
   },
 
   hasEnglish(value) {
