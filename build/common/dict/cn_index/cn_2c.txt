@@ -22,7 +22,7 @@
 2裂	9h4
 1刻拍案惊奇	0gOJCPIUvSWyFvQK8Ag
 1副	-T-iB6EV
-1十	2Gw
+1十	2Gy_Cg
 2(	7ls
 2一世纪	3w8
 3条	0jmGMw
@@ -441,8 +441,10 @@
 2器	6mM
 1话	vUagLA
 2听声锣鼓听音	t20
-1说	yDADqDHECw
+1说	yDADqDHEC4sINA
+2...	2nU
 2读写	61SIDawS
+2过…	nHU
 1课	qAeVCsgq
 1起来	7DzUJA
 1闻	yDDUDPYHyy0
@@ -504,6 +506,7 @@
 1暖	93E
 1林格尔	2lw
 4县	pBHjBeUf
+1某人发生冲突	gnY
 1棋	liw
 1气	7AOsJ74j
 2生财	jVk
@@ -668,6 +671,7 @@
 1相	ySecIg
 1眼	tAU
 1管	lRDjBQ
+2...	3Xc
 2者	vhg
 1舵	2WMB
 1门	8DvXIA
@@ -696,7 +700,7 @@
 1服	7QGrGIcK
 1烟	iBGQNg
 1爱	nySTDTadDIca
-1畏	kwiuH6AxAg
+1畏	kwiuH6AxAtgf
 2（	4lg
 1礼	vkalEoUC
 1祝	1jLCFKYW
@@ -878,7 +882,8 @@
 1秀	KdkXnkufAw
 1立	swORMgHcJ_8F
 2中文笔会	1Q-EAewk-BU
-2于...的	l20
+2于...之外	qnY
+6的	l232Bw
 2件	oF0
 2国	zmEB
 3家联合体	oxOiIvkt
@@ -1283,6 +1288,7 @@
 1径	sAG4CNAKsTaeIA
 1得通	00-WJA
 1情	yhiEJ40RiwPGCw
+2表	_HQ
 1房	yAnwGsQT3iU
 1拘	kgaDCtJb5Qc
 1政	6AEBuyM
@@ -1408,7 +1414,7 @@
 2字符	jxD-Ew
 2序列	jSSbOQ
 1乘	hRCHWxM
-1交	9w76Eq0Lsx0
+1交	9w76Eq0Lsx27Kg
 1产	hRDGM8UB5QOsCAM
 1介	xwKoUw
 1会	ywS8DZhZ
@@ -1554,7 +1560,7 @@
 1蛋	xQ6tXA
 1行	hRCiQQ
 1角	iQqzDIhO_gc
-1让	jgNr6QKPCaQG0gSBKrcm
+1让	jgNr6QKPCaQG0gSBKrcm7Ao
 2(财产等)	lRY
 2证书	lhY
 1诊	n2s

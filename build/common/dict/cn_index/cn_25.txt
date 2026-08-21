@@ -88,10 +88,13 @@
 4开始	ilA
 4打赌	2C0
 4担保	i0s
+4措词	8Xc
 4欺骗	sjQ
 4清除	j1k
 4的方式	rgY
 4自豪	3lA
+1…方面	6nc
+2的措词	6nc
 1一驭万	-BXHJLAF1Q7oEA
 1上	KdEDuy2DC9oG8SsB
 1下	-gPyJcASDNMB
@@ -106,6 +109,7 @@
 2名命名	vQLjQYcI
 2废言	xAlp1ASSK_oVugT3AbQLgwfxCg
 1亿计	n0Y
+1代替…	gXg
 1休战结束	l2w
 1便	jkg
 1俗艳标新立异的	hgk
@@ -165,6 +169,7 @@
 1强光照射	tzE
 2凌弱	nA2pV84KkgM
 1往	tSqlIA
+2的	hHU
 1微知著	2lw
 1德报怨	3iSKCfcpeA
 1慎为键	qQ-WK8wWuxbnCA
@@ -175,6 +180,7 @@
 1拳重击	81I
 1指数方式	-SU
 1提付表决来结束辩论	_xE
+1援救…	gHg
 1数字表示的	oEY
 1文字损害名誉	xjw
 1斯帖记	1As
@@ -214,6 +220,7 @@
 1沫相濡	2lw
 1泪洗面	nwmjHQ
 1清水冲洗	qlk
+1澄清	-nc
 1烟熏	tGA
 1牙还牙	ulj6EQ
 1物易物	jgmKYw
@@ -460,7 +467,7 @@
 1流	yhvyHEY
 2河	yhvyHEaUAqYepgE
 1海	6DavAYok
-1涵	-RRY1R7GArkJ
+1涵	-RRY1R7GArkJlDY
 2意义	-RSrKw
 2的	7Dc
 1湖	pBG3DQ
@@ -595,7 +602,7 @@ f时间	92k
 1包	wAjfBLcivSO6DFo
 1厢	jAzwROII
 1吃包住	sQuUIOcm
-1含	9w77BAXMAcsMBDrAEhXeAwE
+1含	9w77BAXMAcsMBDrAEhXeAwHmPA
 2的	jTU
 3东西	pTQ
 1商	6hU
@@ -797,7 +804,7 @@ f时间	92k
 2保证金	zAuoQA
 1职	wCCEC7UO
 1舄交错	-hKNHKsOiAKWC90T7gs
-1行	pwHQDbcOlQ4B4AiTBpEOqwM
+1行	pwHQDbcOlQ4B4AiTBpEOqwPRLA
 2(契约)	wyubKg
 2者	9Us
 1践	9w7ROQ
@@ -974,7 +981,7 @@ f时间	92k
 2无疑	xBzvSQ
 2的命运	nEM
 1然	6A-aJtIO
-2地	0EQ
+2地	0ETqMA
 2性	1EQ
 2王国	1ESkEA
 2的	6AeACJomzw7iIQ
@@ -1111,7 +1118,7 @@ f时间	92k
 1子	qg2PMJURywnWDw
 1当	sAG_BdJAhSCsBw
 1待	niWGJesDigqtDw
-1心	8wRFiSLNOcMMqwYB
+1心	8wRFiSLNOcMMqwYBngQ
 2的	kBSyE7pM
 3事情	jmE
 1忧	kBTtXw
@@ -1567,7 +1574,7 @@ f时间	92k
 3人	yhE
 2球	zwg
 2袋	wAjVFfRT
-1洗	yRECrhKNCYImhwYbzAKOFg
+1洗	yRECrhKNCYImhwYbzAKOFtID
 1津市	vQ6nN8wM
 1流	tgO1A94K1wzpE6gE9hWqA4kNrAyJCXQ
 2县	pBHjBQ
@@ -1643,7 +1650,8 @@ f时间	92k
 2市	pBHjBbEl
 1闲	szPrCA
 1队	iFM
-1除	kgi5CQMBlxCgC58N4xiHBtQN
+1除	kgi5CQMBlxCgC58N4xiHBtQN8w4
+2了…的	hnU
 2剂	y1s
 2器	y1s
 2障碍	zhE
@@ -1834,6 +1842,8 @@ f时间	92k
 2的	m2vMAw
 1出	KaciqwKSAqRD
 2...的可能性(能力、范围等)	2ko
+6范围	mnU
+2…界限	vnY
 1前	ggJmhznfDG6DHYcBsQI
 2意识	myo
 2消费	sgqNC8cPoBvyIQ
@@ -1909,7 +1919,7 @@ f时间	92k
 1载	-0gPqB0
 2限度	k0k
 1迁	6AKdK40VmhHJFIIB
-1过	sgrJGgroIyasHQ
+1过	sgrJGgroIyasHYwPpwIK
 2其他	-yQ
 2负荷	ikk
 2重量	pEk

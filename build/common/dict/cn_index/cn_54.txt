@@ -226,7 +226,7 @@
 1目	oRL5GdYP
 1破血流	vQjcAs0B0CM
 1等	vRGdF48W_RE
-2的	uWo
+2的	uWqUDA
 2舱	2w3iAw
 1箍儿	rSo
 1纱	9m_EAg
@@ -497,6 +497,7 @@
 2圈	qQLKA8oCqA_jMtwZ
 2雨	7TK3MYgE
 3的	71m2Cg
+3般的	k3c
 2雪	kAvMVQ
 2骤雨	7TK_NcEIvAI
 1食	7SC9DqcU4CY
@@ -583,7 +584,7 @@
 1霸	ngkFsCfpBbMJ
 0渴不可耐	GZNpdw
 1慕	q2k
-1望	kQHNAe0DAfEQApgEbfgPrgP6Av8KBkjMC7kDuhGeAp0IhQsF
+1望	kQHNAe0DAfEQApgEbfgPrgP6Av8KBkjMC7kDuhGeAp0IhQsFjAE
 2的	8wSQA9UT-gSTEtEHswP5IKsCnwiXCg
 2获得的	pQE
 1求	vReaBO4Sng8
@@ -683,7 +684,7 @@
 1访	11izGA
 1词	sVfgCuUG
 1话	zATlUg
-1谢	mAHpJA
+1谢	mAHpJKBS
 1辩	zATHFZ0E3C-2CG8
 1问	zASDTw
 1非所问	zASDT5oL

@@ -287,6 +287,7 @@
 1地主	tnQ
 1块土地	o04
 2地毯	kFo
+2小片的	0nU
 1型	t1v7A3U
 2企业	vg3pUg
 2公共汽车	7EE
@@ -890,6 +891,7 @@
 2的	9Uo
 1间仇杀	_G8
 0是...的特色	yCc
+1…的起因	7nQ
 1以	k2lM
 1可忍孰不可忍	lCPJTw
 1否	uzOyPw
@@ -954,7 +956,7 @@
 0每一	0SCDBIYn
 1三个月	wVM
 1下愈况	2lw
-1个	0SA
+1个	0SDoVA
 2人	1SQC
 1人	1SSFJwFM
 2均摊费	wA4
@@ -997,6 +999,7 @@
 1逢	8UaGI_AI
 2佳节倍思亲	pxkTyA71CQ
 0氯化氢	_DI
+2酰基	4Hc
 2钙	8A0
 2钠	nxPDR5UG
 2钾	u08

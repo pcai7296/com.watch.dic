@@ -110,7 +110,9 @@
 0呀呀学语	2lw
 1诺达	k1S2DQ
 0因...之故	6zQ
-1为	fLIFlgO7IKsfzx9c
+1…而死	h3Vu
+1为	fLIFlgO7IKsfzx9cjAsymwH5AQ
+2可怜...	qXg
 1之	_lQ
 1人成事	hi3uA1zeCw
 2而异	zhySGccW
@@ -151,6 +153,8 @@
 1素	2iH3BPsPlQw
 2（的复数）	1CY
 1缘	pQ8BTw2ZEckmiAneBfQF
+1缺...	_nc
+2少	_nc
 1而	rVjmEEw
 1袭	tAOtEt8PqgT2CaMX6Q8
 1过量而厌烦的	hhI
@@ -287,10 +291,11 @@
 1常	3Bi9Vg
 1年	tCqjJg
 1往	uj_YA5EEgBrSB6UG
+2在早上	p3c
 1心里去	zDDqLJAK
 1日	tCqmIA
 1时	tCqmIA
-1昔	rUetAw
+1昔	rUetA8Er
 2地	hiQ
 2的	hiQ
 1来	qwiWDf4UvQ0
@@ -409,7 +414,8 @@
 1扶	_wXWKcwMiSo
 1杂	hQvnEbIdlgg
 0擀面杖	s00
-0无一物	yUU
+0无...的	6nQ
+1一物	yUU
 1上	sGY
 2权力	r2Y
 2的	vhWSMA
@@ -752,6 +758,7 @@
 1数	gxfyH-UKuAI
 2地	ozY
 2的	gxfyH50NyCo
+3...	jXY
 3人(或物)	kkQ
 1斑点	4zM
 3的	zm4
@@ -1011,7 +1018,7 @@
 1被选任资格的	-zU
 7人	-zU
 1装饰的	n0T5Aekm
-1视	nx6kFc0VgyI
+1视	nx6kFc0VgyKfDQ
 1解	l2E
 1言	-kXtENkB7ALPAw
 2以对	jDyJHOsU
@@ -1088,7 +1095,8 @@
 2市	pBGUK_gV
 1间	rQrHB60a1QOqLfEPnAM
 2地狱	2lw
-1阻碍的	1CU
+1阻的	hnU
+2碍的	1CU
 1际	_Qs
 1限	ojYD7jc
 2制	vG4
@@ -1168,7 +1176,7 @@
 2的	gHQ
 3时候	gHQ
 1外面的	0kg
-1多	lkCSAw
+1多	lkCSA7wz
 2的	qEM
 1大	qEM
 2似然估计	7TypAw
@@ -1188,6 +1196,7 @@
 2的	pQo
 3人	pQo
 4(物)	kmY
+3部分	y3Y
 1密堆积	9BE
 2集处	n2k
 1小	gDw
@@ -1201,7 +1210,7 @@
 2的	gDztBQM
 2限度	gDw
 4的	7UE
-1少	gDztBQM
+1少	gDztBQP1NA
 2的	gDw
 1恶劣的	gHQ
 1惠国	uCfwG4kB
@@ -1220,7 +1229,8 @@
 1终	tyi_RAE
 2幻想	jCerAQ
 2的	gUU
-1近	yjvHCYoQkQw
+1起码	5XY
+1近	yjvHCYoQkQz-Ew
 2几年	jSi5E9QZtwg
 2的	xjsJwQmsDd4Czxk
 1远	wB4B1SGSAw
@@ -1418,7 +1428,7 @@
 1合	wixElT0
 1察	7T6hCd4b
 1弹	zw-yC4UZ
-1正	zBapKLcWOLkD
+1正	zBapKLcWOLkDzBs
 2性说明	vFY
 1纷	9AuoEhCMQZ8I
 1结	4Aj2HtcQ4ARu6ia2BQ
@@ -1462,7 +1472,8 @@
 1螺	q2KOCA
 0需求	4Rr6PAE
 2层次理论	rzE
-1要	vgajFMQI4hfLCQIGgBMB6w-nCg
+1要	vgajFMQI4hfLCQIGgBMB6w-nCqMG
+2...时	lXg
 2与他人接触的	mzg
 2是发明之母	4zjKCqcB
 2的	3Vc

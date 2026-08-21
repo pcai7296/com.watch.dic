@@ -47,7 +47,7 @@
 1宜	wQUJ
 1当	71HxEw
 1文允武	pgK9Ne4J3Q8
-1许	pwMBkR8G5QvvHQEC
+1许	pwMBkR8G5QvvHQECjyk
 2命令	pwM
 2的	-yo
 2误差	oWo
@@ -265,7 +265,7 @@
 1方	2ls
 1服	2luWEg
 1歌	2lvPBQ
-1正	5AGsAQHpCtIIAcEK2DDrA50D
+1正	5AGsAQHpCtIIAcEK2DDrA50D-xs
 1监	gxA
 1舍	kg3ITg
 1花	wgnMBIwfriaSCA
@@ -399,6 +399,7 @@
 1办法	KNAEgkGWIw
 1劲	6wvDGagCAaoQnQWnJ-AN
 2儿	3G8
+1发生过的	t3Y
 1受教育的	yjM
 1吃没穿	_hHzF4UltyGfAw
 1味道的	8Wc
@@ -429,7 +430,9 @@
 1救	sgrjJ5Ep
 1教养的	zRg
 1日没夜	pxn-K_EQ4RM
-1有	NYcl7gqJFVDJLQ
+1有	NYcl7gqJFVDJLZUBJS8
+2…的	h3Y
+2一个	5XU
 2不透风的墙	oCqhMg
 2事	5gqUOw
 3实根据的	5m0
@@ -451,6 +454,7 @@
 2意义	pEA
 3思	6wuWLA
 3识到的	5W4
+2根据的	7XQ
 2止尽	3CI
 2气味的	jkc
 2法	KNAE6wuYLYUv
@@ -770,7 +774,7 @@
 1显	pBXRKdMJjgnKEQ
 1泉	2lw
 2县	hxflH4kF
-1然	MpQLsUO_D5YHAYwI
+1然	MpQLsUO_D5YHAYwI3wk
 2一阵	oC8
 2伸出	904
 2出现	904
@@ -853,6 +857,7 @@
 1灯	zymVEw
 1状器官	wU0
 1理	5gEBAcEFjw3AAYIYAY8BjxABkRcB6gMJ7wsOAQ
+2...	3Xc
 2上的	nD8
 2人	6gHuFpga3wZp4wTRJJYCHA
 2信息库	jwmoLeMI
@@ -1137,7 +1142,7 @@
 1死	lwiSHg
 2不活	lAOaFpUWzxPjJQ
 2要活	lwjIE_9M
-1求	mwWjAcAH_QGwAbYJdsYjmBCSAZMHAQG5Cw
+1求	mwWjAcAH_QGwAbYJdsYjmBCSAZMHAQG5C-4R
 2(搭便车)	2jE
 2告知	yB0
 2权	qxE
@@ -1219,6 +1224,7 @@
 2有罪	mBY
 2正当	rTo
 2用的	5VE
+2的	_3U
 2者	wHE
 1照	1TyEDr0BYg
 1物	siU

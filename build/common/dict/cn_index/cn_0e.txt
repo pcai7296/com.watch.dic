@@ -6,9 +6,11 @@
 4合伙	zko
 4同时发生	iEk
 5等	s0s
+5类的	-3Y
 4商量	uhU
 4在一起	tQM
 4平行	lEo
+4并肩	7HU
 4性交	7i0
 4成平局	6mk
 4战斗	9RI
@@ -32,7 +34,8 @@
 2长辞	jhu2AdwN1kk
 2隔绝	4BiyLosR2Rs
 4的	zDc
-1事实有关的	1yY
+1事实不符	7XQ
+3有关的	1yY
 1人为善	kQrjJsws
 2方便的	bQ
 4自己方便	9DA
@@ -68,6 +71,9 @@
 1...中逃生	2kg
 4卸下	lG4
 4取接枝	hGA
+4里面	4XQ
+1…撵出去	gHU
+2时候起	43Q
 1一而终	vBmtDQ
 1不	jkU
 1业	108
@@ -104,8 +110,8 @@
 1兄	lxfpJ7wd
 1先	2QmBQf4F
 1军	iQaDHbM6xwM
-1前	tSqJHZoJnxn7BA
-2的	tCqKHX0
+1前	tSqJHZoJnxn7BJIGlwE
+2的	tCqKHX3JLA
 1动	618
 2装置	618
 1包裹中取出	oG4
@@ -469,7 +475,7 @@
 1影	qwi_Abke2SzZGw
 1心	qwiROQ
 1怕	vQKQIvQC4yelFQ
-1悔	_BPaE9EuVCnpAg
+1悔	_BPaE9EuVCnpAqQc
 2不迭	yTvoLg
 2的	9BU
 2莫及	vQKQIvwW2xuNE-UE
@@ -833,6 +839,7 @@
 1速摄影	tzvJEfcc
 1量	lwfuGPghjxrSAZYN
 2元素	2iGaSQ
+2的…	93W8AQ
 1雕	60E
 1静脉	vA67YQ
 1风	uAwFpzDFNg
@@ -1228,6 +1235,7 @@
 2市	pBGUK_gV
 1气	2TL7Dw
 1水	6Gk
+2般的	x3U
 1汐	6Gk
 2电站	0U_wEw
 2能	6yLmLA

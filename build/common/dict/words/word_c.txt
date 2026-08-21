@@ -92,6 +92,7 @@
 2p	1f7	5f
 3ability	1f8	48
 5le	1f9	5c
+7 of	bnl	
 4cious	1fa	c0
 6tance	1fb	8
 7or	1fc	8
@@ -130,6 +131,7 @@
 5ologist	1g9	80
 4s	1ga	20
 3e	1gb	23
+4 of	bkc	
 4en	1gc	80
 5r	1gd	74
 6ism	1ge	40
@@ -391,7 +393,8 @@ be	1le	fc
 3sel	1ni	e0
 3valrous	1nj	80
 7y	1nk	c0
-2lorophyll	1nl	40
+2loride of acid	bts	
+5ophyll	1nl	40
 2ocolate	1nm	37
 3ice	1nn	ff
 6s	1no	20
@@ -501,6 +504,7 @@ at	1pp	80
 5liness	1qk	8
 5se	1ql	40
 4r	1qm	23
+5 of	bk6	
 5ance	1qn	20
 5ing	1qo	8
 5ly	1qp	6
@@ -673,6 +677,7 @@ aism	1um	40
 4ustible	1vc	e0
 8on	1vd	48
 3e	1ve	23
+4 of	bjq	
 4dienne	1vf	80
 5y	1vg	7e
 4ly	1vh	80
@@ -760,6 +765,7 @@ bness	1xn	40
 ay	1xr	80
 9t	1xs	80
 6in	1xt	5c
+8 of	bns	
 8t	1xu	7c
 7sance	1xv	80
 at	1xw	80
@@ -784,6 +790,7 @@ aary	1yc	40
 5rt	1yf	c0
 5se	1yg	fc
 7d	1yh	c0
+8 of	bo6	
 7r	1yi	88
 6ite	1yj	38
 8ion	1yk	7f
@@ -814,6 +821,7 @@ bve	1yr	dc
 5de	1z9	f8
 5it	1za	c8
 6ve	1zb	f8
+8 of	bp9	
 5ntrate	1zc	be
 bd	1zd	8
 aion	1ze	1c
@@ -928,6 +936,7 @@ bion	21x	5e
 6e	22f	c0
 4oisseur	22g	c0
 5tation	22h	90
+9ve of	bp5	
 4ubial	22i	80
 3quer	22j	fc
 7or	22k	28
@@ -959,6 +968,7 @@ by	238	40
 aion	23a	5e
 5gn	23b	e0
 5st	23c	7e
+7 of	bnk	
 7ency	23d	c0
 9t	23e	de
 aly	23f	48
@@ -1055,6 +1065,8 @@ aory	25q	ca
 6ve	25y	f8
 8d	25z	88
 5ol	260	b7
+7 of guns of ammunitions	bu4	
+bsource of supply	bto	
 6versial	261	fa
 ay	262	78
 9t	263	c0
@@ -1088,6 +1100,7 @@ cal	26l	40
 4ict	26v	f8
 7ion	26w	f8
 5nce	26x	fe
+8 of	bo4	
 8d	26y	40
 7ing	26z	48
 5vial	270	c0

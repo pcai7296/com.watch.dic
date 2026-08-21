@@ -77,6 +77,7 @@
 1旗息鼓	uQ-KELAJqwTJDpEo
 0傣族	riTECg
 0千万	gxe3KGy0AaYCuCQ
+2别…	wHU
 1丝万缕	-jdL
 1乘之国	0k_pE_8F
 1亿	zAqXKA
@@ -167,7 +168,10 @@
 1阳	2lw
 2县	pBHjBQ
 1难万难	0BzZCQ
-0吃一堑长一智	7ybNEf4J3QKvArEi
+0吃...中的一部分	sXU
+1一些...	sXU
+2堑长一智	7ybNEf4J3QKvArEi
+2点...	qHU
 1下	lGQ
 1不上	-AT1G5kMmhOAAuAq
 2下	7SDpBpYVpgbuKQ
@@ -188,6 +192,7 @@
 2血馒头	hAKRQLEl
 1伤	vQKJB6sg4BmRG88L
 1住	7SCECeUTywKsIw
+1光	i3Y
 1公粮	_C0
 1刀	5RjmMuce
 1别人嚼过的馍不香	rgzDFekGOfsQyhbIEAHvBw

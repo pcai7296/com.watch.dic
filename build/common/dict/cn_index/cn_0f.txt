@@ -786,6 +786,7 @@
 1学	7mQ
 1常	qBXRAy6vC7QGmRyGDwE
 2乘车来往	rBM
+2在晚上	8HY
 2地	iiueKw
 2开支	hkk
 2无故缺席	OA
@@ -890,7 +891,7 @@
 0肯塔基	u2M
 1定	sQLDBPQIArkK-xL8IQKtBWg
 2句	ll0
-2地	m08
+2地	m0-rKA
 2的	mk8
 1尼迪	6hrvM-IB
 3航天中心	ug6bAf9R
@@ -948,6 +949,7 @@
 1导	mUIB
 1工	Nu8O_w6lHbIC_CvyCQQ
 1差	mhwztwc
+2出现率	_Xc
 1打误撞	ZkqpCM9f
 1机	oELJCw
 1杀	yDo

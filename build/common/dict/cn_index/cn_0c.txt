@@ -398,6 +398,7 @@
 2性	qTM
 2挂	tAPrD-cZ9hC_CpIq
 2的	pTPIKQ
+2类的	8nYw
 1上	KQ
 1业	vg3pPsUOkBA
 2公会	6wahKPA7
@@ -481,7 +482,7 @@
 1德	2lw
 2县	7QeaDw
 1心	ixTaLfUapxE
-2协力	nxN04irwEy2JF84J
+2协力	nxN04irwEy2JF84JpAM
 2县	pBHjBQ
 2同德	5UE
 2的	ixQ
@@ -494,7 +495,7 @@
 4东西	thI
 1情	lhMkAZsUAZcj5wLbBssCmhAB4Qq5Ag
 2者	4ifiQw
-1意	VQcChAIC4AKVAcoNZKUyxhPoAYsCtwYC9wHvBTn6Bg
+1意	VQcChAIC4AKVAcoNZKUyxhPoAYsCtwYC9wHvBTn6BugD
 2义的	8yM
 2的	4wI
 2给予	pwM
@@ -518,8 +519,10 @@
 2期	yxWhRYsP
 2的	kV-KCA
 1期	pRSwAqk1nRvcAg
+1某物撞在一起	gnY
 1样	uwOqIIc3mgQCqQvAAw
 2地	uwPzAsM2-x0
+2尺码的	6XY
 2的	kgPqKfAPgB4
 3人(或物)	7Dw
 1框	nQXODI07ox20Bg
@@ -751,6 +754,7 @@
 1弄	KP0OpjTHA_oC-QPBEMcN
 2是非	rQqVE8UX7gmWA8wJ5geUDtEG
 1指	3Qj_Zg
+1掉	inU
 1楦头	-yXQHaEaQAGqDQ
 1用	rgWFEYAq4C4
 1石头砸自己的脚	9inVGfYD7RboBVGyBQ
@@ -1005,7 +1009,7 @@
 2集	0zw
 1谣	0AjZPdwS
 1迷	gieaOA
-1颂	7A7KFeUB_zg
+1颂	7A7KFeUB_zilFg
 0泌尿器	92o
 2生殖道	92o
 2系统	qWc

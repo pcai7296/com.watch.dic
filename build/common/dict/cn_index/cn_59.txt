@@ -168,6 +168,7 @@
 2形变	sBqUBw
 2模量	qhKbD9s2
 2的	y2Q
+2需求法则	yHg
 1拨	p04
 2乐	-0PdIA
 3器	xDeULQ
@@ -334,7 +335,7 @@
 1底	rwjIA64DsRuML_sY
 1式	gib4LQ
 1性	vETfJw
-1据	lgnGG_oFVsQDvzbPDAM
+1据	lgnGG_oFVsQDvzbPDAPaBQ8HUw
 2地	jwnpIA
 2实验的	4CU
 2星球运行测定的	5l4

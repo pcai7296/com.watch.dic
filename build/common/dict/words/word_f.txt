@@ -35,6 +35,7 @@
 3ot	3tp	40
 2hrenheit	3tq	6c
 2il	3tr	3
+4 of	blj	
 4-safe	3ts	80
 4ure	3tt	36
 3nt	3tu	7c
@@ -328,6 +329,7 @@
 4k	41u	28
 4nel	41v	88
 3p	41w	78
+4pong of	bp2	
 3re	41x	fc
 3sh	41y	7e
 5light	41z	42
@@ -435,6 +437,7 @@
 4y	44t	c0
 2ment	44u	c0
 2nd	44v	1e
+4 of	bms	
 4le	44w	80
 2od	44x	23
 4stuff	44y	80
@@ -575,6 +578,7 @@ aly	47b	40
 2eak	48p	a0
 3ckle	48q	80
 3e	48r	3
+4 of	bje	
 4dom	48s	3e
 4lancer	48t	80
 5y	48u	c
@@ -649,6 +653,7 @@ aly	47b	40
 3fil	4ar	ac
 6l	4as	18
 3l	4at	3
+4 of	bjp	
 4-blown	4au	80
 6odied	4av	80
 5fledged	4aw	80

@@ -721,12 +721,12 @@
 1收眼底	vke-AtER-QuPCbAC
 1数	-Ba-DA
 1早	1iDMLg
-1是	2BPtFw
+1是	2BPtF7BJ
 2尖刺的	rGI
 1欢	hiO7JPIh
 2而散	vQLRG8kG7gaqBOEath4BcA
 1皆	1xOpEYVORw
-1管	gANCoBjmCNgMrBQ2sByDB70JWg
+1管	gANCoBjmCNgMrBQ2sByDB70JWtYCnwI
 2如此	zEU
 1绵薄之力的捐献	sUI
 1职	_xSvCJADyEA
@@ -813,7 +813,7 @@
 1略	pyqcCaARqAQCxAHsEMEEJQ
 2不计	nx7EJg
 1而	jka_Hw
-1视	0w3MEKQVoBEBpwQ
+1视	0w3MEKQVoBEBpwSsLw
 1闪	himsBAqpNA
 1闻	yDCzC9Ip
 1隐忽现	lTj5DcwW
@@ -1471,7 +1471,8 @@
 1胆相照	OZIE2ReiQlG5C4IB
 1脏	sz0
 1脑涂地	3jy6CqUT
-0能上能下	sjHHCI8E5RbZEg
+0能…的	gXY
+1上能下	sjHHCI8E5RbZEg
 1事	viqIIA
 1人	vAL5C7ISsAXnC6ka1RX4DA
 1伸缩的	xCE
@@ -1495,6 +1496,7 @@
 2的	GZwOkgXfDQ
 1彀	3G8
 1得到的	6kY
+1忍受的	4XU
 1感觉得到的	4Es
 1愿动词	knA
 1手	1QGPJLUC
@@ -1532,6 +1534,9 @@
 1量	6yI
 2代谢	6yKjHg
 2守恒	jBXfDQ
+4与转化定律	hXg
+4定律	hXg
+2持久律	kng
 2饮料	9h_1Ag
 1预测的	mSo
 0蚝卵	7GE
@@ -1583,6 +1588,7 @@
 1光	1WI
 2灯	1WI
 1击	ogfyS84L
+2…	qHg
 1剧	qlaKB9gU
 1剿	5iGuMZoT
 1加	ygEBBc0kjg-EGvIR7wg
@@ -1635,7 +1641,7 @@
 1梦	oBDKD6oz
 1歼	yDqADswKpyA
 1比	oA4
-1求	vQLjDe8G_QGXCscGqikByAn_Fg
+1求	vQLjDe8G_QGXCscGqikByAn_FtgE
 2名利	3g4
 2者	6DI
 1溯	rwb8AfAQrz-qEg
@@ -1660,7 +1666,7 @@
 1购	zwGzUQ
 1赃	7C2iGskQ
 1赠	wBTeGA
-1赶	VucB2QyKAcUgthj5CQFY
+1赶	VucB2QyKAcUgthj5CQFYuyQ
 1踪	6imqKQGDENwHAhE
 2号码	n0Y
 2报导	6inILQ

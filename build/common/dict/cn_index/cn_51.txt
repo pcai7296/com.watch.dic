@@ -265,6 +265,7 @@
 1速	mWM
 1道	jhf4FfQQ9RPREuEN
 2寡助	pQ-FK4QDowbZIt8H
+1重法	4Xc
 1错	4A6VMLMD3B0
 1陪	niXiHo4C
 1面子	wia4Fw
@@ -273,7 +274,8 @@
 2落魄	oAqhPQ
 0孱头	oRc
 1弱	zRqfELlH
-0就...而论	6XI
+0就...而言	13dD
+5论	6XI
 1…进行辩论	nR4
 1业	uCLOCvMM
 2安定费	uCKZBcEC3heRAf8f
@@ -357,7 +359,7 @@
 2踏板	qUvQFQ
 1项	8wWybA
 0抑且	zwHEQQ
-1制	kgbjBa4EQ98EM8cChAfWD7sH4wPpCDblCosD-AUCaAGRCM0EB6ABNA
+1制	kgbjBa4EQ98EM8cChAfWD7sH4wPpCDblCosD-AUCaAGRCM0EB6ABNLIR
 2不住的	oDk
 2人	1TY
 2剂	1TY
@@ -677,7 +679,7 @@
 1镁矿	1z69CQ
 1镜	2lw
 0蔑称	zhWEUw
-1视	yRUDzgTHAfQBMLofkSM
+1视	yRUDzgTHAfQBMLofkSPTFw
 0蛱蝶	yA0
 0觱栗	nQS-BP4H6yalHg
 1篥	nQS-BP4H6yalHg

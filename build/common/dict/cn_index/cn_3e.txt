@@ -117,6 +117,7 @@
 1形针	6xGZOA
 1心转意	hRDgMQ
 1忆	4kCvFCMBhgKVAQU
+2...	sXg
 2录	3EA
 2起	71Y
 1怼	qwiuKeEm
@@ -407,7 +408,7 @@
 2地	zT-jBpQK6QbzCvcC
 2的	8QjtA8YIpgmCIaMGCAID6gT9AfMEDYkF7wOZBMID7QU
 1要	3hzFBYwSwBEGsgYCrQU
-2的	rzQ
+2的	rzTSQA
 3席位	9g8
 1见	0RGeNZgq
 1豁	ygyEBY8T
@@ -751,7 +752,7 @@
 4的	6CKMFrwEhAHzGbQY
 2恢复的	p1g
 2旺盛的	_h8
-1华	pQrDF7ICrgP7AewKpgvTA5wD-QPVAj2PA_4C4w0
+1华	pQrDF7ICrgP7AewKpgvTA5wD-QPVAj2PA_4C4w2MFQ
 1卫	3ArEDo0J
 2填海	2gOCB6kRvQrsAcgDvgjkD-YCCZEd1wM
 1品	wCisBbEigwGUArUg
@@ -926,7 +927,7 @@
 1进	6AKUF6gQnR3_CQ
 1选	pQr-AsADpQMCiDndEckU
 2品	4xCJTA
-2的	4xA
+2的	4xDDZA
 1通	-yb0GAK8EQE
 2文学	oD0
 4的	oz0B
@@ -1118,6 +1119,7 @@
 2计	rRb7RpIH
 1珠	kQMqsSWqA7wN4RrIBd0KbA
 2炮	hwk
+2砲似的…	ync
 1理	8RSGGqQ7vQGjAg
 1璧	9xLxGuALOQ
 1生	gwEB

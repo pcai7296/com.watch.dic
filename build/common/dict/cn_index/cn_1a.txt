@@ -831,7 +831,8 @@
 2多彩	ygymIe4Q
 1烂	rBnEFMY0
 0缺一不可	ix6xA-E9rxQ
-1乏	NYYZVQySAUCdBNQGAh6IFNMJqgZS-QOuAcYK8wICtRM
+1乏	NYYZVQySAUCdBNQGAh6IFNMJqgZS-QOuAcYK8wICtRP0AhdV8AE
+2…	tXUC
 2兴趣的	_gQ
 2变化	-0I
 2感情的	_gQ
@@ -849,7 +850,7 @@
 2（的复数形式）	3BA
 1失	jxoNAfkO8RGyIw
 2(液体)	mRs
-1少	hzu8IPMCAgSxEw
+1少	hzu8IPMCAgSxE9AFQhE
 2的	_AidAYo4
 2经验的	-m0
 2自主性的	vEg

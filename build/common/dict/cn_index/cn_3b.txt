@@ -126,6 +126,7 @@
 1笔	kCE
 2的	kSE
 1管	lRD2DJAigAiMBfML
+2...	3Xc
 2人	vhj9N9QV
 3(部门)	j2Y
 3员	pCU
@@ -193,7 +194,8 @@
 2日	qAexArshkRi4Aokt
 0些微	vy-4EmOhGYMEASjYEg
 2地	_18o
-1许	5gqnHaEV
+1许	5gqnHaEViDoR
+2…	_nYu
 0任一	vCE
 1丘	2lw
 2市	pBHjBbEl
@@ -216,7 +218,7 @@
 2权	_0o
 1其自然	jhf0JC-LCIojugE
 1内	mkfkBA
-1凭	pwO7GKck1DI
+1凭	pwO7GKck1DLFAw
 2风浪起稳坐钓鱼台	gw7fDf8MxjYFoQRXpAQSkwE
 1务	4gbeGcADpB6xF5oO
 2管理器	mz_UKA
@@ -504,6 +506,7 @@
 1冲程循环	2io
 1出文钱	whL6A_ELrQiQB9IPjAfsDb8M
 1分之一	3SrjKA
+4的	mXc
 2五裂	oh0
 2历	8g0G4QL0DwmECKQjwgeoA9YMmgs7
 1则运算	_gWVA8ch
@@ -682,6 +685,7 @@
 1值	0Gr3BA
 1公司	shOEHeQWjAM
 1共	xAOmYuYE
+2…	3XY
 2收入	6y4
 2的	-ArzI_oZ
 1分	9kj3EuMO
@@ -766,6 +770,7 @@
 2之交	zhDJGg
 3好	zhDJGg
 1计	zgKsAfwltSu_EOYE
+2为	3XY
 1论	1Cz2Cw
 1谐波失真	0h60Eco6
 1谱	_EPxFw
@@ -898,7 +903,8 @@
 1中求生	vBnjDr8U_x8
 1乞白赖	wQKFStoU
 1了张屠夫不吃混毛猪	xAmBBKgT8RTMBPgFlQXNCQ
-1于安乐	2lw
+1于…	h3U
+2安乐	2lw
 2非命	vBmIA1_KUw
 1亡	vBmrAd0B5wKpA5QD0wjMHZ8e
 2人数	vBnjLLgFzR4
@@ -1248,6 +1254,7 @@
 2价	sQvKHw
 1峰	kkeEBA
 1开	vAbSFAPxIMkHxwPODOcf
+2...	4XQ
 2人世	xBy-H_Q3
 2原位	-B0
 2固定位置	yG4

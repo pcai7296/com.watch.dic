@@ -628,6 +628,7 @@
 2...为止	82k
 5时	2G4
 6为止	x0s
+2…	43Q
 2现代的	gm8
 3在	yCTGIaIK7Qi7FQ
 4的	6W4
@@ -864,7 +865,7 @@
 1付	1S-gGZcC
 1枪	iAaYF6MCpBzfKg
 2不杀	3jzoKQ
-1械	oB2jAqQc3yo
+1械	oB2jAqQc3yriDw
 1税	jEvvHA
 1纳	hxKFOQM
 1获	zA6dTg
@@ -1044,10 +1045,11 @@
 1俏皮话	8lI
 1傻话	_B8
 1出	6hnfKf8EqRk
-1到	KMVA3yY
+1到	KMVA3ybFDRA
 2做到	6C3PDKAXjyI
 2底	jwTFHuMF
 1动	tUw
+1及	kXU
 1双关语	8lI
 1合	jwbDBuQMhSfgKQ
 1呆话	-Sk

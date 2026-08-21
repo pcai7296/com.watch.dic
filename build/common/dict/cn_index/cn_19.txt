@@ -128,6 +128,11 @@
 1…估计不足	qG0
 2做出解释	fQ
 2征税过重	nUk
+2感到绝望	53U
+2的要求	hHY
+2胆战心惊	pXg
+2至关重大	r3g
+2表示怀疑	lng
 2认识不足（或重视不够）	qG0
 2负有责任	fQ
 1上	0gzuCKcT1Q__Dw
@@ -204,7 +209,7 @@
 2面的	7UY
 1开	iR3fKrsS
 1弈	wBDFPQ
-1待	v12TDgI
+1待	v12TDgKQCQ
 1得起	wx-iB8wVoS-yCA
 1心	3hQ
 2儿	3G8
@@ -573,6 +578,7 @@
 1色	pRmxB44c
 0歙县	pBHjBQ
 0汹涌	rwuIW4YGsQTkAQ
+2澎湃的	rXc
 2的	zgo
 0淹博	hyTgMKke
 1头搭脑	nj0
@@ -631,7 +637,7 @@
 2指明	-GE
 2提款权	yRibB7QY3Sk
 2珍爱的	zEw
-2的	giWbAQeiJFzTFgQ
+2的	giWbAQeiJFzTFgStEw
 3东西	9WE
 2美味的	3wM
 2行政区	6QGLBNoW6gPaCeoDzQ3xA6oGlQGFBaIK1QubB94J

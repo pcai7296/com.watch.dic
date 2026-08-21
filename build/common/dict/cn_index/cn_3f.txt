@@ -156,7 +156,7 @@
 1问	vgY
 1阅	2wsS-kg
 1题发挥	yhioE7IH0QuACjehB8wCoRfZBA
-0偿付	qwj9FPAf9A2qC4sS
+0偿付	qwj9FPAf9A2qC4sSoQ8
 1债	yhnUPQ
 1命	3jyuDg
 1清	yhnILfoDkgw
@@ -242,6 +242,7 @@
 1受的	ugm8JpcY1As
 1呛	lCPJRasEigE
 1味	_iSVBJcR8x6JEA
+1岁数了	jnU
 1得上	lCPUCuIS1yI
 2着	pAe9TQ
 1意思	3izmAY8M2jWtAw
@@ -340,7 +341,7 @@
 1付	jEvLBg
 1做	xmf3BQ
 1先启后	2lw
-1兑	XAKqMQM
+1兑	XAKqMQOzQw
 1前启后	rQqZAqQdjgKOBVD3CfAOHdIg
 1办	XIwV1Vc
 2酒席	nA8
@@ -380,7 +381,7 @@
 1蒙	tjU
 2关照	vQKeDNsmwDM
 1袭	9QH1J-gM
-1认	XAI6VgFzReIE_AsRLAHhGYgb-geiA2gBAQ
+1认	XAI6VgFzReIE_AsRLAHhGYgb-geiA2gBAbAg
 2控罪	kS_7Hg
 1让	sTz2Ng
 1诺	mhNL8j3KD5wM
@@ -412,6 +413,7 @@
 1古	vhH_EMBC7A4
 2之作	vhGgOZ8a7A4
 1合	5yg
+2优度检验	oHg
 1定	1B8M2QrkJw
 1态	iw7VMw
 2(生物)	4EE

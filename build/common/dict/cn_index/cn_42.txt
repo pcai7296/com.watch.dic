@@ -132,6 +132,7 @@
 3的掌心	1S-QGg
 1果	gQ_MFe4O
 2说	rFs
+2需要...	lXg
 1此	7Dz1I-kElQQ
 2的	ymU
 2这般	ymWVBA
@@ -996,7 +997,7 @@
 1孔	wiY
 2的一部分(如眼、口等)	yCc
 1容	ngW9Dp4DyQ8EgwGiFg
-1对	uQL8CaQIAfUO8wLsBA
+1对	uQL8CaQIAfUO8wLsBLtM
 2面	wiY
 1巾	wibBAs81mgw
 1市	2TH1DQ

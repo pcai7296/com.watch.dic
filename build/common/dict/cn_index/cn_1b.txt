@@ -51,6 +51,7 @@
 5食物及必需品	s1I
 2军需品	70M
 2干草	rzA
+2来源的控制(管理)	3Hc
 2者	1Sc
 2营养物	q0Y
 2钱	ki0
@@ -375,7 +376,7 @@
 2事	oRM
 1开心	7h7hDKYT6B0
 1思	khXdOQ
-1找	6TKCC-MVlAb7Ag
+1找	6TKCC-MVlAb7Aokb
 2平衡	6TI
 2指定的字符串	vig
 1摸	8yX4F5oT
@@ -387,7 +388,7 @@
 1欢	kk7LDg
 2作乐	3jy0EQ
 1死	pgfpD60Cokw
-1求	6z3jFY8J
+1求	6z3jFY8J1xs
 1甸	2lw
 2县	2lw
 2回族彝族自治县	7Qe3CeMF
@@ -896,6 +897,7 @@
 1法	5FGHAw
 1物	-j_uFAM
 2（的复数形式）	6VQ
+1知	knU
 1研	qAfhJtEt
 1破	jxBKi0HjAiAEihQ-5gU
 2句	sAypBMokmQOIFqcGhRSwCw

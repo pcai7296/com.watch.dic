@@ -31,6 +31,7 @@ bic	5ro	80
 4watt	5sh	8
 2n	5si	b8
 3d	5sj	3
+4 of	bl5	
 4ergarten	5sk	32
 4le	5sl	e8
 4ness	5sm	1e
@@ -61,6 +62,7 @@ bic	5ro	80
 3t	5tb	3c
 4ty	5tc	80
 3w	5td	3
+4 of	bks	
 4-how	5te	80
 4ledge	5tf	3f
 9able	5tg	40

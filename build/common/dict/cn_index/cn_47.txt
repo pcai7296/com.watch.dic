@@ -438,7 +438,7 @@
 2瑶族自治县	7Qe3CeMF
 1匠	zSCiH60H9CI
 1千世界	4xaHCNoPy0Rn
-1半	wy-rDYUCnwQWlQfGBvIX
+1半	wy-rDYUCnwQWlQfGBvIX0Q0
 2地	uzs
 2夜	vEHpAw
 1卖场	ujuyAckbuART4AbVDQ
@@ -489,6 +489,7 @@
 1名	0B6xCK0D8hmKCLAQ
 2县	pBHjBQ
 2鼎鼎	gSeUB_woRg
+4的	23U
 1后天	jka4Iw
 2年	vQLaQne4I-gK
 1吵大闹	8ivRDrIE_wrZETTCAg
@@ -547,6 +548,7 @@
 2县	pBHjBQ
 1堂	wT0
 1堆	wUPmCQ
+2大堆的	7XUl
 1堡礁	1ge2Abglpyc
 1堤	tzw
 1墓地	2EQ
@@ -564,7 +566,8 @@
 1夏	nQSdAp4JgQGsBpst
 1外宣	2BC6Ga0UqRM
 1多	uj_uAwGUBw
-2数	lg3dMXg
+2数	lg3dMXjINZMBUA
+3...	zHY
 3地	hFA
 3的	qEM
 1夜	2QnjD5oH0gObC6oTKY8C-BKfBA
@@ -738,7 +741,8 @@
 2出没	oDY
 2杀害	4hk
 2特批	zw-eCA
-2的离去	wyU
+2的	0Hc
+3离去	wyU
 2离去	wyU
 1抵	2CziDrEDvQSVB7YXpw0
 1拇哥	wQq6FYsJ1EA_
@@ -946,6 +950,7 @@
 1爷	mAbWBrsa7hf7B_oQ4QTZAYwKwwQ
 1片	8wXXH_AVkwj-IJwLqAMB
 2土地	92o
+2的	q3Y
 2落下	iF4
 1牌	1g6yI6cC-BfUAvIN8wdi6wo
 2档	7gKDJ-AdzRD7Cg
@@ -1043,7 +1048,7 @@
 2灯笼高高挂	tDuZCMkQxgE
 2袍	3CWlQuIE
 2鼻子	ngzMOQ
-1约	KJ4FvUuaEA
+1约	KJ4FvUuaEMETmgJ2
 2的	xQU
 1纪元	4yOxIQ
 3时报	4yOxIQ
@@ -1055,6 +1060,7 @@
 1罪	kiM
 1美人	8C3oRQ
 1群	6GY
+2大群的…	o3Y
 1翎毛	2VM
 1老婆	5FCyIg
 2粗	4ifKMvIS
@@ -1206,7 +1212,7 @@
 2广域市	vQ7nAsMPwSC8BMwMlw8
 1部	8z61BJUH
 2份	qUM
-2分	8z61BAGUB7AG
+2分	8z61BAGUB7AGxiSTAVA
 3的	8j4
 2制	9UGNJKcB
 2头的	tHE
@@ -1218,14 +1224,16 @@
 1酒杯	iAw
 1醇小疵	4htXixKzE_gX
 1野狼	uQiIApVp
-1量	SbED-wOhBZwcrANxdfYMmwOWAeYD0QLZAcYB5gNwowVKdfQGATP-AdsB8wGXAfQIuwV1clw
+1量	SbED-wOhBZwcrANxdfYMmwOWAeYD0QLZAcYB5gNwowVKdfQGATP-AdsB8wGXAfQIuwV1clybAgckGBokMQ4
 2之水	syk
 2地	S_YJvSC9EA
 2存在	Jw
 2拥有	-2Y
 2涌至	9Qc
 2生产	6z-zEQPPEA
-2的	SrMD4SjRB4sHswSPCLEdugrMAQ
+2的	SrMD4SjRB4sHswSPCLEdugrMAeoDNwoWHggMNgYbTgU
+3...	2HU
+3…	7XWUASMK
 2财产	yio
 2（人或物）	nlY
 1钉一般的	oWI
@@ -1398,6 +1406,7 @@
 2绳状	41k
 0控件	-BU
 1制	5gqJAeEGN7wCNYcDpAaKDzIBiAOxDVbfArcNpgYM2gKFAcMJ
+2住	7XY
 2台	nBVc4QU
 2器	-BU
 2室	-BXmQw
@@ -1408,7 +1417,7 @@
 2的	sU0
 2色阶	ujw
 1卫	gy_BHw
-1告	igEBgwWHCvEjpgEHHAH-Lw
+1告	igEBgwWHCvEjpgEHHAH-L68Q
 2人	ujY
 2者	jAGuNQ
 1方	iFI
@@ -1824,6 +1833,7 @@
 1点	1BT3K_kN
 1率	iCW-Lw
 1票	7AjfAYkVtAU
+2的承兑	zHg
 1算	1RLEBq9EqwU
 1编	ANcGgAx2j1w
 2语言	2AbXNA

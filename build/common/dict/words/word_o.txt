@@ -14,6 +14,7 @@
 2fuscate	6yq	80
 2ituary	6yr	80
 2ject	6ys	3f
+6 of the of ownership	bpc	
 6ion	6yt	fc
 7ve	6yu	fc
 9s	6yv	20
@@ -73,7 +74,8 @@ aal	70a	20
 5rence	70d	fc
 2ean	70e	37
 0Oceania	70f	e
-2tober	70g	23
+0oceans of	bom	
+0October	70g	23
 0octogenarian	70h	80
 4pus	70i	40
 2ular	70j	80
@@ -91,7 +93,66 @@ aal	70a	20
 3ur	70v	2c
 0Odyssey	70w	a0
 0of	70x	3
+2 a day	bq0	
+5kind	bs2	
+5mind	brh	
+6orning	bs7	
+5night	bqo	
+5piece	bqz	
+5size	bqh	
+6ort	bqq	
+6udden	bso	
+7rety	bt2	
+5truth	bs0	
+4ge	bke	
+4ll	bjj	
+4nd on	bti	
+5y	bkw	
+4vail	bn3	
+3base	bjh	
+3choice	bl2	
+4orse	bof	
+5urse	bkf	
+3family	bj4	
+3import	bkb	
+4ntent	ble	
+7rest to	bvz	
+4tself	bly	
+3kin	bm4	
+3late	bl6	
+3malice	blp	
+4oment	bkg	
+3name	bjo	
+4ecessity	blm	
+4ote	bk1	
+3old	bk4	
+4neself	bjf	
+3publication	bm6	
+5rpose	bko	
+5s	blk	
+3record	bjm	
+5putation	blx	
+8e	bmj	
+4ight	bjd	
+3sort	bk9	
+7s	bn2	
+3taste	bl3	
+4he day	bpg	
+7essence	bpr	
+7moment	bpj	
+7name of	bj3	
+7order of	bj2	
+7rank	bpp	
+7surface	bpf	
+7time	bpb	
+4ype	bjb	
+3use	bk5	
+3value	bja	
+5ntage	bmx	
+3worth	bkv	
+3yore	bob	
 2f	70y	3
+3 of	bj9	
 3-key	70z	80
 3beat	710	80
 3ence	711	3a
@@ -137,6 +198,7 @@ aal	70a	20
 1n	725	23
 2ce	726	23
 2e	727	23
+3 of	bjr	
 3rous	728	80
 3self	729	17
 2going	72a	60
@@ -216,6 +278,7 @@ ay	738	7c
 2dain	74c	80
 3eal	74d	e0
 4r	74e	23
+5 of reference of accounts	bus	
 5ly	74f	7c
 3inance	74g	c0
 6rily	74h	8
@@ -273,7 +336,11 @@ ay	758	80
 3s	75x	3
 4elves	75y	3
 2st	75z	e0
+4 of	bon	
 2t	760	3
+3 of	bj5	
+6 sight of	bj6	
+7the pale of	bpa	
 3break	761	78
 3cast	762	20
 4ome	763	7e
@@ -306,6 +373,7 @@ ay	758	80
 3set	76u	fc
 4hine	76v	80
 4ide	76w	3
+7 of	bkq	
 4kirt	76x	c
 8s	76y	b0
 4poken	76z	e2

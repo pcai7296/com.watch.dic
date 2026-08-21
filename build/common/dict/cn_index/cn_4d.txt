@@ -340,7 +340,7 @@
 1号	vRY
 1吻鳄	ogM
 1命	xBzyQY0W
-2的	1SM
+2的	1SODUw
 2鬼	g3M
 1嘴山椒鸟	tl4
 2豆雁	uAm2JMk-
@@ -468,7 +468,8 @@
 1田	kicD
 1畜	vAzPVw
 1禽	vAzlBd8syRA
-1种的	kkTMKwQ
+1种...	vnc
+2的	kkTMKwQ
 1类	uwzfAqMCigqoEeQN6yY-5wr-Ag
 1系	xRufCZ0Y
 1群	qxPSOw
@@ -880,7 +881,7 @@
 2地位	rjQ
 2性	iBWlHwGhGagR
 2材料(或事物)	qmU
-2的	wQr8A5sBuwXyAtMIwwMziAfZCLoKkQEwuQJu5BnDAbEE5w0
+2的	wQr8A5sBuwXyAtMIwwMziAfZCLoKkQEwuQJu5BnDAbEE5w2ABA
 3事	0UM
 3支持者	rU0
 2章节	jRA

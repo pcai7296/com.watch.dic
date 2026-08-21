@@ -11,6 +11,7 @@
 2管	ymPqCg
 1世	qWk
 1两	xmk
+2个...	snc
 1个	xmk
 2一组	6GsX
 4的东西	-2s
@@ -439,7 +440,7 @@
 1爪	xxGuTNoJ
 1率	gTjFHA
 1玛窦	2BDNMYsp
-1用	hALsI8IOGQGeBIsGNMAdeeQJzQcOAQ
+1用	hALsI8IOGQGeBIsGNMAdeeQJzQcOAc8G
 2...以产生动力	izA
 2真空的	tG8
 1益	8gf0ASkB2CO_B9oCrxk
@@ -569,7 +570,7 @@
 1新	2lw
 2县	pBHjBQ
 1旨	kTQ
-1献	hBX4BAKjAvcq
+1献	hBX4BAKjAvcq2S0
 2精神	_hmmAotG
 2给神	8Fo
 2者	slA
@@ -747,7 +748,7 @@
 1抚	nwX4DqQ1ngScBA
 2的	mBQ
 1抵	lgazVA
-1排	jwYB-AbFH6gSkwzgAuoN8wED
+1排	jwYB-AbFH6gSkwzgAuoN8wEDwxg
 2者	8E0
 2节目	vlEB
 1插	4QaHCZEq4RMZpQE
@@ -923,7 +924,9 @@
 2区	pBG3DQ
 0扉画	2Qn7Af8nlguHKg
 1页	1CL1JjuMIA
-0按下	yQ36Efkw
+0按...次序	7nc
+4的次序	1Xc
+1下	yQ36Efkw
 2葫芦浮起瓢	ywTzI4gfwQmSEA
 1人口	20s
 3计算	20s
@@ -956,7 +959,8 @@
 1月	gUPZCA
 1期	0lulDg
 1步就班	3Qj_Zg
-1照	eJ4Ixiv-Fg
+1照	eJ4Ixiv-FoEsDwc
+2…顺序	5Xc
 2字面上地	oj0
 2年月顺序的	_BA
 2推测	rGY
@@ -1029,7 +1033,7 @@
 1事	gDmJB74V
 1历	3SU
 1县	pBHjBQ
-1及	jxSWINoEAbgTtwlXkBScBA
+1及	jxSWINoEAbgTtwlXkBScBNgG
 2多方的	4UM
 2隐私的	qkw
 1外	pgLrEYEW
@@ -1134,6 +1138,7 @@
 1质	-j8PoCU
 2享受	kArqNQ
 2化	_D8
+2守恒定律	yXgC
 2文明	sxjHJw
 4和精神文明	sxj5Gs4MD9wB2w_wEA
 2的	xRa1Kb4EzwijGA

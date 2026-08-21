@@ -260,7 +260,7 @@
 2日	pxnZKQ
 2点	wy8
 2经	tQSfB-oF7Ba9BfADyhKCCYoc
-1个	uGg
+1个	uGiBDw
 1之八九	7jyFArUEAb4s
 1九	q0U
 2个	q0U
@@ -283,6 +283,7 @@
 2个	myg
 1亿	zAo
 2个	zAo
+1件…	uXc
 1位	4Rn5M88Z
 1倍	uGg
 1全	1xOVOA
@@ -302,6 +303,7 @@
 2之一	zmg
 2地	2BM
 2安全的	9Sk
+2害怕…	pXg
 2整洁的	z3I
 2的	gmawAw
 2简单的	9Sk
@@ -345,6 +347,7 @@
 2份	gEc
 2革命	gEf2EQ
 1有八九	7jyFArUEAb4s
+1条	uXc
 1诫	uGg
 1赌九输	lizkEd8F0QGeA_Af
 1足	_QPaD4wf-xilB9sK
@@ -745,7 +748,7 @@
 1大	kyOxC9IR
 2值	lkCxLw
 2地	3Gs
-2的	2S7yA9cDvzI
+2的	2S7yA9cDvzLpDQ
 3痛苦	4AI
 1好	_iTCAcQ_
 2的	6wGeF_gN6jWXCQLTB4MG
@@ -767,7 +770,7 @@
 2拥挤	sBc
 2混乱	yj4
 2疲劳的	-l0
-2的	qCbcP58J
+2的	qCbcP58JhQg
 2穷困	1nM
 1微小	hjk
 2的	pDbJC88L
@@ -808,7 +811,7 @@
 2崇拜	uDM
 2愚蠢	rTM
 2明显的	-Cg
-2的	hx3_B6IBiECvAo4I
+2的	hx3_B6IBiECvAo4ItwY
 1简抽象派艺术家	7kE
 1线	y04
 1细小	qSb7D4Mq
@@ -819,6 +822,7 @@
 1讨厌的	oDI
 1轴	oQiqRg
 1辣	nmKPDg
+1重要的	z3Y
 1限	_AusGtEW2ivQBg
 2的	5BeSVQ
 2运动	qCanPA
@@ -1133,6 +1137,7 @@
 3的	wS8
 0股东	zkq_GQ
 2名册	olY
+3单	_XQ
 2大会	1Cz3Ew
 2特别大会	y0CqIQ
 1交	2F0

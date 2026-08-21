@@ -48,6 +48,7 @@
 4onger	b95	80
 4th	b96	1e
 3n	b97	5d
+4 of	bnd	
 4ing	b98	a
 3p	b99	c0
 3rant	b9a	d8
@@ -82,6 +83,7 @@
 2ve	ba3	3e
 4length	ba4	c
 4r	ba5	e8
+4s of	blz	
 3y	ba6	40
 2x	ba7	fe
 3y	ba8	40
@@ -100,6 +102,7 @@
 4iness	bal	40
 5some	bam	80
 4y	ban	fc
+5 of	bnf	
 3sel	bao	80
 3ther	bap	e3
 7ing	baq	40
@@ -136,6 +139,7 @@
 0Welsh	bbl	80
 0welter	bbm	80
 2st	bbn	23
+4 of	bm8	
 4ern	bbo	23
 7er	bbp	22
 4ward	bbq	c
@@ -146,6 +150,7 @@
 5s	bbv	20
 3rf	bbw	8
 3t	bbx	3
+4 of	bkz	
 4ever	bby	3f
 4soever	bbz	14
 2eat	bc0	5f
@@ -313,6 +318,7 @@
 5less	bgi	e
 5while	bgj	3e
 5y	bgk	5e
+6 of	bmz	
 2uld	bgl	3
 3nd	bgm	1f
 5ed	bgn	2
@@ -338,6 +344,7 @@
 5watch	bh7	40
 3t	bh8	80
 4e	bh9	3
+5 of	bkm	
 5r	bha	2c
 4ing	bhb	3e
 2ong	bhc	3

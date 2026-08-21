@@ -86,12 +86,13 @@
 2报道	6Fs
 1到	wGA
 1功	zhejCtVF
-1劫	ujHxGwGEAZULAg
+1劫	ujHxGwGEAZULArcc
 2案	x1k
 2罪	x1k
 2者	gSo
 1占	6Vw
 1去	gC7ZJg
+1在…之前	rHg
 1夺	mCnbFOkF0AmEAYIG6AQrArMCzgT-Bg
 1婚	xAyIAocx
 1戏	_G4
@@ -580,6 +581,7 @@
 1房	1QmIKA
 1拥	sim2PesC
 2而至	lgacI5kJxTY
+4的	1XZv
 2进入	u0I
 1毒	yE6_Iw
 1涌	sim2PQ
@@ -669,6 +671,7 @@
 2仆人做的	6EA
 2地	6yg
 2性	6Sg
+3测定	oHg
 2的	xwGrDMsFrQECij3tEw
 2结婚的	k0Y
 2葬礼的	2Ss

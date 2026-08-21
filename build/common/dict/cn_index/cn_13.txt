@@ -227,10 +227,11 @@
 2平原	4k0
 1之琳	ugE
 1乎	KOkTtUI
-1于	KOkT-CuvDNwJAQ
-2...	lWk
+1于	KOkT-CuvDNwJAYkguQFD
+2...	lWmDDw
 2死亡的	w0Y
 2法庭的	lio
+2选择法律的规则	yng
 2野味的	liw
 1云长	kheOLQ
 1你屁事	vg2nNOQD4wM
@@ -265,7 +266,7 @@
 1庙	2x4
 1张	vg22BM8NhSk
 1征	3xjfB-8TkQjmEg
-1心	KLMOtAUBhEL6CqgI
+1心	KLMOtAUBhEL6CqgI4Qs
 2的	kBT9TA
 1怀	KIUHrge1BbZKyAI
 2备至	vQKeDJAvtxGBIP4C
@@ -500,9 +501,11 @@
 2者	gDnXElCqAw
 1仁不让	0UqTJA
 1今	0DGhDZ4HoQrHGSA
+1付款项	7HQ
 1代	xAKHE6wOuSw
 2史	yxWMHA
 2新儒家	yxXFL8oX
+2的	v3Y
 1令	slwB
 2期	slw
 1众	1STZBqMn
@@ -547,7 +550,7 @@
 1店员	2xE
 1当	i0s
 2车	uwP9HNwDwyOnBJIf
-1心	2w6oIOgO3Qr-Hg
+1心	2w6oIOgO3Qr-HsgO
 1志愿兵	t3E
 1成	khW0Ug
 1报幕员	uwQ
@@ -561,7 +564,7 @@
 1日	pxnFQcEV
 1时	5jO3JeoPcA
 2特有的	_ks
-2的	iyY
+2的	iya0UAU
 1晚	yyShNg
 1替补投手	31Y
 1月	gEPsFw
@@ -574,7 +577,7 @@
 1枪使	smrhBA
 1涂	2lw
 2县	pBHjBQ
-1然	6Q-lB64I_CSOA-0emQ0
+1然	6Q-lB64I_CSOA-0emQ3DAZAB
 1牛作马	ozLJCv8isQrNCQ
 1班	k17WFQ
 1真	91S-CAGQCg
@@ -1297,6 +1300,7 @@
 1果	vgL8Bs4LAYAJkgO5AfkB6gaRD4MODLkC3wSxAY0HAQH4BB6QCw
 2实	ugn6IQY
 3的	uCs
+2是	yXU
 2未必良好的	rG4
 2的	ihWkQw
 2良好	w2U
@@ -1458,6 +1462,7 @@
 1励	jQabB6YVAeUCnwX5BeMxwAw
 1包	lQ3eWQE
 1吹	mAJA2yCvLPcB
+2…	s3g
 2战争的人	gnI
 2者	mQI
 1噪	KJYJ8QeXBrIF-g7RDrIEvTU

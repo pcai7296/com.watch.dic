@@ -110,6 +110,7 @@
 2一文	k2_MA6MB
 3笑	x2-7BA
 3驳	yCTHMPUe
+2得	sHY
 2钱	rj2ZMg
 3的	qhDKVw
 1假	nWw
@@ -163,7 +164,7 @@
 4人	iW4
 3行为	2jY
 1共戴天	Ot04mQS8He0EyQ0
-1关心	xEU
+1关心	xEXlMA
 3的	4A7lNg
 2痛痒	iBXwWA
 2紧要之事	-kU
@@ -179,7 +180,7 @@
 1减当年	5grrGQ
 1凡	giWiAcgw
 2的人	nVE
-1分	yx4EpiCtMQ
+1分	yx4EpiCtMe4F
 2上下	8TrpEg
 2伯仲	rQrBAvoD5w2vBvwgwhbEEA
 2光的	lAE
@@ -207,6 +208,7 @@
 3战役	qQmxAw
 3诸岛	2ww
 1利	jgKDGoMB8BLaPQ
+2于…	q3g
 2条件	3C8
 2的	jQLRaw
 2结果	wEs
@@ -238,6 +240,7 @@
 2的	7zPED_IfHTY
 1劳而获	hi2MGugNxw2LESE
 1匀度	mzk
+1包括	m3U
 1匮	nBryKg
 1匹配的	mG4
 1区分大小写	gQ8
@@ -252,11 +255,13 @@
 2其烦	xC6hE4wJ1RwBxgSgBA
 1去理	rAeXLL8Iig8
 1及	7yb5BuEN7SL7Cw
+2…	ong
 2格	3ybvAg
 2物动词	knA
 1友好的	0xDGNg
 1发达的	pW0
-1受伤害的	gjQ
+1受...支配的	jXU
+2伤害的	gjQ
 2刑罚	1zQ
 2影响的	9TMo5Tg
 2惩罚	1zQ
@@ -329,7 +334,7 @@
 2终日	9w6wCrcC6gjVOg_UDQ
 2缺少	3TUB
 4之物	3jU
-4的	3jU
+4的	3jXxQA
 2置信	qTXhNw
 2胜数	gxfyHw
 3言	sgqVEQ
@@ -389,7 +394,7 @@
 2圆心的	8SA
 2地	vUg
 2寻常	kkg2lyY
-2意	lh0ClQE
+2意	lh0ClQGGWA
 3的	rx4
 3者	rh4
 2的	ywSDGOUBFyCnT8sBAgQ
@@ -568,6 +573,7 @@
 1寻常地	4G4
 3的	324H
 1尊敬的	ox4
+2重	t3g
 1小心的	81b2Fg
 1少	jSjbBdIR5QbCDQ
 1尖的	xk4
@@ -665,6 +671,7 @@
 1怀好意	3iSWC5QP
 1怎么	yErlJQ
 3样	KMAtXI4H_w2pArMq
+4的	iXU
 1怒而威	zAcS0Ug
 1怕	yCT7AvJBxwo
 2一万就怕万一	rArVBKkrnSD2BrgH
@@ -890,7 +897,7 @@
 2地	i24
 2的	xzMC
 2行为	hT8
-1注意	rAfgQ4oLohM
+1注意	rAfgQ4oLohPxDA
 3地	4Q4
 3的	5DDGJA
 1洁	tCilDA
@@ -1088,7 +1095,7 @@
 2边三角形	6Gs
 1简单	4BOBLOYUpQKfCA
 1算	8Q2HCdBb
-1管	kBTNIKwLjRY
+1管	kBTNIKwLjRaMIJ8C
 2三七二十一	jSrmHaMO
 2不顾	jEueCmqpBQ
 2怎样	gQ-IMdQy
@@ -1125,6 +1132,7 @@
 2练	xCw
 3的	l3A
 2长寿药	6SE
+1考虑	kHY
 1耐烦	hTT1CfYMvyc
 3的	hTQ
 1耻下问	uAYGmCGlFA
@@ -1192,6 +1200,7 @@
 2肯定的	0W4
 2胜任的	yzc
 2自已	oArYC8kxvyU
+2获得	t3U
 2行的	8jQ
 2解决地	ijY
 4的	nDc
@@ -1295,7 +1304,7 @@
 3理的	sm4
 1讳	-ASaA7IUjS77KA
 1许	pwPyGewM-xk
-1论	0x22Io0WxxwBDw
+1论	0x22Io0WxxwBD6MD
 2何时	53I
 1识一丁	yjOdIekVsAI
 2大体	wQqeHM4HigvgE8MP
@@ -1342,7 +1351,7 @@
 2吹灰之力	uyApCKYm
 1赖	uQiHIKgF
 1赞一词	jhOpJ74EhiA
-2成	nh0B
+2成	nh0BlFk
 3的	rx4
 1起作用	hj8
 2好作用的人	mlw
@@ -1469,7 +1478,7 @@
 2利的	xDOaOg
 2当	8AM
 1须依赖的	xTU
-1顾	nx7EJrMRnAw
+1顾	nx7EJrMRnAzeE9kBOg8F
 2一切	vAbJCJoPwyY
 4的	3huvVA
 2前后	vQKcB-Mu2h3HHA
@@ -1615,6 +1624,7 @@
 1单	mz27HA
 1古屋	pBGtKA
 1句	gSeAFoUQ
+1叫...	33Q
 1号	6C24FrcTuRI
 1嘴	kBOmHfYBqh-jAYMB0R4
 1噪一时	kgHjAswLuBfLFu8q

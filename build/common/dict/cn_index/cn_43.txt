@@ -601,7 +601,7 @@
 2度	g1g
 1元	mw6_GrcLoB4
 1免	hgjLP5wX
-1决	3B2KBOImvA_EBQLNAwKYDYoF
+1决	3B2KBOImvA_EBQLNAwKYDYoF0AI
 2办法	tznmB6sczwM
 2者	y10
 1冻	sxqjJvgVrRI
@@ -709,7 +709,7 @@
 3须系铃人	-gnaGKwhVZcloQLKAq0E
 1锁	0lbDFw
 1闷	6guEE98hkhY
-1除	O-0k0wWLAtwPkAHjFv0BDAEfYwGtAasB
+1除	O-0k0wWLAtwPkAHjFv0BDAEfYwGtAasBuBs
 2(职位)	rW8
 2武装	oB0
 2痛苦者	iU0
@@ -735,7 +735,8 @@
 1多多	3BA
 1闻	oQS9J6QMuwHVCw
 0軃神	piujSQ
-0较...优先	508
+0较...为多	_Hc
+4优先	508
 1为	tROwE-cv
 1劲	wgKDEQXgDcsdgAGdA68EhBawBNAC
 2儿	3G8
@@ -750,7 +751,7 @@
 2的	90E
 1少	rDw
 1差	6C3EDpUEtQ60BR2zDQ
-2的	mzY
+2的	mzbXQA
 1早的	81A
 1比	tROwE_wsZoUC
 1然	0RH8LQ
@@ -789,7 +790,7 @@
 1末	3G8
 1样	0zrrJrsH
 1知	3G8
-1种	0zo
+1种	0zryOw
 1空沙旺	pBE
 1话儿	8TqYBYwIxRXMC7cJ
 1边	9UibIA

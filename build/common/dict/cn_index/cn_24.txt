@@ -136,6 +136,7 @@
 3快	pG4
 4的	lAyDEaUo2wE
 2作呕的	k0A
+2信服的	_3U
 2入神	mic
 2兴奋的	jyU
 2厌倦的工作	zms
@@ -174,6 +175,7 @@
 2惋惜的	xUM
 2想望的	1hs
 3起...的	4lU
+4…的	-nU
 2愉快的	4wKkIA
 2憎恨的	Eg
 3恶的	wD0
@@ -211,7 +213,7 @@
 2难亲近的	hio
 3忘的	szQ
 2震惊	gVw
-4的	ql7KBg
+4的	ql7KBsMR
 2高兴	tiXYFA
 4的	jzo
 5事	kk4
@@ -351,7 +353,7 @@
 1格	gQ8
 1死	vBnmCwH2LQ
 1治	thmpFpwj
-1理	vgX4E98EAQLHEQG5D88FpgwB7AH7CVSrBMcF2wM7Ag
+1理	vgX4E98EAQLHEQG5D88FpgwB7AH7CVSrBMcF2wM7ArcK
 2权	zR0
 2的	qj8
 2能力	tA7bQg
@@ -425,7 +427,7 @@
 1倒	k1I
 1假成真	ZpEJxS65BpAPxAKrBKcX
 1僵	0gzfDPw-6go
-1到	-hKMGuIEgRXjFQ
+1到	-hKMGuIEgRXjFbcb
 2手	hi3PApMC
 1卷	xhg
 1嘴弄舌	tQvwA_cO2g_fOw
@@ -463,6 +465,7 @@
 1短	u14
 1破	sAw
 1碎	ixgB
+1空	pHY
 1糟	iUGzIQ
 1绉	6Cs
 1缺	nkU
@@ -569,6 +572,7 @@
 1走	viTAMsYBgxs
 1退	0RniO5EDAQf7GgE
 1销	wwTTCdgM8xnjHp0EkwHXFA
+2专利权	q3U
 1除	-h2EOQ
 0旄倪	3G8
 1期	3G8
@@ -590,7 +594,7 @@
 0此事	iUA
 2体大	2lw
 1伏彼起	2lw
-1刻	4UKtA6IK
+1刻	4UKtA6IKlyY
 1前	2Qn_Rq8Y
 1后	vQI
 1地	jzHLHA

@@ -28,6 +28,8 @@
 6ed	a8a	60
 3isman	a8b	80
 3k	a8c	3
+4 of	bkh	
+4ing of	bm7	
 3l	a8d	3
 4y	a8e	c0
 3on	a8f	80
@@ -64,6 +66,7 @@
 3t	a9a	80
 2sk	a9b	1f
 3te	a9c	5f
+5 of	bl4	
 5less	a9d	42
 4y	a9e	c2
 2ttered	a9f	80
@@ -114,6 +117,7 @@
 7ion	aao	23
 4x	aap	28
 3l	aaq	3
+4 of	blb	
 4ing	aar	a0
 2merity	aas	80
 3p	aat	80
@@ -151,7 +155,8 @@ bal	aaw	10
 4t	abp	80
 3nis	abq	23
 3or	abr	80
-3se	abs	5e
+3s of hundreds of	bnz	
+4e	abs	5e
 4ile	abt	c8
 5on	abu	f6
 3t	abv	1f
@@ -184,6 +189,7 @@ bal	aaw	10
 3se	acm	a0
 3tiary	acn	20
 2st	aco	3f
+4 of goodness of fit	bvk	
 4ament	acp	80
 5tor	acq	80
 4ify	acr	d8
@@ -204,6 +210,13 @@ bal	aaw	10
 4ch	ad6	c0
 3w	ad7	e0
 2e	ad8	3
+3 bulk of	bpi	
+4likes of	bpt	
+4majority of	bpo	
+4number of	bpd	
+4pick of	bpn	
+4rest of	bpk	
+4sort of	bph	
 3ater	ad9	50
 5re	ada	2f
 3ft	adb	7a
@@ -247,6 +260,7 @@ bal	aaw	10
 3n	aed	43
 4g	aee	3
 4k	aef	3
+5 of	bkn	
 5ing	aeg	22
 3rd	aeh	23
 5ly	aei	c
@@ -268,6 +282,7 @@ bal	aaw	10
 4sand	aey	23
 8-fold	aez	40
 8fold	af0	40
+8s of	bmo	
 2rall	af1	c0
 4sh	af2	88
 3ead	af3	df
@@ -347,7 +362,9 @@ bal	aaw	10
 3ple	ah5	c0
 2rade	ah6	80
 3e	ah7	de
+4 of	blg	
 4d	ah8	3
+5 of	bmh	
 4some	ah9	18
 2ssue	aha	fe
 0Titanic	ahb	c0
@@ -453,6 +470,7 @@ bal	aaw	10
 3s	ak3	20
 1race	ak4	7c
 5able	ak5	80
+5s of	bnb	
 4k	ak6	fe
 4t	ak7	e8
 5ability	ak8	80
@@ -546,6 +564,7 @@ aation	am1	80
 5ure	amo	5f
 8r	amp	88
 4t	amq	5e
+5 of	bm2	
 5ise	amr	a0
 5ment	ams	6f
 5y	amt	bc
@@ -658,6 +677,7 @@ aly	an0	8
 3key	aps	1e
 3moil	apt	e8
 3n	apu	3
+4 of	bk0	
 4coat	apv	80
 4ing	apw	2c
 5p	apx	c

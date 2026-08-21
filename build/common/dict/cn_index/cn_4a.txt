@@ -151,6 +151,7 @@
 1得	wQM
 1怕	ugK0OqoD4Qu0JA
 1是	_yTCDekH0AaABcwByRc
+2...的问题而已	-HY
 1有	4xDjNsoh8wk
 2称号的人	kWo
 1欠东风	hRjiCNYYnQvsAsEiogk
@@ -170,6 +171,7 @@
 2内存	m1Q
 1身	swOORA
 1限于	-zw
+1需	-HY
 1顾	rAeuIuwdxgP8FQ
 1鸡斗酒	9QvSBOQS3AvuD_gVxR4
 0告一段落	-hLaD4wq
@@ -448,6 +450,7 @@
 4压弯	x3I
 4四舍五入	8lk
 4图式化	1Fs
+4培养成	rnU
 4夷为平地	31Q
 4委托给	01Y
 4存档	7AU
@@ -503,7 +506,8 @@
 4重新补足	rVc
 4锁进箱子	sRI
 4难倒	9CE
-1…奉为偶像	tzM
+1…包括在内	5nU
+2奉为偶像	tzM
 2强加于	zjg
 2栽入苗床（的形式）	ygk
 1不动产让与	-QM
@@ -693,7 +697,8 @@
 2片	hR8
 1律	sB0
 2检查委员会	2A-_A5kK8xk
-1念	iRP_HtIOCI0W3Qo
+1念	iRP_HtIOCI0W3Qr5Fg
+2...	2ndX
 2册	ggPSCA
 2品	2kDyIA
 3(	zWE

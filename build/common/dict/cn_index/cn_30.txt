@@ -19,7 +19,7 @@
 2满族自治县	7Qe3CeMF
 1富	SQHrAeQgmAOYFrILnAYBAvUB_gibGQ
 2地	Sw
-2的	SuwBxwG0EoEQyQRKmQGCD9ACBccJnAYCgQMdFw
+2的	SuwBxwG0EoEQyQRKmQGCD9ACBccJnAYCgQMdF5MlTA
 1年	oA32IvwhnCI
 1度	SQ
 1收	oA2ZHt0E5CQ
@@ -519,6 +519,7 @@
 1弟	zBCOHA
 1弹	mQ2nUQ
 1承父业	vg25AbIY_ik
+1文件夹	r3Y
 1母	vQ65BIsluQPzB5cDqBS7BrwL
 2弹	xwvEBg
 2扣	oSeiOQ
@@ -625,7 +626,8 @@
 2镇	hxfBSqcJ
 1化	uiFzhzTcEw
 1十字	rwE
-1千上万	gxfyH-U3
+1千上万	gxfyH-U3hgc
+4的...	jXY
 2倍	vGk
 2成万	9TblNxg
 2的	umk
@@ -678,7 +680,7 @@
 1就	KE4cAb8L9ArkCZAKhzo
 2感	kwH3Ww
 1局的	xnE
-1年	_AFIsyz_QY8CqQE
+1年	_AFIsyz_QY8CqQFg
 2人	_AH2PLUN
 3（的复数形式）	_wE
 2的	_AH2PLwa
@@ -733,7 +735,7 @@
 1瘾	zQE
 1癖的	8Dg
 2者	mSg
-1百上千	ujvlCg
+1百上千	ujvlCvAv
 1直角地	82I
 3的	0FU
 1真	-hKhWQ
@@ -857,7 +859,10 @@
 1典忘祖	pyqwB-EVjw4
 1出	-BbQMQ
 1列	oEaIFww
-1十亿	zAqFUw
+1十个	lXY
+2亿	zAqFUw
+1千	4HU
+2的	j3Y
 1周	uwOWWg
 1域	2hO-FIce
 1字	-gPcGAQByAsC-h0
@@ -1438,10 +1443,10 @@
 1谱	-0P3AfsVsBg
 2法	nUHeAvgB
 1账	fJkPoiqXLQ
-1起	kVUj
+1起	kVUj4x8
 1载	fMcegDbaHg
 1过	ni0
-1述	fKFz
+1述	fKFzeQ
 1错	71Y
 0谐剧	1Uc
 1和	nxXpGg

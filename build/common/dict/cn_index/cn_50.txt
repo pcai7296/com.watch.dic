@@ -213,6 +213,7 @@
 1饮	9h8
 0勐海	2lw
 2县	7Qdwqg4
+1烈的一阵	k3c
 1腊	2lw
 2县	7Qdwqg4
 0台上	h2M
@@ -502,6 +503,7 @@
 1幕	y2g
 1户	fOBu
 2处理	gQE
+2调节表	nng
 1棚	3G8
 1目	fPFa7xM
 1篷	jA6_Wg
@@ -554,7 +556,7 @@
 2症	8Uw
 2组织	m0jKIA
 2袭击	ogfDYQ
-1惧	5x_aB-EKwTk
+1惧	5x_aB-EKwTnYDA
 2外国人者	pHQ
 2症	8Uw
 1慌	-knKEQ
@@ -653,7 +655,7 @@
 1某	ymU
 1物	oWED
 1甲	6A_4Jb4r
-1种	0zo
+1种	0zqgPA
 0汐止	pBHsMw
 2市	pBHsMw
 0源于	4lk
@@ -830,7 +832,7 @@
 1头	6DHiDgE
 1巧	ghDDAqcd
 2的	_1s
-1撞	nw28BQH9Ho0a
+1撞	nw28BQH9Ho0anCo
 2造山	kg2vNuwU
 1擦	gGc
 1瓷	ZN8SvQXiAYIc4yaWCaoCwwekAg
@@ -999,8 +1001,10 @@
 2一体	kgPhCM4SiSY
 2皆知	jSe9HYMu
 2闻名	2lw
+4的	xXUW
 1迹	nQS6Rw
 1龄	ggJCmjqFAQU
+0酰基氯	4Hc
 0锰矿	lEg
 0闰四月吃树叶	8Slsoxg
 1年	-juGB60mgQs
@@ -1011,7 +1015,7 @@
 1令	uSU
 1价	-TziEw
 1免	-yqAEvws
-1制	-wucBbMDAWSWH5UIHwG1FgP4BAGSA8cI6wScCw
+1制	-wucBbMDAWSWH5UIHwG1FgP4BAGSA8cI6wScC4kE
 2器	yTo
 2的	zBTgQw
 2词	rFg

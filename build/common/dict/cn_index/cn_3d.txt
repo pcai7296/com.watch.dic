@@ -151,6 +151,7 @@
 1景不长	oCrIA94N4C0
 1朋友	ywe7BZEe0QKiQw
 1望角	ug6uH6sE
+1极了的…	qHc
 1样的	ixfdFvkJqQudCbUDuB8
 1梦难成	wQmpFowQgCU
 1棒	_iQ
@@ -522,7 +523,7 @@
 2植物	4BmTNIAi
 1后	tAi2AYUdohT2Lw
 2了的	8Qk
-2于	kTv2Lw
+2于	kTv2L5sN
 2的	kjuHJQ
 2者	kjs
 1土	7yaBCNUu
@@ -666,7 +667,9 @@
 1傲	gB4
 1利赴名	AecQkRbRA_0Drhq7CN0FSoYF
 1别	wgLMGPQg
-1反	rQwDwQmdBfECAbsYA9cQAZAkAb0EhgEB
+1反	rQwDwQmdBfECAbsYA9cQAZAkAb0EhgEBuQc
+2...	vHg
+2…	iXg
 2准则的	x0U
 2宪法	rRW9Ww
 2者	5Ws

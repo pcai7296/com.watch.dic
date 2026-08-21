@@ -225,7 +225,7 @@
 1哨	oQvdZw
 2子	wU0
 1喇叭	ni2-IsMc
-1嘘	lQyKYA
+1嘘	lQyKYPoJFA
 2的	628
 1奏	wU1E
 1孔	oQvJJg
@@ -374,8 +374,10 @@
 1纳	bNcU7hO3CO0Lziw
 2者	pVU
 1让	bagT4Co
-1许	7wG4AexIA74azwM
-2...的	1GY
+1许	7wG4AexIA74azwO8Cw
+2...意义的	4XU
+5的	1GY
+2有	pXU
 2量	oWo
 1貌	ngWlAYUhAbdJ
 1身	vigpiwmDDeUOgw-vAdwU
@@ -437,6 +439,7 @@
 1假	xAXqaQ
 1八字	4Aq7Dq8R3SHACMISetQB
 1准	wAUDAZsCAe0MAd0yAaUD9wkB3QfYFQ
+2…	_HU
 2文号	wwXcQA
 1判	7BcBAQ
 1办	wwUBswnAKpEP

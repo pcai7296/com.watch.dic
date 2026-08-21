@@ -146,6 +146,7 @@
 0其一	2ig
 1三	qWkB
 1中	9QM
+2之一	93Q
 1乐不穷	_QuRLg
 2无穷	_QuRLg
 2融融	iDCICg
@@ -154,6 +155,7 @@
 2人	6FY
 2的	8SHKJg
 1余	_ATsUQG0AQ
+2的	yHY
 2者	nVg
 1先	2Qn_Rq8Y
 1内	y3M
@@ -286,7 +288,7 @@
 2知识的人	tDE
 2风骚的人	ryk
 1惨	3iimA5EWwAswkRk
-1掉	kkfkFQ
+1掉	kkfkFZUZ
 1方	91w
 2市场	zj-pHQ
 1春	8SI
@@ -666,7 +668,7 @@
 1管	9l8
 1箭	mgbcWekC
 0赶上	lg9stSrkDtwg-wQ
-1不上	lg-hK-QO
+1不上	lg-hK-QOhy8
 2及	lCO1GK4uOg
 1入洞内	3iA
 2马房	gmM

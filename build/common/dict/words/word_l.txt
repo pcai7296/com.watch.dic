@@ -15,6 +15,7 @@
 7ion	5tx	80
 3hrymose	5ty	80
 3k	5tz	36
+4 of	bm5	
 4adaisical	5u0	80
 4ey	5u1	c0
 4luster	5u2	80
@@ -105,6 +106,14 @@
 3e	5wf	c0
 3ish	5wg	e0
 2w	5wh	3f
+3 of conservation of charge	buh	
+nenergy	but	
+nmass	bv0	
+ptter	bwp	
+oomentum	bwt	
+7elasticity of demand	bwo	
+7perdurability of matter	bwr	
+asistance of energy	bv6	
 3n	5wi	7c
 3suit	5wj	48
 3yer	5wk	3e
@@ -131,6 +140,7 @@
 3n	5x5	dc
 3p	5x6	7c
 3rn	5x7	23
+5 of	bmi	
 5ed	5x8	1e
 5ing	5x9	1c
 3se	5xa	f8
@@ -291,6 +301,10 @@ as	617	e0
 4or	61l	3c
 2ssome	61m	80
 3t	61n	bf
+4 of of prices	bju	
+doperty	bjn	
+bquotation	bjw	
+bshareholders	bjx	
 4en	61o	3
 6er	61p	4
 4less	61q	c0
@@ -321,6 +335,7 @@ as	617	e0
 6-room	62f	4
 2zard	62g	40
 1oad	62h	5e
+4s of	bo8	
 3f	62i	be
 3m	62j	80
 3n	62k	7c
@@ -388,7 +403,9 @@ as	617	e0
 2se	64a	1f
 3s	64b	3e
 2t	64c	83
+3 of	bkt	
 3h	64d	20
+3s of	bmg	
 3tery	64e	f0
 2ud	64f	17
 4ly	64g	2

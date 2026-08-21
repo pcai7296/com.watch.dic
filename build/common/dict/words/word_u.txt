@@ -90,6 +90,8 @@ ament	at7	80
 4vided	atm	2
 3o	atn	7e
 4ubtedly	ato	7c
+3reamed of	bp4	
+7t of	bp0	
 3ue	atp	20
 4late	atq	80
 2earth	atr	c0
@@ -122,6 +124,7 @@ bly	aud	5e
 4ent	aui	80
 2happy	auj	e
 3ealthy	auk	22
+5rd of	bp3	
 2icorn	aul	80
 3dimensional	aum	80
 3fication	aun	80
@@ -245,6 +248,7 @@ cness	ax0	80
 4tting	axx	80
 3onted	axy	80
 4rldly	axz	80
+5thy of	bow	
 1p	ay0	3
 2-to-date	ay1	2c
 2braid	ay2	c0
@@ -273,7 +277,9 @@ cness	ax0	80
 2tight	ayp	80
 3odate	ayq	4
 2ward	ayr	1e
+6 of	bm3	
 6s	ays	c
+7 of	bnq	
 1ranium	ayt	8
 2ban	ayu	5e
 5e	ayv	40

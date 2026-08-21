@@ -337,6 +337,7 @@
 2子	iAmTJg
 1林箭雨	nCrzKeUN
 1枝	3G8
+2弹药管制	7Hc
 1架	hGM
 1栓	xgvVIw
 1械	iAbFIg
@@ -542,7 +543,7 @@
 2售货机	vz6-MQ
 2图解文档编制系统	6gI
 3象传输	ygU
-2地	6Qe4aw
+2地	6Qe4a8oBWw
 2学	6gc
 2手枪	6Ac
 2扶梯	jCQ
@@ -594,6 +595,7 @@
 1原始时代的	6FA
 1反	-FX1Bg
 1发	xGIBAQ
+2地	63Q
 2对称破缺	xWLOBA
 2的	3jbnK8gKqAQ
 2粉	vin0L7sD
@@ -733,6 +735,7 @@
 2模式	ig63NKwa
 2神器	7mM
 1拔	0BzdCc4ExhzrFw
+1择的	pnU
 1持	-BWxD4AzxAQ
 1指	8lX7Bg
 1掏腰包	1hzmG4wQZOABrwM
@@ -832,6 +835,7 @@
 2经济	giG2Iw
 2而优雅	xmI
 3然	jhf7KK8EAw
+4地	xnU
 4的	_jg
 2语言	rzuJCQ
 4处理	rzuJCdcM
@@ -944,6 +948,7 @@
 1行	7QfUP6wVyBQ
 2了断	3jzoKg
 2其是	sAG3J8Ug9Sg
+2地	xnU
 2车	uwoBCaIO
 3架	uwoKqCCCKQ
 3赛	5xiGOw

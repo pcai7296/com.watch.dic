@@ -105,7 +105,7 @@
 2脸	yR0i7xTsJA
 1严厉	82M
 2肃	6GA
-1丧失	mAqXEQ
+1丧失	mAqXEdpa
 3名誉	6x0
 2生	h0w
 2胆	lgU
@@ -620,6 +620,7 @@
 3健康	1FU
 3原状	9VY
 3心理健康	r1Y
+3正常	6XQ
 3活力	jlc
 3生气	8Vg
 3精神	1FVv
@@ -1307,6 +1308,7 @@
 1警觉	iAM
 1认识	ngE
 1讨好	yjY
+1记起	rHY
 1调和（的过去分词）	rRY
 2整相位	4Ew
 1谦卑	BA
@@ -1517,6 +1519,7 @@
 1鼓起	gArVJtod
 1齐平	0Ck
 1（协议、计划等）成书面文字形式(	sCo
+2某人）认识到	lHY
 0俟候	1nE
 1机	3G8
 0剿匪	hV2pCQ
@@ -2157,8 +2160,9 @@
 2考	8iTHHJkn
 1冀	kzKuQQ
 1刊	gEwB
-1待	jQjCHQEB_ATGB9gL6zM
-2着的	5AQ
+1待	jQjCHQEB_ATGB9gL6zPQBg
+2着…	rHg
+3的	5AQ
 1房	gQL8AusK8Qr0DyDPB8s2cNQJ
 1指	xzU
 1望	0CUBwgw
@@ -2618,6 +2622,7 @@
 1踏	3G8
 1蹋	uwO3CK0Ouxj4BOsH9RThBakIAcwPhwI
 1透	uQivF7gSmzE
+2了的	qHc
 2的	Fg
 0线上	xEc
 2查询	xEfqFA

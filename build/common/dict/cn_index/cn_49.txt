@@ -239,6 +239,7 @@
 1驱	-x9G
 1鲜	ygyDOA
 0剩下	2C2qDgrpDPIN-go
+2的	yHY
 1于	hSU
 1件	sHA
 1余	jDzpDPINAw5_AekJ4ATvCa0C
@@ -266,6 +267,7 @@
 2吃	oEs
 2是	_C8
 2的	9xW0LroSghH9Bg
+2称得上的…	83Y
 2糊口	_1s
 2通过	-10
 0厉声	9V2zEw
@@ -820,7 +822,7 @@
 1婚	1iCAH9sq
 1孕	1iC5L_gS
 1安	6C2uFQ
-1就	ugO9Zg
+1就	ugO9Zo0L
 2成熟的	gEk
 1岁	1iA
 1已	ugOpOvcMuhTjCg
@@ -878,11 +880,20 @@
 0有...交错着的	rhA
 4倾向的	ygX5NpwV
 4名气的	2Vc
+4味道	qHU
 4岁的	xQI
 4样质地的	9Gg
 4的前兆	tkc
+5气味	w3U
 5滋味	qFs
+5看法	l3U
+5迹象	yHU
 4香味的	4lU
+1…危险	-XU
+2希望	rng
+2的危险	jXgj
+3味道	3HXNAQ
+2能力（或技能）的	gXY
 1一些	x1TdDA
 2句没一句	_UGaA8EOmQ4
 2套	wDKxCLggmwQ
@@ -915,7 +926,7 @@
 1事	iUDcAbwf7wc
 2业心的	qiM
 1亏职守	uRuHBQ
-1些	5grXP4oK3Qw
+1些	5grXP4oK3QyXFQ
 2人	10s
 1交情的	ixY
 1产者	rUnECLgg
@@ -927,7 +938,7 @@
 2想你	hgs
 1仇不报非君子	yCSRDb4N2BX-BnA
 7有冤不伸枉为人	-QfxJPsJsgjNFp8dnQE
-1价值	xW8
+1价值	xW_aBQ
 3的	gUHELr8E
 4人	8Dk
 2证券	50TnFw
@@ -975,6 +986,8 @@
 1内容的	qmU
 1决定权的	zR0
 2窍的	8Ws
+1几分	qXU
+3地	iHU
 1分寸的	2Rk
 2歧的	6R4
 1则改之无则加勉	zBacF4URCM4W
@@ -983,14 +996,15 @@
 4的	yBezNg
 1利	hQIB7AXFHw
 2(可图)的	sVE
-2于	hQIB7AWbAq0d
+2于	hQIB7AWbAq0d41A
+3...	n3g
 2可图	sVE
 4的	gFc
 2情况	0m8
 2有弊	hgLtCQ
 2条件	smM
 2润的	sVE
-2的	hQKyJQE
+2的	hQKyJQGxTg
 2益的	hSyQEvgMpAY
 1别	zhz8AZBR
 1刺激性的	2Wc
@@ -1039,7 +1053,7 @@
 2亡实	oESgAYYCrg0
 2无实	oESgAYYCrg0
 4的	wEWbB7Yd
-2的	vw_kEu40vxs
+2的	vw_kEu40vxukAg
 1含义的	-F4
 1启发作用的	iiM
 1吸引力	mwWaAqonhiQ
@@ -1048,6 +1062,7 @@
 4的	twflCL0u
 1味	8mc
 2道	5FbCCQ
+3的	p3U
 1商有量	iCXEQokC
 1喜	zBA
 1嘴无心	sQGJIbQV3i-ADA
@@ -1117,7 +1132,7 @@
 1希望	lDLEHzU
 3之人	lDI
 3的	lDLEHw
-1帮助	9jA
+1帮助	9jD5RA
 3的	6AaOKg
 1常识的	ohM
 1年头	qB8
@@ -1173,7 +1188,8 @@
 1愁容的	ghI
 1意	6DcI
 2义	rzTTA_MGrQECAeUc7QEBzxO8AQ
-2地	8Dc
+3的	kHU
+2地	8DeoPRo
 2思	hyPICLMMowg
 2无意	8DfNEA
 2栽花花不发无心插柳柳成阴	ygPRB98H1RKQAeUC5AKUDMQD0wf1BKsFV6QV0wGWBmuLBhs
@@ -1212,6 +1228,7 @@
 1拱顶的	6m8
 1指望	11E
 1损	hDA
+2于	q3g
 2压缩	9hM
 1排面	wzSFKg
 1搞头	uCu2EZU3
@@ -1219,7 +1236,7 @@
 1攻击性	l0c
 1放大能力	3z4
 2射能的	_VM
-1效	myEBzBCPLcgQ
+1效	myEBzBCPLcgQsAY
 2力的	_HA
 2地	nSE
 3利用	gSE
@@ -1254,7 +1271,7 @@
 1无	xRbdHrsC3yaFCJUB
 2相通	5wahHvIakwSaEQ
 1日期的	nBk
-1时	jkaVG-QH
+1时	jkaVG-QHzw4
 2候	80awGg
 1晒斑的	9WU
 1暴风雨的	rWg
@@ -1307,6 +1324,7 @@
 1核国家	lEaqHe0O
 2的	lUY
 1格子花的	rhA
+1案可查的	8nQ
 1棱有角	ohquF44WlxY
 1椎骨的	qHA
 1次	8UZN
@@ -1346,9 +1364,11 @@
 3的	wU8
 1灰雾的	3ik
 1灵感的	pzc
-1点	rj0
+1点	rj3QOQ
+2…的味道	63c
 2下流的	uk0
-2儿	rj3RIqUB
+2像…	3HXNAQ
+2儿	rj3RIqUBhRQ
 1烟火药	nC8
 2煤	lBI
 1爱国心的	-ko
@@ -1372,10 +1392,10 @@
 2殖力的	z1E
 2气	oXE
 3的	rwT7PN4x
-1用	8gfxA5ElyyzWEQ
+1用	8gfxA5ElyyzWEfAFag
 2之物	oG8
 2物	vl0
-2的	0yXoAbsJ8CnbAtQR
+2的	0yXoAbsJ8CnbAtQR0QU
 3物品	nhM
 2（的第三人称单数形式）	ih8
 1电	ziED2EQ
@@ -1544,7 +1564,7 @@
 1赖	pkCgB6APdQ
 2于	2lw
 1趣	myfnEA
-2的	gxPbGKQMRb8F
+2的	gxPbGKQMRb8FoTc
 3事件	3SM
 4情	_BI
 1趾的	mmo
@@ -2005,6 +2025,7 @@
 1绒	vQKbCrQS0wyXBPYf4Q8
 0踉跄	nQ3sVY4FxQk
 0蹩脚	mzb_BJEj
+2的	onc
 0辉光	zC0
 1南	2lw
 2县	pBHjBQ

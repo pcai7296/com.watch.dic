@@ -320,11 +320,16 @@
 2不全	tBnmRZALjgJI
 2度	nCg
 1颜六色	6hKJU68H
+4的...	tXc
 1香	kwnGB80FxhLIM-kF
 2粉	7CjkJs0S
 1马分尸	_ATzFo0C8AruAdwF7QHvFPcgnwc
 1鬼	uwOPDaIYfd8i
 2闹判	ghjqEMML5AWsCOoJ1gs
+0佔优势的	6XU
+1据着…	j3g
+1有	83WQAg
+1领…	g3gM
 0倔头	hzmgE5Qa
 1强	5EYBvRHGDAE
 2的	qRe7E9wNpQ68EQ
@@ -964,6 +969,7 @@
 4重	8Eg
 5要	8Eg
 4长久	2kg
+4靠近海岸	tXY
 1一比	txOfApsNhBw
 1上不足比下有余	uQjsAQfFOoQkvAHPCQ
 1下去	jBqETA
@@ -1442,6 +1448,7 @@
 1坏	iAulAQOoClDYAe0BATtGAuYOZoELigSeB4sC4hAMtAUixAPDBIgIhwPFBgE
 2(性)的	pR4
 2)	7ho
+2…	iXg
 2他人财产的行为	y28
 2份子	tlo
 2分子	vWU
@@ -1753,7 +1760,7 @@
 0醴泉县	uwPMEw
 1陵	2lw
 2市	pBHjBbEl
-0鉴于	1XCUAg
+0鉴于	1XCUAowFFg
 1价	swUBkmo
 1别	tgUBmBeBAX_YFA
 2力	-ig

@@ -406,7 +406,7 @@
 2性	hnE
 2物	h3E
 1观	kxWwH7UqiRU
-2的	kxU
+2的	kxWRYg
 1视电话	0XA
 1解	lmE
 2救的	rCY
@@ -589,7 +589,7 @@
 2开支	3BU
 2损失	rHM
 2收获	0A0
-2的	ZedkjQg
+2的	ZedkjQjfCA
 2障碍	wGA
 1大利	vDk
 3人	uznsEg
@@ -637,7 +637,7 @@
 2箱	jAzPWQ
 2领袖	8DvuCw
 1识	kAgB8Qz0P5QI
-2到	jggCzUOZCQ
+2到	jggCzUOZCZYh
 3的	mV3bFA
 2型态	3G8
 2形态	rDM
@@ -659,7 +659,7 @@
 1积	2lw
 1脊	jwnBB90ZvhTqBYEV9wXaAuYG4Ql_
 1造	nxSfEtUB4hY
-2的	2yc
+2的	2yeSTQ
 0搏击	zA7TGbsouiMB
 1动	vgmtSeoR
 1命	nyg
@@ -699,13 +699,13 @@
 1承	ugnwXJ4M
 2销	wivxIQ
 1招	lQKJK9YDgQ7TCZMd
-1持	D4kCApEGmgOFAq0BggjVCxC5AZ8DBJsIkwLeCeYPgwOzC9oC-QEwuwQt3QIyAssGxgE
+1持	D4kCApEGmgOFAq0BggjVCxC5AZ8DBJsIkwLeCeYPgwOzC9oC-QEwuwQt3QIyAssGxgH5CB4Z
 2不住	ni0
 2度	uDzyKQ
 2物	yg2fJA
 2率	uDzEEs4F4BE
 2者	lyvQJhDFCoAV
-1援	5wbEAdVCrAf-Ew
+1援	5wbEAdVCrAf-E74R
 1撑	xQtLggzVOc4MmAWZAcQBxQg
 2架	kww
 2物	kgy7V90C
@@ -923,6 +923,7 @@
 1忌	wSfoMOMD
 1怯	_USBJQ
 1惧	5x_aBw
+2…	vng
 2和憎恨外国人的人	pHQ
 1畏缩缩	4Rc
 1缩	oxc9yhGCKocC9R0
