@@ -33,6 +33,10 @@ BLACKLIST = {
     "slang", "dialect", "usu", "esp", "equivalent", "prefix", "suffix",
     "comb", "form", "particle", "abbr", "sth", "sb", "ie", "eg", "vs",
 }
+# 2-word phrases starting with these are CC-CEDICT single-word gloss padding
+# (e.g. "a man" -> 男儿, "the book" -> 书). Drop them during extraction so
+# re-runs stay clean.
+DROP_FIRST = {"a", "an", "the", "some"}
 MIN_WORDS, MAX_WORDS = 2, 5
 MIN_LEN, MAX_LEN = 3, 40
 
@@ -91,6 +95,8 @@ def extract():
                 cleaned = re.sub(r"CL:[^/]+", "", cleaned)
                 cleaned = cleaned.strip().lower()
                 if not (MIN_WORDS <= len(cleaned.split()) <= MAX_WORDS):
+                    continue
+                if len(cleaned.split()) == 2 and cleaned.split()[0] in DROP_FIRST:
                     continue
                 if not (MIN_LEN <= len(cleaned) <= MAX_LEN):
                     continue
