@@ -617,8 +617,33 @@ def main():
                 }
             )
 
-    # 合并高频词组
+    # 合并 CC-CEDICT 单字英文词（扩充单词覆盖）
     existing_words = {row["word"].lower() for row in rows}
+    word_extra_count = 0
+    WORD_SOURCE_EXTRA = ROOT / "data" / "words_ccedict.csv"
+    if WORD_SOURCE_EXTRA.exists():
+        with WORD_SOURCE_EXTRA.open("r", encoding="utf-8", newline="") as handle:
+            reader = csv.DictReader(handle)
+            for row in reader:
+                word = clean_text(row.get("word"))
+                if not word or word.lower() in existing_words:
+                    continue
+                rows.append(
+                    {
+                        "word": word,
+                        "phonetic": clean_text(row.get("phonetic")),
+                        "translation": clean_text(row.get("translation")),
+                        "tag": clean_text(row.get("tag")),
+                        "exchange": "",
+                    }
+                )
+                existing_words.add(word.lower())
+                word_extra_count += 1
+        print(f"  [WORDS-EXTRA] 已合并 {word_extra_count} 个单字英文词")
+    else:
+        print("  [WORDS-EXTRA] 跳过（words_ccedict.csv 未找到）")
+
+    # 合并高频词组
     phrase_count = 0
     if PHRASES_SOURCE.exists():
         with PHRASES_SOURCE.open("r", encoding="utf-8", newline="") as handle:
