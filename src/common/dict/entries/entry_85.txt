@@ -1,500 +1,500 @@
-0plane curve		平面曲线
-6geometry		平面几何
-6mirror		平面镜
-6of projection		投影面
-6tree		法国梧桐
-5tarium projector		天象仪
-4ing length		刨程
-8machine		刨床
-f operator		刨工
-8tool		刨刀
-4ned childbirth		计生
-8economy		计划经济
-8obsolescence		计划报废
-5ing department		规划局
-9regulations		设计规范
-4t ash		草木灰
-6cover		植被
-6disease		病害
-ds and insect pests		病虫
-6genus astragalus		黄耆
-6material used as fuel		柴火
-6nursery		苗圃
-5-based meat		植物肉
-5ar fasciitis		足底筋膜炎
-5ed forest		人工林
-5s and animals		动植物
-7in the wild		野生植物
-3smodium falciparum		恶性疟原虫
-4ter cast		石膏
-8of paris		煅石膏
-7board saw		墙板锯
-7ed masonry wall		混水墙
-5ic bag		塑料袋
-9ottle		宝特瓶
-8explosive		塑胶炸药
-8film		塑膜
-8strap		索带
-9urgeon		整形外科医生
-dry		整容
-f or orthopedics		整形
-8wrap		保鲜纸
-cping		塑封
-3te appearance		打席
-6column		板式塔
-6gauge		板规
-7irder bridge		板梁桥
-6of armor		鳞甲
-6tectonics		板块构造
-5s and cups		盘碗
-4form as a service		平台即服务
-9balance		台磅
-9for praying to immortals		祈仙台
-9scale		台秤
-breen doors		月台幕门
-ahoes		厚底鞋
-9ticket		月台票
-8-edge doors		月台幕门
-4oon leader		排长
-3y in several acts		多幕剧
-5on words		双关
-4-acting that turns into reality		假戏真唱
-5only device		单放机
-4boy of rich family		郎君
-4er character		玩家角色
-7hired from another country		佣兵
-7of a stringed instrument		琴师
-7recruited from overseas		外援
-7whose turn comes next		下家
-6unknown's battlegrounds		吃鸡
-4ful appellation		谑称
-8talk		玩话
-4ing card		卡牌
-cs		扑克
-8field for a competition		比赛场
-8marbles		弹子
-8to the gallery		哗众取宠
-2ea agreement		控辩交易
-5bargain		控辩协议
-cing		控辩交易
-5of not guilty		无罪抗辩
-4sant and romantic dream		绮梦
-9body scent		体香
-9countenance		和颜悦色
-9lingering effect		余韵
-9to behold		爽目
-chear		中听
-clisten to		动听
-cthe eye		中看
-8ly cool		凉快
-bsmiling		春风满面
-coft		软和
-bwarm		和暖
-5e amend my writing		斧正
-8nswer		示复
-7do not disturb		请勿打扰
-esmoke		请勿吸烟
-9n't		请勿
-c be upset		请别见怪
-7excuse		担待
-7feel free		只管
-8orgive me		恕罪
-7help achieve something		玉成
-7kindly accept		哂纳
-7return		掷还
-7take off your coat		宽衣
-8reat me kindly		请多关照
-6d with one's position		自得
-gself		得意
-5ing to the ear		顺耳
-hye		美观
-5urable sensation		快感
-7e boat		游船
-9center		快感中心
-9from helping others		助人为快乐之本
-9quarters		青楼
-4ted skirt		折裙
-3nary session		全会
-4ipotentiary ambassador		全权大使
-gpowers		全权
-4tiful harvest		丰登
-3thora of things to tackle		千头万绪
-2iable and tough		柔韧
-2ot device		桥段
-5leak		剧透
-5of land		标地
-5shift in a book		转折
-3wing and weeding		耕耘
-2ucked instrument		拨弦乐器
-8string instrument		弹拨乐器
-fmusic		弹拨乐
-for stringed instrument		拨弦乐器
-3g and play		随插即用
-5to stop bleeding		止血栓
-3m blossom		梅花
-5candy		话梅
-5tree		李树
-5with bright red skin		槜李
-4beous water redstart		红尾水鸲
-5ing and electrical work		水电工
-lity		水电
-4p and strong		膘肥体壮
-atender		欲滴
-6lips		丰唇
-7ower eyelids		卧蚕
-3nging fire		曲射
-3s and minus signs		加减号
-5fours		灯笼裤
-5sign		加号
-4-minus sign		加减号
-4h toy		毛绒玩具
-3tonic rock		深成岩
-1neumatic brake		气动闸
-acontrol		气动控制
-adrill		气钻
-ahammer		气锤
-boist pulley		气动葫芦
-apump		气动泵
-aswitch		气动开关
-atire		胶轮
-1o lam		宝林
-2ached egg		荷包蛋
-2ck mark		痘瘢
-4et book		袖珍本
-7diary		手帐
-9ctionary		袖珍辞典
-7money		零用
-7pc		掌上电脑
-7stereo		袖珍音响
-7watch		怀表
-4marked face		麻脸
-2dium building		裙楼
-3ocarp tree		陆均松
-2em for singing		曲子
-3tic grace		诗情画意
-7individual		雅人
-7occasion		韵事
-7quality or flavor		诗意
-7saga		史诗
-7term for boat		兰舟
-4ry and literature		诗文
-bpictorial art		诗画
-crose		辞章
-9thology		诗集
-7circles		诗坛
-7in the old style		旧诗
-7world		诗坛
-2int at infinity		无穷远点
-6guard		控球后卫
-6in time		时间点
-6mass		质点
-6of an awl		锥尖
-9difference		分至点
-bsagreement		分歧点
-bvergence		分至点
-cision		分点
-9intersection		交叉点
-9penetration		突破点
-9sale		销售时点
-d system		销售时点情报系统
-apecial interest		热点
-9time		早晚
-9view		观点
-6set		点集合
-7ymmetry		中心对称
-6that has integer coordinates		整点
-5-and-shoot camera		傻瓜相机
-5e shoe		足尖鞋
-6d end		尖头
-8object		尖顶
-6r on a gauge		指针
-5ing device		指向装置
-9stick		触控点
-5less arguing		磨牙
-aexpense		冤枉钱
-atalk		滥套子
-brip		冤枉路
-5s of the compass		方位
-3son dart frog		箭毒蛙
-7gas		毒剂
-a grenade		毒气弹
-bshell		毒气弹
-8land		毒腺
-7pen letter		黑函
-6ed person		中毒者
-6ous gas		毒瓦斯
-amushroom		毒蕈
-awriting		屠毒笔墨
-4son distribution		泊松分布
-2ker face		扑克脸
-2lar angle		极角
-7xis		极轴
-6bear		北极熊
-6climate		寒带
-7oordinate system		极坐标系
-gs		极坐标
-6day		极昼
-6fleece		摇粒绒
-6night		极夜
-7ucleus		极核
-6region		极地
-5ization of light		偏振光
-7ed light		偏光
-awave		偏振波
-7ing filter		偏光镜
-blens		偏极镜
-3e carrier		杠夫
-5dancing		钢管舞
-5for punting boats		篙子
-5marking distance on racetrack		标柱
-5of rotation		旋转极
-5position		头位
-5vault		撑竿跳
-4s apart		大相径庭
-3ice and criminals		警匪
-7badge		警徽
-8ooth		岗楼
-7cadres		干警
-9ll		警讯
-9r		警车
-8lassification		警种
-8onstable		警员
-9rdon		警戒线
-7department		警察局
-9tective		警探
-8og		警犬
-7force		警力
-7gear		警械
-7headquarters		警察局
-7officer		巡警
-es		警力
-8n trains		乘警
-7patrol		巡警
-7rank		警衔
-7station		局子
-7truncheon		警棍
-7uniform		警服
-6man's round		警区
-5y decision		决策
-7holder		投保人
-7of non-recognition		不承认主义
-dresistance		不抵抗主义
-buclear intimidation		核威慑政策
-4sh language		波语
-6ed glutinous rice		江米
-9round-grained nonglutinous rice		粳米
-9to a shine		亮锃锃
-4te and amiable		和和气气
-bmodest		谦恭
-7congratulations		奉申贺敬
-7greeting		客套
-7reception		礼遇
-9marks		套数
-7set phrases		套语
-5ical and economic		政经
-egovernment circles		政界
-elegal affairs commission		政法委
-emilitary achievements		文治武功
-brena		政治舞台
-bsylum		政治庇护
-acircle		政圈
-gs		政坛
-blimate		政治局面
-bommentary		政论
-eissar		政委
-crrectness		政治正确
-adiscipline		政纪
-dsident		政治异议人士
-cvision		政治部
-aeconomy		政治经济学
-bducation		政教
-j office		政教处
-afigure		政治人物
-agroup		政派
-ahistory		政治史
-ainstructor		指导员
-cvestigation		政审
-alife		政治生活
-cne		路线
-amap		行政区划图
-bovement		政治运动
-aopponent		政敌
-brganization		政治机构
-aparty		政党
-f emblem		党徽
-bosition		政治立场
-cwer		政柄
-brisoner		政治犯
-cogram		政纲
-burge		整风运动
-areform		政改
-clations		政治关系
-ascience		政治学
-bituation		政局
-j of the time		时政
-btreet theater		活报剧
-athought		政治思想
-braining office		政训处
-cicks		权术
-avacuum		政权真空
-biews		政见
-awork		政工
-9ly astute		满腹经纶
-ccorrect		政治正确
-cunaffiliated		无党派
-7s and law		政法
-dthe economy		政经
-3ka dot		波点
-3l count		票数
-5tax		人头税
-4ing station		投票站
-3ychlorinated biphenyl		多氯联苯
-5rystalline silicon		多晶硅
-5ystic ovary syndrome		多囊卵巢综合症
-4ester fiber		涤纶
-akhaki		涤卡
-aresin		聚酯树脂
-9-cotton blend		涤棉
-4formaldehyde n		聚甲醛
-4gonal line		折线
-8tum odoratum		玉竹
-7um tinctorium		蓼蓝
-4mer chemistry		高分子化学
-5orphonuclear leukocyte		多形核白细胞
-4nomial equation		多项式方程
-4propylene fiber		丙纶
-4semous word		多义词
-5yllabic word		多音节词
-4tene chromosome		多线染色体
-4unsaturated fatty acid		多元不饱和脂肪酸
-4vinyl chloride		聚氯乙烯
-i fiber		氯纶
-2marine jaeger		中贼鸥
-3egranate arils		石榴子
-cseeds		石榴子
-ctree		石榴树
-4lo tree		柚木
-3mel horse		鞍马
-2ntius pilate		般雀比拉多
-4oon bridge		浮桥
-3zi scheme		庞氏骗局
-2ol of blood		血泊
-3r and feeble		贫弱
-9humble family		寒门
-9lowly		贫贱
-9rich		贫富
-9shabby dwelling		破瓦寒窑
-aimple		清苦
-9with low expectations		人穷志短
-6s church mice		家贫如洗
-5but spirited person		穷棒子
-9upright		清贫
-5calligraphy		涂鸦
-6ountry		穷国
-5devil		倒霉蛋
-5evaluation		差评
-5family background		柴门
-5harvest		歉收
-5in oil		贫油
-5land		薄田
-5man's ginseng		党参
-5peasant		贫农
-cs		贫雇农
-7ople		穷人
-7rson's house		蓬户
-6osture		弯腰驼背
-5quality		低档
-5region		贫困地区
-5soil		薄地
-6peaker		笨嘴拙舌
-5taste		低俗
-5wretch		穷光蛋
-4ly dressed		布衣韦带
-7expressed		词不达意
-7thought-out		疏阔
-2p art		普普艺术
-4filter		防喷罩
-4group		乐队
-4music		流行音乐
-4rocks		跳跳糖
-3-up book		立体书
-7window		弹窗
-3corn chicken		鸡米花
-3e vigilius		维奇
-3lar and willow		杨柳
-7mushroom		柳松菇
-7tree		杨树
-4iteal artery		腘动脉
-avein		腘静脉
-3ped wheat		熬稃
-4ing candy		跳跳糖
-3ular art forms		下里巴人
-8comedian		笑星
-9ustom		民俗
-es		民情
-8feeling		人心
-9iction		通俗小说
-9ront		人民阵线
-8given name		菜市仔名
-9rievance		民怨
-8indignation		公愤
-8jargon		流行语
-8on the internet		网红
-8person		香饽饽
-9iece of doggerel		顺口溜
-8revolt		民变
-8science		科教
-f movie		科教片
-9earch query		热搜
-antiment		民心
-9how		热播剧
-9ong		小曲
-8tradition		民间传说
-8will		民意
-8young actress		小花
-7ity rating		支持率
-8zation of science		科学普及
-6tion density		人口密度
-bstatistics		人口统计学
-dudies		人口统计学
-5ous and affluent		富庶
-2rcelain bottle		瓷瓶
-cwl		瓷碗
-adoll		瓷娃娃
-aglaze		瓷釉
-akilns		窑场
-3ia five powder		五苓散
-6mushroom		猪苓
-3k and scrambled eggs		木犀肉
-5ball		贡丸
-6elly		五花肉
-6ouillon powder		猪精
-5chop		排骨
-6utlet		排骨
-5fillet		猪柳
-5ribs		猪排
-6ump		臀尖
-5shoulder		肘子
-6kin		肉皮
-6teak		煎猪扒
-5tripe		猪肚
-3n business		色情业
-4ographic book		黄书
-hs and magazines		黄色书刊
-dfilm		毛片
-dmaterial		色情作品
-eovie		黄片
-dnovel		色情小说
-dpicture		春画
-3ridge head		豆渣脑筋
-3t area		港区
-6uthority		港务局
-5city		港口城市
-5darwin		达尔文港
-6ickson		波德申
-5of call		停靠港
-5police		港警
-5wine		波特酒
-4able computer		手提电脑
-9gas stove		卡式炉
-9radio transmitter		报话机
+0leucura		白尾蓝地鸲
+0cyaneus		白尾鹞
+0tropicbird		白尾鹲
+0phaethon		白尾鹲
+0lepturus		白尾鹲
+0chongxi		白崇禧
+0liberals		白左
+0baidi		白帝城
+0leukorrhea		白带
+1argehead		白带鱼
+0trichiurus		白带鱼
+0whitehall		白厅
+0unannotated		白文
+0intagliated		白文
+0kloss		白斑尾柳莺
+0ogilviegranti		白斑尾柳莺
+0ariel		白斑军舰鸟
+0caprata		白斑黑石䳭
+0hsiao		白晓燕
+0bainang		白朗县
+0tremella		白木耳
+0fuciformis		白木耳
+0atractylodes		白术
+0macrocephaia		白术
+0vipio		白枕鹤
+0bonatii		白杨树
+0leucite		白榴石
+0batrytis		白僵蚕
+2ishuijiang		白水江自然保护区
+7		白水县
+0norman		白求恩
+0bethune		白求恩
+1aisha		白沙
+0paisha		白沙
+0baiyang		白洋淀
+0waterpower		白煤
+0unbranded		白牌
+0gygis		白玄鸥
+0baiy		白玉县
+0hypsizygus		白玉菇
+0tessellatus		白玉菇
+0platalea		白琵鹭
+0leucorodia		白琵鹭
+0piceatannol		白皮杉醇
+0zanthopygia		白眉姬鹟
+0superciliosus		白眉山雀
+0gingica		白眉山鹧鸪
+0sasia		白眉棕啄木鸟
+0ochracea		白眉棕啄木鸟
+0iliacus		白眉歌鸫
+0vinipectus		白眉雀鹛
+0querquedula		白眉鸭
+0tristram		白眉鹀
+8i		白眉鹀
+0eyebrowed		白眉鸫
+0obscurus		白眉鸫
+0ramsayi		白眶斑翅鹛
+0conspicillata		白眶鸦雀
+0disdainful		白眼
+0pseudochelidon		白眼河燕
+0sirintarae		白眼河燕
+0teesa		白眼𫛭鹰
+0granulated		白砂糖
+0smew		白秋沙鸭
+0mergellus		白秋沙鸭
+0albellus		白秋沙鸭
+3opictus		白纹伊蚊
+0suzhen		白素贞
+0markings		白线
+0koyunlu		白羊朝
+0qoyunlu		白羊朝
+0turkoman		白羊朝
+0loxia		白翅交嘴雀
+1eucoptera		白翅交嘴雀
+9us		白翅啄木鸟
+0carnipes		白翅拟蜡嘴雀
+1hlidonias		白翅浮鸥
+0baengnyeong		白翎岛
+0auricularis		白耳奇鹛
+0heliaca		白肩雕
+0pseudibis		白肩黑鹮
+0davisoni		白肩黑鹮
+0leucotos		白背啄木鸟
+0saxatilis		白背矶鸫
+1myrnensis		白胸翡翠
+0waterhen		白胸苦恶鸟
+0amaurornis		白胸苦恶鸟
+0leucorhous		白腰叉尾海燕
+0flammea		白腰朱顶雀
+0arquata		白腰杓鹬
+0fuscicollis		白腰滨鹬
+0aleutian		白腰燕鸥
+6cus		白腰燕鸥
+0ochropus		白腰草鹬
+1nychostruthus		白腰雪雀
+0taczanowskii		白腰雪雀
+0shama		白腰鹊鸲
+0copsychus		白腰鹊鸲
+0malabaricus		白腰鹊鸲
+0cyanomelana		白腹姬鹟
+0albiventre		白腹幽鹛
+0lagopodum		白腹毛脚燕
+1eucogaster		白腹海雕
+0phaenicuroides		白腹短翅鸲
+0andrewsi		白腹军舰鸟
+1mherst		白腹锦鸡
+0chrysolophus		白腹锦鸡
+0amherstiae		白腹锦鸡
+0bonelli		白腹隼雕
+0fasciata		白腹隼雕
+0erpornis		白腹凤鹛
+0zantholeuca		白腹凤鹛
+0spilonotus		白腹鹞
+0dryocopus		白腹黑啄木鸟
+0javensis		白腹黑啄木鸟
+0microhierax		白腿小隼
+1elanoleucos		白腿小隼
+0novaehollandiae		白脸鹭
+0refrigerators		白色家电
+0leucoplast		白色体
+1actiflora		白芍
+0agkistrodon		白花蛇
+0hedyotis		白花蛇舌草
+0diffusa		白花蛇舌草
+1ahurian		白芷
+6ca		白芷
+0cogongrass		白茅
+0imperata		白茅
+0cylindrica		白茅
+0thatching		白茅
+0whiteness		白茫茫
+0albus		白苋
+0varieties		白菜型油菜
+0perilla		白苏
+0ampelopsis		白蔹
+0raphanus		白萝卜
+0longipinnatus		白萝卜
+0sandfly		白蛉热
+0ericerus		白蜡
+0pela		白蜡
+0leukemia		白血病
+0changeability		白衣苍狗
+0elettaria		白豆蔻
+0bolsheviks		白军
+0citizenry		白道
+0distilled		白酒
+0buckingham		白金汉宫
+ashire		白金汉郡
+0scheelite		白钨矿
+0galvanized		白铁
+0dynastry		白陶
+0baiyun		白云区
+0muscovite		白云母
+0obo		白云鄂博矿区
+0bailu		白露
+0pleschanka		白顶䳭
+0leucocephalus		白顶溪鸲
+0noddy		白顶玄鸥
+0anous		白顶玄鸥
+0stolidus		白顶玄鸥
+2ewarti		白顶鹀
+0bakeri		白项凤鹛
+0albocinctus		白领八哥
+0todiramphus		白领翡翠
+0parayuhina		白领凤鹛
+0diademata		白领凤鹛
+0baekdu		白头山
+0changbai		白头山
+0oxyura		白头硬尾鸭
+0pulsatilla		白头翁
+0leucocephalos		白头鹀
+0gampsorhynchus		白头鵙鹛
+0rufulus		白头鵙鹛
+0monacha		白头鹤
+0aeruginosus		白头鹞
+0sannio		白颊噪鹛
+0atrogularis		白颊山鹧鸪
+0leucogenys		白颊鹎
+5psis		白颊黑雁
+0strepitans		白颈噪鹛
+0ellioti		白颈长尾雉
+0torquatus		白颈鸦
+0episcopus		白颈鹳
+0bonin		白额圆尾鹱
+0pterodroma		白额圆尾鹱
+0sternula		白额燕鸥
+0albifrons		白额燕鸥
+0calonectris		白额鹱
+0leucomelas		白额鹱
+0menglan		白香词谱
+0baima		白马寺
+0crossoptilon		白马鸡
+0dechen		白马雪山
+0flits		白驹过隙
+0caucasians		白鬼
+0stinkhorn		白鬼笔
+0impudicus		白鬼笔
+0moby		白鲸
+0herman		白鲸
+0beluga		白鲸
+0onocrotalus		白鹈鹕
+0leucogeranus		白鹤
+0baihequan		白鹤拳
+0carvings		白鹤梁
+0baihetan		白鹤滩
+0lophura		白鹇
+0nycthemera		白鹇
+0garzetta		白鹭
+0bailuwan		白鹭湾湿地公园
+3jiantan		白碱滩区
+1ieti		白点噪鹛
+0pepsi		百事可乐
+0hundredfold		百倍
+0megabits		百兆
+0abounding		百出
+0percentile		百分位数
+0baileys		百利甜
+3sheng		百胜
+0paksing		百胜
+0successes		百胜难虑敌，三折乃良医
+0tricon		百胜餐饮
+0kfc		百胜餐饮
+0protestations		百口莫辩
+0liliaceae		百合科
+0fleur		百合花饰
+0regiments		百团大战
+0budweiser		百威
+0listing		百家姓
+0surnames		百家姓
+0hpa		百帕
+0zhidao		百度知道
+0undertaken		百废俱兴
+0whooping		百日咳
+0centenarian		百岁老人
+0paekche		百济
+0hectowatt		百瓦
+0baiyue		百粤
+0discussing		百花运动
+0lifted		百花运动
+0ventilated		百叶箱
+0baili		百里
+0centaurium		百金花
+0pulchellum		百金花
+0altaicum		百金花
+2audidae		百灵
+0runners		皁
+0vitriol		皂矾
+0sulfate		皂矾
+0feso		皂矾
+0modifies		的
+0cabbie		的哥
+0titicaca		的的喀喀湖
+1rieste		的里雅斯特
+3poli		的黎波里
+0headgear		皇冠
+0crowne		皇冠假日酒店
+0boroughs		皇后区
+0queenstown		皇后镇
+0huanggu		皇姑区
+0rcmp		皇家骑警
+0mounties		皇家骑警
+0observers		皇帝不急太监急
+1arfish		皇带鱼
+0regalecus		皇带鱼
+0glesne		皇带鱼
+0huangfu		皇甫
+0gaolan		皋兰县
+0pico		皮
+2xar		皮克斯
+0studios		皮克斯
+0pickering		皮克林
+0canoes		皮划艇
+0kayaks		皮划艇
+0canoeing		皮划艇
+0kayaking		皮划艇
+0flatwater		皮划艇静水
+0picard		皮卡尔
+0cvi		皮层性视损伤
+0pishan		皮山县
+0beefalo		皮弗娄牛
+0picosatellite		皮星
+1earson		皮尔森
+1iyaz		皮牙子
+1etrarch		皮特拉克
+0francesco		皮特拉克
+0petrarca		皮特拉克
+0sonnets		皮特拉克
+0dermatosis		皮肤病
+4o		皮肤肌肉囊
+0changpao		皮袍
+0augusto		皮诺切特
+0pinochet		皮诺切特
+0chilean		皮诺切特
+0furs		皮货
+0lacerated		皮开肉绽
+0fellmonger		皮革商
+0hides		皮革商
+0skins		皮革商
+0unironed		皱巴巴
+0crispum		皱叶欧芹
+0yuxian		盂县
+0handleless		盅
+0yingjiang		盈江县
+0boxes		盈箱累箧
+1askets		盈箱累箧
+0alpinia		益智
+0oxyphylla		益智
+0motherwort		益母
+0leonurus		益母
+0cardiaca		益母草
+0probiotics		益生菌
+0hezi		盒子
+0unlawfully		盗伐
+0sweats		盗汗
+0rapator		盗龙
+0ornitholestoides		盗龙
+0hardest		尽力
+0satiety		尽饱
+0mos		监察部
+0balloting		监票
+0peephole		监视孔
+0coils		盘
+0pangu		盘古
+0crypsirina		盘尾树鹊
+0temia		盘尾树鹊
+0panshan		盘山县
+3zhou		盘州市
+0circuitously		盘旋曲折
+1oiled		盘曲
+0entwined		盘曲
+0roadblock		盘查
+0joints		盘根错节
+0basketwork		盘绕
+0argali		盘羊
+0ovis		盘羊
+0ammon		盘羊
+0twining		盘道
+0panlong		盘龙区
+0lucca		卢卡
+0tuscany		卢卡
+0lucas		卢卡斯
+0aleksandr		卢卡申科
+0grigoryevich		卢卡申科
+0lukachenko		卢卡申科
+1ewin		卢因
+1jubljana		卢布尔雅那
+0rousseau		卢梭
+2h		卢武铉
+0hyun		卢武铉
+0lushi		卢氏县
+0tae		卢泰愚
+0louvre		卢浮宫
+1ugou		卢沟桥
+0rutherford		卢瑟福
+0loire		卢瓦尔河
+1usaka		卢萨卡
+2long		卢龙县
+0gazing		目不转瞬
+0incites		目挑心招
+0sandpaper		目数
+0flouting		目无法纪
+0disregarding		目无法纪
+0eyeball		目珠
+0sensors		目视
+0vfr		目视飞行
+0eyepiece		目镜
+0concentratedly		盯视
+0xuyi		盱眙县
+0goalball		盲人门球
+0blinding		盲法
+0harvestmen		盲蛛
+0arachnids		盲蛛
+0opiliones		盲蛛
+0harvestman		盲蜘蛛
+0myxini		盲鳗
+0straightforwardly		直呼
+0overfamiliarity		直呼其名
+0gibraltar		直布罗陀
+0penhold		直拍
+0huanglong		直捣黄龙
+0livestream		直播
+0seeding		直播
+0franchisee		直营店
+0insensitivity		直男癌
+0sexist		直男癌
+0orthoptera		直翅目
+0locusts		直翅目
+0proctoscope		直肠镜
+0telok		直落布兰雅
+0blangah		直落布兰雅
+0intuitiveness		直觉性
+0cartesian		直角坐标
+0forthrightly		直言
+0retaining		直通车
+0straightener		直发器
+1crutinizing		相
+0interrelationship		相互关系
+0xiangcheng		相城区
+0prognostication		相士
+0relativistic		相对论性
+0xiangshan		相山区
+0sesarmidae		相手蟹
+0unrelenting		相持不下
+0interlinking		相接
+0suits		相配物
+0unnecesary		省去
+0whites		眅
+0ajna		眉心轮
+0headnotes		眉批
+0glabella		眉间
+0storytellers		看官
+1pectators		看客
+0reads		看错
+0imperceptive		眛
+0hezbollah		真主党
+0sevenths		真分数
+0tathata		真如
+1essulatus		真姬菇
+1ruthfulness		真实性
+0eumetazoa		真后生动物
+0wholeheartedness		真心
+0pravda		真理报
+0zhenpan		真番郡
+0genuinely		真真
+0thermionic		真空管
+0mohammad		真纳
+0jinnah		真纳
+0khmer		真腊
+1ampuchea		真腊
+0eumycetes		真菌纲
+0corbicula		真蚬
+0leana		真蚬
+0translates		真言
+0dharani		真言
+0shingon		真言宗
+0hypocritically		真香
+0bitching		真香
+0eyelids		眢
+0yearning		眷恋
+0longingly		眷顾
+0subocular		眼下
+0judgments		眼力
+0appropriately		眼力见
+0intraocular		眼压
+0oculi		眼房
+0hotties		眼睛吃冰淇淋
+0unfeelingly		眼睁睁
+0ophthalmologist		眼科医生
+1cellata		眼纹噪鹛
+0lored		眼纹黄山雀
+0machlolophus		眼纹黄山雀
+0xanthogenys		眼纹黄山雀
+0eyeliner		眼线液
+3shade		眼罩
+0blinkers		眼罩
+0dimmed		眼花
+0eyewash		眼药水
+1uglena		眼虫
+0puffiness		眼袋
+0hypertelorism		眼距宽
+0twitching		眼跳
+0electrooculograph		眼电图
+1og		眼电图
+1yespot		眼点
+0gathers		众人拾柴火焰高
+0hackerspace		众创空间
+4lab		众创空间
+0makerspace		众创空间
+0crowdsourcing		众包
+0rebelling		众叛亲离
+0deserting		众叛亲离
+0stares		众目睽睽
+0crowdfunding		众筹
+0deputies		众议院
+0trypanosome		睡眠虫
+0pajamas		睡衣
+0nightgown		睡袍
+0oversleep		睡过头
+0suixian		睢县
+3yang		睢阳区
+0dotterell		睢鸠
+0focusing		睫状体
+0testicular		睾丸扭转
+0farsighted		睿
+0sighting		瞄准具
+1quinting		眯眼
+6y		眯眯眼
+1leepaholic		瞌睡虫
+0groundlessly		瞎
+0untruth		瞎话
+2derreporting		瞒报
+0shoegaze		瞪鞋摇滚
+0nictitating		瞬膜
+0teleportation		瞬间转移
+0pupillary		瞳距
+0stye		睑腺炎
+0hordeolum		睑腺炎
+0undiscerning		瞽
+0fearfully		矍
+0lanceolated		矛斑蝗莺

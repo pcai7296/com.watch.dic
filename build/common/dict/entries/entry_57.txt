@@ -1,500 +1,500 @@
-0floating window		悬浮窗
-3ck of sheep		羊群
-3od control		防汛
-6damage		水害
-7efense		分洪
-7ischarge		泄洪
-f valve		泄洪闸
-6peak		洪峰
-7revention		防洪
-6season		汛期
-4r area		占地面积
-6gutter		地漏
-6lamp		落地灯
-6tile		地板砖
-7om		落地鼓
-6with tiled design		拼花地板
-5-sweeping kick		扫堂腿
-6to-ceiling window		落地窗
-3pping sound		哔哔啪啪
-5y disk		软盘
-4tical disk		光磁碟
-brive		光磁碟机
-3ra and fauna		动植物
-5l formula		花式
-7hoop		花环
-7water		花露水
-4id but insubstantial remarks		浮词
-7ornamentation in opera		花腔
-3s farfarae		艾冬花
-5inulae		旋覆花
-4s pick		牙线棒
-3tation process		浮选
-3urishing and thriving		繁芜
-cblossom		繁花
-cperiod		鼎盛时期
-creputation		盛誉
-3w chart		流程图
-5of air		空气流
-8liquid		液流
-8speech		语流
-5speed		流速
-4er arranging		插花
-7bed		花床
-8ud		花芽
-7cluster		花序
-7fair or festival		花会
-7garden		庭园
-8irl		花童
-8rower		花农
-7offering		供佛花
-7pot		花盆
-7shop		花店
-aw		花展
-8tand		花台
-7terrace		花台
-7vase		花瓶
-6horn cichlid		罗汉鱼
-6ing plants		显花植物
-aseason		花季
-bhrub		花丛
-6s and plants		花卉
-ctrees		花木
-6y language		词藻
-8writing		绮语
-4ing all over the place		四溢
-8into desert		内流
-8rhythm		流韵
-8sleeves		水袖
-8water does not rot		流水不腐
-2u season		流感季
-3e-cured tobacco		烤烟
-4nt and elegant		飘洒
-7with words		珠流
-3id dynamics		流体动力学
-6glance		眼波
-6mechanics		流体力学
-3orescent light		日光灯
-cscreen		荧屏
-ctube or light		筒灯
-3sh toilet		抽水马桶
-5-mounted ceiling lamp		吸顶灯
-5ed with anger		面红耳赤
-dsuccess		春风得意
-4tered and exasperated		气急败坏
-3ticasone propionate		丙酸氟替卡松
-4tering about		纷纷扬扬
-bor flapping of wings		扑棱
-2y amanita or fly agaric		毒蝇伞
-4cutter		飞刀
-3-by-night company		皮包公司
-3ing apsara		飞天
-7craft		飞行器
-7fish		飞鱼
-7in pairs		双飞
-9sect		飞虫
-7locusts		飞蝗
-7pigeon		飞鸽
-7saucer		飞碟
-8quirrel		飞鼠
-7tackle		飞身
-1o tan		火炭
-2am rubber		海绵
-4ing agent		发泡剂
-2cal distance		焦距
-6length		焦距
-6mechanism		震源机制
-3k or foch		福克
-2ehn wind		焚风
-2g lights		雾灯
-2ie gras		肥肝
-2ld mountain range		褶皱山脉
-esystem		褶皱山系
-4able screen		折叠屏
-4ing chair		折叠椅
-8fan		折扇
-8knife		折叠刀
-8notebook		折子
-8ruler		折尺
-8stool		马扎
-3ic acid		叶酸
-4um artemisiae argyi		艾叶
-n carbonisatum		艾炭
-3k art		民间艺术
-5customs		民间习俗
-5dance		民族舞蹈
-5festival		游艺会
-5legend		民间传说
-5music		民间音乐
-aal theater		小技
-5prescription		单方
-7overb		俚谚
-5remedy		丹方
-5saying		民谚
-6inger		民歌手
-6ong		山歌
-6tory		民间故事
-5tune		小曲
-3low-up report		追踪报导
-astudy		追踪调查
-6ed by		后跟
-7r of a religion		教徒
-ccatholicism		天主教徒
-cmohist school		墨者
-cwine and women		酒色之徒
-6ing closely		相继
-afrom that		随之而后
-athe author's fancy		嬉笑怒骂
-emodel		沿例
-eways of old		师古
-awhich		随即
-2nd of interacting with people		黏人
-8the bottle		好酒贪杯
-3t size		字号
-5weight		字重
-2o yung		芙蓉
-3d additive		添加剂
-6nd agriculture		粮农
-9beverage		餐饮
-9clothing		吃穿
-9drink		吃喝
-9lodging		吃住
-9sex		食色
-5cereals		食粮
-6hain		生物链
-6oma		饭气攻心
-7urt		小食中心
-5delivery person		外卖员
-5expenses		伙食费
-5grain		禾谷
-as		六陈
-7owing		产粮
-c area		产粮区
-5market		菜场
-6ixer		搅拌机
-5offerings to buddha		素筵
-5poisoning		食物中毒
-6resentation		摆盘
-7ocessor		食品加工机
-5relief center		粥厂
-5safety		食安
-7mple		试吃品
-6upply		菜篮子
-5to accompany wine		酒菜
-6ransportation route		食道
-5vendor's stand		食品摊
-5waste		厨余
-3l's luck		傻人有傻福
-4ish talk		傻话
-7ly cute person		二货
-3t bath		足浴
-6rake		脚刹
-5drill		步操
-5fault		脚误
-6etish		恋脚癖
-bist		足控
-5massage		足疗
-5of a mountain		山脚
-autensil		爪儿
-awall		墙根
-5position		脚位
-5soldier		小卒
-5valve		底阀
-4-and-mouth disease		口蹄疫
-4ball fan		足球迷
-aield		绿茵场
-9played with oval-shaped ball		橄榄球
-2r a limited time		限时
-8ttle while		两下
-7ong time		久之
-f now		一直以来
-6moment		一时间
-6period of time		一气
-6short while		一时
-7pecial purpose		特地
-bfic purpose		特为
-6time		一度
-6very long time		久久
-6while		移时
-5ges		有年头
-5ll eternity		千古
-4beginners		零起点
-6tter or for worse		同甘共苦
-4days on end		连天
-5onkey's years		有年头
-4ever and ever		永永远远
-5xample		比如说
-4fear that		唯恐
-5ree		免票
-5uture reference		备查
-4generations		祖祖辈辈
-4heavy things falling down		咕咚
-4instance		比方
-4many generations		世世代代
-9years		多年
-4no reason		平白
-d at all		无端
-6thing		白白
-4old time's sake		念旧
-5thers' interest		为人
-4plopping sound		骨都都
-5rofit		营利
-5ublic use		公用
-4reference		备考
-d only		仅作参考
-4several days running		连日
-5ome reason		因故
-5ure		保准
-4the first time		初次
-8life of me		死活
-8most part		大多
-8past few days		几天来
-hyears		近年来
-dmany years		多年来
-dseveral years		几年来
-9urpose of		借以
-8sake of		以利于
-ame reason		同理
-8time being		权且
-6is reason		因之
-4use by the emperor		御用
-4years		有年
-9 on end		常年
-3age grass		饲草
-3bes magazine		福布斯
-4idden area		禁地
-adomain		禁脔
-afruit		禁果
-aplace		轩掖
-3ce feeding		填鸭式
-7ield		力场
-6majeure		不可抗拒
-6of habit		惯性
-9impact or thrust		冲击力
-9seismic wave		震动力
-5d labor		劳役
-c of feudal tenant		差役
-9ugh		干笑
-7march		急行军
-ariage		包办婚姻
-7to		迫于
-9 move away		偏安
-3d motor company		福特汽车
-3e hold		前舱
-4gone conclusion		定局
-4ign exchange		外汇
-8affairs		外事
-f department		外事处
-goffice		外事处
-9ggression		外侮
-fors		逆夷
-9id		外援
-8business manager		大班
-gman		外商
-8capital		外国资本
-9oncession		洋场
-auntry		外国
-9urrency		外币
-8devil		洋鬼子
-8edition		海外版
-9nterprise		外企
-9xchange collection		收汇
-hreserves		外汇存底
-hsettlement		结汇
-8firm		洋行
-9lavor		洋气
-9ood		番菜
-8goods		舶来品
-9uest		外宾
-8invasion		边患
-bestment		外来投资
-8land		他乡
-bguage		外国语
-gs		外国话
-9earning		洋务
-8market		国外市场
-atter		异物
-9inister		外相
-ery		外务省
-assion		公使馆
-9oney		洋钱
-8news media		外媒
-8office		外交部
-8player		外援
-9olicy		国际外交
-8relations		外交关系
-bigion		洋教
-8secretary		外交大臣
-8teacher		外教
-9rade		外贸
-8worker		外劳
-7-exchange reserves		外汇储备
-8published periodical		外刊
-4nsic investigation		鉴证
-9medicine		法医学
-4st clearance		滥伐
-7encephalitis		森林脑炎
-7fire		山火
-7green		墨绿
-7industry		林业
-7management area		林场
-7of apricot trees		杏林
-asteles		碑林
-8r meadow viper		蝰蛇
-7tree		林木
-7wagtail		山鹡鸰
-6ry station		林场
-4warned is forearmed		胸有成略
-3ged book		伪书
-7note		假钞
-7scriptures		伪经
-5t about it		算了
-7it		罢休
-4ive me		失礼
-3k in a road		歧途
-8road		岔口
-8the road		岔路
-5junction		丫巴儿
-4-tailed sunbird		叉尾太阳鸟
-4ed tongue		芯子
-4lift truck		叉车
-3mal attire		礼服
-7betrothal		聘娶婚
-7dress		正装
-7parameter		形参
-7request		声请
-7vote		正式投票
-6ism in art		公式化
-7zed move		招式
-5tion skydiving		造型跳伞
-4er acquaintance		故交
-8ffliction		旧疾
-8greement		旧约
-8ppearance		旧观
-7capital		故都
-8ircumstances		前情
-8omplaint		旧怨
-9ntract		旧约
-8ustom		旧习
-7days		昔日
-7empire		故业
-7friend		旧知
-7happenings		往事
-9tred		前嫌
-9unts		故地
-8ome		故宅
-8usband		前夫
-7imperial palace		故宫
-7love		前情
-7matter		旧事
-7name		旧名
-7occupation		故业
-7practices		旧例
-9esident		前总统
-9ime minister		前总理
-7residence		古宅
-8ules		旧贯
-7sessions		往届
-8ituation		旧态
-8overeigns		先王
-aiet union		前苏联
-8ubordinate		故吏
-7team		原班人马
-9rritory		旧物
-8imes		往初
-7years		往届
-6ly called lake rezaiyeh		雷扎耶湖
-4ic acid		甲酸
-5dable opponent		劲敌
-bperson		枭雄
-clayer		杀手
-cower		威力
-5ng a complete set		成套
-cnfused mass		稠浊
-dtinuous sheet		连片
-adense mass		乌压压
-agang		一气
-amicrocosm		具体而微
-4osan leaf-nosed bat		台湾叶鼻蝠
-9pit viper		龟壳花
-4s for reporting statistics		报表
-6of versification		格律
-4ula one		一级方程式
-4ylic acid		甲酸
-3nication and insults		淫辱
-3rest gump		阿甘正传
-3thright admonition		诤言
-bperson		直肠子
-4ified gate		巨防
-ahill village		山寨
-4resses and mountains		关山
-4uitous meeting		奇遇
-5ne cookie		幸运曲奇
-8favors fools		傻人有傻福
-8telling		算卦
-4y years of age		不惑
-3um manager		吧务
-7oderator		版主
-3ward contract		远期合约
-8deck		前甲板
-alivery apartment		期房
-9irection		正方向
-8gear		行进挡
-8lunge		弓箭步
-8motion		行进
-8pass		前传
-atrol		前茅
-9osition		前沿
-8slash		斜线号
-2ssil assemblage		化石群
-7fuel		化石燃料
-bs		矿物燃料
-3ter daughter		寄女
-7father		寄父
-7mother		寄母
-7or forster		福斯特
-7son		寄子
-2ucault's pendulum		傅科摆
-3l atmosphere		乌烟瘴气
-5disease		恶疾
-5language		粗口
-6ine		边线
-5mouth		恶口
-5smell		臊气
-5tip		擦棒球
-3nd everywhere		到处可见
-5ation groove		基坑
-bof a building		地盘
-bpiles		基桩
-crimer		隔离霜
-5er of a buddhist sect		佛祖
-5ing father		元勋
-aigure		开国元勋
-9master of a monastery		开山祖师
-aember		发起人
-5ry iron		铸铁
-8work		铸工
-cer		铸工
-4tain pen		自来水笔
-3r asian tigers		四小龙
-5bare walls		四壁萧然
-5comprehensives		四个全面
-7rner code		四角号码
-5divine emperors		四灵
-aities		四灵
-5generations under one roof		四世同堂
-5little dragons		四小龙
-5of a kind		四条
-5seasons		春秋
-c beancurd		四季豆腐
-dlike spring		四季如春
-6ides		四边
-5times		四次
-4-dimensional space		四维空间
-5leaf clover		四叶草
-7tter word		三字经
-5player mahjong		四麻
-5wheel drive		四轮驱动
-4ier transform		傅立叶变换
-4th book of moses		民数记
-7channel		第四台
+0counterintelligence		反间谍
+0backside		反面
+0teaches		反面教材
+0counterrevolutionary		反革命
+0instigating		反革命宣传煽动罪
+0cousins		叔伯
+0schopenhauer		叔本华
+0kantian		叔本华
+0limitless		取之不尽，用之不竭
+0substituent		取代基
+0uncritically		取其精华，去其糟粕
+0sketching		取景
+0viewfinder		取景器
+0thumbs		取景框
+0forefingers		取景框
+0atm		取款机
+0unfollow		取消关注
+0swings		取长补短
+0roundabouts		取长补短
+0acceptor		受主
+0insured		受保人
+0harmed		受伤
+0tortured		受刑
+0praised		受到
+1unished		受到
+0controlled		受制
+0ordained		受命
+0attacked		受夹板气
+0robbed		受害
+0enfeoffed		受封
+0oaths		受戒
+0thwarted		受挫
+0entrusted		受权
+0warmly		受欢迎
+0mistreated		受气
+0bullied		受气
+1aptized		受洗
+0christened		受洗命名
+0seepage		受潮
+0heated		受热
+0recipients		受众
+0abdication		受禅
+0greetings		受礼
+0inseminated		受精
+0dragged		受累
+0olden		受聘
+0impregnated		受胎
+0anointed		受膏
+0interviewed		受访
+2sulted		受辱
+0humiliated		受辱
+0sought		受追捧
+0hindered		受阻
+0sufferer		受难者
+0cheated		受骗
+0hoodwinked		受骗
+0startled		受惊
+1emiconductors		受体
+0rui		睿
+0graves		丛冢
+2owing		丛生
+0overgrown		丛生
+0congtai		丛台区
+0handan		丛台区
+0mouths		口
+0cannons		口
+0bites		口
+0mouthfuls		口
+0incoherently		口不择言
+1rresponsibly		口不择言
+0drilling		口令
+0gymnasts		口令
+0conceited		口出狂言
+0bloodsucking		口吸盘
+0preferences		口味
+0tastes		口味
+0mouthparts		口器
+0fermenting		口嚼酒
+0chewed		口嚼酒
+0jew		口弦
+0wishing		口彩
+0ventriloquism		口技
+0endorsement		口播
+0rehydration		口服补液盐
+0salts		口服补液盐
+0ors		口服补液盐
+0articulation		口条
+0bubblegum		口水歌
+0vehemently		口沫横飞
+0bdsm		口球
+0honeyed		口甜
+0fills		口碑载道
+0chancing		口福
+0stomatitis		口腔炎
+0ulceration		口腔炎
+0misunderstanding		口舌
+0tricholoma		口蘑
+0mongplicum		口蘑
+1urderous		口蜜腹剑
+0pok		口袋妖怪
+0mon		口袋妖怪
+0broadly		口袋罪
+0interpreted		口袋罪
+0potentially		口袋罪
+0abused		口袋罪
+0remembering		口诀
+0misspeak		口误
+0interpreting		口译
+0stomatopoda		口足目
+0crustaceans		口足目
+0shrimps		口足目
+0fmd		口蹄疫
+0sounds		口音
+0melodica		口风琴
+0chewing		口香糖
+0enunciation		口齿
+0grandiloquence		口齿伶俐
+1enerates		口齿生香
+0paleo		古
+0guzhang		古丈县
+2jiao		古交市
+0taiyuan		古交市
+0neanderthalensis		古人
+0menglong		古今小说
+0baihua		古今小说
+0supplemented		古今韵会举要
+0annotated		古今韵会举要
+0gujral		古杰拉尔
+0inder		古杰拉尔
+0kumar		古杰拉尔
+0gujarat		古杰拉特邦
+0classicists		古典派
+0guye		古冶区
+0tangshan		古冶区
+0palearctic		古北界
+4omagnetism		古地磁
+0gucheng		古城区
+0lijiang		古城区
+0guta		古塔区
+0archeology		古墓葬群
+0raider		古墓丽影
+0gucci		古奇
+0babylon		古巴比伦
+0guwen		古文观止
+2anzhi		古文观止
+0chucai		古文观止
+0diaohou		古文观止
+0gustave		古斯塔夫·多雷
+0dore		古斯塔夫·多雷
+0gustav		古斯塔夫·施特雷泽曼
+0stresemann		古斯塔夫·施特雷泽曼
+0weimar		古斯塔夫·施特雷泽曼
+0palaeocene		古新世
+0kuching		古晋
+0guggenheim		古根海姆
+0aeronautical		古根罕喷气推进研究中心
+0galcit		古根罕喷气推进研究中心
+0paleoclimatology		古气候学
+0gubo		古波
+2lang		古浪县
+0wuwei		古浪县
+0gurbantunggut		古尔班通古特沙漠
+0eid		古尔邦节
+0adha		古尔邦节
+0qurban		古尔邦节
+0dhu		古尔邦节
+0hijjah		古尔邦节
+0nio		古特雷斯
+0guterres		古特雷斯
+0portugal		古特雷斯
+1aleozoic		古生代
+0ordovician		古生代
+0devonian		古生代
+0paleobiologist		古生物学家
+0gutian		古田县
+0ningde		古田县
+0gutenberg		古登堡
+0beno		古登堡
+0seismologist		古登堡
+0coinventor		古登堡
+0richter		古登堡
+0archaeoraptor		古盗鸟
+0guzheng		古筝
+2xian		古县
+0etymological		古义
+0gudong		古董滩
+0antiques		古董滩
+0yangguan		古董滩
+0discoveries		古董滩
+0gulin		古蔺县
+0luzhou		古蔺县
+0gounod		古诺
+0bronzed		古铜色卷尾
+0dicrurus		古铜色卷尾
+0aeneus		古铜色卷尾
+0mischievously		古灵精怪
+0whimsically		古灵精怪
+0quirky		古灵精怪
+0uyghur		古丽
+0jurong		句容市
+0pausing		句读
+0commas		句读
+0endpoint		句点
+0outlaws		另册
+0undesirables		另册
+0chattersome		叨唠
+0kneeling		叩头
+0described		只可意会，不可言传
+0zhuangzi		只可意会，不可言传
+0alternatives		只有
+0engrossed		只管
+0quod		只许州官放火，不许百姓点灯
+0licet		只许州官放火，不许百姓点灯
+0iovi		只许州官放火，不许百姓点灯
+0bovi		只许州官放火，不许百姓点灯
+0lovemaking		叫床
+0prolonging		叫板
+0yelling		叫声
+0barking		叫声
+1raying		叫声
+0roaring		叫声
+0bitch		叫苦不迭
+0whining		叫苦连天
+1ares		叫卖
+0awaken		叫醒
+0shaoling		召陵区
+0luohe		召陵区
+0convener		召集人
+0gunfire		叭
+0insistently		叮
+0tinkling		叮
+1rusty		可信任
+0colombo		可伦坡
+0sri		可伦坡
+0lanka		可伦坡
+0commendable		可取
+0redeeming		可取之处
+0hoh		可可西里
+0xil		可可西里
+0kekexili		可可西里
+0miserably		可哀
+0gratifying		可喜
+0heartening		可喜
+0congratulations		可喜可贺
+0recyclable		可回收
+0executable		可执行
+0plasticity		可塑性
+0compressible		可压缩
+0addressable		可寻址
+0developable		可展曲面
+0pitiable		可念
+0likable		可念
+0kaua		可爱岛
+0intelligibility		可懂度
+0sustainable		可持续
+0recoverable		可采
+0workability		可采性
+0acceptability		可接受性
+0rectifier		可控硅
+0scr		可控硅
+0thyristor		可控硅
+0erasable		可擦写
+1prom		可擦除可编程只读存储器
+0programmable		可擦除可编程只读存储器
+0markup		可扩展标记语言
+0xml		可扩展标记语言
+0affordability		可支付性
+0countable		可数
+0denumerable		可数
+0happening		可望
+0unattainable		可望而不可及
+0amusing		可乐
+0exasperating		可气
+0solubility		可溶性
+0inflammable		可燃
+0clathrate		可燃冰
+0hydrates		可燃冰
+0flammability		可燃性
+0knowable		可知
+0gnosticism		可知论
+0magnetized		可磁化体
+0programming		可移植
+1ortability		可移植性
+0associativity		可结合性
+0feasibility		可行性
+1issionable		可裂变
+0visualization		可视化
+0readable		可读
+6ility		可读性
+0treasured		可贵
+0praiseworthy		可贵
+0transferable		可转让
+0invertible		可逆
+0reversibility		可逆性
+0passable		可通
+0serendipitously		可遇不可求
+0admissibility		可采性
+0tiber		台伯河
+1eqball		台克球
+0erzhuang		台儿庄区
+0zaozhuang		台儿庄区
+0taiqian		台前县
+3bei		台北市
+0businessperson		台商
+1enshengren		台妹
+0stereotypical		台客
+0jiangmen		台山市
+0taishanese		台山话
+0chinatowns		台山话
+0tabletop		台式
+0desktop		台式
+0taidong		台东
+3tung		台东
+3jiang		台江区
+0formosan		台湾叶鼻蝠
+0nosed		台湾叶鼻蝠
+0hokkien		台湾话
+0tsmc		台积电
+0minnan		台语
+0investments		台资
+0angrily		叱呵
+0shaking		叱咤风云
+1tanford		史丹佛
+3ten		史丹顿岛
+1chweppes		史威士
+0historiographer		史官
+0siming		史思明
+0participated		史思明
+0steve		史提夫·贾伯斯
+0jonathan		史景迁
+0spence		史景迁
+1tyan		史氏蝗莺
+0pleskei		史氏蝗莺
+0agnes		史沫特莱
+0smedley		史沫特莱
+0reported		史沫特莱
+0staples		史泰博
+2rauss		史特劳斯
+0johann		史特劳斯
+0austrian		史特劳斯
+0eswatini		史瓦帝尼
+0swaziland		史瓦济兰
+0arnold		史瓦辛格
+0schwarzenegger		史瓦辛格
+0bodybuilder		史瓦辛格
+0shizhoupian		史籀篇
+1tephens		史蒂文斯
+3vens		史蒂文斯
+2ilwell		史迪威
+1kopje		史高比耶
+1tacy		史黛西
+0hander		右撇子
+0youjiang		右江区
+3yu		右玉县
+0shuozhou		右玉县
+0politically		右翼
+0scott		司各特
+0walter		司各特
+0sikou		司寇
+0leighton		司徒雷登
+0stuart		司徒雷登
+0yenching		司徒雷登
+0prosecutors		司法官
+0stendhal		司汤达
+2oker		司炉
+1ikong		司空
+1emaglutide		司美格鲁肽
+0obesity		司美格鲁肽
+0marketed		司美格鲁肽
+0trademarks		司美格鲁肽
+0ozempic		司美格鲁肽
+0rybelsus		司美格鲁肽
+0wegovy		司美格鲁肽
+0defender		司职
+0pharmacist		司药
+0chengzhen		司马承帧
+0rangju		司马法
+4		司马法
+0shiba		司马辽太郎
+0ryotar		司马辽太郎
+0laksa		叻沙
+0xijin		叼盘
+0wiser		吃一堑，长一智
+0learns		吃一堑，长一智
+0unaccustomed		吃不来
+0grapes		吃不到葡萄说葡萄酸
+0unsure		吃不准
+0shamelessly		吃干抹净
+0ruthlessly		吃干抹净
+1eassured		吃了定心丸
+0exploitative		吃人
+0presents		吃人家的嘴软，拿人家的手短
+0discovering		吃别人嚼过的馍不香
+0got		吃别人嚼过的馍不香
+0thankless		吃力不讨好
+0unrewarding		吃力不讨好
+0chuckling		吃吃
+0tittering		吃吃
+0stammering		吃吃
+0wining		吃喝嫖赌
+1horing		吃喝嫖赌
+0piss		吃喝拉撒睡
+0jokingly		吃土
+0homes		吃大户
+0dearly		吃大亏
+1isastrously		吃大亏
+0treated		吃小灶
+0invitations		吃拿卡要
+0grabbing		吃拿卡要
+0obstructing		吃拿卡要
+0mukbang		吃播
+0interacting		吃播
+0solving		吃案
+1wallowed		吃枪药
+0ornery		吃枪药
+0sidelines		吃瓜
+0forums		吃瓜群众
+0onlookers		吃瓜群众
+0properties		吃瓦片
+0coffers		吃皇粮
+0adding		吃空额
+0eyeing		吃着碗里，看着锅里
+0wandering		吃着碗里，看着锅里
+0unattractive		吃藕
+0feeds		吃里扒外
+0wined		吃请
+0dined		吃请
+0pac		吃豆人
+0liberties		吃豆腐
+0chowhound		吃货
+0foodie		吃货
+0coaxing		吃软不吃硬
+0loading		吃重
+0refused		吃闭门羹
+0playerunknown		吃鸡
+0battlegrounds		吃鸡
+0pubg		吃鸡
+0youthfulness		吃青春饭
+0modeling		吃青春饭
+0edibles		吃食
+0amazed		吃惊
+0geladaindong		各拉丹冬山
+6ndong		各拉丹冬山
+0tanggula		各拉丹冬山
+0displays		各显所长
+0slogans		吆喝
+0hundredth		合
+0grinning		合不拢嘴
+0hezuo		合作市
+0producers		合作社
+1alms		合十
+0connective		合取
+0eaters		合吃族
+0bithdates		合婚
+0heshan		合山市
+2chuan		合川区
+0synapsida		合弓纲
+0constitutionality		合宪性
+0anabolism		合成代谢
+0constructive		合成代谢
+0proteins		合成代谢
+0factorization		合成数
+0steroids		合成类固醇
+1uiting		合时
+1easonable		合时
+0albizia		合欢
+0julibrissin		合欢
+0hapkido		合气道
+1eshui		合水县
+0qingyang		合水县
+0hejiang		合江县
+0lawful		合法
+1egalization		合法化
+3itimacy		合法性
+0hepu		合浦县
+0rationalize		合理化
+aation		合理化
+9ty		合理性
+1easonableness		合理性
+0harmoniously		合璧
+0useable		合用
+0federated		合众国
+0upi		合众国际社
+0pluribus		合众为一
+0unum		合众为一
+0bancorp		合众银行
+0renting		合租
+0snugly		合缝
+0nicely		合缝
+0devised		合纵连横
+0supportive		合群
+0departments		合聘
+0organizations		合聘
+0interment		合葬
+0rhyming		合辙
+0heyang		合阳县
+0weinan		合阳县
+0guitarist		吉他手
+1ilbert		吉伯特氏症候群
+0kigali		吉佳利

@@ -1,500 +1,500 @@
-0medical expert		医学专家
-eise		医术
-8fees		诊费
-8history		病史
-8insurance		医保
-atern		见习医师
-8laboratory technology		医学检验
-8malpractice		医疗疏失
-an		医家
-8negligence		医疗疏失
-8personnel		医务人员
-9ractice		青囊
-aescription		处方
-bvention		预防法
-8record		病案
-8school		卫校
-aience		医学
-dtist		医学家
-9kill		医道
-9pecialist		医学专家
-9wab		药签
-8technologist		医学检验师
-9reatment		治疗
-h at public expense		公费医疗
-8worker		白衣战士
-6ted leaven		神曲
-5inal cuisine		药膳
-aeffect		药性
-aherb		仙草
-e seedling		药苗
-aingredient		药材
-ause		药用
-avalue		药用价值
-7e already made up		成药
-and divination		医卜
-9ball		实心皮球
-aottle		药瓶
-auddha		药师佛
-9for colds		感冒药
-9man		巫医
-9to dispel phlegm		祛痰药
-4ocre and incompetent		庸碌无能
-9person		庸人
-4tation room		禅堂
-5erranean sea		地中海
-4um access control		介质访问控制
-7depth earthquake		中源地震
-7egret		中白鹭
-7level of spiciness		中辣
-7or route of transmission		传媒
-7pressure tube		中压管
-7rare		三分熟
-8oast		中焙
-7sized		中型
-c enterprise		中企业
-7wave		中波
-8ell		七分熟
-6-density fiberboard		中密度纤维板
-3ulla oblongata		延脑
-8spinalis		脊髓
-2et by chance		不期而遇
-4ing for purpose of marriage		对亲
-8of such an association		标会
-bthe whole committee		全体会议
-8place		会场
-9oint		交点
-ds of qi		经气聚集
-8room		会议室
-2ga electron volt		兆电子伏
-2hlis gland		梅氏腺
-2igu river in south sichuan		美姑河
-3ji restoration		明治维新
-3zhou island		湄洲岛
-2kong river		湄公河
-c delta		湄公河三角洲
-2lamine veneer		美耐板
-3low and full		圆润
-brich		醇厚
-3odic inversion		转回
-5ramatic person		戏精
-4n farmer		瓜农
-7ield		瓜田
-6seed		瓜子
-5s and fruit		瓜果
-3ting point		滴点
-at		大熔炉
-8snow		融雪
-2mber country		成员国
-7nation		会员国
-7of a society		社员
-bnother religion		异教徒
-budience		听者
-acongress		国会议员
-cuncil		理事
-alocal militia		团丁
-apolice force		保安人员
-areligious order		修士
-asociety of jesus		耶稣会士
-athe criminal police		刑事警察
-eimperial clan		宗室
-ekgb		克格勃
-elegislative yuan		立法委员
-enational team		国手
-eroyal family		皇室
-esame organization		会友
-ftanding committee		常委
-hte council		国务委员
-eyounger generation		小辈子
-6s of the same family		一家人
-7hip card		党票
-bdues		会费
-4ranes lining the brain		脑膜
-3orable stylishness		余韵
-6ndum book		备忘录
-bof understanding		谅解备忘录
-bto a superior		条陈
-5ial altar		祈仙台
-arch		牌坊
-9badge		纪念章
-9day		亡兵纪念日
-9hall		祠堂
-d and tomb		祠墓
-9meeting		追思会
-aound		烈士陵
-9pagoda		灵塔
-9service		追思会
-apeech		悼词
-9tablet		牌位
-ao the emperor		奏帖
-5y card		存储卡
-8ircuit		记忆电路
-7paging		分页
-7span		记忆广度
-8tick		记忆棒
-2n and horses		人马
-4of vision		仁人义士
-3's basketball		男子篮球
-g team		男篮
-8throom		男卫
-6clothes		男装
-6doubles		男双
-6singles		男单
-6volleyball		男排
-3dicant religious order in catholicism		托钵修会
-3ial programmer		码农
-4ere's disease		美尼尔氏综合症
-4scus lens		弯月形透镜
-3strual cup		月亮杯
-aleave		例假
-aperiod		例假
-3tal aberration		神经失常
-8nd physical		身心
-j efforts		心力
-8rithmetic		心算
-8ssociation		联想
-7capability		脑袋
-bcity		脑力
-9se		神经病
-7disorder		心病
-7health		精神健康
-d treatment		精神疗法
-7illness		精神狂乱
-7knot		郁结
-7labor		脑力劳动
-8exicon		心理词典
-7or spiritual cultivation		养性
-8utline		腹稿
-7perception		慧眼
-8icture		图景
-8lan		稿子
-7rapport		灵犀一点通
-8etardation		智力低下
-7state		心境
-6ly deficient		低能
-3u bar		菜单条
-2rcaptoethyl amine		半胱氨酸
-4handise in stock		现货
-7t bank		商人银行
-9ship		商船
-4uric chloride		升汞
-9oxide		氧化汞
-9sulfide hgs		朱砂
-6y in traditional chinese astronomy		辰星
-7-vapor lamp		水银灯
-3e formality		例行公事
-5rhetoric		光动嘴
-5trifle		小意思
-5worldly possessions		身外之物
-3ger and acquisition		并购
-6s and acquisitions		兼并与收购
-3it award		优异奖
-5orious deed		善举
-cofficial		功臣
-cservice		功劳
-5s and achievements		功绩
-bdemerits		功过
-crawbacks		优劣
-3rill lynch		美林集团
-4y christmas		圣诞快乐
-3senne prime number		梅森素数
-2senchymal stem cell msc		间充质干细胞
-3h bag		网袋
-5fabric		网布
-5laundry bag		洗衣网
-4free method		无网格法
-4less method		无网格法
-3olithic era		中石器时代
-4potamian civilization		两河文明
-3s cook		伙夫
-5hall		饭厅
-9 for high-ranking cadres		小灶
-emid-level cadres		中灶
-5tin		饭盒
-4age board moderator or administrator		吧主
-8dedicated to a deity		赞飨
-8in a bottle		漂流瓶
-8of congratulation		贺词
-8queue		消息队列
-4enger boy		通讯员
-aof death		丧门星
-4y hair and dirty face		蓬头垢面
-2tacarpal bone		掌骨
-4l and stone		金石
-6bookcase		金柜
-8x		铁箱
-6chimes hanging from eaves		铁马
-6fatigue		金属疲劳
-7ilings		毛口
-6grid		铁格子
-9lle		铁栏
-6halide lamp		金卤灯
-8rdware		五金
-7elmet		钢盔
-6pot		铁罐
-9 for warming wine		旋子
-6trunk		铁箱
-6window		钢窗
-5inguistic ability		元语言能力
-5lic bond		金属键
-4morphic rock		变质岩
-4phorical meaning		寓意
-3eor hammer		流星
-7shower		流星雨
-7trail		星火
-6ic career		青云直上
-9rise		平步青云
-7te crater		陨坑
-aimpact crater		陨石坑
-ashower		陨石雨
-6ological office		气象台
-4r dial		表盘
-3hanoic acid		甲酸
-4od for making		做法
-7of calculation		算法
-bounting		数法
-adispatching the ball		球路
-aleast squares		最小平方法
-amusic notation		记谱法
-arelieving pain		止痛法
-asolving		解法
-7to settle an issue		解决办法
-4yalamino group		甲氨基
-5l alcohol		木醇
-7group		甲基
-6ene blue		美蓝
-aglycol		甲二醇
-3iculous and diligent study		钻坚仰高
-bcare		心血
-3ric system		公制
-7ton		公吨
-7units		公制单位
-6al verse		格律
-4o radio hong kong		新城电台
-6supermarket chain		麦德龙
-5politan area network		城域网
-dcivil service examination		春试
-dexamination		会试
-dterritory		本土
-2xican tortilla		玉米饼
-1g motor		名爵
-1i county in henan		密县
-2ao ethnic group		苗族
-4li county in northwest taiwan		苗栗县
-2c hog		麦霸
-3hael jordan us basketball player		迈克尔·乔丹
-4el or mitchell		米歇尔
-3key finn		迷药
-7mouse		米奇老鼠
-7or mitch		米奇
-3robial colony		菌落
-5controller unit		微控制器
-5focus x-ray computed tomography		微聚焦
-5miniature technology		微细加工
-5porous membrane		微孔膜
-5scope slide		载玻片
-6oft corporation		微软
-5tubule triplet		三联管
-5wave antenna		微波天线
-aoven		微波炉
-2d-ocean ridge		中央海岭
-4term exam		期中考
-3as touch		点金术
-3dendorff's grasshopper warbler		北蝗莺
-4le age		中年
-as		中世纪
-8nd elementary school		中小学
-bold age		中老年
-7chinese		中古汉语
-8lass		中产
-c in kindergarten		中班
-7distance race		中长跑
-7ear		中耳
-9st		中东
-b respiratory syndrome		中东呼吸综合征
-8chelon		中游
-7finger		中指
-7game		中局
-8round		中间派
-7heavyweight		次重量级
-7level		中游
-7name		中间名
-8ote		中调
-7of a river		江心
-athe back		后心
-eforehead		天庭
-enight		人定
-eriver		河心
-7peasant		中农
-9riod		中叶
-8ressure hose		中压管
-7road		中间路线
-7school		中学
-7third of a month		中旬
-6-aged and elderly people		中老年人
-cbut still attractive woman		半老徐娘
-cman		熟男
-7school student		中学生
-6man and guarantor		中保
-3night snack		夜宵
-3term election		中期选举
-3way islands		中途岛
-4ife who induces labor		催生婆
-2ght as well		干脆
-5y force		伟力
-3rant worker		民工
-5tory bird		候鸟
-2kado pheasant		黑长尾雉
-2ld and harmonious		谐婉
-aumid		温润
-9indirect		婉言
-5spring weather		阳春
-4ly spicy		微辣
-3e high club		高空俱乐部
-3itary academy		军校
-bcomplishments		武功
-affairs		戎事
-aid		军事援助
-brcraft		军机
-alert		军警
-application		军用
-auxiliaries		偏师
-9band		军乐团
-cner		旗号
-bse		军事基地
-aranch		军事部门
-augler		号手
-9camp		兵营
-daign		战役
-bpability		战力
-alique		军阀
-aommand		阃寄
-g center		司令部
-ger		兵家
-bunselor		军师
-cp		军事政变
-9dependents' village		眷村
-cot		兵站
-aistrict		军区
-bvision level commander		师长
-aoctor		军医
-bg		军犬
-arill		操课
-e ground		校场
-fmaster		教头
-9engineer		工兵
-bthusiast		军迷
-axercise		军事演习
-hs		军演
-bpenditure		军费
-drt		军事家
-9fitness		军事体育
-aorce		武力
-es		兵马
-ck		钢叉
-ctifications		工事
-aront		前线
-9glory		威名
-aovernment		军政府
-aroup		大队
-9headquarters		牙城
-aospital		军医院
-9installations		军事设施
-ditution		军事机构
-dructor		教官
-btelligence		军事情报
-9knife		军刀
-9leader		武将
-fship		兵权
-aogistics		后勤学
-9management		治军
-aedal		军功章
-ausic		军乐
-9naval vessel		军舰
-9officer		校官
-eial		武官
-aperation		军事行动
-arder		军令状
-es are like mountains		军令如山
-9parade		阅兵
-aersonnel		军人
-alatoon or squad		分队
-aolice		宪兵
-f corps		宪兵队
-bsition		武职
-bwer		兵权
-arostitute		营妓
-cwess or potential		军势
-9rank		军衔
-aeview		检阅
-9salute		行军礼
-achool		军校
-bience		军事学
-aervice		兵役
-aituation		军情
-akill		武艺
-e or technique		武术
-es		武勇
-aong		军歌
-apending		军费开支
-borts		军事体育
-atrategist in ancient china		兵家
-gy		战法
-h and tactics		兵法
-cength		兵力
-aubdistricts		军分区
-bpplies		军需
-aystem		兵制
-9tactics		韬略
-ahreat		军事威胁
-9uniform		征衣
-ase		军用
-9vehicle		戎车
-8-industrial complex		军工复合体
-3k chocolate		牛奶巧克力
-6ow		奶牛
-5fat		乳脂
-6oamer		打奶
-6rom a woman's breast		奶汁
-5tea		奶茶
-6ooth		乳齿
-5vetch		黄耆
-a root		黄芪
-4y liquid		乳浆
-6way		天河
-9 galaxy		银河系
-7hite		乳白
-3lennial generation		千禧一代
-5t stir-fried in butter		炒米
-4imeter of mercury		毫米汞柱
-bwave		毫米波
-5ng machine		磨机
-f operator		铣工
-5on tons		百万吨
-7s and millions		亿万
-4stone grit		磨石砂砾
-3waukee bucks		雄鹿
-2namata disease		水俣病
-4to area of downtown tokyo		港区
-3ced garlic		蒜米
-7meat		燥子
-b sauce		肉酱
-8utton		羊肉馅
-7or diced meat		臊子
-7pork		肉沫
-4ho font		明朝体
-7narrow font		细明体
-3d map		心智图
-5reading		测心术
-4anao sea		民答那峨海
-3e cage		罐笼
-5detection		探雷
-bor		探雷人员
-5passage		峒室
-5shaft		坑道
-4r's cart		矿车
-8lamp		矿灯
-5al resources		矿产资源
-8spirits		矿油精
-aring		矿泉
-8water		矿水
+0brokeback		断背
+0resolutely		断行
+0breaker		断路器
+0naga		断魂椒
+0jolokia		断魂椒
+0breakpoint		断点
+0fabled		方丈
+0directionality		方向性
+0fangcheng		方城县
+0khalil		方大同
+0fong		方大同
+1anny		方妮
+0culicicapa		方尾鹟
+1eylonensis		方尾鹟
+0mortarboard		方帽
+0squared		方格纸
+0flowchart		方框图
+1angzheng		方正县
+0processed		方腿
+0transportable		方舱
+0fangzhuang		方庄
+0caco		方解石
+0topolect		方言
+0unhelpful		于事无补
+0schmidt		施密特
+1hih		施明德
+0dpp		施明德
+0protests		施明德
+0styria		施泰尔马克
+2eiermark		施泰尔马克
+0baptize		施洗
+0schwab		施瓦布
+1hidian		施甸县
+3bing		施秉县
+1chr		施罗德
+0gerhard		施罗德
+0spd		施罗德
+1warovski		施华洛世奇水晶
+1adism		施虐狂
+0abuser		施虐者
+0scallops		斿
+0bystanders		旁人
+0unselfconscious		旁若无人
+0punjab		旁遮普
+0candana		旃檀
+0motorhome		旅居车
+0shunkou		旅顺
+0overturning		旋乾转坤
+0pronator		旋前肌
+0teres		旋前肌
+1orsor		旋子
+0familiaris		旋木雀
+0rotating		旋流
+0whirling		旋舞
+0convolvulaceae		旋花科
+9vus		旋覆花
+0flos		旋覆花
+0inulae		旋覆花
+0rotational		旋转对称
+0spinor		旋量
+0jingde		旌德县
+0gonfanon		旌旗
+0jingyang		旌阳区
+0ethnicity		族
+0genealogical		族谱
+0edges		旓
+0flagpole		旗杆
+0qijin		旗津
+0chichin		旗津
+0vexillum		旗瓣
+0papilionaceous		旗瓣
+1ejoratively		旗号
+0cheongsam		旗袍
+0slits		旗袍
+0communicating		旗语
+0mussed		旟
+0recriminations		既往不咎
+0spilt		既往不咎
+0vested		既得
+4ing		既得
+0sunbathing		日光浴
+4ed		日光浴浴床
+0toiletries		日化
+0rhotic		日化
+0xigaz		日喀则市
+0rutog		日土县
+0increasing		日增
+0yakiniku		日式烧肉
+0someday		日后
+0yogyakarta		日惹
+0slipped		日月蹉跎
+0eclipsis		日月食
+0katana		日本刀
+0matsudaira		日本叉尾海燕
+0hydrobates		日本叉尾海燕
+0matsudairae		日本叉尾海燕
+0zunxian		日本国志
+0japanology		日本学
+0nhk		日本放送协会
+1ihonshoki		日本书纪
+0sparrowhawk		日本松雀鹰
+0gularis		日本松雀鹰
+0xanthodryas		日本柳莺
+0diphone		日本树莺
+0larvivora		日本歌鸲
+0akahige		日本歌鸲
+0macrobrachium		日本沼虾
+0nipponense		日本沼虾
+2kkei		日本经济新闻
+0shimbun		日本经济新闻
+0warbling		日本绣眼鸟
+0jal		日本航空
+0ntt		日本电报电话公司
+0coturnix		日本鹌鹑
+0hibiya		日比谷公园
+0sundown		日没
+0transliterated		日产
+0rizhilu		日知录
+0yanwu		日知录
+0hitachi		日立
+0gloria		日落西山
+0mundi		日落西山
+0yanzi		日薄崦嵫
+0nec		日电
+0extrasystole		早搏
+0maturing		早熟
+0propitiatory		早生贵子
+0acted		早知今日何必当初
+0unripe		早稻
+0waseda		早稻田大学
+0alzheimer		早老性痴呆
+0presenilins		早老素
+0senescence		早衰
+0xunyi		旬邑县
+4ang		旬阳市
+0smoked		旱烟
+1temmed		旱烟
+0tropaeolum		旱金莲
+0majus		旱金莲
+0coagulated		旺子
+0wangbur		旺波日山
+0dagz		旺波日山
+0wangcang		旺苍县
+0mong		旺角
+0kok		旺角
+0ngamring		昂仁县
+0henri		昂利
+0aung		昂山
+0burmese		昂山
+0kyi		昂山
+0suu		昂山素季
+0uplifting		昂扬
+0angxi		昂昂溪区
+0honecker		昂纳克
+0erich		昂纳克
+0stonecutters		昂船洲
+0cuenca		昆卡
+0quentin		昆廷
+0tarantino		昆汀
+0hondlon		昆都仑区
+0changtu		昌图县
+0tieling		昌图县
+0changle		昌乐县
+0jingdezhen		昌江
+0lizu		昌江
+0chandighar		昌迪加尔
+4gyi		昌邑区
+0qamdo		昌都市
+0changli		昌黎县
+0glittering		明亮
+0renzong		明仁宗
+0gaochi		明仁宗
+0chencang		明修栈道，暗渡陈仓
+0mingguang		明光市
+0bengkulu		明古鲁
+0minghe		明和
+1eiwa		明和
+0tianqi		明天启
+0youxiao		明天启
+0enoki		明天见
+0hongwu		明太祖
+0enquiries		明察暗访
+0minnesota		明尼苏达
+5apolis		明尼阿波利斯
+0nameplace		明尼阿波利斯
+0middlebury		明德学院
+0chengzu		明成祖
+0yongle		明成祖
+0undoubted		明摆着
+0minsk		明斯克
+0chrysanthemums		明日黄花
+0zhengde		明武宗
+0mingshui		明水县
+4xi		明溪县
+0willfully		明知山有虎，偏向虎山行
+0plaintext		明码
+0explicitly		明示
+0overtly		明里暗里
+0professedly		明里
+0spiegel		明镜
+0provides		明镜
+0fuddled		昏乱
+0befuddled		昏沉
+0trypanosomiasis		昏睡病
+0fainting		昏头昏脑
+0ible		易
+0elbe		易北河
+1brahim		易卜拉欣
+0judeo		易卜拉欣
+0henrik		易卜生
+0ibsen		易卜生
+0norwegian		易卜生
+0jianlian		易建联
+0iroquois		易洛魁
+0usability		易用性
+0yixian		易县
+0imodium		易蒙停
+0loperamide		易蒙停
+0eachnet		易趣
+1bay		易趣
+1ztravel		易游网
+0yimen		易门县
+0xiyang		昔阳县
+0starlight		星光
+0frappuccino		星冰乐
+0starlit		星夜
+0astrologist		星家
+0predetermining		星宿
+0xingxiuhai		星宿海
+0starbucks		星巴克
+0astrological		星座
+5nomic		星历
+0thunderclaps		星流电击
+0omens		星流电击
+0starcraft		星海争霸
+2udded		星空
+0asterism		星群
+0nebulae		星云表
+0capped		星头啄木鸟
+2nicapillus		星头啄木鸟
+0moons		星体
+0nutcracker		星鸦
+2cifraga		星鸦
+0caryocatactes		星鸦
+0kinescope		映像管
+0simsii		映山红
+0emerges		春光乍泄
+0chunfen		春分
+0vernalization		春化
+0chuncheon		春川市
+0gangwon		春川市
+0stirrings		春心
+0kasukabe		春日部
+0chonburi		春武里府
+0pasted		春联
+0gathered		春茶
+0triennially		春试
+0flushed		春风得意
+0intoxicating		春风深醉的晚上
+0dafu		春风深醉的晚上
+0flatbread		春饼
+0anthemis		春黄菊
+0compositae		春黄菊属
+0zhaohua		昭化区
+0hirohito		昭和
+0zhaoping		昭平县
+0phraya		昭披耶帕康
+4		昭披耶帕康
+0zhaosu		昭苏县
+4jue		昭觉县
+4yang		昭阳区
+0substantives		是
+0tolerated		是可忍，孰不可忍
+0keysight		是德科技
+0sriracha		是拉差
+1hidaiqu		时代曲
+0warner		时代华纳
+0enumerated		时分
+0timestamp		时戳
+1opical		时文
+0horologium		时钟座
+0exploitable		时间差
+0unforgiving		时间是把杀猪刀
+0chronometry		时间测定学
+0disappearing		时隐时现
+0intermittently		时隐时现
+0wobbling		晃晃悠悠
+0jinning		晋宁区
+3jiang		晋江市
+3yuan		晋源区
+0vespers		晚祷
+0afterglow		晚霞
+0diurnality		昼行性
+0birdsong		晨歌
+0anglican		晨祷
+0lauds		晨祷
+0putin		普丁
+1ashtu		普什图语
+0imagines		普信男
+0womankind		普信男
+0plesetsk		普列谢茨克
+0arkhangelsk		普列谢茨克
+0bridgestone		普利司通
+0pretoria		普利托里亚
+1lymouth		普利茅斯
+0yemelyan		普加乔夫
+0pugachov		普加乔夫
+1huket		普吉
+1uebla		普埃布拉
+5ensis		普埃布拉
+0tillandsia		普埃布拉
+0echeveria		普埃布拉
+0puccini		普契尼
+2ding		普定县
+0bhumibol		普密蓬·阿杜德
+0adulyadej		普密蓬·阿杜德
+0puning		普宁市
+0alexandr		普希金
+0pushkin		普希金
+1rada		普拉达
+1lanck		普朗克
+1rinceton		普林斯顿
+1uge		普格县
+0santana		普桑
+0poussin		普桑
+1rocapra		普氏小羚羊
+2zewalskii		普氏小羚羊
+0rickettsia		普氏立克次体
+0prowazekii		普氏立克次体
+0equus		普氏野马
+0purdue		普渡大学
+0gloriously		普照
+0pumi		普米
+1lovdiv		普罗夫迪夫
+3tinus		普罗提诺
+1rovence		普罗旺斯
+6		普罗旺斯语
+3kofiev		普罗科菲夫
+3metheus		普罗米修斯
+3di		普罗迪
+1layfair		普莱费尔
+1ulandian		普兰店区
+2rang		普兰县
+1si		普西
+0samantabhadra		普贤
+0jotaka		普通夜鹰
+0erythrinus		普通朱雀
+0canus		普通海鸥
+0immer		普通潜鸟
+0pratincole		普通燕鸻
+0glareola		普通燕鸻
+0maldivarum		普通燕鸻
+0sterna		普通燕鸥
+0cheeked		普通秧鸡
+0rallus		普通秧鸡
+0atthis		普通翠鸟
+0hornblende		普通角闪石
+0alnus		普通赤杨
+0ncee		普通高等学校招生全国统一考试
+0europaea		普通䴓
+0phalacrocorax		普通鸬鹚
+1ristina		普里什蒂纳
+0kosovo		普里什蒂纳
+0pratchett		普里切特
+1utuo		普陀区
+0guanyin		普陀山
+0avalokite		普陀山
+0vara		普陀山
+0purex		普雷克斯流程
+1ressburg		普雷斯堡
+4ton		普雷斯顿
+0marcel		普鲁斯特
+0proust		普鲁斯特
+4dhon		普鲁东
+8ism		普鲁东主义
+0jingning		景宁畲族自治县
+0nestorian		景教
+0qiyu		景泰
+0cloisonn		景泰蓝
+0jinghong		景洪市
+0gyeongbokgung		景福宫
+0jingxian		景县
+4gu		景谷傣族彝族自治县
+0teru		晴天娃娃
+1hunderclap		晴天霹雳
+0qinglong		晴隆县
+0fabricating		晶圆
+0microchips		晶圆
+0chile		智利
+0retardation		智力低下
+0outsmart		智取
+0sapiosexuality		智性恋
+0endowed		智珠在握
+0jirisan		智异山
+0chiri		智异山
+0olbers		智神星
+0smartwatch		智能手表
+0zhiyi		智𫖮
+0drying		晾衣架
+0clothesline		晾衣绳
+0smeared		晕染
+1hading		晕染
+0airsick		晕机
+0geez		晕死
+0seasick		晕船
+0carsick		晕车
+0heartwarming		暖心
+0comforting		暖心
+0nuannuan		暖暖
+0winze		暗井
+0rufescent		暗冕鹪莺
+8s		暗冕鹪莺
+0connote		暗含
+0unlicensed		暗娼
+2registered		暗娼
+0darkroom		暗室
+0sandbank		暗沙
+0lalage		暗灰鹃鵙
+0melaschistos		暗灰鹃鵙
+0calcination		暗煅
+0furuncle		暗疔
+0unmentionable		暗疾
+0obscura		暗箱
+0manipulations		暗箱操作
+0greenish		暗绿柳莺
+0trochiloides		暗绿柳莺
+0capillatus		暗绿背鸬鹚
+0inaudibly		暗骂
+0rumped		暗背雨燕
+0acuticauda		暗背雨燕
+0procarduelis		暗胸朱雀
+0snowcock		暗腹雪鸡
+0tetraogallus		暗腹雪鸡
+0himalayensis		暗腹雪鸡
+1ooded		暗色鸦雀
+0suthora		暗色鸦雀
+0zappeyi		暗色鸦雀
+0countersign		暗号
+0keyhole		暗锁
+0diablo		暗黑破坏神
+0unimpeded		畅
+0immersive		畅享
+2aginatively		畅想
+0bestselling		畅销
+0campuses		暨南大学
+0stopped		暂搁
+0bucktooth		暴牙
+0ron		暴论
+0heelys		暴走鞋
+0rainstorm		暴雨
+0fulmarus		暴雪鹱
+0glacialis		暴雪鹱
+0exhibitionist		暴露狂
+cm		暴露癖
+0windstorm		暴风
+0unreasonably		暴饮暴食
+0tyrannosauridae		暴龙科
+0siem		暹粒
+2am		暹罗
+4ese		暹罗语
+0tonyukuk		暾欲谷
+0dutchman		昙花
+0epiphyllum		昙花
+0oxypetalum		昙花
+0waltoni		曙红朱雀
+0sharenting		晒娃
+7		晒娃族
+1unbathe		晒黑
+0kuk		曲奇
+0angled		曲尺楼梯
+0submissively		曲意逢迎
+0qusum		曲松县
+2jiang		曲江区
+2chi		曲池穴
+2wo		曲沃县
+0preventive		曲突徙薪
+0falsification		曲笔
+0collaborated		曲线救国
+0misinterpret		曲解
+0quyang		曲阳县
+0aspergillus		曲霉毒素
+0qumarl		曲麻莱县
+0puffinus		曳尾鹱
+1acificus		曳尾鹱
+0andropause		更年期
+0restring		更张
+2invigorated		更生
+2juvenated		更生
+0slipcase		书函
+0guillemet		书名号
+0bibliotheca		书库
+0apollodorus		书库
+0bookend		书挡
+0plurality		书本
+0xizhi		书圣
+0isbn		书号
+0teashop		书馆
+2llers		书馆
+0hsing		曹不兴
+0semilegendary		曹不兴

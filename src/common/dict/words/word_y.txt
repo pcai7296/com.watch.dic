@@ -1,322 +1,577 @@
-0yacht	bhk	88
-2le university	1jen	
-2m bean	1jeo	
-4paste	1jep	
-3a's palace	1jeq	
-4zaki or yamasaki	1jer	
-2n style	1jes	
-3bian university	1jet	
-3chi county in ningxia	1jeu	
-3gshan deepwater port	1jev	
-9port	1jew	
-4tze and yellow rivers	1jex	
-8river	1jey	
-d delta	1jez	
-j economic zone	1jf0	
-eeconomic belt	1jf1	
-3jing beer	1jf2	
-3zhao metropolis daily	1jf3	
-2o ethnic group	1jf4	
-3han retail group	1jf5	
+0yab	pcz	
+3ao	rn1	
+2cht	bhk	88
+2dong	icf	
+2hoo	e95	
+3weh	yk3	
+2i	pxv	
+2jiang	126q	
+2k	cud	
+3eshi	w2c	
+3iniku	sm7	
+4tori	w0c	
+3ov	sgc	
+3sha	o5c	
+4u	zrx	
+3uza	eyv	
+2le	ykg	
+3ong	iei	
+3ta	gmf	
+3u	j2y	
+2m	dfk	
+3a	tuc	
+4da	puj	
+4gata	ptv	
+5uchi	ptl	
+4ha	126v	
+4moto	ptx	
+4nashi	pu2	
+4saki	ptt	
+5hita	pte	
+4ta	k59	
+5o	o7l	
+4zaki	pts	
+3drok	yeq	
+3en	k7v	
+3i	116d	
+3oussoukro	idp	
+2n	g4z	
+3an	s9x	
+3bian	mq4	
+3chang	qko	
+5eng	ih3	
+5uan	qkf	
+3dang	1264	
+3feng	1262	
+3g	g38	
+4bi	vi6	
+4cheng	yer	
+6un	124r	
+4dong	124v	
+4gao	124y	
+5e	xiz	
+5u	124x	
+6an	m4v	
+4jiang	ul8	
+4ling	tvx	
+4ming	qye	
+4on	iqv	
+4pu	tvm	
+4qin	rf2	
+5u	124t	
+6an	nr9	
+4shan	tbm	
+7o	iqz	
+6uo	124u	
+4tze	gog	
+7 and yellow rivers	1h0i	
+4xi	124w	
+6an	uwo	
+6n	124o	
+4yuan	124q	
+4zhong	s07	
+7u	jox	
+3he	urp	
+3ji	qkc	
+5ang	1263	
+5n	qkj	
+6g	w0f	
+3k	c6t	
+4ee	cpg	
+6s	s08	
+4ou	10ah	
+5vic	s0c	
+8h	s0d	
+3liang	11vh	
+5ng	vqp	
+3oda	mlr	
+3ping	qkg	
+3qi	vtt	
+5ng	qki	
+5u	xje	
+3shan	qk1	
+5i	i4z	
+5ou	lbg	
+3ta	1261	
+5i	rsu	
+5n	urr	
+3ukovych	ibj	
+3wu	sn2	
+3xi	qkk	
+3yuan	rbs	
+3zhao	w0k	
+5i	u1k	
+5ou	jyn	
+4i	sn6	
+2o	g6d	
+3bang	yr0	
+3dong	xmk	
+4u	nty	
+3hai	wew	
+5n	k4b	
+3jin	lid	
+3und	126r	
+6e	126k	
+3zhou	yi2	
+2pa	111a	
+3eng	t69	
+3ing	11bc	
 2rd	bhl	3f
-4 line	1jf6	
+4ang	126f	
 4stick	bhm	40
-3kant river in xinjiang	1jf7	
+3en	ibc	
+3kant	zaj	
+3la	126m	
+4ung	qfz	
 3n	bhn	e0
-4 cotton	1jf8	
-7unt	1jf9	
+3row	zlf	
+2sser	ie1	
+3ukazu	vlj	
+5uni	12fw	
+4nari	pzb	
+4o	xg0	
+2t	gq9	
+2u	hg7	
 2w	bho	80
-3 axis	1jfa	
+3ing	qeo	
 3n	bhp	fe
-2yuncun neighborhood of beijing	1jfb	
-1e jiangchuan	1jfc	
-2ar	bhq	3
-4 after year	1jfd	
-5number	1jfe	
-5of bad harvest	1jff	
-8famine	1jfg	
-8the boar	1jfh	
-ccock	1jfi	
-cdog	1jfj	
-dragon	1jfk	
-chorse	1jfl	
-cmonkey	1jfm	
-crabbit	1jfn	
-em	1jfo	
-et	1jfp	
-csnake	1jfq	
-ctiger	1jfr	
-5with bumper harvest	1jfs	
-4-end bonus	1jft	
+3s	126i	
+2yuncun	ie7	
+8 neighborhood of beijing	1ceq	
+2zhou	pxx	
+1eah	j2z	
+3r	bhq	3
+4 of bad harvest	1ah8	
+8famine	1aij	
+8the boar	13jf	
+ccock	13jd	
+cdog	13i2	
+dragon	13jc	
+chorse	13i1	
+cmonkey	13je	
+crabbit	13j7	
+em	13j9	
+et	13j6	
+csnake	13ja	
+ctiger	13jb	
+4book	qfv	
 4ly	bhr	1c
-6 salary	1jfu	
 4n	bhs	e8
-4s of age	1jfv	
+5ed	ij0	
+5ing	x4q	
+4s	g6o	
+5 of age	1bg8	
 3st	bht	88
-5 for fermenting rice wine	1jfw	
-2katerina or ekaterina	1jfx	
-2ll	bhu	5e
+2doensis	u49	
+2e	ius	
+2ji	zhm	
+2katerina	zh4	
+9burg	zh1	
+2l	yk8	
+3ang	o5n	
+3l	bhu	5e
+4ing	m5p	
 4ow	bhv	23
-6 and withered	1jfy	
-7bicycle	1jfz	
-9ttern	1jg0	
-8one marrow	1jg1	
-8unting	1jg2	
-7card	1jg3	
-8hives	1jg4	
-9rysanthemum	1jg5	
-8roaker	1jg6	
-7enzyme	1jg7	
-7face	1jg8	
-8ever	1jg9	
-c virus	1jga	
-8loating heart	1jgb	
-awer	1jgc	
-ds	1jgd	
-7green	1jge	
-8um	1jgf	
-7oriole	1jgg	
-7pages	1jgh	
-8eril	1jgi	
-7quartz	1jgj	
-7red	1jgk	
-8iver or huang he	1jgl	
-8osewood	1jgm	
-7sea	1jgn	
-8oil	1jgo	
-9ybean paste	1jgp	
-8pot	1jgq	
-7tit	1jgr	
-6-bellied bush warbler	1jgs	
-fflowerpecker	1jgt	
-fprinia	1jgu	
-ftit	1jgv	
-fwarbler	1jgw	
-8illed blue magpie	1jgx	
-eloon	1jgy	
-enuthatch	1jgz	
-8reasted bunting	1jh0	
-ggreenfinch	1jh1	
-9owed bunting	1jh2	
-etit	1jh3	
-ewarbler	1jh4	
-7cheeked tit	1jh5	
-8rested cockatoo	1jh6	
-7eyed babbler	1jh7	
-cpigeon	1jh8	
-7footed green pigeon	1jh9	
-7legged buttonquail	1jha	
-7rumped flycatcher	1jhb	
-ehoneyguide	1jhc	
-7skinned people	1jhd	
-8treaked warbler	1jhe	
-7throated bunting	1jhf	
-gfulvetta	1jhg	
-glaughingthrush	1jhh	
-7vented flowerpecker	1jhi	
-ewarbler	1jhj	
+6 and withered	1h0j	
+6hammer	f5o	
+6ing	k60	
+7sh	jgz	
+6legs	pnu	
+6nape	og2	
+6tail	fpd	
 3p	bhw	40
+3tsin	zh0	
+2maek	vl2	
+3elyan	ss9	
+4n	hyg	
 2n	bhx	60
+3ching	m9p	
+3gisar	z6z	
 2oman	bhy	80
-2rsinia pestis	1jhk	
+3ng	pxu	
+4pyeong	qkd	
+2revan	nqt	
 2s	bhz	3
+3ou	11fp	
+3sir	qtf	
+4oensis	xyw	
 3terday	bi0	3
-9 and today	1jhl	
-aevening	1jhm	
+9 and today	1f8z	
+6year	diu	
 2t	bi1	3
-3 again	1jhn	
-1i ethnic group	1jho	
-3new year	1jhp	
-3opera	1jhq	
-2ddish language	1jhr	
+3i	eg6	
+2w	c49	
+3ang	w9t	
+2xian	zhf	
+1hwh	yk2	
+1ibin	ll2	
+3o	zn7	
+2chang	i7m	
+4eng	p83	
+4uan	it5	
+5n	h0e	
+2dam	t4g	
+3dish	dcq	
+3u	p8c	
+4o	ym4	
 2eld	bi2	7c
-5 per unit area	1jhs	
-6rate	1jht	
-6to maturity	1jhu	
-5-to-weight ratio	1jhv	
+5-to-weight ratio	1i2q	
 5ing	bi3	88
-2lan county in northeast taiwan	1jhw	
-2n and yang	1jhx	
-4mountains in inner mongolia	1jhy	
-3gpan township in yunnan	1jhz	
-2zhuang town in beijing municipality	1ji0	
-1oga	bi4	20
-4 mat	1ji1	
-5pants	1ji2	
-4chara school of buddhism	1ji3	
+5s	p0t	
+2feng	p8b	
+3tach	yk6	
+3u	wb3	
+2huang	p8d	
+2ji	oyv	
+4an	sbo	
+6g	qli	
+3un	p82	
+2kao	ix5	
+4tong	g88	
+2lan	j5q	
+3i	hib	
+4ang	p8a	
+4ng	omf	
+3ong	jp0	
+2ma	ygp	
+3ei	iu3	
+4n	spx	
+3ou	lfu	
+2n	day	
+3 and yang	1hkl	
+3an	umw	
+3chuan	pdr	
+3du	uaq	
+3g	j54	
+4chao	11bi	
+6eng	raj	
+6uan	lce	
+4da	oz7	
+5e	z73	
+5ong	vib	
+4jiang	x0y	
+6ng	vdw	
+4kou	ocn	
+4long	o66	
+4pan	w0t	
+4qin	j0t	
+5uan	vic	
+4ru	t88	
+4shan	w0r	
+8g	vi9	
+4tai	tof	
+6n	szt	
+4wu	12hy	
+4xian	raq	
+4ze	110s	
+5hou	via	
+5ong	oje	
+3hai	11l5	
+4uan	qoe	
+3ing	it1	
+3jiang	lsu	
+3shang	ual	
+3tai	lt5	
+5ng	lse	
+3xu	uak	
+3zhou	11b9	
+2p	el3	
+3pee	etg	
+2qing	hfr	
+2ren	txw	
+2shan	v85	
+4eng	z7o	
+4ui	umx	
+2tong	iuh	
+2wu	isq	
+2xian	spr	
+6osaurus	ygn	
+4n	ooa	
+5g	p89	
+4u	p87	
+2yang	lli	
+3uan	umy	
+2zhang	p88	
+4eng	jow	
+4i	qnx	
+4ou	p86	
+4uang	ig0	
+3ong	mwx	
+3u	10uv	
+1mca	12f2	
+1odel	eh1	
+2g	usk	
+3a	bi4	20
+4chara	mxv	
+9 school of buddhism	1b5i	
 3hurt	bi5	2
-2ke	bi6	a8
-4 one has to endure	1ji4	
+3ic	10bx	
+3urt	c70	
+3yakarta	sm9	
+2jana	wkz	
+2kado	iud	
+3e	bi6	a8
+4 one has to endure	1d1b	
+4d	l68	
 4l	bi7	80
+4s	10zc	
+3ing	10x5	
+3kaichi	nbh	
+3ohama	u2s	
+4suka	u34	
+4yama	u2i	
+4zuna	u2x	
+3u	tu8	
+4sankai	o9q	
 2lk	bi8	48
-4 sac	1ji5	
-2miuri shimbun	1ji6	
-2nghe temple	1ji7	
-4jia prefecture in zhejiang	1ji8	
-2rk	bi9	20
+3lig	yk9	
+2m	10pg	
+3a	l5l	
+3enai	g32	
+3iuri	10hw	
+2nchien	11n7	
+3der	119d	
+3g	hjn	
+4byon	pe2	
+4chang	uk6	
+6eng	uju	
+6uan	uk0	
+7n	uk8	
+4de	uk3	
+6ng	ukc	
+5ing	ujw	
+8men	ujx	
+4feng	ukg	
+5u	uke	
+4gang	mkg	
+4hap	12ic	
+5e	ujq	
+5uai	11aa	
+4ji	ujp	
+6a	ujt	
+6ng	ukj	
+4kang	mn7	
+4le	soz	
+5ie	zhb	
+4min	i95	
+4nian	uk2	
+6ng	ujz	
+4ping	uk1	
+4qiao	nqu	
+6ng	uka	
+4ren	ujm	
+4shan	ujs	
+6eng	ujo	
+6ou	ujv	
+6un	ukk	
+4tai	uk9	
+4xin	uk5	
+7g	ukf	
+6u	ujn	
+4yuan	pxs	
+4zhen	ukh	
+8g	p06	
+6ou	kgv	
+3hap	12in	
+2purga	pwd	
+2ritomo	vbw	
+3k	bi9	20
+4er	y0r	
+4shire	mse	
+2shi	yi3	
+5da	mec	
+5hiko	11g3	
+7to	n5a	
+5masa	10u0	
+6itsu	10u1	
+5no	mem	
+7ya	men	
+5o	x8y	
+5r	tu5	
+5tane	10u2	
+5yahu	xvj	
 2u	bia	3
-3 ain't seen nothin' yet	1ji9	
-5ll	1jia	
-5nd i	1jib	
-5re the one	1jic	
-5sked for it	1jid	
-4flatter me	1jie	
-4let me win	1jif	
-4may dispense with curtseying	1jig	
-5ight as well	1jih	
-5ust not	1jii	
-4reap what you sow	1jij	
-3're incredible	1jik	
-7on your own	1jil	
-7welcome	1jim	
+3 and i	18wc	
+5re the one	15bl	
+5sked for it	1cvz	
+3de	pp5	
+3guang	mn1	
+3hao	lxh	
+3jiang	m9g	
+3ku	jq7	
 3ng	bib	3
-5 and clumsy	1jin	
-aignorant	1jio	
-bnexperienced	1jip	
-apretty	1jiq	
-comising	1jir	
-atender	1jis	
-avigorous	1jit	
-6beauties	1jiu	
-7ird	1jiv	
-7oy	1jiw	
-6child	1jix	
-9nese cyber-nationalists	1jiy	
-7riminal	1jiz	
-6disciple	1jj0	
-6fellow	1jj1	
-8male cop	1jj2	
-dworker	1jj3	
-7oreign girl	1jj4	
-6generation	1jj5	
-9tleman	1jj6	
-7irl	1jj7	
-7uard	1jj8	
-8y	1jj9	
-6hooligan	1jja	
-8rse	1jjb	
-6lady	1jjc	
-a of the house	1jjd	
-6male worker	1jje	
-8n	1jjf	
-8rried couple	1jjg	
-ewoman	1jjh	
-8ster	1jji	
-c of the house	1jjj	
-6people	1jjk	
-8rson	1jjl	
-c with graying hair	1jjm	
-7ioneers of china	1jjn	
-7lant	1jjo	
-6rowdy	1jjp	
-7ussian woman	1jjq	
-6servant	1jjr	
-7prout	1jjs	
-7quid	1jjt	
-7uccessor	1jju	
-6thug	1jjv	
-6woman	1jjw	
-8rker	1jjx	
-6years	1jjy	
-5er brother	1jjz	
-f's wife	1jk0	
-8cousins via female line	1jk1	
-kmale line	1jk2	
-8fellow student	1jk3	
-amale patrilineal cousin	1jk4	
-8generation	1jk5	
-i of a family	1jk6	
-8male patrilineal cousin	1jk7	
-8or junior male schoolmate	1jk8	
-8sibling	1jk9	
-aster	1jka	
-e's husband	1jkb	
-9tepbrother	1jkc	
-csister	1jkd	
-6st brother	1jke	
-9child	1jkf	
-9daughter	1jkg	
-9son	1jkh	
+5 and clumsy	1fdw	
+aignorant	1fdu	
+bnexperienced	1feg	
+apretty	1f4p	
+comising	1feh	
+atender	1fc3	
+avigorous	1fc6	
+6lady of the house	13kc	
+6master of the house	13kk	
+6pioneers of china	1ban	
+5er	h2g	
+7 generation of a family	16op	
+6st	hun	
 5ster	bic	7c
-9's talent	1jki	
+9s	xni	
 3r	bid	3
-4 age	1jkk	
-6ppearance	1jkl	
-6rrival	1jkm	
-5beautiful article	1jkn	
-6irthday	1jko	
-6usiness	1jkp	
-5company	1jkq	
-7nsideration	1jkr	
-5daughter	1jks	
-6istinguished country	1jkt	
-jname	1jku	
-jself	1jkv	
-jthoughts	1jkw	
-5esteemed father	1jkx	
-emother	1jky	
-ename	1jkz	
-eolder brother	1jl0	
-eparent	1jl1	
-fresence	1jl2	
-eson	1jl3	
-6xcellency	1jl4	
-5face	1jl5	
-7ther	1jl6	
-7vors	1jl7	
-5great kindness	1jl8	
-5highness	1jl9	
-6ome	1jla	
-7use	1jlb	
-6umble servant	1jlc	
-5illness	1jld	
-6nestimable assistance	1jle	
-7structions	1jlf	
-5kind efforts	1jlg	
-aoffer	1jlh	
-5letter	1jli	
-5majesty	1jlj	
-c the emperor	1jlk	
-6om's a prostitute	1jll	
-7st brilliant pupil	1jlm	
-7ther	1jln	
-5name	1jkj	
-5order	1jlo	
-5parent	1jlp	
-bs	1jlq	
-7tronage	1jlr	
-6lace	1jls	
-5residence	1jlt	
-8pected opinion	1jlu	
-5sagacious majesty	1jlv	
-6chool	1jlw	
-6ervant	1jlx	
-6ide	1jly	
-6on	1jlz	
-5valued advice	1jm0	
-6isit	1jm1	
-5wife	1jm2	
-6ork	1jm3	
+4 majesty the emperor	1686	
 4s	bie	3
-5 sincerely	1jm4	
-6truly	1jm5	
 5elf	bif	3
 7ves	big	3
+3suf	mdx	
 3th	bih	3e
-5 corps	1jm6	
-6hostel	1jm7	
 5ful	bii	c
-8 age	1jm8	
-9time	1jm9	
-9years	1jma	
-1u river	1jmb	
-3shyi-kun taiwanese politician	1jmc	
-2an or mongol dynasty	1jmd	
-5river	1jme	
-2catan peninsula	1jmf	
-2e state	1jmg	
-2gur ethnic group	1jmh	
-2lan magnolia	1jmi	
-2mmy	bij	2
-2nlin county in taiwan	1jmj	
-3nan and tibet	1jmk	
+8ness	mbt	
+5s	shs	
+4iao	uqq	
+4ube	jpl	
+3wei	qil	
+3xi	pp7	
+5an	s6p	
+6o	soq	
+4uan	uqo	
+3yang	11bu	
+4i	lxs	
+4u	m9h	
+3zhou	qgi	
+2yo	zja	
+1stok	ucf	
+2und	q6l	
+1tm	kti	
+2terbium	fne	
+3rium	eui	
+1uan	brh	
+4bao	jqr	
+7shan	jqs	
+4chao	t7v	
+6eng	vbq	
+4dang	xr2	
+5i	kzp	
+4guang	11ud	
+4hao	t6c	
+5ui	vbp	
+4jiang	jr5	
+4li	z5q	
+6n	mug	
+7g	unc	
+4ming	124e	
+8yuan	nhy	
+5ou	jra	
+4pei	jt2	
+5ing	lvi	
+4qu	nor	
+4shi	jr4	
+4wen	t50	
+4yang	jrc	
+4zhang	kzh	
+6ou	lvg	
+2cai	uah	
+4tan	pp3	
+3heng	wb1	
+4i	phd	
+4un	t6x	
+3i	tx6	
+2dane	vbk	
+3hoyono	ztk	
+3u	i5b	
+2e	hn9	
+3bei	szn	
+3cheng	i7t	
+5i	pwe	
+3fu	qod	
+3hu	szs	
+3lu	pwk	
+3n	jr2	
+3qin	szu	
+6g	tvj	
+3ren	xiw	
+3sheng	t94	
+3t	tes	
+4ang	pyw	
+3xi	pwf	
+5u	10tg	
+3yang	js8	
+7lou	pwj	
+3zhi	oa9	
+2goslav	11qb	
+8ia	lk8	
+3ur	ynn	
+5s	ndi	
+2hina	tjb	
+3ong	i57	
+3u	129w	
+4a	104z	
+5n	nan	
+5tai	129z	
+4i	xgi	
+2kata	v16	
+4wa	vbb	
+3ichi	xft	
+4o	goc	
+3on	uu2	
+3un	glc	
+2lan	wa0	
+3i	phb	
+4a	p0z	
+4n	j3m	
+5g	103w	
+3oh	s1f	
+4ng	wa7	
+2m	cj4	
+3en	wa3	
+3in	mn8	
+3my	bij	2
+2n	hfv	
+3cheng	i5c	
+3dang	xr1	
+3fu	i5d	
+3g	pac	
+4ang	naf	
+4ho	ujr	
+4ipicus	pkc	
+3he	114v	
+3lin	ld4	
+4ong	12b4	
+3meng	12aq	
+4ing	xe3	
+3nan	gqn	
+6 and tibet	1hwo	
+6ensis	vdq	
+3shan	l0k	
+3wen	ql1	
+3xi	11b7	
+5an	12ay	
+6o	12b3	
+3yan	12ar	
+6g	11b8	
+3zhou	12as	
+2pian	w9s	
+4ng	w9b	
+3pie	pmq	
+2qian	u71	
+3uan	w9m	
+6ying	w9n	
+2rchenko	pp8	
+3i	l2f	
+4ko	pkp	
+3t	e5n	
+2shan	w9e	
+4e	tx7	
+4o	uqz	
+4u	n9g	
+5i	v9g	
+3uf	w9z	
+2tang	p1t	
+3ian	i59	
+4ng	uc7	
+2wang	tx8	
+6tai	xgj	
+3en	p2m	
+2xi	jr6	
+4an	x0w	
+2yang	tx9	
+2zhang	gw3	
+4ong	tx3	
+5u	w9h	

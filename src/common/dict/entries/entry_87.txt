@@ -1,500 +1,500 @@
-0prison camp with hard labor		劳动营
-8ell		囚室
-7guard		狱吏
-7life		铁窗生活
-7officer		狱警
-7sentence		徒刑
-7term		刑期
-7uniform		囚衣
-6er of conscience		良心犯
-cwar		战俘
-9that awaits execution		死囚
-3vacy right		隐私权
-5te financing		社会融资
-8brand		自有品牌
-9usiness		私营企业
-8capital		民资
-ar		私家车
-9itizen		普通人
-8discussion		密谈
-8enterprise		私企
-9quity fund		私募基金
-8first class		上等兵
-9und		小金库
-8hoard		小金库
-ause		民房
-8key		私人钥匙
-8law		私法
-9ife		私生活
-8message		私讯
-8ownership of property		私有制
-bings		私房
-8parts		私处
-9lacement		私募
-bne		座机
-9roperty		私产
-bsecution		自诉
-8residence		私宅
-9oom		包厢
-c at restaurant		包房
-cs		私房
-8saving of family members		梯己
-9chool		书馆
-9eal		手章
-8teacher		馆宾
-9utor		家教
-8vehicle		自驾车
-8words		悄悄话
-bry		隐忧
-7ly operated		民办
-bwned or managed		私家
-arun		商办
-9-operated enterprise		民企
-bwned car		家轿
-ghouse		私房
-4ileged brat		八旗子弟
-benvironment		蜜罐
-4y council		枢密院
-3ze pool		奖池
-2o forma invoice		形式发票
-3-beijing camp		土共
-4localization faction		本土派
-3bability of winning		胜率
-5tion office		观护所
-9ary period		试用期
-7ve value		证明力
-4e letter		探测字
-4lem that impedes progress		瓶颈
-8youth		古惑仔
-3capra gutturosa		黄羊
-4edural law		程序法
-5eding at a tremendous pace		追风逐电
-5ss lens		分色镜头
-8trade		加工贸易
-7ed ham product		方腿
-7ing and curing		炮制
-bcapability		处理能力
-cost		加工成本
-bfee		手续费
-bplant		加工厂
-7or register		寄存器
-3duced by wind		风成
-9in sea		海产
-9locally		土产
-6ing evil		恶性
-6t approaching its expiry date		即期品
-8catalog		型录
-8for civilian use		民品
-cexport		输出品
-cmilitary use		军品
-8in great demand		蹿货
-8key		序列号
-8launch event		新产品推介会
-eing ceremony		下线仪式
-8manager		产品经理
-8of inferior quality		副品
-9r service package		套餐
-8placement		植入式广告
-8selection		选品
-8unavailable		无货
-7ion brigade		大队
-bcapability		生产力
-fcity		生产能力
-costs		生产成本
-bfacility		生产设施
-bline		生产线
-breactor		生产反应堆
-djects		废品
-bteam		生产队
-bunit		生产单位
-8ve force		生产力
-blabor		生产劳动
-9ity of land		地利
-3fessional ambition		事业心
-dboredom syndrome		职业倦怠症
-descort		坐台小姐
-dgolfer's association		职业高尔夫球协会
-dmaster's degree		专硕
-dname of a prostitute		花名
-dschool		高职院校
-eoldier		职军
-eports club		球团
-euccess		事业有成
-dtraining college		大专
-dwork		业务
-4iciency in a particular field		一技之长
-9t in		精于
-5t and loss		损益
-f account		损益表
-7margin		利润率
-7tax		利得税
-6-before-all-else mindset		铜臭味
-6able to both sides		双赢
-6eering by government employees		官倒
-4ound and long-lasting		深远
-dunfathomable		幽邃
-9friendship		金兰
-9love		隆情
-9mystery		玄奥
-9or erudite plans		渊谋
-9silence		渊默
-9theory		玄机
-boughts or ideas		渊虑
-9view		灼见
-8ly well-versed		绝诣
-4use perspiration		大汗
-3gram library		程序库
-8of action		行动方案
-7ming language		程式语言
-5ess bar		进度条
-9seems like regress		进道若蜷
-atep by step		渐进
-8ive aphasia		进行性失语
-cscanning		逐行扫描
-bly decreasing		递减
-eincreasing		递加
-3hibition on opium		禁烟
-3ject gutenberg		古腾堡计划
-8management		项目管理
-er		专案经理
-8of paramount importance		大计
-7ion line		投影线
-8ve geometry		射影几何
-3karyotic cell		原核细胞
-3late spheroid		类球面
-4ogue of play		开场白
-5nged absence		续假
-aspell of rainy weather		连阴雨
-awar		持久战
-3m queen		校花
-4inent and worthy personage		贤达
-apost		显职
-atv or radio host		名嘴
-5sed land		应许之地
-7s must be kept		说话要算数
-6sory note		期票
-4otion to the nobility		加官进爵
-9al event		推介会
-cmaterial		文宣
-cseminar		推介会
-ct-shirt		广告衫
-4pt neutron		瞬发中子
-7radiation		瞬时辐射
-3nator teres muscle		旋前肌
-4e to		易于
-8 illness		体弱多病
-9stealing		手脚不干净
-4g of a fork		叉头
-3of against corrosion		耐腐蚀
-ewear and tear		耐穿
-6of concept		概念验证
-9identity		身份证明
-3paganda department		宣传部
-bposter		宣传画
-7tion time		走时
-4elling pencil		自动铅笔
-7or blade		风向标
-5r fraction		真分数
-8unctioning		正常工作
-7human relationships		伦常
-7noun		固有名词
-7reason		正当理由
-7speech or action		分寸
-8ubset		真子集
-6ty management		物业管理
-j fee		物业费
-9notarization		财产公证
-9owner		有产者
-eship or right		财权
-9right		产权
-es		所有权
-9tax		地产税
-9value		财产价值
-4hylactic inoculation		预防免疫
-4itious day		吉日
-bvapours		瑞气
-bwind throughout the journey		一帆风顺
-4ortion of vote		投票率
-5sed bill		方案
-9law		法案
-6itional logic		命题逻辑
-4rietor of a mine		矿主
-8y in speech		口德
-4ulsion module		推进舱
-bsystem		动力系统
-bunit		推进器
-4yl group		丙基
-6ene glycol		丙二醇
-3s and cons		利害
-4e poem		散文诗
-5cution and defense		原被告
-8or's office		检察院
-4pect garden		大观园
-9of solution		眉目
-8or for gold		淘金者
-6rity abounds		莺歌燕舞
-cnd decline		兴衰
-7ous and developing		兴旺发达
-bcountry with military might		国富兵强
-byear		丰年
-4tate gland		前列腺
-5hetic hand		假手
-5itute from guangdong		咸水妹
-a's fee for service		嫖资
-3tected mode		保护模式
-7ing against aids		防艾
-8on against espionage		反间谍
-jtides		防潮
-bracket		黑店
-8ve agent		保护剂
-cpron		防毒围裙
-bboard		遮护板
-dots		防毒靴套
-bcape		防毒斗篷
-coloration		保护色
-dver		护封
-bgloves		防毒手套
-blayer		涂层
-bmeasure		预防措施
-bor tinted film		贴膜
-bpassageway		防毒通道
-bsafeguard		护盾
-ctep		预防措施
-btalisman		护身符子
-bumbrella		保护伞
-7or deities of buddhist law		护法神
-agod		守护神
-aof buddhist law		护法
-5in powder		蛋白粉
-5st strike by merchants		罢市
-4on bombardment		质子轰击
-7number in nucleus		质子数
-4ruding ears		扇风耳朵
-cdge		凸边
-cyes		鼓眼睛
-blower jaw		戽斗
-bnipples or bulging penis		激凸
-3ud and aloof		孤傲
-brrogant		心高气傲
-6bearing		款儿
-6of one's success		春风得意
-cself		得意
-3verbially perpetual arch-enemies		吴越
-4ided that		自要
-9with the basic necessities		衣食无虞
-7ntial good luck		天幸
-5nce level city		中央直辖市
-8s and cities		省市
-7ial boundary		省界
-bcapital		省城
-chief		州伯
-city		省辖市
-bdepartment of civil affairs		民政厅
-bgovernor		刺史
-bjudge		臬台
-bor county guild hall		会馆
-bparty committee		省委
-5sional capital of a country		陪都
-donstitution		约法
-cgovernment		临时政府
-9s are exhausted		绝粮
-3ximal cytoplasm		近端胞浆
-7te cause		导火线
-4y sale		代销
-a of securities		证券代销
-2udent in speech		嘴严
-2y bar		杠杆
-2zevalski's finch		朱鹀
-dgazelle of central asia		普氏小羚羊
-dnuthatch		白脸䴓
-dpartridge		大石鸡
-1silocybin mushroom		迷幻蘑菇
-2ychedelic drug		迷幻药
-5iatric hospital		精神病医院
-6c constitution		心神
-5ological condition		精神状态
-edrama		内心戏
-eoperations		心理战
-ewarfare		心战
-6tropic drugs		精神药物
-1tt bulletin board system		批踢踢实业坊
-1ubic bone		交骨
-6hair		耻毛
-6region		丹田
-3lic accounts committee		审计署
-8dministration		公共行政
-8nd private		公私
-9ger		公愤
-9nouncement		告谕
-8partment flats		组屋
-7bath		浴池
-bs		澡堂
-8usiness		公干
-7cemetery		公墓
-8leanliness		环卫
-8ompany		株式会社
-9urtroom accusation		对簿公堂
-7decision		公决
-alaration		宣认
-8iscussion		公议
-aplay of affection		狗粮
-7election		公举
-8nemy		公敌
-c number one		巨蠹
-8thics		公德
-8xecution		弃市
-9penditure		公共开支
-aosure		爆光
-7facilities		公设
-8igure		人士
-8unds		公帑
-7health		公共卫生
-aring		公听会
-8ighway		公道
-8oliday		公休日
-9using		公房
-e estate		公屋
-7intellectual		公共知识分子
-brest		社会公共利益
-7key		公钥
-7land		公地
-9w		公法
-8ecture		报告会
-7meeting		公众集会
-9morial service		公祭
-8oney		公款
-9rals		世风
-7network		公网
-8otification		公示
-8uisance		缺德鬼
-7office		公职
-8pinion		公判
-8rder		公共秩序
-c laws		社维法
-9ganization		公共团体
-8utrage		民愤
-8wnership		公有制
-7phone		公用电话
-8lace		公共场所
-cment		公募
-8raise		口碑
-9operty		公共财产
-asecution		公诉
-for		公诉人
-7relations		公共关系
-9putation		口碑
-7safety		公安
-d officials		公安官员
-8chool		公立学校
-9reening		公映
-8ecurity		保安
-f bureau		公安局
-9ntiment		舆情
-9rvant		公仆
-bice activities		公益活动
-finstitution		事业单位
-8pirit		公心
-8witched telephone network		公共交换电话网
-7toilet		公厕
-8ransport		公共交通
-g station		公交站
-hvehicle		公交车
-gation		公交
-l card		交通卡
-9ial		公审
-9ust		公信力
-7utility		公共事业
-7venue		场子
-8iew		台面
-7welfare funds		公益金
-fundertaking		公益事业
-8ill		民意
-6ation memorandum		发行备忘录
-6ity department of the ccp		中宣部
-6ly known		公认
-9owned		公有
-5shed as a serial		连载
-7ing house		出版社
-bon demand		按需出版
-2cker-type lid		就口杯盖
-2erperal fever		月子病
-2ff-throated babbler		棕头幽鹛
-fulbul		白喉冠鹎
-4ed grain		熬稃
-7rice		爆米花
-7up		臭屁
-4iness under the eyes		眼袋
-2gilist master		拳师
-8ic wankery		花拳绣腿
-2litzer prize		普利策奖
-3l tab		拉环
-4-top can		易拉罐
-4ed noodles		拉面
-5y block		滑车
-4ing force		拉力
-8power		挽力
-3monary alveolus		肺泡
-brtery		肺动脉
-aedema		肺水肿
-bmbolism		肺栓塞
-aheart disease		肺心病
-anodule		肺结节
-aventilation		肺通气
-3sation of a machine		突突
-4e taken at the wrist		寸口脉
-2mi ethnic group		普米
-4ce stone		磨脚石
-3p handle		泵柄
-4ing station		泵站
-f in irrigation system		灌站
-2nch card		打孔卡
-5ing and kicking		拳脚
-9bag		受气包
-4tuated by a transition		顿挫
-8ion mark		点号
-cof a sentence		句逗
-6re test		戳穿试验
-3ishable by law		法律制裁
-6ment equipment		刑具
-4tive expedition by night		宵征
-kto the east		东征
-rnorth		北征
-rsouth		南征
-rwest		西征
-9force		问罪之师
-3jab province of pakistan		旁遮普
-7state of india		旁遮普
-2pil of the eye		眸子
-5lary distance		瞳距
-3pet army		伪军
-7burial object		桐人
-7master		藏镜人
-7regime		傀儡政权
-7show		人偶戏
-8tate		傀儡政权
-2rchase of goods		购货
-7ing agent		采购员
-bpower		购买力
-3due university		普渡大学
-3e and concise		精粹
-9high-minded		清风劲节
-aoly		圣洁
-bnest		淳厚
-9innocent		纯情
-9kindhearted		纯良
-9limpid		剔透
-9quiet		清恬
-9simple		纯属
-9unadulterated		纯真
-5cotton		纯棉
-5gold		纯金
-5land buddhism		净土宗
-6ove		纯爱
-5mathematics		纯粹数学
-6ilk		纯牛奶
-5of heart		纯真无垢
-5silk		真丝
-5tone		纯音
-5water		纯水
-6hite		洁白
-3ge of counterrevolutionaries		肃反运动
+0guiying		穆桂英
+0pervez		穆沙拉夫
+0musharraf		穆沙拉夫
+1orsi		穆尔西
+1ursi		穆尔西
+1orsy		穆尔西
+1uling		穆棱市
+2ssorgsky		穆索尔斯基
+1ohammed		穆罕默德六世
+2ussavi		穆萨维
+1ir		穆萨维
+1outon		穆通
+0islamophobe		穆黑
+0frumentaceum		䅟
+0earned		积分
+0creates		积土成山
+1umulation		积土成山
+0repaid		积恶余殃
+0ponding		积水
+0jishishan		积石山保安族东乡族撒拉族自治县
+0storing		积谷防饥
+0cumulatively		积累
+0inbred		积习
+0cumulonimbus		积雨云
+0snowpack		积雪场
+1molder		积郁
+0caryopsis		颖果
+0stabilized		稳压
+0regulated		稳压
+0stablecoin		稳定币
+0burrowing		穴居
+0corvidae		穴鸟
+0domed		穹隆
+0skyjacking		空中劫持
+0airbus		空中客车
+0oop		空中接力
+0castles		空中楼阁
+0relational		空值
+0duplicated		空前绝后
+0undefended		空城计
+0kangkung		空心菜
+0pareidolia		空想性错视
+0airdrop		空投
+1ntibodies		空窗期
+0reinterpret		空耳
+0misheard		空耳
+0soramimi		空耳
+0unassigned		空号
+0headaches		空调病
+0tightness		空调病
+0skunked		空军
+0bounced		空头支票
+0unfilled		空额
+0thoroughness		穿
+0perforation		穿孔
+0subplot		穿插
+0fpv		穿越机
+0piloted		穿越机
+0rks		突厥
+0tunisia		突尼斯
+5		突尼斯
+0unannounced		突击检查
+0tuquan		突泉县
+0groundbreaking		突破性
+0pitapat		突突
+0leaps		突飞猛进
+0showpiece		窗口
+0windowsill		窗台
+0delphi		窗体
+0litters		窝
+0broods		窝
+0harbors		窝主
+0otak		窝咑
+0annoyances		窝囊气
+0gedei		窝阔台
+0militaristic		穷兵黩武
+0wanting		穷匮
+0busiest		穷在闹市无人问，富在深山有远亲
+0subsistance		穷家薄业
+0inhospitable		穷山恶水
+0yaodong		窑洞
+0kilns		窑场
+0disapproves		窜访
+0sinoatrial		窦房结
+3uatrial		窦房结
+0improperly		窃权
+0oviraptorosaurus		窃蛋龙
+0intracellular		立克次体
+0lidong		立冬
+1egislator		立委
+1ishan		立山区
+0conceptualize		立意
+0lichun		立春
+0rickettsii		立氏立克次体
+0nipah		立百病毒
+0liqiu		立秋
+0conducts		立身处世
+0lithuania		立陶宛
+9n		立陶宛人
+2pton		立顿
+0stereoscopic		立体
+6gram		立体图
+6isomerism		立体异构
+c		立体异构体
+0zhanqian		站前区
+0blabber		站着说话不腰疼
+0streetwalker		站街女
+2ationmaster		站长
+0zhangqiu		章丘区
+0shizhao		章士钊
+0taiyan		章太炎
+0ziyi		章子怡
+1hanggong		章贡区
+0takoyaki		章鱼小丸子
+0youngsters		童叟无欺
+0anthropomorphized		童趣
+0duanzhou		端州区
+0stonemade		端砚
+0duanxi		端砚
+0telomerase		端粒酶
+0jingxiu		竞秀区
+0competitively		竞购
+0takeuchi		竹内
+0shinai		竹刀
+0zhubei		竹北
+3nan		竹南
+0chunan		竹南
+0gecinulus		竹啄木鸟
+1rantia		竹啄木鸟
+0chuk		竹园
+3shan		竹山镇
+0zhudong		竹东
+0chutung		竹东
+0zhuxi		竹溪县
+0blurting		竹筒倒豆子
+0mackie		竹节草
+0lovegrass		竹节草
+0chrysopogon		竹节草
+0aciculatus		竹节草
+0wickerwork		竹编
+0maranta		竹芋
+0arundinacea		竹芋
+0bambusa		竹茹
+0tuldoides		竹茹
+1rimeresurus		竹叶青
+0indusiatus		竹荪
+0kezhen		竺可桢
+0metereologist		竺可桢
+0uppermost		竿头
+0patches		笎
+0bamboos		笐
+0climates		笐
+0irrepressibly		笑不可抑
+0comedic		笑料
+0laughingstock		笑料
+0naturedly		笑骂
+0smiley		笑脸
+0belying		笑里藏刀
+0preaches		笑里藏刀
+0abandoning		笑贫不笑娼
+1tricilla		笑鸥
+0weakest		笑点低
+0panpipe		笙管
+0descartes		笛卡儿
+0girard		笛沙格
+0desargues		笛沙格
+0talismanic		符印
+0conferring		符咒
+0semiotics		符号学
+0gospels		符类福音
+0luke		符类福音
+0guam		第二岛链
+0simone		第二性
+0beauvoir		第二性
+0retracted		第二次汉字简化方案
+0tyrrhenian		第勒尼安海
+0ftv		第四台
+0dijon		第戎
+0bilisi		第比利斯
+1rushwork		笔
+0polemics		笔战
+0ramrod		笔挺
+0brushstrokes		笔画数
+0refill		笔芯
+0enumeration		等
+1quipotential		等位
+0isoperimetric		等周
+0megatonnage		等效百万吨当量
+0emt		等效百万吨当量
+0sequences		等比
+0progressions		等比
+0isothermic		等温
+2entropic		等熵线
+0cetera		等等
+0isallobar		等变压线
+0cubical		等轴晶系
+0equiaxial		等轴晶系
+0tendons		筋
+1sukuba		筑波
+0garnished		筒子米糕
+0spines		策
+1chemer		策划人
+0qira		策勒县
+0machinate		策动
+0counsellor		策士
+0spurs		策马
+0junlian		筠连县
+0arabis		筷子芥
+0hooped		箍桶
+1andmake		箍桶
+0cooper		箍桶匠
+0hooper		箍桶匠
+0coopery		箍桶店
+0plaited		箔
+0jizi		箕子
+0guangzi		管仲
+0custodial		管制
+0demonstrations		管制
+0guangcheng		管城区
+4cheng		管城回族区
+4zi		管子
+0fitter		管子工
+0orchestral		管弦乐
+0mib		管理信息库
+1bo		管理层收购
+0tracheid		管胞
+0antiaris		箭毒木
+0upas		箭毒木
+0toxicaria		箭毒木
+0wrigley		箭牌
+0fargesia		箭竹
+0sandplay		箱庭
+0hakone		箱根
+0verses		节
+0beatboxing		节奏口技
+0indomitably		节烈
+0arbovirus		节肢介体病毒
+0cfl		节能灯
+0jointed		节足动物
+0imitated		范本
+0fanxian		范县
+0yundang		筼筜湖
+2andang		筼筜湖
+0punting		篙
+1rimes		筛法
+0zuan		纂
+0healds		簆
+0blumeana		簕竹
+0uncomplicated		简
+0snmp		简单网络管理协议
+1hq		简拼
+0ied		简易爆炸装置
+0newsletter		简讯
+0tossed		簸荡
+0fansign		签售会
+0registers		簿籍
+0netball		篮网球
+0fundraising		筹款
+0inherited		籍贯
+0patrilineally		籍贯
+0attesting		箓
+0enclosing		笼
+0tazza		笾
+0metoo		米兔
+1ichelin		米其林
+4aela		米凯拉
+0prokhorov		米哈伊尔·普罗霍罗夫
+1avel		米夫
+0aleksandrovich		米夫
+0mif		米夫
+2ckey		米奇
+2tch		米奇
+2ra		米拉
+0ceti		米拉
+0miyi		米易县
+2dong		米东区
+1ainling		米林市
+1ikoyan		米格
+2tchell		米歇尔
+0brokering		米歇尔
+0milton		米尔顿
+0romney		米特·罗姆尼
+0granulation		米粒组织
+0minardi		米纳尔迪
+0joan		米罗
+0surrealist		米罗
+0mizhi		米脂县
+2noxidil		米诺地尔
+4an		米诺安
+2chelangelo		米开朗基罗
+0buonarroti		米开朗基罗
+0anastas		米高扬
+0ivanonovich		米高扬
+0artem		米高扬
+0goldwyn		米高梅
+0mayer		米高梅
+0oryzae		米麴菌
+0comedo		粉刺
+0blackhead		粉刺
+0silty		粉土
+0whitewashed		粉墙
+0siltstone		粉砂岩
+0pulverizer		粉碎机
+0dougallii		粉红燕鸥
+0roseatus		粉红胸鹨
+0arctoa		粉红腹岭雀
+0pierid		粉蝶
+6ae		粉蝶
+0horribly		粉身碎骨
+0kay		粉车
+0admirer		粉转黑
+0cephalotaxus		粗榧
+1oarseness		粗细
+0unappealing		粗饭
+2satisfying		粗饭
+0plodding		粘皮带骨
+0mythimna		粘虫
+0separata		粘虫
+0leucania		粘虫
+0nonglutinous		粳
+0unmixed		粹
+0perfected		精
+0schizophrenia		精分
+0urbanity		精利主义
+0engineered		精密陶瓷
+0spermary		精巢
+1eiko		精工
+1piritually		精日
+0argnine		精氨酸
+3		精氨酸
+0jinghe		精河县
+0intensively		精研
+0spirituality		精神性
+0identifies		精神日本人
+0psychasthenia		精神衰弱
+0unadulterated		精纯
+0spermatic		精索
+0varicocele		精索静脉曲张
+0degum		精练
+0glamping		精致露营
+0spermatozoa		精虫
+aons		精虫冲脑
+0hardcover		精装
+2ndpicked		精选
+0elvish		精灵文
+3es		精灵文
+0blunderer		糊涂虫
+0gooey		糊糊
+0tsampa		糌粑
+4ba		糌粑
+0ciba		糍粑
+0diabetic		糖尿病足
+0glucocorticosteroid		糖皮质激素
+0secreted		糖皮质激素
+0confectioner		糖粉
+0glycolipid		糖脂
+5calyx		糖萼
+0frosting		糖衣
+0sugarcoating		糖衣
+0glycolysis		糖酵解
+0overcooking		糗
+0decaying		糜烂
+0vesicant		糜烂性毒剂
+0powders		糁
+0coprolite		粪化石
+0muckworm		粪蛆
+0coprodeum		粪道
+0distillers		糟糠
+0grievously		糟践
+0unappetising		糠
+0pityriasis		糠疹
+0furfural		糠醛
+0coupons		粮票
+0dango		团子
+0playable		系统角色
+0overthink		纠结
+0conflicted		纠结
+0gibran		纪伯伦
+0lebanese		纪伯伦
+0commemorative		纪念册
+0newsreel		纪录片
+0hindquarters		纣
+0silkcords		𬘓
+2xths		约分
+0canceling		约分
+1ir		约定资讯速率
+0jonah		约拿书
+2shua		约书亚
+1urgen		约根
+1ehoshaphat		约沙法
+1oel		约珥书
+0vik		约维克
+0oppland		约维克
+0johan		约翰
+0updike		约翰·厄普代克
+0rabe		约翰·拉贝
+0hawkins		约翰·霍金斯
+0karol		约翰保罗
+0zef		约翰保罗
+0wojty		约翰保罗
+0johannesburg		约翰内斯堡
+3nstone		约翰斯顿
+2siah		约西亚
+0yoshiyahu		约西亚
+0hugely		红不让
+0redcurrant		红加仑
+0hongyuan		红原县
+0junglefowl		红原鸡
+0honggu		红古区
+0rubythroat		红喉歌鸲
+0stellata		红喉潜鸟
+0cervinus		红喉鹨
+0pyrrhocorax		红嘴山鸦
+0caspian		红嘴巨鸥
+0hydroprogne		红嘴巨鸥
+0caspia		红嘴巨鸥
+0burmannicus		红嘴椋鸟
+0leiothrix		红嘴相思鸟
+0erythroryncha		红嘴蓝鹊
+0ferruginosus		红嘴钩嘴鹛
+0aemodium		红嘴鸦雀
+0ridibundus		红嘴鸥
+0aethereus		红嘴鹲
+0hongta		红塔区
+0alkekengi		红姑娘
+0redology		红学
+0honker		红客
+1acker		红客
+0euplectes		红寡妇鸟
+0orix		红寡妇鸟
+0hongsibu		红寺堡区
+0sibilans		红尾歌鸲
+0plumbeous		红尾水鸲
+0fuliginosus		红尾水鸲
+0naumann		红尾鸫
+7i		红尾鸫
+0rubricauda		红尾鹲
+0honggang		红岗区
+0turbans		红巾军
+0hongqi		红旗区
+0roseroot		红景天
+1hodiola		红景天
+1osewood		红木
+0padauk		红木
+0leans		红杏出墙
+0avadavat		红梅花雀
+1mandava		红梅花雀
+0rhizophora		红树
+0hongqiao		红桥
+0formosensis		红桧
+0rumbutan		红毛丹
+0nephelium		红毛丹
+0lappaceum		红毛丹
+0solenopsis		红火蚁
+0invicta		红火蚁
+0birthdays		红烛
+0celebrations		红烛
+1orallium		红珊瑚
+0rotring		红环
+0weddings		红白喜事
+0subhimachalus		红眉松雀
+0honggutan		红谷滩区
+0armband		红箍儿
+0esr		红细胞沉降率
+0wallcreeper		红翅旋壁雀
+0tichodroma		红翅旋壁雀
+0muraria		红翅旋壁雀
+0sieboldii		红翅绿鸠
+0ripponi		红翅薮鹛
+0aeralatus		红翅鵙鹛
+0jocosus		红耳鹎
+0collurio		红背伯劳
+0eversmann		红背红尾鸲
+1rythronotus		红背红尾鸲
+0redback		红背蜘蛛
+0ignipectus		红胸啄花鸟
+0mandellii		红胸山鹧鸪
+0puniceus		红胸朱雀
+0fusca		红胸田鸡
+0serrator		红胸秋沙鸭
+1atyra		红胸角雉
+0asiaticus		红胸鸻
+0erythropleurus		红胁绣眼鸟
+0bluetail		红胁蓝尾鸲
+0cyanurus		红胁蓝尾鸲
+0mantled		红腰朱雀
+0rhodochlamys		红腰朱雀
+0akool		红脚苦恶鸟
+1murensis		红脚隼
+0sula		红脚鲣鸟
+0totanus		红脚鹬
+0wardi		红腹咬鹃
+0canutus		红腹滨鹬
+0ldenst		红腹红尾鸲
+0erythrogastrus		红腹红尾鸲
+0temminck		红腹角雉
+8ii		红腹角雉
+0pictus		红腹锦鸡
+0caerulescens		红腿小隼
+0premiered		红色娘子军

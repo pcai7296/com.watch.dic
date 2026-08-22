@@ -1,500 +1,500 @@
-0surveillance aircraft		侦察机
-dcamera		摄像头
-dmonitor		监视器
-5y and research workers		调研人员
-7meter		巡测仪
-7ship		考察船
-7vessel		测量船
-6or's beacon		觇标
-blevel		水平仪
-bpole		标杆
-brod		标尺
-4ival of the fittest		优胜劣汰
-9rate		存活率
-6ing family of the deceased		遗属
-amanuscript		遗稿
-atradition		遗风
-2spected of murder		疑凶
-athief		窃嫌
-5nded animation		假死
-abunk		吊铺
-ahook		吊钩
-ain midair		悬空
-amatter		悬浮物
-beal		待用餐
-asentence		缓刑
-6sion bridge		吊桥
-bcable		吊索
-4icious and fearful		惶惑
-fjealous		疑忌
-3tainable city		永续城市
-cdevelopment		可持续发展
-7ing pedal		强音踏板
-2ture zone		缝合带
-2zerain state		宗主国
-3hou creek		苏州河
-7or soochow university		苏州大学
-1valbard and jan mayen		斯瓦尔巴和扬马延
-1waddling clothes		襁褓
-3llow chick		雏燕
-7-tailed coat		燕尾服
-7tail butterfly		燕尾蝶
-3mp wallaby		沙袋鼠
-3n goose		飞鸿
-5lake		天鹅湖
-4's down		天鹅绒
-3rovski crystal		施华洛世奇水晶
-3ying gently		摇曳多姿
-2ear words		粗口
-4t gland		汗腺
-6pore		汗孔
-8ured off		挥汗如雨
-6rash		痱子
-5ed labor		苦活
-5ing all over		一身汗
-9from shame		愧汗
-9like a pig		汗如雨下
-3et and boyish in appearance		奶帅
-acharming		娇媚
-adelicious		甜津津
-ainnocent		甜稚
-amellow		甜润
-apiteous		凄婉
-asour		甜酸
-e fish		糖醋鱼
-fmeat		咕咾肉
-fpork		古老肉
-aunctuous		甜腻
-6basil		罗勒
-6cherry		大樱桃
-6dream		酣梦
-6fermented rice		酒酿
-6granadilla		热情果
-6liquor		甜酒
-6nothings		悄悄话
-6orange		甜橙
-6pea		香豌豆
-7otato		地瓜
-c or yam		红苕
-j noodles		地瓜面
-6scent		清香
-7edge or sweet flag		水菖蒲
-7mell		香味
-7orghum		甜高粱
-6talk		甜言蜜语
-6words		甜言
-5ened bean paste		豆沙
-awater		糖水
-5heart or destined love		冤家
-3lling of the head		头脑发胀
-ar stormy seas		骇浪
-3pt-back hairstyle		背头
-6forward wing		前掠翼
-2ift action		流星赶月
-7nd fierce		凌厉
-6feet		飞毛腿
-5ly flowing		驶流
-8moving		飘忽
-3m bladder		鱼泡
-5ring		游泳圈
-5trunks		泳裤
-6ube		游泳圈
-4ming ability		水性
-9cap		泳帽
-aompetition		竞渡
-9goggles		泳镜
-9pool		泳池
-3ne fever		猪瘟
-7lu		猪流感
-6influenza		猪流感
-f virus		猪流感病毒
-6vesicular disease		猪水泡病
-4g door		弹簧门
-6state		摇摆州
-4hoe's minivet		小灰山椒鸟
-apheasant		蓝鹇
-arail		花田鸡
-asnipe		大沙锥
-btorm petrel		黑叉尾海燕
-awhite-eye		暗绿绣眼鸟
-3sh shot		空心球
-4s army knife		瑞士军刀
-6franc		瑞士法郎
-6roll		瑞士卷
-3tch box		配电柜
-7hook		叉簧
-6board operator		接线员
-6ed ethernet		交换以太网络
-9network		交换网路
-9virtual circuit		交换虚电路
-3vel chair		转椅
-7table		转台
-2ord and spear		刀枪
-6blade		剑身
-6hilt		剑柄
-5tip squid		透抽
-4n brother		盟兄弟
-dhood		八拜之交
-ds		把兄弟
-6enemy		死对头
-6testimony		宣誓证言
-2ung dash		代字号
-1ykes's warbler		赛氏篱莺
-2llabic script		音节体
-2mbol of peace		橄榄枝
-6ic logic		数理逻辑
-3metric space		对称空间
-7y breaking		对称破缺
-3pathetic nervous system		交感神经
-cresponse		共鸣
-cvibration		谐振
-4honic metal		交响金属
-7y orchestra		交响乐团
-2nchronized swimming		水上芭蕾
-8ous digital hierarchy		同步数位阶层
-corbit		同步轨道
-csatellite		同步卫星
-3dicated feed		消息来源
-3optic gospels		符类福音
-4vial membrane		滑膜
-3tactic analysis		句法分析
-asugar		语法糖
-4hetic athletics track		塑胶跑道
-adetergent		合成洗涤剂
-afiber		合成纤维
-aleather		合成革
-aoil		合成石油
-areasoning		综合法
-bubber		合成橡胶
-2philitic ulcer		大疮
-2riac language		叙利亚文
-4nge needle		针头
-2stem for identifying users		实名制
-7of appeals		审级制度
-aconstitutional government		宪制
-aenfeoffment		分封制
-agovernment		政体
-ajob responsibility		责任制
-anomenclature		命名系统
-aownership		所有制
-apolynomial equations		多项式方程组
-arepresenting spoken sounds		标音法
-bites		礼制
-athought		思想体系
-aweights and measures		衡量制
-6atic arrangement		条贯
-6ic lupus erythematosus		全身性红斑狼疮
-9problem		弊端
-4olic blood pressure		心脏收缩压
-2zygium samarangense		洋蒲桃
-0t-bone steak		丁骨牛排
-1able fan		台扇
-6knife		餐刀
-6lamp		台灯
-6manners		吃相
-6of contents		目录
-9ranking		排行榜
-9scores		积分榜
-6salt		细盐
-6tennis		乒乓
-c ball		乒乓球
-7urnover rate		翻桌率
-6vinegar		食醋
-5-tennis table		乒乓球台
-5t computer		平板
-7with inscription in gold		金榜
-6op model		台式
-9role-playing game		跑团
-4oid newspaper		小报
-3oo language		禁忌语
-6name		名讳
-3ula rasa		白板
-2cit approval		默认
-6exchange of romantic feelings		灵犀
-6understanding		默契
-5urn person		闷葫芦
-3tful expression		婉辞
-4ical missile		战术导弹
-bxture of chemical agents		混合毒剂
-9nuclear weapons		战术核武器
-5le examination		触诊
-8paving tile		导盲砖
-8quality		质感
-8sensation		触感
-4less and impulsive person		半吊子
-2hiti petrel		钩嘴圆尾鹱
-2i county in jiangsu		泰县
-3'an county in shandong		泰安县
-3ga bean goose		豆雁
-6flycatcher		红喉姬鹟
-3l feathers		尾羽
-5light		尾灯
-5or caudal fin		尾鳍
-4bone at end of spine		尻骨
-4ed larva		尾蚴
-4or's shop		裁缝店
-6ed to		量身定做
-3pei county in north taiwan		台北县
-7golden horse film festival		台北金马影展
-7metro		台北捷运
-c wenshan line		文山线
-7railway station		北车
-8evenue service		税捐稽征处
-4ing heavenly kingdom		天朝
-3shang huang		太上皇
-3tung county in southeast taiwan		台东县
-3wan affairs office		国务院台湾事务办公室
-8nd mainland		两岸
-7barbet		台湾拟啄木鸟
-awing		台湾斑翅鹛
-8lue magpie		台湾蓝鹊
-8ush warbler		台湾短翅莺
-7capital or investments		台资
-9tty		台斤
-8ompatriot		台胞
-h entry permit		台胞证
-7democratic self-government league		台湾民主自治同盟
-7fulvetta		玉山雀鹛
-7hwamei		台湾画眉
-7independence		台独
-8sland		台湾岛
-7media		台媒
-7partridge		台湾山鹧鸪
-8rovince		台湾省
-7relations act		台湾关系法
-8osefinch		台湾酒红朱雀
-9und-grained glutinous rice		蓬莱米
-7salamander		山椒鱼
-8cimitar babbler		台湾棕颈钩嘴鹛
-8py		台谍
-8trait		台湾海峡
-7whistling thrush		台湾紫啸鸫
-ate pine		五叶松
-7yuhina		褐头凤鹛
-6-style popcorn chicken		盐酥鸡
-6ese aborigine		山地同胞
-js		高山族
-abusinessperson or company		台商
-afood		台菜
-ahokkien		台湾话
-aindigenous peoples		山地同胞
-aword		台词
-2j mahal		泰姬玛哈陵
-3ik ethnic group		塔吉克
-2ke good care of yourself		珍重
-5it easy		慢慢来
-5your time		慢慢来
-4n by surprise		猛不防
-6in		上当
-4off and landing		起落
-j strip		起落场
-8catapult		起飞弹射
-8run		助跑
-5ver bid		收购要约
-3ing a crap		蹲点
-8s one's main principle		本着
-7everything into account		满打满算
-7information from all sides		明察暗访
-7large steps		大步流星
-8iberties		狎昵
-7people's views into account		群言堂
-7real numbers as values		实值
-4zawa or takesawa		泷泽
-2lcum powder		滑石粉
-3e of the white snake		白蛇传
-4nt and learning		才学
-bvirtue		才德
-7competition		选秀节目
-7in a particular area		偏才
-7show		才艺秀
-6ed and accomplished woman		才媛
-dgood-looking		才貌双全
-9field commander		将才
-9girl		才女
-9individual		异人
-9man and beautiful woman		男才女貌
-9person		人才
-9young scholar		龙驹凤雏
-4s of the supernatural		志怪小说
-3k nicely and avoid disputes		多栽花少栽刺
-5show		清谈节目
-5with propriety		客气话
-4ative person		口水佬
-4ing and laughing		有说有笑
-8endlessly		哩哩罗罗
-8head		名嘴
-8in one's sleep		梦呓
-8nonstop		千言万语
-3l and big		魁伟
-9husky		彪壮
-9straight		亭亭玉立
-cong		人高马大
-f physique		彪个子
-fly built		昂藏
-burdy		魁梧
-9thin		修长
-5boots		长筒靴
-6uilding		危楼
-5person		大个儿
-4ow tree		乌桕
-4y of trophies		奖牌榜
-3us slide		崩坍
-2mil language		泰米尔语
-6tigers		泰米尔猛虎组织
-4ng wild beast		训兽术
-2n dun chinese composer		谭盾
-3g dynasty		唐代
-5liang hong		邓亮洪
-5paradise in xi'an		大唐芙蓉园
-5soo do		唐手道
-6uit		唐装
-4ent direction		切向
-8line		切线
-8plane		切平面
-8vector		切向量
-7ial force		切向力
-bvelocity		切向速度
-5rine flavor		橘味
-ayellow		橘黄色
-4ible and intangible		有无
-9benefit		实惠
-9image		具象
-4le of vines		葛藤
-6d and complicated		错综复杂
-3k top		汗背心
-4er truck		罐车
-3ner or donald		唐纳
-4ic acid		单宁酸
-3tamount to		不啻
-4ric buddhism		密宗
-3zhe temple		潭柘寺
-2oist devotee		道人
-7external alchemy		外丹
-7internal alchemy		内丹
-7or buddhist rite		道场
-7priest		道长
-7robe		道袍
-7temple		宫观
-8reatise		真经
-2p dance		踢踏舞
-3-water pipe		自来水管
-3e drive		磁带机
-5measure		卷尺
-5player		单放机
-5recorder		录音机
-5seam		沿条儿
-5trim		沿条儿
-4r bushing		锥套
-5tail anchovy		刀鱼
-3ioca ball		粉圆
-8milk tea		波霸奶茶
-8pudding		西米露
-3ping device		窃听器
-2rantula nebula		蜘蛛星云
-3e weight		皮重
-3get address		目标地址
-7drone		靶机
-7language		译入语
-7market		目标市场
-7of scorn		过街老鼠
-7sheet		靶纸
-9ip		靶船
-9ooting		打靶
-6ed drug		靶向药
-3iff wall		关税壁垒
-6-free zone		保税区
-4m river of xinjiang		塔里木河
-3o ball		芋圆
-4ko ethnic group taiwan		太鲁阁
-4t card		塔罗卡
-3paulin fabric		篷盖布
-3red road		柏油路
-3sier monkey		眼镜猴
-3tan track		塑胶跑道
-5r sauce		塔塔酱
-6ic acid		酒石酸
-2sk force		专案小组
-5manager		任务管理器
-5of sisyphus		精卫填海
-3te bud		味蕾
-9s		舌乳头
-5fully chosen		讲究
-4y meal		美餐
-2tar ethnic group		塔塔尔
-3er tot		炸薯球
-2urus mountains of south turkey		托罗斯山
-2wny fish owl		黄腿渔鸮
-6pipit		平原鹨
-2x avoidance		避税
-4benefits table		捐益表
-5urden		税负
-7eau		税务局
-4code		税法
-4evasion		偷税
-4free		免税
-4haven		逃税天堂
-4inclusive		含税
-4law		税法
-5iability		税赋
-4money		税金
-4on stores		铺捐
-7trade		商税
-8urnover		营业税
-4payments		税款
-4rate		税率
-5ebate or refund		退税
-6duction		抵减
-6lief		宽减
-4stamp		印花
-5ystem		税制
-4threshold		起征点
-3ation services		税务
-3i company		车行
-5dancer		伴舞
-6river		出租司机
-5minibus		面包车
-1ea and cake		茶点
-8dim sum		茶点
-4bag		茶包
-5rick		茶砖
-4egg		茶叶蛋
-4grower		茶农
-4leaves		茶叶
-a powder		茶叶末儿
-4mug		茶缸子
-4party		茶会
-5owder		末茶
-4service		茶具
-6t		茶具
-5hop		茶庄
-5tain		茶垢
-4towel		擦碗布
-5ree		茶树
-3-garden or teahouse seat		茶座
-4stall with seats		茶座
-3ch a subject		开课
-6in peace		教安
-6you a lesson		给你点颜色看看
-5er by negative example		反面教员
-8of one's teacher		师祖
-8training college		师大
-7's college		师范学院
-ahusband		师丈
-apointer		教鞭
-astrike		罢教
-ateacher		师公
-7s and students		师生
-9of the state		国师
-8' day		教师节
-5ing aids		教具
-and administrative staff		教职员
-dlearning		传习
-dresearch		教研
-l office		教研室
-assistant		助教
-9material		教材
-hs		讲义
-aethod		教法
-9of confucius		孔教
-9plan		教案
-9the ignorant		蒙求
+0of purpose		有意地
+0judge of		评价
+0outside of		在...的外面, 超出...的范围, 除了...之外
+0exclusive of		除...外, 不包括
+0know of		知道,了解,听说过…
+0lot of		大量的,很多的
+0speak of		谈到..., 论及...
+0of worth		有价值
+3any		在所有的...当中
+0say of		说到,谈及
+1ick of		厌倦了, 厌烦了
+0what of		...的情况怎样, ...有什么重要性
+0inside of		在...之内
+0permit of		允许, 容许有
+0of choice		精选的, 特别的, 自择的
+3taste		风雅的,有味道的,有趣的
+0taste of		有...味道, 体验, 吃一点...
+0kind of		<口>稍微, 有点儿, 有几分
+0of late		最近
+0revocation of of patent		撤销专利权
+0something of		在某种意义上, 在某种程度上
+0ahead of		在…之前
+0made of		把...培养成
+0tell of		讲述
+0aside of		在…旁边
+0eat of		吃...中的一部分, 吃一些...
+0of intent		有意地,故意地,蓄意地
+0most of		大多数,大部分
+0tire of		厌烦
+0void of		没有,缺乏…
+0numbers of		一些，若干，许多
+0fail of		不能获得,达不到,缺乏…
+0of pus		排脓法
+0each of		每个
+0of necessity		必然地
+0speaking of		谈起，提到
+1outh of		在…的南面
+0of malice		出于恶意
+0accept of		v. 承兑
+0sing of		歌颂
+0none of		千万别…
+0dream of		梦见,梦想,向往,渴望
+0hear of		听说
+0smell of		有...的气味
+0establishment of		开证, 开立信用状
+0of reputation		着名的,享有盛名的,遐迩闻名的
+3itself		自动地,自行地,自然而然地
+0waves of		潮水般的
+0scent of		发出...的气味, 有...的迹象
+0become of		发生, 结果是
+0treat of		论及, 涉及
+0upward of		多于, 超过
+0of kin		近亲的
+0lack of		缺乏
+0of publication		停止发行
+0talking of		谈到
+0west of		在...以西
+0shy of		尚缺
+0bits of		少量的;小块小片的
+0stink of		发恶臭
+0quantities of		大量的,许多…
+0anything of		一点儿
+0purge of		清除, 清洗
+0suspect of		怀疑
+0lots of		许多的..., 大量的...
+0tired of		厌烦
+0learn of		听说..., 获悉...
+0of repute		大名鼎鼎的,着名的,享有盛名的,遐迩闻名的
+0smack of		有…的味道,有点像…
+0remain of		由…遗留下来
+0scores of		大量的
+0allow of		容许
+0thousands of		成千上万,数千,许许多多
+0patient of		能忍受的, 容许...意义的
+0admit of		承认,坦白
+0plenty of		许多的
+0fond of		喜爱
+0neither of		没有一个
+0inclusive of		把…包括在内, 包含
+0despair of		对…感到绝望
+0rid of		除去, 摆脱
+0of vantage		有利的,佔优势的
+0proud of		为…而感到骄傲
+0worthy of		值得…的
+0alongside of		在旁边, 与...并肩
+0mountains of		大堆大堆的,大量的…
+0of sorts		各种各样的
+3avail		有用,有效,有帮助
+0inform of		将…告知（某人）
+0avail of		v. 利用
+0relieve of		解除, 消除
+0possess of		v. 佔有,拥有
+0masses of		大量的,众多的
+0perish of		因…而死
+0heard of		听说
+0traces of		微量的…,…的痕蹟
+0astern of		在…后面
+0warn of		警告…,有…危险
+0shades of		令人想起…的；影片名称
+0weary of		厌烦
+0approve of		赞成,批准…
+1ccuse of		指责，控告
+0rob of		抢劫
+0demonstrative of		证明的, 论证的, 令人信服的
+0consist of		由...组成
+1apable of		有…能力（或技能）的，能…的
+0afoul of		碰撞, 同某物撞在一起；和某人发生冲突
+0reek of		发臭气
+2quire of		对…的要求
+0afraid of		害怕
+0upwards of		...以上, 多于...
+0barren of		#没有…的
+0complain of		抱怨, 抗议
+0bereave of		v. 使丧失
+0sicken of		厌恶, 厌倦
+0dispose of		处理, 安排, 转让, 卖掉, 除掉, 吃光, 解决
+0aware of		意识到，知道
+0millions of		成千上万的..., 无数的...
+0beware of		谨访,当心
+0tens of hundreds of		数千的,成百上千
+0irrespective of		不顾,不论,不分,不考虑
+0acres of		大量,许多
+0heaps of		大堆大堆的,大量的,许多…
+0participate of		带有, 含有
+0convince of		使（某人）认识到， 相信…
+0dozens of		几十个,数十个;许多…
+0composed of		由…组成
+0hundreds of		几百..., 许许多多...
+0loads of		大量, 许多
+0brag of		夸耀,吹嘘
+1ags of		大量的,充足的
+0of yore		从前, 往昔
+0partake of		吃, 喝, 带有
+0deprive of		剥夺
+0apropos of		关于, 至于
+0of corse		当然
+0pall of		v. 厌倦
+0scraps of		一点点,零零碎碎的…
+0despite of		不管， 尽管， 任凭
+0hosts of		许多,大群大群的…
+0deplete of		弄空, 耗尽
+2void of		aaj.缺乏的。没有的
+0oceans of		大量的,许多的…
+1ust of		剥夺
+0disarm of		缴械
+0regardless of		不注意, 不关心
+0independently of		独立于...之外
+0stretches of		大片的,绵延不断的
+0remind of		提醒, 使记起
+0boast of		吹嘘;引以自豪地拥有
+1ecause of		因为
+0subfolder of		子文件夹
+0unworthy of		不值得
+0repent of		后悔
+0instead of		代替
+0disapprove of		不赞成,不同意
+0undreamt of		adj. 梦想不到的
+0inshore of		比...靠近海岸
+0flappong of		波动
+0unheard of		#没发生过的; 令人震惊的；前所未有的
+2dreamed of		#梦想不到的, 意外的
+0connotative of		内涵
+0bethink of		v. 想到
+0somewhat of		有些,相当
+1tacks of		一大堆,许多,大量
+0conceive of		想象
+0out of the pale of		超出…界限
+1f the time		当时的, 当代的
+1bject of the of ownership		所有权客体
+0the number of		…的数目
+0a line of		一行,一列,一排
+0of the surface		表面上, 外表上
+7day		当时的
+0the sort of		那种
+4bulk of		大半,大多数,大部分
+0of the moment		此刻
+0the rest of		其余的,剩下的
+0a type of		一种,一类
+2power of		极大的,很多
+0the pick of		精华, 最好的部分
+4majority of		大多数...
+0of the rank		头等的
+0a set of		一组,一套,一副,一批,一连串
+0of the essence		绝对需要的, 不可缺少的, 极重要的
+0a number of		许多的
+0the likes of		<口>像…这样的人
+0a stock of		储存的,一批
+2group of		一组,一队,一群,一伙,一批…
+2load of		大量, 许多
+2wave of		蜂拥而至的,拥挤的一批
+2bank of		一堆,一层…
+2sheet of		一片,一块,一张,一层
+0of a day		短命的
+0a period of		阵子
+2band of		一群,一伙,一队…
+4r of		一条,一块…
+2mass of		一块,一团,大量的
+2total of		总计为,总共…
+2sequence of		一个…的序列,一系列…
+2range of		一系列; 一些; 一套
+2bit of		一点
+2layer of		一层…
+2fund of		丰富的,大量的,富于…
+2drop of		一滴…
+2maximum of		至多,最多
+3inimum of		至少,最少,最起码
+2series of		一系列..., 一批...
+3pot of		#少量的
+2length of		一段
+0of a size		同样尺码的,一样大小的
+0a part of		部分
+2string of		@一串的，一系列，一批; 一连串
+2roll of		一卷
+0in control of		控制住
+0a world of		很多,大量
+2game of		一场,一盘,一局
+0of a night		经常在晚上
+0a queue of		一队,一行,一长列…
+0of a sort		同一类的, 较差的
+0a sort of		一种,某种,勉强称得上的…
+2quantity of		一些,若干
+2collection of		一批,一组
+2packet of		一盒…,一捆…,一包…
+2strip of		一条,狭长的一块
+2matter of		...左右, ...上下, 只是...的问题而已, 只需, 大约
+3easure of		一定程度的
+2piece of		一块..., 一片...
+0of a piece		一致的, 与...同类的
+0a battery of		一连串的,一系列的…
+2amount of		大量的
+2strain of		一点点,有点,些许…
+2package of		一包…
+2suit of		一套,一副
+2mountain of		山一样的一大堆,大量的…
+2particle of		一点点,少量的…
+2cup of		一杯…
+2train of		一连串
+2pair of		一对..., 一付...
+2grain of		一粒…,一颗…
+2cake of		一块…
+2host of		许多,一大群
+2pack of		一盒,一包;一伙…,一群…
+2stream of		一连串的...
+2coat of		一层
+2row of		一排,一行
+0of a mind		一条心,一心一意,同心协力
+0a dose of		一剂,一服
+2ray of		一线…,一丝…,少量…
+2blade of		一片
+2spark of		一点儿,丝毫
+2barrel of		一桶,许多,大量
+2storm of		暴风雨般的,勐烈的一阵
+2lot of		许多的
+2patch of		一块,一片
+2majority of		大部分,大多数
+2score of		二十,几十,许多…
+2fraction of		一小部分的
+2quarter of		四分之一的
+2slice of		一片,一小块,一部分
+2blanket of		厚厚的一层…
+2cluster of		一簇,一丛,一群
+3hoice of		各种各样可供选择的…
+2plot of		一块
+2succession of		一系列,一连串,接连不断的
+0of a truth		事实上, 的确
+0a gang of		一伙,一帮,一群
+0of a kind		同一类的, 蹩脚的
+0a kind of		一种,一类
+2devil of		极端的,可观的,大量的…
+2team of		一队,一组…
+2pile of		一堆,一垛…
+0of a morning		往往在早上
+0a hell of		极度的,糟透了的,好极了的…
+0something of a		有…的味道,有点像…
+0a species of		一种,一类
+2crop of		一批,一群,一大堆
+2streak of		一道,一条,一系列,一点点,些许…
+3urge of		汹涌澎湃的,高涨的
+2wealth of		丰富的,大量的…
+2heap of		一大堆,许多…
+2colony of		一群
+2span of		一段…
+2couple of		一对..., 三两个...
+2pinch of		一小撮…,微量的…
+3ortion of		一部分的…;一份,一客
+2rainbow of		各种各样的..., 五颜六色的...
+2shade of		些许,少许的…
+2few of		少数, 几个,一些
+0of a sudden		突然
+0a decade of		十个,十条,十件…
+2flood of		一大片,一大批
+2crowd of		一群
+2nest of		一窝…,一套…
+2lack of		缺乏，缺少
+2variety of		各种各样的..., 种种...
+2herd of		一群
+2troop of		一群,许多
+2flock of		一群
+2muster of		一群…,一批…,一大堆…
+2plenty of		大量；许多
+2swarm of		一大群,蜂拥而至的
+2mug of		一大杯…
+0of a surety		的确, 肯定地
+0a dab of		一点,些许,少量
+2conglomerate of		一团,一群,一伙
+2bunch of		一束,一串,一群
+3arrage of		接二连三的,连珠砲似的…
+2peck of		很多,大量的
+2bouquet of		一束
+2hint of		一点…,一丝…
+2galaxy of		一群
+2pail of		一桶…
+2multitude of		大批的,大量的,许许多多的…
+2profusion of		很多,大量
+2battalion of		一大队
+2handful of		一小撮,少数
+0in time of		在…时候
+3order of		按...的次序
+0of and on		偶而,有时
+0in point of		关于, 就...而言
+3the control of		由...控制, 由...管理, 由...负责
+3right of		凭...权力
+3memory of		纪念...
+3light of		按照, 根据
+0control of source of supply		供给来源的控制(管理)
+0in charge of		负责..., 管理..., 主管..., 掌管..., 看管..., 在...掌管/看管之下
+0statement of cost of production		生产成本表
+0in case of		假设, 万一
+0chloride of acid		酰基氯; 氯化酰基
+0method of loss of weight		失重法
+0in payment of		偿付
+3bar of		为禁止...
+3the process of		在...的过程中
+3sequence of		按照…顺序
+5arch of		寻找
+4ign of		作为...的表示
+4upport of		支持, 支援
+3face of		面对,在…面前;不顾,即使
+3term of		用…的话,以…的措词;根据,按照;用…的思想方法;在…方面,以…方面
+0a bit of a		有点…的味道
+0control of guns of ammunitions		枪枝弹药管制
+0in place of		代替; 代替
+3the order of		大约, 约等于; 按...次序
+3recognition of		为酬谢
+0ratio of cost of sales		销售成本的比率
+0in terms of		用...的话, 根据, 按照, 在...方面; 用...话, 以...措词, 按照
+3advance of		在...前面, 超过
+3care of		由…转交
+3witness of		作为...的证据; 为...的证据
+3view of		考虑到, 由于; 鉴于
+3course of		正在...中
+3sight of		在见得到...的地方
+3receipt of		已收到…
+0law of conservation of charge		电荷守恒定律
+0in settlement of		以澄清,为解决…
+3front of		在...前面
+3excess of		超过, 较...为多
+0rate of occurrence of error		误差出现率
+0in default of		因缺少; 因缺..., 在缺少...时
+6ect of		缺少
+3aid of		为援助,以援救…
+3replacement of		以代替…
+3defence of		为保卫…;为…辩护
+3possession of		获得,弄到,佔有,佔领…
+0order of reference of accounts		审查帐目令
+0law of conservation of energy		能量守恒定律; 能量守恒与转化定律
+0in tie of		支持,拥护
+3defense of		为...辩护, 为保证...
+2dex of cost of living		生活费指数
+2 breach of		违反…,破坏…
+3token of		作为...的标志, 作为...的象征
+3consideration of		考虑到; 鉴于, 考虑到
+0law of conservation of mass		质量守恒定律
+0in danger of		有…的危险
+3fraud of		为诈骗; 为了欺骗, 为了诈欺
+3occupation of		佔领…,佔据着…
+3want of		需要,缺少
+3honor of		为向…表示敬意,为庆祝…为纪念…
+0law of persistance of energy		能量持久律
+0in honour of		为纪念, 为庆祝
+3restraint of		限制,抑制,拘禁…
+3need of		需要...时, 如果需要...
+3doubt of		对…表示怀疑
+3satisfaction of		作为...的赔偿
+3regard of		关于..., 至于...
+3absence of		在…不在时;在缺乏…时
+3respect of		关于, 就...而言
+3fear of		害怕,担心,为…提心吊胆
+3praise of		为赞扬
+3favor of		赞同, 有利于
+0reconciliation of statement of account		帐户调节表
+0in favour of		同意, 支持, 有利于...
+0test of goodness of fit		适合性测定; 拟合优度检验
+0in acknowledgement of		答谢,领谢…
+4rrears of		赶不上,落后于,不及…
+3contempt of		蔑视,不顾
+3violation of		违反
+3terror of		对…胆战心惊,十分害怕…
+3expectation of		期待,盼望…
+3virtue of		依靠...(的力量), 凭借, 由于, 因为
+3chase of		追赶,追击…
+3pity of		因为可怜...
+3consequence of		由于的...缘故; 由于...缘故, 基于
+3prejudice of		有损于,不利于…
+3anticipation of		一想到,预料到,期待着…;抢在…之前
+3excuse of		作为辩解; 作为...辩解
+3prospect of		有…希望,…在望
+0of interest to		对…至关重大,引起…的关注
+0in peril of		有…的危险
+3remembrance of		纪念..., 回忆...
+3defiance of		无视, 不顾
+3advocacy of		为…作辩护,鼓吹…
+3pursuit of		追求，寻求
+3ridicule of		嘲笑…
+3lieu of		作为...的替代, 代替...; 代替, 作为...的替代
+3disregard of		不顾,不尊重,忽视,漠视
+4edication of		为了…,作为对…的奉献
+3quest of		为了追求...
+3behalf of		代表,为了…
+3awe of		恐惧; 敬畏
+3contravention of		违反...
+4elebration of		为庆祝...
+3dread of		畏惧…
+3corroboration of		为了证明...
+3hopes of		怀着...的希望, 希望能...
+3despite of		不管, 尽管
+3furtherance of		为促进...
+3stead of		代替
+3pursuance of		执行, 履行, 根据
+3commemoration of		纪念
+3virture of		由于
+0strength of acid		酸的强度
+0law of elasticity of demand		弹性需求法则
+7conservation of matter		物质守恒定律; 质量不灭定律
+0rules of choice of law		关于选择法律的规则
+0law of perdurability of matter		物质守恒定律
+0acceptance of bill of exchange		汇票的承兑
+0law of conservation of momentum		动量守恒定律
+0doctrine of superemacy of law		法律至上原则
+0in the language of		用…语言,用…的话来说
+0heat of change of phase		相转变热
+0to be the parent of		育有
+1he will of the people		人心
+1o be in the way		当道
+1he end of the year		年底
+1o be in the wrong		输理
+dsun		晒太阳
+1he morals of the time		世道
+1o be in the army		从戎
+dmajority		居多
+eilk		灌浆
+dlimelight		出风头
+1he back of the head		脑后
+4way of the king		王道
+4end of the show		落幕
+6emy of the people		人民公敌
+4mood of the people		民情
+5an of the moment		风云人物
+4head of the house		太爷
+4way of the hegemon		霸王之道
+4still of the night		夜阑人静
+4lady of the house		主妇
+4world of the dead		那世
+4roof of the world		世界屋脊
+4law of the land		王法
+4talk of the town		满城风雨
+4hypocrisy of the world		世态炎凉
+4creation of the world		创世
+4ways of the world		世情
+5orld of the living		人世
+4middle of the month		月中
+inight		大半夜
+4top of the page		页首
+4nature of the offense		罪状
+4law of the jungle		丛林法则
+4facts of the matter		三七二十一
+4bottom of the page		页底
+4sole of the foot		脚掌
+4extremity of the foot		脚尖
+4surface of the river		江面
+5cene of the incident		事发地点
+4contents of the cup		杯中物
+4wing of the nose		鼻翼
+4tip of the nose		准头
+4ends of the earth		地角天涯
+4mysteries of the universe		玄奥
+4tip of the iceberg		老鼠拖木锨，大头在后头
+4gift of the gab		口齿伶俐
+4passage of the years		岁月如流
+4halo of the moon		月阑
+4wars of the roses		玫瑰战争
+4bulb of the fritillary		贝母
+4looks of the deceased		遗容
+5aws of the buddhism		迦持
+4views of the departed		遗教
+4first and the last		空前绝后
+4great and the good		贤人
+4old and the young		老小
+4good and the bad		玉石
+4police and the community		警民

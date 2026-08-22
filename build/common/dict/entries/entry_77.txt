@@ -1,500 +1,500 @@
-0national land		国土
-bw		国法
-aibrary		国家图书馆
-9museum of china		中国国家博物馆
-cic		国乐
-9or dynastic history book		国书
-9park		国家公园
-cliament		国民议会
-bstime		国技
-aeople's congress		全国人大
-aolice agency		内政部警政署
-dtics		国政
-arestige		国威
-9reconnaissance office		美国国家侦察局
-bpresentative		国手
-bsort district		国家旅游度假区
-bvolutionary army		国民革命军
-9security		国安
-h act		国安
-jgency		国家安全局
-ibureau		国家安全局
-blf-determination		民族主义
-aoccer team		国足
-cialism		国家社会主义
-buthwest combined university		国立西南联合大学
-aport		国技
-atandard		国标
-brength		国势
-aubsidy		国补
-bpervision commission		国家监委
-9taipei university of technology		国立台北科技大学
-cwan university		台湾大学
-aeam		国家队
-areasure		国宝
-gy		国库
-9unified entrance exam		统一招生
-cty		民族团结
-cversity of singapore		新加坡国立大学
-8ist feelings		民族主义情绪
-cgovernment		国民政府
-cparty		国民党
-csentiment		民族主义情绪
-6s of the persian gulf		海湾国家
-4ve american		印第安
-7dog		土狗
-7language		家乡话
-7person		本地人
-8lace		家乡
-7resource		天资
-7soil		乡土
-8tate		土邦
-7to		原产
-7words		固有词
-6s of one's own country		本国人
-3ural and relaxed		大方
-cunforced		行云流水
-erestrained		落落大方
-8birth		顺产
-8cavern		龙洞
-9hange		天演
-brm		天趣
-aild		亲生子女
-9olor		本色
-anditions		自然条件
-apper		自然铜
-8disaster		天灾
-bposition		性地
-8economy		自然经济
-9ndowments		资质
-avironment		水土
-8fiber		天然纤维
-9lavor		原味
-8gas		天然气
-9ift		天分
-8history		博物学
-8instincts		本性
-8language		自然语言
-aw		天道
-ayer		自然层
-9eader		宗主
-9ife span		天年
-9ogarithm		自然对数
-8moat		天堑
-ather		生母
-8note		本位音
-9umber		自然数
-8parents		生父母
-9erson		自然人
-9henomenon		自然现象
-8qualities		本色
-8resource		自然资源
-gs		物产
-9ubber		天然橡胶
-8science		博物
-f fund		自然科学基金会
-fs		自然科学
-9election		天择
-9ilk		蚕丝
-8therapy		自然疗法
-9oxin		天然毒素
-8uranium		天然铀
-7ly evolving sequence		演替
-aflowing water		活水
-9-formed feet		大脚
-5e and scenery		自然风光
-7reserve		自然保护区
-7versus nurture		先天与后天
-2ughty and mischievous		顽劣
-3mann's thrush		红尾鸫
-3ng mung scimitar babbler		瑙蒙短尾鹛
-3tical ephemeris		航海年表
-9mile		海里
-2val and air military base		海空军基地
-6base		军港
-6mine		水雷
-6port		军港
-6vessel		兵船
-3el orange		脐橙
-3igation lock		船闸
-bmarker		警标
-broute		航路
-3y and air force		海空军
-army		海陆军
-5blue		海军蓝
-5vessel		船舰
-2zi germany		德三
-5party		纳粹党
-1eanderthal man		尼安德塔人
-3p tide		小潮
-3r ancient history		近古
-7d distant relatives		远门近枝
-6t hand		在即
-5east		近东
-5in time		近期
-5the mark		挨边
-6o		挨近
-4-earth object		近地天体
-5field communication		近场通信
-4by and therefore convenient		近便
-7regions		四旁
-4ctic realm		新北界
-4ing completion		七七八八
-8death		濒死
-4ly going to		几欲
-3t and tidy		干净利落
-9well-spaced		匀整
-4ly laid out		俨然
-2bulizer treatment		雾化
-2cessary and sufficient condition		充要条件
-acondition		必要条件
-3k of a bottle		瓶颈
-4ar river in germany		内卡河
-3tar source		蜜源
-2ed not		不必
-4le and thread		针线
-7felting		针毡
-6-leaved forest		针叶林
-eplant		针叶植物
-6ss to say		自不待言
-2gative character		反面人物
-aonnotation		贬义
-brrelation		负相关
-9electric charge		负电
-fode		阴极
-anergy		负能量
-axample		反面教材
-9feedback		负反馈
-9growth		负增长
-9infinity		负无穷
-bteger		负整数
-aon		负离子
-9number		负数
-9pole		负极
-aressure		负压
-9repercussions		反弹
-9score		负分
-aentence		否定句
-9value		负值
-3lected or overlooked area		死角
-4igent homicide		过失致死罪
-3otiable instrument		票据
-ls act		票据法
-bprice		二价
-bsecurities		可转让证券
-iy		证券
-7ted settlement		协约
-2ighbor on farmland		地邻
-8hood warden		里长伯
-8ing and allied		友邻
-ccountry		邻国
-7urhood committee		居委会
-3ther fish nor fowl		非驴非马
-8haughty nor humble		不亢不卑
-9ere nor there		不着边际
-8obsequious nor supercilious		不卑不亢
-9verbearing nor servile		不亢不卑
-8servile nor overbearing		不卑不亢
-9ide wins		两败俱伤
-9upercilious nor obsequious		不亢不卑
-8war nor peace		不战不和
-2lson or nillson		尼尔逊
-2o catechumenal way		新慕道团
-3-confucian idealistic school		心学
-erationalistic school		理学
-3lithic era		新石器时代
-3n lights		霓虹
-2pal fulvetta		白眶雀鹛
-6house martin		黑喉毛角燕
-3hew by the male line		堂侄
-2rve agent		神经性毒剂
-6center		神经中枢
-7ord		神经索
-6fiber		神经纤维
-6gas		神经性毒剂
-6process		神经突
-4ous abnormality		神经失常
-8breakdown		精神崩溃
-8system		神经系统
-2st egg		老本
-4ling pigeon		雏鸽
-4orian christianity		景教
-2t addiction		网瘾
-4bag		网袋
-6ll		擦网球
-4cage		网箱
-5ontents		内容量
-4income		净收入
-4present value		净现值
-6ofit		实利
-4receipts		实收
-4used to catch fish		网罟
-4value		净值
-4weight		净含量
-5orth		净值
-4zero		净零
-3her world		阴司
-6lands antilles		荷属安的列斯
-3ted enclosure		网室
-7veins		网状脉
-4le cell of medusa		刺胞
-3work adapter card		网卡
-adress translation		网络地址转换
-aministrator		网管员
-9pplication		网络应用
-8browser		网络浏览器
-8design		网络设计
-8environment		网络环境
-9quipment		网络设备
-8infrastructure		网路架构
-8layer		网络层
-d protocol		网络层协议
-9ink layer		网路链接层
-8management		网管
-i interface		网管接口
-jsystem		网络管理系统
-er		网管员
-9igration		网络迁移
-8node		网路节点
-c interface		网路节点介面
-8of blood vessels		脉络
-9perating system		网络操作系统
-8plan		网络设计
-cner		网络规划人员
-btform		网路平台
-9rotocol		网络协议
-8router		网关
-8segment		网段
-arvice		网路服务
-8technology		网络技术
-2ural net		神经网
-awork		神经元网
-7tube		神经管
-4ology department		神经科
-3tral country		中立国
-8gear		空挡
-8tone		轻声
-7izing antibody		中和抗体
-5on bomb		中子弹
-8capture		中子俘获
-8number		中子数
-8radiography		中子射线摄影
-8source		中子源
-9tar		中子星
-2ver before		破天荒
-6did		从没
-6let go		株守
-6mind		不打紧
-6occurring		未有
-6seen before		前所未见
-bsince ancient times		亘古未有
-6to be forgotten		永志不忘
-6weakening		不衰
-5-ending struggle		转战千里
-dtreadmill		风火轮
-2w recruit		新兵
-4addition to a family		新丁
-5ge		新时代
-5nd dashing		新锐
-9ifferent		新异
-8elegant		新雅
-8pointed		尖新
-5ppointee		新贵
-5rmies		新军
-4blood		纳新
-4caledonia		新喀里多尼亚
-5haracter		生字
-5onstruction		新建
-5ustom		新风
-4deal		新政
-6mocracy		新民主主义
-4edition		新版
-5ngland		新英格兰
-4faction		新派
-5orce		生力军
-5riend		新知
-4generation		新一代
-e of youths		新新人类
-5uinea		新几内亚
-4hand		新手
-5igh		新高
-5ome		新居
-6using development		新村
-4idea		新意
-8s		新思想
-4knowledge		新知
-4latin		新拉
-5ease of life		九死一生
-5ife		新生
-5ow		新低
-4model		新款
-6on		新月
-4or unfamiliar words		生词语
-4party		新党
-5olicy		新政
-5roblems arise unexpectedly		节外生枝
-4residence		新居
-5ule		新规
-6ral cooperative medical scheme		新型农村合作医疗
-4south wales		新南威尔士州
-5trait times		新海峡时报
-6udent		新生
-6yle		新款
-4taiwan dollar		台币
-5erritories		新界
-6stament		新约
-5rend		新风
-4version		修改稿
-4wave		少壮派
-5ord		生词
-7k		新作
-7ld leaf-nosed bats		叶口蝠科
-4year		新年
-8 picture		年画
-9greeting card		贺年卡
-9holidays		年假
-9reception		团拜会
-8's card		贺年片
-bday		元旦
-beve		新年前夕
-5ork		纽约
-8 city		纽约市
-9post		纽约邮报
-9state		纽约州
-bock exchange		纽交所
-9times		纽约时报
-9university		纽约大学
-9yankees		洋基
-8er		纽约人
-4zealand		新西兰
-3-born baby		小毛头
-3born animal		仔畜
-8baby		新生儿
-c's excrement		脐屎
-3castle disease		新城病
-3ly arrived		后来
-6born		新出生
-7uilt		新建
-6elected		新任
-7merging		翻新
-7nlisted officer student		入伍生
-6hatched bird		雏儿
-echicken		雏鸡
-efish		鱼花
-esilkworm		蚕蚁
-6made		新造
-8rried		新婚
-d couple		新婚夫妇
-6promoted team		升班马
-6rich		暴发户
-6set up		新编
-5-emerged cicada nymph		知了猴
-5weds' home		婚房
-3s agency		新闻网
-6rticle		小段子
-5bureau		分社
-5conference		新闻发布会
-5digest		报摘
-5feed		消息来源
-6rom the grapevine		小道新闻
-5items		琐闻
-5media		新闻媒体
-5of sb's death		凶信
-6ne has heard		听闻
-5service		新闻处
-6tory		通讯
-5tidbits		珍闻
-4paper chain		报系
-butting		剪报
-aindustry		报业
-aoffice		报馆
-br magazine masthead		刊头
-areport		报纸报导
-9s and periodicals		报刊
-4week magazine		新闻周刊
-3ton meter		牛米
-6ian mechanics		牛顿力学
-2xt chapter		下回
-5day		次日
-6oor		间壁
-5episode		续集
-5life		下世
-5month		下个月
-5of kin		直系亲属
-7fice holder		下任
-6ne		下家
-5page		下一页
-6eriod		下期
-5service		下班
-5time		下回
-6o		邻接
-7 nothing		微乎其微
-8serve		下任
-8the aisle		靠走廊
-5week		下个星期
-5year		来年
-4-door neighbor		比邻
-is		左邻右舍
-5to-last item on a program		压轴戏
-1gawang choepel		阿旺曲沛
-1iagara falls		尼亚加拉瀑布
-2ce and salty		咸津津
-9warm		暖和
-5one		好活当赏
-5person		好鸟
-5surprise		惊喜
-5to hear		受听
-8meet you		幸会
-3he for statue		佛龛
-6within an ecosystem		生态位
-3kel sheet		镍箔
-4name for a panda		滚滚
-dbald people		光头强
-dlas vegas		赌城
-dofficial		官老爷
-dtaipei		天龙国
-ehe city suzhou		人间天堂
-dvictoria beckham		贝嫂
-9of korean singer psy		鸟叔
-3otinic acid		烟酸
-3titating membrane		瞬膜
-2ece's husband		侄女婿
-3lsen or nelson		尼尔森
-2ger river of west africa		尼日尔河
-3ht attack		夜袭
-6blindness		夜盲
-6clothes		睡衣
-8ub		迪厅
-7urfew		宵禁
-6demon		梦魔
-8parture		夜行
-6journey		宵征
-6life		夜生活
-6market		夜市
-6of sexual bliss		春宵
-7wl		夜神仙
-6patrol		查夜
-6scene		夜色
-8hool		夜校
-7hift		夜班
-7ky		夜空
-7oil		大粪
-7weats		盗汗
-6terror		夜惊
-7rain		晚车
-6vision		夜视
-c device		夜视仪
-6walk		夜行
-8tchman		更夫
-e's clapper		更鼓
-5-blooming jessamine		夜来香
-6scented lily		姑婆芋
-5time entertainment venue		夜场
-asnack		消夜
-2kolai chernyshevsky		车尔尼雪夫斯基
-4n corporation		尼康
-2ne tones and six modes		九声六调
-4-tailed fox		九尾狐
-cturtle of mythology		九尾龟
-4ty percent		九成
-3gpo figwort		玄参
+0argentine		梅西
+0merriam		梅里亚姆·韦伯斯特
+0webster		梅里亚姆·韦伯斯特
+0meilisi		梅里斯区
+0daur		梅里斯区
+0gleditsia		梍
+0ovata		梓
+0zitong		梓潼县
+0jasminoides		栀
+0conditioned		条件反射
+9al		条件句
+0ordinances		条例
+0statutes		条例
+0tidiness		条理
+0clauses		条目
+0grammatoptila		条纹噪鹛
+0fraxinus		梣
+0sterculia		梧
+0platanifolia		梧
+0wutong		梧桐
+0sterculiaceae		梧桐科
+0malvale		梧桐科
+0rigveda		梨俱吠陀
+0lishu		梨树区
+0dimples		梨涡
+0raindrops		梨花带雨
+1emoving		梩
+0bursts		梭子
+0saxaul		梭梭
+2csaoul		梭梭
+0haloxylon		梭梭
+0ammodendron		梭梭
+1dolphe		梯也尔
+0thiers		梯也尔
+0stepladder		梯子
+0laddering		梯式配股
+0terraced		梯形
+1ickell		梯氏鸫
+0unicolor		梯氏鸫
+0terracing		梯田
+0irons		械系
+0gangs		械斗
+0souffl		梳乎厘
+0deflorate		梳弄
+0combs		梳篦
+1leef		梵克雅宝
+0arpels		梵克雅宝
+0talipot		梵册贝叶
+0chanting		梵呗
+0brahma		梵天
+6na		梵书
+0watching		弃剧
+0rejecting		弃取
+0sacrificed		弃子
+0defending		弃守
+0voluntarily		弃权
+0deprecated		弃用
+0quilted		棉
+0wadding		棉絮
+0candyfloss		棉花糖
+0medan		棉兰
+1indanao		棉兰老岛
+0phaseolus		棉豆
+0lunatus		棉豆
+0helicoverpa		棉铃虫
+0armigera		棉铃虫
+0nettapus		棉凫
+0coromandelianus		棉凫
+0kifu		棋谱
+0shogi		棋谱
+0torreya		棐
+0nucifera		棐
+0cornflour		棒子面
+1ruelly		棒打鸳鸯
+0societal		棒打鸳鸯
+1uscitator		棕三趾鹑
+0rufogularis		棕喉雀鹛
+0buffy		棕噪鹛
+1erthemyi		棕噪鹛
+0caledonicus		棕夜鹭
+0phoenicuroides		棕尾伯劳
+0lophophorus		棕尾虹雉
+0impejanus		棕尾虹雉
+0ferruginous		棕尾褐鹟
+0rufinus		棕尾𫛭
+0zitting		棕扇尾莺
+0cisticola		棕扇尾莺
+0juncidis		棕扇尾莺
+0spilopelia		棕斑鸠
+1enegalensis		棕斑鸠
+0edwardsii		棕朱雀
+0periparus		棕枕山雀
+0rufonuchalis		棕枕山雀
+0arecaceae		棕榈科
+0palmae		棕榈科
+5te		棕榈襞
+0folds		棕榈襞
+0plicae		棕榈襞
+1almatae		棕榈襞
+0montanella		棕眉山岩鹨
+0armandii		棕眉柳莺
+0butastur		棕翅𫛭鹰
+0liventer		棕翅𫛭鹰
+0occipitalis		棕肛凤鹛
+0schach		棕背伯劳
+0bicolor		棕背田鸡
+1lanford		棕背雪雀
+0snowfinch		棕背雪雀
+0pyrgilauda		棕背雪雀
+0blanfordi		棕背雪雀
+0kessler		棕背黑头鸫
+7i		棕背黑头鸫
+0coracias		棕胸佛法僧
+0strophiata		棕胸岩鹨
+0bambusicola		棕胸竹鸡
+0fytchii		棕胸竹鸡
+0hyperythra		棕胸蓝姬鹟
+0pellorneum		棕胸雅鹛
+0tickelli		棕胸雅鹛
+0sundara		棕腹仙鹟
+0fugax		棕腹杜鹃
+0tarsiger		棕腹林鸲
+0subaffinis		棕腹柳莺
+0dendrocitta		棕腹树鹊
+0vagabunda		棕腹树鹊
+0lophotriorchis		棕腹隼雕
+0kienerii		棕腹隼雕
+0rufiventer		棕腹鵙鹛
+0abroscopus		棕脸鹟莺
+1lbogularis		棕脸鹟莺
+0koslowi		棕草鹛
+0cercotrichas		棕薮鸲
+0galactotes		棕薮鸲
+0luteoventris		棕褐短翅莺
+0cypsiurus		棕雨燕
+0balasiensis		棕雨燕
+1runnifrons		棕顶树莺
+0chinned		棕颏噪鹛
+0ochraceiceps		棕头钩嘴鹛
+0spectacled		棕头雀鹛
+0ruficapilla		棕头雀鹛
+0vinous		棕头鸦雀
+0webbiana		棕头鸦雀
+0chroicocephalus		棕头鸥
+0brunnicephalus		棕头鸥
+0aceros		棕颈犀鸟
+0luzonica		棕颈鸭
+0bushtit		棕额长尾山雀
+0iouschistos		棕额长尾山雀
+0zizyphus		枣
+0jujuba		枣
+0zaoqiang		枣强县
+0witches		枣疯病
+0candidatus		枣疯病
+0phytoplasma		枣疯病
+0ziziphi		枣疯病
+1aoyang		枣阳市
+0urchins		棘皮动物
+0cucumbers		棘皮动物
+0tsintaosaurus		棘鼻青岛龙
+0spinorhinus		棘鼻青岛龙
+0latticework		棚架格子
+0ridgepole		栋
+0leaved		棠梨
+0kerria		棣
+0trestlework		栈
+7s		栈径
+0passageway		栈道
+0connecting		栈道
+0yoshir		森喜朗
+0silviculture		森林培育
+1hinrin		森林浴
+0yoku		森林浴
+0sennheiser		森海塞尔
+0morita		森田
+0limitlessly		森罗
+0yama		森罗宝殿
+0sembilan		森美兰
+0wetlands		栖居
+0qixia		栖霞区
+0cabbages		棵
+0macrophylla		梾木
+0unsmiling		棺材板
+0toasted		棺材板
+0hollowed		棺材板
+0stools		椅凳
+0fagus		椈
+0sylvatica		椈
+1turnus		椋鸟
+0cineraceus		椋鸟
+0mus		椌
+0instr		椌
+0arbor		植树节
+0plantae		植物界
+0grafting		植皮
+0intervertebral		椎间盘
+0forking		桠
+0zelkowa		椐
+0peppercorn		椒子
+0jiaojiang		椒江区
+0ponkan		椪柑
+1engbing		椪饼
+1ho		椪饼
+1ia		椪饼
+0birgus		椰子蟹
+0latro		椰子蟹
+0paradoxurus		椰子猫
+0hermaphroditus		椰子猫
+0colada		椰林飘香
+0nata		椰果
+0pivots		椳
+0toona		椿
+0altissima		椿
+0rainie		杨丞琳
+0ningshi		杨凝式
+0liwei		杨利伟
+0shouren		杨守仁
+2angkun		杨尚昆
+0jianli		杨建利
+0yueqing		杨月清
+0carambola		杨桃
+0populus		杨树
+0yangpu		杨浦区
+0jiechi		杨洁篪
+0guifei		杨玉环
+0xuanzhong		杨玉环
+0brigham		杨百翰
+0fujia		杨福家
+0xiuqing		杨秀清
+0hucheng		杨虎城
+0jocularly		杨过
+0homonyms		杨过
+0kaihui		杨开慧
+0yangling		杨陵区
+0sungorus		枫叶鼠
+1weetgum		枫香木
+0liquidambar		枫香木
+0formosana		枫香木
+0cachar		楔嘴鹩鹛
+0sphenocichla		楔嘴鹩鹛
+0roberti		楔嘴鹩鹛
+0sphenocercus		楔尾伯劳
+5urus		楔尾绿鸠
+0ross		楔尾鸥
+1hodostethia		楔尾鸥
+0cydonia		楙
+0vitex		楚
+0contending		楚国
+0surmounts		楞严
+0ceylon		楞迦
+0machilus		楠
+0nanmu		楠
+0redwood		楠
+0phoebe		楠木
+0zhennan		楠木
+0nangarhar		楠格哈尔省
+3zi		楠梓
+3tzu		楠梓
+0shoemaker		楦头
+0hobbyist		业余爱好者
+0broussonetia		楮
+0kasinoki		楮
+1ozogami		楮纸
+0acanthis		极北朱顶雀
+0hornemanni		极北朱顶雀
+0elysium		极乐世界
+0sukhavati		极乐世界
+0totalitarianism		极权主义
+0extremism		极端主义
+0pistacia		楷
+0mallotus		楸
+0bungei		楸树
+0trusses		榀
+0conceptualization		概念化
+0fuzzy		概而不论
+0yuzhong		榆中县
+0elmwood		榆木
+0thickhead		榆木脑壳
+0yuci		榆次区
+2she		榆社县
+2wang		榆罔
+2yang		榆阳区
+0lacebark		榔榆
+0ulmus		榔榆
+0parvifolia		榔榆
+0microcarpa		榕
+0rongjiang		榕江县
+0hazelnut		榛
+0corylus		榛
+0heterophylla		榛
+0filbert		榛果
+0bushy		榛芜
+0weedy		榛芜
+0applicants		榜单
+0pseudocydonia		榠楂
+0extracting		榨
+0oils		榨
+0winepress		榨酒池
+0cabinetmaking		榫
+0roewe		荣威
+0vinh		荣市
+0roncheng		荣成湾
+3gchang		荣昌区
+0withering		荣枯
+0yiren		荣毅仁
+0veterans		荣总
+0honours		荣誉学位
+0serviceman		荣誉军人
+0disgraces		荣辱观
+0oblonga		榅桲
+0durio		榴莲
+0zibethinus		榴莲
+0pusaetha		榼
+0scandens		榼
+0peduncled		桤树
+0cremastogyne		桤树
+0trebeculata		桤树
+0papyrifera		构
+0wedging		槌
+0gunshot		枪伤
+3man		枪匪
+0pokes		枪打出头鸟
+0marksmanship		枪法
+0gunmetal		枪灰色
+0huaiyin		槐荫区
+0flattened		杠头
+0aliena		槲栎
+0mistle		槲鸫
+0viscivorus		槲鸫
+0rower		桨手
+0oarsman		桨手
+0paddleboarding		桨板
+b		桨板
+0sapindales		槵
+0zelkova		槻
+0slotted		槽孔
+0invites		槽点
+0thecodontia		槽齿目
+0reptiles		槽齿目
+0thecodont		槽齿类
+0ritz		乐之
+0laoting		乐亭县
+0giddily		乐呵呵
+0lotte		乐天
+0optimists		乐天派
+0leping		乐平市
+0ballads		乐府诗集
+0maoqian		乐府诗集
+1usicality		乐感
+0oxfam		乐施会
+0lechang		乐昌市
+0reunited		乐昌破镜
+0ledong		乐东
+2ye		乐业县
+1ohas		乐活
+1ifestyles		乐活
+0sustainability		乐活
+0lelang		乐浪郡
+0commandery		乐浪郡
+9ies		乐浪郡
+0lezhi		乐至县
+2roy		乐华梅兰
+0diy		乐华梅兰
+0betty		乐蒂
+0loh		乐蒂
+1uxor		乐蜀
+0tesco		乐购
+0ledu		乐都区
+1aoling		乐陵市
+0zongyang		枞阳县
+0tongling		枞阳县
+0manjack		樆
+0cordia		樆
+0fancheng		樊城区
+0planking		楼板
+0decks		楼船
+0turreted		楼船
+0simaroubaceae		樗
+0guards		标兵
+0symptoms		标本
+0racetrack		标柱
+0amenities		标准间
+0keystone		标砖
+0motorists		标线
+0reticle		标线
+0peugeot		标致
+0iconic		标志性
+0submitting		标金
+0clicks		标题党
+5bait		标题党
+1ensorate		枢垣
+1amphara		樟
+1hangi		樟宜
+0zhangmu		樟木
+5shu		樟树市
+0modularity		模块化
+7		模块单元
+0emulator		模拟器
+0adc		模数转换器
+0formwork		模板
+0approximation		模样
+0mauritius		模里西斯
+0stylesheet		样单
+0ballets		样板戏
+0ailanthoides		樧
+0woodman		樵夫
+0portsmouth		朴次茅斯
+1ermaculture		朴门
+0topples		树倒猢狲散
+0monkeys		树倒猢狲散
+0opportunist		树倒猢狲散
+0abandons		树倒猢狲散
+0sinking		树倒猢狲散
+0treetop		树冠
+0shulin		树林
+0dendritic		树状细胞
+0tamarillo		树番茄
+0monumentalize		树碑立传
+3tanus		树麻雀
+0betula		桦
+0huanan		桦南县
+3chuan		桦川县
+0betulaceae		桦木科
+0huadian		桦甸市
+0bungeana		橁
+0olives		橄榄山
+0peridotite		橄榄岩
+0hashimoto		桥本
+0qiaodong		桥东区
+0songwriting		桥段
+0pons		桥脑
+0qiaoxi		桥西区
+0roadway		桥面
+0gems		橐中装
+0hunchback		橐驼
+0reticulata		橘
+0yanzhi		橘录
+0pulcher		橙斑翅柳莺
+0elliot		橙翅噪鹛
+0trochalopteron		橙翅噪鹛
+0elliotii		橙翅噪鹛
+0trogon		橙胸咬鹃
+0harpactes		橙胸咬鹃
+0oreskios		橙胸咬鹃
+0gorgeted		橙胸姬鹟
+0bicinctus		橙胸绿鸠
+0leafbird		橙腹叶鹎
+0chloropsis		橙腹叶鹎
+0hardwickii		橙腹叶鹎
+0geokichla		橙头地鸫
+0citrina		橙头地鸫
+0knocks		机不可失，失不再来
+0robotics		机器人学
+0airfield		机场
+0shadowsocks		机场
+0circumventing		机场
+0mechanize		机械化
+1achinist		机械师
+0hdd		机械硬盘
+0mecha		机甲
+0undoing		机关算尽太聪明，反算了卿卿性命
+0electromechanical		机电
+0headstock		机头座
+0airframe		机体
+0oaken		橡木
+0sheathed		橡皮线
+0elliptic		椭圆
+0crosswise		横
+0flagrantly		横加
+0horseback		横吹
+0yokoyama		横山
+0hengfeng		横峰县
+4zhou		横州市
+0transversal		横截线
+0shakehand		横拍
+0nisoria		横斑林莺
+0athene		横斑腹小鸮
+0brama		横斑腹小鸮
+0hengduan		横断山脉
+0crossbar		横木
+0yokohama		横滨
+0furrowed		横眉怒目
+0brows		横眉怒目
+0commissure		横神经
+0striation		横纹
+0yokozuna		横纲
+0cartwheels		横翻筋斗
+0amuck		横行
+0jostling		横冲直撞
+0elbowing		横冲直撞
+0crossroad		横路
+0tabula		横隔
+0yokosuka		横须贺
+0crosswind		横风
+0glauca		橿
+0hardwood		檀
+0tangun		檀君
+0honolulu		檀香山
+0straightening		檃栝
+0pigeonholes		档

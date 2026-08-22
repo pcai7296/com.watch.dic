@@ -1,360 +1,281 @@
-0to barge into		挤进
-6k		吠叫
-7 furiously		狂吠
-8out a sound		叫唤
-6ter		以物易物
-5se a work		依傍
-8oneself on		凭依
-6k in the light		沾光
-6te		涂油
-5t		击球
-6he		泡澡
-6ter		冲打
-7le against		开战
-5wl		吆喝
-7 out		痛骂
-4e		存在
-5 turn		轮到
-6a bargain		合算
-9eliever		在教
-anefit to		裨益
-9ig disappointment		坑爹
-9urden on		拖累
-8cinch		不在话下
-9ulture snob		附庸风雅
-8different person		判若两人
-asgrace		丢人现眼
-8favorite		得宠
-8go-getter		进取
-aod deal		合算
-dfit		合体
-dmatch		相契
-c-for-nothing		不是东西
-8laughing stock		闹太套
-8movie actor		从影
-8newcomer		初来乍到
-9uisance		要命
-8paid escort		陪聊
-9erfectionist		求好心切
-9roblem		成问题
-bponent of		倡导
-8real headache		伤脑筋
-afugee		逃难
-8scapegoat		顶缸
-9econd so-and-so		再生
-9itting duck		待毙
-9oldier		当兵
-are loser		输不起
-9pokesperson		代言
-9ubstitute for		充作
-accessful candidate		得中
-aspect		涉嫌
-8tax on		劳神
-9eacher		执教
-9hief		作贼
-9rue friend		够朋友
-8vegetarian		吃素
-8wet blanket		大杀风景
-9orthy teacher		为人师表
-8yes-man		唯唯诺诺
-7bbreviated to		略作
-8laze with anger		吃枪药
-9e bodied		有手有脚
-bto		能够
-d afford		吃得消
-ebear		吃得住
-eendure		可堪
-esupport		吃得住
-fwim		会水
-etouch		摸得着
-ewithstand		经得起
-8orted prematurely		夭折
-9ut to		待要
-e arrive		将至
-fdie		将死
-fmaterialize		有眉目
-9ve		凌驾
-8sent		缺席
-c without leave		擅离职守
+0to have a passion for		酷爱
+3be short		缺少
+0be smooth and slick		八面玲珑
+0to be ever-victorious		百战百胜
+6among		名列
+6present		出勤
+3have a fondness for		贪恋
+apreference for		看中
+3be past worrying		债多不愁
+6above		凌驾
+6total strangers		素不相识
+6faithful unto death		死节
+6behind bars		蹲大牢
+6responsible		负责任
+6self-reliant		自立自强
+6quick-witted		灵动
+6fair		摆平
+6happy		欢悦
+6an official		从吏
+6effective		行之有效
+6caught red-handed		人赃俱获
+6aware		憬然
+0not expected at the outset		始料未及
+0to be worth mentioning		值得一提
+6fast asleep		沉睡
+6ready		就绪
+6alone		孑立
+6dead		不在了
+a drunk		酣醉
+6popular		吃得开
+6dog-tired		累成狗
+6closed		闭馆
+6spared worry		省心
+6duty bound		责无旁贷
+6perfect		十全十美
+8stered beyond endurance		不胜其烦
+0fated to be ill-matched		克星
+0to be critically ill		病危
+6ill		有病
+6terminally ill		病危
+6sorry		不好意思
+6having an affair		脚踏两只船
+6flat		泄气
+6born		下世
+a unlucky		薄命
+6relevant		沾边
+6patient		耐心
+6an irksome presence		碍眼
+6tight		麻吉
+6beside oneself		不能自已
+6willing		心甘
+9d		乱搞
+6an exception		例外
+6religious		信教
+6extremely accurate		毫厘不爽
+0criminal to be executed		刑人
+0to be busy		忙乎
+6afraid		惧怕
+6witness		证婚
+6exam-oriented		应试
+6honest		说老实话
+6blind		瞎眼
+0lesson to be learned		借镜
+0to be officially wed		明媒正娶
+6loyal		仗义
+6alive		在世
+6pregnant		孕育
+6an unrecognized talent		怀才不遇
+6oriented towards		导向
+6anxious		急眼
+6mortal		不免一死
+6upset		不是滋味
+6satisfactory		称意
+6mobile		走动
+6generous		高抬贵手
+7rateful		感恩
+6dominant		独尊
+6made redundant		被优化掉
+6scared stiff		破胆
+6compatible		投合
+6brave		有种
+3have one's fill of		受尽
+3be intimate		相好
+6corrupt		贪污
+6ridiculous		贻笑
+6absent		缺席
 c-minded		开小差
-9orbed with		沉迷
+7lert		警醒
+6furious		大发雷霆
+7ined		挨罚
+6applicable		适用
+0a promise must be kept		一言为重
+0harmony is to be prized		以和为贵
+0to be ambitious		有志
+6evenly matched		棋逢对手
+6alike		相像
+6worthwhile		上算
+6an ambassador		代言
+6worm-eaten		蠹蛀
+6cynical		愤世嫉俗
+6utterly defeated		败绩
+6indifferent		无所谓
+6rude		唐突
+6idle		游手
+6lazy		偷惰
+6humble		放低
+6unduly humble		妄自菲薄
+6facing imminent calamity		大难临头
+6jealous		吃味
+6tolerant		包荒
+6imminent		临头
+6given detention		留堂
+6pending		待定
+6deceased		不在
+6narrowly partisan		党同伐异
+6stranded		搁浅
+6moth-eaten		蠹蛀
+6opportune		正逢其时
+6fleeting		飞逝
+6inseparable		双宿双飞
+6gravely mistaken		大错特错
+6indebted		承蒙
+6apprehensive		怵惕
+6overdue		逾期
+6totally oblivious		浑然不知
+6lenient		从轻
+6taken aback		跌眼镜
+6kidding		说着玩
+6rampant		猖獗
+6tenable		成立
+6outdated		落伍
+6superfluous		挨不上
+6belligerent		好斗
+6congenial		谈得来
+6sb's guarantor		作保
+6envious		妒嫉
+6interdependent		相依
+6diffident		发虚
+6ostentatious		摆谱
+6conjugate		共轭
+6fawningly submissive		低首下心
+6submissive		冲挹
+6disloyal		失节
+6entranced		入神
+6invincible		所向无敌
+7mpassioned		沸腾
+9etuous		冲动
+6delirious		神志不清
+6promiscuous		乱搞男女关系
+6rapt		神往
+6kindred spirits		投缘
+6manually adroit		手巧
+6predestined		命定
+6magnanimous		高抬贵手
+6sb's concubine		做小
+6indomitable		百折不挠
+6forever filial		孝思不匮
+6bashful		害臊
+6officious		越帮越忙
+6preeminent		雄踞
+6stingy		抠脚
+6credulous		听风就是雨
+6savvy		懂局
+7eaworthy		适航
+0be bound to		保险
+3unequal to		不胜
+0considered to be		算是
+0nowhere to be found		不见了
+0to be		存在
+5 aborted prematurely		夭折
 7ccommodating		容让
-bpanied by		伴有
-9ustomed to		过惯
 8quitted		脱罪
 7ddicted		成瘾
-e to		沉迷
 9led		秀逗
-8ept in		长于
-8justed to uniformity		整齐划一
 8mired		让人羡慕
-atted to		考取
 8vised		待复
-7ffiliated to		归属
-hwith		挂靠
-9licted with		患有
-8raid		惧怕
-c of heights		恐高
-gstrangers		怕生
-8ter		追捕
 7gitated		躁动
 7irworthy		适航
 7larmed		怵惕
-8ert		警醒
-8ike		相像
-9ve		在世
-8l alone		孤身只影
-ain tears		挥泪
-apresent		到齐
-aright		没事
-asmiles		笑盈盈
-atalk		耍嘴皮子
-8one		孑立
 7mazed		吃惊
-8bitious		有志
-f and unafraid		长风破浪
-9ushed		中伏
-8enable to persuasion		服软
-8ong		名列
-7n ambassador		代言
-9exception		例外
-bpert in		深谙
-ayesore		煞风景
-9irksome presence		碍眼
-9official		从吏
-9unrecognized talent		怀才不遇
+8bushed		中伏
+7n eyesore		煞风景
 8esthetized		舒眠
 8nexed		沦亡
 9ihilated		破灭
 9oyed		心烦
 8ointed		受膏
-8tagonistic to		对立
-9i-imperialist		反帝
-8xious		急眼
-d and frightened		惴惴不安
-iworried		忧思
-7part from		距离
-8palled		惊骇
-9licable		适用
+8ti-imperialist		反帝
+7ppalled		惊骇
 9ointed		受任
-9rehensive		怵惕
-aoved		获批
-8t to change		善变
-7round the corner		将至
-ased		兴起
+9roved		获批
+7roused		兴起
 8rested		被捕
-e by fear		畏忌
-7s as ever		不减当年
-8hamed to face		愧对
-8king for trouble		活得不耐烦
-8sured of success		左券在握
-8tonished		呆住
+7stonished		呆住
 aunded		大跌眼镜
-7t a disadvantage		占下风
-bloss		大惑不解
-bstandstill		踏步不前
-an impasse		走投无路
-9death's door		命在旦夕
-9ease		放心
-9home		在家
-9large		在逃
-aoggerheads		顶牛儿
-9odds		不和
-d with		相左
-ane's post		在岗
-9risk		堪虞
-9sb's mercy		人为刀俎，我为鱼肉
-9the scene		临场
-9wits' end		一筹莫展
-7vailable for sale		上架
-9ricious and mean		贪鄙
 7waiting betrothal		待字
-9re		憬然
-9y on business		公出
 8fully		不可开交
-6backed up by		背倚
-8ffled		一头雾水
+6baffled		一头雾水
 8lding		歇顶
 8ptized		受浸
 8refoot		裸脚
-8shful		害臊
 7eaten		挨揍
-8hind bars		蹲大牢
 8leaguered		交迫
-9ligerent		好斗
-8neath one's dignity		有失身份
-9t on		居心
-8side oneself		不能自已
-8tter than		强似
-9ween two parties		居中
 8wildered		挑花眼
 atched		卡到阴
-8yond control of		由不得
 7iased		右袒
 7lessed		有福
-8ind		瞎眼
-bed by greed		白托
-8ocked up		不通
 7oastful		浮夸
-8rn		下世
-a of		出身
-bunlucky		薄命
-bwith		生就
-8und to		势必
-e prevail		必胜
-8wled over		折服
-7randed as		戴帽子
-9ve		有种
-b enough to		勇于
-8eached		崩决
+7reached		崩决
 9wing		酝酿
-8imming over		漫溢
-j with		满溢
 8oken-hearted		伤心
-9ught up		生长
 7ullied		受气
-8mper to bumper		大排长龙
 8rglarized		闹贼
 9ied		葬身
-8stling with customers		客似云来
-9y		忙乎
-a rushing about		奔忙
 6called		即为
-c by god		蒙召
 8nceled		停摆
-8pable of		能够
-9tivated		着迷
+8ptivated		着迷
 aured		落网
 8reful		小心
 9sick		晕车
-8ught off guard		猝不及防
-dred-handed		人赃俱获
-dunprepared		抓瞎
-9sed by		所致
-9tious or vigilant		提神
+8ught unprepared		抓瞎
 7entered		居中
-8rtain of victory		必胜
-eto get		稳获
 7hattersome		叨唠
 8eated		受骗
 8ivalrous		行侠仗义
-8oked up		鼻酸
-9osy		挑三拣四
+8oosy		挑三拣四
 8ristened		受洗命名
-7lassified as		列为
-8ear		澄清
-b about		明了
-b-eyed		擦亮眼睛
-8ogged up		拥塞
-9se		沾边
-b friends		义结金兰
-cto		傍近
-bd		闭馆
-bly related		休戚相关
+7losely related		休戚相关
 8ueless		没谱
 7ocky		翘尾巴
-8gnizant of		认知
 8llectively called		统称
 8mmissioned		受托
-9parable to		堪比
-btible		投合
-g with		相合
-aelled		硬逼
-alete strangers		素未谋面
-ed		告竣
-ely at ease		把心放在肚子里
-hconvinced		诚服
+9pelled		硬逼
+aleted		告竣
+ely convinced		诚服
 hgone		走光
-hsold out		售罄
 8ncerned		劳神
-f about		介怀
-ailiatory or apologetic		赔小心
-9fined to		限于
-aronted		当事
+9fronted		当事
 aused		一头雾水
-e and disoriented		找不着北
-9genial		谈得来
-bsted		拥塞
-9jugate		共轭
+9gested		拥塞
 9nected		交通
-9sidered to be		即为
-atantly evolving		长江后浪推前浪
+9stantly evolving		长江后浪推前浪
 bipated		结恭
 brained		受限
 9taminated		浸染
-aent with		甘于
 ainued		待续
-arary to		违背
-bolled		受制
+arolled		受制
 eing		管东管西
 9vinced		折服
 aulsed		前俯后仰
 8rrelated		有关联
-aupt		贪污
 8upled		耦合
-8vered with		布满
-i water		积水
-7redulous		听风就是雨
-8ippled		致残
-9tically ill		病危
-cized		挨批
-8owded together		挨肩擦背
-7ut off from		绝缘
-7ynical		愤世嫉俗
-6daunted by challenges		畏难
-8zed		昏头
+7rippled		致残
+9ticized		挨批
+6dazed		昏头
 9zled		看花眼
-d and stunned		目眩神迷
-7ead		不在了
-a drunk		酣醉
-alocked		僵持
-9f and blind		眼瞎耳聋
-bto		听不进去
+7eadlocked		僵持
 8capitated		身首异处
-9eased		不在
-9ided by		取决
 9ommissioned		退役
-8dicated to		奉祀
 8eply affected		沦浃
 dconcerned		关切
 dgrieved		哀恸
 dhidden		深藏
-din		深陷
 8feated		失手
-e and dispersed		败亡
-9icient in		欠缺
-aned to be		即为
-bitely able		定能
-8lighted with oneself		轩轩自得
-arious		神志不清
-asted		退市
+8listed		退市
 8moted		驳落
-8pendent on		倚赖
-9ressed		想不开
+8pressed		想不开
 8ranged		嗔狂
-8tached from		超脱
-9ermined		决意
-g by		视乎
-hto		执意
-j win		势在必得
+8termined		决意
 bred		望而却步
-7iagonally opposite to		斜对
-8fficult		难过
-f to bear		难受
-bdent		发虚
-8gnified		自重
-8ligent or attentive		用心
-8rected at		对准
+7ignified		自重
 8sappointing		不争气
-9charged from hospital		出院
-aontented		心存不满
+9contented		心存不满
 dinued		断线
 buraged		气馁
 bvered		案发
 aredited		不攻自破
 9graced		现世
-austed with		反感
-9loyal		失节
 9missed		下课
 9orderly		又吵又闹
 9satisfied		带气
@@ -362,24 +283,12 @@ austed with		反感
 bessed		心疼
 bibuted		分布
 8vorced		离独
-7og-tired		累成狗
-8minant		独尊
-8ne		成了
-a for		完了
-bwith it		了事
-7rawn into		卷入
-cto		吸住
-8owned		灭顶
-8unk and rowdy		酗讼
+7one		成了
+7rowned		灭顶
 7umbfounded		呆住
 8ped		上当
-8ty bound		责无旁贷
-6eager and anxious		怦怦
-cfor		巴不得
-bly sought after		受追捧
-8rthshaking		震古烁今
+6earthshaking		震古烁今
 7clipsed		黯然失色
-7ffective		行之有效
 7lated		心花怒放
 8ected		膺选
 7mbarrassed		下不了台
@@ -387,114 +296,205 @@ bly sought after		受追捧
 8otionally involved		婵媛
 imoved		动容
 8ployed		受雇
-e at		受聘于
-7namored of		恋慕
-8chanted		入迷
-f by		迷恋
-8gaged in politics		从政
-9rossed		沉迷
+7nchanted		入迷
+8grossed		沉迷
 8raged		着恼
 8thralled		入神
-9irely different		泾渭分明
-atled		有资格
-e to		有权
-9ranced		入神
-aenched		固守
+9itled		有资格
+9renched		固守
 austed		受托
-8vious		妒嫉
-7qual to		匹敌
-9ipped with		搭载
 7radicated		绝迹
 8oded		流失
 7stablished		立足
 9ranged		形同陌路
-7ven		两不相欠
-a better than		更胜
-bworse		有过之而无不及
-a-steven		两不相欠
-aly matched		棋逢对手
-9r-victorious		百战百胜
-aywhere		无处不在
-7xactly as if		俨如
-elike		俨如
-9m-oriented		应试
-8ecuted		伏法
+7verywhere		无处不在
+7xecuted		伏法
 8hausted		丧失殆尽
 8pected		可望
 cing		有喜
 9osed		掉漆
 8terminated		死绝
-9remely accurate		毫厘不爽
-6face to face		对面
-ad with		当前
-g problems		面临困难
-9ing imminent calamity		大难临头
-8ir		摆平
-9thful unto death		死节
-8miliar with		认识
-8r from		远离
-ainferior		望尘莫及
-8scinated		入迷
-9t asleep		沉睡
-aidious but incompetent		眼高手低
-8wningly submissive		低首下心
+6fascinated		入迷
 7earful		狼顾
-8d up with		受够
 7iercely competitive		一山不容二虎
-8lled with		布满
 8nalized		尘埃落定
-9ed		挨罚
 9ished		完了
 8red		下课
-9st to		挑头
-e start		领头
 8xed		发直
-7lat		泄气
-8eeting		飞逝
-8ooded		淹水
+7looded		淹水
 8ustered		心慌
-7ond of		喜爱
-8oled		上当
-8r rent		招租
-9ever filial		孝思不匮
-9giving		包荒
+7ooled		上当
+8rgiving		包荒
 8und throughout		遍布
 7rank		说老实话
-8ee		没事
-a of worries		安枕
 8iendly		示好
 9ghtened		吓倒
-g into fits		吓昏
-hto death		胆破
 7ulfilled		应验
-9l		弥满
-a of		充斥
-d admiration		激赏
-eremorse		自怨自艾
-etricks		见招拆招
-evigor		发扬踔厉
-ezeal		来劲
-bto overflowing		满溢
-ay aware of		明知
-cconcentrated		目不斜视
+9ly concentrated		目不斜视
 cfocused		心神专注
-8rious		大发雷霆
 6genderswapped		性转
-9erally referred to		通称
-bous		高抬贵手
-8tting on well		吃得开
-7ifted with		生就
-8ven		获赠
-b detention		留堂
-cone's freedom		从良
-cspecial treatment		吃小灶
-7oing to		将要
-8ne forever		杳如黄鹤
-8od at		善能
-d using		善用
-bin bed		活好
-a-hearted and honest		让畔
+7iven		获赠
+7one forever		杳如黄鹤
 7radually influenced		浸染
-9teful		感恩
-aified		欣慰
-9vely mistaken		大错特错
+9tified		欣慰
+8ouchy		发牢骚
+anded		停飞
+6hanged		绞缢
+8rmful		有损
+9vested		下来
+7eard		传来
+aing impaired		耳背
+7ighly principled		深明大义
+dsuccessful		大功告成
+8red		受雇
+7omesick		思乡
+9ophobic		恐同
+8odwinked		受骗
+8spitalized		入院
+7umiliated		蒙羞
+6illogical		不通
+7mmortalized		流芳百世
+8partial		摆平
+assable		不通
+9otent		倒阳
+9risoned		坐牢
+7nattentive		旁骛
+8competent		吃干饭
+anclusive		流标
+9urable		药石无灵
+8fected		化脓
+artile		不育
+9luenced		耳濡目染
+9ormed		得悉
+8oculated		接种
+8tensifying		越演越烈
+arested		感兴趣
+brelated		牵扯
+bviewed		受访
+bwoven		婵媛
+8volved		有份
+8wardly terrorized		心战
+7rrelevant		不相干
+6jammed		回堵
+7ittery		风声鹤唳
+7oyous		欢悦
+6killed		罹难
+8ndhearted		心软
+7nowing		憬然
+6lacking		亏缺
+7imited		受限
+8nked		连锁
+7ocated		坐落
+d prominently		雄踞
+8nely		孤寡
+8st		失联
+6marooned		放逐
+9ried		同床共枕
+7eddlesome		好事
+8ntally confused		神志不清
+8rciful		行善
+7indful		留意
+8slead		误信
+9matched		错配
+9sing		不见
+9taken		差远
+areated		受气
+7oved		动心
+7urdered		遇害
+6named		取名
+7ewly married		初婚
+6obsessed		鬼迷心窍
+cive		执念
+9tructed		不通
+7ccupied		沦陷
+7mitted		漏掉
+7neself		做自己
+7perative		起作用
+8inionated		自以为是
+7vershadowed		黯然失色
+6paralyzed		风瘫
+9tial		偏心眼
+7eeved		赌气
+aish		磨人
+8nniless		一文不名
+7icky		挑三拣四
+8ercingly painful		钻心
+7layful		好玩
+8easantly surprised		蘧然
+7oisoned		中毒
+8ssessed		卡到阴
+9ted		派驻
+aponed accordingly		顺延
+7rematurely gray		少白头
+9occupied		魂不守舍
+8ofitable		开红盘
+9moted		加官
+7ublished		问世
+8nished		挨罚
+8rely		纯属
+9portedly		号称
+8zzled		费解
+6qualified		有资格
+8its		两不相欠
+6reasonable		讲理
+asured		释念
+8born		再生
+9uked		挨剋
+8conciled		复合
+8duced		沦落
+8incarnated		再世
+8lated		有联系
+8nowned		享誉
+8solved		立志
+9tless		坐卧不宁
+aricted		受限
+8united		重逢
+8vived		枯木逢春
+7idiculed		见笑
+7outed		披靡
+7uined		沦丧
+8mored		外传
+6sacked		落马
+8tisfied		心甘
+8ved		得救
+7cared senseless		吓疯
+7eated		坐定
+8cretly delighted		暗爽
+8ttled conclusively		定局
+8xually aroused		流鼻血
+gttracted		走肾
+7hamed		蒙羞
+bless		赖脸
+9ttered		破灭
+8ocked		吃惊
+9rtsighted		目光短浅
+7idelined		坐冷板凳
+8tuated		坐落
+7ofthearted		心软
+8ld		销行
+8mebody		混出名堂
+7pared		免于
+8eechless		咋舌
+8oiled		减色
+7tartled		吃惊
+8ifling		熏蒸
+8uck		卡关
+9dying		在读
+9nned		发呆
+7urprised		讶异
+8spended		停摆
+aicious		信不过
+6taken prisoner		就擒
+7empted		动心
+8nderhearted		心软
+8rrified		不寒而栗
+7horoughly discredited		名誉扫地
+8rilled		乐歪
+8undering		响雷
+7icklish		怕痒
+7otally devoted		掏心掏肺
+fispersed		散尽
+eshameless		死不要脸
+7ransformed		幻化
+9pped		瓮中之鳖
+8easured		可贵

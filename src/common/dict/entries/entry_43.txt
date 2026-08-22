@@ -1,500 +1,500 @@
-0check-in counter		登机手续柜台
-5ed pattern		方格
-8tone		入声
-6red pattern		棋格状
-5out counter		收款台
-5s and balances		制衡
-3eks streaming with tears		泪流满面
-4rful and lighthearted		欢快
-fvely		有说有笑
-doptimistic		高高兴兴
-atmosphere		喜气
-9look		喜色
-9talk		笑语
-5ing excitedly		欢呼雀跃
-5leading squad		啦啦队
-5s and laughter		欢声笑语
-4sy crust		芝心
-7pick-up lines		土味情话
-3mical ammunition		化学弹药
-analysis		化学分析
-9base		碱基
-aond		化学键
-9change		化学变化
-aolorimetry		化学比色法
-bmbination		化合
-cposition		化学成分
-eund		化合物
-9dosimeter		化学剂量计
-9element		化学元素
-anergy		化学能
-bgineering		化学工程
-aquation		化学方程式
-axamination		化验
-9fertilizer		化肥
-aormula		化学式
-9industry		化学工业
-9laser		化学激光器
-9property		化学性质
-9reaction		化学反应
-9transformation		化学变化
-9warfare		化学战
-g agent		化学战剂
-chead		化学战斗部
-aeapon		化学武器
-3n jingrun chinese number theorist		陈景润
-5of the southern dynasties		南朝陈
-4cang district of baoji city		陈仓
-4g san		静山
-5du sports university		成都体育大学
-7's main airport		双流
-3rished desire		心愿
-4ry tomato		小番茄
-3sapeake bay		契沙比克湾
-4s champion		棋王
-6game		棋赛
-6piece		棋子
-7layer		棋手
-6skill		棋艺
-5board layout		一盘棋
-4t and hypochondrium		胸胁
-6distress		胸闷
-6expander		拉力器
-6fluoroscopy		胸透
-6measurement		胸围
-6of drawers		五斗柜
-6pain		胸闷
-6silhouette		胸靶
-7ticking to back		前胸贴后背
-6voice		胸音
-5nut bulbul		栗背短脚鹎
-bnting		栗鹀
-9munia		黑头文鸟
-9thrush		灰头鸫
-8-bellied nuthatch		栗腹䴓
-hrock thrush		栗腹矶鸫
-areasted partridge		红胸山鹧鸪
-9capped babbler		红顶鹛
-aheeked starling		紫背椋鸟
-arowned bush warbler		大树莺
-hlaughingthrush		红头噪鹛
-hwarbler		栗头鹟莺
-9eared bunting		栗耳鹀
-9flanked white-eye		红胁绣眼鸟
-9headed bee-eater		栗头蜂虎
-gtesia		栗头地莺
-9tailed starling		灰头椋鸟
-ahroated monal-partridge		雉鹑
-9vented nuthatch		栗臀䴓
-9winged cuckoo		红翅凤头鹃
-3ung sha wan		长沙湾
-3val de frise		拒马
-4ron corporation		雪佛龙公司
-3wing gum		口香糖
-2ia seed		奇亚籽
-4yi city in central taiwan		嘉义市
-3cken bouillon powder		鸡精
-9reast		鸡排
-8carcass used for cooking		鸡架
-9oop		鸡窝
-9utlet		鸡排
-8drumstick		棒棒腿
-8farm		养鸡场
-9eather		鸡毛
-9oot		鸡爪
-8gizzard		鸡珍
-f lining		鸡内金
-8in rice wine		醉鸡
-8jelly		鸡冻
-8meat		鸡肉
-8nugget		鸡块
-es		鸡米花
-8piece		鸡块
-8raised for meat		肉鸡
-8soup		鸡汤
-9tock		鸡汤
-arips		鸡柳条
-8wing		鸡翅
-ath cashew nuts		腰果鸡丁
-3ef accounting officer		主计
-6cabinet secretary		官房长官
-7offin bearer		杠头
-7ulprit		罪魁
-6editor		总编
-7nemy		大憝
-7xecutive		执行长
-f officer		首席执行官
-6financial officer		首席财务官
-6information officer		首席信息官
-6justice		首席大法官
-6labor contractor		包工头
-6marketing officer		行销长
-6of staff		参谋长
-8fender		元凶
-7perating officer		营运长
-7r principal post		正职
-6representative		首席代表
-6surgeon		主刀
-6technology officer		首席技术官
-3kungunya fever		基孔肯雅热
-3ld asylum		孤儿院
-6bride		小媳妇
-6emperor		小皇帝
-6in need of help		心影儿
-9the womb		孕宝宝
-6labor		童工
-6marriage		童婚
-7odel		童模
-6of an official		衙内
-6prodigy		人精
-6soldier		娃娃兵
-ds		童子军
-7tar		童星
-7upport		赡养费
-d payment		抚养费
-6trafficking		贩婴
-6with birth defect		畸形儿
-bdown syndrome		唐氏儿
-bspecial needs		特殊儿童
-5's generation		子代
-8play		儿戏
-8voice		奶音
-5bearing age		育龄
-7d fever		产褥热
-5care worker		阿姨
-5hood friend		竹马之交
-aname		小名
-asweethearts		青梅竹马
-5ish and awkward		稚拙
-9heart		童心
-9innocence		童心
-9nature		稚气
-5like voice		奶音
-5ren by a previous marriage		拖油瓶
-9of celebrities		星二代
-cmigrant workers		流动儿童
-cofficials		官二代
-cthe nobility		王孙
-8's bed		童床
-bcenter		少年之家
-clothing		童装
-dub		少年之家
-bday		儿童节
-bfairy tales		童话
-bpicture story book		小人书
-clay area		儿童乐园
-broundabout		转椅
-bwords carry no harm		童言无忌
-4i con carne		辣豆酱
-6oil		红油
-6pepper		尖椒
-6sauce		辣椒酱
-4l about everything		佛系
-6wind		阴风
-5ing cold		冷森森
-5y air		霎霎
-7weather		寒天
-3ming clock		自鸣钟
-4onanthus praecox		腊梅
-3n rest		腮托
-4a air transport association		中国航空运输协会
-9lines		中华航空公司
-7nd north korea		中朝
-ataiwan		中台
-bhe west		中西
-7tomic energy agency		中国国家原子能机构
-7udio-video copyright association		音集协
-6banking regulatory commission		中国银行业监督管理委员会
-7eijing equity exchange		北京产权交易所
-7usiness		中国经营报
-e morning post		华商晨报
-fnews		华商报
-6citic bank		中信银行
-7lay		高岭土
-7oast guard		海警局
-8ncepts stock		中概股
-9struction bank		中国建设银行
-aumers' association		中国消费者协会
-7ymbal		中国钹
-6daily		中国日报
-7evelopment bank		国家开发银行
-7isabled persons' federation		中国残疾人联合会
-6earthquake administration		中国地震局
-8stern airlines		中国东方航空
-7ducation and research network		中国教育和科研计算机网
-7verbright bank		中国光大银行
-6geological survey		中国地质调查局
-7reat wall industry corporation		中国长城工业公司
-6insurance regulatory commission		中国保险监督管理委员会
-6japan korea unified ideographs		中日韩统一表意文字
-6law society		中国法学会
-6mengniu dairy company limited		蒙牛
-8teorological administration		中国气象局
-7obile		中国移动通信
-6national farmers' games		农运会
-fnuclear corporation		中国核能总公司
-foffshore oil corporation		中海油
-fpeople's congress		中国人大
-htroleum corporation		中国石油天然气集团公司
-fspace administration		中国国家航天局
-7ews service		中新社
-7orth industries corporation		中国北方工业公司
-6ocean shipping company		中远
-7rnithological society		中国鸟类学会
-6pink		石竹
-7ost		中国邮政
-6radio international		中国国际广播电台
-6scholarship council		国家留学基金管理委员会
-7ecurities journal		中国证券报
-hregulatory commission		中国证券监督管理委员会
-7hip scientific research center		中国船舶重工集团公司
-abuilding trading corporation		中国船舶贸易公司
-7outhern airlines		南航
-7tate shipbuilding corporation		中国船舶工业集团
-6telecom		中国电信
-7imes		中国时报
-6unicom		中国联通
-9ted airlines		中国联合航空
-9versity of geosciences		中国地质大学
-6watcher		中国通
-7riters association		中国作协
-6youth		中青
-b daily		中国青年报
-cleague		中国共产主义青年团
-5's foreign propaganda machine		大外宣
-5-south korea		中韩
-4ese academy of engineering		中国工程院
-jscience		中国科学院
-kocial sciences		中国社会科学院
-9lligator		扬子鳄
-apine rush		蓑草
-9nd english two-way translation		汉英互译
-cwestern medicine		中西医
-aise		八角茴香
-9rtichoke		草石蚕
-9sh		梣树
-8babax		矛纹草鹛
-amboo partridge		灰胸竹鸡
-arbet		黑眉拟啄木鸟
-9eautiful rosefinch		红眉朱雀
-9lackbird		乌鸫
-aue flycatcher		中华仙鹟
-9oxing		拳脚
-9roccoli		甘蓝
-bwn frog		中国林蛙
-9ulbul		白头翁
-ash warbler		中华短翅莺
-8cabbage		青菜
-apital		中资
-9edar		楠木
-9haracter		国字
-h dictionary		字典
-ierror		错别字
-hs		方块字
-aeckers		跳棋
-bss		象棋
-d tournament		象棋赛
-ctnut		板栗
-9innamon		官桂
-avil war		国共内战
-9omics		国漫
-anstellations		星官
-ark oak		栓皮栎
-9rested tern		黑嘴端凤头燕鸥
-aocodile lizard		鳄蜥
-9uisine		中国菜
-8divination almanac		黄历
-9oughnut		面窝
-9ress		中装
-aum-shaped stool		坐墩
-8egret		黄嘴白鹭
-9lephant garlic		多瓣蒜
-9nkianthus		灯笼花
-aterprise		中资
-8fan palm		蒲葵
-9lat cabbage		塌棵菜
-aowering cabbage		菜心
-jrab apple		海棠
-m-apple		海棠花
-iquince		木瓜
-9rancolin		中华鹧鸪
-9ulvetta		高山雀鹛
-8geophysical society		中国地球物理学会
-9iant redwood		楠木
-esalamander		中国大蝾螈
-9ooseberry		奇异果
-9rassbird		大草莺
-aeen date		青枣
-by shrike		楔尾伯劳
-aosbeak		黑尾蜡嘴雀
-buse		斑尾榛鸡
-8hawthorn		山楂
-9erb tea		凉茶
-cal medicine		中草药
-bring		曹白鱼
-9igh-fin banded shark		胭脂鱼
-9olly		枸骨
-aney locust		皂荚
-arse chestnut		七叶树
-9wamei		画眉
-8juniper		刺柏
-8kale		芥蓝
-9notweed		何首乌
-8language		中国话
-g education		华教
-btern plant		红姑娘
-9eaf warbler		云南柳莺
-9ocalization		汉化
-8materia medica		本草
-9ilk vetch		紫云英
-annow		尖头鱥
-9onal		绿尾虹雉
-betary fund		中央汇金
-9ustard		青江菜
-8national culture		国学
-9ew year		大过年
-g festivities		新春佳节
-ilower		吊钟花
-g's eve		大年三十
-9uthatch		黑头䴓
-8olive		橄榄
-9nion		大葱
-9pera		戏曲
-d performer		戏子
-ns		梨园子弟
-9r lacebark elm		榔榆
-9steopathy		正骨
-8painting		中国画
-arasol tree		梧桐
-atriotic catholic association		中国天主教爱国会
-iislamic association		中国伊斯兰教协会
-9earleaf crabapple		林檎
-anduline tit		中华攀雀
-aony		芍药
-bple's armed police force		中国人民武装警察部队
-hliberation army navy		中国人民解放军海军
-arch		鳜鱼
-cussion fixed pattern		锣鼓点
-jinstruments		锣鼓
-bson		中国人
-9honetics		音韵学
-btinia		石楠
-9illow box		枕头箱
-9lum-yew		粗榧
-9oker		十三张
-and heron		池鹭
-9rickly ash		花椒
-8quince		榠楂
-8red pine		油松
-bbud		紫荆
-amainder theorem		中国剩余定理
-astaurant		中餐馆
-i syndrome		中国餐馆症候群
-9iver dolphin		白𬶨豚
-9ose		月季
-awan tree		湖北花楸
-9ural dog		中华田园犬
-8script		华文
-9har-pei		沙皮狗
-bwm		觱栗
-9ilkworm moth		蚕蛾
-9oviet republic		中华苏维埃共和国
-9parrowhawk		赤腹鹰
-ainach		苋菜
-9quash		冬瓜
-9teamed twisted bread roll		花卷
-audies		汉学
-ayle		中国式
-9umac		五倍子树
-aper league		中超
-dmarket		中超
-9weetgum		枫香木
-8thorowax		柴胡
-arush		宝兴歌鸫
-9raditional medicine		传统医药
-lusic		国乐
-auffle		猪拱菌
-bmpet vine		凌霄花
-9ulip tree		鹅掌楸
-anic suit		中山服
-8underdot		着重号
-aits of measurement		市制
-bversity of hong kong		香港中文大学
-8vampire		僵尸
-9iolet		紫花地丁
-avid niltava		棕腹蓝仙鹟
-8waistcoat		坎肩
-ater chestnut		荸荠
-9hite pear		鸭梨
-ewax bug		白蜡虫
-d-browed rosefinch		中国白眉朱雀
-9ood-oil tree		油桐
-9ritten language		汉文
-8yam		薯蓣
-9o-yo		扯铃
-9uan		大洋
-7-style dumpling		扁食
-egown		袍子
-elow stool		兀凳
-epants		散腿裤
-8western fusion		中西合并
-4k in the armor		罩门
-4ook salmon		大鳞大麻哈鱼
-3p shot		起扑
-4ped stone implement		打制石器
-3ropractic therapy		脊椎指压疗法
-4ping of insects		蝉鸣
-3seled stone		麻石
-3valrous hero		大侠
-bperson		侠客
-2lamydia ornithosis		鸟疫衣原体
-3ormequat chloride		矮壮素
-2o chang		张秋
-3ck full		塞满
-4olate chip		巧克力脆片
-3ice of person		人选
-awords		用语
-3ked with bottled-up resentment		憋气
-csilt		淤塞
-4ing agent		窒息性毒剂
-3la mountains in sichuan		雀儿山
-4era bacterium		霍乱弧菌
-8toxin		霍乱毒素
-3nburi province of east thailand		春武里府
-4gqing municipality		重庆
-auniversity		重庆大学
-9's main airport		江北
-5wenmen gate in beijing		崇文门
-3p suey		李鸿章杂碎
-4ped fried noodles		丁丁炒面
-8green onions		葱花
-8wood		劈柴
-5ing block		菜墩子
-3rd angle		弦切角
-3sen and called		选召
-3w chow		松狮犬
-3y li fut		蔡李佛
-5sum		菜心
-2ristian association		团契
-achurch		教会
-ademocratic party		基民党
-lunion		基督教民主联盟
-cnomination		基督教派
-aera		公元
-alent		大斋节
-arite		圣事
-ascience		基督教科学派
-6mas and new year's day		双旦
-acard		圣诞卡
-aeve		平安夜
-afrigatebird		白腹军舰鸟
-aseason		圣诞节
-atime		圣诞节
-bree		圣诞树
-3oma key		色键
-4nic ailment		宿疾
-8condition		久病
-8disease		慢性病
-8fatigue syndrome		慢性疲劳症候群
-8illness		慢性疾病
-9nvalid		病包儿
+0edited		三侠五义
+0stories		三侠五义
+0pinghua		三侠五义
+0storyteller		三侠五义
+0yukun		三侠五义
+0worlds		三个世界
+0proposed		三个世界
+0superpowers		三个世界
+0usa		三个世界
+2sr		三个世界
+0guiding		三个代表
+0principles		三个代表
+0ccp		三个代表
+0introduced		三个代表
+0zemin		三个代表
+0enshrined		三个代表
+0mei		三个和尚没水吃
+1onks		三个和尚没水喝
+0sai		三个臭皮匠，胜过一个诸葛亮
+0cobblers		三个臭皮匠，合成一个诸葛亮
+0exceeds		三个臭皮匠，赛过一个诸葛亮
+0threefold		三倍
+0examinations		三元
+0sanyuan		三元区
+3ming		三元区
+0fujian		三元区
+0triol		三元醇
+3phthong		三元音
+0putonghua		三元音
+0uei		三元音
+0alls		三光政策
+0wwii		三光政策
+0arisaka		三八大盖
+0dmz		三八线
+0expenditures		三公经费
+0vehicles		三公经费
+0regions		三北
+0gobi		三北防护林
+0aimed		三北防护林
+0characteristics		三十二相
+0buddha		三十二相
+0dividing		三十八度线
+0agreed		三十八度线
+0yalta		三十八度线
+0zones		三十八度线
+0consonants		三十六字母
+0stratagems		三十六计
+1chemes		三十六计
+0zou		三十六计，走为上计
+0flows		三十年河东，三十年河西
+0xianyang		三原县
+0shaanxi		三原县
+1antai		三台县
+0mianyang		三台县
+4		三台县
+0sichuan		三台县
+0mixing		三合土
+0components		三合土
+0structures		三合院
+1hamisen		三味线
+0kingdoms		三国
+1orean		三国
+0silla		三国
+1amguk		三国史记
+2gi		三国史记
+0oldest		三国史记
+0compiled		三国史记
+0kim		三国史记
+0busik		三国史记
+0goguryeo		三国史记
+2u		三国史记
+0baekje		三国史记
+0dynastic		三国志
+0histories		三国志
+0chen		三国志
+0scrolls		三国志
+0guanzhong		三国演义
+0novels		三国演义
+0portraying		三国演义
+0heroes		三国演义
+0cao		三国演义
+0villains		三国演义
+0bwh		三围
+0issued		三大纪律八项注意
+1ncluded		三大纪律八项注意
+2junctions		三大纪律八项注意
+0civilians		三大纪律八项注意
+0wartime		三大纪律八项注意
+0beating		三天不打，上房揭瓦
+0starts		三天打鱼，两天晒网
+0religions		三夷教
+0nestorianism		三夷教
+0manichaeism		三夷教
+0zoroastrianism		三夷教
+0wives		三妻四妾
+0concubines		三妻四妾
+3fucian		三字经
+0tenets		三字经
+0swearword		三字经
+0gods		三官大帝
+0liao		三家村
+0mosha		三家村
+0criticized		三家村
+0treasures		三宝
+0sangha		三宝
+3bao		三宝太监
+0dollarbird		三宝鸟
+0eurystomus		三宝鸟
+0orientalis		三宝鸟
+0inches		三寸金莲
+0harringtonine		三尖杉酯碱
+0mishima		三岛由纪夫
+0yukio		三岛由纪夫
+0hiraoka		三岛由纪夫
+0kimitake		三岛由纪夫
+0gorges		三峡
+0yangtze		三峡
+0qutang		三峡
+0wuxia		三峡
+0xiling		三峡
+0sanhsia		三峡
+0taipei		三峡
+0changjiang		三峡水库
+0sanxian		三弦
+0plucked		三弦
+0snakeskin		三弦
+1oundbox		三弦
+1untory		三得利
+0virtues		三从四德
+0minds		三心二意
+0hearted		三心二意
+0shilly		三心二意
+2allying		三心二意
+0carefully		三思而后行
+0resulting		三手病
+0gained		三折肱
+0decoction		三拗汤
+0tcm		三拗汤
+0strikeout		三振
+0zhen		三振出局
+0doctrines		三教
+0confucianism		三教
+0schools		三教九流
+0confucians		三教九流
+0daoists		三教九流
+0legalists		三教九流
+1ogicians		三教九流
+0mohists		三教九流
+0strategists		三教九流
+0eclectics		三教九流
+0agriculturists		三教九流
+0trades		三教九流
+0macropodus		三斑
+0opercularis		三斑
+0sons		三族
+0clans		三族
+0straits		三旬九食
+1amsung		三星
+0xiu		三星
+0orion		三星
+0associated		三星
+0sanxingdui		三星堆
+0chengdu		三星堆
+0exhibiting		三星堆
+0centuries		三星堆
+0months		三春
+0samadhi		三昧
+0caos		三曹
+0established		三曹
+0poets		三曹
+0calligraphers		三曹
+1ronies		三朋四友
+0stumps		三柱门
+0bails		三柱门
+0poker		三条
+0triode		三极管
+0powers		三权分立
+1illars		三归依
+0bao		三归依
+0deduction		三段论
+0tortoiseshell		三毛猫
+0yat		三民主义
+0sen		三民主义
+1anmin		三民区
+0kaohsiung		三民区
+0trifluoride		三氟化硼
+0phosphorous		三氯化磷
+0trichloride		三氯化磷
+0fecl		三氯化铁
+0oxychloride		三氯氧磷
+0trichloromethane		三氯甲烷
+0chcl		三氯甲烷
+0sanshui		三水区
+0foshan		三水区
+0guangdong		三水区
+0yunnan		三江并流
+0northwestern		三江并流
+0jinsha		三江并流
+0lancang		三江并流
+0mekong		三江并流
+0cang		三江并流
+0salween		三江并流
+0kilometers		三江并流
+0recognized		三江并流
+0sanjiang		三江侗族自治县
+0liuzhou		三江侗族自治县
+0watered		三江平原
+0amur		三江平原
+0songhua		三江平原
+0ussuri		三江平原
+0sanjiangyuan		三江源
+0qinghai		三江源
+0headwaters		三江源
+1uanghe		三江源
+0wenchuan		三江生态旅游区
+0chuan		三江生态旅游区
+0sansha		三沙市
+3he		三河市
+0langfang		三河市
+0hebei		三河市
+0ministries		三法司
+0sany		三洋
+0miura		三浦
+0baien		三浦梅园
+0neo		三浦梅园
+0economist		三浦梅园
+0northeastern		三炮
+0attributes		三无
+0premises		三无企业
+0requirements		三无产品
+0truncal		三焦
+0cavities		三焦
+0abdominal		三焦
+0pelvic		三焦
+0jiao		三焦
+0sacrificial		三牲
+0rostering		三班倒
+0brothels		三瓦两舍
+0houses		三瓦两舍
+0lifetimes		三生有幸
+0multimeter		三用电表
+1ita		三田
+0sanda		三田
+0mitsuda		三田
+0bouts		三田
+0triassic		三叠纪
+0geological		三叠纪
+0walks		三百六十行
+0sovereigns		三皇
+1uiren		三皇
+0ren		三皇
+0fuxi		三皇
+0shennong		三皇
+0nong		三皇
+0emperors		三皇五帝
+0pao		三皇炮捶
+0trinitrotoluene		三硝基甲苯
+1nt		三硝基甲苯
+1riose		三碳糖
+0glyceraldehyde		三碳糖
+0quan		三碳糖
+0atp		三磷酸腺苷
+0superglue		三秒胶
+0cyperus		三棱草
+0rotundus		三棱草
+0sansui		三穗县
+0qiandongnan		三穗县
+0miao		三穗县
+0trisect		三等分
+0copperhead		三索锦蛇
+0elaphe		三索锦蛇
+0radiata		三索锦蛇
+0guides		三纲五常
+0benevolence		三纲五常
+0righteousness		三纲五常
+0trimer		三聚体
+0piao		三联式发票
+0vat		三联式发票
+0bian		三联式发票
+0publishing		三联书店
+7er		三联书店
+0triploblastic		三胚层动物
+0layers		三胚层动物
+0triplets		三胞胎
+0hurriedly		三脚两步
+0sanctioned		三自爱国教会
+0protestant		三自爱国教会
+0mitsubishi		三菱
+0tripitaka		三藏
+0collectively		三藏
+0scriptures		三藏
+1utras		三藏
+0commandments		三藏
+4entaries		三藏
+0mastered		三藏法师
+0xuanzang		三藏法师
+0zang		三藏法师
+0feudatories		三藩之乱
+0pacified		三藩叛乱
+0francisco		三藩市
+0california		三藩市
+0writers		三苏
+0values		三观
+0worldview		三观
+0xue		三角
+0legged		三角凳
+0trigonometric		三角函数
+2apezoidal		三角带
+2iangulum		三角座
+0angles		三角板
+0triangulation		三角测量法
+0surveying		三角测量法
+2pporter		三角腹带
+0briefs		三角裤
+0panties		三角裤
+0expressed		三言两句
+0diego		三貂角
+0santiao		三貂角
+0easternmost		三貂角
+0ventures		三资企业
+0lives		三足乌
+0samjog		三足乌
+0eurasian		三趾啄木鸟
+0picoides		三趾啄木鸟
+0tridactylus		三趾啄木鸟
+0sanderling		三趾滨鹬
+0calidris		三趾滨鹬
+0alba		三趾滨鹬
+0backed		三趾翠鸟
+0ceyx		三趾翠鸟
+0erithaca		三趾翠鸟
+0parrotbill		三趾鸦雀
+3adoxornis		三趾鸦雀
+7us		三趾鸦雀
+0rissa		三趾鸥
+0tridactyla		三趾鸥
+0lun		三轮
+0che		三轮
+2allenges		三农问题
+1un		三农问题
+0pioneers		三退
+0links		三通
+0emberiza		三道眉草鹀
+0cioides		三道眉草鹀
+0sandu		三都水族自治县
+0qiannan		三都水族自治县
+0buyei		三都水族自治县
+0sanlitun		三里屯
+5he		三里河
+3chong		三重
+0mie		三重
+0throwing		三铁
+0events		三铁
+1xcluding		三铁
+0sanmenxia		三门峡市
+0henan		三门峡市
+0sanmen		三门县
+0taizhou		三门县
+0zhejiang		三门县
+0pickpocket		三只手
+0tri		三项
+3nomial		三项
+1ernary		三项
+0heads		三头六臂
+0superhuman		三头六臂
+0abilities		三头六臂
+0triceps		三头肌
+0brachii		三头肌
+0visits		三顾茅庐
+0thatched		三顾茅庐
+0recruits		三顾茅庐
+0zhuge		三顾茅庐
+0visiting		三顾茅庐
+0requests		三顾茅庐
+0alluding		三马同槽
+0sima		三马同槽
+0conspirators		三马同槽
+0forces		三驾马车
+0contrasting		三魂七魄
+0ingredients		三鲜
+0sanlu		三鹿
+0poisoning		三鹿集团
+0directional		上
+0circumstances		上上之策
+0seniors		上下
+0juniors		上下
+0superiors		上下
+2bordinates		上下
+0matched		上下
+0tales		上下五千年
+0volumes		上下五千年
+0yuzhang		上下五千年
+0conspiratorial		上下其手
+7ing		上下其手
+0textual		上下文
+0disclosed		上不了台面
+0connections		上交
+0promoted		上位
+0epistatic		上位
+0semantics		上位词
+0hypernym		上位词
+0offerings		上供
+0ancestors		上供
+0gifts		上供
+0upload		上传
+0cauldrons		上刀山，下油锅
+0boiling		上刀山，下油锅
+0trials		上刀山，下油锅
+3bulations		上刀山，下油锅
+0seas		上刀山，下火海
+0flames		上刀山，下火海
+0upside		上升空间
+0nightfall		上半夜
+0forenoon		上半晌
+1luently		上口
+0sco		上合
+0cohomology		上同调
+0invariant		上同调
+0topological		上同调
+0diarrhea		上吐下泻
+0uphill		上坡
+2slope		上坡
+0shangcheng		上城区
+0hangzhou		上城区
+0codomain		上域
+0wai		上外
+0skywards		上天
+0hades		上天入地
+0lengths		上天入地
+0trapped		上天无路，入地无门
+0shangguan		上官
+1ilkworms		上山
+0bundles		上山
+0cocoons		上山
+0fields		上山下乡
+0leavers		上山下乡
+0forced		上山下乡
+0intellectuals		上山下乡
+0admitted		上岸
+0debts		上岸
+0authorities		上峰
+0listed		上市公司
+0occupancy		上座率
+0theravada		上座部
+0shangsi		上思县
+0fangchenggang		上思县
+0overhand		上手
+0pliocene		上新世
+0bearer		上方宝剑
+0licensed		上方宝剑
+0shangxing		上星
+0acupoint		上星
+0ups		上有政策，下有对策
+0policies		上有政策，下有对策
+0downs		上有政策，下有对策
+0aging		上有老下有小
+0shanghang		上杭县
+0longyan		上杭县
+0shanglin		上林县
+0nanning		上林县
+0shelves		上架
+2angli		上栗县
+0pingxiang		上栗县
+0jiangxi		上栗县
+0backswing		上杆
+0vices		上梁不正下梁歪
+0examinees		上榜
+0charts		上榜
+0addressee		上款
+0sheung		上水
+0reaches		上水
+0corp		上汽
+0saic		上汽
+1isu		上海外国语大学
+0pudong		上海浦东发展银行
+0swfc		上海环球金融中心
+0bok		上海白菜
+0shanghainese		上海话
+1se		上海证券交易所
+1ufe		上海财经大学
+1creening		上演
+1taging		上演
+0lungs		上焦
+0trending		上热搜
+0facing		上犬式
+0shangyou		上犹县
+0ganzhou		上犹县
+0workers		上班族
+0hours		上班时间
+0fitted		上环
+0iud		上环
+0ueda		上田
+0taken		上当
+0fooled		上当
+0duped		上当
+0scammed		上当受骗
+0epithelium		上皮
+1yelid		上眼睑
+0drops		上眼药
+0supremum		上确界

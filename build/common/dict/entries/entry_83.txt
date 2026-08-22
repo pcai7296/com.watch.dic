@@ -1,500 +1,500 @@
-0pars perculairs		岛盖部
-3t number		料号
-5of speech		词性
-8the official staff		有编制
-4-of-speech tagging		词性标注
-5time college		业大
-awork		半职
-eer		杂役
-4ed hair		分头
-4ial color blindness		色弱
-8derivative		偏微分
-9ifferential		偏微分
-k equation		偏微分方程
-8eclipse		偏蚀
-f of the moon		月偏食
-nsun		日偏食
-8hair dye		挑染
-8to		偏食
-5cipant in an expedition		征人
-9tion in politics		参政
-6ular abilities		能事
-dout one's dress		穿着讲究
-bkind		特种
-brequirement		特需
-bsolution		特解
-bthanks		特别感谢
-byear		年份
-9te matter		悬浮微粒
-5es to a contract		合同各方
-5ng ceremony		告别式
-8sorrow		离愁
-7s and reunions		悲欢离合
-5tion board		隔扇
-awall		间壁
-9ed-off area		隔间
-4ly employed		半失业
-7released from productive labor		半脱产
-4ner for dating		约会对象
-7s in notoriety		臭味相投
-4y a		甲方
-7ffairs		党务
-7nd government administration		党政
-lorganizations		党政机关
-6b		乙方
-7oss		党魁
-6caucus		党团
-7hief		党主席
-7ommittee		党委
-8ngress		党代会
-9stitution		党章
-6dancing		舞会舞
-6involved		事主
-6leader		党首
-cship group		党组
-6meeting		党派集会
-8mber		党人
-cship		党票
-g dues		党费
-6of compromise		中间派
-8ficials and ordinary people		干群
-6platform		党纲
-7rogram		党纲
-6school		党校
-7tanding		党龄
-6venue		轰趴馆
-2s de deux		双人舞
-3cal's hexagon		帕斯卡六边形
-9triangle		帕斯卡三角形
-3hto language		阿富汗语
-3sbook entry machine		补登机
-4ed on		传承
-9 from ancestors		祖传
-5nger cabin		客舱
-cpacity		载客量
-aelevator		客梯
-afare		车费
-blow		客流
-ainspection		旅检
-alift		客梯
-aplane		客机
-aship		客船
-atrain		客车
-dnsportation		客运
-avehicle		乘用车
-4ing line or score		及格线
-8thought		浮想
-9raveler		过客
-5on flower		西番莲
-9or drinking		酒兴
-9ruit		百香果
-8or egg fruit		鸡蛋果
-7ate love		男欢女爱
-5ve immunity		被动免疫
-9ncome		被动收入
-8smoking		被动吸烟
-4word protection		密码保护
-3t and present		今昔
-5days		来日
-6ynasties		历代
-5events		前事
-5generations		上辈子
-6rievance		旧恶
-5history		来路
-5master		高手
-6idnight		转钟
-5one's prime		过气
-5participle		过去分词
-5tense		过去式
-5years' almanac		老皇历
-4eurized beer		熟啤酒
-4ing table		涂浆台
-4ry bag		裱花袋
-7flour		低筋面粉
-4ure for cattle and horses		牧圉
-2tch of bruising		淤血斑
-9cloth		铺衬
-3ent drugs		专利药品
-7law		专利法
-8eather shoes		漆皮鞋
-7medicine		成药
-7office		专利局
-7right		专利权
-4rnal aunt		姑姑
-9female cousin		堂姊妹
-9grandfather		祖父
-emother		王母
-eparents		祖父母
-beat-aunt		姑奶奶
-fgrandfather		曾祖父
-kmother		曾祖母
-9line		父系
-aove		父爱
-9male cousin		堂兄弟
-9uncle		从父
-6ity leave		陪产假
-aor maternity test		亲子鉴定
-3h between fields		田陌
-5for the visually impaired		导盲道
-5leading to a grave		墓道
-5to the underworld		冥道
-6raveled		路程
-4ogenic bacteria		病菌
-benergy		邪气
-binfluence		风邪
-8y in tcm		病邪
-5logical changes		病变
-dscience		病因学
-3ient and accommodating		忍让
-8confidentiality		医密
-8zero		零号病人
-7's condition		病势
-3riarchal clan system		宗法
-csystem		家长制
-5otic health committee		爱国卫生运动委员会
-aoverseas compatriot		海外赤子
-4ol boat		巡逻艇
-7car		巡逻车
-7officer		巡警
-7vessel		巡逻船
-5n of a brothel		嫖客
-7saint		主保圣人
-3ter of rain		淅沥
-6ing sound		滴答
-6n matching		连连看
-8or die		模具
-8sheet		样张
-2ulson or powellson		保尔森
-3per's grave		义冢
-9thatched hut		蓬居
-3se button		暂停键
-2ved path		甬路
-away		甬道
-3ilion housing a stele		碑亭
-8s and kiosks		亭台楼阁
-2w print		爪印
-3n shop		质铺
-2x americana		美利坚治世
-2y and provisions for soldiers		兵饷
-3-per-click advertising		点击付费广告
-3able at sight		见票即付
-8to bearer		见票即付
-bthe bearer		无记名
-3ing special care		加意
-3ment and pension		俸恤
-8for goods		货款
-ctea		茶钱
-8in installments		分期付款
-8made afterwards		后付
-9ethod		付款方式
-8of claims		理赔
-bmoney owing		回款
-8slip		交款单
-8to a porter		力钱
-1e ratio		市盈率
-2a crab		豆蟹
-4gruel		豌豆粥
-4or bean		豆皀
-4shoots		豆苗
-4weevil		豌豆象
-3ce all year round		时绥
-7nd happiness		安乐
-aprosperity		太平盛世
-asecurity		太平
-6conference		和会
-8rps		和平队
-6discussions		和平会谈
-6envoy		和平特使
-6keeping group		保安团
-6negotiations		和平谈判
-6party		鸽派
-6talks		和平会谈
-7reaty		和平条约
-6wherever you go		出入平安
-5ful and carefree		安闲
-dharmonious		静好
-dquiet		清静
-9relations		和睦
-bunification		和平统一
-4h blossom		桃花
-6color		桃色
-6tree		桃树
-4ock river in xinjiang		孔雀河
-3k of a pagoda		塔尖
-8excitement		兴奋高潮
-5period		旺季
-5season		盛季
-5value		峰值
-4ed cap		大盖帽
-3nut butter		花生酱
-7gallery		吃瓜群众
-3r tree		梨树
-4l barley		洋薏仁
-6gray		珠灰
-6harbor		珍珠港
-6milk tea		珍珠奶茶
-6of great price		无价珍珠
-7yster		马氏珍珠贝
-6river		珠江
-b delta		珠三角
-5s and jades		珠玉
-5y white teeth		贝齿
-3sant and worker		农工
-8family		农家
-8movement		农运
-8party		农民党
-8woman		农妇
-2chora pipit		北鹨
-3king order		班辈
-3tinophora gassypiella		红铃虫
-4oral fin		胸鳍
-9muscles		胸肌
-9sandpiper		斑胸滨鹬
-8is major muscle		胸大肌
-2dantic and impractical		迂儒
-dstubborn		迂执
-dunrealistic view		迂见
-3dlers and common people		贩夫俗子
-3estal for stone tablet		碑座
-9type wc		坐便器
-6rian area		步行区
-bbridge		天桥
-bcrossing		横断步道
-j with zebra stripes		人行横道线
-bgroup		集体行走
-bprecinct		人行区
-bstreet		步行街
-bunderpass		人行地下通道
-bzone		徒步区
-a-vehicle mixed use		人车混行
-3icab driver		三轮车夫
-5el and calyx of muskmelon		瓜蒂
-2e inducing		走肾
-3l out		烧胎
-4ed garlic clove		蒜米
-7on the spot		现剥
-3p show		西洋镜
-4ing tom		偷窥狂
-3r competition		分庭抗礼
-7unseling		同侪咨商
-5group		同侪团体
-5pressure		同侪压力
-5review		同侪审查
-4less artwork		绝品
-2gu city in south myanmar		勃固
-2iping or beiping		北平
-2king ape-man		北京猿人
-7duck		北京烤鸭
-7gazette		京报
-7opera		二黄
-7university		北京大学
-2lagic cormorant		海鸬鹚
-3e's hair		火山毛
-3vic basin internal to ilium		髂窝
-7fin		腹鳍
-8loor		盆底
-2n and ink		笔墨
-4for animals		豢圉
-8livestock		畜栏
-4name		假名
-4pal		笔友
-5oint		笔尖
-4rack		笔架
-3al servitude		苦役
-5ty for a crime		罪刑
-8kick		十二码
-8points		扣分
-8shot		罚球
-4nnular jade pendant		玉玦
-3cil case		铅笔盒
-7sharpener		刨笔刀
-8kirt		一步裙
-3dente lite		在诉讼期间
-4ulum clock		摆钟
-3etrating insight		真知灼见
-cradiation		穿透辐射
-9on of a cutting tool		吃刀
-3g bo		彭勃
-5county in sichuan		彭县
-5zu		彭祖
-3hold grip		直拍
-3is or vulva		小便
-3nant used on expedition		征旆
-4e pasta		尖管面
-5d words		词翰
-4iless and full of care		穷愁
-agood-for-nothing		穷光蛋
-4y stocks		仙股
-6wise and pound foolish		贪小失大
-3sion granted as a favor		恩俸
-3t-up frustration		窝囊气
-9ury		积愤
-8unspoken grievances		哑巴亏
-4asorbital sodium		戊巴比妥钠
-5tonic scale		五声音阶
-2ony card		牡丹卡
-6used in tcm		芍药
-3ple disperse home		云散风流
-7far from home		远人
-7killed in battle		阵亡者
-7living on the frontiers		边民
-7not understanding each other		鸡同鸭讲
-7of a country		国族
-cnation		国民
-bncient times		古人
-aone's grandparents' generation		祖父辈
-gparents' generation		父辈
-athis province		本省人
-7who feel		有心人
-bregularly eat out		外食族
-buse their heads		有心人
-6's action party		人民行动党
-armed police		武警部队
-9bank of china		中国人民银行
-bsic needs		衣食住行
-9commune		人民公社
-burt		人民法院
-9daily		人民日报
-aemocratic dictatorship		人民民主专政
-krepublic of korea		朝鲜民主主义人民共和国
-9expectations		人意
-9government		人民政府
-9liberation army		人民解放军
-o air force		中国人民解放军空军
-bvelihood		民生
-9militia		民兵
-9organization		人民团体
-9party		人民党
-9republic of bangladesh		孟加拉人民共和国
-lchina		中华人民共和国
-lmongolia		蒙古人民共和国
-9tribunal		人民法院
-9welfare		民生
-2p talk		精神训话
-3ino melon		人参果
-3per genus		胡椒属
-7spray		胡椒喷雾
-6mint oil		薄荷油
-3si light		百事轻怡
-3tide bond co-nh		肽键
-8chain		肽链
-8group		肽基
-8unit		肽单位
-6oglycan or murein		肽聚糖
-2r book		账载
-4diem		按天
-4mensem		按月
-4person		每人
-4se		本身
-3cent sign		百分号
-7age allotment		分成
-bof repeat customers		回头率
-evotes obtained		得票率
-bpoint		百分点
-brise		升幅
-5ption of tremor		震觉
-7ual awareness		感性认识
-4ussion instrument		打击乐器
-brhythm		锣鼓点
-3egrine falcon		游隼
-4nnial root		宿根
-3fect and without blemish		完美无缺
-8finish		曲终奏雅
-8happiness		花好月圆
-8in her traditional roles		贤慧
-8match		绝配
-8pair		珠联璧合
-9erson		完人
-e or thing		完璧
-8score		满点
-9olution		妙法
-8tense		完成时
-9iming		来得早不如来得巧
-8wife		贤妻
-7ly all right		好端端
-aclean		一清二白
-bomposed		泰然自若
-cntented		心满意足
-agood		好好儿
-ahappy to do		心甘情愿
-alegitimate		名正言顺
-around		浑圆
-asatisfied		心满意足
-bound proposition		不易之论
-btraight		笔直
-4orated spoon		漏勺
-6mance art		行动艺术
-fist		行动艺术家
-cbond		履约保证金
-cplace		演出地点
-crecords		成绩
-7ed in a standing posture		立式
-alying down		卧式
-8rs and production team		剧组
-7ing artist		优伶
-es		演艺
-bskills		演技
-4ume gland		香腺
-7d oil		香油
-9soap		香皂
-9toilet water		花露水
-3illa frutescens		紫苏
-5ous or intimidating undertaking		畏途
-9peak		险峰
-9situation		危局
-5s of the sea		海难
-4meter wall		围墙
-4natal period		围产期
-4od costume		古装
-e drama		戏说剧
-7during the day		时分
-7in office		任内
-7of development		发育期
-agrace		宽限期
-alabor		产期
-aone's life		生涯
-apeace and prosperity		光风霁月
-brosperity		荣景
-atime		工夫
-avalidity		有效期
-biability or validity		时效
-8n period		环比
-6ic deadline		旬课
-9function		周期函数
-9number		周期数
-9solution		周期解
-aystem		周期系
-9table		周期表
-e of the elements		元素周期表
-6s and commas		句读
-5perative period		围术期
-4pheral nerve		末梢神经
-fous system		周围神经
-bvertigo		周围性眩晕
-cision		余光
-8y of the body		体表
-3ky butt		翘臀
-3manent magnet		永久磁铁
-bember of council		常务理事
-hstate		常任理事国
-aresidence		常住
-iy		永久居留权
-j permit		永久居留证
-ht		永久居民
-asnow cover		终年积雪
-atooth		恒牙
-avirtual circuit		永久虚电路
-awave or perm		定型
-4eated by		弥漫
-awith beautiful music		含商咀徵
-7ing the whole place		四溢
-4ission graciously granted		恩准
-bto proceed		绿灯
-4utation group		置换群
-3nicious influence		毒害
-3pendicular line		垂线
-5tual calendar		万年历
-amotion machine		永动机
-3seus spiral arm		英仙臂
-4ian cumin		葛缕子
-8gulf		波斯湾
+0campfire		营火
+0yingpan		营盘
+0jintian		营盘
+0tianguo		营盘
+0brigands		营盘
+0undernourishment		营养不良
+0nutriology		营养学
+5tionist		营养师
+0minced		燥
+0uncomfortably		燥热
+0stiflingly		燥热
+0feverishly		燥热
+0suirenshi		燧人氏
+0candlelit		烛光
+6stand		烛架
+1inders		烬
+0salience		燽
+0deflagrate		爆燃
+1ynamiter		爆破手
+0igniter		爆管
+0headshot		爆头
+0fireside		炉边
+0luhuo		炉霍县
+0mushy		烂
+0crappy		烂
+0uncompleted		烂尾楼
+0overripe		烂熟
+0thickened		烂糊
+0uncollectable		烂账
+0cuan		爨
+0talons		爪
+0paws		爪儿
+0javan		爪哇八哥
+5icus		爪哇八哥
+0oryzivora		爪哇禾雀
+0trotters		爪尖儿
+0xenopus		爪蟾
+0creeper		爬山虎
+0parthenocissus		爬山虎
+0crawler		爬虫
+0opinionatedly		争执
+0patriarchy		父权制
+0granddad		爹爹
+0menfolk		爷们
+0fathers		爷们
+0refreshed		爽快
+0straightfoward		爽脆
+0glossaries		尔雅
+0drywall		墙板锯
+0plasterboard		墙板锯
+0dvds		片
+0intro		片头
+0webmaster		版主
+0bbs		版块
+0printmaking		版画
+0gow		牌九
+0yakeshi		牙克石市
+0periodontitis		牙周炎
+0bedframe		牙床
+0parroting		牙慧
+0mouthguard		牙托
+0occlusal		牙托
+0erected		牙旗
+0dentin		牙本质
+0odontopathy		牙病
+0crankset		牙盘
+0gritty		牙碜
+0foodstuffs		牙碜
+0toothpick		牙签
+0mandibular		牙关
+0lockjaw		牙关紧闭症
+0trismus		牙关紧闭症
+0gums		牙龈
+1ingiva		牙龈
+0newton		牛
+0treeless		牛山濯濯
+0mulishness		牛心
+0steakhouse		牛排餐厅
+0chophouse		牛排餐厅
+0bullpen		牛棚
+0kanehirae		牛樟
+0oxbridge		牛桥
+0shea		牛油果
+0paradoxa		牛油果
+0oxfordshire		牛津郡
+0bse		牛海绵状脑病
+0omasum		牛百叶
+0cowhide		牛皮
+0boasting		牛皮
+0eleusine		牛筋草
+0indica		牛筋草
+0jerky		牛肉干
+0porcino		牛肝菌
+0bubulcus		牛背鹭
+0coromandus		牛背鹭
+0bullheaded		牛脖子
+aness		牛脾气
+0hyssopus		牛膝草
+0vulgare		牛至
+0arctium		牛蒡
+0lappa		牛蒡
+0tabanus		牛虻
+0bovinus		牛虻
+1ullfrog		牛蛙
+0claimed		牛轭礁
+0felipe		牛轭礁
+0newtonian		牛顿力学
+0bucephalus		牛头伯劳
+0gyuumao		牛魔王
+0bezoar		牛黄
+0usurps		牝鸡司晨
+0mouding		牟定县
+1uping		牟平区
+0paeonia		牡丹
+0suffruticosa		牡丹
+0mudan		牡丹区
+0cellmate		牢友
+0jailer		牢子
+0misconceptions		牢笼
+0grazing		牧区
+0lupercalia		牧神节
+0sheepdog		牧羊犬
+0muye		牧野区
+0rarer		物以稀为贵
+0physiotherapy		物理治疗
+0iot		物联网
+0monogatari		物语
+0sacrificially		牲体
+0tex		特
+1renton		特伦顿
+1urks		特克斯和凯科斯群岛
+0caicos		特克斯和凯科斯群岛
+0tekes		特克斯河
+2nerife		特内里费
+0sdr		特别提款权
+0terry		特利
+0skydiving		特技跳伞
+0trafalgar		特拉法加广场
+0jaffa		特拉维夫
+0delaware		特拉华
+0tethys		特提斯海
+0filters		特效
+0nikola		特斯拉
+0troy		特洛伊
+1wa		特瓦族
+0batwa		特瓦族
+0specificity		特异性
+1tringer		特约记者
+0troodos		特罗多斯
+1yvek		特卫强
+0concessionary		特许
+0franchising		特许经营
+0tripura		特里普拉
+3er		特里尔
+1eresa		特里萨
+1heresa		特里萨
+1revor		特雷沃
+1erg		特鲁埃尔
+3uel		特鲁埃尔
+1rudeau		特鲁多
+0justin		特鲁多
+0geraniaceae		牻牛儿苗科
+0implicated		牵涉
+0pharbitis		牵牛
+1ulls		牵线人
+0wirepuller		牵线人
+0fatted		牵羊担酒
+0plowshare		犁铧
+0vomer		犁骨
+0qianwei		犍为县
+0gandhara		犍陀罗
+0peshawar		犍陀罗
+0humped		犎
+0cynicism		犬儒主义
+0inuyasha		犬夜叉
+0quanrong		犬戎
+0morbillivirus		犬瘟热
+0canines		犬科
+0illegality		犯规
+0tabooed		犯讳
+0hierarchical		犯讳
+0scorer		状元
+0madman		狂人
+0egotistical		狂妄
+0berserker		狂战士
+0utterances		狂言
+0dionysus		狄俄倪索斯
+0theodor		狄奥多
+0wiesengrund		狄奥多·阿多诺
+0adorno		狄奥多·阿多诺
+0dirac		狄拉克
+0frivolously		狎
+0rogues		狐朋狗友
+0scoundrels		狐朋狗友
+0vulpecula		狐狸座
+0enchantress		狐狸精
+0foxes		狐群狗党
+0bromhidrosis		狐臭
+0pteropus		狐蝠
+0dogfight		狗咬狗
+0foxtail		狗尾草
+0setaria		狗尾草
+0viridis		狗尾草
+0uselessly		狗扯羊皮
+0fucked		狗日
+0spawned		狗日
+0doggie		狗狗
+0cheating		狗男女
+0dogskin		狗皮膏药
+0contusions		狗皮膏药
+0exerting		狠命
+0ferociously		狠狠
+0burrows		狡兔三窟
+0wildcat		狸猫
+0snarling		狺
+0trou		狼井
+0spikes		狼井
+0doers		狼奔豕突
+0langya		狼牙山
+0wolfdog		狼狗
+0gulo		狼獾
+0xiaoting		猇亭区
+0shinbone		猈
+0mammuthus		猛犸
+0severus		猛隼
+1urnia		猛鸮
+0ulula		猛鸮
+0bronson		猛龙怪客
+0morra		猜拳
+0puppies		猣
+0indecently		猥亵
+0hylobates		猭
+0agilis		猭
+0steals		猴子偷桃
+0distracting		猴子偷桃
+0qauqaut		猴猴族
+0monkeypox		猴痘
+1pox		猴痘
+0hericium		猴头菇
+0erinaceus		猴头菇
+0adansonia		猴面包树
+0digitata		猴面包树
+0judas		犹大
+1acob		犹大
+1ude		犹大书
+0zionism		犹太复国主义
+6t		犹太复国主义者
+0hesitancy		犹豫不决
+0apeman		猿人
+0shihtzu		狮子
+0outrageously		狮子大开口
+0meatball		狮子头
+0lionheart		狮心王理查
+0sengge		狮泉河
+0liger		狮虎兽
+0griffin		狮鹫
+0penalties		奖惩
+0trophies		奖牌榜
+0prizewinners		奖牌榜
+0roebuck		獐
+1epulsively		獐头鼠目
+0dugu		独孤
+0qiubai		独孤求败
+0dushanzi		独山子区
+6		独山县
+1okdo		独岛
+0takeshima		独岛
+0dictatorial		独断
+0monodrama		独角戏
+0derung		独龙
+1ulong		独龙江
+0xiezhi		獬豸
+0nastily		狞笑
+0caracal		狞猫
+0huojia		获嘉县
+0rescued		获救
+0prizewinner		获奖者
+0freed		获释
+0herpestidae		獴科
+0orionids		猎户座流星雨
+7		猎户座流星雨
+0canes		猎犬座
+0venatici		猎犬座
+0cherrug		猎隼
+0headhunter		猎头
+0bestiality		兽交
+0abuses		兽父
+0theropoda		兽脚亚目
+0saurischia		兽脚亚目
+1houshu		兽术
+0fursuit		兽装
+0vet		兽医
+0xianxian		献县
+0ningpo		玄参
+0scrophularia		玄参
+0ningpoensis		玄参
+0amalgamating		玄学
+0xuanhuan		玄幻
+0alopex		玄狐
+1rgentatus		玄狐
+0tombstones		玄石
+0genmaicha		玄米茶
+0xuantu		玄菟郡
+0authentically		率性
+0oppresses		率兽食人
+0statuette		玉人
+0cuscuta		玉女
+0yuping		玉屏侗族自治县
+0whiskered		玉山噪鹛
+0morrisonianum		玉山噪鹛
+0yushan		玉山县
+0tamagawa		玉川
+0akita		玉川市
+0yuzhou		玉州区
+0haliaeetus		玉带海雕
+0leucoryphus		玉带海雕
+0burnet		玉札
+0sanguisorba		玉札
+0yuquan		玉泉区
+6ying		玉泉营
+0penannular		玉玦
+0homophony		玉玦
+0polygonatum		玉竹
+0odoratum		玉竹
+0yupian		玉篇
+1ewang		玉篇
+0cornflakes		玉米片
+0grits		玉米糁
+0zearalenone		玉米赤霉烯酮
+0cornmeal		玉米面
+0rubicene		玉红省
+0yusuf		玉素甫
+2lan		玉兰
+0naticidae		玉螺
+0alioth		玉衡
+0yumen		玉门市
+0gyokuro		玉露
+0shaded		玉露
+1apphira		玉头姬鹟
+0yulong		玉龙纳西族自治县
+0polishes		玊
+0cowherb		王不留行
+0vaccaria		王不留行
+0segetalis		王不留行
+1hichong		王世充
+0xianzhi		王仙芝
+0kingship		王位
+0nobles		王侯将相
+0dukes		王公
+0hom		王力宏
+0lixiong		王力雄
+2qin		王励勤
+0cyndi		王君如
+0rapper		王嘉尔
+0guowei		王国维
+0jehovah		王国聚会所
+0fuzhi		王夫之
+0kar		王家卫
+0shifu		王实甫
+0ximeng		王希孟
+0wangfujing		王府井
+0regia		王水
+0zhizhi		王治郅
+0jokers		王炸
+0unbeatable		王炸
+0dizhu		王炸
+0stuns		王炸
+0changer		王炸
+0wangyi		王益区
+0yucheng		王禹偁
+0wayne		王颖
+0yifu		王义夫
+0wangs		王老五
+4laoji		王老吉
+0usurped		王莽
+0faye		王菲
+0junxia		王军霞
+0statecraft		王道
+0hegemon		王道
+0pearly		玓
+0semiprecious		玗
+0porphyrites		玢
+0dramatics		玩儿票
+0subtleties		玩味
+0playboy		玩咖
+0saps		玩物丧志
+0dallying		玩兴
+0ngc		玫瑰星云
+0rodochroa		玫红眉朱雀
+0pendants		玲
+0exquisitely		玲珑剔透
+0hawksbill		玳瑁
+0eretmochelys		玳瑁
+0imbricata		玳瑁
+0rimmed		玳瑁眼镜
+0eyeglasses		玳瑁眼镜
+0jadelike		玹
+0hyaluronan		玻尿酸
+0vitrification		玻璃化
+0butthurt		玻璃心
+0percy		珀西·比希·雪莱
+0bysshe		珀西·比希·雪莱
+0shelley		珀西·比希·雪莱
+0collotype		珂罗版
+1endol		珍多冰
+0oddity		珍闻
+0dainties		珍馐
+0hemispherical		珓
+0davidia		珙桐
+0involucrata		珙桐
+0gongxian		珙县
+0lhoba		珞巴
+0everest		珠山
+0zhushan		珠山
+3ya		珠崖
+3hui		珠晖区
+0prd		珠江三角洲
+0jades		珠玉
+0chomolungma		珠穆朗玛
+0binche		班什
+1unbury		班伯利
+1anbury		班伯里
+3ksy		班克斯
+3gui		班吉
+3tustan		班图斯坦
+0homeroom		班导
+0directors		班底
+0baingoin		班戈县
+2njul		班珠尔
+3ma		班玛县
+0panchen		班禅
+0erdeni		班禅额尔德尼
+0pecking		班辈
+0banda		班达亚齐
+0palin		佩林
+0sarah		佩林
+0modernity		现代性
+7sts		现代派
+0riajuu		现充
+0prawns		现剥
+0actuality		现实
+0brewed		现打
+0actuals		现货
+0coccidioidomycosis		球孢子菌病
+0bga		球栅阵列封装
+0globular		球状蛋白质
+0mycosphaerella		球腔菌
+0sprouts		球芽甘蓝
+0gemmifera		球芽甘蓝
+0coccidia		球虫
+0dispatching		球路
+0curveball		球路
+0fastball		球路
+0goalmouth		球门
+0steradian		球面度
+0ricoh		理光
+0litang		理塘县
+0rationalistic		理学
+0techie		理工男
+0idealize		理想化
+0richardson		理查森
+0theoretician		理论家
+0legge		理雅各
+1iuchiu		琉球
+0komadori		琉球歌鸲
+0elegans		琉球角鸮
+0liulimiao		琉璃庙
+0borago		琉璃苣
+0zappey		琉璃蓝鹟
+0cyanoptila		琉璃蓝鹟
+1umatilis		琉璃蓝鹟
+0earrings		琠
+0plashing		琤𪻐
+0ceremonially		琮
+0lynn		琳·戴维斯
+0tenured		琴剑飘零
+0stochowa		琴斯托霍瓦
+0lyrebird		琴鸟
+0shoveler		琵嘴鸭
+0clypeata		琵嘴鸭
+0fretted		琵琶
+0juyi		琵琶行
+0anglerfish		琵琶鱼
+0pazhou		琶洲
+0anchoring		琶洲
+0enamelware		珐琅
+0hunchun		珲春市
+0naung		瑙蒙短尾鹛
+2pothera		瑙蒙短尾鹛
+2ungmungensis		瑙蒙短尾鹛
+0rayl		瑞
+0titaness		瑞亚
+0swede		瑞典人
+0rayleigh		瑞利准则
+0luckin		瑞幸咖啡
+0remdesivir		瑞德西韦
+1uichang		瑞昌市
+0vapours		瑞气
+0ruifang		瑞芳
+0juifang		瑞芳

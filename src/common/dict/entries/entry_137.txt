@@ -1,500 +1,500 @@
-0transmission medium		传输媒质
-fthod		传输模式
-eode		挡位
-drate		传输率
-gio		传动比
-dsystem		传动系统
-dtower		电塔
-7tted inwards		传入
-cperson-to-person		人传人
-5national corporation		跨国公司
-5plant operation		移植手术
-6ort and sale		运销
-aby lighter		驳运
-acapacity		运力
-bhannel		传输通道
-drge		运单
-bost		运价
-es		交通费
-alayer		传输层
-amedium		输送媒介
-anetwork		运输网
-aservice		传输服务
-bhip		运输船
-9ation industry		运输业
-9ed goods		货运
-5versal line		横截线
-9e colon		横结肠
-dmmissure		横神经
-bflow		横流
-dute		横吹
-bobject		横断物
-bvibration		横振动
-bwave		横波
-3peze artist		空中飞人
-6ius muscle		斜方肌
-4ped beyond hope of rescue		无路可逃
-8in a besieged city		困守
-3sh can		垃圾桶
-6dump		收废站
-3vel agency		旅行社
-7bag		旅行袋
-8uddy		驴友
-7companion		旅伴
-dy seal		航徽
-7equipment		旅行装备
-8xpenses		川资
-7gear		旅行装备
-7notes		散记
-7pass		路条
-8illow		U型枕
-7sight		旅游景点
-7time		走时
-7wall charger		旅充
-8ith another		搭伴
-6er on foot		行人
-8's check		旅行支票
-clothing		征衣
-6ing a great distance		万里迢迢
-bllowance		盘费
-abag		行囊
-amerchant		商旅
-asalesman		行商
-buitcase		行箧
-awave tube		行波管
-3y of a mill		磨盘
-2eacherous and murderous		阴险毒辣
-dssault		毒手
-cperson		鬼蜮
-4sure chest		百宝箱
-9house of knowledge		知识宝库
-aunt		寻宝
-9map		藏宝图
-8d book		宝书
-aobject		宝贝
-7y bond		国库券
-4t harshly		苦待
-5y port		商埠
-3e bark		树皮
-5frog		树蛙
-5hollow		树洞
-7use		树屋
-5kingfisher		翡翠
-5leaves		树叶
-5peony		牡丹
-6ipit		林鹨
-6lanting		植苗
-5resin		树胶
-6hododendron		马缨花
-6oots		树根
-5sap		树液
-6hade		绿阴
-6pecies		树种
-6tump		树桩
-5tapping		采脂
-6runk		树干
-4-lined avenue		林阴大道
-4less hill		童山濯濯
-ds		牛山濯濯
-3kking pole		登山杖
-3llis latticework		棚架格子
-3mbling paralysis		震颤麻痹
-asound		震响
-avoice		颤声
-awith fear		战战兢兢
-4endous popularity		佳评如潮
-bstrength		九牛二虎之力
-aly popular for a while		红极一时
-3nch fever		战壕热
-8or building foundation		基坑
-7warfare		堑壕战
-3pidation remaining after a trauma		心有余悸
-2iad of the home key		主和弦
-4l and error		试错
-bxecution		审处
-6balance		试算表
-7roadcast		试播
-6edition		试用本
-7xplosion		试爆
-6judge		承审法官
-6marriage		试婚
-6period		试用期
-7roduct		试用品
-6sale		试销
-7creening		试映
-7eparation		临时分居
-7lide		试杯
-5s and hardships		风雨
-btribulations		患难
-4ngular debt		三角债
-bprism		三角柱体
-cyramid		三角锥
-8um australe		南三角座
-3bal chief		君长
-4es under the yellow emperor		黄帝族
-4utary goods and finances		财赋
-astate of china		贡国
-3carboxylic acid cycle		柠檬酸循环
-4eps brachii		三头肌
-8muscle		三头肌
-4hiurus lepturus		白带鱼
-5oplax adhaerens		丝盘虫
-4k of the eye		错视
-dtrade		江湖一点诀
-5s of the trade		两下子
-5y and complicated		七弯八拐
-bdissolute		油花
-bhypocritical		虚诈
-binconstant		翻云覆雨
-7case		绕手
-4oloured munia		栗腹文鸟
-5n global restaurants		百胜餐饮
-4uspid valve		三尖瓣
-3fling matter		儿戏
-4oliate orange		枸橘
-3geminal nerve		三叉神经
-4ger list		触发清单
-7ing factor		诱因
-4onometric function		三角函数
-3m prop		装饰道具
-4eresurus stejnegeri		竹叶青
-4med edge		切口
-3nidad and tobago		千里达及托巴哥
-3partite confrontation		鼎足之势
-4le bond		三键
-7jump		三级跳
-7link		三键
-7point		三相点
-7star system		三合星
-5oblastic animals		三胚层动物
-4od head		云台
-3stram's bunting		白眉鹀
-bstorm petrel		褐翅叉尾海燕
-3umphal arch		凯旋门
-8nt success		硕果
-3vial matter		区区小事
-es		琐屑
-2ojan horse		木马
-3lley for inspecting rail track		轧道车
-3op arrangement		阵容
-6morale		军心
-5s and horses		兵马
-8ppearing suddenly		奇兵
-8ttached to a unit		配属
-7under one's command		所部
-3paeolum majus		旱金莲
-4hoblastic layer		滋养层
-5y cup		奖杯
-4ic of cancer		北回归线
-cpricorn		南回归线
-6al disease		暑瘟
-g attributed to miasma		瘴疠
-9fish		热带鱼
-9milkweed		马利筋
-9pitcher plant		猪笼草
-9rain forest		热带雨林
-9storm		热带风暴
-3uble appearing from nowhere		平地起风波
-8is never far away		祸不旋踵
-8shooting		疑难解答
-9pot		是非之地
-7d times		乱世
-7s lie ahead		风雨欲来
-8ome affair		棘楚
-4gh of a wave		浪谷
-4ser leg		裤筒
-b opening		裤口
-2ue affirmative		真肯定句
-6ppearance		原形
-5biography		正传
-5character		原形
-6olor		真彩色
-as		真面目
-7mmentary		真诠
-5effigy		真身
-6xpert		牛人
-8lanation		真释
-5feelings		心里话
-5identity		真面目
-5leaf		真叶
-6ove		挚爱
-5meaning		真意
-6otive		心迹
-5negative		真否定句
-5or bogus		真伪
-8false		真假
-5qualities		本色
-5statement		真言
-5to life		写实
-3ffle hog		松露猪
-3mp card		撒手锏
-5eter of sb's praises		吹鼓手
-3nk canal		干渠
-6line		主干线
-3st and justice		信义
-6bond		信托
-5ed adviser		军师
-9ide		股肱
-8lieutenant		爱将
-5ing to luck		侥幸心理
-3th or dare		真心话大冒险
-6table		真值表
-7o tell		天地良心
-5s too close to home		目不见睫
-1sarist russia		帝俄
-2ing ma bridge		青马大桥
-5tao beer		青岛啤酒
-2uga chinensis		铁杉
-3shima strait		朝鲜海峡
-1u ethnic group		土族
-2be pasta		水管面
-5well		管井
-4-shaped object		筒子
-4rcle bacillus		结核杆菌
-6ule bacillus		结核菌素
-5ous root		块根
-2ft of fine hair		毛子
-4ed duck		凤头潜鸭
-2i na		推拿
-3tion fee		学费
-8within family		庭训
-2jia ethnic group		土家
-2na belly		鲔鱼肚
-3dra bean goose		短嘴豆雁
-7swan		小天鹅
-3g wah group of hospitals		东华三院
-4hai university		东海大学
-3ing fork		音叉
-3nel boring machine		盾构机
-7entrance		洞口
-2rbid flow		浊流
-5ne wheel		叶轮
-4ot fish		大鲽鱼
-4ulent flow		紊流
-asituation		变局
-atimes		风起潮涌
-3gor pressure		膨压
-3ing award		图灵奖
-7machine		图灵机
-3key tail mushroom		云芝
-4ish delight		土耳其软糖
-8person		土耳其人
-8toilet		蹲坑
-4s and caicos islands		特克斯和凯科斯群岛
-3moil of war		兵乱
-3n in the conversation		转折
-5of phrase		措词
-6ut the lights		熄灯
-5signal		泵灯
-4coat official		贰臣
-4down collar		翻领
-9service		夜床服务
-4ing alternately green and white		乍青乍白
-9s sharply as possible		满舵
-8force		扭力
-8indicator		转向信号
-8one's back to		背着
-8point		拐点
-4out in election		投票率
-5ver rate		流动率
-3reted junk		楼船
-3tle dove or similar bird		水鹁鸪
-7enthusiast		龟友
-7shell		鳖甲
-6's egg		忘八旦
-6-shaped plinth of a stele		龟趺
-2ssah silk		柞蚕丝
-2tor to the crown prince		太子太保
-5ial class		辅导班
-1v commercial		广告片
-3drama		电视剧
-3or radio receiver		接收机
-3screen		荧屏
-4eries		影集
-4how		电视秀
-4treaming stick		电视棒
-3tower		电视塔
-1weedledum and tweedledee		半斤八两
-3lfth lunar month		腊月
-8month		十二月
-4ve channels of tcm		十二经
-3nty four dynastic histories		二十五史
-2ice a month		半月刊
-7s much		两倍
-5-cooked pork		回锅肉
-3ll weave		斜纹织
-3n brothers		孪生兄弟
-5ponytails		双马尾
-5room		双床房
-5sisters		孪生姐妹
-4ing mountain road		盘道
-8stem		缠绕茎
-4s of mixed sex		龙凤胎
-3sted mouth		歪嘴
-8pair		双绞线
-5ing and turning		七弯八拐
-9path		盘陀路
-9river		湾环
-5s and turns		周折
-3tching of eye		眼跳
-4ter user		推友
-7ing of birds		呢喃
-2o arms		双臂
-8 and two legs		四体
-4birds with one stone		一举两得
-6ts		俩钱
-4distinct things		两样东西
-4extremes		两端
-4germanies		两德
-4hearts beating as one		比翼齐飞
-4items		二项式
-4legs		双脚
-4or three		三两
-4parties cannot coexist		你死我活
-5rongs		两手
-4quite different things		两回事
-4shift system		二部制
-5ided		二重性
-8s		二侧
-5uccessive generations		亲子
-4things match up		对号
-5igers fighting		两虎相争
-4unrelated matters		两回事
-3-barred warbler		双斑绿柳莺
-4character surname		复姓
-l baili		百里
-mchunyu		淳于
-mdongfang		东方
-qguo		东郭
-nuanmu		端木
-ogu		独孤
-mgongsun		公孙
-nuliang		谷梁
-mhuangfu		皇甫
-oyan		呼延
-mlinghu		令狐
-mmoqi		万俟
-nurong		慕容
-mnangong		南宫
-quo		南郭
-mouyang		欧阳
-mshangguan		上官
-oentu		申屠
-nikong		司空
-qu		司寇
-oma		司马
-otu		司徒
-mtaishi		太史
-mwanyan		完颜
-mxiahou		夏侯
-omen		西门
-nuanyuan		轩辕
-myuchi		尉迟
-owen		宇文
-mzhangsun		长孙
-ouge		诸葛
-4day weekend		周休二日
-4faced person		两面人
-4horned rhinoceros		双角犀
-4item combo		双拼
-4party system		两党制
-5ronged strategy		两手策略
-4stringed bowed instrument		坠胡
-4way translation		互译
-5heeled handcart		架子车
-4year-old goat		二毛子
-1ympanic cavity		鼓室
-9membrane		耳膜
-2pe a		甲型
-6 influenza		甲流
-5b		乙型
-6 influenza		乙流
-5c		丙型
-5i		甲型
-6i		乙型
-7i		丙型
-5of ancient jade		珣玗琪
-8folk dance		小车
-5page		页心
-5species		模式种
-amen		模式标本
-4-b ultrasound		B型超声
-4setting and printing		排印
-3ha orientalis		香蒲
-4oon shelter		避风塘
-8warning signal		风球
-3ical application		典型用途
-8case		事例
-8example		示例
-8use		典型用途
-4ng technique		指法
-3ographical error		讹字
-2rannical abuse		淫威
-6osaurus rex		雷克斯暴龙
-0udon noodles		乌冬面
-1efa champions league		欧冠
-1fo enthusiast		幽浮迷
-1gg boots		雪地靴
-2ly duckling		丑小鸭
-5expression		丑相
-5girl		恐龙妹
-6uy		青蛙
-5person		恐龙
-5talk		丑话
-1ighur language		维吾尔语
-7person or people		维吾尔人
-1k chancellor of exchequer		财政大臣
-3life peer		勋爵
-1lceration of oral cavity		口腔炎
-2terior motive		隐情
-3imate power		生杀大权
-8ly useless		然并卵
-3ra high speed		超高速
-6short wave		超短波
-5basic rock		超基性岩
-5marine flycatcher		白眉蓝姬鹟
-5sonic scan		超声扫描
-bwave		超音波
-7und scan		超声波检查
-5violet light		紫外光
-cray		紫外射线
-2ungur lake in xinjiang		乌伦古湖
-8river in xinjiang		乌伦古河
-1mbilical cord		坎炁
-3rella brand		主品牌
-1na corda pedal		弱音踏板
-3ble to		不了
-9 adapt		顺应不良
-cvance or retreat		跋胡疐尾
-abear		忍不住
-e the pain		不胜其苦
-brake		刹不住
-ceak the custom		未能免俗
-aconceive a child		不孕
-dtain one's joy		喜不自胜
-erol one's tongue		嘴欠
-lself		不能自已
-adeal with		顾不得
-biscipline a child		管教无方
-bo anything right		成事不足，败事有余
-aendure		受不了
-bscape		逃不出
-afigure out		弄不清
-cnd out		不得而知
-crmly or securely		不住
-aget along		素不相能
-eover		想不通
-bo to school		失学
-akeep		保不住
-amake ends meet		入不敷出
-fit through		过不去
-fsense of		弄不懂
-bove		僵住
-e freely		行动不便
-aremain calm		沉不住气
-cspond		无言以对
-dtrain a smile		忍俊不禁
-joneself		鬼扯腿
-cturn the favor		无以为报
-asay		说不出
-bing in tune		五音不全
+0to collect rent		收租
+3reduce penalty		减刑
+3seek alternative employment		另谋高就
+3trade		做买卖
+8 insults		对骂
+9using coercion		强买强卖
+3voice chat		语音
+0honest and straightforward		心口如一
+0gentle and agreeable		柔顺
+bbeautiful		柔美
+brefined		娴静
+dserved		阴柔
+0fierce and tough		凶悍
+0bell and drum		铃鼓
+0sweet and delicious		甜津津
+0devour raw meat and fowl		茹毛饮血
+0honest and sincere		敦厚
+0sincere and honest		朴实
+0to represent		代表
+0spacious and empty		空旷
+0to receive mail		收报
+0verdant and thick		葱葱
+0to swim across		泅渡
+0meat and vegetable		荤素
+0cleft lip and palate		唇颚裂
+0to cut using oxyacetylene torch		氧割
+3draw		不分胜负
+7 an impossible comparison		拟于不伦
+8lots		抽签
+8straws		抓阄
+0hard to		难以
+7 undo		难解
+0rhyme and tone		韵调
+0to cover		包罗
+8 densely		密布
+9traces		抹杀
+0sour and sweet		酸甜
+1weet and sour		甜酸
+0thin and pallid		憔悴
+0loyal and brave		忠勇
+0to requisition land		征地
+3flash past		一闪而过
+0an unappealing and unsatisfying meal		粗饭
+0famous and valuable		名贵
+0to catch cold		伤风
+3post an article online		发文
+1alent and virtue		才德
+0string to tie hair		头绳
+0refusing to accept		拒不接受
+0to accept		受取
+9 abdication		受禅
+aliability		认赔
+apunishment		认罚
+aresponsibility		引咎
+atacitly		默许
+awholeheartedly		心服
+billingly		心悦诚服
+0unwilling to accept		不甘于
+0keen and alert		耳聪目明
+0as good as it gets		尽善尽美
+0elegant and calm		雅静
+0to land		登陆
+3plow land		耕地
+3major		攻读
+0fat and sleek		濯濯
+0to blow air		吹气
+0fragrant and sweet		香甜
+0standing tall and upright		矗立
+0upright and tall		伟岸
+0vast and mighty		浩荡
+0extremely sad and lonely		形影相吊
+0moving and sad		凄婉
+0sad and beautiful		凄美
+0novel and competitive		新锐
+0to reduce poverty		减贫
+3plant an introduced variety		引种
+0honest and upright		清风两袖
+0upright and honest		廉正
+0origin and destination		起迄
+0to sweep across		横扫
+0wheel and axle		轮轴
+0cool and refreshing		凉爽
+0shady and cool		荫凉
+0a short while ago		顷者
+0bold and courageous hero		独胆英雄
+0tobacco and alcohol		烟酒
+0principal and secondary causes		因缘
+0grand and heroic		盛气
+0to break		刷新
+8 an agreement		背约
+0falling and rising tone		上声
+0loyal and sincere		忠信
+0to attract attention		引人注意
+3pass an imperial examination		及第
+0sweet and mellow		甜润
+0afraid to die		怕死鬼
+0error and negligence		错漏
+0worm and worm gear		蜗杆副
+0to reduce carbon emissions		减碳
+0idleness and pleasure		逸豫
+0to note clearly		明察
+0a beautiful day		花朝月夕
+0river draining to inland sea		内陆河
+0bare and bald		濯濯
+0frost and snow		霜雪
+0to present tribute		上贡
+0sweet and unctuous		甜腻
+0remote and obscure		窅然
+0to position		定位
+0sweet and charming		娇媚
+apiteous		凄婉
+0cattle and sheep		牛羊
+0to cut		切入
+6 classes		旷课
+7prices		减价
+7spending		精简开支
+7ties		脱钩
+7wages		减薪
+3shoot dead		射杀
+0and gate		与门
+0to achieve victory		取得胜利
+0wise and resolute		英明果断
+0to exist		存在
+8 forever		长存
+9simultaneously		并立
+0household chemicals and toiletries		日化
+0to gather evidence		搜证
+3stop		中止
+7 abruptly		戛然
+9ccepting incoming articles		截稿
+8breathing		断气
+9urning		熄灭
+8classes		停课
+8functioning		歇菜
+8growing		封顶
+8halfway		中辍
+8leasing		退租
+8menstruating		停经
+8plowing		辍耕
+9roduction		停工
+9ublishing		停刊
+8reading		释卷
+9unning		停航
+8sweating		落汗
+ainging		停摆
+8taking		停服
+8updating		停更
+9sing		停用
+8working		停车
+brying		歇心
+3totally stop doing something		洗手不干
+0busy and restless		恓惶
+0to seek advantage		讨便宜
+0vast and desolate		荒漠
+0tall and sturdy		魁梧
+1o sweep along		裹挟
+0affluent and smooth		充畅
+0fruit and vegetables		果蔬
+0melons and fruit		瓜果
+0smooth and ornate		流丽
+0to rule		主宰
+3push oneself forward		出风头
+3fold paper		叠纸
+1all and husky		彪壮
+0sand and stones		沙石
+1tocks and chain		枷锁
+0assault and battery		殴打罪
+0definite and reliable information		准信
+0steady and proficient		稳练
+0vast and hazy		苍苍
+0standing tall and majestic		肃立
+0thermal expansion and contraction		热胀冷缩
+0smooth and evasive		圆滑
+0to sound an alarm		报警
+0cotton and silk textiles		布帛
+0happiness and wealth		祉禄
+0a republican party member		共和党人
+0sober and calm		清明
+0to miss an opportunity		交臂失之
+1ranquil and calm		淡然
+0reputation and integrity		名节
+0to lay flat		放平
+3avoid damage		免受伤害
+3transfer creditor's rights		打兑
+3argue		争论
+8 clearly		明言
+9endlessly		强辩到底
+9logically		说理
+9noisily		嚷嚷
+9opinionatedly		争执
+9pointlessly		磨嘴
+9unnecessarily		嚼舌
+0wise and farsighted		睿智
+0oily-mouthed and smooth talking		油嘴滑舌
+0shiny and smooth		油光水滑
+1mooth and unhindered		顺畅
+0honest and considerate		忠厚
+0to type		打字
+0neat and tidy		干净利落
+0honest and trustworthy		一点水一个泡
+0mild and indirect		婉言
+0poetry and literature		诗文
+0vast and boundless		溟漭
+9indistinct		迷茫
+9plentiful		浩博
+0dull-witted and tongue-tied		心拙口笨
+0yangtze and yellow rivers		江河
+1ellow and withered		焦黄
+0to treat utterly sincerely		赤诚相待
+0brave and fierce		勇猛
+0to sell wholesale		趸售
+0humiliated and angry		羞恼
+0to gain profit		捞油水
+0alternately hidden and visible		掩映
+0to measure temperature		测温
+1all and strongly built		昂藏
+0cloth and silk		布帛
+0to whistle past		呼啸而过
+2ugh and durable		坚韧
+0swift and fierce		凌厉
+1uperior and subordinate		尊卑
+0rational and clearly structured		顺理成章
+0subtle and clever		高妙
+0to avoid danger		避险
+0polite and modest		谦恭
+0ancient books and volumes		方册
+0convict sentenced to death		死囚
+0to transmit sound		传声
+0faithful and honest		忠信
+0honest and incorruptible		一琴一鹤
+0loose and disorganized soldiers		散兵
+0proud and arrogant		心高气傲
+0thrifty and plain		俭素
+0wet and slippery		湿滑
+0host and guests		主宾
+0modest and sincere		谦诚
+0to lay railway track		铺轨
+3raise temperature		加温
+4esist foreign aggression		攘外
+3improve taste		提味
+0reward and punishment		赏罚
+0to drop dead		倒卧
+0knife and fork		刀叉
+0entrance and exit		出入
+0rude and violent		蛮悍
+0pilot and copilot		正副驾驶
+0to air-cool		风冷
+0loose and comfortable		宽松
+0to sound awful		走板
+0origin and development		源流
+0stupid and arrogant		愚妄
+0accident occurring due to negligence		责任事故
+0bow and arrow		弓箭
+0to reduce fever		消炎
+3arrange an interview		约见
+0glad and diligent		颠颠
+0heartfelt and genuine		深挚
+0courage and insight		胆识
+0evacuation to an air-raid shelter		防空避难
+0drum and bass		鼓打贝斯
+0loyal and righteous		忠义
+0spirit within a person		人精
+1trict and compassionate		严慈
+0to voice		道出
+0unable to voice objections		敢怒而不敢言
+0to drag along		强拉
+0unification and independence		统独
+0disaster and happiness		祸福
+0sacrificial knife and altar		刀俎
+0pliable and tough		柔韧
+1ale and feeble		苍白无力
+0muddy and wet		拖泥带水
+0calm and collected		沉着
+bmposed		气定神闲
+9graceful		恬雅
+9peaceful		平靖
+9unhurried		笃定
+0to pass an exam		考中
+0parallel and antithesis		排偶
+0to store energy		储能
+1akeoff and landing strip		起落场
+0strict and impartial		严明
+0to die abroad		客死
+0brilliant lights and vibrant colors		流光溢彩
+1itter and astringent		苦涩
+0to shine upon		映照
+3raise hell		撒赖
+0concise and comprehensive		言简意赅
+0stupid and ignorant		愚昧无知
+0to guard its food		护食
+0keyboard and mouse		键鼠
+0bitter and hateful		痛心疾首
+0salty and bitter		咸涩
+0to learn		习得
+0exterior and interior		表里
+0to drift along		浮沉
+3fight organized crime		扫黑
+0clumsy and stupid		愚拙
+0needle and thread		针线
+0to drink tea		喝茶
+0bold and vigorous		泼辣
+0to sell		出售
+7 anything		无所不卖
+8cheaply		贱卖
+8directly		直销
+8everything		无所不卖
+8illicitly		私卖
+8online		网售
+8poorly		滞销
+9rivately		私卖
+8tickets		售票
+0loyal and dependable		忠贞
+0to tail behind		尾随
+0pen and ink		笔墨
+0remote and desolate		鸟不拉屎，鸡不生蛋
+0proud and aloof		孤傲
+0to prevent access		遮断
+3emit sound		做声
+0leisurely and carefree mood		闲情逸致
+0to merrily spend		欢度
+3spend		出手
+8 extravagantly		浪费金钱
+9recklessly		乱花
+2rture and cruel treatment		酷刑折磨
+2 seek justice		申理
+0brilliant and shining		彪焕
+evaried		纷呈
+0to mark		划下
+7 sb's passing		志哀
+3present		介绍
+a respectfully		呈献
+3lay an upper beam		上梁
+0ambitious and aggressive		争强好胜
+0physics and chemistry		理化
+0to elect		推定
+0chest and hypochondrium		胸胁
+0grave and stern		冷峻
+0to suffer pain		难受
+0uneasy and nervous		芒刺在背
+0to treat		作东
+8 unjustly		冤苦
+9an illness		治病
+dnjury		治伤
+9casually		玩狎
+aoldly		奚落
+bnscientiously		当回事
+aruelly		残虐
+9differently		另当别论
+9irreverently		唐突
+9leniently		宽待
+9separately		单行
+aincerely		推心
+9unfairly		偏待
+3gain unauthorized access		侵入
+0peasant and worker		农工
+0boring and gray		灰不溜丢
+0to discuss		商榷
+a everything		谈古论今
+bpassionately		热议
+bseriously		磋商
+cpiritedly		议论纷纷
+bthoroughly		深谈
+3jointly discuss		共商
+0a bit off		不是味儿
+0to sun-dry		晾晒
+0dirty and disordered		脏乱
+0to obtain release		获释
+1alent and learning		才学
+1o achieve independence		独立门户
+0hole due to dental caries		龋洞
+0to receive an iv drip		吊水
+3hurtle past		呼啸而过
+0dancing lightly and gracefully		翩翩起舞
+0shrimp soldiers and crab generals		虾兵蟹将
+0to lie waste		荒废
+0medicine and divination		医卜
+0remote and faraway		僻远
+binsignificant		渺乎其微
+0anxious and perplexed		惶惑
+0stunned and anxious		惊急
+0fierce and vicious		恶狠
+0to test		检验
+0bold and decisive		大刀阔斧
+0to derive benefit		得益
+3grant an interview		接见
+3remember		想起来
+b incorrectly		记错
+0stupid and cowardly		窝囊
+1ensible and reasonable		入情入理
+0intelligence and ability		聪明才智
+0rhyme and rhythm		音韵
+0to suffer heat exhaustion		中暑
+3explain		分诉
+a clearly		悉数
+boneself		剖白
+bpublicly		宣讲
+btruly		真诠
+0fierce and reckless		蛮悍
+0to swoosh past		疾驰而过
+0a sure thing		左券
+0shallow and crude		浅陋
+0to associate		交往
+0generous and forgiving		大度包容
+0silk and satin		绫罗绸缎
+0to lie flat		横躺
+0merger and acquisition		并购
+0crafty and evil		奸恶
+0dense and creamy		浓稠
+0glory and splendor		荣华
+0honor and glory		光荣
+0clever and eloquent speaker		铁齿铜牙
+0thorough and detailed		详尽
+1o exchange news		通问
+0random lies and falsehoods		瞎编乱造
+0to your heart's content		纵情
+0spleen and stomach		脾胃
+0to reduce		削减
+9 payment		宽免
+brices drastically		放血
+aspending		精简开支
+bwelling		消肿
+0imperial wives and concubines		后妃
+0revised and enlarged edition		增订本
+0sunlight and shade		光影
+0exhausted and hungry		穷饿
+0hungry and thirsty		饥渴
+0numerous and complicated		纷繁
+fnfused		稠浊
+ddisorderly		纷乱
+0bamboo and silk writing materials		竹帛
+0deaf and nonverbal		聋哑
+0to express grief		致哀
+3receive baptism		受洗
+0abyss and ocean		渊海
+0bowl and chopsticks		碗筷
+0to ejaculate inside sb's mouth		口射
+0brave and cunning		勇略
+1ow and crossbow		弓弩
+0cunning and fierce		刁悍
+0to wear mourning clothes		披麻戴孝
+4ithhold tax		代扣
+0according to belief		据信
+0each word is a teardrop		一字一泪
+0praise and censure		褒贬
+0suffering shame and remorse		愧恨
+0to retrieve lost ground		反扑
+0ink slab and sitting mat		砚席
+0fierce and malicious		凶狠
+0surplus and shortfall		有无
+0distant and indistinct		渺茫
+0to establish		奠定
+c diplomatic relations		建交
+doneself		成家立业
+dschools		兴学
+0shoes and belt		履带
+0mild and humid		温润
+0plump and tender		欲滴
+0lips and tongue		唇舌
+0to brave death		冒死
+3perform acupuncture		攻砭
+0noble and lowly		贵贱
+avirtuous		清高
+0modest and obedient		逊顺
+bstudious		虚心好学
+bunassuming		平易近人
+0to pass		可决
+7 an argument		传参
+8brilliantly		高中
+8quickly		飞逝
+0innocent and unaffected		天真烂漫
+0celestial troops and generals		天兵天将
+0to smell bad		发臭
+0slender and elegant		亭亭玉立
+0elegant and graceful posture		多彩多姿
+0grave and dignified		威容
+0damp and rotten		霉气
+0to drink wine		饮酒
+0diverse and complicated		烦冗
+cmuddled		纷纭
+cvaried		芸芸
+0achievements and virtue		功德
+0to machine-wash		机洗
+3perform cunnilingus		舔阴
+0erudite and sophisticated		渊识
+0prominent and worthy personage		贤达
+0to perform phlebotomy		放血
+a		修练
+a an operation		操刀
+bbrilliantly		独放异彩
+bcalculations		演算
+conjuring tricks		变戏法
+bmagical tricks		变魔术
+boutstandingly		出彩
+bsorcery		施法
+bwalking meditation		经行
+0fluent and elegant		飘洒
+0to promote sleep		助眠
+0strategic experts and powerful generals		谋臣武将
+1aint kitts and nevis		圣基茨和尼维斯
+5-pierre and miquelon		圣皮埃尔和密克隆

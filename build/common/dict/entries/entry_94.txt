@@ -1,500 +1,500 @@
-0shan state of east myanmar		掸邦
-4dong cuisine		鲁菜
-9opera		柳子戏
-9peninsula		山东半岛
-9university		山东大学
-4g dynasty		商朝
-5hai and nanjing		沪宁
-9bok choy		上海白菜
-9composite index		沪综指
-bnservatory of music		上海音乐学院
-boperation organization		上合组织
-9grand theater		上海大剧院
-9jiao tong university		上海交通大学
-9media group		上海文广新闻传媒集团
-aunicipality		上海
-9opera		沪剧
-9pak choy		青江菜
-audong development bank		上海浦东发展银行
-ginternational airport		浦东机场
-9stadium		上海体育场
-bock exchange		上海证券交易所
-n composite index		上海证券交易所综合股价指数
-9theatre academy		上海戏剧学院
-9university		上海大学
-8-nanjing line		沪宁线
-8nese food		本帮菜
-5xing acupoint		上星
-4sitherium fuguensis		山西兽
-4tou university		汕头大学
-4xi university		山西大学
-3oxing opera		越剧
-9yellow wine		花雕
-3pe and color		形色
-6of face		脸型
-3re broker		券商
-6certificate		票券
-7ompany		证券公司
-6dealer		证券商
-aing		证券经营
-6included in composite index		成份股
-7ssue		股集资
-6offer		招股
-6price		股价
-b index		股指
-8ospectus		招股书
-6trader		股民
-5d bandwidth		共享带宽
-7library		共享函数库
-6-facilities ratio		公设比
-4k fin		鱼翅
-9 soup		鱼翅汤
-6sucker		印头鱼
-5's fin		翅子
-5-fin soup		翅汤
-4p and clear		清脆
-fcut		有棱有角
-aunkind		尖酸刻薄
-6blade		利刃
-7ut petty-minded		小聪明
-6claw		利爪
-7orporation		夏普
-7riticism		尖锐批评
-6ears and keen eyes		耳聪目明
-7nd		剑尖
-6image		轮廓鲜明
-7ncrease		猛增
-6knife		利刀
-6pain		切痛
-7eak		尖峰
-7oint		锋芒
-bed end		尖端
-6sword		利剑
-6weapon		利器
-5-eyed and adroit		眼疾手快
-6sighted and deft		眼明手快
-6tailed sandpiper		尖尾滨鹬
-5e's rosefinch		淡腹点翅朱雀
-5ly divided		壁垒森严
-3tterproof or safety glass		不碎玻璃
-3ved ice dessert		锉冰
-5n head		光头
-4ing cream		剃须膏
-8the head or face		开光
-2e ethnic group		畲族
-3a nut		牛油果
-4r deformation		剪切形变
-6stress		剪应力
-5ing force		剪切力
-3ep husbandry		养羊
-6or goat pen		羊栈
-5's fat		羊油
-8head		羊头
-8milk		羊奶
-4r fantasy		梦呓
-4t materials		板材
-7etal working		钣金
-7usic		乐谱
-6pile		板桩
-3k kong		石岗
-3lf for goods		货架
-6life		保质期
-4l as horn for signaling		螺号
-6carving		贝雕
-7ompany		皮包公司
-6hole		弹痕
-6mound		贝丘
-5ed peanuts		花生米
-8shrimp		虾仁
-3n county in hebei		深县
-4zhen and hong kong		深港
-9stock exchange		深圳交易所
-3pherd boy		放羊娃
-9dog		牧犬
-8's purse		荠菜
-bsong		牧歌
-3rlock holmes		歇洛克·福尔摩斯
-3tland islands		设得兰群岛
-3ung shui		上水
-2ia sect		什叶派
-3ba inu		柴犬
-3ft key		上档键
-6stick		手动挡
-6working		轮班
-5y gaze		贼眼
-3h tzu		西施犬
-3n bet		辛贝特
-5guard		护胫
-5pad		护胫
-4agawa district of tokyo		品川
-ariver		品川
-4g wong		城隍
-5on buddhism		真言宗
-4ing clean		皎洁
-8white		白花花
-d light		银光
-4to shrine		神社
-4y and smooth		油光水滑
-6bright as silver		银亮
-5-leaf prickly-ash		两面针
-3p channel		航道
-5equipment		舾装
-5horn		汽笛
-5owner		船东
-5ticket		船票
-5with several decks		楼船
-4's bow		船首
-7captain		船主
-7hawser		船缆
-7ladder		船梯
-7port of registry		船籍港
-9sition		船位
-7registry		船籍
-7sail		船篷
-4builder's yard		船厂
-4ping by sea		海运
-9included		包邮
-9mark		唛头
-9space		舱位
-3rt collar		脖领
-6tail		下摆
-3sh kebab		串烧
-2oal of fish		鱼群
-3ck absorption		减振
-6wave		激波
-3e insert		鞋垫
-5last		楦头
-5polish		皮鞋油
-5tree		楦子
-4bill stork		鲸头鹳
-4s and belt		履带
-asocks		鞋袜
-3oting incident		枪击
-btermittently		点射
-9range		靶场
-9sound		枪声
-3p assistant		伙计
-5clerk		店伙
-5fittings		铺底
-6ront		店面
-5owner		店主
-5shelf		货架
-6ign		幌子
-4's guarantee		铺保
-4per's guide		导购
-5ing as a fun pastime		瞎拼
-9bag		购物袋
-9cart		购物手推车
-aenter		商城
-9mall		商场
-3re beacon		岸标
-4t and small		矮小
-btout		矮胖
-7ttention span		一曝十寒
-6back and sides		三分头
-7obbed hairstyle		童花头
-7ut intrepid		矮小精悍
-aplucky		短小精悍
-6circuit		短路
-7omments		题跋
-6distance		短距离
-6film		短片
-6garment		短衣
-6hair		短发
-6in stature		五短身材
-9time		短促
-6jacket		短衣
-6length		箍节儿
-8tter		字帖
-7ife and long life		夭寿
-8st		决选名单
-6note		条子
-6of cash		不便
-9food and clothing		缺衣少食
-9money		手紧
-6pants		短裤
-8ragraph		小段子
-8ss		短传
-7eriod		旬日
-c of time		片刻
-9son		矮子
-7osition		短仓
-6range		短程
-6sleeves		短袖
-7pear		花枪
-7tave of the barrel		短板
-8ory		短篇小说
-8raw variety		矮杆品种
-6takeoff and landing aircraft		短距起落飞机
-7erm		短时间
-7ime		短时间
-7raining course		短训班
-8ee		矮树
-8ip		小游
-6wavelength		短波长
-5- or medium-term loan		中短债
-6billed minivet		短嘴山椒鸟
-6eared owl		短耳鸮
-6finned eel		澳洲鳗鲡
-7orm video drama		短剧
-6lived illusion		春梦
-crelationship		露水姻缘
-6sleeved shirt		短袖
-7talked variety		矮杆品种
-8em ardisia		矮茎朱砂根
-6tailed albatross		短尾信天翁
-dparrotbill		短尾鸦雀
-dshearwater		短尾鹱
-7erm financing		短期融资
-bloan		短债
-f within banking		同业拆借
-bstorage		短时储存
-7oed snake eagle		短趾雕
-5age of		缺少
-b electricity		电荒
-cmoney		缺钱
-5cut key		快捷键
-5ened or commuted sentence		减刑
-5fall in production		亏产
-5ly after		顷之
-d that		紧接着
-8thereafter		有顷
-3t put		铅球
-3uld have		应有
-7not		不合
-a be exposed to		见不得
-6er area		肩部
-9bag		单肩包
-alade		肩胛骨
-9emblem		臂章
-9loop		肩章
-9mark		肩章
-9pad		垫肩
-aole		扁担
-9strap		吊带
-9throw		过肩摔
-ao shoulder		并肩
-8-fired missile		肩射导弹
-4t oneself hoarse		嚷劈
-5ing match		口水仗
-3w business		演艺圈
-5in parts		连续剧
-4er cap		浴帽
-8urtain		浴帘
-7gel		沐浴乳
-8love		澡巾
-7puff		沐浴球
-7room		洗澡间
-7sponge		沐浴花
-6ing down		劈头盖脸
-4ing potential		有潜力
-8the hardships of travel		满脸风尘
-2rapnel shell		榴霰弹
-3edded coconut		椰丝
-9daikon pie		萝卜丝饼
-aried pork		肉松
-9ginger		生姜丝
-9meat		肉丝
-9pork		肉丝
-9tobacco for water pipes		水烟
-4wd and ruthless		老辣
-3imp meat		虾仁
-7paste		虾酱
-7soldiers and crab generals		虾兵蟹将
-4ne dedicated to one's ancestors		祖祠
-7of especially high status		神宫
-7to a sage		圣庙
-2uffling sound		趿拉
-3i ethnic group		水族
-3mai steamed dumpling		烧卖
-3nt circuit		分流电路
-6excitation		并激
-3t up		住口
-5your mouth		住口
-4tle bus		交通车
-8run		折返跑
-2y with strangers		认生
-1i river in shandong		泗水
-2al rock		硅铝质
-3mese language		暹罗语
-8twins		连体婴儿
-2berian accentor		棕眉山岩鹨
-9blue robin		蓝歌鸲
-9cocklebur		苍耳
-arane		白鹤
-9grouse		镰翅鸡
-9house martin		白腹毛脚燕
-9jay		北噪鸦
-9pit viper		蝮蛇
-9roe deer		东方狍
-aubythroat		红喉歌鸲
-9sand plover		蒙古沙鸻
-atonechat		黑喉石䳭
-9thrush		白眉地鸫
-9weasel		黄鼬
-2c transit gloria mundi		日落西山
-3huan and tibet		川藏
-8basin		四川盆地
-8codonopsis		川党
-8daily		四川日报
-8fritillary bulb		川贝
-8international studies university		四川外国语大学
-8jay		黑头噪鸦
-8leaf warbler		四川柳莺
-8opera		川剧
-9r szechuan cuisine		川菜
-8partridge		四川山鹧鸪
-9epper		花椒
-ecorn		椒子
-8tit		川褐头山雀
-9reecreeper		四川旋木雀
-8university		四川大学
-8wood owl		四川林鸮
-7-accented mandarin		川普
-8style hotpot skewers		串串香
-3k and weak		病弱
-5bay		医务室
-5leave		病假
-5man		病夫
-5note		病假条
-5or disabled		病残
-5person		病人
-bnel		病员
-5with love		害相思病
-aworry		焦炙
-4le cell anemia		镰刀细胞贫血
-6-cell anemia		镰状红血球贫血症
-5y look		病容
-7person		病秧子
-7white		苍白色
-2de annex		偏厦
-5by side		并排
-5chain		侧链
-8mber		偏殿
-5dish		盘餐
-6oor		便门
-5effect		副作用
-5issues keep arising		枝节横生
-5job		兼差
-5length		边长
-5of boat or ship		船帮
-8the body		体侧
-5palace hall		偏殿
-5road		岔道
-7om		偏房
-9 of a hall		堂庑
-5somersault		侧空翻
-6treet		横街
-5wall		侧壁
-6indow		边窗
-4s in a dispute		阵营
-4walls of a palace		掖垣
-6ys glance		斜视
-3ney or sydney		席德尼
-2emens ag		西门子公司
-3rra de guadarrama		瓜达拉马
-7leone		塞拉利昂
-3ve tube		筛管
-2gh of regret		叹惜
-4ing voice		唉唉
-8with emotion		感喟
-4ted person		明眼人
-5ing device		瞄准具
-5seeing area		观光区
-3moid colon		乙状结肠
-3n language		哑语
-5of human habitation		人烟
-8positive outcome		眉目
-4-on bonus		签字费
-4al filter		滤波器
-7light		信号灯
-7made with one's eyes		眼色
-7processing		信号处理
-7station		信号台
-6-to-noise ratio		信噪比
-6ing flag		号旗
-ashot		号炮
-5tory states		缔约国
-6ure dish		招牌菜
-amove		招牌动作
-aon letter		下款
-4et ring		印戒
-b cell		印戒细胞
-4ificant figures		有效数字
-crole		要角
-cups and downs		大起大落
-5ng bonus		签字费
-4s from the past		旧迹
-6of an impending rebellion		反相
-2ka deer		梅花鹿
-3kim treecreeper		褐喉旋木雀
-3u quanshu		四库全书
-2lence is golden		沉默是金
-5t contemplation		默想
-8urse or disagreement		腹诽
-7fart		出溜屁
-7movie		默片
-7night		平安夜
-7prayer		默祷
-7zone		静区
-3ica gel		矽胶
-5eous rock		硅石
-asand		玻璃砂
-5ic acid		硅酸
-5on carbide		碳化硅
-9hip		矽晶片
-8dioxide		二氧化硅
-8rod		硅棒
-8sand		硅沙
-8valley		矽谷
-7e grease		硅脂
-9rubber		矽橡胶
-3k and satin		绫罗绸缎
-5banner		锦旗
-6raid		绦带
-5chiffon		薄绸
-5fabric		丝绸织物
-b with colored pattern		织锦
-6loss		丝绵
-5gland		丝腺
-5industry		养蚕业
-5material with grained pattern		绮绣
-5neckband		丝巾
-5raw material		熟丝
-6ibbon		绦带
-b or braid		绦子
-5screen		丝网
-5thread		丝缕
-6ree		合欢
-5waistband		丝绦
-4worm cocoon		蚕茧
-9eggs		蚕子
-9guano		蚕沙
-9thorn tree		柘树
-4y fowl		武山鸡
-3lem's mountain finch		褐头岭雀
-4y ass		蠢驴
-6but amusing person		逗比
-acute husky		二哈
-6girl		丫头片子
-6little girl		黄毛丫头
-6person		笨蛋
-3ted up		淤塞
-3urian system		志留系
-3ver bar		银条
-8irch		银白杨
-8ottle		银瓶
-8ritish shorthair		银渐层
-8ullet		银弹
-7carp		鲢鱼
-8hloride agcl		氯化银
-8oin		银币
-8up		银杯
-7dollar		大洋
-7fir		银枞
-8oil		银箔
-7glitter		银晃晃
-7ingot		银锭
-8odide		碘化银
-7leaf		银叶
-7medal		银牌
+0silvaner		西万尼
+1chuster		西蒙·舒斯特
+0xiluo		西螺
+0hsilo		西螺
+0impeccably		西装革履
+0attired		西装革履
+0sicilia		西西里
+0xixiangtang		西乡塘区
+7		西乡县
+0cyril		西里尔
+0silesia		西里西亚
+0ximen		西门
+0siemens		西门子
+0ximending		西门町
+0seattle		西雅图
+0mannii		西双版纳粗榧
+0xiqing		西青
+0sidon		西顿
+0allis		西鲱
+2osa		西鲱
+0negotiating		要谎
+0qintang		覃塘区
+0doomed		覆巢之下无完卵
+0reuniting		覆水难收
+0capsized		覆没
+2scaded		覆叠
+0fads		见异思迁
+0ridiculed		见笑
+0probationer		见习生
+0hoes		见色忘义
+0bros		见色忘义
+0grubbing		见钱眼开
+0sails		见风使帆
+0yankou		觃口
+0stipulations		规定
+0compasses		规矩准绳
+0optometry		视力测定法
+3ician		视力表
+1bsessively		视奸
+0shikan		视奸
+0ogling		视奸
+0leering		视奸
+0observes		视角
+0cinematography		视角
+0subtends		视角
+0videoconferencing		视频会议
+ee		视频会议
+1od		视频点播
+0darlings		亲们
+0approachability		亲和力
+0oyakodon		亲子丼
+0schutzstaffel		亲卫队
+1hortsightedness		觑觑眼
+0cittotp		觉悟
+0dawns		觉醒
+0kwun		观塘
+0analyzes		观察家
+0guanshanhu		观山湖区
+0museums		观后感
+0spotter		观测员
+0birdwatching		观鸟
+0auklet		角嘴海雀
+0cerorhinca		角嘴海雀
+0monocerata		角嘴海雀
+0convolution		角回
+0opitoshtonous		角弓反张
+0unread		角标
+0eremophila		角百灵
+0alpestris		角百灵
+0keratitis		角膜炎
+0clinograph		角规
+1utin		角质
+0securing		角钉
+0brad		角钉
+0megascops		角鸮
+0podiceps		角䴙䴘
+0auritus		角䴙䴘
+0ceratopsian		角龙
+0antlers		觡
+0dissecting		解剖室
+0lockdown		解封
+0jiefang		解放区
+0sandhinir		解深密经
+0mokcana		解深密经
+0vyuha		解深密经
+0yogic		解深密经
+0ambiguities		解疑
+1ntispasmodic		解痉剂
+0decoder		解码器
+0unbind		解绑
+0decoupling		解耦
+2modulation		解调
+9e		解调
+0unbutton		解扣
+0dissociative		解离性人格疾患
+0zurna		觱栗
+0touchscreen		触屏
+5pad		触控板
+1rackpad		触摸板
+0recalls		触景生情
+2miniscent		触景生情
+0vibrissa		触毛
+0tentacles		触须
+0feelers		触须
+0antennae		触须
+0bickering		触斗蛮争
+0untrustworthy		言而无信
+0stapler		订书机
+5ing		订书机
+0valuate		计价
+0taximeter		计价器
+0scorecard		计分卡
+0ratemeter		计数率仪
+0computational		计算摄影
+1im		计算机集成制造
+0ketu		计都
+0likeable		讨喜
+0cleverly		讨巧
+0preaching		训导职务
+0hunmin		训民正音
+0jongum		训民正音
+0taming		训兽术
+0liahn		训读
+0sinitic		训读
+0notepad		记事本
+0memoization		记忆化
+3ristor		记忆器
+0taker		记录
+0nehe		讷河市
+0desiring		访师求学
+0installations		设备
+0shetland		设得兰群岛
+0zhonglin		许仲琳
+0xixing		许仲琳
+0hsin		许信良
+0dishan		许地山
+0schwann		许旺细胞
+0neurolemmocyte		许旺细胞
+0medically		诊
+0foreordain		注定
+0subcommentary		注疏
+0deregister		注销
+0vilification		诋毁
+0detained		诏狱
+0adjudicator		评委
+0pingshu		评书
+0narrates		评书
+0judgmental		评头论足
+0wordsmith		词人墨客
+0lexicology		词汇学
+0inflection		词形
+0conjugation		词形
+0tagging		词性标注
+0penned		词翰
+0monosyllables		词语
+0syllogistic		词项逻辑
+0rhetorically		试问
+0deciding		试婚
+0tester		试客
+0discounted		试客
+0leakages		试水
+0fertilisation		试管受孕
+0demo		试听带
+0tryout		试镜
+0shijing		诗
+0psalms		诗篇
+0interspersing		诗话
+0hermeneutics		诠释学
+0barbs		话中有刺
+0chatterer		话痨
+0gaea		该亚
+0titans		该亚
+0cain		该隐
+0tianyou		詹天佑
+0lebron		詹姆斯
+0joyce		詹姆斯·乔伊斯
+0finnegans		詹姆斯·乔伊斯
+0janjanbureh		詹江布尔
+0menaces		诛求
+0dissenters		诛锄异己
+0overstated		夸张
+0subscribed		认缴资本
+0agnosia		认识不能
+0betrayal		认贼作父
+0inducement		诱因
+0attractant		诱食剂
+0phagostimulant		诱食剂
+0elaborating		语焉不详
+0pragmatics		语用学
+0mispronunciation		语病
+0categorization		语义分类
+0voicemail		语音信箱
+0startles		语惊四座
+0inaccuracy		误差
+0miswrite		误缮
+3diagnose		误诊
+0instructing		诲人不倦
+0covetousness		诲淫诲盗
+0strangely		说也奇怪
+0tells		说你胖你就喘
+0smelled		说你胖你就喘
+0rapping		说唱
+0lobbyist		说客
+0persuasiveness		说服力
+0levied		课金
+0dimmer		调光器
+2aobingshan		调兵山市
+0modulated		调制波
+0redistribute		调剂
+0essences		调味
+0reassignment		调岗
+0dispatcher		调度
+0scheduler		调度
+0tonality		调性
+0opsonize		调理
+0precooked		调理食品
+0transferred		调职
+0accents		调号
+0shunting		调车场
+2aker		调酒器
+0bartender		调酒师
+0flatterer		谄媚者
+0endearments		谈情说爱
+0wittily		谈笑风生
+0absit		请别见怪
+0iniuria		请别见怪
+0verbis		请别见怪
+0inciting		请将不如激将
+0vociferate		喧呼
+0xieju		谐剧
+0signific		谐声
+0homophonic		谐音梗
+0pron		诸位
+0zhucheng		诸城市
+0mohism		诸子
+0exponents		诸子百家
+0zhuguang		诸广山
+3ji		诸暨市
+0nottingham		诺丁汉
+ashire		诺丁汉郡
+1eumann		诺伊曼
+1okia		诺基亚
+2vgorod		诺夫哥罗德
+2rovirus		诺如病毒
+2am		诺姆·乔姆斯基
+0chomsky		诺姆·乔姆斯基
+0normans		诺曼人
+3throp		诺格
+0grumman		诺格
+0noether		诺特
+1uojuluo		诺矩罗
+0qingshen		诺矩罗
+0norfolk		诺福克岛
+2vichok		诺维乔克
+2mex		诺美克斯
+0manipulator		谋士
+1ozilla		谋智
+0experts		谋臣如雨
+0nazo		谜之
+0effacing		谦虚
+0modestly		谦让
+0lecturer		讲师
+0tastefully		讲究
+0instructional		讲习班
+0xiejiaji		谢家集区
+0chea		谢辛
+0xaitongmoin		谢通门县
+0sharif		谢里夫
+0nawaz		谢里夫
+0hsieh		谢长廷
+0fung		谢霆锋
+0banished		谪仙
+0overpraise		谬奖
+0acura		讴歌
+0greatness		謷
+0securitization		证券化率
+0gretai		证券柜台买卖中心
+1tsm		证券柜台买卖中心
+0employable		证奴
+0qed		证明完毕
+0erat		证明完毕
+0demonstrandum		证明完毕
+1iscernment		识力
+0adapts		识时务者为俊杰
+0qiaocheng		谯城区
+0xinpei		谭鑫培
+0zhenlin		谭震林
+0recounted		谱写
+0alertness		警惕性
+0translating		译介
+0spiritedly		议论纷纷
+0nurses		护士站
+0guardrail		护栏
+0bulletproof		护甲
+0sci		护盾
+0kneepad		护膝
+0laminating		护贝机
+7or		护贝机
+0readout		读出
+0launches		读秒
+0yomiuri		读卖新闻
+0variational		变分原理
+0transformers		变形金刚
+0denaturation		变性
+0vertisol		变性土
+0hentai		变态
+0insanely		变态辣
+0conjuring		变戏法
+0uncertainties		变数
+0rhymed		变文
+0themes		变文
+0poikilotherm		变温动物
+0monetize		变现
+1arketability		变现能力
+0inoperable		变砖
+0sandhi		变调
+0metamorphism		变质
+0altered		变造币
+0lanes		变道
+0resistor		变阻器
+0slandering		谗佞
+0concessive		让步
+0ranghulu		让胡路区
+0philosopy		谶纬
+0judicially		谳
+0taniguchi		谷口
+0gln		谷氨酰胺
+0dukkha		豆佉
+0mame		豆柴
+0vigna		豆橛子
+0unguiculata		豆橛子
+0douzhi		豆汁
+0okara		豆渣
+0dumangang		豆满江
+1ouban		豆瓣
+6jiang		豆瓣酱
+0fabaceae		豆科
+0leguminosae		豆科
+8us		豆科植物
+0pinnotheres		豆蟹
+2sum		豆蟹
+0loafers		豆豆鞋
+0fabalis		豆雁
+1engnan		丰南区
+4tai		丰台区
+0injections		丰唇
+0fengcheng		丰城市
+4ning		丰宁满族自治县
+4lin		丰林县
+4xi		丰溪
+0unggye		丰溪
+0fengman		丰满区
+4run		丰润区
+4ze		丰泽区
+0toyoda		丰田
+0imperishable		丰碑
+0toyotomi		丰臣秀吉
+0hideyoshi		丰臣秀吉
+0undisputed		丰臣秀吉
+0fengdu		丰都县
+4zhen		丰镇市
+4shun		丰顺县
+0shackled		豖
+0cavia		豚鼠
+0porcellus		豚鼠
+0sigesbeckia		豨莶
+0tricked		猪仔
+0swineherd		猪倌
+0waley		猪八戒
+0piggery		猪场
+3pen		猪栏
+0svd		猪水泡病
+1iv		猪流感病毒
+1chweinhund		猪狗
+0nepenthes		猪笼草
+0khao		猪脚饭
+3		猪脚饭
+0polyporus		猪苓
+0umbellatus		猪苓
+0suis		猪链球菌
+0dhole		豺
+0cuon		豺
+0alpinus		豺
+0panthers		豺狼虎豹
+0nyctereutes		貉
+0procyonoides		貉
+0tanuki		貉
+0belies		貌合神离
+0weeps		猫哭老鼠
+0catgirl		猫娘
+0kopi		猫屎咖啡
+0luwak		猫屎咖啡
+0sashaying		猫步
+0panleukopenia		猫瘟
+0chrysoberyl		猫眼
+0felidae		猫科
+0shenanigans		猫腻
+0cattery		猫舍
+3mint		猫薄荷
+0babuza		猫雾族
+0manma		猫饭
+0wards		貔貅
+0beethoven		贝九
+2cker		贝克
+3querel		贝克
+3kenham		贝克汉姆
+1allycotton		贝利卡登
+2ile		贝利卡登
+0choit		贝利卡登
+0bernoulli		贝努力
+2kaa		贝卡谷地
+2rtelsmann		贝塔斯曼
+0pattra		贝多
+0corypha		贝多
+0umbraculifera		贝多
+0beatrix		贝娅特丽克丝
+0paypal		贝宝
+0beira		贝拉
+2llamy		贝拉米
+2s		贝斯
+1assist		贝斯手
+0thunbergii		贝母
+0bainite		贝氏体
+6ic		贝氏体
+1elmopan		贝尔墨邦
+0labs		贝尔实验室
+0belgrade		贝尔格勒
+1uir		贝尔湖
+0silvio		贝卢斯科尼
+0berlusconi		贝卢斯科尼
+2netton		贝纳通
+0ieoh		贝聿铭
+0bayes		贝叶斯
+1eirut		贝鲁特
+0jeanne		贞德
+2hanne		贞德
+0darc		贞德
+0zhenfeng		贞丰县
+0swiping		负一屏
+0opossum		负鼠
+0moneybags		财主
+0raking		财源滚滚
+0grubber		财迷
+1ongjing		贡井区
+4gar		贡嘎县
+4shan		贡山独龙族怒族自治县
+0smoothies		贡茶
+0gonjo		贡觉县
+0skimmed		贫液
+0compounded		贫病交加
+0wryly		贫限想
+0monetarism		货币主义
+0devaluation		货币贬值
+8e		货币贬值
+0mandarins		贪官污吏
+0abjectly		贪生怕死
+0unshirkable		责无旁贷
+0guinan		贵南县
+0misbehavior		贵圈真乱
+0scandals		贵圈真乱
+0chaise		贵妃床
+0longue		贵妃床
+0noblewoman		贵族
+0gentrification		贵族化
+1uichi		贵池区
+3xi		贵溪市
+0aristocrats		贵胄
+0devaluated		贬值
+2moted		贬官
+0eggcorn		买了佛冷
+0purchaser		买家
+0severance		买断
+0extorted		买路钱
+0figaro		费加罗报
+0needlessly		费口舌
+0philadelphia		费城
+0fyodor		费奥多尔
+0xiaotong		费孝通
+0federer		费德勒
+2llah		费拉
+2inman		费曼
+2uerbach		费尔巴哈
+0materialist		费尔巴哈
+0fermat		费尔马
+1allujah		费卢杰
+1eixian		费县
+1abian		费边社
+2ying		贴合面
+0tieba		贴吧
+0agio		贴水
+0pinup		贴画
+0tinted		贴膜
+0screens		贴膜
+0appliqu		贴花
+0decalcomania		贴花
+0zizhen		贺子珍
+0horace		贺拉斯
+0quintus		贺拉斯
+0horatius		贺拉斯
+0flaccus		贺拉斯
