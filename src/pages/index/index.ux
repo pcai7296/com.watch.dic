@@ -798,14 +798,14 @@ export default {
 
 .press-in {
   animation-name: dicPressIn;
-  animation-duration: 200ms;
-  animation-timing-function: ease-in;
+  animation-duration: 120ms;
+  animation-timing-function: ease-out;
   transform-origin: 50% 50%;
 }
 
 .press-out {
   animation-name: dicPressOut;
-  animation-duration: 200ms;
+  animation-duration: 120ms;
   animation-timing-function: ease-out;
   transform-origin: 50% 50%;
 }
