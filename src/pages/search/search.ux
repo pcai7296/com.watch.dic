@@ -130,25 +130,12 @@ export default {
     return decodePrefixField(parts[0], prevWord) || ""
   },
 
-  // Parse at most SUGGESTION_PARSE_LIMIT rows. Autocomplete only consumes the
-  // first 80 candidates via scanEnglishSuggestionRows, and the shard is
-  // alphabetically ordered so every "startsWith(seed)" word for a 2-letter
-  // seed lives in the leading rows. Capping here keeps a 200KB shard (e.g.
-  // word_to.txt) from materializing ~13k objects in memory.
-  _parseSuggestionLines(text) {
-    var rows = text.split("\n")
-    var LIMIT = 800
-    var out = []
-    var prevWord = ""
-    for (var i = 0; i < rows.length && i < LIMIT; i++) {
-      var parts = rows[i].split("\t")
-      if (parts.length >= 3) {
-        var word = this._decodeWordPrefix(parts, prevWord)
-        prevWord = word
-        out.push({word: word, entryId: parts[1], tags: parts[2] || ''})
-      }
-    }
-    return out
+  // Cache raw shard lines instead of pre-parsed objects. scanEnglishSuggestionRows
+  // decodes only rows matching the current seed, so a large shard never
+  // materializes thousands of objects, and no fixed row cap can silently drop
+  // deep-prefix candidates (e.g. "int" in word_in.txt).
+  _splitSuggestionLines(text) {
+    return text ? text.split("\n") : []
   },
 
   onInit() {
@@ -591,7 +578,7 @@ export default {
     // Migrate from old text cache if present
     if (Object.prototype.hasOwnProperty.call(this.englishSuggestionCache, letter)) {
       var _rows = this.englishSuggestionCache[letter] || ""
-      var _parsed = _rows ? this._parseSuggestionLines(_rows) : []
+      var _parsed = _rows ? this._splitSuggestionLines(_rows) : []
       this._cacheEnglishSuggestion(letter, _parsed)
       delete this.englishSuggestionCache[letter]
       done(_parsed)
@@ -612,7 +599,7 @@ export default {
           return
         }
         var text = data && data.text ? data.text : ""
-        var parsed = text ? this._parseSuggestionLines(text) : []
+        var parsed = text ? this._splitSuggestionLines(text) : []
         this._cacheEnglishSuggestion(letter, parsed)
         var pending = this.englishSuggestionPending[letter] || []
         delete this.englishSuggestionPending[letter]
@@ -712,19 +699,26 @@ export default {
   },
 
   scanEnglishSuggestionRows(rows, seed, items, seen) {
+    var prevWord = ""
     for (var i = 0; i < rows.length; i++) {
-      var row = rows[i]
-      if (!row || !row.entryId || !/^[0-9a-z]+$/.test(row.entryId)) {
+      var parts = rows[i].split("\t")
+      if (parts.length < 3) {
         continue
       }
-      var word = this.normalizeEnglishSeed(row.word)
+      var entryId = parts[1]
+      if (!entryId || !/^[0-9a-z]+$/.test(entryId)) {
+        continue
+      }
+      var decoded = this._decodeWordPrefix(parts, prevWord)
+      prevWord = decoded
+      var word = this.normalizeEnglishSeed(decoded)
       if (!word || word === seed || seen[word] || word.indexOf(seed) !== 0) {
         continue
       }
       seen[word] = true
       items.push({
         word: word,
-        score: this.scoreEnglishCandidate(seed, word, this._expandTag(row.tags || ""))
+        score: this.scoreEnglishCandidate(seed, word, this._expandTag(parts[2] || ""))
       })
       // Early termination — enough candidates for scoring to pick the best 30
       if (items.length >= 80) {
