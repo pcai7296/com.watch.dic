@@ -1633,6 +1633,9 @@ export default {
   },
 
   _saveSearchHistory() {
+    if (this._historySavePending) {
+      return
+    }
     var query = this.queryText
     if (!query) {
       return
@@ -1653,6 +1656,7 @@ export default {
       return
     }
 
+    this._historySavePending = true
     var self = this
     storage.get({
       key: "dic_history",
@@ -1687,6 +1691,12 @@ export default {
     storage.set({
       key: "dic_history",
       value: JSON.stringify(output),
+      success: function() {
+        this._historySavePending = false
+      }.bind(this),
+      fail: function() {
+        this._historySavePending = false
+      }.bind(this),
       complete: function() {}
     })
   },
