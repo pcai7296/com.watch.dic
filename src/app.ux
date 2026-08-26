@@ -75,7 +75,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("device.getInfo failed; using compiled target: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 

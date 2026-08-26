@@ -51,6 +51,7 @@ export function loadDictionaryProfile(done) {
       for (let i = 0; i < pending.length; i++) {
         pending[i](_profile)
       }
-    }
+    },
+    complete: () => {}
   })
 }

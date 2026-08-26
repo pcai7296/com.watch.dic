@@ -118,7 +118,8 @@ export default {
       }.bind(this),
       fail: function(data, code) {
         console.log("index device.getInfo failed; using compiled target: " + code)
-      }.bind(this)
+      }.bind(this),
+      complete: function() {}
     })
     this._updateTime()
     this._loadLayout()
@@ -150,7 +151,8 @@ export default {
           self.layoutMode = value
         }
       },
-      fail: function() {}
+      fail: function() {},
+      complete: function() {}
     })
   },
 
@@ -170,7 +172,8 @@ export default {
           value: String(nextCount),
           fail: function(setData, code) {
             console.log("index launch count save failed: " + code)
-          }
+          },
+          complete: function() {}
         })
         if (nextCount === 1 || nextCount % 10 === 0) {
           this.goSponsor()
@@ -179,7 +182,8 @@ export default {
       fail: function(getData, code) {
         console.log("index launch count read failed: " + code)
         this.goSponsor()
-      }.bind(this)
+      }.bind(this),
+      complete: function() {}
     })
   },
 
@@ -200,10 +204,11 @@ export default {
           }
         }
         if (clean.length < list.length) {
-          storage.set({ key: "dic_history", value: JSON.stringify(clean) })
+          storage.set({ key: "dic_history", value: JSON.stringify(clean), complete: function() {} })
         }
       },
-      fail: function() {}
+      fail: function() {},
+      complete: function() {}
     })
   },
 
@@ -247,7 +252,8 @@ export default {
         var value = data && (data.value || data)
         self.btnScaleEnabled = value === "1"
       },
-      fail: function() {}
+      fail: function() {},
+      complete: function() {}
     })
   },
 
@@ -313,7 +319,8 @@ export default {
       },
       fail: () => {
         router.push({ uri: "/pages/records", params: { type: "favorites", loading: "0" } })
-      }
+      },
+      complete: () => {}
     })
   },
   goAbout() {
@@ -786,27 +793,15 @@ export default {
 /* ==============================
    长按缩放反馈动画（点按进页 / 长按回缩防误触）
    ============================== */
-@keyframes dicPressIn {
-  from { transform: scale(1); }
-  to { transform: scale(0.85); }
-}
-
-@keyframes dicPressOut {
-  from { transform: scale(0.85); }
-  to { transform: scale(1); }
-}
-
 .press-in {
-  animation-name: dicPressIn;
-  animation-duration: 120ms;
-  animation-timing-function: ease-out;
+  transform: scale(0.85);
+  transition: transform 120ms ease-out;
   transform-origin: 50% 50%;
 }
 
 .press-out {
-  animation-name: dicPressOut;
-  animation-duration: 120ms;
-  animation-timing-function: ease-out;
+  transform: scale(1);
+  transition: transform 120ms ease-out;
   transform-origin: 50% 50%;
 }
 </style>
