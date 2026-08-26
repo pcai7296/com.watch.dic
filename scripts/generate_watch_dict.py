@@ -1,4 +1,5 @@
 # noqa: SIZE_OK - existing generator is intentionally a single deterministic pipeline.
+import argparse
 import csv
 import base64
 import gzip
@@ -618,6 +619,15 @@ def load_wordnet_derived_links(word_set):
 PHRASES_SOURCE = ROOT / "data" / "phrases.csv"
 
 def main():
+    parser = argparse.ArgumentParser(description="Generate compact-v3 watch dictionary shards")
+    parser.add_argument(
+        "--cn-index-mode",
+        choices=["full", "balanced", "core"],
+        default="balanced",
+        help="cn_index CC-CEDICT augmentation mode: full=keep all, balanced=keep <=3 chars, core=drop CC-CEDICT additions",
+    )
+    args = parser.parse_args()
+
     rows = []
     with SOURCE.open("r", encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -892,7 +902,7 @@ def main():
     # Augment cn_index with CC-CEDICT (Chinese → English reverse lookup)
     ccedict = load_cc_cedict(CCEDICT_SOURCE)
     ccedict_added = 0
-    if ccedict:
+    if ccedict and args.cn_index_mode != "core":
         # Build word → entry_id reverse map
         word_to_entry = {}
         for entry_id, row in enumerate(rows):
@@ -901,6 +911,8 @@ def main():
 
         ccedict_added = 0
         for phrase, meanings in ccedict.items():
+            if args.cn_index_mode == "balanced" and len(phrase) > 3:
+                continue
             # Extract English content words from all meanings
             matched_ids = set()
             for meaning in meanings:
@@ -953,6 +965,7 @@ def main():
         "source": str(SOURCE.relative_to(ROOT)),
         "headwords": len(rows),
         "schema": "compact-v3",
+        "cnIndexMode": args.cn_index_mode,
         "wordIndexFormat": "base36PrefixLen+suffix\\tbase36EntryId\\ttagCode(hex)",
         "entriesFormat": "base36PrefixLen+wordSuffix\\tpron\\tdef\\t[tagCode]",
         "entriesEncoding": "implicit-eid, front-coded-word, ipa-mapped, phrase-encoded",
@@ -1001,7 +1014,7 @@ def main():
         "zhBucketCount": ZH_BUCKET_COUNT,
         "cnIndexPhrases": cn_phrase_count,
         "cnIndexLinks": cn_link_count,
-        "ccCedictSource": str(CCEDICT_SOURCE) if CCEDICT_SOURCE.exists() else "",
+        "ccCedictSource": str(CCEDICT_SOURCE.relative_to(ROOT)) if CCEDICT_SOURCE.exists() else "",
         "ccCedictMerged": ccedict_added,
         "resultLimit": 20,
     }
