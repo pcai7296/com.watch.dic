@@ -323,8 +323,10 @@ def encode_front_code(value, previous):
     limit = min(len(value), len(previous))
     while prefix_len < limit and value[prefix_len] == previous[prefix_len]:
         prefix_len += 1
-    if prefix_len >= 36:
-        raise DictionaryFormatError("front-code prefix exceeds one Base36 character")
+    if prefix_len > 35:
+        # Base36 can only encode 0-35 in one char; capping is lossless because
+        # value[:35] == previous[:35] when the true common prefix is longer.
+        prefix_len = 35
     return BASE36_DIGITS[prefix_len] + value[prefix_len:]
 
 
