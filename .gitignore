@@ -10,3 +10,7 @@
 /fork_astrobox/
 /scripts/__pycache__/
 *.pyc
+# Build outputs are reproducible; release RPKs go to GitHub Release assets.
+/build/
+/dist/
+*.rpk
