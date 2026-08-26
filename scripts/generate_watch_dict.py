@@ -618,8 +618,59 @@ def load_wordnet_derived_links(word_set):
 
 PHRASES_SOURCE = ROOT / "data" / "phrases.csv"
 
+PROFILE_TAG_PRIORITY = {
+    "zk": 0,
+    "gk": 1,
+    "cet4": 2,
+    "cet6": 3,
+    "ky": 4,
+    "toefl": 5,
+    "ielts": 6,
+    "gre": 7,
+}
+
+
+def apply_profile(rows, profile):
+    """Filter the merged candidate pool to a release/dev profile.
+
+    Profiles are product targets, not hard capacity limits. This is the initial
+    value-based selection; later iterations will use BNC/COCA frequency and
+    actual built size as feedback to tune the thresholds.
+    """
+    if profile == "standard":
+        return rows
+
+    ecdict = [r for r in rows if r.get("source") == "ecdict"]
+    phrases = [r for r in rows if r.get("source") == "phrase"]
+    cc_extra = [r for r in rows if r.get("source") == "cc_extra"]
+
+    if profile == "dev":
+        # Tiny but runnable dev dictionary: prioritize school/exam words,
+        # keep a small set of phrases for phrase-mode smoke tests.
+        def tag_rank(row):
+            tags = (row.get("tag") or "").replace(",", " ").split()
+            return min((PROFILE_TAG_PRIORITY.get(t, 99) for t in tags), default=99)
+
+        order = {id(r): i for i, r in enumerate(ecdict)}
+        ecdict_sorted = sorted(ecdict, key=lambda r: (tag_rank(r), order[id(r)]))
+        return ecdict_sorted[:1200] + phrases[:200]
+
+    if profile == "lite":
+        # Light release: all tagged ECDICT headwords + a few thousand phrases.
+        # cc_extra (35k CC-CEDICT single words) is intentionally omitted.
+        return ecdict + phrases[:5000]
+
+    return rows
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate compact-v3 watch dictionary shards")
+    parser.add_argument(
+        "--profile",
+        choices=["dev", "lite", "standard"],
+        default="standard",
+        help="dictionary profile: dev=tiny dev dict, lite=light release, standard=full release",
+    )
     parser.add_argument(
         "--cn-index-mode",
         choices=["full", "balanced", "core"],
@@ -637,6 +688,7 @@ def main():
                 continue
             rows.append(
                 {
+                    "source": "ecdict",
                     "word": word,
                     "phonetic": clean_text(row.get("phonetic")),
                     "translation": clean_text(row.get("translation")),
@@ -658,6 +710,7 @@ def main():
                     continue
                 rows.append(
                     {
+                        "source": "cc_extra",
                         "word": word,
                         "phonetic": clean_text(row.get("phonetic")),
                         "translation": clean_text(row.get("translation")),
@@ -682,6 +735,7 @@ def main():
                     continue
                 rows.append(
                     {
+                        "source": "phrase",
                         "word": word,
                         "phonetic": clean_text(row.get("phonetic")),
                         "translation": clean_text(row.get("translation")),
@@ -694,6 +748,10 @@ def main():
         print(f"  [PHRASES] 已合并 {phrase_count} 个高频词组")
     else:
         print("  [PHRASES] 跳过（phrases.csv 未找到）")
+
+    rows = apply_profile(rows, args.profile)
+    word_shards_mode = "full" if args.profile == "standard" else "letter"
+    print(f"  [PROFILE] {args.profile}: {len(rows)} headwords, word_shards={word_shards_mode}")
 
     output_dir = OUT.with_name(OUT.name + ".tmp")
     if output_dir.exists():
@@ -805,25 +863,26 @@ def main():
             prev_word = word
         write_txt(output_dir / "words" / filename, "\n".join(lines) + "\n")
 
-    # 2-letter prefix shards (hot path: autocomplete + exact/prefix search)
-    # Write all 676 combos (incl. empty) so every word_<two>.txt path exists and
-    # runtime readers never stall on a missing file.
     two_shard_count = 0
-    for a in "abcdefghijklmnopqrstuvwxyz":
-        for b in "abcdefghijklmnopqrstuvwxyz":
-            two = a + b
-            write_word_shard(f"word_{two}.txt", word_two.get(two, []))
-            two_shard_count += 1
-
-    # Single-letter head shards: top-ranked words for single-char autocomplete seed
     head_shard_count = 0
-    for first_letter, indexed_rows in sorted(word_indexes.items()):
-        head_rows = sorted(
-            indexed_rows,
-            key=lambda item: (-_tag_rank(item[1]["tag"]), item[1]["word"].lower()),
-        )[:200]
-        write_word_shard(f"word_{first_letter}_head.txt", head_rows)
-        head_shard_count += 1
+    if word_shards_mode == "full":
+        # 2-letter prefix shards (hot path: autocomplete + exact/prefix search)
+        # Write all 676 combos (incl. empty) so every word_<two>.txt path exists and
+        # runtime readers never stall on a missing file.
+        for a in "abcdefghijklmnopqrstuvwxyz":
+            for b in "abcdefghijklmnopqrstuvwxyz":
+                two = a + b
+                write_word_shard(f"word_{two}.txt", word_two.get(two, []))
+                two_shard_count += 1
+
+        # Single-letter head shards: top-ranked words for single-char autocomplete seed
+        for first_letter, indexed_rows in sorted(word_indexes.items()):
+            head_rows = sorted(
+                indexed_rows,
+                key=lambda item: (-_tag_rank(item[1]["tag"]), item[1]["word"].lower()),
+            )[:200]
+            write_word_shard(f"word_{first_letter}_head.txt", head_rows)
+            head_shard_count += 1
 
     inflect_rows = []
     for forms in inflect.values():
@@ -967,6 +1026,8 @@ def main():
         "source": str(SOURCE.relative_to(ROOT)),
         "headwords": len(rows),
         "schema": "compact-v3",
+        "profile": args.profile,
+        "wordShardsMode": word_shards_mode,
         "cnIndexMode": args.cn_index_mode,
         "wordIndexFormat": "base36PrefixLen+suffix\\tbase36EntryId\\ttagCode(hex)",
         "entriesFormat": "base36PrefixLen+wordSuffix\\tpron\\tdef\\t[tagCode]",
