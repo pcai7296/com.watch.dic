@@ -1,1 +1,25 @@
-
+0yacht	yachted,yachting,yachts
+2rd	yards
+4stick	yardsticks
+3n	yarned,yarning,yarns
+2w	yawed,yawing,yaws
+3n	yawned,yawning,yawns
+1ear	@bhr,years
+4n	yearned,yearning,yearns
+3st	yeasts
+2ll	yelled,yelling,yells
+4ow	yellowed,yellower,yellowing,yellows
+3p	yelped,yelping,yelps
+2n	yens
+2oman	yeomen
+1ield	yielded,@bi3,yields
+5ing	@51t,@bi2
+1oghurt	yoghurts
+2ke	yoked,yokes,yoking
+4l	yokels
+2lk	yolked,yolks
+2u	@bid,@bie,@bif,@big
+3ng	younger,youngest,@bic
+5ster	youngsters
+3th	@bii,youths
+1ummy	yummiest

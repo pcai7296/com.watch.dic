@@ -1,15 +1,127 @@
-0jacket	jm	3f
-0January	jn	23
-2pan	jo	3
-5ese	jp	23
-0jeans	jq	37
-1ob	jr	23
-2in	js	43
-2ke	jt	17
-2y	ju	17
-1udge of	yz	
-2ice	jv	63
-0July	jw	23
-0jump	jx	3
-0June	jy	23
-0just	jz	3
+0jabber	5ol	80
+2ck	5om	8
+4 the ripper	fa1	
+4et	5on	3f
+2de	5oo	80
+4d	5op	80
+2gged	5oq	a0
+2il	5or	2c
+2m	5os	3e
+3b	5ot	80
+4oree	5ou	80
+2nitor	5ov	20
+0January	5ow	23
+2pan	5ox	3
+5ese	5oy	23
+0jape	5oz	80
+2r	5p0	de
+3gon	5p1	90
+3ring	5p2	80
+2undice	5p3	80
+8d	5p4	80
+4t	5p5	80
+5y	5p6	80
+2w	5p7	5e
+2zz	5p8	96
+1ealous	5p9	7c
+7y	5pa	c8
+3n	5pb	8
+4s	5pc	37
+2ep	5pd	2
+3r	5pe	e0
+2june	5pf	80
+2lly	5pg	48
+5fish	5ph	40
+2opardize	5pi	88
+7y	5pj	c0
+2rk	5pk	e8
+2st	5pl	80
+4ing	5pm	80
+0Jesus	5pn	8
+0jet	5po	1e
+3tison	5pp	c0
+2wel	5pq	5e
+5er	5pr	40
+5lery	5ps	8
+5ry	5pt	72
+5s	5pu	40
+0Jewish	5pv	c
+0jibe	5pw	80
+2gsaw	5px	80
+2ngle	5py	8
+4oism	5pz	80
+2tter	5q0	80
+1ob	5q1	23
+3s	5q2	20
+2ckey	5q3	80
+3ose	5q4	40
+3ular	5q5	80
+4nd	5q6	80
+2g	5q7	fa
+3ging	5q8	40
+2hn the baptist	f9i	
+2in	5q9	43
+4ed at the hip	ei3	
+4t	5qa	1c
+2ke	5qb	17
+2lly	5qc	9c
+3t	5qd	e0
+4ing	5qe	40
+2t	5qf	80
+2urnal	5qg	7c
+7ism	5qh	40
+9t	5qi	7e
+aic	5qj	40
+5ey	5qk	1e
+7 around the world	esc	
+2vial	5ql	c0
+2y	5qm	17
+3ful	5qn	c
+3ous	5qo	40
+1ubilant	5qp	c0
+6tion	5qq	80
+2dge	5qr	1e
+5 of	bkp	
+5ment	5qs	5e
+3icial	5qt	b0
+6ous	5qu	c0
+9ness	5qv	80
+2g	5qw	58
+3gernaut	5qx	80
+4le	5qy	10
+2ice	5qz	63
+4y	5r0	42
+0July	5r1	23
+0jumble	5r2	e0
+3p	5r3	3
+2nction	5r4	f8
+5ure	5r5	c0
+0June	5r6	23
+0jungle	5r7	7e
+3ior	5r8	3e
+3k	5r9	3a
+0Jupiter	5ra	48
+0jurisdiction	5rb	c0
+5prudence	5rc	80
+3y	5rd	7c
+2st	5re	3
+4 around the corner	ep8	
+6t the time of	c9d	
+5before the battle	eo9	
+gcontest	eob	
+gend	enl	
+7low the crutch	eqm	
+5off the boat	eog	
+5the opposite	er1	
+9thing	eol	
+ainiest bit	eq1	
+5what the doctor ordered	emj	
+4ice	5rf	5e
+7 of the peace	cqs	
+5fiable	5rg	80
+7cation	5rh	a8
+6y	5ri	fc
+4ly	5rj	40
+2venile	5rk	f0
+2xtapose	5rl	80
+8ition	5rm	40

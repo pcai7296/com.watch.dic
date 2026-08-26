@@ -1,111 +1,1377 @@
 0a	0	3
-1bility	1	77
-2le	2	3
-2out	3	3
-3ve	4	3
-2road	5	43
-2sent	6	5f
-1ccent	7	17
-4pt	8	17
-6 of	100	
-3ident	9	57
-3use of	11r	
-2he	a	17
-3ieve	b	7f
-2res of	12b	
-3oss	c	3
-2t	d	17
-3ion	e	7f
-6 of of detine	y5	
-4ve	f	57
-5ity	g	37
-1dd	h	17
-3ress	i	ff
-2mit of	110	
-2vantage	j	17
-3ertisement	k	27
-3ice	l	7f
-4se	m	5f
-1fford	n	7f
-2oul of	11w	
-2raid	o	3
-6 of	11z	
-2ter	p	3
-5noon	q	3
-1gain	r	3
-5st	s	17
-2e	t	63
-2o	u	3
-2ree	v	3
-5ment	w	23
-1head of	zj	
-1ir	x	63
-3line	y	17
-3plane	z	7
-4ort	10	23
-1live	11	1f
-2l	12	23
-3 of	xu	
-3ow	13	17
-5 of	10x	
-2most	14	3
-2one	15	77
-4g	16	3
-5 of	yt	
-5side of	11a	
-3ud	17	17
-2ready	18	3
-2so	19	3
-2though	1a	17
-2ways	1b	3
-0America	1c	23
-7n	1d	23
-0among	1e	3
-1ncient	1f	3f
-2d	1g	3
-2gry	1h	23
-2imal	1i	23
-2other	1j	3
-2swer	1k	3
-2t	1l	17
-2y	1m	3
-3body	1n	3
-3one	1o	17
-3thing	1p	3
-8 of	10n	
-3way	1q	15
-4here	1r	17
-1ppear	1s	57
-3le	1t	3
-3rove of	11q	
-0April	1u	23
-0apropos of	12o	
-1rea	1v	37
-2m	1w	3
-3y	1x	37
-2ound	1y	3
-2rive	1z	3
-2t	20	37
-3icle	21	77
-1s	22	23
-2 of	xh	
-0Asia	23	23
-4n	24	3
-0aside of	zm	
-2k	25	3
-2leep	26	17
-2tern of	11m	
-1t	27	3
-0Atlantic	28	7
-0attention	29	77
-1ugust	2a	a3
-2nt	2b	3
-0Australia	2c	23
-9n	2d	23
-0autumn	2e	3
-1vail of	11f	
-5able	2f	ff
-2oid	2g	f7
-1wake	2h	1f
-3re of	126	
-3y	2i	3
+1 amount of	br1	
+2band of	bq2	
+5k of	bpy	
+4r of	bq3	
+5rage of	bt6	
+6el of	brm	
+4ttalion of	bte	
+6ery of	br0	
+3eauty in the bud	c5y	
+4nd in a stream	ecz	
+3it of	bq8	
+8 a	bu3	
+7n the side	cfx	
+3lade of	brk	
+5nket of	brv	
+3olt from the blue	cwd	
+4uquet of	bt8	
+3unch of	bt5	
+2cake of	brb	
+3hoice of	brx	
+3luster of	brw	
+3oat of	brf	
+4llection of	bqt	
+5ony of	bsg	
+4nglomerate of	bt4	
+4py of a film	dj5	
+4uple of	bsi	
+3rack in a rock	ecw	
+4ick in the neck	c61	
+4op of	bsb	
+5wd of	bsr	
+3up of	br7	
+2dab of	bt3	
+3ecade of	bsp	
+b a century	dj1	
+4vil of	bs4	
+3ose of	bri	
+3rop in the ocean	c5w	
+7of	bqb	
+2fall on the buttocks	cgb	
+4raway and hard-to-reach land	dqh	
+3east for the eyes	cef	
+4w of	bsn	
+3lock of	bsx	
+5od of	bsq	
+3raction of	brs	
+3und of	bqa	
+2galaxy of	bta	
+4me of	bqn	
+4ng of	bs1	
+3rain of	bra	
+4oup of	bpv	
+2handful of	btf	
+3eap of	bsf	
+4ll of	bs8	
+4rd of	bsv	
+3int of	bt9	
+4t with the public	chx	
+3ost of	brc	
+2job in the bureaucracy	c5q	
+2kind of	bs3	
+9 a bread	dj2	
+2lack of	bst	
+4yer of	bq9	
+3eft-and-right pair of shoes	dho	
+4ngth of	bqg	
+3ine of	bpe	
+3oad of	bpw	
+4t of	bro	
+3ump on the heart	cgm	
+2majority of	brq	
+4ss of	bq4	
+4tter of	bqw	
+4ximum of	bqc	
+3easure of	bqx	
+4mber of one's clique	fcd	
+3inimum of	bqd	
+3ountain of	br5	
+3ug of	bt1	
+4ltitude of	btc	
+4ster of	bsy	
+2nest of	bss	
+3ip in the air	c5t	
+3ook in the mountains	c62	
+3umber of	bps	
+2pack of	brd	
+6age of	br3	
+6et of	bqu	
+4il of	btb	
+5n in the neck	c5v	
+5r of	br9	
+4rt of	bqi	
+6icle of	br6	
+4tch of	brp	
+3eck of	bt7	
+4riod of	bq1	
+5son in the know	c4e	
+3iece of	bqy	
+4le of	bs6	
+4nch of	bsj	
+3lenty of	bsz	
+4ot of	bry	
+3ortion of	bsk	
+4sitive in the negative	c5x	
+4wer of	bpm	
+3rofusion of	btd	
+5mise must be kept	dyj	
+2quantity of	bqs	
+5rter of	brt	
+4eue of	bqp	
+2rainbow of	bsl	
+4nge of	bq7	
+4y of	brj	
+3oll of	bqk	
+4w of	brg	
+2score of	brr	
+3equence of	bq6	
+4ries of	bqe	
+4t of	bpq	
+3hade of	bsm	
+4eet of	bpz	
+4ill for a clinic	fco	
+4ot in the dark	c5u	
+3lap on the face	cg6	
+4ice of	bru	
+5p of a pen	djh	
+athe tongue	c1z	
+3nap of the fingers	c22	
+3ort of	bqr	
+3pan of	bsh	
+5rk of	brl	
+4ecies of	bsa	
+4ot of	bqf	
+3tock of	bpu	
+5rm of	brn	
+4rain of	br2	
+6w in the wind	c60	
+5eak of	bsc	
+7m of	bre	
+5ing of	bqj	
+6p of	bqv	
+3uccession of	brz	
+4it of	br4	
+4rge of	bsd	
+3warm of	bt0	
+2team of	bs5	
+3ooth for a tooth	fch	
+4tal of	bq5	
+3rain of	br8	
+4eat for the eyes	ce5	
+4oop of	bsw	
+3urn for the better	cdp	
+3ype of	bpl	
+2variety of	bsu	
+3ictim of a calamity	djm	
+edisaster	djg	
+2walk in the park	c5n	
+4ve of	bpx	
+3ealth of	bse	
+3ord to the wise	c3x	
+5ld of	bqm	
+2year and a half	dpg	
+1bandon	1	de
+7ed	2	40
+7ment	3	40
+3se	4	80
+4h	5	80
+5ed	6	40
+3te	7	c0
+2breviate	8	c0
+9ion	9	68
+2dicate	a	c0
+3omen	b	10
+3uct	c	c0
+2errant	d	80
+6tion	e	80
+3t	f	80
+3yance	g	80
+2hor	h	c0
+5rent	i	c0
+2ide	j	d8
+4ing	k	40
+3lity	l	77
+2ject	m	c0
+3ure	n	80
+2laze	o	40
+3e	p	3
+3ution	q	c0
+2negate	r	80
+7ion	s	80
+3ormal	t	7e
+2oard	u	56
+3lish	v	fa
+5tion	w	c0
+9ist	x	40
+3minate	y	80
+3riginal	z	a0
+4t	10	60
+5ion	11	22
+6ve	12	c0
+3und	13	f0
+4t	14	3
+5 the same	eno	
+7o be obliterated	dtb	
+3ve	15	3
+5 the common	eze	
+afray	f3a	
+5board	16	80
+2rade	17	80
+4sion	18	e0
+6ve	19	c0
+3east	1a	80
+3idge	1b	e0
+3oad	1c	43
+4gate	1d	80
+3upt	1e	fa
+2scission	1f	80
+4ond	1g	80
+3ence	1h	5e
+5t	1i	5f
+6ee	1j	40
+8ism	1k	c0
+3olute	1l	de
+8ly	1m	44
+5ve	1n	c0
+4rb	1o	fe
+6ing	1p	40
+5ption	1q	48
+3tain	1r	c0
+4emious	1s	80
+5ntion	1t	80
+9us	1u	80
+4inence	1v	40
+8t	1w	80
+4ract	1x	fe
+8ion	1y	40
+5use	1z	c0
+3urd	20	fa
+2undance	21	f8
+7t	22	d6
+8ly	23	40
+3se	24	fe
+4ive	25	80
+3t	26	c0
+2ysmal	27	80
+4s	28	40
+1cademic	29	fe
+8ian	2a	c0
+6y	2b	5e
+3rpous	2c	80
+2cede	2d	80
+4lerate	2e	fe
+ad	2f	40
+9ing	2g	40
+aon	2h	44
+4nt	2i	17
+6uate	2j	c0
+4pt	2k	17
+6 of	blq	
+6able	2l	4
+7nce	2m	1c
+a of bill of exchange	bws	
+4ss	2n	fe
+6ary	2o	8
+6ibility	2p	40
+8le	2q	ea
+6ory	2r	fc
+3ident	2s	57
+8al	2t	5c
+aly	2u	40
+8s	2v	20
+3laim	2w	f0
+7ed	2x	40
+4imate	2y	80
+3olade	2z	80
+4mmodate	30	fc
+aing	31	c0
+bon	32	3e
+ds	33	20
+5paniment	34	40
+8y	35	fe
+9ing	36	40
+6lice	37	c0
+8sh	38	f6
+aed	39	c0
+ament	3a	48
+e out of the ordinary	cgh	
+4rd	3b	fc
+6ance	3c	1c
+6ing to the facts	dbk	
+hlocation	dbl	
+hregulations	dbm	
+hsituation	d7l	
+awith the times	egd	
+9ly	3d	1c
+7on	3e	40
+4st	3f	c0
+4unt	3g	76
+7 for	3h	60
+7ability	3i	80
+8nt	3j	72
+as	3k	20
+7ing	3l	60
+3redit	3m	40
+5te	3n	80
+6ion	3o	80
+4ue	3p	80
+3umulate	3q	fe
+9ion	3r	40
+4racy	3s	fe
+6te	3t	fc
+4sation	3u	40
+5e	3v	fe
+6 of	bnh	
+6r	3w	20
+5tom	3x	5c
+8ed	3y	5e
+2erbic	3z	80
+6ty	40	80
+2he	41	17
+3ieve	42	7f
+7ment	43	6e
+3romatic	44	80
+2id	45	7e
+4ic	46	40
+5ty	47	40
+2knowledge	48	fe
+2me	49	c0
+2olyte	4a	80
+3rn	4b	80
+3ustic	4c	80
+8al	4d	40
+2quaint	4e	f8
+8ance	4f	de
+8ed	4g	c0
+4iesce	4h	80
+5re	4i	7e
+7d	4j	80
+5sition	4k	7e
+9ve	4l	c8
+5t	4m	c0
+6tal	4n	80
+2re	4o	56
+4s of	bo1	
+3id	4p	c0
+4monious	4q	c0
+7y	4r	c0
+3obat	4s	90
+4nym	4t	c0
+4phobia	4u	80
+4ss	4v	3
+6 the board	f06	
+bmiddle	f0v	
+bworld	etz	
+2t	4w	17
+3ing	4x	40
+4on	4y	7f
+6 of of detine	bjv	
+6s	4z	20
+4vate	50	70
+5e	51	57
+6ly	52	40
+5ities	53	20
+7y	54	37
+3or	55	36
+3ress	56	16
+3s of the apostles	cv7	
+3ual	57	56
+6ly	58	4c
+5rial	59	80
+5te	5a	c0
+2uity	5b	80
+3men	5c	c0
+3puncture	5d	40
+3te	5e	fe
+1d	5f	4
+2age	5g	c0
+3mant	5h	c0
+3pt	5i	fe
+5able	5j	c0
+6tion	5k	42
+5ive	5l	40
+2d	5m	17
+3endum	5n	80
+3ict	5o	f8
+6ed	5p	42
+6ive	5q	40
+4tion	5r	be
+8al	5s	7c
+6ve	5t	c0
+3le	5u	c0
+3ress	5v	ff
+3uce	5w	80
+2ept	5x	e0
+3quate	5y	fe
+2here	5z	fc
+6nce	60	40
+7t	61	80
+4sive	62	c0
+2jacent	63	f8
+3ective	64	14
+3oin	65	78
+6ing	66	40
+4urn	67	c0
+3udicate	68	80
+4nct	69	c0
+4st	6a	fe
+6able	6b	8
+6ment	6c	42
+2lib	6d	80
+2minister	6e	70
+8rate	6f	50
+bion	6g	7e
+cve	6h	40
+bor	6i	60
+4rable	6j	42
+6tion	6k	48
+5e	6l	d6
+4ssion	6m	fe
+9 to the united nations	dfm	
+4t	6n	56
+5 of	bmq	
+5tedly	6o	40
+3onish	6p	c0
+2obe	6q	c0
+3lescence	6r	22
+9t	6s	da
+3pt	6t	fe
+5ion	6u	48
+3re	6v	fa
+4n	6w	c0
+5ment	6x	40
+2roit	6y	c0
+2ulate	6z	80
+4t	70	36
+5erate	71	80
+9ion	72	40
+5s	73	20
+3mbrate	74	80
+2vance	75	5e
+7d	76	74
+7ment	77	40
+6ing all the time	eiz	
+5tage	78	17
+9ous	79	8
+9s	7a	20
+3ent	7b	f0
+6itious	7c	c0
+6ure	7d	56
+9r	7e	40
+9s of the gummi bears	cv8	
+8ous	7f	40
+4rb	7g	14
+5se	7h	f8
+7ly	7i	40
+6ity	7j	40
+5t	7k	80
+6ise	7l	be
+9ment	7m	27
+ds	7n	20
+8ing	7o	20
+3ice	7p	7f
+4sable	7q	dc
+5e	7r	5f
+3ocacy	7s	80
+6te	7t	fe
+1egis	7u	80
+2rate	7v	80
+3ial	7w	b8
+3odynamics	7x	40
+4nautics	7y	80
+4plane	7z	1e
+4space	80	8
+2sthete	81	80
+7ic	82	f8
+9al	83	40
+1ffable	84	c0
+4ir	85	5e
+6s	86	20
+7 of the heart	crd	
+fnation	cno	
+8within the palace	ez7	
+3ect	87	7e
+6ation	88	80
+6ed	89	c0
+6ion	8a	fe
+9ate	8b	40
+7ve	8c	48
+3idavit	8d	80
+4liate	8e	f8
+8ion	8f	90
+4nity	8g	c0
+4rm	8h	f8
+4x	8i	a0
+3lict	8j	e8
+7ion	8k	c0
+4uence	8l	c8
+7t	8m	d4
+3ord	8n	7f
+6able	8o	c0
+3ront	8p	80
+2oul of	bnm	
+2raid	8q	3
+6 of	bnp	
+9 the slightest thing	clv	
+0Africa	8r	26
+6n	8s	26
+0after	8t	3
+5 the celebrations	erp	
+aevent	eqo	
+awar	eq7	
+5math	8u	80
+5noon	8v	3
+5ward	8w	1e
+1gain	8x	3
+5st	8y	17
+7 the bristles	eyj	
+ccurrent	euk	
+cheadwind	eyk	
+cstream	ey5	
+cwind	ewo	
+3pe	8z	80
+2e	90	63
+3d	91	40
+3ncies	92	20
+5y	93	36
+4da	94	f2
+4t	95	56
+2glomerate	96	80
+3randize	97	80
+5vate	98	f8
+8ing	99	40
+4egate	9a	e0
+8ion	9b	40
+5ssion	9c	ca
+8ve	9d	fe
+aness	9e	40
+7or	9f	80
+4ieve	9g	80
+2hast	9h	c0
+2ile	9i	c0
+4ity	9j	c0
+3tate	9k	d0
+7d	9l	80
+6ion	9m	68
+2low	9n	40
+2nostic	9o	80
+2o	9p	3
+3g	9q	80
+3nize	9r	40
+4y	9s	bc
+2rarian	9t	c0
+3ee	9u	3
+5able	9v	f8
+5ment	9w	23
+3icultural	9x	2
+ae	9y	7e
+3onomy	9z	80
+1head	a0	2
+5 of	bl9	
+1id	a1	1e
+0AIDS	a2	22
+0ail	a3	80
+3ment	a4	c0
+2m	a5	7e
+2r	a6	63
+3borne	a7	c0
+3craft	a8	56
+3line	a9	17
+3mail	aa	2
+3plane	ab	7
+4ort	ac	23
+3sickness	ad	40
+4pace	ae	2
+3tight	af	80
+2sle	ag	30
+1jar	ah	40
+1kin	ai	40
+1labaster	aj	80
+3crity	ak	80
+3rm	al	76
+3s	am	8
+0Alaska	an	20
+0albeit	ao	80
+3ino	ap	80
+3um	aq	3a
+2chemy	ar	c0
+3ohol	as	16
+7ic	at	2
+4ve	au	80
+2der	av	40
+2ert	aw	dc
+3xander the great	evi	
+2gae	ax	40
+3ebra	ay	4e
+2ias	az	80
+3bi	b0	80
+3en	b1	78
+5ate	b2	e0
+3ght	b3	40
+4n	b4	80
+5ment	b5	48
+3ke	b6	5e
+3mentary	b7	80
+3ve	b8	1f
+2kali	b9	c0
+2l	ba	23
+3 members of a group	fcz	
+4of	bjk	
+5ver the body	eju	
+dplace	eiu	
+dworld	ej1	
+4parts of the country	cey	
+4the best	en6	
+9orders	eni	
+8colors of spring	cfv	
+8grains	enj	
+8more	eit	
+8people	emk	
+8time	ej0	
+9rades	enk	
+8way	emn	
+b around	eka	
+8year round	eiq	
+6rough the night	emf	
+3ay	bb	80
+3egation	bc	48
+5e	bd	f8
+5iance	be	e8
+5ory	bf	c0
+4rgic	bg	a2
+6y	bh	a0
+4viate	bi	f8
+4y	bj	22
+3iance	bk	78
+4ed	bl	18
+4gator	bm	40
+4terate	bn	80
+9ion	bo	40
+3ocate	bp	fa
+4t	bq	60
+4w	br	17
+5 of	bmn	
+5ance	bs	ba
+4y	bt	7c
+3ude	bu	c0
+4re	bv	40
+5ing	bw	80
+4sion	bx	c0
+3y	by	78
+2mond	bz	80
+4st	c0	3
+3s	c1	80
+4giving for the needy	edn	
+2oft	c2	c0
+3ne	c3	77
+5 in the world	djx	
+4g	c4	3
+5 of	bkj	
+6the border	f2n	
+aline	exd	
+ariver	f1m	
+away	eqw	
+5side	c5	3a
+9 of	bn0	
+3of	c6	c0
+3ud	c7	17
+2phabet	c8	1e
+8ical	c9	a0
+2ready	ca	3
+2so	cb	3
+2ter	cc	fc
+5ation	cd	48
+5nate	ce	f8
+9ly	cf	40
+8ion	cg	40
+9ve	ch	7e
+3hough	ci	17
+3itude	cj	7e
+3ogether	ck	16
+3ruism	cl	c0
+7tic	cm	80
+2uminium	cn	ce
+6um	co	54
+4nus	cp	40
+2ways	cq	3
+6 in the right	dir	
+7the same routine	esa	
+0AM	cr	2
+0amalgam	cs	80
+7ate	ct	c0
+3ss	cu	c0
+3teur	cv	fa
+7ish	cw	80
+3ze	cx	7e
+5ment	cy	40
+4ing	cz	62
+2bassador	d0	3a
+3idextrous	d1	80
+4ence	d2	c0
+6t	d3	8
+4guity	d4	28
+6ous	d5	fa
+4tion	d6	7e
+7us	d7	78
+4valence	d8	c0
+9t	d9	c0
+3le	da	c0
+3rosial	db	80
+3ulance	dc	36
+6tory	dd	80
+4sh	de	c0
+2eliorate	df	80
+3nable	dg	c0
+4d	dh	f0
+5ment	di	c0
+5s	dj	28
+4ity	dk	c0
+0America	dl	23
+7n	dm	23
+0amethyst	dn	80
+2iable	do	d0
+3cable	dp	c0
+3d	dq	78
+4st	dr	20
+6 the clouds and mist	da9	
+3ss	ds	80
+3ty	dt	80
+2munition	du	20
+2nesia	dv	c0
+5ty	dw	c0
+2ong	dx	3
+5 the people	eqa	
+5st	dy	4
+3ral	dz	80
+4phous	e0	80
+4tize	e1	80
+3unt	e2	76
+2pere	e3	c
+3hibian	e4	a0
+3le	e5	fa
+4ification	e6	40
+7er	e7	10
+6y	e8	fc
+5tude	e9	88
+3utate	ea	80
+2ulet	eb	80
+3se	ec	be
+5ment	ed	a
+1n ambassador of the church	cqd	
+3island in the sea	dlt	
+2achronistic	ee	80
+3erobic	ef	80
+3gram	eg	80
+3lgesia	eh	80
+8c	ei	80
+4ogous	ej	c8
+6ue	ek	18
+6y	el	f8
+4yse	em	1c
+6is	en	7e
+6t	eo	8
+5tic	ep	18
+8al	eq	28
+5ze	er	c6
+3rchist	es	c0
+6y	et	80
+3thema	eu	80
+4omical	ev	80
+6y	ew	40
+2cestor	ex	fe
+6ral	ey	40
+7y	ez	c0
+3hor	f0	bc
+3ient	f1	3f
+4llary	f2	80
+2d	f3	3
+3 the rest	d7v	
+2ecdotal	f4	40
+7e	f5	f2
+3mia	f6	90
+5c	f7	80
+3sthesia	f8	40
+a to half the body	d3f	
+7tic	f9	c0
+2gel	fa	14
+4r	fb	36
+3le	fc	56
+5 to the vertical	deb	
+3ry	fd	23
+3uish	fe	d0
+4lar	ff	c0
+2hydrous	fg	80
+2imal	fh	23
+6 from the chinese zodiac	ek6	
+6s	fi	20
+5te	fj	80
+7d	fk	c0
+6ion	fl	80
+4osity	fm	c0
+4us	fn	80
+2kle	fo	3e
+2nals	fp	80
+3ex	fq	40
+5ation	fr	80
+3ihilate	fs	e0
+4versary	ft	3a
+3otate	fu	c0
+4unce	fv	de
+8ment	fw	62
+8r	fx	44
+4y	fy	e2
+5ing	fz	40
+8 in the extreme	dmh	
+3ual	g0	76
+6ly	g1	48
+4ity	g2	20
+4l	g3	c0
+2ode	g4	8
+4yne	g5	80
+3malous	g6	c0
+6y	g7	c0
+3nymity	g8	80
+6ous	g9	f8
+3rexia	ga	80
+3ther	gb	3
+7 part of the country	chw	
+2swer	gc	3
+2t	gd	17
+3agonism	ge	e0
+9t	gf	40
+8ze	gg	c0
+4rctic	gh	aa
+0Antarctica	gi	42
+0antecedence	gj	80
+9t	gk	a0
+4date	gl	c0
+5iluvian	gm	80
+4nna	gn	98
+4rior	go	80
+3hem	gp	e0
+4ology	gq	e0
+4ropoid	gr	80
+8logist	gs	80
+by	gt	60
+3ibiotic	gu	e0
+as	gv	20
+5ody	gw	80
+4c	gx	80
+5ipate	gy	fc
+9ion	gz	60
+9ory	h0	80
+5limax	h1	80
+4dote	h2	80
+4histamine	h3	80
+4pathy	h4	c0
+4quate	h5	40
+9d	h6	c0
+6e	h7	fa
+6ity	h8	c0
+4septic	h9	c0
+5ocial	ha	8
+4thesis	hb	80
+3onym	hc	20
+2vil	hd	80
+2xiety	he	7e
+4ous	hf	5e
+2y	hg	3
+3body	hh	3
+3how	hi	36
+3one	hj	17
+3thing	hk	3
+8 of	bmd	
+3way	hl	15
+4here	hm	17
+1orta	hn	80
+1part	ho	16
+5ment	hp	36
+3thetic	hq	40
+2e	hr	60
+3rture	hs	c0
+3s	ht	20
+3x	hu	c0
+2horism	hv	80
+2iary	hw	80
+2lomb	hx	80
+2ocalyptic	hy	80
+4rypha	hz	80
+9l	i0	80
+3gee	i1	80
+3logetic	i2	20
+6ise	i3	10
+7ze	i4	c6
+6y	i5	56
+3plectic	i6	80
+3stasy	i7	c0
+6te	i8	80
+5rophe	i9	a0
+3thecary	ia	80
+6gm	ib	80
+6osis	ic	80
+2pal	id	10
+5l	ie	d0
+4ratus	if	bc
+5el	ig	c0
+6nt	ih	3e
+5ition	ii	80
+3eal	ij	fe
+6ing	ik	48
+9 to the masses	dgo	
+5r	il	57
+6ance	im	36
+6ing on the outside	efs	
+5se	in	80
+4llation	io	80
+4ndage	ip	80
+6ix	iq	3a
+4tite	ir	fe
+6zer	is	80
+7ing	it	80
+3laud	iu	fa
+6se	iv	9c
+4e	iw	3
+4iance	ix	7c
+5cable	iy	9c
+7nt	iz	e6
+7tion	j0	fe
+b to the task	dcv	
+5ed	j1	20
+4y	j2	7e
+3oint	j3	de
+7ment	j4	7e
+4rtion	j5	40
+4site	j6	80
+3raisal	j7	78
+7e	j8	d8
+4eciable	j9	e8
+8te	ja	fe
+9ing the arts	fa6	
+aon	jb	4a
+5hend	jc	d0
+8sion	jd	60
+ave	je	90
+5ntice	jf	e0
+4ise	jg	80
+4oach	jh	fe
+8es	ji	20
+8ing	jj	40
+b the end	ewb	
+5bation	jk	80
+5priate	jl	fe
+b for the times	edh	
+cto the market	d53	
+joccasion	d90	
+aion	jm	40
+5val	jn	7c
+6e	jo	5e
+7 of	bng	
+5ximate	jp	fc
+bly	jq	4e
+0April	jr	23
+0apron	js	82
+4pos	jt	80
+7 of	boe	
+2t	ju	f8
+3 to the occasion	dc0	
+3itude	jv	e0
+3ly	jw	40
+1quamarine	jx	40
+4rium	jy	60
+4tic	jz	e0
+3educt	k0	80
+4ous chamber of the eye	cog	
+3ifer	k1	80
+4line	k2	80
+0Arab	k3	2
+0arabesque	k4	80
+0Arabian	k5	c
+5c	k6	2
+0arable	k7	c0
+3chnid	k8	80
+2biter	k9	80
+5rary	ka	fe
+7te	kb	80
+8ion	kc	40
+8or	kd	40
+3oreal	ke	c0
+6tum	kf	80
+2c	kg	68
+3ane	kh	80
+3h	ki	fa
+4 of the foot	cq2	
+4aeological	kj	60
+ay	kk	c0
+5ic	kl	60
+5ngel gabriel of the annunciation	cv5	
+4er	km	80
+5type	kn	80
+4ipelago	ko	c0
+5tect	kp	fe
+9ural	kq	40
+be	kr	7e
+5ve	ks	90
+7s	kt	20
+3tic	ku	ea
+2dent	kv	e0
+3or	kw	40
+3uous	kx	60
+2e	ky	2
+3 bound to be many	duk	
+3a	kz	37
+4s	l0	20
+5 outside the city	f30	
+3na	l1	e0
+2got	l2	80
+3ue	l3	3e
+4ment	l4	36
+2ia	l5	c0
+3d	l6	c0
+3se	l7	7e
+4tocracy	l8	80
+9t	l9	c0
+3thmetic	la	5e
+2k of the covenant	cug	
+2m	lb	3
+3ada	lc	80
+4ment	ld	40
+3chair	le	2
+3ed enemy of the nation	cmp	
+6to the teeth	dev	
+3istice	lf	80
+3or	lg	40
+5ed	lh	40
+5y	li	c0
+4ur	lj	20
+3s	lk	40
+3y	ll	37
+2oma	lm	c0
+5tic	ln	c0
+3und	lo	3
+6 the city	evh	
+clock	ez2	
+bworld	esk	
+4se	lp	fc
+2raign	lq	c0
+4nge	lr	56
+7ment	ls	46
+4y	lt	f8
+3est	lu	de
+6ing	lv	80
+3hythmic	lw	80
+3ival	lx	36
+5e	ly	3
+3ogance	lz	c0
+7t	m0	f8
+6te	m1	80
+4w	m2	16
+4yo	m3	80
+2senal	m4	c0
+3on	m5	80
+2t	m6	37
+3ery	m7	f0
+3hritis	m8	c0
+3icle	m9	77
+7s	ma	20
+5ulate	mb	f8
+4fact	mc	c0
+8s	md	80
+5ice	me	80
+7ial	mf	fe
+4llery	mg	a0
+4san	mh	c0
+5t	mi	16
+6ic	mj	3c
+6ry	mk	80
+3less	ml	80
+1s	mm	23
+2 a matter of fact	enp	
+5result of	eo8	
+3big as the sky	dus	
+3different as can be	enc	
+3in the past	d7j	
+5structed by the physician	eb7	
+4t should be	egf	
+3of	bj7	
+3recorded in the accounts	dcj	
+3the circumstances allow	eg7	
+7name implies	eg6	
+7occasion demands	egg	
+7proverb says	egr	
+7time draws near	edi	
+2cend	mn	78
+6ancy	mo	80
+6ing	mp	40
+5t	mq	60
+4rtain	mr	78
+4tic	ms	c0
+3ribe	mt	ec
+2eptic	mu	80
+2h	mv	16
+3amed	mw	36
+3ore	mx	18
+0Asia	my	23
+4n	mz	3
+0aside	n0	16
+5 of	blc	
+3nine	n1	80
+2k	n2	3
+3ance	n3	80
+3ew	n4	80
+2leep	n5	17
+2paragus	n6	80
+3ect	n7	de
+6 of the celestial bodies	cs1	
+4n	n8	80
+4rity	n9	80
+5sion	na	c0
+3halt	nb	40
+4yxia	nc	80
+8te	nd	80
+3irant	ne	80
+6tion	nf	e8
+5e	ng	f0
+5in	nh	20
+7g	ni	40
+2s	nj	8
+3ail	nk	c0
+4ssin	nl	40
+8ate	nm	58
+aion	nn	20
+4ult	no	f8
+7s the nostrils	fa7	
+4y	np	80
+3emblage	nq	40
+7e	nr	fc
+7y	ns	54
+4nt	nt	80
+4rt	nu	f8
+6ive	nv	88
+9ness	nw	80
+4ss	nx	fe
+6ment	ny	ea
+4t	nz	f8
+3iduous	o0	c0
+4gn	o1	7c
+6ment	o2	7c
+as	o3	20
+4milate	o4	f8
+9ion	o5	8
+4st	o6	5e
+6ance	o7	72
+a to the poor	dbs	
+8t	o8	7e
+9ship	o9	40
+3ociate	oa	fe
+8ion	ob	7e
+4rted	oc	e0
+6ment	od	40
+3uage	oe	c0
+4me	of	fe
+5ption	og	fe
+a of the virgin mary	ct0	
+4rance	oh	38
+5e	oi	fc
+6d	oj	80
+7ly	ok	40
+2terisk	ol	80
+5n of	bnc	
+5oid	om	c0
+3hma	on	80
+3igmatic	oo	80
+3onish	op	56
+8ed	oq	40
+8ing	or	40
+8ment	os	8
+4und	ot	e0
+7ing	ou	40
+3ray	ov	80
+4ingent	ow	80
+4olabe	ox	80
+6ogy	oy	80
+5naut	oz	1e
+6omer	p0	42
+8ical	p1	c0
+8y	p2	7a
+3ute	p3	c0
+2under	p4	80
+2ylum	p5	a0
+3mmetric	p6	80
+aal	p7	40
+1t	p8	3
+2 peace with the world	eav	
+3the back	egw	
+9se	ehd	
+7crack of dawn	cd9	
+7end of	cd3	
+7first opportunity	egj	
+7gallop	ei5	
+7head	eha	
+9lm	ei6	
+b of state	cd4	
+7knee	ehx	
+7last moment	eh1	
+9test	ei8	
+7moment	ehk	
+7opportune moment	ehj	
+8utset	ei4	
+7peak	ehy	
+8oint of death	cd1	
+8resent	ehh	
+e stage	ehb	
+ftime	efc	
+7root	ehw	
+7same time	eef	
+8cheduled time	efz	
+8lightest pretext	ei7	
+8ummit	ei1	
+7time of	ccz	
+2heism	p9	c0
+6t	pa	40
+0Athens	pb	20
+0athlete	pc	7e
+6ic	pd	a
+8s	pe	82
+0Atlantic	pf	7
+0atlas	pg	20
+2mosphere	ph	5e
+9ic	pi	2c
+2om	pj	5e
+4ic	pk	44
+5zation	pl	40
+3nal	pm	80
+4e	pn	80
+2rocious	po	80
+6ty	pp	80
+4phy	pq	c0
+2tach	pr	fe
+6ed	ps	40
+8 with the letter	egb	
+6ment	pt	48
+5k	pu	3e
+6 from the rear	ek0	
+6s	pv	20
+4in	pw	fe
+6ment	px	c0
+3empt	py	7e
+7s	pz	20
+4nd	q0	76
+6ance	q1	78
+8t	q2	78
+9s of the daoist immortals	cv9	
+5t	q3	8
+6ion	q4	77
+7ve	q5	3c
+9ly	q6	2
+5uate	q7	80
+4st	q8	80
+3ic	q9	80
+4re	qa	c0
+4tude	qb	16
+3orney	qc	f8
+3ract	qd	56
+7ion	qe	46
+8ve	qf	76
+4ibute	qg	fc
+5tion	qh	c0
+3une	qi	80
+1uction	qj	b0
+2dacious	qk	c0
+3ible	ql	e0
+4ence	qm	fe
+4o	qn	34
+4t	qo	f0
+5ion	qp	60
+5or	qq	40
+7ium	qr	f0
+7y	qs	40
+2ger	qt	c0
+3ment	qu	f8
+7ation	qv	80
+3ur	qw	80
+5y	qx	80
+4st	qy	a3
+2nt	qz	3
+2ra	r0	40
+4l	r1	1c
+3eole	r2	80
+3icular	r3	80
+3ora	r4	c0
+2spice	r5	c0
+7s	r6	c0
+6ious	r7	c0
+3tere	r8	80
+6ity	r9	c0
+0Australia	ra	23
+9n	rb	23
+0authentic	rc	fa
+9ate	rd	40
+9ity	re	80
+4or	rf	3e
+6itarian	rg	80
+9tive	rh	60
+8y	ri	7e
+9 over the household	epf	
+7zation	rj	80
+8e	rk	60
+3o	rl	14
+4biographical	rm	40
+cy	rn	c4
+4cracy	ro	80
+7t	rp	c0
+4mate	rq	8
+8d	rr	40
+7ic	rs	7e
+9ally	rt	4
+8on	ru	bc
+5obile	rv	2c
+6tive	rw	40
+4nomous	rx	c2
+7y	ry	f0
+4psy	rz	40
+3umn	s0	3
+2xiliary	s1	fc
+1vail	s2	38
+5 of	bn5	
+5ability	s3	8
+7le	s4	ff
+3lanche	s5	e0
+3nt-garde	s6	c0
+3rice	s7	c0
+6ious	s8	c0
+2enge	s9	80
+4ue	sa	76
+3r	sb	80
+4age	sc	76
+4se	sd	c0
+5ion	se	c0
+4t	sf	f8
+2iary	sg	80
+4tion	sh	7c
+5or	si	40
+3d	sj	c0
+2ocation	sk	c0
+9al	sl	40
+3id	sm	f7
+5able	sn	40
+6nce	so	40
+3uch	sp	40
+3w	sq	c0
+4al	sr	80
+2uncular	ss	80
+1wait	st	14
+3ke	su	1f
+5ned to the truth	dds	
+3rd	sv	3e
+4e	sw	76
+5 of	bnw	
+5ness	sx	60
+3y	sy	3
+2e	sz	d0
+3-inspiring	t0	80
+3some	t1	2
+2ful	t2	3e
+5ly	t3	4
+2kward	t4	fe
+7ly	t5	40
+2l	t6	80
+2ning	t7	80
+2ry	t8	80
+1x	t9	4
+2e	ta	50
+2ial	tb	8
+3om	tc	80
+3s	td	fc
+2le	te	88
+1zure	tf	c0
