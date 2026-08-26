@@ -2174,7 +2174,7 @@ export default {
 
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
       router.back()
-    }https://github.com/pcai7296/wrist-dictionary/com
+    }
 
     
 
