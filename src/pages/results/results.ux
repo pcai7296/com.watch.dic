@@ -1683,8 +1683,12 @@ export default {
       done()
       return
     }
+    var token = this.searchToken
     var self = this
     this.readText("/common/dict/words/word_" + first + ".txt", function(text) {
+      if (token !== self.searchToken) {
+        return
+      }
       if (!text || self.collectedIds.length >= 40) {
         done()
         return
