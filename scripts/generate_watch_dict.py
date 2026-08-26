@@ -667,14 +667,15 @@ def main():
     else:
         print("  [PHRASES] 跳过（phrases.csv 未找到）")
 
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    (OUT / "words").mkdir(parents=True)
-    (OUT / "inflect").mkdir(parents=True)
-    (OUT / "entries").mkdir(parents=True)
-    (OUT / "zh_index").mkdir(parents=True)
-    (OUT / "inflect_reverse").mkdir(parents=True)
-    (OUT / "cn_index").mkdir(parents=True)
+    output_dir = OUT.with_name(OUT.name + ".tmp")
+    if output_dir.exists():
+        shutil.rmtree(output_dir)
+    (output_dir / "words").mkdir(parents=True)
+    (output_dir / "inflect").mkdir(parents=True)
+    (output_dir / "entries").mkdir(parents=True)
+    (output_dir / "zh_index").mkdir(parents=True)
+    (output_dir / "inflect_reverse").mkdir(parents=True)
+    (output_dir / "cn_index").mkdir(parents=True)
 
     word_indexes = {letter: [] for letter in "abcdefghijklmnopqrstuvwxyz"}
     inflect = {}
@@ -702,7 +703,8 @@ def main():
 
     for entry_id, row in enumerate(rows):
         first_letter = row["word"].lower()[0]
-        word_indexes[first_letter].append((entry_id, row))
+        if first_letter in word_indexes:
+            word_indexes[first_letter].append((entry_id, row))
         entry_shard = entry_shard_for(entry_id)
         entry_shards.setdefault(entry_shard, []).append((entry_id, row))
 
@@ -749,7 +751,7 @@ def main():
                 )
             )
             prev_word = word
-        write_txt(OUT / "words" / f"word_{first_letter}.txt", 
+        write_txt(output_dir / "words" / f"word_{first_letter}.txt", 
             "\n".join(lines) + "\n"
         )
 
@@ -769,7 +771,7 @@ def main():
         for form, values in sorted(row for row in inflect_rows if row[0][0] == initial):
             lines.append(encode_front_code(form, previous) + "\t" + values)
             previous = form
-        write_txt(OUT / "inflect" / f"inflect_{initial}.txt", "\n".join(lines) + "\n")
+        write_txt(output_dir / "inflect" / f"inflect_{initial}.txt", "\n".join(lines) + "\n")
 
     reverse_rows = []
     for bases in reverse_inflect.values():
@@ -785,7 +787,7 @@ def main():
         for base, values in sorted(row for row in reverse_rows if row[0][0] == initial):
             lines.append(encode_front_code(base, previous) + "\t" + values)
             previous = base
-        write_txt(OUT / "inflect_reverse" / f"ireverse_{initial}.txt",
+        write_txt(output_dir / "inflect_reverse" / f"ireverse_{initial}.txt",
             "\n".join(lines) + "\n"
         )
 
@@ -810,7 +812,7 @@ def main():
                 fields.append(tag_code)
             lines.append("\t".join(fields))
             previous_word = row["word"]
-        write_txt(OUT / "entries" / f"entry_{shard}.txt", "\n".join(lines) + "\n")
+        write_txt(output_dir / "entries" / f"entry_{shard}.txt", "\n".join(lines) + "\n")
 
     # Build cn_index: Chinese phrase → entry IDs (from ECDICT translations)
     cn_index = {}
@@ -871,7 +873,7 @@ def main():
             cn_phrase_count += 1
             cn_link_count += len(cn_index[bucket][phrase])
             prev_phrase = phrase
-        write_txt(OUT / "cn_index" / f"cn_{bucket}.txt", "\n".join(lines) + "\n")
+        write_txt(output_dir / "cn_index" / f"cn_{bucket}.txt", "\n".join(lines) + "\n")
 
     zh_char_count = 0
     zh_link_count = 0
@@ -885,7 +887,7 @@ def main():
             lines.append(char + "\t" + encoded)
             zh_char_count += 1
             zh_link_count += len(entry_ids)
-        write_txt(OUT / "zh_index" / f"zh_{bucket}.txt", "\n".join(lines) + "\n")
+        write_txt(output_dir / "zh_index" / f"zh_{bucket}.txt", "\n".join(lines) + "\n")
 
     stats = {
         "source": str(SOURCE),
@@ -940,7 +942,10 @@ def main():
         "ccCedictMerged": ccedict_added,
         "resultLimit": 20,
     }
-    write_txt(OUT / "meta.json", json.dumps(stats, ensure_ascii=False, indent=2))
+    write_txt(output_dir / "meta.json", json.dumps(stats, ensure_ascii=False, indent=2))
+    if OUT.exists():
+        shutil.rmtree(OUT)
+    output_dir.rename(OUT)
     print(json.dumps(stats, ensure_ascii=False))
 
 
