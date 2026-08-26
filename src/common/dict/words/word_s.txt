@@ -1,67 +1,6028 @@
-0sad	w2	3
-2fe	w3	bf
-4ty	w4	3f
-2il	w5	5f
-2lad	w6	3f
-3e	w7	7f
-3t	w8	1f
-2me	w9	3
-2nd	wa	1f
-4wich	wb	3f
-2tisfy	wc	5f
-0Saturday	wd	23
-0sausage	we	1f
-2ve	wf	5f
-2y	wg	23
-3 of	z7	
-1carf	wh	9f
-2ent of	10a	
-2hool	wi	a3
-6bag	wj	3
-2ience	wk	23
-5tist	wl	1f
-2ore	wm	ff
-5s of	10w	
-2raps of	12r	
-3een	wn	5f
-1ea	wo	3
-3rch	wp	5f
-3son	wq	63
-3t	wr	23
-2cond	ws	23
-3ret	wt	5f
-6ary	wu	23
-2e	wv	3
-3m	ww	3
-2ldom	wx	5f
-3l	wy	3
-2nd	wz	3
-3se	x0	3f
-3tence	x1	5f
-2parate	x2	9f
-0September	x3	23
-0serious	x4	7f
-3vant	x5	1f
-4e	x6	3
-4ice	x7	23
-2t	x8	23
-2ven	x9	3
-5teen	xa	f
-6h	xb	3
-1hades of	11o	
-2ort of	y2	
-2y of	10j	
-1ick of	z8	
-4en of	124	
-2ng of	101	
-1mack of	10u	
-2ell of	105	
-1omething of	zi	
-2rt of	yi	
-2uth of	zy	
-1peak of	z4	
-5ing of	zx	
-1tink of	10l	
-2rip of	yk	
-1ummary of	yv	
-2spect of	10p	
+0saab	zo2	
+3kashvili	zo4	
+3rbr	zon	
+4c	lji	
+4land	zol	
+3s	10xb	
+3vedra	nx5	
+2bah	ic1	
+3bath	c47	
+6ical	d9u	
+3dariffa	uxx	
+3er	8xg	40
+3ine	bto	
+5i	lx7	
+3le	dn6	
+3ot	fxm	
+5age	8xh	a0
+5eur	8xi	80
+0SAC	8xj	40
+0saccade	f9q	
+5rina	y1b	
+4hariflorus	ze2	
+8n	8xk	80
+9a	103k	
+9e	8xl	80
+7omycete	11d0	
+3h	nfh	
+4ertorte	zp2	
+4ima	upc	
+3k	8xm	fc
+4cloth	y5v	
+4ed	hh7	
+4ing	jy0	
+7 the worst-performing employee	16aj	
+4s	bx8	
+3mpt	nfv	
+3r	r2h	
+4a	pw9	
+5l	e2v	
+5ment	8xn	80
+9o	uoj	
+4ed	8xo	fe
+4ifice	8xp	be
+9d	tqx	
+9s	ijg	
+8ial	grr	
+b knife and altar	1h28	
+bly	w4b	
+9ng	r9y	
+5lege	8xq	80
+8ious	8xr	80
+4um	efc	
+3saoul	tq9	
+2d	8xs	3
+3 and beautiful	1gws	
+3at	zp8	
+3dam	j62	
+4en	8xt	80
+5r	mre	
+4le	8xu	fc
+6d	s11	
+4ucees	s3i	
+3ik	zp7	
+4q	zp6	
+4sm	sku	
+5t	c5x	
+6ic	8xv	80
+8ally	zvg	
+3ly	8xw	c
+3ness	8xx	e
+3o	dma	
+4masochism	f4e	
+3r	zo9	
+2fari	8xy	20
+4vid	it8	
+3e	8xz	bf
+4 and healthy	1g5u	
+9secure	1fbw	
+aound	1fd9	
+4guard	8y0	b8
+9s	j91	
+4keeping	j8n	
+4light	p2z	
+5y	8y1	c
+4ty	8y2	3f
+6 and danger	1gf2	
+3flower	f3c	
+4ron	cfp	
+3i	zoy	
+2g	bub	
+3a	8y3	c0
+4cious	8y4	c0
+6ty	ebi	
+3e	8y5	80
+4s	jmo	
+3ging	h11	
+3i	gn0	
+4tta	oin	
+7ria	r8s	
+9us	ilm	
+3o	evx	
+2hara	niy	
+6n	s3e	
+4sr	12j6	
+6ara	12j7	
+3rawi	s3d	
+2i	glq	
+3c	gyc	
+3d	ges	
+3gon	yqt	
+3han	10p2	
+3l	8y6	5f
+4board	q9n	
+7t	q9s	
+4cloth	q9m	
+4ing	8y7	22
+4or	8y8	1e
+4s	10ag	
+0Saint	8y9	1c
+0saint kitts and nevis	1h8m	
+6vincent and the grenadines	14aa	
+5-pierre and miquelon	1h8n	
+5ly	8ya	80
+5s	yke	
+3ra	xh6	
+3siat	10ov	
+5yat	10ou	
+3tama	nt8	
+2ka	nx6	
+4i	nm9	
+4moto	nma	
+3e	8yb	7c
+4r	fhp	
+3halin	lgd	
+5rov	zo0	
+3ura	u4a	
+6i	u45	
+6jima	u46	
+3ya	11e3	
+5muni	j1r	
+2l	xco	
+3aam	116s	
+4cca	zwt	
+4d	8yc	3f
+5in	zoc	
+4k	zws	
+4manca	zoe	
+7der	dce	
+5i	cl4	
+5moniac	xaa	
+4ngichthys	11lh	
+4r	qus	
+5ied	q0e	
+7s	p6m	
+8 of government officials	1cdn	
+5y	8yd	3e
+6 of a private tutor	16ra	
+dublic official	16ns	
+bn official	1bn7	
+3butamol	ti1	
+3e	8ye	7f
+4 of second-hand goods	1akp	
+4able	117m	
+4m	nwj	
+4s	8yf	20
+5girl	8yg	2
+5man	8yh	1e
+5person	mxq	
+5woman	8yi	2
+3icylic	f72	
+4ence	w18	
+6t	8yj	c0
+4ferous	8yk	80
+4ne	8yl	60
+6 and alkaline	1hfk	
+5ity	8ym	40
+4sbury	y1p	
+4va	8yn	d0
+6ry	h2r	
+6te	dj8	
+4x	ek6	
+3le	n0p	
+4ow	8yo	40
+4y	kkt	
+3mon	8yp	88
+6ella	cfe	
+3on	bnp	
+3sa	f1q	
+3t	8yq	1f
+4 from a salt lake	1cre	
+4ed	tdp	
+4icid	10vk	
+8ae	100p	
+5ne	fyn	
+7ss	8yr	40
+6g	ysv	
+4peter	xab	
+4s	m20	
+4water	v2x	
+4y	8ys	2
+5 and bitter	1h2w	
+aunsalty	1htu	
+3ubrious	8yt	80
+4tary	8yu	c0
+6tion	8yv	80
+as	102i	
+5e	8yw	be
+3vador	xi5	
+5ge	8yx	e0
+5tion	8yy	18
+4e	8yz	80
+5r	diy	
+4ia	ezv	
+4o	d5z	
+3ween	gqt	
+3yut	xgg	
+3zburg	zou	
+2m	ptr	
+3adhi	gpu	
+4ntabhadra	stc	
+4ranch	zpa	
+7gense	uwr	
+5ia	s3k	
+6tan	ccm	
+6um	11k2	
+5kand	s3l	
+3ba	e1p	
+5r	fda	
+4o	ent	
+5ng	z27	
+4ucu	zpm	
+7s	rz4	
+3e	8z0	3
+3gharama	iyr	
+4uk	gmz	
+4yetang	lwy	
+3i	zox	
+3jog	gu5	
+3oa	qaz	
+4therium	zog	
+4yed	zof	
+3paio	tne	
+5n	fa2	
+4le	8z1	7c
+6r	8z2	80
+6s	rji	
+5ing	rn9	
+3sara	fpw	
+4on	lwk	
+4ung	gpl	
+3uel	gh1	
+4rai	dle	
+3ye	tnp	
+3zhubz	tnm	
+2n	g4p	
+3a	ehd	
+4torium	8z3	80
+3bao	go5	
+3chong	gux	
+4tification	ykr	
+8ed	rd8	
+7y	8z4	80
+6monious	8z5	c0
+6on	8z6	f8
+8ed	gt5	
+8s	ktw	
+6ty	clr	
+5uary	8z7	40
+6s	ykt	
+3d	8z8	1f
+4 and dust storm	1ggo	
+9stone	1g7u	
+es	1gzc	
+4a	gry	
+5l	8z9	80
+6s	iim	
+6wood	dmb	
+4bag	uok	
+6nk	svc	
+6r	fap	
+5lasting	n81	
+5oarding	ve0	
+6x	uop	
+4castle	uos	
+4efjord	tnh	
+5r	xcx	
+6iana	pc6	
+6ling	gu9	
+6s	tng	
+4fly	wwd	
+4grouse	e84	
+4hi	10ib	
+6ll	uoe	
+6nir	10bu	
+4ing	x9u	
+6ista	tnc	
+4nes	tnb	
+4paper	x2j	
+5iper	d29	
+6t	ryj	
+5lay	xqr	
+4ra	tnf	
+5o	tgi	
+4s	rc4	
+5tone	hsk	
+7rm	up0	
+4u	gus	
+4vicensis	ws8	
+4wich	8za	3f
+5orm	upl	
+4y	8zb	4c
+3e	8zc	d0
+3g	ggu	
+4froid	8zd	80
+4gan	ggs	
+4ha	go4	
+6rama	11w7	
+5uzha	mir	
+4iovese	tnd	
+4jian	tnq	
+4ri	tnj	
+4ui	mjr	
+6ne	8ze	80
+8us	10px	
+6sorba	w9l	
+4zhi	tnk	
+3he	gr9	
+4sia	gok	
+3itary	8zf	e0
+6tion	8zg	40
+5izer	v4v	
+5orium	wqc	
+5y	8zh	e0
+3jiang	gqw	
+8yuan	gr2	
+3k	uvk	
+4ei	wjx	
+4t	yl2	
+3lihe	guw	
+5tun	guv	
+4u	gvs	
+3men	gv4	
+6xia	gv2	
+4in	gqb	
+6g	glw	
+3nio	wxf	
+3o	j0l	
+3qiang	11n3	
+3s	cs9	
+4ha	gr8	
+5ui	gqk	
+4krit	i9t	
+4ui	gsl	
+3ta	ykp	
+5i	gmo	
+5lum	tds	
+5na	ssr	
+6der	nn1	
+5r	ykv	
+4iago	yku	
+6o	gu1	
+4o	ykw	
+5nin	puw	
+5rini	tni	
+3xia	gl5	
+6n	gon	
+5ngdui	gpp	
+3y	grd	
+4a	gkt	
+4uan	glv	
+3zang	uoy	
+2o	gaw	
+2p	8zi	c0
+3ience	8zj	40
+6s	d40	
+6t	8zk	80
+4ndales	typ	
+6us	tns	
+4osexuality	sun	
+4um	tnz	
+3ling	8zl	80
+7s	ypl	
+3odilla	ij1	
+4nin	fdm	
+4shnikovia	11wx	
+4taceae	pu9	
+3pan	zt1	
+6wood	zt3	
+4hira	wa6	
+7e	8zm	c0
+4oro	t4w	
+4rft	nff	
+4y	yoa	
+3s	wbh	
+3wood	118v	
+2r	vkl	
+3a	zag	
+4cen	cdu	
+4h	wcv	
+4jevo	nwp	
+4nsk	zp0	
+4swati	1102	
+4wak	uoz	
+3candra	z9e	
+5sm	8zn	70
+6tic	8zo	d0
+9ally	imc	
+4ocarp	ynz	
+6heilichthys	jwf	
+5dactylis	j1e	
+5ma	e1a	
+5phagus	d8w	
+3dine	8zp	8
+6ia	lp2	
+4onic	8zq	c0
+6yx	ybl	
+3ft	nfg	
+3hu	zoq	
+3i	d9o	
+4n	oph	
+3kidiornis	wq8	
+4ozy	zor	
+3oglossa	sd3	
+4ng	e1y	
+3psborg	zop	
+3s	dto	
+4aparilla	f91	
+3torial	8zr	80
+4re	zov	
+4u	zom	
+3us	10qc	
+2s	lcr	
+3ac	ng4	
+4ki	j0b	
+3e	ndu	
+4bo	j08	
+4ong	p0g	
+3h	8zs	80
+4aying	10kg	
+4imi	fwq	
+3ia	wtv	
+3katchewan	zoi	
+6oon	zoh	
+3safras	fju	
+5nid	zoj	
+8 empire of persia	1c46	
+5tavada	qcs	
+4er	pov	
+4y	eem	
+2t	j0i	
+3an	bq7	
+0Satanic	8zt	80
+0satay	fdb	
+3chel	d6h	
+3e	8zu	80
+4d	8zv	80
+4linaya	k2q	
+6tnaya	tm0	
+5lite	8zw	7e
+9s	p2l	
+3i	esj	
+4ate	8zx	40
+7d	8zy	80
+4ety	x1d	
+4n	btg	
+5y	8zz	80
+4re	900	d0
+5ic	901	40
+7al	902	40
+9ly	my2	
+6st	903	40
+6ze	904	80
+4sfaction	905	7e
+9orily	906	8
+by	907	5c
+6ied	nko	
+6y	908	5f
+7ing	ip7	
+4va	g06	
+5um	u6t	
+6s	wn1	
+3rapa	11j3	
+3suma	e8i	
+3urate	909	f8
+8d	90a	c0
+7ion	90b	8
+7us	n1u	
+0Saturday	90c	23
+5n	90d	8
+0saturnine	90e	80
+3yasiddhi	rd2	
+b school of buddhism	1b5c	
+4r	drn	
+5a	xxo	
+2u	t6b	
+3ce	90f	3e
+5pan	kmf	
+5r	90g	5e
+5s	wi2	
+4y	d0h	
+3d	1213	
+4i	kt5	
+3erkraut	fay	
+3l	rww	
+3na	c1m	
+4ter	90h	80
+3rischia	w8s	
+4opsida	r3a	
+4y	kme	
+3sage	90i	1f
+7 with a starchy filling	1alu	
+4sure	y1q	
+8a	t3f	
+3t	uqu	
+4e	epd	
+3vignon	10qa	
+2va	zow	
+4ge	90j	ba
+6s	z8w	
+4nna	dh6	
+7h	cqr	
+5t	90k	80
+3e	90l	5f
+4d	jxv	
+4loy	fmx	
+4s	pkw	
+3ing	90m	3c
+6s	90n	60
+7 deposits and loans	1htv	
+4or	s7w	
+3or	90o	40
+5ing	g90	
+5y	hz6	
+3vy	90p	80
+2w	90q	1c
+3blade	11me	
+3dust	90r	80
+3frame	11md	
+3horse	j2r	
+3mill	11mc	
+3tooth	11mh	
+3yer	vb8	
+2x	znz	
+3atilis	wuv	
+4ul	tq8	
+3icola	ta7	
+3on	s39	
+5y	qwi	
+4phone	c8y	
+2y	90s	23
+3 of	12l5	
+3an	zo7	
+3bag	uoh	
+3ed	10p3	
+3ing	90t	2
+6s	j7p	
+3ram	10p6	
+3s	gei	
+3yaf	11yt	
+1bmpt	nfu	
+1cab	90u	80
+4bard	90v	80
+4ies	dxx	
+4rous	90w	80
+3d	90x	80
+4s	90y	80
+3fell	sgb	
+4fold	90z	80
+8ing	910	40
+3lar	coi	
+4d	911	80
+5ing	912	80
+4e	913	fc
+5d	914	40
+5ne	fis	
+5r	p7l	
+5s	oh9	
+6 fall from the eyes	15jr	
+4ing	ux3	
+4lion	fwi	
+5op	chm	
+7s	skw	
+4p	bxp	
+5el	915	a0
+6r	xex	
+4y	dfj	
+3m	d1d	
+4med	gyz	
+6r	ub8	
+4per	916	80
+3n	917	fe
+4dal	918	fc
+7ous	h5x	
+7s	10mb	
+5ens	ty5	
+5iacus	12ak	
+6navia	bnm	
+bn	inx	
+6um	fe6	
+4ned	10xw	
+6r	rwu	
+7s	koi	
+5ing	112q	
+4sion	12it	
+4t	919	a0
+5y	91a	40
+3pa	qq2	
+4egoat	91b	60
+9s	n9m	
+4ula	ec3	
+7r	ypd	
+3r	91c	fe
+4 from a knife wound	1crx	
+4ab	eg0	
+4borough	sf2	
+4ce	91d	7c
+6ly	91e	7c
+5ity	91f	88
+4e	91g	de
+5crow	xjz	
+5d	gbk	
+6 out of one's skin	19kb	
+kwits	19km	
+4f	91h	9f
+4let	91i	48
+7t	r1u	
+4p	91j	80
+4red	wq7	
+4s	s3z	
+4um	vf9	
+4y	ltm	
+5 to think about	1crf	
+3t	d94	
+4he	91k	c0
+5ing	91l	80
+8ly	n7j	
+4ter	91m	fc
+7brained	v13	
+7ed	gjy	
+9 and fragmentary	1htw	
+esmashed	1htx	
+7ing	rnm	
+a of bundle	1c7o	
+3up	f4d	
+3venge	c6o	
+8r	91n	40
+2enario	91o	80
+7st	y9p	
+4e	91p	5e
+5 of accident	1boa	
+9dilapidation	1bw5	
+9the crime	13r9	
+5ry	91q	7e
+7 in the distance	14n6	
+8of exceptional charm	1c53	
+5s	j2f	
+6 of springtime	1cdo	
+4ic	91r	40
+4t	91s	7c
+5 of	12m8	
+5ed	ouk	
+5s	zch	
+3pter	otb	
+5ical	91t	ba
+2h	yfl	
+3ach	tsc	
+4denfreude	f48	
+3edule	91u	7e
+8d	h7b	
+8r	10fg	
+8s	s3s	
+7ing	1065	
+4elite	wwo	
+4ma	bu6	
+6tic	91v	80
+8ze	91w	80
+5e	91x	fc
+6r	xpx	
+6s	gmj	
+5ing	q0b	
+4ngen	wlt	
+4veningen	qc2	
+3iller	qc4	
+4sandra	i71	
+5m	91y	c0
+5t	e8a	
+6aceus	vpe	
+6iceps	ws4	
+7sagus	vph	
+6osoma	101f	
+ae	ydu	
+aiasis	evt	
+4zandra	i70	
+5o	fgb	
+6affective	ko5	
+6id	dw9	
+6mycetes	104r	
+6nepeta	z9r	
+6phrenia	xta	
+3long	q20	
+3maltzy	10xj	
+4idt	skg	
+5tt	mu1	
+3nauzer	fq3	
+3oeniclus	yn2	
+7parus	tk3	
+6obaenus	uir	
+7plectus	zs1	
+4lar	91z	5e
+7 of chinese	1c6h	
+7-official in the qing dynasty	14m9	
+7ly	920	40
+7s	imj	
+8hip	921	7e
+6stic	cww	
+4ol	922	a3
+6 of engineering	1b5d	
+amanagement	1b5e	
+bind	1av2	
+aprinciple	1b06	
+athought	1b5f	
+7rules and regulations	1eyl	
+6bag	923	3
+7oy	wm4	
+6child	p29	
+bren	pnh	
+6girl	ok5	
+6ing	iw0	
+6mate	924	2
+6s	gp6	
+6work	p25	
+4penhauer	lzu	
+3r	skq	
+4eberi	zly	
+5nck	y2e	
+3umacher	z01	
+6nn	yzx	
+4ster	109l	
+4tzstaffel	10az	
+3wab	skn	
+5nn	10dc	
+5rtz	n2r	
+6zenegger	m97	
+7i	q1e	
+4eik	osi	
+6nhund	10jx	
+5ppes	m8o	
+4inger	t1t	
+2i	10hq	
+3atic	dud	
+7a	nnk	
+3ence	925	23
+7 and technology	1ff0	
+8of communications	1bkm	
+bearthquakes	1bkn	
+7s	hl9	
+5tific	926	3e
+a and technical staff	1fpa	
+7sm	eks	
+8t	927	1f
+9s	928	20
+6ology	enh	
+3mitar	ejs	
+3ntillate	929	80
+aion	11tl	
+aor	11tk	
+3on	92a	80
+3pio	oek	
+3rpaceus	zsl	
+5is	z3f	
+5us	zk8	
+3ssion	92b	80
+5or	92c	80
+7s	92d	7e
+2later	wse	
+7i	wsf	
+3era	yrp	
+5osis	cja	
+2o	gwr	
+3ff	92e	c8
+5ing	koz	
+3ld	92f	3e
+5ed	rvd	
+5ing	rus	
+4iosis	fi3	
+4opaceus	n7e	
+7x	hgh	
+3mberesocidae	11jz	
+3ne	c5y	
+3op	92g	e0
+5ing	rzh	
+4ter	92h	80
+7s	12bv	
+3palia	zay	
+4e	92i	dc
+5 of authority	1beu	
+4s	ldr	
+3rch	92j	e8
+6ed	nte	
+7r	oby	
+6ing	92k	80
+4e	92l	ff
+5card	10cn	
+5d	tgh	
+5r	w5t	
+5s	92m	2
+6 of	12mu	
+4ing	mof	
+4n	92n	bc
+5ful	92o	40
+4pio	d2s	
+7n	92p	80
+8s	zzg	
+6us	oiz	
+3t	10y6	
+0Scotch	92q	c0
+0scoter	ep7	
+4ia	msd	
+0Scotland	92r	22
+0scots	low	
+5man	92s	20
+4t	m9k	
+0Scottish	92t	2
+0scottus	r7q	
+3uleri	ple	
+4ndrel	dir	
+9ly	vwj	
+9s	w65	
+4r	92u	c0
+5er	11ml	
+5ge	92v	80
+7s	uyi	
+5ing	v8s	
+4t	92w	7c
+3wl	92x	80
+5ing	r1h	
+2r	m6v	
+3abbles	10tv	
+4ggly	rps	
+4m	eyu	
+5ble	92y	d8
+8d	s09	
+7ing	vxf	
+4p	92z	f8
+5book	ky4	
+5e	930	fc
+6r	ktc	
+5ie	er1	
+6ng	931	40
+5ped	qje	
+6y	932	80
+5s	h24	
+6 of	12op	
+4tch	933	7e
+7-and-win lottery	1f1l	
+7card	ktd	
+7ing	hav	
+a the surface	166f	
+4wl	934	80
+6y	vj7	
+5ny	db6	
+3eam	935	1e
+6ing	o7q	
+4e	cz4	
+5ch	by5	
+7 of a sudden stop	16pd	
+7ing	n8s	
+a of tires	1cdp	
+5d	936	c0
+5n	937	5f
+6 and roll	1g68	
+bstage	1fqz	
+7of beads	1byd	
+6-to-body ratio	1g19	
+6ed	wkc	
+6ing	gyk	
+9s	rxt	
+6play	cmc	
+6s	10n8	
+7aver	psk	
+7hot	rdi	
+6writer	jee	
+4w	938	fc
+5driver	939	c0
+9ing	rkb	
+5ed	n5w	
+5s	nqz	
+3iabin	sf1	
+4bble	93a	c0
+5e	c4d	
+4mmage	fmh	
+5p	emo	
+4p	dl8	
+5t	93b	b8
+6 of a play	16nh	
+6s	jfd	
+6ural	q2l	
+8e	93c	c8
+9s	gta	
+4vener	e2a	
+3ofa	11g8	
+5ula	f39	
+4ll	93d	e0
+6ed	g0l	
+6ing	10uh	
+6s	gnb	
+4oge	p2p	
+4phularia	w8y	
+4tum	dsn	
+3ub	93e	c8
+5bing	g5g	
+5land	nyx	
+4mptious	93f	80
+4ple	93g	c0
+7s	rsd	
+5ulous	93h	60
+a attention to detail	1gbb	
+aly	93i	40
+4table	93j	80
+5inize	93k	d0
+9ing	x3j	
+7y	93l	78
+2uba	93m	40
+3d	93n	c0
+3ff	93o	c0
+5le	93p	40
+3ll	dct	
+5ing	s1g	
+4pt	93q	c0
+6ed	oih	
+6ing	nuz	
+6or	93r	c0
+6ural	93s	40
+8e	93t	7a
+3m	93u	20
+4 of a community	16qw	
+4bag	uaz	
+3rrilous	93v	80
+5y	93w	c0
+4vy	93x	80
+3tter	93y	80
+5le	93z	c0
+6ing	qq1	
+4um	f7d	
+2yllaridae	1002	
+3the	940	80
+5ing	uau	
+1dh	mg8	
+2i	djb	
+2r	w4i	
+1ea	941	3
+3 and land	1f9u	
+c hotpot	1f9t	
+4of bitterness is vast	1bnz	
+7clouds	1bry	
+7evil	1bpk	
+7galilee	1brz	
+7japan	1bs0	
+7learning	1bs1	
+7marmara	1bs2	
+7okhotsk	1bs3	
+7serenity	1bs4	
+7tranquility	1bs5	
+3bed	942	40
+4ird	v4c	
+4oard	de4	
+3coast	v23	
+3farer	z0a	
+6ing	943	80
+4loor	v2a	
+4ood	944	20
+7s	i0h	
+3going	v3n	
+4rass	v3p	
+4ull	945	2
+3l	946	7e
+4 of authority	1bep	
+8state	1b1w	
+4ant	pb4	
+4ed	lt0	
+4ing	pb5	
+4s	tf2	
+3m	947	f8
+4an	948	e
+4en	949	40
+4less	hck	
+8ly	hcm	
+4ount	94a	40
+4s	wfj	
+4y	94b	80
+3n	yoo	
+3plane	uh8	
+4ort	94c	4c
+3r	94d	c0
+4ch	94e	5f
+6 and rescue	1gei	
+h dog	1fue	
+6ed	p0c	
+6light	kz6	
+3s	gwl	
+4 and oceans	1hty	
+4cape	v2n	
+4hell	94f	2
+5ore	94g	40
+4ick	sv0	
+5de	94h	1a
+4on	94i	63
+6able	mck	
+7l	94j	40
+6ed	94k	a0
+6ing	94l	c0
+9s	lvf	
+6s	gba	
+3t	94m	23
+4 of honor	1bta	
+8prefectural government	1bt8	
+8the government	13s4	
+4ed	kv0	
+4ing	los	
+4s	94n	20
+4tle	109y	
+3wall	v1w	
+5ter	v2w	
+4eed	94o	42
+4orthy	eht	
+2baceous	evl	
+4stian	nwl	
+3iferum	to0	
+2c	u7b	
+3ale	105z	
+4nt	fqr	
+3ede	94p	80
+4ssion	c3y	
+3hium	j1f	
+3lude	94q	e0
+7d	hg4	
+5sion	94r	40
+3ond	94s	23
+6 book of chronicles	1auc	
+fkings	1aud	
+fmoses	1aue	
+fsamuel	1auf	
+7epistle of peter	1b6o	
+ist john	1b6p	
+7half of the night	13k7	
+jyear	13gc	
+7manchu invasion of korea	1b68	
+8onth of autumn	1art	
+gsummer	1aqc	
+7only to	1dvj	
+e father	1dov	
+7section of large intestine	1alt	
+7to none	1fir	
+7year of university	1a9a	
+6-eldest child in a family	18u3	
+7hand	94t	28
+6ary	94u	7c
+9 growth of forest	1bvc	
+6hand	94v	2
+6ly	94w	c
+6s	bjd	
+3recy	bpn	
+5t	94x	5f
+6 stash of money	1b8k	
+6ariat	bvy	
+9es	yhm	
+8y	94y	23
+9 of state	1axd	
+6e	94z	c0
+7d	xu5	
+6in	950	40
+7on	951	60
+7ve	952	80
+9ly	s0m	
+6ly	jik	
+6ory	knh	
+6s	i24	
+3t	953	c0
+4arian	by7	
+9ism	p6l	
+4ion	954	7e
+7 of a retail store	16pj	
+bland	1b5t	
+7al	955	60
+7s	kmt	
+4or	956	78
+6 of society	1bb7	
+3ular	957	f0
+4re	958	de
+6 and lucrative job	1ewh	
+6ly	959	40
+5ing	10bk	
+6ties	95a	80
+8zation	10h7	
+7y	95b	5e
+2dan	drq	
+4te	95c	c0
+5ive	95d	80
+3entary	95e	c8
+3ge	dr2	
+5s	z80	
+3iment	95f	e0
+8ary	95g	40
+9tion	unl	
+4tion	95h	80
+7us	95i	80
+3na	10ox	
+3uce	95j	40
+5tive	c5u	
+4lity	95k	80
+5ous	95l	80
+4m	eun	
+2e	95m	3
+3d	95n	1e
+4 of ajwain	1c3u	
+8sterculia lychnophora	1c3v	
+4bed	z5s	
+4ed	xjl	
+4ing	x35	
+5q	10ow	
+4less	vv8	
+5ing	95o	c0
+8s	rrs	
+4s	jlg	
+5 of litchi or lychee	19wc	
+9pepper	1c7w	
+3ing	ge3	
+3k	95p	1e
+4er	n5r	
+4ing	jir	
+4s	iiw	
+3m	95q	3
+4ing	z5z	
+7ly	95r	78
+4ly	95s	80
+4s	gb9	
+3n	h48	
+3p	95t	e0
+4age	m0q	
+3rsucker	fdd	
+3s	hcx	
+3the	95u	c0
+5ing	r1o	
+2f	v1v	
+2getalis	wab	
+3ment	95v	fc
+7ation	koe	
+7ed	kny	
+7s	rm6	
+3ovia	nwk	
+3regate	95w	78
+8ion	jgl	
+3way	iop	
+2i	mrz	
+3gen	mkj	
+3ha	ktx	
+3ko	xte	
+3ne	95x	80
+4feld	jkg	
+3smic	95y	e0
+5ogram	12cn	
+9ph	95z	40
+6logical	hk1	
+ast	m4m	
+9y	960	40
+6meter	fx5	
+3y	ymu	
+3ze	961	5e
+5d	pmy	
+4ing	s4f	
+4ure	bsz	
+2jong	hf1	
+2ki	o18	
+2langor	12ae	
+3dom	962	5f
+3ect	963	5e
+6ed	hqp	
+8 works of mao zedong	1cdq	
+6ing	p24	
+7on	964	7c
+7ve	jgq	
+9ness	117z	
+8ity	1180	
+6or	rxl	
+4ne	szh	
+5ium	e3v	
+3f	965	1e
+4-abasement	966	80
+7sorbed	967	80
+6ssertion	968	80
+5defense	969	20
+6iscipline	96a	20
+5respect of old person	1ajp	
+5sufficient	96b	60
+4ie	yxb	
+6s	yg0	
+5sh	96c	5e
+7ly	rh8	
+7ness	96d	40
+4less	imp	
+8 and public spirited	1fel	
+8ness	jvi	
+3ina	mn4	
+3l	96e	3
+4er	96f	c
+6s	rxz	
+4ing	k8q	
+4out	vfd	
+4s	pyf	
+2maglutide	m9u	
+4ntic	bk9	
+8ally	rgp	
+8s	gwb	
+4phore	dd6	
+3bilan	tud	
+4lance	96g	e0
+3en	cnz	
+4ster	96h	7c
+3i	lh6	
+4annual	jaj	
+5rch	lhr	
+6id	96i	40
+5utomatic	lib	
+5xis	lij	
+4circle	96j	2
+8ular	lhg	
+6vilized	lil	
+5olon	ko3	
+9ial	lhm	
+6nducting	lhn	
+bor	96k	1c
+ds	m19	
+7servative	lh8	
+5ursive	102d	
+4devils	ojq	
+4feudal	lhl	
+a and semicolonial	1htz	
+5inal	vc1	
+9s	lhw	
+7ished	lhq	
+5luid	lhx	
+4legendary	sxn	
+5iquid	vbo	
+6terate	96l	40
+5unar	lhu	
+4membranosus	lia	
+5olten	96m	40
+4nal	96n	80
+6r	96o	3c
+7y	96p	80
+6te	96q	8
+4ochemical	lab	
+5fficial	lhk	
+5logy	dty	
+5tician	q53	
+8s	xp0	
+5vert	lhc	
+4palmatus	lii	
+5olished	yqc	
+5recious	wbc	
+6ocessed	udd	
+4rechye	gjb	
+4skilled	lhz	
+5ynthetic	wl6	
+4tendinosus	li9	
+6s	11ti	
+5ic	11tg	
+5one	dh3	
+8s	mlt	
+6rques	ldt	
+5ransparent	lik	
+3u	z1d	
+2n	gqa	
+3ate	96r	1c
+5or	96s	58
+3bei	io9	
+3d	96t	3
+4ai	ino	
+4er	k1b	
+4ing	pyb	
+4s	ylr	
+3egal	nwi	
+7ensis	trx	
+4scence	sng	
+3g	joc	
+4ge	w7t	
+4you	k9g	
+3hora	epk	
+3i	z19	
+4le	96u	80
+5ity	r5e	
+4or	96v	3e
+6 member of a profession	16lw	
+6ity	iqg	
+9 and prestige	1hcd	
+ain the family	14lp	
+6s	gvw	
+3kaku	poo	
+3na	wmx	
+5e	wmz	
+4heiser	tu9	
+3s	efm	
+4ation	96w	d8
+9al	96x	40
+bism	n69	
+cze	yn3	
+4e	96y	3f
+5 of accomplishment	1bmh	
+bhievement	1bmi	
+9beauty	1be5	
+blonging	1bmj	
+9direction	1bga	
+9gain	1bf5	
+9hearing	1bmk	
+blplessness	1bml	
+aonor	1bmm	
+aumor	1bmn	
+9inferiority	1bmo	
+9movement	1bmp	
+9pain	1bg9	
+ariority	1bj3	
+9reality	1bmq	
+bsponsibility	1bmr	
+9satisfaction	1bki	
+aecurity	1bms	
+amell	1biz	
+9taste	1biq	
+5less	96z	8
+5s	bjl	
+5time	myo	
+4ibilities	r5d	
+ay	970	40
+6le	971	fc
+8 and reasonable	1h5k	
+5ng	jm6	
+5tive	972	fe
+9 to people's needs	1edy	
+8ity	973	c8
+b to other's feelings	1dzg	
+7zation	974	80
+8e	975	80
+4or	976	8
+6s	x2n	
+6y	977	40
+4ual	978	80
+7ity	yny	
+5ous	979	40
+3t	j4i	
+4ence	97a	5f
+8d	t5l	
+8s	97b	20
+9 and phrases	1hu0	
+7ing	bkc	
+6tious	97c	80
+4icosus	ku4	
+5ence	x6o	
+7t	97d	80
+5ment	97e	b8
+9 and face	1f48	
+9al	97f	50
+bism	97g	40
+cty	vld	
+cze	97h	40
+bly	rbx	
+9s	ozu	
+5nel	97i	80
+4o	10u4	
+4ries	th7	
+5y	97j	c0
+2ol	ls8	
+3ng	t79	
+5gyungwan	rcx	
+3raksan	12a5	
+3ul	igu	
+2p	1188	
+3a	nfo	
+4k	zrh	
+4l	fdw	
+4rable	129i	
+6ta	xt5	
+7e	97k	9f
+8d	ge7	
+9 by a generation	1cfc	
+given distance	1cf7	
+afor a long time	19i8	
+ain life and death	18tq	
+8ly	97l	4e
+a and exclusively	1hu1	
+7ing	i7o	
+8on	97m	e
+a and reunion	1hh8	
+bof powers	1cdr	
+8sm	ko4	
+9t	ko6	
+3ia	d8b	
+3puku	kpn	
+3sis	dav	
+0September	97n	23
+0septemfasciatus	gic	
+6punctata	gj5	
+4ic	97o	a0
+6aemia	dul	
+4um	ere	
+3ulchral	97p	80
+2quacious	97q	80
+4el	c48	
+6a	97r	80
+7e	es1	
+6s	qse	
+5nce	97s	7c
+8 of numbers	1bzl	
+cprocesses	1bzm	
+csongs	1bzn	
+8s	xpl	
+7ing	v9t	
+6tial	97t	80
+aly	j5i	
+5ster	97u	c0
+7rate	97v	80
+aion	i3l	
+2r	kwu	
+3a	clx	
+4c	fgu	
+4phic	97w	80
+3b	lq2	
+4ia	nwv	
+6 and montenegro	1hu2	
+6n	lpz	
+4o	nww	
+4s	oud	
+3e	97x	80
+4nade	97y	80
+5dipitous	e6w	
+dly	m7v	
+ay	97z	80
+5e	980	c0
+6 and beautiful	1hi1	
+belegant	1h9h	
+5itatis	vjr	
+7y	981	40
+5oa	11mf	
+4s	10ot	
+3f	bz8	
+4dom	982	80
+3ge	czf	
+5ant	bjk	
+5evich	pss	
+7na	qhu	
+5i	rqj	
+5y	rok	
+6evich	rcf	
+3i	sgn	
+4al	983	b0
+6ized	kz9	
+4ceus	y5k	
+5ulture	101a	
+aist	101c	
+4e	e5q	
+5s	984	3c
+6 of calamities	1bsa	
+4f	dob	
+4lophus	11la	
+4n	zr7	
+5e	dy1	
+5us	11jb	
+4ous	985	7f
+7 about the matter	15o0	
+7ly	986	4c
+7ness	n95	
+3mon	987	d8
+6ize	988	80
+6s	jmq	
+3osa	vi7	
+4tonin	d3g	
+4us	fp3	
+3pens	q1s	
+6t	989	8
+7ine	98a	80
+3ranidae	x8d	
+5ta	th1	
+6e	98b	80
+7d	98c	c0
+6ifolia	x8m	
+6or	xxn	
+6us	kwz	
+4ied	98d	80
+5rostris	x70	
+4ulata	u48	
+3um	bkt	
+3val	zs5	
+5nt	98e	1f
+7s	ihn	
+8 of an official	1bpa	
+4e	98f	3
+5d	hz5	
+5r	ht6	
+6s	11u9	
+5s	h3r	
+4ice	98g	23
+7 to the public	1420	
+7able	98h	80
+7man	txz	
+8ember	10wz	
+7s	fza	
+5ette	edu	
+5le	98i	80
+7ly	lit	
+6ity	orr	
+5ng	iqj	
+7s	p8e	
+5tude	98j	80
+4o	csj	
+2same	ctn	
+4rmidae	x3p	
+3sile	e0n	
+5on	98k	7e
+7s	qrd	
+2t	98l	23
+3 of bells	1b3z	
+7cards	1b40	
+8oordinated items	1b41	
+7hanging scrolls	1b3y	
+7rational numbers	1b1q	
+8eal numbers	1aso	
+4pattern of behavior	1ay7	
+3aria	w6d	
+3back	98m	b8
+7s	h8a	
+3h	10p1	
+3onix	x74	
+4se	sbj	
+3s	ine	
+3ter	co8	
+4ing	98n	7c
+7-up exercises during the break	15nj	
+7s	kkr	
+4le	98o	be
+6d	98p	80
+6ment	98q	3e
+as	ir3	
+6r	98r	2
+6s	12at	
+5ing	kdk	
+3up	iz1	
+2umnida	r1v	
+3ng	12ij	
+2vastopol	nwz	
+3en	98s	3
+5s	ghp	
+5teen	98t	f
+9th	mwq	
+6h	98u	3
+7s	x43	
+6ies	ghs	
+6y	98v	f
+4r	98w	c0
+5al	98x	23
+7 tens of thousands	1blg	
+7ly	kou	
+6nce	10mn	
+5e	98y	fe
+6d	ns1	
+6ly	98z	c
+6st	yc2	
+5ino	nx7	
+6ty	h2w	
+5ly	o9g	
+5us	w70	
+3ille	nx0	
+2w	990	5e
+3age	991	20
+3ed	rm7	
+4r	992	e0
+5age	993	40
+5zowi	scj	
+3ing	qh1	
+6 and mending	1hu3	
+3n	rfm	
+2x	994	3e
+3agenary	qdk	
+3es	k3f	
+3iness	ynx	
+4sm	r26	
+5t	x38	
+3less	vut	
+3ology	f4a	
+3t	fh5	
+4ans	k8u	
+6t	995	80
+3ual	996	c
+6ity	ihu	
+6ly	l5d	
+3y	l8o	
+2ychelles	nwm	
+1fd	qd8	
+2ts	wr8	
+1ha	gdb	
+3anxi	gmn	
+7 and gansu provinces	1hu4	
+3bby	997	fa
+4u	v5g	
+3chiku	xdo	
+4k	998	80
+5le	999	c0
+7d	10jm	
+7s	mhi	
+5s	pf6	
+3d	ex5	
+4berry	mx8	
+5ush	mx7	
+4dock	tgz	
+4e	99a	5e
+5 of a tree	16sa	
+5d	wa5	
+5s of	12nm	
+4ing	sux	
+4ow	99b	1e
+6boxing	okl	
+6s	qdh	
+7ocks	u22	
+6y	99c	8
+4y	99d	1c
+5 and cool	1gx2	
+3ft	99e	78
+5s	hsy	
+3ggy	cjf	
+3h	blr	
+4e	up5	
+5kou	up4	
+3i	r0u	
+4tan	s38	
+3ke	99f	5f
+5hand	u2m	
+5n	n2d	
+5r	10fn	
+5s	zy8	
+6peare	ig6	
+ban	uug	
+aian	xfl	
+4ing	m8l	
+4ti	o0f	
+4uhachi	ppq	
+4y	99g	8
+5a	11dy	
+6muni	qpd	
+6s	11e0	
+3le	99h	c0
+4l	99i	3
+5ot	cdm	
+6w	99j	7e
+7 and crude	1h5w	
+7s	v1y	
+5y	emf	
+6ing	gow	
+3m	99k	98
+4a	wv8	
+5n	c9k	
+6ism	zok	
+4ble	99l	20
+7s	99m	80
+4chun	q6z	
+4e	99n	1f
+5d	zjx	
+5ful	99o	8
+5less	99p	40
+9ly	maf	
+5s	k5s	
+4ing	11tq	
+5sen	gmv	
+4po	126n	
+6o	99q	1c
+3n	g5j	
+4 plateau of east myanmar	1bmu	
+5state of east myanmar	1awk	
+4bei	1232	
+5o	toe	
+4cheng	ptn	
+4dan	pth	
+5ong	hip	
+4g	gbo	
+5cai	gzl	
+6heng	gwy	
+5dang	h0g	
+6ong	11b1	
+6u	h01	
+5gao	h0d	
+6uan	gx6	
+0Shanghai	99r	2
+0shanghai and nanjing	1hu5	
+9conservatory of music	1bnl	
+8nese	gyh	
+7ng	gxw	
+6e	mym	
+5jie	gzr	
+5ke	myp	
+6un	tvh	
+5li	gy1	
+7n	gxy	
+6uo	hsq	
+5nan	myf	
+5qiu	myc	
+5rao	h0c	
+6en	oz1	
+5shui	myl	
+6i	gxk	
+5xing	gxq	
+5yi	pox	
+7n	t6n	
+6ou	gyp	
+6u	gzn	
+5zhi	pou	
+7ou	myi	
+4hai	jzd	
+7guan	pud	
+4k	cmg	
+4nan	hua	
+4shan	11bq	
+6ui	pua	
+5itherium	puu	
+4ting	ptj	
+5ou	ll7	
+5y	99s	a0
+6town	nr5	
+4wei	nr8	
+4xi	h0i	
+6an	n3q	
+4yang	puy	
+5in	pux	
+4zhou	1233	
+3o	g4w	
+4bo	119j	
+4dong	119l	
+4guan	hsi	
+4lin	po5	
+7g	m5x	
+4min	sgt	
+4qi	kzs	
+6ng	irj	
+4shan	12iv	
+4wu	119m	
+4xing	gzo	
+4yang	lbm	
+5i	mxh	
+3pe	99t	1f
+5 and color	1gib	
+6of face	1b39	
+5d	hut	
+5less	h8y	
+6y	kvp	
+5s	lg8	
+4ing	krw	
+7ba	uor	
+4otou	uoq	
+3quille	uot	
+3r	uph	
+4apova	zai	
+4d	99u	80
+5s	kfi	
+4e	99v	1f
+5cropper	iyu	
+aing	kns	
+5d	k7b	
+5holder	odm	
+bs	qfx	
+5nt	swq	
+7ing	swp	
+5s	mgl	
+5ware	ka0	
+4ia	dws	
+5f	10gz	
+5ng	g0j	
+4k	99w	1a
+5s	ouy	
+4m	uov	
+4p	99x	7e
+5 and clear	1ex1	
+fcut	1gqe	
+aunkind	1gqm	
+6ears and keen eyes	1ghs	
+5-eyed and adroit	1gqb	
+6sighted and deft	1gpg	
+5e	v6m	
+6n	99y	4e
+7ed	klu	
+8r	99z	2
+7ing	xcq	
+5ly	9a0	4c
+5ness	v8c	
+5shooter	eyx	
+4t	s7c	
+3shi	uox	
+3tangju	x9o	
+4ter	9a1	78
+7ed	9a2	80
+7ing	l7d	
+7proof	hbg	
+3un	yop	
+3ve	9a3	3e
+5d	kf7	
+5n	jud	
+5r	9a4	2
+4ing	jku	
+7 the head or face	15ji	
+7s	9a5	80
+3w	yon	
+4an	up9	
+5rma	uow	
+4l	9a6	80
+4m	n54	
+4n	yoq	
+3xian	upj	
+3yang	up6	
+2e	9a7	3
+3a	w32	
+4f	9a8	80
+4ltiel	req	
+4r	9a9	fc
+5ing	kxo	
+5s	kxv	
+5water	dn2	
+4th	9aa	c0
+6e	9ab	c0
+7d	u2d	
+3d	9ac	fc
+4ao	zwm	
+6ensis	zwp	
+4s	s1i	
+3en	9ad	80
+4p	9ae	23
+5dog	w45	
+5skin	yes	
+4r	9af	f8
+4t	9ag	7e
+5ing	110h	
+5s	klq	
+3ffield	12ad	
+3hiri	i7d	
+4ong	pgu	
+3i	1235	
+4k	e06	
+5dom	11bw	
+5h	c0k	
+3k	ho2	
+3lduck	e6h	
+4f	9ah	7f
+4l	9ai	fc
+5ac	e66	
+5ed	puh	
+6y	wby	
+5fish	9aj	40
+5s	wlq	
+4ter	9ak	fe
+7ed	9al	40
+4ve	9am	80
+6s	gy0	
+3n	g3y	
+4anigans	10kk	
+4bei	une	
+4chi	xeh	
+4g	g0s	
+5chuan	10os	
+5jian	wja	
+5lei	yn1	
+5si	pyh	
+5tao	zhg	
+5zhou	pyg	
+6u	yld	
+4he	vlo	
+4mu	xeg	
+4nong	gs8	
+8jialin	xer	
+4qiu	und	
+4tu	wlr	
+4xian	zaq	
+6u	rcn	
+4yang	i58	
+4ze	v7q	
+5hen	jt7	
+8 and hong kong	1hu6	
+6ou	v7i	
+3pherd	9an	7c
+3qi	xdj	
+3r	qxr	
+4aton	n11	
+4bet	ejf	
+4iff	9ao	88
+4lock	o0w	
+4pa	da5	
+4ry	bra	
+3tland	10d7	
+3ung	gy9	
+3xian	u73	
+3yang	pgw	
+2i	g5e	
+3a	ilr	
+4tsu	ev6	
+3ba	ma6	
+5ta	tij	
+4boleth	9ap	80
+4ei	q6f	
+4ing	skp	
+3chahai	ilq	
+6ng	qso	
+5eng	x82	
+5ong	wac	
+3daiqu	srf	
+4e	rtv	
+4ian	sko	
+3eld	9aq	fc
+6ing	qr0	
+3fang	ils	
+4eng	x85	
+4t	9ar	7c
+5iness	9as	80
+7g	9at	40
+5less	9au	80
+5s	jdd	
+5y	ctk	
+4u	waq	
+3ga	vds	
+5tse	icg	
+4ellosis	r07	
+4ong	k9x	
+4u	x9i	
+5ai	x8a	
+3h	skh	
+4e	vd5	
+5zi	x8p	
+4lin	nzx	
+4tzu	w7p	
+4uang	mlw	
+5o	u8i	
+3ing	123y	
+4take	ftz	
+3jiazhuang	iax	
+5ng	10e4	
+7shan	k56	
+3kai	i3d	
+5n	10an	
+4ibu	vbt	
+4oku	n9y	
+4ra	106s	
+4umen	x88	
+3lin	nzw	
+4l	rib	
+5ing	9av	1c
+5y	gov	
+4ong	x9j	
+5u	x8o	
+3m	fcv	
+4a	pyq	
+5no	xg9	
+4bun	smt	
+4en	omj	
+4ian	x8k	
+5n	mwl	
+6g	11dw	
+5zu	v8e	
+4mer	9aw	a0
+7ing	utr	
+4on	qag	
+6oseki	h2l	
+3n	c4r	
+4a	s6c	
+5gawa	mrm	
+9 district of tokyo	1bwf	
+5i	xnr	
+5n	mwf	
+5watra	in2	
+4bone	w6y	
+4e	9ax	43
+5s	ggr	
+4g	hg5	
+5le	9ay	c0
+7s	qcj	
+5on	x4m	
+4ian	ov3	
+5ng	9az	40
+4jitai	sh9	
+5uku	shb	
+4kansen	shk	
+4rikyo	opg	
+6mei	qzf	
+6n	tu7	
+4tar	x80	
+5o	ek3	
+4y	9b0	40
+5 and smooth	1h06	
+4zo	p2w	
+3p	9b1	23
+4's port of registry	1brc	
+4board	z0q	
+5uilder	z0m	
+9ing	9b2	8
+4ei	kzt	
+4ing	x84	
+4load	9b3	40
+4ment	9b4	58
+8s	ktl	
+4ping	hqm	
+4s	pzn	
+5hape	9b5	80
+4wreck	9b6	48
+6ight	9b7	c0
+4yard	z0j	
+3qian	x98	
+5ng	k2c	
+4uan	hzl	
+3rk	9b8	80
+5ed	ygj	
+5ing	i5m	
+4t	9b9	3
+5s	qh7	
+3s	rob	
+4eid	10nr	
+4h	hrl	
+5apangma	q9v	
+5i	x8w	
+5ou	x9d	
+4o	y2w	
+3t	g4b	
+4ai	x81	
+5njing	x8t	
+4izen	g28	
+3va	qb2	
+4er	9ba	3c
+6ing	h7j	
+3wei	p8z	
+3xenze	x8q	
+4ing	ouh	
+3yan	hs9	
+3zhao	xnd	
+5en	t4t	
+5ong	q6b	
+6upian	m99	
+5u	x8i	
+4ong	qc0	
+4uishan	oax	
+5oka	12g6	
+2oal	9bb	a0
+5 of fish	1bqm	
+5s	125d	
+3ck	9bc	7e
+5ed	9bd	40
+5ing	9be	40
+8ly	omv	
+5proof	11wv	
+5s	r2m	
+5waves	11f7	
+3ddy	9bf	80
+3e	9bg	3
+4gaze	x67	
+4horn	f9y	
+4lace	12hg	
+8s	wgr	
+4maker	twm	
+4s	9bh	20
+5 and belt	1h7e	
+asocks	1hu7	
+5tring	pki	
+3gi	trd	
+4un	qdc	
+6al	qx6	
+7te	rai	
+6s	p8y	
+3ki	k5c	
+3o	d70	
+4k	nkr	
+4t	9bi	9e
+5er	n6k	
+5ing	9bj	2
+5out	vmn	
+5s	keb	
+3p	9bk	23
+4aholic	feo	
+4floor	10yv	
+5ront	rwj	
+4keeper	9bl	1e
+4lift	9bm	80
+4per	piu	
+5ing	9bn	2e
+8 as a fun pastime	1al8	
+4s	hqx	
+4worn	9bo	80
+3re	9bp	5e
+5line	v25	
+5s	k3a	
+4n	jiz	
+4t	9bq	23
+5 and small	1elx	
+btout	1ft1	
+6back and sides	1e5c	
+6life and long life	1dca	
+6of	12k0	
+8 cash	1bd9	
+9food and clothing	16hm	
+9money	1b0t	
+6period of time	1a8j	
+6stave of the barrel	13q3	
+6takeoff and landing aircraft	1fm4	
+5-range	9br	40
+5age	9bs	7c
+8 of	1cds	
+b electricity	1cdt	
+cmoney	1bd0	
+8s	11c0	
+5change	kvi	
+6oming	9bt	1e
+bs	g83	
+6ut	9bu	48
+5en	9bv	8
+7ed	rm0	
+7ing	qlh	
+6st	g8h	
+5fall	9bw	8
+9s	i5w	
+5hair	l47	
+7nd	9bx	18
+5ly	9by	1e
+5s	9bz	3
+6ighted	r23	
+cness	10b0	
+5wave	x7e	
+6ing	tjm	
+3t	9c0	5e
+4acon	u7d	
+4gun	s91	
+4on	12aj	
+4s	ht0	
+3u	gaq	
+4guang	o04	
+4juan	mnd	
+4ld	9c1	3
+6 not be exposed to	14iq	
+6er	9c2	9f
+8 to shoulder	1i3t	
+8ed	vpc	
+8s	gbn	
+6n	jip	
+4ning	o06	
+4ren	tvg	
+4shika	po3	
+6u	w8t	
+4t	9c3	3
+5ed	n20	
+5ing	iic	
+4wangfen	o0a	
+4xian	o0b	
+4yang	o0c	
+3ve	9c4	d8
+5l	9c5	68
+6er	we2	
+4ing	qov	
+3w	9c6	3
+4boating	vrc	
+4case	g9x	
+4down	cbl	
+4er	9c7	7f
+6head	z4r	
+6ing	kzf	
+4iness	ry5	
+6g	j4q	
+7 the hardships of travel	13rp	
+7s	nun	
+4n	h1h	
+4piece	xm6	
+4room	qh2	
+4s	l3n	
+4y	9c8	80
+2q	xra	
+2rapnel	cp7	
+3ed	9c9	e0
+5ded	rnr	
+7r	kru	
+5s	s3q	
+4w	cj5	
+5d	9ca	f8
+6 and ruthless	1hco	
+6ness	qzg	
+5ish	jrx	
+3iek	9cb	cc
+4ke	fa5	
+4ll	9cc	8
+4mp	9cd	48
+6 soldiers and crab generals	1h55	
+6s	m2q	
+4ne	9ce	88
+6 dedicated to one's ancestors	1d1t	
+7of especially high status	1ar0	
+7to a sage	18nx	
+5k	9cf	fe
+6able	vza	
+7ge	9cg	40
+6ing	t0p	
+4vel	9ch	c0
+7ed	hzw	
+3oud	9ci	80
+3ub	9cj	e8
+5bery	vm6	
+5land	vm5	
+5s	t2k	
+4g	9ck	bc
+2tra	v0k	
+2u	g1d	
+3a	qdo	
+4i	lo6	
+4n	v5h	
+5g	i42	
+6bai	127p	
+6cheng	1279	
+bzi	127a	
+6feng	127f	
+6gui	1286	
+6hu	127v	
+6jiang	127r	
+6liao	128c	
+8u	127s	
+7ong	128i	
+7uan	127w	
+6pai	127x	
+6qiao	127q	
+8ng	127t	
+6ta	127b	
+8izi	1284	
+6yang	128d	
+8shan	lxt	
+3cheng	yzu	
+4k	9cl	80
+3dder	9cm	80
+7ing	r8p	
+3ffle	9cn	c0
+7d	10ro	
+6ing	10u7	
+4u	wp0	
+3i	giu	
+4cheng	uhk	
+4fu	uho	
+4mogou	uie	
+3k	mn5	
+3l	fmq	
+4an	z00	
+4e	wov	
+4i	10tr	
+5n	u0y	
+4uun	u7u	
+3mai	w0a	
+4ing	tok	
+3n	9co	c0
+4de	rns	
+4kou	sl2	
+4t	9cp	80
+5ing	10fm	
+4zhi	o40	
+5ong	mxl	
+3o	i1g	
+4cheng	t14	
+4wen	k9b	
+4zhou	m9i	
+3ren	mn6	
+4iken	rfs	
+3saku	t4d	
+4han	zxk	
+3t	9cq	5f
+4down	jhd	
+4ong	t6m	
+5ut	p62	
+4ter	9cr	78
+5le	9cs	fe
+7cock	eva	
+7d	ik4	
+7s	pmf	
+3wen	uki	
+3yang	ups	
+2we	hsa	
+2y	9ct	5d
+3 of	12mh	
+3i	vaa	
+3lock	duf	
+3ness	9cu	40
+1ia	n6t	
+3h	n8r	
+3l	fmt	
+3m	swi	
+4ensis	zyo	
+5se	swj	
+3n	jf5	
+4g	lks	
+2belle	yqu	
+4ria	nin	
+7n	lbh	
+3ia	tjg	
+4lans	xwb	
+7t	9cv	80
+6trix	tei	
+4rica	vtc	
+7us	11rn	
+6onetta	z50	
+3ling	9cw	80
+7s	jrg	
+3yl	9cx	80
+2c	bxw	
+3eraria	zih	
+3hong	jef	
+5te	yii	
+4uan	gmr	
+7 and tibet	1hu8	
+7ese	hbp	
+3ilia	109q	
+7n	nyn	
+5y	jkd	
+3k	9cy	63
+4 and weak	1gd4	
+5of	12l6	
+4bed	h0z	
+4en	9cz	60
+6 of	12o2	
+6ing	yo9	
+4le	cgr	
+5y	rb1	
+4ness	9d0	6e
+4room	wpe	
+2ddhartha	j27	
+3e	9d1	23
+4 of boat or ship	19sr	
+8the body	13ma	
+5room of a hall	16l6	
+4bar	ji6	
+5oard	cdj	
+5urns	yk1	
+4car	db0	
+4d	g80	
+4kick	d74	
+4light	ji4	
+9s	z4w	
+6ne	c0c	
+8d	nnc	
+8s	mb7	
+5oad	ji5	
+6ng	dck	
+4real	9d2	80
+5ite	ehr	
+5oom	jhw	
+4s	g81	
+5 in a dispute	1962	
+5how	9d3	80
+5plitting	9d4	80
+5tep	9d5	c0
+5wipe	fae	
+4tracked	rjr	
+4walk	ikx	
+7ls	rya	
+9 of a palace	16un	
+6y	9d6	2
+7s	9d7	5e
+3le	9d8	80
+3ney	qc7	
+3on	10a1	
+3s	oy6	
+2eboldii	xxb	
+3ge	9d9	f8
+3m	swh	
+4ens	109w	
+4sseni	zqq	
+3na	109h	
+3rra	nwn	
+3sta	dak	
+3ve	9da	60
+5rt	qa2	
+3w	zn2	
+2f	nbp	
+3angtai	nbg	
+3t	9db	88
+2gesbeckia	10jp	
+3h	9dc	7e
+4 of regret	1bzt	
+4ing	mqw	
+4s	mw9	
+4t	9dd	7f
+5ed	gf9	
+7ness	x7j	
+5ing	x60	
+5s	h8h	
+6eeing	9de	3e
+3il	fmw	
+3ma	c8k	
+4oid	d5q	
+4und	j1q	
+3n	9df	3e
+4 of human habitation	1b8w	
+8positive outcome	1be0	
+4al	9dg	be
+6-to-noise ratio	1i6c	
+6ed	121s	
+6ing	j9c	
+6s	ktr	
+5tory	9dh	80
+6ure	9di	fe
+9s	ymk	
+4board	mmb	
+4ed	ymc	
+5t	cy6	
+4ific	10fy	
+8ance	9dj	5e
+at	9dk	fc
+b ups and downs	1ga5	
+bly	p66	
+6y	9dl	f8
+7ing	ne7	
+5ng	wlv	
+4post	rum	
+4s	j2q	
+5 from the past	15k1	
+6of an impending rebellion	1c9w	
+3uang	t6q	
+2hanouk	rqo	
+3eyuan	jcp	
+3ong	ut5	
+3u	nc5	
+4i	nbj	
+2k	orz	
+3a	fjq	
+3h	11nk	
+4ism	11nl	
+3kim	hu7	
+3ong	m9t	
+4rski	109e	
+4u	m9m	
+3u	nbd	
+2la	ppn	
+4ge	czn	
+3denafil	1084	
+3ence	9dm	7f
+7r	v54	
+5t	9dn	3f
+4sia	109u	
+3houette	bur	
+3ian	ouw	
+4ca	9do	40
+6te	9dp	40
+8s	10s5	
+5eous	ez5	
+5ic	fmu	
+5on	9dq	18
+7e	x9k	
+6sis	fms	
+3k	9dr	3
+4 and satin	1h5z	
+4cords	xuy	
+4en	kgf	
+4ie	u8p	
+4waste	11fa	
+5orm	mhl	
+8s	gx7	
+4y	tgo	
+3l	9ds	80
+4a	gmy	
+4em	1071	
+6i	1072	
+4iness	rwa	
+4y	9dt	5f
+3o	d6x	
+3t	9du	c0
+4ed	v6s	
+4stone	xsp	
+4y	xsn	
+3urian	d11	
+3vaner	109k	
+4er	9dv	7f
+6fish	edh	
+6grass	ze3	
+6smith	9dw	c0
+6ware	djy	
+6y	v8x	
+4iculture	tu6	
+5o	10lg	
+2m	lqq	
+3a	gvn	
+4o	r1z	
+4roubaceae	tzx	
+3ian	9dx	80
+5o	lgq	
+4lar	9dy	23
+7 class of people	1ain	
+8in expression and spirit	18vw	
+bshape and appearance	18vo	
+8to	1ha2	
+7ities	wnr	
+9y	9dz	8
+7ly	9e0	c
+5e	9e1	80
+4ng	m8q	
+3mer	bvb	
+6ed	vre	
+6ing	lvn	
+4ons	qc6	
+3on	iro	
+5e	xp4	
+3p	fi7	
+4er	9e2	80
+4le	9e3	23
+6 and clear	1elc	
+convenient	1fis	
+crude	1fjx	
+g cart	1fgy	
+bdirect transaction	1eym	
+beasy	1ese	
+f to understand	179m	
+clegant	1fjm	
+bfrank	1fmg	
+bhonest	1fgm	
+bindustrious	1fm7	
+bkind	1eth	
+bneat	1fil	
+bsincere	1fjo	
+bunadorned	1fmh	
+6r	kr5	
+6st	hda	
+6ton	9e4	80
+6x	dh5	
+5icity	9e5	5c
+6fication	i4b	
+8ed	iwh	
+7y	9e6	3e
+6stic	byk	
+aally	lai	
+5y	9e7	2
+4son	10zh	
+7s	10zi	
+3sii	sql	
+3ulacrum	ecj	
+6te	9e8	f8
+7ion	hvv	
+5cast	ffz	
+5ia	zw7	
+5taneous	9e9	f8
+cly	9ea	48
+3vastatin	10zg	
+2n	9eb	5c
+3a	r6x	
+4i	107s	
+4n	r1t	
+3ce	9ec	3
+5 the beginning of history	13m2	
+adawn of time	13gi	
+5re	9ed	bc
+7 and honest	1gv9	
+cserious	1g48	
+8belief and diligent study	1f16	
+7ly	9ee	2
+6ity	9ef	8
+3d	s2b	
+4h	j9k	
+5 province of pakistan	1c2a	
+4ianus	taz	
+3e	c95	
+4cure	9eg	80
+7ist	xf1	
+4nse	11i0	
+6is	g5r	
+4s	u7i	
+4w	9eh	80
+3ful	p2h	
+3g	9ei	3
+4 of	12lz	
+4alensis	y37	
+5pore	ids	
+9 and malaysia	1hu9	
+9an	p1v	
+4e	9ej	c0
+5r	9ek	e
+6s	gf5	
+4h	10zj	
+4ing	jff	
+7 and dancing	1hua	
+4kawang	ptm	
+4le	9el	23
+6 origin out of africa	1a8h	
+7point of failure	1asa	
+7spear and horse	1flc	
+6d	jg7	
+6s	jth	
+6t	ec9	
+5y	xf5	
+4s	ole	
+4ular	9em	3c
+8 and majestic	1hd9	
+8ity	9en	80
+8ly	on7	
+3h	127l	
+4alese	jod	
+3ian	12cl	
+4ca	hmg	
+5ization	vgn	
+7e	hjg	
+5us	y35	
+4ster	9eo	c0
+8 and deceitful	1hgr	
+4tic	10cz	
+3k	9ep	7e
+4er	ixx	
+4hole	ogy	
+4ing	u0w	
+3mun	l7y	
+3n	sit	
+4er	r8c	
+5t	128k	
+3o	ghj	
+4atrial	xmn	
+4centrism	hj1	
+4logist	ovw	
+7y	vgt	
+4pec	hl7	
+5hobia	rxx	
+4sauropteryx	hq1	
+3s	rbt	
+4hih	shi	
+4ing	sis	
+3t	za1	
+4er	ec0	
+3uatrial	xmo	
+4ous	9eq	c0
+4s	cut	
+5itis	f7z	
+5oidal	d2w	
+2o	i3k	
+2p	9er	90
+3ahi	1026	
+3hon	cqe	
+3ing	iui	
+3ping	ppi	
+3unculus	v3k	
+2r	9es	3
+3aitia	ydr	
+4ya	108p	
+3e	cdd	
+4n	9et	98
+3intarae	wu8	
+4us	oi6	
+3loin	ehc	
+3s	s9f	
+2s	oui	
+3al	en9	
+3che	qxn	
+3hui	ut3	
+3kin	exz	
+3sy	etf	
+3tani	108q	
+4ema	k2r	
+5r	9eu	3
+6 of a woman's father-in-law	14s7	
+6s	jrf	
+4ine	108r	
+3u	gyd	
+3yphus	vf6	
+2t	9ev	3
+3com	d2g	
+3e	9ew	7c
+4map	y8x	
+4s	9ex	20
+3ong	rcm	
+3s	prp	
+3ta	q1x	
+5ng	l5m	
+4ing	lb3	
+7-room	9ey	8
+5parus	128x	
+3u	bzp	
+4ated	9ez	38
+6ion	9f0	1f
+9 in a state	192o	
+9al	r52	
+9s	kap	
+2u	lx8	
+2v	10jw	
+2wa	11ns	
+2x	9f1	3
+3es	gho	
+3ian	nc0	
+4e	10nx	
+3teen	9f2	3
+7th	9f3	2
+4h	9f4	3
+5s	xuz	
+4ies	k8w	
+6th	wqn	
+4y	9f5	f
+2yang	ut6	
+2ze	9f6	23
+4 of an adjustment	1bqp	
+4d	hi6	
+4s	9f7	20
+3iwang	nas	
+3zle	ce7	
+6r	9f8	80
+5ing	n6q	
+1kanda	12i7	
+5ha	i9u	
+7s	k6c	
+3te	9f9	1f
+5board	9fa	2
+5r	ov0	
+5s	kes	
+4ing	9fb	20
+2edaddle	ftg	
+3in	9fc	80
+5s	y4t	
+3letal	c4v	
+6on	9fd	f8
+8 in the closet	14nm	
+9of the dead	13s0	
+4ter	eci	
+3ptic	9fe	50
+7al	9ff	58
+7ism	9fg	40
+7s	rbj	
+3tch	9fh	7c
+6es	s92	
+6ing	lzz	
+6y	9fi	80
+3w	9fj	80
+4er	9fk	80
+6ed	w0d	
+6s	hre	
+4ness	jgi	
+2i	9fl	1e
+3bob	12aa	
+6bing	12ab	
+3d	c04	
+3er	1244	
+4s	gz5	
+3ff	9fm	80
+3ing	9fn	20
+3ll	9fo	3f
+5 in a specialized area	1949	
+6of no high order	19tj	
+5ed	9fp	1e
+7 and reliable	1hub	
+6t	9fq	80
+5ful	9fr	5e
+8ly	9fs	2
+5s	9ft	20
+3m	9fu	fc
+4med	10m0	
+6r	kxq	
+5ia	z8l	
+6ng	ji8	
+4p	9fv	c0
+5ily	u3r	
+5y	9fw	40
+3n	9fx	3e
+4 and hair	1fzb	
+4care	j96	
+4flint	9fy	80
+4heads	juj	
+4k	f19	
+4ned	km5	
+5y	c1z	
+6 and shriveled	1hik	
+4s	x0t	
+4tight	y9f	
+3p	9fz	7a
+4jack	f8z	
+4per	blq	
+5ing	9g0	2
+3rmish	9g1	80
+4t	9g2	a3
+5ing	rre	
+5s	n4i	
+3t	9g3	80
+4tish	9g4	80
+3ve	duv	
+2opje	m9d	
+2t	111b	
+2u	n33	
+3a	d9x	
+3lduggery	egc	
+4k	9g5	40
+4l	9g6	50
+5cap	wgt	
+5duggery	9g7	80
+3nk	9g8	80
+5ed	xlq	
+2y	9g9	3
+3a	zp5	
+3diving	w4k	
+3jacking	xl9	
+3lark	dar	
+4ight	ogd	
+5ne	ojb	
+3net	oio	
+3rocket	9ga	c0
+3scraper	9gb	da
+8ing	s2d	
+3walk	115e	
+5rd	t1m	
+7s	gx2	
+1lab	9gc	e0
+4s	tgy	
+3ck	9gd	b8
+5en	9ge	c0
+5ing	h8u	
+5lining	10r8	
+3g	9gf	e0
+3in	ym3	
+3ke	9gg	c0
+5d	ugb	
+3lom	cer	
+3m	9gh	3c
+4med	xbq	
+3nder	9gi	e8
+7ing	10ig	
+7ous	9gj	80
+7s	v00	
+4g	9gk	28
+5ing	pie	
+4t	9gl	c0
+5ed	nnp	
+5ing	jnq	
+3p	9gm	78
+4 in the face	14lk	
+4dash	9gn	80
+4ping	i2n	
+3sh	9go	40
+5 and burn	1gnd	
+5-and-burn agriculture	1g7m	
+5ie	seo	
+3te	9gp	a0
+4y	obn	
+3ughter	9gq	b8
+9ed	vd3	
+ar	l0o	
+9house	psq	
+9ing	ub9	
+3ve	9gr	5e
+5 of a foreign conqueror	16rz	
+5r	9gs	80
+6y	9gt	e
+5s	yvs	
+4ic	nt5	
+5sh	9gu	40
+7ly	ifz	
+3y	9gv	80
+2e	k30	
+3azy	9gw	80
+3d	e5g	
+4ge	9gx	80
+6hammer	9gy	80
+3ek	c06	
+4p	9gz	23
+5aholic	x63	
+5er	l76	
+5iness	n4t	
+7g	9h0	20
+5less	g9f	
+9ly	rmc	
+5walk	o5k	
+9ing	o5m	
+5y	9h1	2f
+4t	crc	
+4ve	9h2	1e
+6d	x7i	
+6less	nn6	
+6s	k3x	
+3igh	9h3	80
+6t	9h4	80
+3nder	9h5	7c
+7 and elegant	1h7w	
+csupple waist	1h94	
+3uth	doa	
+3w	9h6	80
+2ice	9h7	fe
+5 of bread	1bzz	
+9fish meat	1bm1	
+9lemon	1c41	
+5d	mhn	
+5s	hzz	
+4ing	s5r	
+4k	9h8	80
+5 and sly	1hfd	
+d person	1f2l	
+3de	9h9	7e
+5 used in a presentation	1968	
+5r	vdz	
+5s	qgb	
+5way	piv	
+4ing	mve	
+3ght	9ha	fe
+6est	i1k	
+6ing	107h	
+6ly	9hb	4c
+3m	9hc	7a
+4 and graceful	1hc1	
+6s a thread	1am4	
+4e	9hd	40
+4ming	ybs	
+4y	9he	40
+3ng	9hf	80
+5shot	qp3	
+4k	co2	
+3p	9hg	7e
+4 of paper	1bhv	
+8the tongue	13sq	
+4case	sxc	
+4page	9hh	80
+5ed	sma	
+6r	9hi	5c
+7s	j6y	
+7y	9hj	fc
+5ing	mvf	
+4s	my1	
+5hod	9hk	80
+5tream	ecw	
+3t	9hl	fc
+4her	9hm	80
+7ing	mvd	
+4s	slt	
+3ver	9hn	80
+2ob	dhj	
+4ber	9ho	80
+3gan	9hp	7c
+6s	mc1	
+3op	9hq	40
+3p	bwg	
+4e	9hr	7c
+5s	ve9	
+4ing	9hs	40
+7 and uneven	1huc	
+4py	9ht	c0
+4s	r69	
+3shes	gck	
+3t	9hu	b8
+4h	9hv	c0
+5ful	9hw	40
+4s	tlf	
+4ted	tyr	
+3uch	9hx	80
+6y	ntl	
+4gh	9hy	80
+3vak	sex	
+6ia	q7p	
+4en	9hz	80
+6ia	q8g	
+8n	l04	
+6ly	9i0	40
+8 in dress and manner	18x3	
+3w	9i1	3
+4 and patient	1fxw	
+5on the uptake	15f8	
+5to get started	1dlm	
+8heat up	1dc8	
+8take effect	1dmd	
+4coach	r9l	
+4down	10tz	
+4er	vi2	
+6 and slower	1hud	
+4ly	9i2	c
+2r	n30	
+2udge	cc0	
+3e	9i3	80
+3g	9i4	40
+4gard	9i5	80
+5ish	9i6	60
+8ly	v5b	
+8ness	n13	
+4s	v1f	
+3ice	9i7	80
+3m	9i8	7c
+4ber	9i9	c8
+7land	o5x	
+4p	9ia	c0
+3ng	ruz	
+3r	9ib	80
+4p	9ic	80
+5ee	r1x	
+4ry	chz	
+3sh	d3w	
+5ie	kfc	
+3t	d0f	
+2y	9id	dc
+3 and cunning person	1f2m	
+3boots	vea	
+3ly	ood	
+3therin	sge	
+1mack	9ie	40
+5 of	12ms	
+5ing	mj5	
+8 the lips	16ak	
+3ll	9if	3
+5 and densely populated	1f0s	
+aexquisite	1f02	
+amedium enterprise	1eti	
+7s a mite	1aih	
+6balance still to pay	1dw8	
+7ump on the skin	15eg	
+6odds and ends	1f0t	
+7f the back	13jl	
+6sum of money	1ary	
+5er	ged	
+6st	huq	
+5pox	clq	
+3rmy	9ig	80
+4t	9ih	ff
+5ly	rak	
+5one	san	
+5phone	izx	
+5watch	sus	
+6eed	zm0	
+3sh	9ii	7c
+5ed	rrc	
+5ing	mzl	
+3tterer	lhe	
+7ing	9ij	80
+2e	hmt	
+3ar	9ik	c0
+5ed	suw	
+5s	101m	
+3dley	m8y	
+3ll	9il	43
+5 of	12m3	
+8 alcohol	1bvs	
+9gunpowder	1c0x	
+9urine	1bz2	
+5ed	10f4	
+5ing	ia4	
+5s	vxa	
+5y	9im	22
+4t	kg2	
+5ing	9in	40
+3w	wub	
+2idgen	ene	
+3lax	fi8	
+4e	9io	3
+5s	oxx	
+6 of exultation	1cdu	
+5y	xoo	
+4ing	oxy	
+7ly	n98	
+3rch	9ip	80
+4k	9iq	80
+3te	cqq	
+4h	ide	
+5ii	y9k	
+4ten	z4v	
+2ock	cv0	
+3g	9ir	5e
+3ke	9is	63
+5 and dust	1ggv	
+afire	1ftt	
+5d	snj	
+5less	vvi	
+5r	9it	2
+6s	9iu	20
+5screen	s7d	
+6tack	eda	
+5y	t0c	
+4ing	9iv	22
+4y	vx8	
+5-effect makeup around the eyes	15uo	
+3lder	xl1	
+7ing	vn8	
+4ensk	sft	
+3oth	9iw	ff
+6 and easy	1fju	
+cvasive	1gzk	
+bornate	1gz7	
+bround	1ff9	
+bunhindered	1h07	
+6bore	ve5	
+6ie	e7p	
+8s	10ly	
+7ng	xcw	
+6ly	9ix	4c
+6ness	wjo	
+3ther	9iy	e0
+2s	x6v	
+2udge	9iz	80
+3g	9j0	c0
+4 and conceited	1hi8	
+4gle	9j1	f8
+7d	ikr	
+7r	il7	
+8s	y9o	
+6ing	ikt	
+3rfs	zq4	
+3t	dpj	
+2yrnensis	wuw	
+1nack	9j2	3a
+5s	9j3	20
+3g	9j4	40
+4gletooth	lwo	
+3il	9j5	8
+5s	yue	
+3ke	9j6	5f
+5head	iku	
+5s	zwn	
+6kin	gop	
+3p	9j7	5c
+4dragon	f9u	
+4ped	rm3	
+5ing	mq8	
+6sh	9j8	80
+5y	9j9	80
+4shot	c7k	
+3re	9ja	80
+5 of love	1bez	
+4l	9jb	c0
+5ing	w6q	
+3tch	9jc	ba
+6er	rrd	
+6ing	l1r	
+2eak	9jd	58
+5er	9je	2
+7s	uv2	
+5ing	9jf	80
+5y	jin	
+3er	9jg	c8
+5ing	kh3	
+4ze	9jh	1a
+2gon	12fc	
+2icker	9ji	80
+7s	nzu	
+3de	9jj	80
+3ff	9jk	5a
+5er	n48	
+5le	e9w	
+5s	yit	
+3gger	cna	
+3p	9jl	80
+4e	bzf	
+5r	kgn	
+4pet	9jm	40
+3tch	9jn	80
+3vel	e3c	
+6ing	v5d	
+2mp	xr9	
+2o	11nt	
+3b	9jo	98
+4bish	9jp	c8
+3oker	bu2	
+4p	d21	
+5y	dr7	
+4ze	d73	
+3re	9jq	8
+4ing	mo8	
+4kel	da3	
+7ing	zx6	
+4t	brf	
+3t	d7s	
+3ut	cqy	
+3w	9jr	3
+4ball	9js	2
+8ing	kso	
+5oard	n3i	
+4cock	svr	
+4den	sgi	
+5rift	9jt	c0
+6op	cym	
+4ed	i1t	
+4fall	122z	
+5ield	12a2	
+6nch	tsf	
+5lake	9ju	40
+9s	y1d	
+4ing	12e8	
+4man	9jv	2
+5elt	pub	
+5obile	12a3	
+4pack	xl0	
+5low	rwx	
+4scape	12a7	
+5hoe	10vq	
+8s	12ai	
+5torm	9jw	1c
+4y	9jx	f
+2u	ngf	
+3b	9jy	80
+4bed	vzb	
+3ff	c77	
+3g	9jz	c0
+4gle	9k0	80
+4ly	md7	
+1o	9k1	3
+2 and so	1b3p	
+4s not to	198n	
+6to	19px	
+8 save	19ox	
+3be it	15qj	
+3i have heard	1e71	
+2-called	9k2	c
+2ak	9k3	bc
+4ed	v15	
+4ing	jlh	
+3p	9k4	5f
+4berry	tnr	
+4stone	f7c	
+4y	yp8	
+3r	9k5	b8
+4ing	9k6	50
+3s	jes	
+2b	9k7	1e
+3bing	mvs	
+3er	9k8	fc
+5 and calm	1gzp	
+3riety	9k9	80
+3s	khd	
+2ccer	9ka	1e
+3hi	y1l	
+3i	yz6	
+4able	9kb	f0
+5l	9kc	3f
+6ism	9kd	1e
+8t	9ke	e
+7te	dmn	
+7ze	mmz	
+6ly	g30	
+4etal	tri	
+6ies	mp3	
+6y	9kf	1f
+7 of friends	1biu	
+4o	bm6	
+5linguistics	xdm	
+6ogist	jjp	
+8y	9kg	38
+3k	9kh	9e
+4et	9ki	2
+6s	l2p	
+4puppet	kog	
+4s	9kj	1
+3rates	zt4	
+6ic	e5p	
+2d	9kk	80
+3a	9kl	1c
+3den	9km	80
+3ium	9kn	48
+3om	e0p	
+5 and gomorrah	1hl0	
+5y	1293	
+2es	rl0	
+2fa	9ko	1b
+3ia	y1t	
+3t	9kp	1f
+4 and chewy	1gmb	
+9fragrant	1gkn	
+9immature	1gmc	
+9warm	1g0o	
+5in the head	14l0	
+5skin and tender flesh	1fzr	
+4ball	9kq	2
+4en	9kr	8
+6er	tgr	
+6ing	g6h	
+5r	vbi	
+4hearted	qym	
+4ly	9ks	c
+4ness	9kt	8
+4shell	nj8	
+4ware	9ku	1e
+8 and hardware	1gk1	
+as a service	1ahm	
+5ood	9kv	40
+2g	y1r	
+3gy	9kw	80
+3ou	s1n	
+3xian	y1s	
+2h	i7z	
+3u	s1m	
+2il	9kx	be
+4ed	c5h	
+3ree	e80	
+2journ	9ky	c0
+7er	y1i	
+2ka	kyu	
+3cho	12a6	
+2l	iai	
+3a	eot	
+4 bill of exchange	1bin	
+4ce	9kz	80
+4naceae	z7n	
+5giae	v6i	
+5um	fg4	
+4r	9l0	7e
+5is	vo1	
+6um	ctz	
+3d	gd5	
+4er	9l1	c0
+6er	vtv	
+6ing	vti	
+4ier	9l2	43
+7 garrisoned at a frontier	1c45	
+8of fortune	1bxi	
+7ly	z74	
+7s	iqp	
+7y	x6x	
+3e	9l3	7c
+4curtus	100c	
+4ly	9l4	4c
+4mn	9l5	fc
+6 and respectful	1hg3	
+bstirring	1hg4	
+6ity	9l6	80
+6ly	ynr	
+4noid	dja	
+6psis	xwx	
+4s	c5j	
+5 of the feet	13v8	
+3fege	mxz	
+3icit	9l7	c0
+7or	9l8	40
+8us	9l9	c0
+aly	n70	
+7ude	9la	80
+4d	9lb	1f
+5arity	9lc	f8
+5ified	xax	
+7y	9ld	c8
+8ing	kib	
+5s	kyc	
+4loquize	yy0	
+8y	d3u	
+4taire	ea5	
+6ria	p1b	
+8us	zq3	
+7y	9le	f8
+8 and impoverished	1hg6	
+5on	ear	
+5ude	9lf	d0
+4um	t0x	
+3o	9lg	f8
+4ensis	10q5	
+4ist	9lh	40
+4mon	rer	
+3stice	dzb	
+3ubility	m79	
+5le	9li	fc
+4te	cxi	
+5ion	9lj	7c
+8al	vd9	
+3vable	9lk	8
+4e	9ll	7c
+5d	g6w	
+5nt	9lm	a0
+4ing	mb4	
+3zhenitsyn	y1o	
+2malia	mtr	
+6land	y1j	
+4tic	9ln	80
+3ber	9lo	80
+6 and desolate	1hi0	
+3e	9lp	3
+4 deeper meaning in this	1du8	
+4body	9lq	3
+4day	sm8	
+4how	9lr	3c
+4one	9ls	3
+4place	ilt	
+4rsault	cma	
+6et	udb	
+4thing	9lt	3
+9 of	12lg	
+c a	12sh	
+5ime	9lu	1c
+8 in the future	14m5	
+8s	9lv	3
+4what	9lw	7c
+8 of	12pf	
+6ere	9lx	3
+3nambulism	o5l	
+4olent	9ly	80
+3ogy	y41	
+2n	9lz	3
+3 born of a concubine	16r4	
+4of a bitch	16sh	
+9king	16pk	
+8n official	1bem	
+7grandfather's sister	1bfn	
+7man	1aoe	
+7nobility	1bqg	
+7one's teacher	19zt	
+7the boss	13qw	
+5rphaned of his mother	1b8n	
+3ant	vkx	
+4r	cjm	
+4ta	9m0	80
+3chus	z5y	
+3g	9m1	3
+4 and dance troupe	1g9k	
+5of cicadas	1bz5	
+4bei	tcg	
+4hay	tnl	
+5ua	gr0	
+4jiang	tcs	
+9 suburban district of shanghai	1bwg	
+4kran	p5r	
+4liao	td2	
+6ng	tcn	
+4ming	pyn	
+4pan	tcv	
+4s	h2j	
+5han	tcj	
+4tao	tcr	
+5sen	tcy	
+4writer	j2i	
+8ing	u1d	
+4xi	tct	
+6an	pyo	
+4yang	td5	
+5uan	hzm	
+4zain	td0	
+5i	tcu	
+3ic	cbn	
+4d	zsx	
+3n	z9v	
+4eratii	tj5	
+5t	9m2	80
+6s	x0i	
+3orant	12j2	
+5ous	9m3	80
+3s	gpi	
+3y	sgv	
+2o	mwy	
+3chow	tal	
+3n	9m4	3
+4er	kkc	
+4g	p5v	
+3t	9m5	80
+4he	9m6	c0
+5ing	v8o	
+4y	vqc	
+2p	9m7	80
+3hia	ylj	
+6e	z4f	
+5e	ztg	
+5sm	9m8	80
+6t	esm	
+7icate	9m9	8
+cd	9ma	fc
+bion	9mb	c0
+7ry	9mc	80
+4ocles	j7c	
+5more	9md	10
+5ra	ng5	
+3orific	9me	80
+3ping	9mf	80
+3rano	c9j	
+2ramimi	xlm	
+3bate	pu5	
+4et	dyh	
+4itol	foe	
+4onne	y1v	
+4us	pu4	
+3cerer	ca7	
+7ss	e29	
+6y	9mg	80
+3did	9mh	80
+6a	y77	
+3e	9mi	3c
+4ness	qtu	
+4s	wpk	
+3ghophilus	y3r	
+5um	dxa	
+3ia	y1w	
+3or	v6e	
+4s	n2p	
+3ption	fo2	
+3rel	cs3	
+4ow	9mj	1e
+6ful	9mk	8
+9ly	r47	
+6s	je9	
+4y	9ml	3
+5 to bother you	19ux	
+9have bothered you	18rh	
+3t	9mm	7f
+4 of	12kg	
+4ed	bk7	
+4ie	cav	
+6s	pzp	
+5ng	noj	
+4s	gao	
+2theby	zsw	
+3o	rem	
+2u	dch	
+3ffl	tqm	
+3gh	edo	
+5ing	xhf	
+5t	m13	
+3l	9mn	5e
+4 of the deceased	13u1	
+4iei	pz5	
+4mate	12eu	
+4s	gk2	
+3nd	9mo	23
+5 and meaning	1fzk	
+avideo	1fkg	
+6of a crash	16qv	
+bdrum	16r6	
+an explosion	1bj7	
+9crying	1bl6	
+9friction of fabric	15v3	
+9gong	1bl3	
+aunfire	1bl7	
+brgling water	1b25	
+9knocking or bursting	19uh	
+9laughter	1bju	
+9muffled laughter	1bjv	
+9panting	1bl8	
+9quick movement	1b9g	
+9rain	1bh0	
+9sharpening a knife	16r0	
+anoring	1bl9	
+apeaking	1bla	
+atammering	1blb	
+briking a gong	16rh	
+9the heart	13p2	
+dwind	13pk	
+bunder	1bkh	
+9weeping	1blc	
+6used to call cats	1es3	
+5board	tdl	
+7x	goq	
+5ing	izo	
+5less	vwa	
+6y	bv8	
+5proof	9mp	60
+aing	1258	
+5s	m2s	
+6 of nature	1bcx	
+6tage	ymv	
+5track	jsd	
+3p	9mq	5f
+4 of the day	13ky	
+3r	9mr	7f
+4 and spicy soup	1h9p	
+aweet	1gvs	
+4ce	9ms	3c
+6 and course	1epo	
+7of a fire	16q7	
+bn infection	1br9	
+acalamity	1br4	
+bustomers	1bra	
+aeasy money	1avp	
+aoxygen	1bps	
+arevenue	1bna	
+asteady profit	1bds	
+cudents	1brb	
+athe law	13o0	
+6s	9mt	20
+7 of troops	1cdv	
+4dough	fuw	
+4sop	wn2	
+3s	yzz	
+4e	9mu	80
+3th	9mv	3
+5 and north poles	1f10	
+6china university of technology	1b31	
+6gate of a palace	16q2	
+6korea and australia	1fwe	
+6of	12lw	
+8 the five ranges	13le	
+5ampton	ljs	
+5east	9mw	1e
+9ern	qqr	
+6rn	9mx	1f
+8most	hx8	
+5wards	9my	8
+6est	9mz	1e
+9ern	ivh	
+3venir	9n0	e8
+8s	9n1	22
+2v	htv	
+3ereign	9n2	f8
+9s	gs4	
+9ty	9n3	c0
+0Soviet	9n4	c
+0sow	9n5	fe
+3ing	h55	
+6 and reaping	1hue	
+3n	nnb	
+3thistle	z5x	
+2x	utw	
+2y	9n6	48
+3bean	9n7	40
+7s	k9t	
+3milk	yt2	
+3uz	ymj	
+2zialistische	qwz	
+1pa	brx	
+3ce	9n8	3f
+5 of sections	1bqz	
+6shuttle	9n9	40
+5craft	9na	5c
+5d	l8l	
+5r	nxo	
+5s	113r	
+6hip	9nb	5e
+9s	10xt	
+6uit	oku	
+5walk	okw	
+4ing	tkq	
+5ous	9nc	f8
+8 and empty	1gvb	
+dwell-lit	1e1m	
+4kle	9nd	80
+3de	9ne	1e
+3ghetti	c6k	
+0Spain	9nf	20
+0spam	dkc	
+4mers	jon	
+3n	9ng	fc
+4dex	frz	
+5rel	eki	
+4gle	9nh	c0
+4iard	1098	
+5el	ct8	
+0Spanish	9ni	2e
+0spank	9nj	80
+5ing	9nk	40
+4ner	cdb	
+5ing	qgf	
+3r	bui	
+4e	9nl	63
+5d	jxw	
+4ing	9nm	80
+7ly	9nn	40
+4k	9no	fc
+5le	9np	3c
+7r	ins	
+6ing	ou2	
+9 and translucent	1hjb	
+5s	nbx	
+4ring	9nq	80
+5ow	9nr	4e
+7hawk	smk	
+7s	nax	
+4se	9ns	e0
+6 and fragmentary	1hhu	
+6ly	9nt	40
+4ta	sfj	
+0Spartan	9nu	80
+0spasm	c5e	
+5odic	9nv	80
+9ally	rnb	
+5s	wpl	
+4sky	sfl	
+4ticity	dc7	
+3t	9nw	80
+4e	9nx	80
+4ial	9ny	e8
+7ly	vad	
+4ter	chp	
+7dock	zf5	
+7ed	101r	
+4ula	9nz	80
+3wn	9o0	c0
+5ed	w6h	
+3y	e3y	
+2c	xjd	
+2d	sks	
+2eak	9o1	3
+5 of	12l2	
+5er	9o2	3f
+7s	nu3	
+5ing	9o3	20
+8 in a tearful voice	195d	
+9of	12lv	
+5s	li0	
+4r	9o4	9e
+5head	gk8	
+5mint	fdk	
+5s	km6	
+3cial	9o5	3f
+7 favor from a ruler	1cnw	
+7ist	9o6	1e
+as	szf	
+8ty	9o7	3c
+8zation	lic	
+9e	9o8	bc
+ad	9o9	c0
+as	ph6	
+9ing	jp6	
+7ly	9oa	c
+7ty	9ob	40
+5es	9oc	7c
+7 of tall bamboo	1brr	
+5fic	9od	7e
+8 to	1i21	
+b a particular stage	17vm	
+8ally	9oe	8
+9tion	9of	78
+ds	l96	
+8ity	w4u	
+8s	9og	80
+7ed	9oh	40
+8r	e5a	
+6y	9oi	5c
+5men	9oj	fc
+5osa	t2m	
+7us	10pv	
+6us	9ok	80
+4k	9ol	c0
+5 of dust	1c3f	
+5le	cjk	
+7d	scb	
+4tabilis	v2s	
+6cle	9om	7c
+9d	ttb	
+9s	tmz	
+7ular	9on	f8
+bly	9oo	40
+6tor	9op	f8
+9s	x3z	
+5er	9oq	80
+5ra	9or	40
+7l	9os	80
+6o	kmi	
+7gram	ju3	
+aph	f28	
+7meter	d37	
+ary	dlc	
+7photometry	egg	
+7scopy	ciw	
+6um	9ot	f8
+4ulate	9ou	f8
+9s	rn5	
+8ion	9ov	40
+bs	rsi	
+9ve	9ow	80
+8or	n2s	
+3d	jc2	
+3ech	9ox	3f
+6 of thanks	1bx4	
+6ed	t38	
+7s	uwf	
+6less	gf2	
+4d	9oy	3f
+5 in the final stage	14kt	
+6of hand movement	1ayi	
+9sound	1ber	
+5boat	r0x	
+5ily	12d7	
+6ng	oo5	
+5ometer	edf	
+5run	113k	
+5y	9oz	40
+3laeornis	sd8	
+4eology	9p0	80
+4l	9p1	9f
+5bound	kl5	
+5ed	qbf	
+5ing	9p2	1e
+8s	ppx	
+4t	sez	
+5a	sf0	
+3nce	m8u	
+6r	sgj	
+4d	9p3	3
+5er	o9f	
+5ing	9p4	20
+5s	p8f	
+5thrift	9p5	80
+b and foolish	1hl1	
+4t	hv5	
+3rm	buf	
+5ary	xtd	
+6tic	xto	
+7ophore	fya	
+8zoa	xts	
+aon	e3w	
+cs	xtt	
+4o	sey	
+3w	9p6	40
+2hagnum	e5w	
+3ecidae	1014	
+4nocercus	tw5	
+7ichla	tw3	
+6id	fyo	
+8al	zyv	
+5urus	tw6	
+4re	9p7	7c
+6 of cultural influence	1bp2	
+6s	koq	
+5ical	9p8	48
+5oid	exi	
+3incter	c10	
+5golipid	12hm	
+5x	cyi	
+3ragistics	1057	
+3ygmomanometer	f59	
+2ica	fvm	
+4e	9p9	8
+5d	mnv	
+5s	lve	
+4ier	znq	
+5ness	hqh	
+4ule	ele	
+4y	9pa	10
+3der	9pb	7c
+6hunter	xz8	
+6s	mhs	
+3egel	spb	
+4lberg	sg9	
+4s	lzn	
+3ke	9pc	c0
+5s	w6s	
+4y	9pd	40
+3ll	9pe	7c
+5over	vc8	
+4onotus	wvo	
+5pelia	trw	
+6terus	sd4	
+5rnis	zwv	
+4t	slx	
+3n	9pf	fe
+4a	dk4	
+5ch	9pg	40
+5l	9ph	48
+6is	yrx	
+4dle	cj7	
+6y	9pi	80
+5rift	ez2	
+4e	9pj	50
+5 of a book	16pn	
+5d	9pk	40
+5less	9pl	c0
+5s	xpw	
+5t	9pm	40
+4ner	rug	
+7et	fo5	
+5ing	9pn	40
+8 and weaving	1huf	
+around and around	1ejn	
+4oletta	ujc	
+5r	slf	
+6hinus	ttw	
+5sa	ybi	
+6us	kun	
+5za	sgk	
+4s	ohf	
+5ter	cfd	
+4ulosa	to5	
+8e	to3	
+5s	zr8	
+4y	9po	c0
+3racle	ffq	
+5l	9pp	78
+6s	104u	
+4e	9pq	80
+4it	9pr	5f
+6 of buddha	1bui	
+aloyalty and self-sacrifice	16i7	
+athe planet mars	13ry	
+7reaches to the rainbow	14d4	
+7within a person	1h21	
+6ed	izj	
+8ly	10hm	
+6less	u9p	
+6s	g4v	
+7 and devils	1hug	
+6ual	9ps	fe
+9ity	xtk	
+9ly	xtf	
+7s	11dk	
+4ochaete	l9c	
+bs	zzj	
+4ulina	zzi	
+3t	9pt	3e
+4e	9pu	9c
+5ful	kuv	
+4s	zy2	
+4ting	r1k	
+5le	dal	
+5oon	fbl	
+3x	xfd	
+2lash	9pv	7c
+6ing	n66	
+6y	9pw	80
+4tter	cpt	
+4yed	k4v	
+5foot	k4y	
+3een	9px	c0
+6 and stomach	1h6b	
+4ndens	pa1	
+6id	9py	7e
+8 and powerful	1hbz	
+6or	9pz	c0
+8ous	otp	
+7ur	bxu	
+3ice	9q0	80
+6osome	kxw	
+4ne	exb	
+5t	9q1	80
+6er	bw8	
+8s	xbd	
+6s	xbc	
+4t	9q2	fe
+5 due to repeated folding	1hkv	
+5s	g9u	
+5ter	kol	
+6ing	kzd	
+3otch	fde	
+3urge	9q3	80
+2odiopsar	voq	
+4ocephala	vq5	
+5sol	vo8	
+3il	9q4	fc
+5age	9q5	40
+5ed	gdi	
+6r	kz8	
+5ing	vzx	
+5s	gfn	
+6 of war	1bfy	
+5t	oy4	
+6 and naive	1hfj	
+3ke	9q6	80
+5n	9q7	2
+5s	cmx	
+6man	9q8	38
+6person	ioy	
+3ndylitis	ff9	
+4ge	9q9	7c
+6bob	v3e	
+6r	iy2	
+6s	o3a	
+5iform	e1u	
+5y	9qa	80
+4sor	9qb	7e
+7 of an organization	1c2i	
+7ed	y8u	
+4taneity	9qc	c0
+8ous	9qd	fc
+bly	9qe	40
+3of	9qf	80
+5ing	r68	
+4ked out of one's mind	19jo	
+4l	9qg	80
+5s	rwh	
+4n	9qh	5f
+5bill	g68	
+5ful	9qi	2
+5s	9qj	20
+4r	9qk	80
+3radic	9ql	e0
+8ally	9qm	40
+4e	cfb	
+5s	zcl	
+4k	lx3	
+4t	9qn	a3
+5ing	num	
+5s	9qo	20
+6man	9qp	3c
+6wear	9qq	20
+3t	9qr	7e
+4less	9qs	40
+8ly	g9d	
+5ight	9qt	60
+4s	mgw	
+4ted	gj3	
+6r	10b7	
+5ing	iwu	
+3use	9qu	78
+6s	ir7	
+4t	9qv	c0
+5ing	gji	
+2p	ghd	
+2rain	9qw	80
+4tly	lko	
+4wl	9qx	e0
+6ed	n9n	
+6ing	9qy	80
+4y	9qz	7e
+5 of molten steel	1bzc	
+5ed	uhp	
+6r	n7o	
+5ing	n7p	
+3ead	9r0	1f
+6er	meu	
+6ing	kbu	
+6s	ose	
+7 far and wide	1er4	
+7heet	bns	
+4e	cfg	
+3ig	9r1	80
+5htful	rje	
+7ly	9r2	80
+4ng	9r3	63
+6 and autumn	1gj0	
+h period	1fdq	
+7chill in the air	14lx	
+6board	9r4	40
+6field	sfy	
+6head	urv	
+6s	hxf	
+6time	9r5	4c
+6water	9r6	40
+6y	czz	
+5kle	9r7	1c
+8d	vmf	
+8r	n7u	
+7ing	n7s	
+5t	9r8	a0
+6er	kjh	
+4te	dac	
+3ocket	esp	
+4ut	9r9	f0
+6ed	z8v	
+6ing	jli	
+6s	wd7	
+3uce	9ra	80
+3y	e20	
+4 and lively	1hcl	
+2ud	d03	
+3n	rrw	
+4k	9rb	80
+3r	9rc	fc
+4ges	pv1	
+4ious	9rd	80
+4n	9re	80
+4s	xq1	
+4t	9rf	40
+3tnik	duy	
+4ter	e3e	
+7ing	vlk	
+2y	9rg	1e
+3ing	11v5	
+3ker	hf9	
+3ware	11v6	
+1quab	fc7	
+5ble	9rh	c0
+8s	ox5	
+7ing	100g	
+4d	9ri	40
+5ron	bkx	
+5s	kno	
+4lid	9rj	80
+5l	9rk	c0
+5or	9rl	80
+4matum	zq6	
+8s	hpw	
+5eiceps	x79	
+5osa	11e2	
+6us	dec	
+4nder	9rm	c0
+8ing	11lz	
+4re	9rn	ff
+6d	sk7	
+6ly	9ro	40
+8 in the middle	14mj	
+6pants	v3f	
+6s	is2	
+4sh	9rp	c8
+6y	ynv	
+4t	9rq	c8
+5arola	vok	
+5ter	pf5	
+6ing	nrw	
+4wk	cmj	
+3eak	9rr	40
+6ing	10wq	
+6y	hzy	
+5l	bxz	
+5mish	9rs	80
+4eze	9rt	fe
+7d	rvc	
+6ing	nza	
+9 the fingers between sticks	15tq	
+4lch	9ru	80
+3ib	e3r	
+4d	9rv	2
+5s	11p1	
+4nt	9rw	80
+6ing	x61	
+6y	x62	
+4re	bua	
+5m	caw	
+6ing	100v	
+5rel	9rx	de
+8s	n8w	
+5t	9ry	40
+6ing	n7y	
+4shing	mj4	
+1ramana	upo	
+2ebrenica	sgp	
+2i	m65	
+3racha	sre	
+2o	yx6	
+1sd	neg	
+2e	gyi	
+3ldorf	t90	
+2ische	ztt	
+2l	l2q	
+2o	n2w	
+2u	y9j	
+1t john the baptist	169r	
+3luke the evangelist	169z	
+3mark the evangelist	163e	
+5tthew the evangelist	16a0	
+2ab	9rz	dc
+4bing	k44	
+4ility	9s0	7c
+7zation	p3p	
+8e	9s1	68
+9d	xl3	
+9r	nog	
+8ing	p7o	
+4le	9s2	5e
+6 and permanent	1gfu	
+k attitude	1fya	
+bsteady	1gh9	
+6coin	xl5	
+6s	bou	
+4s	klr	
+3ccato	9s3	80
+4hyris	qlf	
+6s	pfc	
+4k	9s4	7c
+5 of paper	1bk1	
+5able	psp	
+5ed	wot	
+6r	ntp	
+5ing	nto	
+5s of	12pg	
+4y	m9e	
+3de	f0t	
+4ium	9s5	3e
+3ff	9s6	7e
+5ing	i23	
+5ord	jxh	
+3g	c0v	
+4e	9s7	3e
+5 name of cyndi wang	1b1s	
+6of a competition	16qf	
+5coach	9s8	40
+5d	s5f	
+5s	ild	
+4flation	eaw	
+4ger	9s9	f8
+7ed	knb	
+7ing	9sa	50
+4ing	gyl	
+4nant	9sb	e0
+6te	c7a	
+7ilis	vk8	
+8ng	s7t	
+a and conservative	1gns	
+8on	jhj	
+4y	9sc	80
+3id	9sd	80
+4n	9se	fe
+5ed	9sf	40
+5less	9sg	a
+5s	scq	
+4r	9sh	1e
+5case	9si	5c
+9 of waterfalls	1c8j	
+5s	9sj	21
+5way	9sk	8
+3ke	9sl	fc
+5holder	ksb	
+bs	v5a	
+5s	l3l	
+4ing	neu	
+7 a claim to territory	188e	
+3lactite	drl	
+as	veu	
+b and stalagmites	1huh	
+5gmite	ec6	
+as	vev	
+4e	9sm	fc
+5mate	9sn	80
+4in	l33	
+6grad	sfe	
+6ism	sfd	
+4k	9so	d8
+5 of a bean plant	16rr	
+9stamen	1c8i	
+5ed	ken	
+6r	10ul	
+5s	jbn	
+4l	9sp	f8
+5ed	114j	
+5ing	y9u	
+6on	c3h	
+5keeper	s5y	
+5s	rxk	
+4wart	9sq	80
+3men	dzn	
+6 of corn	1c7r	
+4ford	sf8	
+4ina	9sr	40
+7te	1265	
+4mer	9ss	88
+7ing	maq	
+aly	y4h	
+4p	9st	c3
+5ed	ndt	
+7e	dl1	
+5ing	kjz	
+5s	lt7	
+3n	1121	
+4ce	9su	80
+5h	9sv	80
+4d	9sw	63
+5 like a wall	1ecq	
+5ard	9sx	7f
+8 of behavior	1bl0	
+cconduct	1bfe	
+8ization	kts	
+f administration of prc	1bz4	
+ae	9sy	48
+bd	9sz	40
+8s	9t0	20
+5by	qri	
+5ing	9t1	60
+8 tall and majestic	1gzi	
+iupright	1gwn	
+5off	enw	
+8ish	r7m	
+6ut	jq0	
+5pipe	f27	
+6oint	9t2	5c
+as	l88	
+5s	l77	
+6till	9t3	80
+4ford	m8m	
+4ley	nzt	
+4ton	sfb	
+4za	9t4	c0
+6s	11vj	
+3pes	fy5	
+4hida	tjc	
+5ylococcal	zi6	
+cus	dsz	
+4le	9t5	f0
+6r	10cj	
+6s	m90	
+5ing	10ck	
+3r	9t6	23
+4-crossed	9t7	80
+4board	cib	
+5ucks	sq5	
+4ch	9t8	60
+6 of pueraria root	1bzw	
+6y	9t9	80
+7 and soft	1gmd	
+5raft	sqa	
+4dom	9ta	40
+4e	9tb	5e
+5s	x5n	
+4fish	9tc	40
+4ing	jnh	
+4k	9td	c0
+4light	spz	
+6ng	ch4	
+6t	sq1	
+4red	i8a	
+5ing	u7n	
+5y	o3j	
+4s	git	
+4t	9te	3
+5 and development	1f14	
+aend	1e9t	
+6of literary work	1ad2	
+9month	1asf	
+9phrase or sentence	19rx	
+alay	1aoo	
+9the month	13la	
+dyear	13gy	
+5ed	gcv	
+6r	9tf	20
+5ing	9tg	20
+5le	9th	fc
+7d	m18	
+7s	10ew	
+6ing	9ti	40
+5s	gnp	
+5up	g10	
+4vation	9tj	46
+5e	9tk	7e
+5ing	mrj	
+8 and freezing	1hui	
+9people fill the land	15q1	
+3sh	9tl	c0
+4is	9tm	80
+3te	9tn	1f
+5 administration of foreign exchange	1as8	
+6grid corporation of china	1b30	
+6of affairs	1b3h	
+an illness	1b3i	
+arizona	1b3j	
+9emergency	1b1f	
+9matter	1au6	
+aind	1at4	
+9one's psyche	19vl	
+9the market	13l4	
+6within a state	1esx	
+5craft	wb9	
+5d	j6m	
+5ly	9to	40
+5ment	9tp	3e
+9 of account	1bim	
+dcharges	1cdw	
+eost of production	12ty	
+9s	mql	
+5n	m8n	
+0States	9tq	20
+0statesman	9tr	3c
+7en	jr7	
+4ic	9ts	fc
+6s	12g2	
+5ng	mv9	
+5on	9tt	23
+7ary	9tu	f8
+7ed	wml	
+9 on the continent	15fn	
+8r	bvq	
+9y	9tv	78
+7master	xnb	
+7s	9tw	20
+5sm	nfa	
+6tical	9tx	1c
+b tables and reports	1huj	
+bly	t0k	
+9ian	r3r	
+9s	9ty	7e
+5ve	qtj	
+4or	df6	
+4s	dq3	
+4uary	9tz	80
+5e	9u0	7e
+6 of buddha or bodhisattva	19w7	
+aliberty	1c4q	
+6s	phe	
+6tte	w99	
+5re	9u1	c0
+5s	9u2	fe
+5te	9u3	b4
+7 of limitations	1c06	
+7s	tps	
+6ory	9u4	80
+3unch	c2s	
+7ly	xav	
+5ton	sg7	
+8i	z2m	
+3ve	c72	
+5s	t8s	
+3y	9u5	3
+4cation	p2j	
+4ing	lwc	
+4s	lt8	
+2d	qtr	
+2ead	c4m	
+5fast	9u6	e0
+9ly	p2n	
+9ness	ntg	
+5ily	9u7	c
+5y	9u8	7e
+6 and honest	1gmz	
+bproficient	1gzg	
+bserious character	1fh0	
+4k	9u9	7a
+5house	w2x	
+4l	9ua	5f
+5ing	rfo	
+5s	w79	
+5th	9ub	80
+7ily	jij	
+7y	r44	
+4m	9uc	7e
+5boat	umm	
+5ed	hu3	
+6r	9ud	3c
+5ing	vyq	
+5roller	uml	
+5ship	umn	
+4rate	xaz	
+5ic	f1b	
+3ed	cgj	
+4l	9ue	3f
+5making	vx2	
+5s	he8	
+5works	11mk	
+5yard	p7r	
+4p	9uf	fe
+5 and perilous path	1go3	
+5ed	cl1	
+5ing	vgk	
+5le	9ug	80
+7chase	dey	
+6y	nz2	
+4r	9uh	fc
+5age	e8h	
+5ing	9ui	20
+5sman	z0p	
+3fan	sfs	
+6ie	p1u	
+3ganography	125h	
+4osaurus	f3x	
+3iermark	skl	
+4n	sf4	
+5beck	sfa	
+5dachneri	pui	
+5kj	sg0	
+3jneger	sdn	
+9i	sdp	
+3la	fy4	
+4e	ety	
+5s	vzk	
+4lar	9uj	c0
+7ia	yat	
+9na	zu5	
+8s	og1	
+6ta	xvq	
+7i	k6n	
+7us	tjo	
+5er	plx	
+7i	plz	
+3m	9uk	fc
+4 of any chinese cabbage	1ahw	
+8flower	1bu8	
+4med	snk	
+5ing	rlq	
+4s	gfz	
+3nch	9ul	80
+5il	9um	80
+4dhal	m9r	
+4ographer	epp	
+5sis	d25	
+4t	ckz	
+5oreus	n79	
+7ian	9un	80
+4ura	11jt	
+3p	9uo	1f
+4 in a procedure	1958	
+4an	sfr	
+4brother	yb8	
+4children	ybb	
+4daughter	yb9	
+4family	ybc	
+6ther	n1k	
+4hanopoulos	sg1	
+5en	ln6	
+7s	m9a	
+8on	sgh	
+4ladder	tqe	
+4mother	bpv	
+4pe	cy4	
+6d	nd3	
+6r	u8e	
+5ing	kvk	
+4s	9up	20
+5ister	yba	
+5on	jfh	
+3radian	wde	
+4corarius	hqc	
+5ulia	tpx	
+9ceae	tq0	
+4eo	9uq	38
+6gram	xn5	
+6isomer	xn7	
+cism	xn6	
+6phonic	f1d	
+9tograph	9ur	40
+6scopic	xn4	
+6type	9us	f8
+ad	9ut	10
+9ical	m85	
+4ile	9uu	c0
+6ity	hcb	
+7zation	y4o	
+8e	9uv	a0
+9d	zru	
+4ling	9uw	20
+4n	9ux	fc
+5 of boat	1bx9	
+5a	stk	
+5ly	n91	
+5ness	kfy	
+5ula	wxp	
+6m	dmg	
+6tator	n7n	
+4oid	bx1	
+7al	i3q	
+7s	mci	
+5l	fo6	
+6s	11de	
+5ne	wm8	
+3thoscope	9uy	80
+3ve	m8s	
+5n	k35	
+6s	m9b	
+7on	sgg	
+4ia	wir	
+5n	sgf	
+5oside	wiu	
+3w	9uz	48
+4ard	9v0	3e
+7ess	9v1	e
+6t	qam	
+7i	wx0	
+8a	to1	
+4ed	vf1	
+4ing	vf0	
+4s	yo0	
+2fold	yt9	
+2h	g3c	
+2ibene	zcu	
+3ck	9v2	7f
+5er	ofj	
+7s	jye	
+5ing	g1q	
+5ler	9v3	80
+5pin	9v4	40
+5s	gcd	
+5y	9v5	5c
+3ff	9v6	fc
+5en	9v7	4c
+5ness	9v8	8
+4le	9v9	c0
+6d	qyc	
+5ing	nz7	
+8ly	w12	
+3gma	9va	80
+6 attached to a disease	18jc	
+6tize	9vb	80
+9ing	r7c	
+3lb	vyi	
+4l	9vc	43
+5 a matter of discussion	16k8	
+7nd silent	1enj	
+6wet behind the ears	15t7	
+5birth	u9q	
+6orn	dqr	
+5ness	9vd	8
+4t	9ve	40
+5ed	9vf	80
+5s	mf3	
+4well	m9c	
+3mulant	9vg	c0
+7te	9vh	7c
+9d	ieu	
+8ing	kud	
+9on	9vi	40
+8or	ytr	
+6i	9vj	40
+6us	9vk	e8
+3ng	9vl	fc
+5iness	9vm	80
+7g	ku5	
+5ray	e6c	
+5y	9vn	c0
+4k	bp7	
+5 of	12mj	
+5bug	hy1	
+5horn	wxz	
+5ing	uc0	
+5s	vkv	
+6 to high heaven	1exz	
+5y	r6a	
+4t	9vo	80
+3pend	9vp	40
+4ple	9vq	80
+4ulate	9vr	e0
+9d	if7	
+8ion	9vs	c0
+bs	10ai	
+6e	h77	
+3r	9vt	dc
+4red	vzi	
+6r	s60	
+5ing	ndl	
+8s	sqr	
+9 of love	1bf7	
+5up	crl	
+3tch	9vu	fc
+6es	rnq	
+6ing	y9n	
+2j	sfn	
+2o	wlw	
+3a	f2q	
+4t	dj4	
+3chastic	dax	
+aity	125c	
+5owa	we0	
+4k	9vv	fc
+5ade	9vw	80
+8d	pe9	
+5broker	but	
+5holder	9vx	8
+8m	sfm	
+5ing	9vy	1e
+8s	l8t	
+5pile	cd4	
+5s	io4	
+6 and bonds	1huk	
+bchain	1gzd	
+5work	y8w	
+5y	9vz	c0
+3dgy	9w0	c0
+0Stoic	9w1	80
+0stoically	nei	
+5ism	sfc	
+3ke	9w2	80
+5r	m9s	
+3le	krb	
+5n	h8g	
+4iczkae	upk	
+5d	9w3	80
+6us	wwz	
+4on	la4	
+3ma	dhf	
+5ch	9w4	ff
+7ache	9w5	2
+5titis	m29	
+6opoda	m2o	
+4p	cru	
+5ing	yi7	
+3ne	9w6	3f
+5 steps on a mountain	1ab7	
+5chat	ta6	
+6utters	so3	
+5henge	np6	
+5made	xnl	
+7son	9w7	40
+ary	x87	
+5r	sfq	
+5s	9w8	20
+6eed	z7r	
+5wall	9w9	80
+7re	vrm	
+4ing	x7y	
+4y	9wa	4c
+3od	qub	
+4ge	dok	
+4l	9wb	1c
+5s	tul	
+4p	9wc	bc
+5ed	j2u	
+5ing	qw5	
+3p	9wd	3
+4 and go	1d4m	
+4gap	jrl	
+4ing	nd1	
+4over	jho	
+4page	p71	
+8s	105a	
+5ed	sw5	
+6r	nwh	
+5ing	gcw	
+8 and starting	1hul	
+4s	osx	
+4watch	9we	2
+3rage	9wf	7e
+5x	zsr	
+4e	9wg	23
+5 of arms	1btv	
+5d	jq9	
+5house	9wh	20
+5room	j8o	
+5s	9wi	20
+5y	9wj	3c
+6s	rkf	
+4ied	n3b	
+6s	gl9	
+7 of ancient people	1amo	
+5ng	xkw	
+4k	csa	
+4m	9wk	5f
+5s	uao	
+5y	9wl	c
+4y	9wm	23
+5 of yanxi palace	1blh	
+5board	kop	
+5line	r58	
+5teller	glb	
+bs	x3y	
+9ing	qff	
+3ut	9wn	ca
+5 and strong	1fxe	
+5hearted	9wo	80
+5ish	qvz	
+3ve	9wp	5e
+5pipe	vx6	
+5s	knt	
+5top	vqf	
+3w	c2m	
+4age	11c2	
+5way	9wq	80
+2raddle	caa	
+7ing	oh5	
+4fe	dn0	
+4ggle	9wr	80
+8rs	s8x	
+7ing	s8y	
+4ight	9ws	42
+8 and impressive looking	1gky	
+dsmooth	1gbf	
+as a ramrod	1al4	
+8away	cum	
+8edge	wm9	
+9n	9wt	8
+aer	x3i	
+aing	u3a	
+8forward	9wu	ba
+fly	x2z	
+award	w22	
+8jacket	rsf	
+5n	9wv	7c
+6ed	kgk	
+7r	vgb	
+6ing	ro2	
+6s	i6h	
+5t	9ww	ea
+6 of dover	1c9d	
+agibraltar	1c9e	
+ahormuz	1c9f	
+amalacca	1c9g	
+6ened	neb	
+6s	gpk	
+7 of johor	1cdx	
+4monium	sye	
+4nd	9wx	c0
+6ed	9wy	80
+6s	s59	
+5ge	9wz	3
+7 and deceitful	1gnb	
+cgrand	1gbl	
+cinteresting item	1g3r	
+cparadoxical	1gnc	
+drominent	1gij	
+8tales and absurd arguments	1gk9	
+9o say	1cxe	
+7ly	10f2	
+7ness	woe	
+7r	9x0	1f
+8s	gbx	
+6le	bqb	
+8hold	lrv	
+8r	9x1	8
+7ing	y4v	
+6ulation	9x2	80
+7ry	v5y	
+4p	9x3	7c
+5pado	mew	
+6ed	rvu	
+6ing	i73	
+5s	yim	
+4sbourg	sg2	
+4ta	9x4	40
+6gem	9x5	80
+9 of sowing dissension	1cal	
+9s	gmi	
+5egic	9x6	2c
+9 experts and powerful generals	1h8l	
+9ally	125e	
+8es	k9w	
+8st	iuy	
+as	gpc	
+7o	10x4	
+7y	9x7	7c
+5ford	nps	
+5ification	kmv	
+8ed	psw	
+7y	9x8	80
+6graphy	d6e	
+5ocumulus	pt1	
+6sphere	c6p	
+5um	9x9	c0
+6s	pt2	
+4uss	m91	
+4w	9xa	1e
+5berry	9xb	1f
+5s	rl5	
+4y	9xc	c8
+5ing	vhn	
+3eak	9xd	c0
+6ed	s51	
+6s	tfm	
+6y	i9h	
+5m	9xe	9f
+6 in a valley	195z	
+7of air	1bkd	
+aconsciousness	1c3y	
+aparticles	1c3z	
+beople	1an0	
+6ed	hri	
+7r	cu8	
+8s	10xy	
+6ing	hrk	
+6let	pl2	
+7ine	9xf	58
+ad	uzv	
+9ing	of2	
+6s	knj	
+4et	9xg	23
+6car	f0n	
+7orner	102t	
+6light	102r	
+6s	gzq	
+7 and alleys	1hum	
+7cape	z4a	
+6walker	xna	
+4ngth	9xh	7e
+8 of acid	12wv	
+dn explosion	1bs9	
+ccharacter	1bjc	
+cvision	1bqr	
+8en	9xi	7e
+aing	qon	
+8s	i5v	
+5uous	9xj	70
+9ly	9xk	40
+4pera	10q6	
+5itans	wxj	
+5tococcus	dz5	
+7pelia	ptw	
+4semann	m3u	
+5s	9xl	7e
+6ed	v84	
+6ful	9xm	20
+6ing	kbe	
+6or	rao	
+4tch	9xn	fc
+7 of road	1bcg	
+7ed	nya	
+8r	c61	
+8s	hog	
+9 of	12oz	
+7ing	ixy	
+4w	9xo	80
+5n	osg	
+3ia	ya8	
+5lata	sdw	
+5ta	pvc	
+6e	9xp	80
+7d	9xq	80
+6ion	u2w	
+6us	oe2	
+4cken	bsd	
+5t	9xr	5f
+6 and compassionate	1h22	
+bimpartial	1h2l	
+6ly	9xs	c
+8 impartial and incorruptible	1hun	
+6ness	kfx	
+6ure	9xt	80
+9s	yse	
+4de	9xu	f8
+6nt	9xv	80
+6s	oav	
+5ing	r0n	
+4fe	9xw	d8
+4gula	sc8	
+4ke	9xx	7e
+6breaker	q0j	
+6out	gp2	
+6r	pgt	
+6s	s46	
+7 you in the face	13yf	
+5ing	9xy	f8
+8ly	9xz	40
+4ng	9y0	7e
+6 and wind instruments	1gdv	
+7of cash	1bso	
+bopper coins	1bz0	
+asmall firecrackers	1b4k	
+7to tie hair	1gw3	
+6ed	gie	
+7nt	9y1	c0
+9ly	n92	
+7r	w4v	
+6s	9y2	40
+4olata	sdm	
+4p	9y3	fc
+5 of	12ki	
+8 high ground	1aqz	
+9lead	1ayj	
+5e	9y4	7c
+6d	ppf	
+6s	ikw	
+5per	kxk	
+6ing	kxj	
+5s	g5i	
+5tease	ysm	
+4ve	9y5	f8
+5ing	l1i	
+8 to do one's best	19qg	
+4x	nb2	
+3obile	tcp	
+7us	tcq	
+4ke	9y6	fc
+6 of luck	1bub	
+6s	i94	
+7 of a chinese character	16sp	
+4ll	9y7	d8
+6er	owd	
+6ing	vhj	
+4ma	dv1	
+6tolite	f38	
+4ng	9y8	3
+6 and bitterly cold	1fhw	
+bcourageous person	1ep5	
+bhealthy	1fy9	
+bmuscular	1fxm	
+bswift	1fuv	
+bupright	1fwg	
+bvigorous	1fv4	
+7smell of gunpowder	1bhm	
+7wind and heavy rain	1ewg	
+6box	j93	
+6er	9y9	20
+7st	js7	
+6hold	c1p	
+6ly	9ya	c
+6man	qoj	
+5tium	e2y	
+4p	epr	
+5hiata	tsl	
+3uck	hht	
+5tural	9yb	6c
+aism	y4b	
+8e	9yc	1c
+9d	psy	
+9s	gmu	
+4ggle	9yd	5e
+7ing	p1h	
+4m	cw2	
+5arium	ziw	
+5ming	10ye	
+4ng	hrd	
+4t	9ye	80
+5hersii	g6c	
+5ting	10us	
+3ychnine	ea6	
+2uart	m9o	
+3b	9yf	40
+4ble	c8o	
+6y	rpr	
+5orn	9yg	fa
+8 and conservative	1gmg	
+dobstreperous	1hgp	
+dperverse	1he2	
+8ly	g8j	
+8ness	9yh	40
+4tail	x77	
+3ck	j5n	
+5 in a difficult position	194f	
+dlemma	196y	
+3d	bnk	
+4ded	sqb	
+4ent	9yi	23
+7 conduct and life-guidance group	1e1f	
+8of theology	1bld	
+8who jumps a year	1cry	
+7s	gbb	
+4ied	9yj	80
+6s	9yk	20
+7 of ancient chinese civilization	1c2e	
+5o	9yl	fa
+6s	x01	
+6us	osr	
+4y	9ym	23
+5 of birds	1ba9	
+9daoism	1baa	
+9medicine	1b8o	
+9rocks	1bab	
+9the confucian classics	13ow	
+5ing	ivc	
+8 and teaching english	1huo	
+3ff	9yn	3c
+5ed	bl6	
+5ing	jrk	
+5y	9yo	c8
+3ltify	9yp	80
+3mble	9yq	7c
+6ing	r7e	
+4p	bp8	
+5s	gq0	
+5y	x7n	
+3n	9yr	d8
+4ned	jnl	
+7 and anxious	1h5b	
+5ing	9ys	d0
+4s	way	
+4t	9yt	c0
+5ed	cla	
+5man	syr	
+5s	ikb	
+3pa	f5w	
+4efied	rb3	
+6y	9yu	80
+5ndous	9yv	80
+4id	9yw	1f
+6 and arrogant	1h1q	
+bcowardly	1h5j	
+bignorant	1h2s	
+6ity	oa7	
+6ly	jni	
+4or	9yx	80
+3rdy	9yy	f8
+4geon	e32	
+4nia	vpd	
+6nus	lcn	
+5us	tuo	
+3tter	9yz	80
+7ing	xcl	
+5gart	q5c	
+2y	e3f	
+3an	m8v	
+3e	x6b	
+0Stygian	9z0	80
+0style	9z1	3e
+5 and structure	1fdg	
+6of chinese script	1bp4	
+aonversation	1bkt	
+9drawing or writing	19v1	
+bess	1bi6	
+9governing	1bq8	
+9study	1b45	
+9work	1ai8	
+ariting	1bq9	
+5d	is4	
+5s	9z2	20
+6heet	u0m	
+4ing	ou3	
+5sh	o9w	
+7 and confident middle-aged woman	1em3	
+6t	sh8	
+7ic	tld	
+5zed	9z3	40
+4obate	yya	
+4us	9z4	80
+6 of a record player	16q4	
+3mie	9z5	80
+3racaceae	p4a	
+5x	p48	
+4ene	emr	
+4ia	skk	
+4ofoam	esz	
+3x	ucd	
+1uan	hke	
+3ve	d36	
+2b	ib0	
+3acute	ic4	
+4ffinis	tsu	
+4ltern	dzd	
+4ru	sfk	
+4tomic	ibl	
+4uricular	yjh	
+3branch	s6b	
+9 of a bank	16qq	
+4uteo	w0l	
+3categories	kmk	
+ay	ibu	
+4lass	idu	
+4ommentary	10dg	
+7ittee	9z6	20
+5nscious	bwt	
+cness	vit	
+6tinent	oij	
+7ract	bzw	
+bor	kmm	
+4ritical	idz	
+4ulture	gb8	
+5taneous	crd	
+3dialect	u4o	
+5rectory	oyl	
+5scipline	9z7	40
+6trict	x8u	
+bs	10wu	
+5vide	9z8	48
+9d	l16	
+7sion	9z9	40
+b of a rhyming dictionary	16vh	
+fpolicing activities	1cdy	
+fradio waveband	1bwq	
+bs	her	
+4uct	9za	40
+5e	9zb	e8
+6d	9zc	80
+3ei	ynl	
+3family	ido	
+4ield	oyd	
+4older of	12p3	
+3genre	qp7	
+4roup	ko0	
+8s	y3g	
+3heading	ky8	
+4imachalus	xx4	
+3ject	9zd	a2
+7 and predicate	1fps	
+8of literary work	1agv	
+8to	1gqt	
+a availability	1gqu	
+7ed	9ze	40
+7ion	9zf	40
+8ve	9zg	ba
+aly	lzc	
+9ism	htp	
+7s	9zh	20
+4ugate	9zi	80
+9d	ien	
+8ion	9zj	40
+5nctive	dwa	
+3kingdom	idc	
+a of animals excluding sponges	1cdz	
+3landlord	i2w	
+5yer	oyh	
+4ease	10z2	
+5t	dlg	
+6s	i2x	
+6ting	l9k	
+4imate	9zk	c0
+8ion	lh2	
+6e	9zl	80
+6inal	9zm	80
+5ngual	yzp	
+3machine	vsm	
+5ndibular	h2q	
+5rine	9zn	7c
+4enu	oyp	
+5rge	9zo	7c
+8d	9zp	40
+6sible	viu	
+4inuta	11sn	
+5ssion	9zq	c0
+as	qwb	
+8ve	9zr	40
+aly	swu	
+5t	9zs	fe
+6s	mnc	
+6ted	mm7	
+7ing	u07	
+4odel	oyi	
+3net	oyo	
+6work	oyn	
+3ocular	x4s	
+4ptimal	ibe	
+4rder	idl	
+6inate	9zt	78
+bs	gvz	
+aing	122r	
+bon	y5h	
+5n	9zu	80
+3par	om2	
+4hylum	ieb	
+4lot	xlv	
+4oena	9zv	80
+4refecture	i7f	
+5ime	u4t	
+5ocesses	y3h	
+6vincial	kya	
+3region	obh	
+4outine	oym	
+4ufescens	ove	
+3scribe	9zw	ba
+9d	10el	
+9r	sae	
+7pt	9zx	8
+9ion	9zy	8
+4ection	9zz	40
+5quent	a00	fc
+aly	a01	48
+5rvience	vrg	
+at	ce8	
+5t	c21	
+4ide	a02	e0
+7nce	h2n	
+7s	gc5	
+6iary	a03	f8
+7ze	a04	50
+6y	a05	fc
+5st	a06	c0
+7ance	xmi	
+7ence	a07	c0
+4oil	qyb	
+4p	occ	
+5ace	irw	
+5ecies	a08	40
+4tance	a09	9c
+9s	o2y	
+7dard	ize	
+7tial	a0a	fc
+bly	a0b	48
+ate	a0c	e0
+9ve	a0d	c0
+bs	srb	
+6tion	knw	
+5ituent	lzx	
+8te	a0e	fe
+as	114z	
+9ion	ioz	
+5rate	bx5	
+8um	a0f	80
+4ume	a0g	80
+4ystem	knz	
+3tends	10as	
+5rfuge	a0h	80
+6ranean	a0i	c0
+5xt	vix	
+4ilis	tfp	
+5tle	a0j	20
+8s	a0k	20
+4le	a0l	f8
+6 and clever	1h0y	
+6ties	wbf	
+5y	nuw	
+4otal	pmj	
+4ract	a0m	fc
+8ion	a0n	42
+9ve	a0o	40
+6hend	v99	
+5opical	id2	
+4ype	ibt	
+3ulata	r8t	
+4nicolor	y0z	
+6t	h2a	
+4rb	a0p	7c
+6an	ldk	
+8ite	a0q	40
+9zation	a0r	40
+6s	igy	
+7 of beijing	1ce0	
+3vention	a0s	80
+5rsive	a0t	c0
+6t	a0u	c0
+3way	a0v	5c
+6s	k72	
+4oofer	izw	
+2cceed	a0w	5f
+7ed	mle	
+7ing	zhp	
+5ss	a0x	1f
+7 across the board	15ve	
+9nd failure	1fhm	
+9t a stroke	1bhw	
+8in a single move	18xs	
+7es	wyn	
+7ful	a0y	7f
+aly	a0z	c
+7ion	a10	3c
+a of seasons	1c0s	
+8ve	a11	5c
+aly	113o	
+7or	a12	18
+9s	mh5	
+4inct	a13	e0
+8ly	gew	
+4or	a14	80
+5th	fnr	
+4ulent	csi	
+9s	o4m	
+5mb	a15	e0
+7ing	i8f	
+3h	a16	3
+4 a big	1fh3	
+7small amount of	16gv	
+6nd such	1dh2	
+4eng	pal	
+3k	a17	3e
+4ed	mkt	
+5r	cdp	
+6mouth	v90	
+4le	ccu	
+5ing	hyk	
+4s	qmp	
+3ralose	eg8	
+4e	el4	
+4ose	dcy	
+3tion	ctc	
+2dan	llq	
+5ese	q3i	
+3den	a18	1f
+6 and unexpected disaster	1g50	
+bviolent attack	1fjj	
+7clap of thunder	1bq2	
+7movement of a corpse	16sk	
+6ly	a19	c
+8 all the rage	15np	
+and completely	1hup	
+9have a thought	19f4	
+3etenland	zsq	
+3irman	ztm	
+3oku	hx0	
+3s	e86	
+2e	a1a	78
+3d	bon	
+4e	c4w	
+3t	dk3	
+3y	t8d	
+3z	zsp	
+2fe	gyj	
+3fer	a1b	5e
+6ed	gdc	
+7r	m15	
+8s	mgg	
+6ing	a1c	2
+9 shame and remorse	1h74	
+9s	mhv	
+4ice	a1d	98
+6iency	a1e	10
+9t	a1f	fc
+aly	a1g	c
+5x	cb5	
+4ocate	a1h	80
+9d	ra3	
+4rage	a1i	c0
+7ist	a1j	80
+5uticosa	w3y	
+4use	a1k	c0
+7d	ut7	
+3i	edb	
+4sm	ztq	
+2gar	a1l	63
+5cane	tgs	
+6oating	xua	
+5leaf	wis	
+5s	ypt	
+5y	wiq	
+4wara	zc8	
+3gest	a1m	43
+7ing	g6i	
+8on	a1n	23
+as	a1o	20
+8ve	a1p	80
+7s	otq	
+3imoto	t68	
+4yama	t67	
+2harto	zss	
+3ua	ztf	
+2i	e09	
+3 and tang dynasties	1hix	
+3bin	y66	
+3chang	114q	
+5uan	114o	
+4idal	yxd	
+6e	a1q	38
+3de	y64	
+3fen	y68	
+6he	y69	
+3hua	lci	
+3jiang	y65	
+3liang	mwh	
+5ng	y67	
+3ning	ody	
+3ping	114p	
+3ren	gs5	
+6shi	w14	
+3s	10k3	
+3t	a1r	7e
+4able	a1s	7e
+8 for young and old	19jv	
+4case	a1t	ea
+8s	rvr	
+4e	a1u	72
+5d	a1v	40
+4ing	mcj	
+7 the time	15oz	
+4s	x3s	
+3xi	vl1	
+5an	x5u	
+3yang	x5v	
+4uan	y6a	
+3zhong	y63	
+6u	qjw	
+2jiatun	zsv	
+2khavati	twu	
+3inda	ztn	
+4yaki	o05	
+3kot	j04	
+2la	xxx	
+4wesi	zsy	
+3cus	o1l	
+3eiman	zth	
+3fa	xd8	
+5nilamide	v4y	
+5te	wzf	
+7s	z6a	
+4ide	t57	
+4onate	vtq	
+6e	xbw	
+4ur	a1w	50
+6eted	xaj	
+6ic	xap	
+6ous	idn	
+3k	bzj	
+4ing	r92	
+4y	a1x	c0
+3len	a1y	c8
+4ied	qdr	
+4y	a1z	c0
+3phur	a20	2c
+7ata	xar	
+7ea	pmc	
+3tan	bts	
+6ate	elj	
+6ea	kct	
+4riness	r4p	
+5y	a21	c0
+2m	a22	5c
+3 of money	1b8t	
+c raised	1b8u	
+5r volume of business	19sy	
+3ac	fqg	
+5h	fkp	
+4tra	ieh	
+3bawa	nnz	
+3er	ztc	
+5ian	dv9	
+3gayit	zsu	
+3itomo	j02	
+3mand	l3b	
+5rily	a23	80
+7ze	a24	1c
+6y	a25	be
+7 of	12kt	
+5tion	a26	80
+4er	a27	23
+6time	o0r	
+4it	a28	7c
+4on	a29	f8
+6s	jm4	
+3o	dxg	
+3p	dfx	
+4tuous	a2a	c0
+3s	pyc	
+2n	a2b	3
+3an	ynm	
+3bathe	swr	
+7ing	sm0	
+4eams	ykc	
+5d	sm1	
+4ird	euz	
+4lock	11wj	
+4urn	a2c	40
+7t	a2d	2
+3cake	ol9	
+3da	n01	
+5e	exs	
+5ra	tsr	
+0Sunday	a2e	23
+0sunder	a2f	80
+4ial	a2g	60
+4own	smz	
+4ries	128z	
+5y	a2h	80
+3fish	f8v	
+4lower	a2i	40
+3g	lxo	
+4kyun	rcz	
+4lasses	a2j	42
+4orus	tvy	
+4shan	tck	
+3ia	xyd	
+4ng	ynp	
+3k	unj	
+4en	kjt	
+3lamp	ol6	
+4ight	a2k	6e
+8 and shade	1h6j	
+5t	a2l	40
+3ni	1175	
+4y	a2m	3
+5 and cloudless	1huq	
+3rise	a2n	5e
+4oom	124p	
+3screen	11wi	
+4et	a2o	5e
+4hade	117r	
+7ing	117s	
+5in	t87	
+7e	a2p	5e
+5ower	ol8	
+4pot	ol4	
+4troke	ega	
+3tan	11wk	
+4ory	gor	
+3wu	p1o	
+3zi	kke	
+2o	gzu	
+3guo	y1k	
+3men	z3q	
+3na	n0k	
+2p	d20	
+3er	a2q	1e
+5annuated	a2r	80
+bion	qg3	
+5b	a2s	fa
+6ug	10sn	
+7s	zu4	
+5car	10so	
+8go	rn4	
+6harge	nxu	
+6iliaris	l0s	
+9osus	wtt	
+aus	a2t	80
+cly	jlz	
+6omputer	cie	
+bing	10sk	
+7nduction	10s6	
+dvity	10s7	
+cor	10s8	
+8tinent	a2u	40
+6ritical	ezp	
+5ego	c9c	
+5ficial	a2v	fc
+b acquaintance with a subject	1aja	
+bity	a2w	80
+bly	a2x	48
+6luities	122u	
+ay	a2y	80
+8ous	a2z	f0
+5giant	enz	
+6lue	gsi	
+5heat	a30	40
+9ed	ui0	
+7ro	eqg	
+6uman	gvc	
+5impose	a31	80
+6ntend	a32	a0
+bent	a33	40
+e of education	1c83	
+6or	a34	7e
+8 and subordinate	1h0w	
+9by a notch	1cg3	
+8ity	a35	98
+8s	gvy	
+5kingdom	10sj	
+5lative	a36	80
+6eague	10sr	
+5man	a37	2
+7rket	a38	23
+bs	1142	
+6odel	10sf	
+7on	10sm	
+5natural	a39	40
+cly	xea	
+6ova	a3a	80
+6umeraries	11ux	
+cy	eey	
+5order	r39	
+8inate	djo	
+5pose	d7n	
+8ition	r90	
+d of states	1bpf	
+7wer	10sl	
+as	glf	
+6rofit	10t2	
+5script	ejk	
+6ede	a3b	e0
+9d	oxk	
+6onic	a3c	38
+6pace	10sq	
+6tar	o6h	
+7ition	a3d	f8
+cs	xdv	
+bus	a3e	10
+7ore	myq	
+7ring	ft3	
+8ucture	a3f	20
+6ymmetry	fys	
+5vise	a3g	f8
+9d	10vf	
+8ing	olt	
+9on	a3h	48
+8or	a3i	60
+a of a phd candidate	16u1	
+etextiles	1ce1	
+ay	he2	
+3ine	a3j	80
+3per	a3k	3
+4lant	a3l	c0
+5e	a3m	c0
+6 and strong	1fxz	
+6ment	a3n	dc
+aary	a3o	68
+btion	a3p	40
+aed	m35	
+as	t13	
+5iant	a3q	80
+6cant	a3r	80
+8te	a3s	80
+9ion	xgh	
+6ed	t0a	
+7r	j5b	
+7s	hcr	
+5y	a3t	3f
+6 and demand	1fce	
+bmarketing	1g3v	
+bsales	1g3w	
+7of goods	1bhk	
+astudents	1bno	
+6ing	sjf	
+4ort	a3u	3e
+7ed	mf2	
+8r	gtw	
+9s	njb	
+7ing	k3w	
+a a wife and children	187a	
+8ve	mda	
+7s	r7f	
+5se	a3v	5f
+7d	i8k	
+8ly	a3w	60
+6ing	jds	
+7tion	a3x	60
+bal	pph	
+8ory	f0f	
+4ress	a3y	78
+8ant	rkq	
+8ed	mho	
+8ing	11fo	
+9on	zst	
+4urate	e7r	
+3raspinatus	pvk	
+4emacy	a3z	c0
+6e	a40	fe
+7ly	a41	40
+9 honorable and righteous	1hhj	
+6um	gz3	
+5ss	rks	
+2qian	pam	
+2rabaya	ut4	
+3charge	a42	e0
+3d	hb1	
+3e	a43	3
+4fire	f7n	
+4ly	a44	c
+4ty	c8n	
+3f	bo7	
+4ace	a45	63
+7 of a river	16rm	
+bdiscontinuity	1buo	
+bthe body	13on	
+cire	1bqt	
+7s	mqp	
+6tant	dpk	
+4board	103e	
+4eit	a46	80
+4ing	103d	
+3ge	a47	f8
+5on	a48	fe
+5ries	kh8	
+6y	a49	7c
+5s	k5w	
+4ical	bnj	
+5ng	a4a	40
+3imi	zkn	
+4name	q3x	
+3jective	vfh	
+3ly	a4b	80
+5 and unreasoning	1hkg	
+3mise	a4c	c0
+4ount	a4d	e0
+8s	twc	
+3name	a4e	3c
+7d	ous	
+7s	wyw	
+4ia	w71	
+5culus	vt8	
+3pass	a4f	f8
+7es	12ev	
+7ing	kll	
+a insight and acumen	1ha0	
+bthe physical world	15vj	
+aly	a4g	40
+4lus	a4h	fe
+7 and shortfall	1h78	
+4rise	a4i	23
+8d	ji3	
+9 and admiring	1hur	
+enonplussed	1hko	
+7ing	a4j	c
+aly	a4k	c
+3real	buy	
+7ism	a4l	80
+9t	xs9	
+aic	10si	
+5nder	a4m	fc
+9ed	rsv	
+5ptitious	a4n	80
+dly	jio	
+5y	zp9	
+4ogacy	iog	
+7te	a4o	80
+5und	a4p	1e
+8ed	nch	
+8ing	a4q	2
+bs	a4r	3c
+3veillance	a4s	80
+5y	a4t	7c
+6 and research workers	1fc0	
+6ing	gtv	
+6or	a4u	80
+4ivability	a4v	40
+7l	a4w	7e
+8 of the fittest	13vu	
+6e	a4x	de
+7d	1183	
+7s	pbh	
+6ing	ofg	
+9 family of the deceased	13oq	
+6or	a4y	40
+8s	oyt	
+2s	11g7	
+3an	zt9	
+3ceptibility	a4z	80
+9le	a50	f8
+4itator	trj	
+3hi	ely	
+3ilo	zti	
+3ong	pan	
+3pect	a51	fe
+7 of	12mn	
+7ed	v57	
+9 of murder	1bwm	
+7s	ruh	
+5nd	a52	fc
+7ed	jfp	
+8r	a53	40
+9s	mex	
+6se	a54	e0
+7ion	a55	2a
+4icion	a56	dc
+9s	oxo	
+8us	a57	fc
+a and fearful	1hus	
+fjealous	1hf4	
+3s	d0p	
+3tain	a58	fc
+7ability	tzc	
+9le	m6q	
+7ed	a59	c0
+7ing	qoy	
+4enance	a5a	e0
+2thora	svv	
+3orius	11rq	
+3ra	ewl	
+5s	gtb	
+3ure	a5b	80
+2u	sny	
+2v	iw4	
+3a	zta	
+2weon	igw	
+2xian	zso	
+2yin	12im	
+3u	paq	
+2zerain	e35	
+8ty	p6f	
+3hen	wuf	
+4ou	g3i	
+3ong	mxj	
+3uki	11kb	
+1vadhisthana	wj9	
+3lbard	sg5	
+8 and jan mayen	1hut	
+2c	ifd	
+2d	10jv	
+2ecica	zps	
+3lte	a5c	80
+3n	sfu	
+3rdlov	sgd	
+8sk	zh3	
+2o	htu	
+3lv	sga	
+1wa	vjf	
+3b	cz1	
+4s	zrv	
+3ddling	107i	
+3gger	a5d	80
+7ing	o9j	
+3hili	cvd	
+3llow	a5e	fe
+7ed	mb5	
+7ing	mit	
+7s	w0i	
+7tail	f76	
+3mp	a5f	fc
+5ed	i1s	
+5hen	y29	
+5s	pz9	
+5y	a5g	40
+3n	a5h	1c
+4k	a5i	80
+4s	qns	
+5ong	eb1	
+3p	a5j	2
+4ping	s0i	
+3rd	dop	
+4m	a5k	fc
+5ing	mri	
+4ovski	skt	
+4thy	a5l	80
+3stika	cgd	
+3t	dcr	
+4ch	d56	
+4he	c2w	
+6s	tem	
+4ter	12c9	
+3y	a5m	fc
+4ed	qrn	
+4ing	j5f	
+3ziland	m95	
+2ear	a5n	be
+5ing	xa0	
+5word	gny	
+4t	a5o	5e
+5ed	z6b	
+6r	a5p	3f
+5ing	gf0	
+8 like a pig	1ewi	
+5pants	1033	
+5s	x19	
+6hirt	ckp	
+7op	101l	
+5y	ukr	
+3de	weg	
+5n	jvz	
+4ish	iu6	
+3ep	a5q	7f
+5er	rwr	
+5ing	a5r	40
+5s	xhe	
+4t	a5s	3
+5 and boyish in appearance	18yw	
+acharming	1gxt	
+adelicious	1gv6	
+ainnocent	1gr0	
+amellow	1gxe	
+apiteous	1gxu	
+asour	1gvt	
+e fish	1g0d	
+fmeat	1glr	
+fpork	1gty	
+aunctuous	1gxq	
+5en	a5t	8
+7ed	uhz	
+8r	ogo	
+6r	pj8	
+5gum	tvz	
+5heart	kdh	
+as	r4x	
+5ie	hv9	
+5ly	mzo	
+5ness	a5u	8
+5s	kf6	
+3ll	a5v	fe
+5ing	a5w	40
+8 of the head	13o7	
+4ter	a5x	40
+7ing	a5y	80
+3pt	kvy	
+3rve	a5z	a0
+2fc	gyf	
+2iflets	11i7	
+4t	a60	fe
+5 and fierce	1h0v	
+5let	f4b	
+6y	jc4	
+5ness	a61	40
+3ll	a62	80
+3m	a63	3
+4mer	hd8	
+7s	ui9	
+5ing	a64	23
+4suit	uin	
+3ndle	a65	80
+7r	qt7	
+4e	a66	80
+5herd	10jr	
+4g	a67	ff
+5boat	v0q	
+5ing	jhb	
+5s	m05	
+4hoe	ob3	
+7i	se3	
+6ii	zqr	
+3pe	a68	80
+4ing	10lq	
+3re	ok0	
+4l	a69	a0
+3sh	ccj	
+5ing	mxx	
+0Swiss	a6a	e
+0switch	a6b	7e
+6back	e9n	
+7lade	eyr	
+7oard	ryy	
+6ed	ifb	
+6ing	ko1	
+6man	rjv	
+0Switzerland	a6c	2
+0swivel	bxd	
+2ollen	uti	
+3on	d4u	
+4p	bsf	
+4sh	ez6	
+3rd	a6d	1e
+5 and spear	1h9l	
+5fish	l11	
+5hilt	rx1	
+5s	ge8	
+6man	klz	
+9ship	l0x	
+6woman	km0	
+5tip	112l	
+4n	k5k	
+2ung	ioh	
+1ybarite	a6e	80
+7ic	a6f	80
+2cophant	a6g	80
+2dney	a6h	20
+2ed	mdw	
+2gyt	108c	
+2kes	10oz	
+2llabary	foa	
+6ic	jy1	
+6le	a6i	40
+8s	i9y	
+6us	a6j	a0
+4ogism	e34	
+8tic	10dv	
+3phlike	ox8	
+3vanus	pva	
+5tica	tun	
+8us	tdz	
+4estris	z2z	
+4ian	o1m	
+2mbiosis	a6k	c0
+6tic	a6l	40
+4ol	a6m	5f
+6 of peace	1bqf	
+6ic	ncg	
+7sm	a6n	40
+7ze	a6o	60
+8ing	hze	
+6ogy	a6p	40
+6s	ngk	
+3metric	pi9	
+9al	a6q	48
+7y	a6r	f8
+3pathetic	a6s	7c
+7ize	a6t	5c
+ar	mg2	
+7y	a6u	5e
+4honic	ifw	
+8e	nov	
+9s	qxl	
+7y	a6v	fa
+4osium	a6w	b8
+4tom	a6x	7a
+7atic	wpj	
+7s	tzz	
+2nagogue	cim	
+4pse	ccz	
+6ida	mcc	
+3c	ei3	
+4hronic	ecl	
+9ze	a6y	70
+bd	uh6	
+8ous	a6z	c0
+7tron	e6o	
+4line	fj6	
+4opation	kp6	
+3dicate	a70	20
+9d	v4o	
+4rome	a71	90
+8s	k61	
+3e	lxl	
+4cdoche	fjk	
+4doche	t5e	
+4rgic	a72	80
+6y	cy5	
+3gman	t7b	
+3oicus	zqc	
+4nym	a73	60
+7ous	a74	40
+4psis	a75	c0
+5tic	a76	80
+4vial	eve	
+6um	ve6	
+3tactic	bma	
+5x	br3	
+4hesis	a77	f8
+8ze	a78	48
+ad	y6h	
+ar	a79	40
+6tic	a7a	7c
+5liboramphus	kd0	
+2philis	c5n	
+7tic	oc6	
+2r	11np	
+3acuse	s8c	
+4h	fe1	
+3ia	iq9	
+5c	s8b	
+6us	t2g	
+4nga	fnm	
+6e	a7b	80
+3maticus	puz	
+3rhaptes	uds	
+3up	a7c	40
+2stem	a7d	7e
+6 of appeals	1b1h	
+aconstitutional government	1b1i	
+aenfeoffment	1b1j	
+agovernment	1b1k	
+ajob responsibility	1as2	
+anomenclature	1b1c	
+aownership	1b1l	
+apolynomial equations	1b1d	
+arepresenting spoken sounds	1b1m	
+bites	1b1n	
+athought	1b1o	
+aweights and measures	16h8	
+6atic	a7e	7e
+aal	a7f	4
+cly	a7g	8
+as	koy	
+9zation	kto	
+ae	a7h	40
+6ic	c2i	
+6s	a7i	20
+4ole	frp	
+6ic	dmx	
+2zygium	ghe	
+1zechenyii	nb7	
+5uan	pzf	
+2se	v7h	

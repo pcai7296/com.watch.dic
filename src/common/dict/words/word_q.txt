@@ -1,7 +1,386 @@
-0quantities of	10m	
-3rter	tz	63
-2een	u0	1f
-3stion	u1	3
-2ick	u2	3
-3et	u3	3
-3te	u4	3
+0qadir	vz3	
+2eda	ns7	
+2idam	nac	
+2mdo	sof	
+2nat	nmq	
+2pqal	pct	
+2rhan	pcv	
+3luq	zi4	
+3qan	hey	
+2tar	lpa	
+2uqaut	w7b	
+1ed	10hb	
+2shqer	mzq	
+1i and blood	1g7p	
+3of southern dynasties	1c0z	
+6the northern dynasties	13sc	
+2a	lor	
+3n	g5m	
+4dao	lgb	
+5ongnan	gsm	
+4feng	kwy	
+4g	hx3	
+5ba	mi1	
+5guo	p2b	
+4jiang	qqq	
+6n	kwv	
+4ling	i0j	
+5ong	hzi	
+4men	kx1	
+4nan	gut	
+4shan	lg9	
+4tang	11n5	
+4wei	w5h	
+4xi	117x	
+6an	i0a	
+6nan	kbl	
+4yang	lgv	
+3o	ia6	
+4cheng	10hg	
+4dong	u1c	
+4jia	q19	
+4kou	xd9	
+4s	oau	
+4tou	xda	
+4xi	u1f	
+2bin	v5x	
+3la	t1l	
+2chao	toa	
+4en	11n4	
+4un	zsg	
+2dan	ono	
+3ong	mza	
+3u	ghw	
+2e	g4j	
+3mo	het	
+3yun	kpu	
+3zihe	z7m	
+2gong	k5v	
+2hai	mzb	
+2jiang	y7f	
+4n	sln	
+2lian	tip	
+4he	gjs	
+2men	on5	
+2n	i0m	
+3bei	u54	
+3cheng	xip	
+3du	xix	
+3fu	uek	
+3g	g4t	
+4baijiang	12fd	
+4cheng	r9t	
+6uan	12f1	
+7n	yzw	
+4dao	llm	
+4feng	v8z	
+4gang	12ez	
+5il	12f9	
+4hai	gr3	
+7 and tibet	1ht8	
+6osu	12fm	
+5e	v8l	
+6men	v8m	
+5ong	syj	
+4jian	v8t	
+8g	v8j	
+9pu	v8k	
+4ke	12ff	
+4lin	10ny	
+7g	jen	
+6u	v8n	
+5ong	suh	
+4ming	imq	
+4pu	12fa	
+6 suburban district of shanghai	1bwe	
+4shan	12ex	
+8hu	12ey	
+6en	10gj	
+6ui	v8i	
+8he	v8g	
+4tian	l9x	
+5ongxia	12fn	
+5uan	12fg	
+4xian	12fh	
+6n	v8b	
+6u	12fe	
+5u	v8a	
+4yang	mcp	
+5uan	j19	
+6n	r9x	
+7pu	12fo	
+4zhao	r1e	
+6en	v93	
+6ou	r9v	
+3huai	xit	
+6ngdao	lc6	
+3ling	ivi	
+3nan	u56	
+3qiang	xiu	
+3ruo	kbp	
+3shui	ums	
+3tang	10a5	
+3xian	umu	
+3yang	umv	
+4uan	umt	
+3zhou	u55	
+2ong	k4p	
+5hai	wgi	
+5lai	1191	
+5shan	wgc	
+5ya	wgd	
+5zhong	wgb	
+8u	wge	
+2pao	y2y	
+2qihar	j5h	
+2ra	xpy	
+3ong	zgf	
+3ui	uai	
+2shan	pvf	
+2tai	omu	
+5he	gjl	
+3ian	i7r	
+2u	g3p	
+3bai	w82	
+4ei	hg0	
+3fen	xh7	
+3ming	q0m	
+3xian	119h	
+2xi	gi2	
+4a	tuf	
+5n	t9u	
+4ng	giy	
+6guan	gj6	
+2yang	xds	
+3u	su9	
+2zhen	t59	
+3ilsu	jvb	
+1nb	wmt	
+1obto	xht	
+2m	qhl	
+2nggyai	wgk	
+2s	t11	
+2yunlu	wui	
+1sss	vc2	
+1ua	cor	
+3ck	886	80
+3drangle	887	80
+7t	ck4	
+8s	wkq	
+6tic	d9y	
+5ic	i3c	
+7eps	fet	
+6folia	ztx	
+6lateral	888	40
+5uped	889	80
+7le	ceu	
+4s	nbl	
+3ff	88a	80
+3gmire	88b	80
+3il	88c	c0
+4nt	88d	c0
+3ke	88e	2
+5d	nkq	
+5r	tmi	
+6s	s8e	
+3lia	r8m	
+5fication	88f	7a
+ds	88g	20
+7ed	88h	c0
+8r	jav	
+8s	h6p	
+6y	88i	7c
+7ing	iyy	
+5tative	88j	38
+6ies	jb0	
+6y	88k	7e
+7 and quantity	1fyr	
+8of material	1bav	
+ceat	1blr	
+bservice	1axz	
+bwork	1ahz	
+4m	88l	80
+5s	88m	80
+3n	gsg	
+4dary	88n	c0
+4fa	uaj	
+4gang	uru	
+4jiao	k2h	
+5ude	k2y	
+4nan	k1t	
+4rong	w5n	
+4shan	urt	
+6u	nbe	
+4tification	11gb	
+eal	11ge	
+7y	88o	18
+6le	fac	
+6tative	88p	78
+7ies	gdg	
+a of	12mk	
+7y	88q	5e
+8 of data	1bl4	
+celectric charge	1bax	
+cflow	1bsu	
+cheat	1br5	
+clight	1bcl	
+crainfall	1c1v	
+csand	1bv9	
+dediment	1bzf	
+9used as a parameter	1aln	
+6zation	11gc	
+7e	f5i	
+5um	88r	80
+4zhou	k26	
+3rantine	88s	80
+4k	ck6	
+4rel	88t	1e
+7s	sap	
+8ome	ot4	
+5y	88u	e0
+4t	88v	1c
+5er	88w	63
+7 of a year	16gq	
+7back	djr	
+7ed	y3a	
+7final	106d	
+cs	k5h	
+7ly	88x	7c
+7master	dsl	
+7s	lk6	
+6t	88y	80
+5ic	fgx	
+6le	ecs	
+5z	88z	58
+3sar	ctb	
+4h	890	80
+4i	bpx	
+3ternary	d3e	
+7ion	n9p	
+4rain	duq	
+5efoil	fdf	
+3ver	891	80
+3y	892	80
+2bing	1037	
+2chi	swx	
+2dwa	11zf	
+2e	cvi	
+3asy	893	80
+3bec	zjt	
+5i	z2r	
+3ef	123d	
+4n	894	1f
+5s	usd	
+6land	kj2	
+6town	wzp	
+4r	895	fc
+3ll	896	c0
+5ing	1038	
+3moy	11gy	
+3nch	897	f8
+6ing	v77	
+4tin	so5	
+3rcus	ffk	
+4quedula	wtz	
+4ulous	898	80
+4y	899	c0
+3shan	xbz	
+4t	89a	f8
+5ion	89b	3
+8 and answer	1err	
+8able	89c	58
+8ing	ooj	
+8naire	89d	7a
+8s	89e	20
+3ue	89f	9e
+5r	rxh	
+4ing	rnf	
+2fu	oz5	
+2ibble	89g	c0
+3ck	89h	3
+5 and skillful	1g5a	
+aviolent	1g02	
+5en	89i	c
+7ing	yth	
+6r	101y	
+5lime	eqz	
+6y	g9e	
+7 and easily	1ht9	
+dffortlessly	1hta	
+5sand	dpe	
+6ilver	drg	
+3d	bkq	
+3escent	89j	c0
+4t	89k	3
+5 and comfortable	1glo	
+cntented	1gk7	
+adesolate	1gkl	
+agentle	1g8r	
+aremote	1gf7	
+asafe	1frk	
+becluded	1glp	
+5en	qen	
+5ly	h3h	
+3ll	89l	80
+4t	89m	5e
+5ed	tr1	
+6r	89n	40
+5s	qgq	
+3nacrine	1219	
+4ce	dij	
+4ine	da6	
+4oa	fsy	
+5line	myv	
+6one	n45	
+5ne	f1w	
+4queflorus	mfd	
+8olius	1096	
+4tal	k83	
+5essence	89o	80
+c of national culture	1bpj	
+atial	cxg	
+5us	10nd	
+4uclidinyl	wmu	
+3p	89p	80
+3rinius	p10	
+4k	89q	90
+5y	m55	
+3sling	89r	80
+3t	89s	3e
+4e	89t	3
+5 a while	1hys	
+4o	ns8	
+4s	k34	
+3ver	89u	f8
+3xote	mwk	
+6ic	89v	80
+3z	89w	1e
+2jiang	sww	
+4ng	p8p	
+2marl	sx5	
+2n	ger	
+2o	bqo	
+3d	m5j	
+3kka	x73	
+3ra	x6j	
+4um	cjo	
+3ta	89x	f0
+5ble	11gu	
+5s	l9i	
+5tion	89y	4c
+9 of market price	1ay6	
+9s	otd	
+4e	89z	9c
+5d	mgz	
+5s	n3c	
+4idian	8a0	80
+5ent	dap	
+2ran	flg	
+3ban	m48	
+2sum	swv	
+2tang	goh	
+3lugh	11y5	
+2wo	swy	
+2xian	v9i	
+2yang	sx3	
+2zhou	qcz	

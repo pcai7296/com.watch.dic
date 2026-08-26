@@ -1,15 +1,758 @@
-0jacket	jm	3f
-0January	jn	23
-2pan	jo	3
-5ese	jp	23
-0jeans	jq	37
-1ob	jr	23
-2in	js	43
-2ke	jt	17
-2y	ju	17
-1udge of	yz	
-2ice	jv	63
-0July	jw	23
-0jump	jx	3
-0June	jy	23
-0just	jz	3
+0jab	c0a	
+3ber	5ol	80
+3oticaba	n5g	
+2cana	uj6	
+3into	yks	
+3k	5om	8
+4 of all trades	1a6f	
+5the ripper	16a9	
+4al	dcw	
+6 and wolf	1hce	
+6s	g6s	
+5ss	fcd	
+4daw	dep	
+4et	5on	3f
+6s	mmg	
+4fruit	oas	
+4hammer	fq5	
+4ie	rdb	
+4knife	fol	
+4pot	cs6	
+4son	jjx	
+4y	qn8	
+3ob	w7j	
+5in	sd5	
+7us	sd7	
+3quard	rzy	
+5eline	jk4	
+6s	q9z	
+3uzzi	d4s	
+2de	5oo	80
+4 and jade-like stone	1dx1	
+9stone	1ghx	
+5garden of celestial ruler	1bpz	
+4d	5op	80
+4ite	e8e	
+4like	wbs	
+4s	wcd	
+2e	sau	
+3ger	hqb	
+2far	sy9	
+3fa	w4m	
+2g	ybt	
+3ged	5oq	a0
+3uar	bs0	
+2hrb	qxo	
+2i	f8h	
+3l	5or	2c
+4break	10te	
+4ed	hki	
+5r	w41	
+4s	z9d	
+3nca	pog	
+4ism	lim	
+2karta	11or	
+3ob	jxo	
+2l	smv	
+3a	11vn	
+4id	rgg	
+5nur	rgj	
+4pe	nyl	
+2m	5os	3e
+3aica	igq	
+7n	o55	
+4l	o65	
+3b	5ot	80
+4oree	5ou	80
+5s	zkh	
+4udvipa	llw	
+3es	jjv	
+5town	pf9	
+3ie	jkh	
+3med	ncw	
+3packed	n90	
+2n	q4q	
+3ata	lsg	
+3e	jlt	
+4iro	11ee	
+3g	of7	
+3itor	5ov	20
+3janbureh	10eh	
+3kovic	s0b	
+5wski	tj6	
+9i	tj7	
+0January	5ow	23
+0jaochim	12h9	
+2p	pk9	
+0Japan	5ox	3
+0japan and korea	1hql	
+0Japanese	5oy	23
+0japanology	smh	
+6phile	mt2	
+3e	5oz	80
+3onensis	hsn	
+5ica	e8w	
+7um	vk6	
+8s	ofn	
+2r	5p0	de
+3gon	5p1	90
+3oslav	osj	
+3ring	5p2	80
+3s	r0g	
+3ud	rgk	
+2smine	cmz	
+6oides	tpo	
+6um	110q	
+4olin	z7s	
+3on	yqr	
+3per	wga	
+2undice	5p3	80
+8d	5p4	80
+8s	k5z	
+4t	5p5	80
+5y	5p6	80
+2va	hoj	
+4n	w1o	
+5ense	11if	
+5ica	tad	
+7us	w1p	
+3elin	daz	
+4nsis	wvq	
+3inica	zpn	
+2w	5p7	5e
+3aharlal	pqt	
+3bone	h2t	
+3ed	nbf	
+3less	gk3	
+3s	l1s	
+2y	bmf	
+2zeera	lho	
+3z	5p8	96
+1db	l2k	
+1ealous	5p9	7c
+7y	5pa	c8
+3n	5pb	8
+4ne	10lm	
+4s	5pc	37
+2choniah	yk4	
+3oniah	s3f	
+2ddah	mel	
+3i	y4l	
+2ep	5pd	2
+3r	5pe	e0
+4ing	jcu	
+4s	jcr	
+3t	rdj	
+3z	dtn	
+2ff	jk1	
+4erson	jk7	
+4ords	jjw	
+2hanne	10ln	
+3oshaphat	xv5	
+4vah	wan	
+3u	fvd	
+2ju	vl9	
+4ne	5pf	80
+5um	dql	
+2lena	s0e	
+3lied	tfa	
+6s	u40	
+4y	5pg	48
+5bean	fvr	
+5fish	5ph	40
+2minay	me4	
+2n	10xz	
+3ai	im6	
+3gish	riu	
+3ny	ubp	
+2olla	jt0	
+3njo	u7r	
+5u	k25	
+3pardize	5pi	88
+7y	5pj	c0
+2phthah	yk5	
+2rboa	fey	
+3don	106g	
+6i	106i	
+3emiah	q5u	
+5y	jkn	
+3icho	jkm	
+3k	5pk	e8
+4er	jl7	
+4ing	zvf	
+4y	w3b	
+3ry	jis	
+3sey	blm	
+3usalem	mvq	
+2ssamine	fra	
+4e	jkj	
+4ica	jkl	
+3t	5pl	80
+4er	jpq	
+4ing	5pm	80
+3uit	kss	
+6s	ykf	
+0Jesus	5pn	8
+0jet	5po	1e
+3t	rwq	
+4a	rwp	
+4ison	5pp	c0
+4y	c9z	
+2w	m1v	
+3el	5pq	5e
+5ed	inz	
+6r	5pr	40
+5lery	5ps	8
+5ry	5pt	72
+5s	5pu	40
+0Jewish	5pv	c
+0jews	rxu	
+2zebel	eom	
+1hong	111x	
+1ia	g56	
+3bao	vck	
+3ding	n5e	
+7 district of northwest shanghai	1bwa	
+3gedaqi	l3e	
+3he	n5m	
+3jiang	omo	
+5ng	mk2	
+3li	j3o	
+5ng	n5t	
+3min	mlx	
+4usi	j3k	
+3n	g46	
+4bing	vx3	
+4caoping	pol	
+5hang	ql3	
+6eng	t74	
+6uan	l0t	
+4de	qky	
+4g	gjn	
+5bei	ul2	
+5cheng	ul7	
+7uan	uld	
+5dong	vwr	
+6u	uly	
+5e	l10	
+5hai	ull	
+7n	ulr	
+6ua	uls	
+8i	ulm	
+5jin	uli	
+5kou	ul6	
+5le	pgz	
+6ing	um0	
+5men	m86	
+5nan	ul3	
+6ing	ulb	
+5pu	ulj	
+5shan	ulc	
+6u	hs5	
+7 and zhejiang	1hqm	
+5xi	gy3	
+7a	ul9	
+8n	y5t	
+5yan	ov2	
+8g	um1	
+6in	ulz	
+6ong	orc	
+7u	ulh	
+6uan	ulq	
+5zhou	ule	
+4hao	mkb	
+5e	l0w	
+5u	ql7	
+6a	ql9	
+4ji	uad	
+4kang	ql4	
+4li	tvi	
+6an	spo	
+6ng	119x	
+4ning	qkw	
+4ping	qkx	
+4ren	i2v	
+4sanjiang	qkr	
+5han	pof	
+6i	qku	
+6ui	ql6	
+4wen	ql0	
+4xi	vjw	
+4yang	qld	
+5e	ql5	
+4zhen	mx1	
+3o	grq	
+4cheng	if8	
+4gulan	y4y	
+4he	zxa	
+4jiang	tuz	
+4kou	if6	
+4ling	zml	
+4min	ta8	
+4qu	119o	
+4ren	p5u	
+4tong	if9	
+4zhou	yux	
+5i	l19	
+5uo	hp0	
+3qing	hzj	
+3shan	n5c	
+3wang	10o0	
+3xian	j3l	
+7g	n5l	
+5ng	ll0	
+4uan	mwr	
+3yi	n5o	
+5n	n5p	
+4u	n5i	
+5guan	n5j	
+2b	dag	
+3e	5pw	80
+2cai	j7l	
+2dong	1295	
+2e	g35	
+3chi	tvn	
+3dong	s0r	
+3fang	10bt	
+3pang	102q	
+3ren	t6k	
+3shou	wma	
+3xi	s0s	
+5u	ims	
+3yang	r5h	
+3zi	qt4	
+2ffy	eep	
+2g	ccf	
+3gle	dom	
+3ong	vl7	
+3saw	5px	80
+3uan	1292	
+6g	rdf	
+3zhi	hug	
+2had	cx4	
+4i	p1w	
+2ji	126y	
+2lan	t6j	
+3in	hwq	
+5g	zry	
+3ted	olv	
+2m	jki	
+3a	pyr	
+3ei	126x	
+3i	mef	
+3mie	mee	
+4y	lrf	
+3o	ltp	
+3sar	me6	
+2n	g1g	
+3an	myn	
+3bao	l0i	
+4ei	wio	
+3chang	uk7	
+5eng	nra	
+8jiang	11gw	
+5uan	11ha	
+3dong	11hc	
+3feng	11jj	
+3g	g62	
+4bian	12fz	
+4chu	qof	
+7an	v4l	
+4de	slg	
+6zhen	sob	
+5ong	igs	
+4gang	ias	
+8shan	iat	
+5u	sue	
+4hai	12g7	
+5e	xti	
+5ong	sub	
+5u	igi	
+6a	sxu	
+4jiang	z9q	
+6ng	11a9	
+6u	igh	
+4kou	igj	
+4le	5py	8
+5ing	ggc	
+8 of bells	1ccw	
+4men	igl	
+5ing	11a8	
+4ning	su7	
+4oism	5pz	80
+4po	qx4	
+4qu	o0q	
+4run	123u	
+4shan	igk	
+4tai	ioj	
+4uashi	11ht	
+4wei	or8	
+4xi	12fy	
+6an	sud	
+6ng	iaw	
+6u	xno	
+4yan	iau	
+7g	sli	
+5u	12fx	
+6an	v4m	
+4zhou	k7r	
+5i	jp7	
+5ong	mx4	
+3hu	11hn	
+5a	oxa	
+3ing	irh	
+3jiang	srs	
+3kouhe	11gt	
+3li	10nk	
+5an	viq	
+5n	11hd	
+3men	11ix	
+3nah	x4e	
+5n	uyb	
+4ing	srr	
+5u	11hq	
+3o	nt0	
+3ping	hk4	
+7mei	vir	
+3sha	gqp	
+6n	11h8	
+7 suburban district of shanghai	1bwb	
+5i	t4f	
+5ui	11hk	
+3ta	11h0	
+5i	11il	
+5n	ilv	
+6g	11gz	
+5o	xhp	
+4ian	w0u	
+3wan	11hp	
+3x	df8	
+4i	11ho	
+5an	114i	
+7g	11it	
+5u	11i3	
+3yan	syq	
+6g	11j0	
+4uan	srt	
+5n	y9x	
+3zhai	11h4	
+5ong	imt	
+6u	khr	
+2om	ih1	
+3ng	g4h	
+5ming	123w	
+3ufen	hwg	
+2risan	sup	
+3o	um9	
+2sh	r8w	
+4an	xjs	
+4ishan	xkv	
+4ou	met	
+4ui	me9	
+2tsu	q5n	
+3ter	5q0	80
+6bug	fer	
+6y	vxz	
+2u	fzr	
+3fen	hwf	
+3gong	hwx	
+4ui	11cl	
+3hua	hxn	
+3jiang	hxe	
+3long	hy7	
+7po	hy5	
+3quan	s9b	
+3san	hwc	
+3tai	hwo	
+3yi	hx7	
+4uan	hwm	
+3zhaigou	hx1	
+2xi	nrf	
+4an	meg	
+2yang	meo	
+3u	qt2	
+4an	vlb	
+4n	126z	
+2ze	syk	
+3hou	kbg	
+3i	xqa	
+1jigae	11a0	
+1oan	xs8	
+4ne	ye1	
+3quim	yqq	
+2b	5q1	23
+3i	zno	
+3less	vvb	
+3s	5q2	20
+4eeker	ppl	
+9s	oxc	
+2ck	yp4	
+4ey	5q3	80
+3ose	5q4	40
+5us	xxe	
+3ular	5q5	80
+7ly	tvu	
+4nd	5q6	80
+2e	rt3	
+3l	xv6	
+3y	pab	
+2ffe	10tj	
+4re	12do	
+2g	5q7	fa
+3gers	1034	
+4ing	5q8	40
+2han	xv9	
+5n	m92	
+6es	l5p	
+8burg	xvg	
+3n	kiz	
+4 the baptist	169q	
+4nie	t9a	
+4s	hpa	
+5on	nx2	
+5ton	wgg	
+8e	xvh	
+8i	g59	
+9ae	yyh	
+3or	she	
+2in	5q9	43
+4ed	i4a	
+6 at the hip	15ib	
+4ing	mor	
+4s	rtj	
+4t	5qa	1c
+5ed	xqy	
+5ing	rru	
+5ly	ka3	
+5s	x1r	
+2joba	fdx	
+2ke	5qb	17
+4r	p1q	
+5s	wav	
+4s	n7h	
+5 of a visceral nature	16q0	
+3hang	k5f	
+3ing	rdu	
+6ly	mau	
+3o	j0e	
+2lcham	tkn	
+3in	zm5	
+3ly	5qc	9c
+3okia	sjw	
+3t	5qd	e0
+4ing	5qe	40
+2mda	ulx	
+2n	liy	
+3ah	xv2	
+4s	npz	
+4than	m8t	
+3es	wgf	
+3g	qnu	
+4um	10cw	
+2ong	p5h	
+2ram	vss	
+3dan	ibs	
+3ge	lnj	
+3is	ppc	
+2s	q5d	
+3e	ykl	
+4ki	p7c	
+4on	hf4	
+4ph	jjr	
+3h	n2i	
+4i	n2j	
+4ua	xv3	
+3iah	xvi	
+4p	11q8	
+3s	kdv	
+4 stick and candle	1gj3	
+3tle	c64	
+5ing	u30	
+2t	5qf	80
+3aka	std	
+3ham	ibq	
+3tings	s98	
+2ule	ep9	
+5s	jru	
+3rnal	5qg	7c
+7ism	5qh	40
+9t	5qi	7e
+aic	5qj	40
+as	nub	
+5ey	5qk	1e
+7 around the world	15sk	
+7man	cpl	
+2vial	5ql	c0
+5n	dov	
+2w	zv4	
+3l	dc2	
+2y	5qm	17
+3ce	10ef	
+3ful	5qn	c
+6ly	qtm	
+3ous	5qo	40
+6 and contented look	1e8p	
+bharmonious	1hqn	
+3s	mgf	
+4 and sorrows	1hqo	
+9tribulations	1hqp	
+4tick	cv3	
+1uan	l5f	
+4cheng	11az	
+4zi	l06	
+2bilant	5qp	c0
+6tion	5qq	80
+2che	hty	
+2dah	icc	
+4ism	ice	
+4s	w7i	
+3e	w7k	
+4a	q9y	
+4o	spk	
+3ge	5qr	1e
+5 of	12kx	
+5d	l93	
+5ment	5qs	5e
+5s	lwl	
+6 and prosecutors	1hqq	
+4ing	pdj	
+4ment	ht7	
+8al	10dn	
+8s	x4t	
+3icial	5qt	b0
+8ly	10ik	
+7ry	bsh	
+6ous	5qu	c0
+9ness	5qv	80
+3o	crk	
+2e	g51	
+2g	5qw	58
+3gernaut	5qx	80
+4le	5qy	10
+6ry	rkm	
+5ing	yj6	
+2ice	5qz	63
+5r	tfe	
+5s	l8p	
+4y	5r0	42
+3fang	wen	
+2jitsu	tgp	
+3uba	ttm	
+5e	fuu	
+6s	lkh	
+2kebox	db8	
+2l	h4r	
+3es	jp4	
+3ia	jxc	
+5n	jp8	
+4brissin	mcm	
+4en	t54	
+6ne	f52	
+8d	nk3	
+5t	t5s	
+6te	t5t	
+4us	q9i	
+3u	q1y	
+0July	5r1	23
+0jumble	5r2	e0
+6d	lwp	
+4o	cb4	
+3p	5r3	3
+4er	10uo	
+4ing	izm	
+4s	j24	
+5uit	1148	
+4y	xen	
+3u	htz	
+2n	g3t	
+3an	zal	
+3caceae	vzv	
+4ea	z3d	
+4idis	trv	
+4ker	pa7	
+4tion	5r4	f8
+5ure	5r5	c0
+4us	zs9	
+0June	5r6	23
+0juneau	t5h	
+3g	p5e	
+4ar	khf	
+4ermannia	zhi	
+4frau	po1	
+4gar	vby	
+4ian	kne	
+4le	5r7	7e
+6fowl	xvn	
+6r	ri4	
+3ior	5r8	3e
+6 members of a group	16n9	
+6s	gvx	
+4per	c7i	
+7us	ni0	
+4us	q9g	
+3k	5r9	3a
+4er	pa6	
+5t	e2x	
+4ie	cnp	
+3lian	xq2	
+3o	ox1	
+3shan	mih	
+3ta	cda	
+3xia	wb8	
+3zhe	yns	
+0Jupiter	5ra	48
+0jura	j58	
+4ssic	c7z	
+3chen	ore	
+3gen	xv4	
+3isdiction	5rb	c0
+5prudence	5rc	80
+5t	cvf	
+3ong	m57	
+4r	cfn	
+3y	5rd	7c
+2saka	sy4	
+3co	j3g	
+3siaea	uje	
+3t	5re	3
+4 a few steps away	1e9x	
+7moment ago	1eri	
+7while before	1dx3	
+6nd forceful	1e83	
+9honorable	1e84	
+6round the corner	15pg	
+6t the time of	139l	
+5before the battle	15oh	
+gcontest	15oj	
+gend	15nt	
+7low the crutch	15qu	
+5off the boat	15oo	
+5the opposite	15r9	
+9thing	15ot	
+ainiest bit	15q9	
+5what the doctor ordered	15mr	
+4ice	5rf	5e
+7 of the peace	13r0	
+6ialist	u7s	
+5fiable	5rg	80
+7cation	5rh	a8
+7ed	kao	
+8s	mh8	
+6y	5ri	fc
+5n	w58	
+4ly	5rj	40
+2t	c5v	
+3e	daj	
+3ting	lki	
+2venile	5rk	f0
+5tus	pp6	
+2xian	zam	
+3tapose	5rl	80
+9d	hha	
+8ition	5rm	40
+2ye	q1w	
+3i	we5	
+3ongguan	prv	
+2zheng	i64	
+1ynx	100h	
+2utping	hfh	

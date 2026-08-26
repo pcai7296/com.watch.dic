@@ -1,0 +1,500 @@
+0to process		加工
+1hick and thin		粗细
+0horse and mule		骡马
+0mule and horse carts		骡马大车
+0cold and cheerless		冷冷清清
+9offensive		丧梆
+9threatening		冷森森
+9uncaring		漠然置之
+0elevated and cold		高冷
+0gloomy and cold		阴冷
+0fast and abundant		灵通
+0to journey together		同行
+3aim low		浅希近求
+0stable and steady		稳健
+0audio and video		音像
+0block and tackle		滑轮
+0gentle and lovely		柔媚
+0to kill-green		杀青
+3issue		作出
+8 an invitation		约请
+approval		批办
+9instructions		发出指示
+9orders		行令
+9tickets		订票
+0dead and injured		死伤
+9wounded		死伤者
+0to educate		培养
+0rich and fertile		沃衍
+0close to zero		近零
+0hard to defeat		顽强
+0to break faith		背信
+3cause harm		为害
+0sharp ears and keen eyes		耳聪目明
+0desire to commit murder		杀机
+0to swallow whole		囫囵吞下
+3press forward		一往无前
+0road to ruin		死路一条
+0jade and stone		玉石
+0a little early		稍早
+0to believe		信奉
+a firmly		坚信
+boneself infallible		自以为是
+brumors		听风就是雨
+3falsely believe		误信
+4irmly believe		确信
+3sincerely believe		笃信
+3fall asleep		入眠
+0crude and ill-educated		粗鲁不文
+0to accept defeat		纳降
+0close to shore		靠岸
+0filial piety and fraternal duty		孝悌
+0shape and color		形色
+0hot and sour sauce		酸辣酱
+0to string together		贯串
+1ea and cake		茶点
+0primary and secondary		主从
+0clean and spotless		洁净无瑕
+0to drive sheep		赶羊
+3rent land		租地
+0strange and prominent		奇崛
+0to produce		出产
+0floor-to-ceiling window		落地窗
+0hot and sour soup		酸辣汤
+0to court		抛绣球
+8 favor		邀买人心
+0running neck and neck		连镳并轸
+1ich and diverse		缤纷
+0to accept criticism gladly		闻过则喜
+0gold and jade		金玉
+0to crash together		相撞
+0manacles and leg-irons		镣铐
+0to self-reflect		自反
+3experience sheer ecstasy		欲仙欲死
+0army and government		军政
+0to joke together		谈笑风生
+0pure and honest		淳厚
+0spring and autumn		春秋
+0rain and snow		降水
+0to push along		推行
+0joss stick and candle		香烛
+0to speed along		急驰
+3receive medical treatment		就医
+3value		估价
+8 highly		尊尚
+9loyalty		讲义气
+0vast and empty		寂寥
+0to cross-examine		反诘问
+4atch fire		发火
+0food to accompany wine		酒菜
+1ast and nimble		迅捷
+0ashamed and sorry		愧恨
+0to ban an account		封号
+0bid inviting and bid offering		招投标
+0political and military achievements		文治武功
+0length and breadth		纵横
+0to steal an online account		盗号
+3lack food supplies		缺粮
+3correct student papers		批卷
+3love		喜好
+7 ardently		热爱
+8dearly		心疼
+aeply		笃爱
+8hong kong		爱港
+8tenderly		怜爱
+0bright and brilliant		濯濯
+0wind and frost		风霜
+0to diffuse light		散光
+0air-to-surface missile		空地导弹
+0to suggest		倡议
+1all and thin		修长
+1o lose steam		失去后劲
+3panic buy		哄抢
+0pain and itch		痛痒
+0software and hardware		软硬件
+0branch and leaf		枝叶
+0empty and silent		空寂
+0broad and profound		该博
+0physical and spiritual		形神
+0reform and renewal		更新换代
+0quiet and contented		恬淡
+0thick and solid		粗壮
+0strange tales and absurd arguments		奇谈怪论
+0to return merchandise		退货
+3fall vacant		出缺
+0wine and meat		酒肴
+0hard to solve		难解
+0to earnestly hope		期望
+3hope		希冀
+0a great name		重名
+0to concern		事关
+3twist together		扭结
+0pain and difficulties		疾苦
+0rare and precious		难能可贵
+0quiet and desolate		寂寥
+0to lack self-awareness		目不见睫
+0soft and fragrant		温馨
+0easy to grasp		易理解
+0hot and sour noodles		酸辣粉
+0peace and happiness		安乐
+aprosperity		太平盛世
+asecurity		太平
+0to return		反复
+9 an invitation		回请
+3suffer serious injury		伤筋动骨
+3express an opinion		出点子
+0bright and neat		光鲜
+0straight and impressive looking		气宇轩昂
+0to free		解脱
+7 oneself		抽身
+3rely heavily upon		倚重
+8upon		倚托
+3clearly understand		洞悉
+3fully understand		了知
+3understand		了解
+d clearly		明了
+fompletely		了知
+einstantly		秒懂
+eprofoundly		熟习
+etacitly		心领神会
+fhoroughly		心领神会
+0unable to understand		不开窍
+0to break loose		褪套儿
+4uy soy sauce		打酱油
+0reaction to light		光感应
+0to light		燃放
+3deal		做买卖
+3fall headlong		倒栽葱
+3carry		提溜
+8 passengers		载客
+9secretly		挟带
+0isolated and quiet		幽寂
+0peaceful and quiet		清静
+0quiet and comfortable		安适
+asecluded		清幽
+0retired and quiet		恬雅
+0sweet and sour meat		咕咾肉
+0to mind		介意
+0bitter and sad		悲酸
+0pure and holy		圣洁
+0to age		老化
+6 prematurely		早衰
+0guest and host		宾主
+0to fall		下坠
+7 dramatically		跳水
+8gently		飘落
+8heavily		瓢泼而下
+8rapidly		骤降
+8scattered		散落
+3suffer attack		遇袭
+0mouth and teeth		口齿
+0to snuggle close		贴近
+0carrying pole and its load		挑子
+0to confer an award		颁奖
+0eliminate vice and exalt virtue		激浊扬清
+0to patch together		缝缀
+0soft and chewy		软糯
+9immature		稚嫩
+1tarchy and soft		面糊
+0to sing antiphonal answer		对歌
+3check an amount		点见
+0stubborn and conservative		泥守
+0to measure speed		测速
+3hard-boil		煮硬
+0close to		将近
+0to close		上门
+8 firmly		关紧
+9securely		紧闭
+0hot and stuffy		闷热
+0extravagance and waste		铺张浪费
+0master and disciple		师徒
+0ice and snow		冰雪
+0to burn joss paper		烧钱
+8paper offerings		烧纸
+0plus and minus signs		加减号
+0to seek profit		营利
+1ributary goods and finances		财赋
+0fun and mockery		谑剧
+0pure and innocent		纯情
+0hot and numbing		麻辣
+0steady and honest		稳厚
+0to buy wholesale		打趸儿
+0iron and steel works		钢铁厂
+0wuhan iron and steel		武汉钢铁公司
+0cast and crew		剧组
+0tablet with inscription in gold		金榜
+1o promote sex		诲淫
+0fresh and elegant		清逸
+0mellow and rich		醇厚
+0rich and mellow		香醇
+0to seek knowledge		求学
+0efficient and unscrupulous		老辣
+0strange and deceitful		奇谲
+cparadoxical		吊诡矜奇
+1lash and burn		刀耕火种
+0delicate and pretty		清秀
+0to serve tea		敬茶
+3reduce output		减产
+0conduct and learning		品学
+0morality and conduct		德行
+0bright and intelligent		水汪汪
+0to visit relatives		走亲戚
+3evolve together		合流
+3create mankind		造人
+3fix upon		定出
+0rich and variegated		渊富
+0to enter hospital		入院
+0rich and overbearing		财大气粗
+0to fuse together		融合为一
+0stagnating and conservative		故步自封
+0to collect debt		要账
+3buy liquor		打酒
+0rich and imposing		财大气粗
+9powerful		富强
+0clothes and ornaments		衣饰
+cshoes		衣履
+0airborne sand and dust		沙尘
+0to share sb's fate		垫背
+0in touch with		接触
+0to hit rock bottom		跌至谷底
+0steep and perilous path		危径
+0master and servant		主仆
+0intelligent and capable		精明强干
+0to short-circuit		秀逗
+3drive		乘车
+8 backwards		倒车
+9oneself somewhere		自驾
+3remain chaste		守身
+3happen simultaneously		并发
+aunexpectedly		横生
+0broad and powerful		浩荡
+0to express emotion		抒情
+0mother-to-infant transmission		母子垂直感染
+0aircraft takeoff and landing gear		起落装置
+0ink and wash painting		水墨画
+0to price		划价
+3thread together		贯通
+3air-dry		风干
+0rare animals and birds		珍禽奇兽
+0annual repairs and maintenance		岁修
+0to harbor hard feelings		怀恨在心
+3reduce rent		减租
+3create an uproar		闹闹攘攘
+3sit upright		端坐
+3experience		感受
+d adventures		历险
+etenesmus		下坠
+3personally experience		亲历
+0elegant and pure		雅洁
+0to catch fish		摸鱼
+0dragon's pool and tiger's den		龙潭虎穴
+0to choose an appropriate location		选点
+3forget former enmity		尽释前嫌
+3remain		仍旧
+9 cheerful		谈笑自若
+aunconscious		昏迷不醒
+cdecided		首鼠两端
+cmoved		不为所动
+awidowed		居孀
+0weak and indecisive		蔫呼呼
+0to complete		完毕
+b negotiations		说好
+0narrow and shallow		浅短
+0meat and bread soup		泡馍
+0to lose utterly		丢到家
+3cancel an account		销帐
+0rules and discipline		法纪
+0precious and odd		珍异
+0according to season		按季
+0sharp-sighted and deft		眼明手快
+0to kindly accept		笑纳
+3buy		代购
+6 frenetically		抢购
+7groceries		买菜
+7shares		股票投资
+7tickets		买票
+7votes		买票
+3create		创设
+9 chinese characters		造字
+bonfusion		闹腾
+agraphics		制图
+aobstacles		留难
+3fight alone		单打独斗
+0caustic and sharp-tongued		轻嘴薄舌
+0to usurp authority		窃权
+3flock together		集群
+3lose patience		不耐烦
+3click together		一拍即合
+3eat hot pot		打边炉
+0ebb and flow		沉浮
+0hurried and brief		急促
+0patient and accommodating		忍让
+0to drink alone		独酌
+3claim		坚称
+8 damages		索赔
+9falsely		佯言
+9ownership		诈冒
+9unjustly		窃据
+4ause mischief		作祟
+3test negative		呈阴性
+0sharp-eyed and adroit		眼疾手快
+0righteousness and justice		道义
+0garrulous and sharp-tongued		贫嘴滑舌
+0sharp and clearcut		有棱有角
+0to glue together		黏合
+3sew together		缝合
+3lose momentum		失去后劲
+0dad and mom		爸妈
+0plaintiff and defendant		两造
+0to skip class		跷课
+1rial and execution		审处
+0sharp and unkind		尖酸刻薄
+0remote and vast		旷渺
+0crime and punishment		罪刑
+0fresh and moist		甜润
+0hard to endure		难以忍受
+0to research		研究
+b carefully		精研
+0subject to		受支配
+a availability		售完即止
+0to enter sleep mode		睡眠
+0divide and conquer		化整为零
+0to reduce troop numbers		裁兵
+3hang low		低垂
+0vertical takeoff and landing aircraft		垂直起落飞机
+0sweet and innocent		甜稚
+0payment and pension		俸恤
+0to prepare feed		备料
+0arch-criminal and archenemy		元恶大憝
+0tender and lovely		娇嫩
+1o cause havoc		大闹
+0nose and throat		鼻咽
+0to sound familiar		耳熟
+4ave effort		省力
+3refer		参考
+3suffer financial loss		破财
+0honest and generous		仁厚
+0to rake together		归拢
+0rain and dew		雨露
+0hard to accomplish		难以实现
+0to repay sb's kind acts		结草衔环
+3accept surrender		受降
+3squeeze short sellers		轧空
+0bright and luminous		炳耀
+0to clan together		集群
+3muddle things together		缠夹不清
+3display shockingly bad behavior		撒野
+3sit astride		骑坐
+3huddle together		缩成一团
+3cause		使成
+8 complications		困扰
+9difficulties		拿人
+3supply goods		供货
+3hide behind		掩盖
+0prosperity and decline		兴衰
+0agriculture and forestry		农林
+0to sit idly		闲坐
+7properly		坐好
+7quietly		静坐
+7silently		默坐
+4ell meat		卖肉
+4weep past		掠过
+4ell abroad		外销
+4tretch across		横跨
+0odd and picturesque		古里古怪
+0fresh and tasty		爽口
+6fruits and vegetables		鲜货
+0coarse and wild		狂野
+0mad and violent		猖厉
+0pretty and flirtatious		妖冶
+0technical and vocational		技职
+1o completely lose		丧尽
+3lose		丢掉
+7 completely		灭绝
+8an election		败选
+8color		失色
+ansciousness		不省人事
+8effectiveness		失效
+8fans		掉粉
+avor		失宠
+9lavor		走味
+8leaves		落叶
+9uster		减色
+8virginity		破处
+0bright and beautiful		亮丽
+bcheerful		明朗
+beasily understood		冏彻
+bshiny		精光
+cpacious		敞亮
+0golden-bright and dazzling		金灿灿
+0to exchange fire		拼火
+3puff hard		哼哧
+0anxious to learn		求知
+0hip-and-gable roof		歇山顶
+0ability to walk		腿脚
+0to walk		步履
+7 quickly		快步流星
+8slowly		彳亍
+8unsteadily		步态蹒跚
+3rise		上升
+7 abruptly		崛起
+8dramatically		暴涨
+8rapidly		窜升
+8steadily		步步高升
+9uddenly		勃兴
+8vigorously		奋起
+3cross-dress		变装
+3stride toward		迈向
+0dense and sticky substance		油子
+0to pass an entrance exam		考取
+8entrance exam		考入
+3sail west		下西洋
+3approach sb's ear		附耳
+3express boundless pleasure		惊喜若狂
+0pad to stop bleeding		止血垫
+1ure and concise		精粹
+0alyxia root and herb		阿利藤
+0to suffer damage		受损
+0vague and unclear vision		眼花
+0to bad-mouth		上眼药
+0narrow and bending		蓬心
+0excellent and unrivaled		卓尔不群
+0capable and experienced		干练
+0mountain and fields		山野
+0to share vile habits		臭味相投
+0wine and women		酒色
+0to sort		分拣
+0plug to stop bleeding		止血栓
+0to measure distance		测距
+3brush past		擦身而过
+0pure and limpid		剔透
+0sweet and sour pork		古老肉
+0to limit		制止
+0vast and obscure		茫茫
+0hard to dispel		难解
+0pure and kindhearted		纯良
+9unadulterated		纯真
+0to visit		上门
+8 china		访华
+9frequently		常来常往
+9historic sites		览古
+aong kong		访港
+9prostitutes		嫖娼
+9scenic spots		览胜
+9taiwan		访台
+0belching and acid reflux		嗳气吞酸
+0to design		构思
+0vast and profound		洪渊
+0accuse and criticize		弹斥
+0to share		共享
+8 equally		均摊
+averything		不分彼此
+9profits		分账
+g equitably		平等互利
+9tribulations		分忧
+0hard to fathom		难测
+0to perform magic		变把戏
+0wild and disorderly		猖乱
+9fanciful thoughts		遐思
+0empty and trite		陈腐
+0thin and brittle		薄脆

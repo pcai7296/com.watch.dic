@@ -1,0 +1,500 @@
+0a rank growth of grass		草莽
+0bottom of a pond		潭底
+0topic of a lecture		讲题
+1ray of a mill		磨盘
+0born of a concubine		庶出
+0to cling to one's course		一条路走到黑
+1rough of a wave		浪谷
+0a mass of flowers		繁花
+3essage of condolence		唁函
+0written confirmation of a debt		借单
+0punctuation of a sentence		句逗
+0delivery mechanism of a medicine		剂型
+0leader of a criminal gang		老大
+0supervisor of a phd candidate		博导
+0tiller of a boat		舵把
+0barrel of a gun		枪筒
+0tip of a needle		针头
+1o pay one's respects to		参谒
+2pography of a mountain		山势
+0features of a mountain		山势
+0butt of a gun		枪托
+0to report to one's superiors		上报
+0muzzle of a gun		枪口
+0player of a stringed instrument		琴师
+0cabin of a plane		机舱
+0bore of a gun		枪膛
+0hub of a wheel		轮毂
+0to fall to one's death		坠亡
+0beginning of a decade		年代初
+0idol of a fan		正主
+0a vast expanse of whiteness		白茫茫
+2pot of porridge		一锅粥
+0fuselage of a plane		机身
+0penetration of a cutting tool		吃刀
+0fan of a singer		歌迷
+0sidewalls of a palace		掖垣
+0center of a lake		湖心
+0follower of a religion		教徒
+0written summary of a meeting		纪要
+0foundation of a building		地盘
+0governor of a province		太守
+0uppers of a shoe		鞋帮
+0a galaxy of talent		人才济济
+0robe of a buddhist priest		法衣
+0peak of a pagoda		塔尖
+0to dismiss from a post		革退
+0mechanics of a continuous medium		连续介质力学
+0dimension of a painting		画幅
+0a pile of junk		废铜烂铁
+0landlord of a building		楼主
+0a changeover of personnel		瓜代
+2flash of realization		顿悟
+bunderstanding		豁然
+0premiere of a movie		首映式
+0a bunch of nonsense		一派胡言
+2mess of bookkeeping		糊涂账
+0bow of a warship		舰首
+0residence of a noble		甲第
+0location of a grave		穴位
+0chastity of a widow		嫠节
+0hem of a skirt		下摆
+0to return to one's unit		归队
+0denominator of a fraction		分母
+0wings of a sanitary pad		护翼
+0numerator of a fraction		分子
+0subdivision of a rhyming dictionary		韵目
+0a gang of rogues		狐群狗党
+0width of a flag		旗幅
+0patron of a brothel		嫖客
+0waistband of a skirt		裙带
+0features of a palm		手相
+0blade of a propeller		桨板
+0loop of a necktie		领结
+0a thread of		一股子
+0pillar of a vault		拱墩
+0birds of a feather		臭味相投
+0proprietor of a mine		矿主
+0rung of a ladder		梯级
+0prong of a fork		叉头
+0to make up a deficiency		补足
+0digestive tract of a shrimp		虾线
+0railings of a balcony		轩槛
+0to make up a prescription		抓药
+0hump of a camel		驼峰
+0bleating of a deer		呦呦
+0turtle-shaped plinth of a stele		龟趺
+0combined branches of a clan		联宗
+0miraculous hands of a healer		妙手
+0a maze of doubts		疑团
+0founder of a buddhist sect		佛祖
+0a telegram of condolence		唁电
+3aint of		一股子
+0to investigate and find out		查明
+0leader of a theatrical troupe		班主
+0a whiff of		一股子
+2deluge of heavenly flowers		天花乱坠
+2clique of traitors		奸党
+0dregs of a decoction		药渣
+0a blacklist of undesirables		另册
+2collection of books		丛书
+4mbination of punches		组合拳
+2follower of daoism		道教徒
+2meeting of heroes		群英会
+dminds		兰交
+0bob of a plumbline		铅锤
+1reakup of a relationship		情变
+0pipes of a panpipe		笙管
+0reeds of a panpipe		笙簧
+0to go back to sleep		睡回笼觉
+3add to one's possessions		添置
+3lean to one side		倾侧
+3return to one's seat		归位
+3save from a calamity		解厄
+3withdraw from a competition		退赛
+3suffer from a plague		遭瘟
+3flick to one side		扒拉
+3dismount from a horse		下马
+3cling to one's view		一口咬定
+3emerge from a pupa		破蛹
+3awaken from a dream		惊梦
+3escape from a famine		逃荒
+3take up a job		上岗
+3jump from a building		跳楼
+3go off to war		出战
+4et people to laugh		搞笑
+3jump to one's death		堕楼
+3commit one's energy to		献身
+3look up to		景仰
+3pay no attention to		不予理会
+3go head to head		一较高下
+0ready to give and take		大丈夫能屈能伸
+0to send one's regards to		问好
+3put to good use		善用
+3go round and round		团团转
+3build up and train		整训
+3take up a challenge		应战
+3pay no heed to		置之不理
+3make a new start		更始
+3stick to one's statement		一口咬定
+iways		一条道走到黑
+4ay hello to		问好
+7goodbye to		挥别
+3try to figure out		揣摩
+3sink to one's knees		跪倒
+3go into a huff		耍脾气
+3confine to one location		禁足
+3say to oneself		默念
+3put out to contract		发包
+3make every effort to		力求
+3come back to life		复活
+3fail to show up		黄牛
+3try to cover up		藏掖
+3roll over and over		翻涌
+3take off and land		起降
+3look after and train		调驯
+3hand in for cancellation		缴销
+3turn out to vote		参选
+3go to school		上学
+0unable to go to school		失学
+0one and a half		一个半
+0to approve and carry out		批办
+3get into a habit		上瘾
+3call out to		招呼
+3get into a mess		受瘪
+3hand over face-to-face		面交
+3observe and make sure		看准
+3fail to live up		辜负
+3let go to waste		荒弃
+3differ to some extent		有所不同
+0not be capable		不行
+0to go cold and hungry		挨饿受冻
+3allow to go		放走
+0as should be		分当
+3things should be		论理
+0to lie in wait for		埋伏
+3go to war		参战
+3live up to		不负
+d expectations		不负众望
+3go and inspect		踏勘
+6to class		上课
+4ive a thumbs-up		比赞
+3toil to no avail		劳而无功
+0light and easy to use		轻巧
+0to go down a hill		下山
+3make a first sketch		打底
+8to order		订做
+3hold out a hand		伸手
+3shy to speak out		碍口
+3go to town		进城
+3fight a one-sided battle		胜之不武
+3pull a fast one		取巧
+3set up a home		安家
+3go to press		付印
+9bed		上床
+4et worse and worse		有增无减
+3stand up to		抵拒
+3make convenient and fast		便捷化
+3gang up and beat		围殴
+3start and finish work		上下班
+3go to prison		身陷牢狱
+9sleep		就寝
+6straight to		直奔
+3put to use		施展
+3arrest and take away		抓去
+3get red and swollen		紫胀
+3make such a diagnosis		脉诊
+0not to give in		争持
+0to get near to		近前
+4o to pot		下水
+3follow up a study		查究
+3get close to		一亲芳泽
+4o to jail		入狱
+3whisper to each other		耦语
+3get in touch with		接洽
+3make threats and promises		威逼利诱
+0a slave to one's mortgage		房奴
+0to go to beijing		进京
+9extremes		做绝
+9pieces		自乱阵脚
+9taiwan		去台
+0hard to get to		闭塞
+0convenient and easy to use		顺手儿
+0to leave work and rest		离休
+3try to win over		攻心
+3begin to take shape		有眉目
+3get drunk and quarrel		酗酒滋事
+3put out a fire		救火
+3jump into a well		跳井
+3put to work		役使
+7up a front		撑门面
+3get through a crisis		逃过一劫
+3have what it takes		有本事
+3open up a road		凿空
+3make good a deficit		扭亏
+3sum up to		共计
+4hilly-shally and waste time		泡蘑菇
+3lengthen out to		长达
+3make a telephone call		打电话
+8good a deficiency		找齐
+8a bad move		出臭子儿
+3wake up to reality		省悟
+3kiss up to		趋奉
+3find a way through		钻谋
+3continue to use		沿用
+3get to sleep		合眼
+3choose and use		采择
+3select and use		选用
+3make a short-term loan		拆借
+3put out a loan		出借
+3snuggle up to		依偎
+3make customary deferences to		朝拜
+8offensive reference to		问候
+crings to		供养
+k buddha		赕佛
+3nuzzle up to		挨擦
+3take a fierce look		虎起脸
+9fter a meal		饭后服用
+3get a bird's-eye view		鸟瞰
+4o a step further		进一步
+3copy and use		搬用
+3put up a bridge		架桥
+3look face to face		对视
+3decrease and then grow		消长
+3put up a guest		留宿
+0again and again and again		又双叒叕
+0to go around a corner		转弯
+3use such a voucher		凭单
+3work to support oneself		谋生
+3get off a plane		下飞机
+3come to an end		到头
+3move back and forward		捣弄
+3yearn to get married		恨嫁
+3make a sudden turn		急转弯
+3follow up a victory		乘胜
+3give aid and support		输血
+3take to court		状告
+3set up a constitution		立宪
+3take tea and chat		茶叙
+3bring back to life		救活
+3write out a receipt		开票
+3make a trip home		探家
+amove		出招
+aclarion call		登高一呼
+aphone call		摇电话
+3write out a prescription		处方
+3set a time limit		限时
+3become man and wife		配合
+3take measurements and calculate		测算
+3work and rest		作息
+3open up a path		开路
+3change over to		改用
+4ome to sb's help		相助
+3set up a stall		摆摊子
+3go round a curve		拐弯
+3make a complaint against		控诉
+3set up a teammate		做球
+3make a sound effect		拟音
+3build up a sequence		接龙
+3return to work		复工
+3select and send over		选送
+3make a supplementary report		补报
+apublic appeal		登高一呼
+3take upon oneself to		为己任
+3move back and forth		摆动
+3open up a siege		解免
+3make a general reference		泛指
+3hand over to		交由
+3make a u turn		调转
+3start up a furnace		开炉
+3come to power		当政
+3make a false start		抢跑
+3let out a secret		露底
+3take down a confession		录供
+4ransfer to other tasks		复转
+3pick up a car		提车
+3take to heart		放在心上
+3wind up a business		出盘
+3carry out a sentence		行刑
+3make a special effort		较劲
+3work oneself to death		累死累活
+3come thick and fast		纷至沓来
+4arry out a raid		进袭
+3make a name		蜚声
+3travel day and night		日夜兼程
+3make a round trip		来回
+3order again and again		三令五申
+3take exception to		不以为然
+3pick up a girl		把妹
+3make a return trip		往复
+3set a time frame		克日
+3transfer to civilian work		转业
+3divert to other uses		抽动
+3give and accept		授受
+3mold and educate people		陶甄
+3come to understand		觉悟
+blight		暴露无遗
+bmind		映入脑海
+3neglect to take precautions		疏于防范
+3come to sb's door		找上门
+3make a big fuss		大呼小叫
+asurprise attack		掩杀
+3give birth to young		分娩
+3make a strange sound		异响
+3give support to		摇旗呐喊
+3take to		带给
+3bark out a sound		叫唤
+0be honored with		荣获
+0to make a claim		提赔
+3take a different position		唱反调
+3look after a baby		育婴
+3make a fair copy		誊写
+acapital loss		亏折
+3turn a hand over		反手
+3get a slender figure		纤体
+3take a different approach		另辟蹊径
+3glance left and right		睃巡
+3make a considered decision		酌夺
+adecision		定夺
+aserious mistake		铸成大错
+3take a wrong turn		出漏子
+3lay out a defense		布防
+3make a mournful sound		哀鸣
+3take a degree course		念学位
+3make a sound		出声
+aclean copy		缮清
+3strike up a conversation		搭讪
+3think to oneself		心说
+3get a job		就业
+3make a conscious effort		刻意为之
+3take a curtain call		谢幕
+3make a v sign		比耶
+afirm resolution		下定决心
+3walk back and forth		转来转去
+3make a list		列出
+acontract		立约
+aproduction contract		包产
+3give free reins to		放任自流
+3criticize right and left		横挑鼻子竖挑眼
+3make a wish		许愿
+afire		拢火
+abed		铺床
+3like to lecture others		好为人师
+3make a formal request		声请
+bermented drink		酿酒
+across		画十字
+3give to higher authority		上交
+3pick up a fare		拉活
+3develop and change		衍化
+3take a case		接案
+3audit and write off		核销
+3make a supreme effort		极力
+3take a group photo		合影
+3give rise to		发祥
+3break into a run		拔腿
+3make a match		作合
+3hang down and cover		披垂
+3cry out a grievance		喊冤
+3make a loss		亏本
+akey		配钥匙
+aprofit		创利
+3take a number		抽号
+3extend a time limit		展限
+3get a girl		把妹
+3blurt out a secret		失口
+3drag out a lesson		拖堂
+3make a thorough search		翻箱倒柜
+apreliminary estimate		初估
+adetermined effort		发愤
+3touch up a painting		点厾
+3come to flower		着花
+3dig out a cave		挖穴
+0inevitably there will be		总有
+0to take a customer's order		接单
+3make a wild guess		瞎猜
+apinky promise		拉钩
+bromise		许下
+3cut a way through		凿空
+3make a copy		抄送
+3take a course		修课
+arefresher course		进修
+3stir up a row		捣乱
+3compare long and short		较短絜长
+3make a scene		大吵大闹
+3bowl a batsman out		投杀
+3make a speech		发言
+3get oneself a wife		娶媳妇
+3make a pair		作对
+3use a word flexibly		活用
+3make a mistake		疏失
+acareless mistake		失错
+3give material assistance to		接济
+3make a definite diagnosis		确诊
+3get a hair transplant		植发
+3meet face to face		逢迎
+c-to-face		照面
+4ake a map		制图
+aplate		制版
+anoise		喧闹
+3look and admire		披览
+3eke out a living		维持生活
+3kick up a racket		大喊大叫
+3make a guest appearance		客串
+3set a new record		刷新纪录
+3get a flat tire		爆胎
+3come to grief		吃亏
+3make a draft		起稿
+3act like a snob		狗眼看人低
+3repeat again and again		磨破嘴皮子
+3come to prominence		凸现
+3make a humble apology		肉袒
+0in front of one's eyes		眼底下
+0to come to fruition		修成正果
+a		映入
+a an agreement		说好
+bblows		剋架
+bchina		来华
+bhong kong		来港
+bnothing		化为泡影
+boneself		省悟
+brealize		感悟
+btaiwan		来台
+3make a bet		打赌
+acatalogue		编目
+afortune		发横财
+amess		乱搞
+bovie		拍电影
+3hush up a scandal		遮羞
+3make a tender		投标
+aconcession		容让
+3take a step toward		迈向
+3make a digest		文摘
+asolemn vow		信誓旦旦
+3rock back and forth		前仰后合
+3make a fist		握拳
+avow		宣誓
+3knock down and kill		撞死
+3read through to evaluate		批阅
+3pretend to look happy		强颜欢笑
+3make a definitive judgment		论定
+3cut into a line		夹塞儿
+3make a racket		吵吵
+3get a lift		搭车
+3make a blueprint		晒图
+adin		闹腾
+3give to poorer relative		周济
+3move to another post		调任
+4ake a detour		绕圈子
+apun		一语双关
+atumult		喧腾
+acocoon		作茧
+afaux pas		得罪
+atypo		打错
+0impossible to make a living		活不下去
+0to make a breakthrough		攻破
+acomeback		再起
+dparison		比一比
+cnfession		供称
+dtribution		建树
+crrection		更正
+adetailed inquiry		叮问
