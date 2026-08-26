@@ -2,7 +2,7 @@
   "source": "data\\ecdict_tagged_14942_compact.csv",
   "headwords": 70408,
   "schema": "compact-v3",
-  "cnIndexMode": "balanced",
+  "cnIndexMode": "core",
   "wordIndexFormat": "base36PrefixLen+suffix\\tbase36EntryId\\ttagCode(hex)",
   "entriesFormat": "base36PrefixLen+wordSuffix\\tpron\\tdef\\t[tagCode]",
   "entriesEncoding": "implicit-eid, front-coded-word, ipa-mapped, phrase-encoded",
@@ -47,9 +47,9 @@
   "cnIndexBuckets": 96,
   "cnBucketCount": 96,
   "zhBucketCount": 64,
-  "cnIndexPhrases": 119542,
-  "cnIndexLinks": 379200,
+  "cnIndexPhrases": 74031,
+  "cnIndexLinks": 114980,
   "ccCedictSource": "data\\cedict.txt.gz",
-  "ccCedictMerged": 84835,
+  "ccCedictMerged": 0,
   "resultLimit": 20
 }

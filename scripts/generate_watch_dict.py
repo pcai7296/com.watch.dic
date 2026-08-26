@@ -623,8 +623,8 @@ def main():
     parser.add_argument(
         "--cn-index-mode",
         choices=["full", "balanced", "core"],
-        default="balanced",
-        help="cn_index CC-CEDICT augmentation mode: full=keep all, balanced=keep <=3 chars, core=drop CC-CEDICT additions",
+        default="core",
+        help="cn_index CC-CEDICT augmentation mode: full=keep all, balanced=keep <=3 chars, core=drop CC-CEDICT additions (default)",
     )
     args = parser.parse_args()
 
@@ -930,8 +930,10 @@ def main():
                 cn_index.setdefault(bucket, {}).setdefault(phrase, set()).update(matched_ids)
 
         print(f"  [CC-CEDICT] 已合并 {ccedict_added} 个中文词组")
-    else:
+    elif not ccedict:
         print("  [CC-CEDICT] 跳过（文件未找到）")
+    else:
+        print("  [CC-CEDICT] 跳过（当前模式 core 不合并 CC-CEDICT）")
 
     cn_phrase_count = 0
     cn_link_count = 0
