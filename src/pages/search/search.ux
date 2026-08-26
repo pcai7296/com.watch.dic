@@ -47,6 +47,7 @@ import file from "@system.file"
 import storage from "@system.storage"
 import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
+import {getDictionaryProfile} from "../../common/dictProfile"
 
 const {buildTarget, navGuard} = global
 
@@ -554,11 +555,21 @@ export default {
   // 2+ chars with an alpha 2nd char -> 2-letter shard (e.g. "test" -> "te").
   // Single char -> head shard (e.g. "t" -> "t_head", top-N high-freq words).
   // Otherwise -> 1-letter file (rare, fallthrough).
+  _useTwoLetterShards() {
+    const profile = getDictionaryProfile()
+    return !!(profile && profile.wordTwoShards > 0)
+  },
+
+  _useHeadShards() {
+    const profile = getDictionaryProfile()
+    return !!(profile && profile.wordHeadShards > 0)
+  },
+
   _wordShardKey(seed) {
-    if (seed.length >= 2 && seed.charAt(1) >= "a" && seed.charAt(1) <= "z") {
+    if (this._useTwoLetterShards() && seed.length >= 2 && seed.charAt(1) >= "a" && seed.charAt(1) <= "z") {
       return seed.slice(0, 2)
     }
-    if (seed.length === 1) {
+    if (seed.length === 1 && this._useHeadShards()) {
       return seed.charAt(0) + "_head"
     }
     return seed.charAt(0)

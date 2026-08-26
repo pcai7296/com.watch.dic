@@ -47,6 +47,7 @@ import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
+import {getDictionaryProfile} from "../../common/dictProfile"
 
 const {navGuard} = global
 
@@ -937,9 +938,14 @@ export default {
   // Map a word query to the smallest shard that holds its candidates.
   // 2+ chars with an alpha 2nd char -> 2-letter shard (e.g. "test" -> "te");
   // otherwise -> 1-letter file (single char, or rare non-alpha 2nd char).
+  _useTwoLetterShards() {
+    const profile = getDictionaryProfile()
+    return !!(profile && profile.wordTwoShards > 0)
+  },
+
   _wordShardFor(q) {
     const s = this.normalizeWord(q)
-    if (s.length >= 2 && s.charAt(1) >= "a" && s.charAt(1) <= "z") {
+    if (this._useTwoLetterShards() && s.length >= 2 && s.charAt(1) >= "a" && s.charAt(1) <= "z") {
       return s.slice(0, 2)
     }
     return s.charAt(0)
@@ -949,7 +955,7 @@ export default {
     const q = this.normalizeWord(query)
     const first = q.charAt(0)
     if (first >= "a" && first <= "z") {
-      if (q.length >= 2 && q.charAt(1) >= "a" && q.charAt(1) <= "z") {
+      if (this._useTwoLetterShards() && q.length >= 2 && q.charAt(1) >= "a" && q.charAt(1) <= "z") {
         return [q.slice(0, 2)]
       }
       return [first]
