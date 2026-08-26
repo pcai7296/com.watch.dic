@@ -1008,7 +1008,7 @@ def main():
     write_txt(output_dir / "meta.json", json.dumps(stats, ensure_ascii=False, indent=2))
     if OUT.exists():
         shutil.rmtree(OUT)
-    output_dir.rename(OUT)
+    shutil.move(output_dir, OUT)
     print(json.dumps(stats, ensure_ascii=False))
 
 
