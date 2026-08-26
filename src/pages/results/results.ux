@@ -1685,7 +1685,7 @@ export default {
     }
     var token = this.searchToken
     var self = this
-    this.readText("/common/dict/words/word_" + first + ".txt", function(text) {
+    this.readText("/common/dict/words/word_" + this._wordShardFor(query) + ".txt", function(text) {
       if (token !== self.searchToken) {
         return
       }
