@@ -428,9 +428,7 @@ export default {
           return
         }
 
-        const shards = this.getCandidateShards(normalized)
-
-        this.collectShardResults(shards, normalized, results, seen, 0, () => {
+        this.collectEnglishResults(normalized, results, seen, () => {
           this.collectInflectResult(normalized, results, seen, () => {
             if (token !== this.searchToken) {
               return
@@ -646,6 +644,14 @@ export default {
 
       done()
     })
+  },
+
+  // 普通英文搜索优先中高考单词
+  _getNormalTagPriority(tag) {
+    if (!tag) return 0
+    if (tag.indexOf("zk") >= 0) return 2
+    if (tag.indexOf("gk") >= 0) return 1
+    return 0
   },
 
   // 获取考试标签权重
@@ -1039,6 +1045,45 @@ export default {
       return [first]
     }
     return []
+  },
+
+  collectEnglishResults(query, results, seen, done) {
+    const shards = this.getCandidateShards(query)
+    const candidates = []
+    const self = this
+    let shardIndex = 0
+
+    const nextShard = () => {
+      if (self.destroyed || shardIndex >= shards.length || candidates.length >= 80) {
+        // 中高考优先，同优先级保持分片原始顺序
+        candidates.sort((a, b) => {
+          const pa = self._getNormalTagPriority(a.tag)
+          const pb = self._getNormalTagPriority(b.tag)
+          if (pa !== pb) {
+            return pb - pa
+          }
+          return a._order - b._order
+        })
+        self.hydrateCompactCandidates(candidates, results, 0, done)
+        return
+      }
+      const shard = shards[shardIndex]
+      shardIndex++
+      self.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
+        if (self.destroyed) {
+          done()
+          return
+        }
+        const before = candidates.length
+        self.collectCompactWordCandidates(text, query, candidates, seen, "", 80 - before)
+        for (let i = before; i < candidates.length; i++) {
+          candidates[i]._order = i
+        }
+        nextShard()
+      })
+    }
+
+    nextShard()
   },
 
   collectShardResults(shards, query, results, seen, index, done, source) {
