@@ -156,7 +156,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("search device.getInfo failed; using compiled target: " + code)
-      }
+      },
+      complete: () => {}
     })
     if (this.queryParam) {
       this.query = this.queryParam
@@ -634,7 +635,8 @@ export default {
         for (var i = 0; i < pending.length; i++) {
           pending[i]([])
         }
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -657,7 +659,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("search storage.get failed: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -674,7 +677,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("search swipe setting get failed: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 
