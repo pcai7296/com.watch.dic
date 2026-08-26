@@ -23,7 +23,7 @@
       <text class="hint-text">清空即可退出</text>
     </div>
 
-    <input-method
+    <input-method if="{{ imeMounted }}"
       hide="{{ keyboardHidden }}"
       keyboardtype="{{ keyboardType }}"
       maxlength="{{ maxLength }}"
@@ -33,7 +33,6 @@
       @key-down="onKeyDown"
       @delete="onDelete"
       @complete="onComplete"
-      @ready="onReady"
       englishonly="{{ searchMode === 'inflect' }}"
     ></input-method>
   </div>
@@ -105,6 +104,7 @@ export default {
     searchSubmitLocked: false,
     _suggestionTimer: null,
     autoSearchTimer: null,
+    imeMounted: false,
     marqueeTimer: null,
     tapTimes: [],
     marqueeActive: false,
@@ -166,8 +166,8 @@ export default {
     this.refreshDisplay()
     if (this.autoSearch === "1" && this.query) {
       this.autoSearchPending = true
-      // 等待 InputMethod 异步初始化完成（ready 事件）后再跳转
-      // timeout 兜底，防止 ready 事件过早/过晚触发
+      // 等待页面 onReady（子组件构建完成）后再跳转
+      // timeout 兜底，防止 onReady 过早/过晚触发
       this.autoSearchTimer = setTimeout(() => {
         this.autoSearchTimer = null
         if (!this.destroyed && this.autoSearchPending) {
@@ -226,6 +226,9 @@ export default {
     this.searchSubmitLocked = false
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()
+    if (!this.imeMounted && !this.keyboardHidden) {
+      this.imeMounted = true
+    }
   },
 
   onReady() {
@@ -245,6 +248,9 @@ export default {
 
   toggleKeyboard() {
     this.keyboardHidden = !this.keyboardHidden
+    if (!this.imeMounted && !this.keyboardHidden) {
+      this.imeMounted = true
+    }
     this.refreshDisplay()
   },
 
