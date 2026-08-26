@@ -18,7 +18,12 @@
     "deploy:watch": "powershell -ExecutionPolicy Bypass -File scripts\\deploy_watch.ps1",
     "deploy:watch:fast": "powershell -ExecutionPolicy Bypass -File scripts\\deploy_watch.ps1 -NoBuild",
     "release": "aiot release",
-    "lint": "eslint --format codeframe --fix --ext .ux,.js src/"
+    "lint": "eslint --format codeframe --fix --ext .ux,.js src/",
+    "dict:dev": "python scripts/generate_watch_dict.py --profile dev",
+    "dict:lite": "python scripts/generate_watch_dict.py --profile lite --cn-index-mode balanced",
+    "dict:standard": "python scripts/generate_watch_dict.py --profile standard --cn-index-mode balanced",
+    "audit:dict": "python scripts/profile_audit.py",
+    "bench:dict": "python scripts/bench_search.py"
   },
   "lint-staged": {
     "*.{ux,js}": [
