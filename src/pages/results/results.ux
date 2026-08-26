@@ -1119,8 +1119,8 @@ export default {
     // Only the leading rows matter: the scan itself stops at FUZZY_SCAN_LIMIT,
     // so avoid materializing the entire first-letter file (up to ~16k lines)
     // as a string array here.
-    const lines = text.split("\n").slice(0, FUZZY_SCAN_LIMIT)
-      for (let i = 0; i < lines.length; i++) {
+    const lines = text.split("\n", FUZZY_SCAN_LIMIT + 1)
+      for (let i = 0; i < lines.length && i < FUZZY_SCAN_LIMIT; i++) {
         const parts = lines[i].split("\t")
         if (parts.length < 3) {
           prevWord = ""
@@ -1366,7 +1366,7 @@ export default {
       return
     }
     var prevWord = ""
-    const lines = text.split("\n")
+    const lines = text.split("\n", FUZZY_SCAN_LIMIT + 1)
     for (
       let i = 0;
       i < lines.length &&
