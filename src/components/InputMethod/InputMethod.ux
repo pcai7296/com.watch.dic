@@ -734,12 +734,10 @@ export default {
           this.screenWidth = width
           this.keyboardLeftOffset = Math.max(0, (width - 192) / 2)
         }
-        this.$emit("ready", {})
       },
       fail: () => {
         this.screenWidth = buildTarget.width
         this.keyboardLeftOffset = Math.max(0, (buildTarget.width - 192) / 2)
-        this.$emit("ready", {})
       }
     })
   },
