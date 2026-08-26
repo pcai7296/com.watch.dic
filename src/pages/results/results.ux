@@ -257,7 +257,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("results long press setting get failed: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -348,7 +349,8 @@ export default {
       fail: function() {
         self.historyCache = []
         self._startNormalSearch(normalized, token)
-      }
+      },
+      complete: function() {}
     })
   },
 
@@ -1659,7 +1661,8 @@ export default {
       },
       fail: function() {
         self._writeHistoryBlock(null, query, ids)
-      }
+      },
+      complete: function() {}
     })
   },
 
@@ -1683,7 +1686,8 @@ export default {
 
     storage.set({
       key: "dic_history",
-      value: JSON.stringify(output)
+      value: JSON.stringify(output),
+      complete: function() {}
     })
   },
 
