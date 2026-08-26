@@ -458,7 +458,7 @@ def read_xlsx_rows(path):
 def load_word_family_links(word_set):
     stats = {
         "available": WORD_FAMILY_SOURCE.exists(),
-        "source": str(WORD_FAMILY_SOURCE),
+        "source": str(WORD_FAMILY_SOURCE.relative_to(ROOT)),
         "sourceUrl": WORD_FAMILY_SOURCE_URL,
         "rows": 0,
         "matchedRows": 0,
@@ -544,7 +544,7 @@ def load_wordnet_derived_links(word_set):
     """
     stats = {
         "available": WORDNET_DIR.exists(),
-        "source": str(WORDNET_DIR),
+        "source": str(WORDNET_DIR.relative_to(ROOT)),
         "totalLinks": 0,
         "matchedLinks": 0,
         "links": [],
@@ -950,7 +950,7 @@ def main():
         write_txt(output_dir / "zh_index" / f"zh_{bucket}.txt", "\n".join(lines) + "\n")
 
     stats = {
-        "source": str(SOURCE),
+        "source": str(SOURCE.relative_to(ROOT)),
         "headwords": len(rows),
         "schema": "compact-v3",
         "wordIndexFormat": "base36PrefixLen+suffix\\tbase36EntryId\\ttagCode(hex)",
