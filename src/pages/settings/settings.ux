@@ -51,7 +51,7 @@ const {navGuard} = global
 
 export default {
   private: {
-    englishSuggestionEnabled: true,
+    englishSuggestionEnabled: false,
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
     btnScaleEnabled: true,
@@ -69,7 +69,7 @@ export default {
         this.layoutMode = value
       }
     }.bind(this))
-    this._loadSetting("dic_english_suggestions", "1", function(value) {
+    this._loadSetting("dic_english_suggestions", "0", function(value) {
       this.englishSuggestionEnabled = value !== "0"
     }.bind(this))
     this._loadSetting("dic_result_long_press_home", "1", function(value) {

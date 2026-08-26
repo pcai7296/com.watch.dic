@@ -55,6 +55,7 @@ const FUZZY_SCAN_LIMIT = 4000
 const FUZZY_POOL_LIMIT = 80
 const MAX_SAFE_ENTRY_ID = 9007199254740991
 const WORD_INDEX_LETTERS = "abcdefghijklmnopqrstuvwxyz"
+const MAX_CHINESE_SCAN_SHARDS = 10
 
 class LRUCache {
   constructor(max) {
@@ -474,7 +475,7 @@ export default {
       var idsInShard = groups[shard]
       shardIdx++
 
-      self.loadEntryShard(shard, function(entries) {
+      self.loadEntryShardItems(shard, idsInShard, function(entries) {
         if (token !== self.searchToken) return
         var seen = {}
         for (var i = 0; i < self.resultCards.length; i++) {
@@ -721,73 +722,104 @@ export default {
   },
 
   collectChineseResults(ids, query, results, seen, index, token, done) {
-    if (token !== this.searchToken || this.destroyed || index >= ids.length || this.resultCards.length >= 20) {
+    if (token !== this.searchToken || this.destroyed || this.resultCards.length >= 20) {
       done()
       return
     }
-
-    const entryId = this.parseEntryId(ids[index])
-    if (entryId < 0) {
-      this.collectChineseResults(ids, query, results, seen, index + 1, token, done)
-      return
-    }
-
-    const shard = this.entryShardFor(entryId)
-    this.loadEntryShard(shard, (entries) => {
-      if (token !== this.searchToken || this.destroyed) {
+    const grouped = this._groupIdsByShard(ids)
+    const shardOrder = grouped.order
+    const groups = grouped.groups
+    let shardIndex = 0
+    const self = this
+    const nextShard = () => {
+      if (token !== self.searchToken || self.destroyed || self.resultCards.length >= 20 || shardIndex >= shardOrder.length || shardIndex >= MAX_CHINESE_SCAN_SHARDS) {
         done()
         return
       }
-      let nextIndex = index
-      while (nextIndex < ids.length && this.resultCards.length < 20) {
-        const nextId = this.parseEntryId(ids[nextIndex])
-        if (nextId < 0 || this.entryShardFor(nextId) !== shard) {
-          break
+      const shard = shardOrder[shardIndex]
+      const wantedIds = groups[shard]
+      shardIndex++
+      self.loadEntryShardItems(shard, wantedIds, (entries) => {
+        if (token !== self.searchToken || self.destroyed) {
+          done()
+          return
         }
-
-        const item = entries[nextId]
-        if (item) {
-          const lower = this.normalizeWord(item.word)
-          if (!seen[lower] && this.normalizeChineseText(item.translation).indexOf(query) >= 0) {
+        for (let i = 0; i < wantedIds.length && self.resultCards.length < 20; i++) {
+          const entryId = wantedIds[i]
+          const item = entries[entryId]
+          if (!item) continue
+          const lower = self.normalizeWord(item.word)
+          if (!seen[lower] && self.normalizeChineseText(item.translation).indexOf(query) >= 0) {
             seen[lower] = true
-            const card = this.createResultCard(nextId, lower, item.word, item.phonetic, item.translation, item.tag)
+            const card = self.createResultCard(entryId, lower, item.word, item.phonetic, item.translation, item.tag)
             results.push(card)
-            this._enqueueCard(card)
+            self._enqueueCard(card)
           }
         }
-        nextIndex++
-      }
-
-      this.collectChineseResults(ids, query, results, seen, nextIndex, token, done)
-    })
+        nextShard()
+      })
+    }
+    nextShard()
   },
 
-  loadCnIndex(bucket, done) {
-    const cached = this.cnIndexCache.get(bucket)
+  loadCnMatches(bucket, query, done) {
+    const cacheKey = bucket + "|" + query
+    const cached = this.cnIndexCache.get(cacheKey)
     if (cached) {
       done(cached)
       return
     }
 
-    this.readText("/common/dict/cn_index/cn_" + bucket + ".txt", (text) => {
-      const indexMap = {}
+    const uri = "/common/dict/cn_index/cn_" + bucket + ".txt"
+    this.readText(uri, (text) => {
+      if (this.destroyed) {
+        done([])
+        return
+      }
+      const ids = []
+      const idSeen = {}
       var prevPhrase = ""
       const lines = text.split("\n")
-      for (let i = 0; i < lines.length; i++) {
+      let exactFound = false
+      let prefixKeys = 0
+      for (let i = 0; i < lines.length && ids.length < 50; i++) {
         const parts = lines[i].split("\t")
-        if (parts.length >= 2) {
-          var phrase = decodePrefixField(parts[0], prevPhrase)
-          if (phrase === null) {
-            continue
+        if (parts.length < 2) continue
+        const phrase = decodePrefixField(parts[0], prevPhrase)
+        if (phrase === null) continue
+        prevPhrase = phrase
+
+        if (phrase === query) {
+          exactFound = true
+          const list = decodeDeltaIds(parts[1]) || []
+          for (let j = 0; j < list.length && ids.length < 50; j++) {
+            const id = list[j]
+            if (!idSeen[id]) {
+              idSeen[id] = true
+              ids.push(id)
+            }
           }
-          indexMap[phrase] = decodeDeltaIds(parts[1])
-          prevPhrase = phrase
+          break
+        }
+
+        if (!exactFound && phrase.indexOf(query) === 0) {
+          prefixKeys++
+          if (prefixKeys > 20) continue
+          const list = decodeDeltaIds(parts[1]) || []
+          const limited = list.slice(0, 10)
+          for (let j = 0; j < limited.length && ids.length < 50; j++) {
+            const id = limited[j]
+            if (!idSeen[id]) {
+              idSeen[id] = true
+              ids.push(id)
+            }
+          }
         }
       }
-      this.cnIndexCache.set(bucket, indexMap)
-      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
-      this.fileCache.delete("/common/dict/cn_index/cn_" + bucket + ".txt")
-      done(indexMap)
+      // 原始文本不再需要，立即释放
+      this.fileCache.delete(uri)
+      this.cnIndexCache.set(cacheKey, ids)
+      done(ids)
     })
   },
 
@@ -803,85 +835,58 @@ export default {
     }
 
     const bucket = this.cnBucketFor(firstChar)
-    this.loadCnIndex(bucket, (indexMap) => {
+    this.loadCnMatches(bucket, query, (ids) => {
       if (token !== this.searchToken || this.destroyed) {
         done(results)
         return
       }
-      let ids = indexMap[query]
-
-      // Prefix match fallback: max 20 candidate keys, 10 IDs per key, 50 total
-      if (!ids) {
-        const candidates = Object.keys(indexMap)
-          .filter((key) => key.indexOf(query) === 0)
-          .slice(0, 20)
-
-        const allIds = []
-        const idSeen = {}
-        for (let i = 0; i < candidates.length; i++) {
-          const idList = indexMap[candidates[i]] || []
-          const limited = idList.slice(0, 10)
-          for (let j = 0; j < limited.length; j++) {
-            if (!idSeen[limited[j]]) {
-              idSeen[limited[j]] = true
-              allIds.push(limited[j])
-            }
-          }
-        }
-        ids = allIds.slice(0, 50)
-      } else {
-        ids = ids.slice(0, 50)
-      }
-
       if (!ids || ids.length === 0) {
         done(results)
         return
       }
-
       this.fetchEntriesByIds(ids, results, seen, 0, token, done)
     })
   },
 
   fetchEntriesByIds(ids, results, seen, index, token, done) {
-    if (token !== this.searchToken || this.destroyed || index >= ids.length || this.resultCards.length >= 20) {
+    if (token !== this.searchToken || this.destroyed || this.resultCards.length >= 20) {
       done(results)
       return
     }
-
-    const entryId = this.parseEntryId(ids[index])
-    if (entryId < 0) {
-      this.fetchEntriesByIds(ids, results, seen, index + 1, token, done)
-      return
-    }
-
-    const shard = this.entryShardFor(entryId)
-    this.loadEntryShard(shard, (entries) => {
-      if (token !== this.searchToken || this.destroyed) {
+    const grouped = this._groupIdsByShard(ids)
+    const shardOrder = grouped.order
+    const groups = grouped.groups
+    let shardIndex = 0
+    const self = this
+    const nextShard = () => {
+      if (token !== self.searchToken || self.destroyed || self.resultCards.length >= 20 || shardIndex >= shardOrder.length) {
         done(results)
         return
       }
-      let nextIndex = index
-      while (nextIndex < ids.length && this.resultCards.length < 20) {
-        const nextId = this.parseEntryId(ids[nextIndex])
-        if (nextId < 0 || this.entryShardFor(nextId) !== shard) {
-          break
+      const shard = shardOrder[shardIndex]
+      const wantedIds = groups[shard]
+      shardIndex++
+      self.loadEntryShardItems(shard, wantedIds, (entries) => {
+        if (token !== self.searchToken || self.destroyed) {
+          done(results)
+          return
         }
-
-        const item = entries[nextId]
-        if (item) {
-          const lower = this.normalizeWord(item.word)
+        for (let i = 0; i < wantedIds.length && self.resultCards.length < 20; i++) {
+          const entryId = wantedIds[i]
+          const item = entries[entryId]
+          if (!item) continue
+          const lower = self.normalizeWord(item.word)
           if (!seen[lower]) {
             seen[lower] = true
-            const card = this.createResultCard(nextId, lower, item.word, item.phonetic, item.translation, item.tag)
+            const card = self.createResultCard(entryId, lower, item.word, item.phonetic, item.translation, item.tag)
             results.push(card)
-            this._enqueueCard(card)
+            self._enqueueCard(card)
           }
         }
-        nextIndex++
-      }
-
-      this.fetchEntriesByIds(ids, results, seen, nextIndex, token, done)
-    })
+        nextShard()
+      })
+    }
+    nextShard()
   },
 
   loadEntryShard(shard, done) {
@@ -916,6 +921,77 @@ export default {
       this.entryCache.set(shard, entries)
       // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
       this.fileCache.delete("/common/dict/entries/entry_" + shard + ".txt")
+      done(entries)
+    })
+  },
+
+  _groupIdsByShard(ids) {
+    const groups = {}
+    const order = []
+    for (let i = 0; i < ids.length; i++) {
+      const entryId = this.parseEntryId(ids[i])
+      if (entryId < 0) continue
+      const shard = this.entryShardFor(entryId)
+      if (!groups[shard]) {
+        groups[shard] = []
+        order.push(shard)
+      }
+      groups[shard].push(entryId)
+    }
+    return {groups: groups, order: order}
+  },
+
+  loadEntryShardItems(shard, wantedIds, done) {
+    const cacheKey = "partial:" + shard
+    const cached = this.entryCache.get(cacheKey)
+    if (cached) {
+      const out = {}
+      for (let i = 0; i < wantedIds.length; i++) {
+        if (cached[wantedIds[i]]) {
+          out[wantedIds[i]] = cached[wantedIds[i]]
+        }
+      }
+      done(out)
+      return
+    }
+
+    const uri = "/common/dict/entries/entry_" + shard + ".txt"
+    this.readText(uri, (text) => {
+      if (this.destroyed) {
+        done({})
+        return
+      }
+      const entries = {}
+      const baseId = parseInt(shard, 10) * 500
+      const wanted = {}
+      for (let i = 0; i < wantedIds.length; i++) {
+        wanted[wantedIds[i]] = true
+      }
+      const lines = text.split("\n")
+      var previousWord = ""
+      for (let i = 0; i < lines.length; i++) {
+        const parts = lines[i].split("\t")
+        if (parts.length < 3) {
+          continue
+        }
+        const entryId = baseId + i
+        var word = decodePrefixField(parts[0], previousWord)
+        if (word === null) {
+          continue
+        }
+        previousWord = word
+        if (!wanted[entryId]) {
+          continue
+        }
+        entries[entryId] = {
+          word: word,
+          phonetic: parts[1] || "",
+          translation: parts[2] || "",
+          tag: parts[3] || ""
+        }
+      }
+      this.fileCache.delete(uri)
+      this.entryCache.set(cacheKey, entries)
       done(entries)
     })
   },
@@ -1805,7 +1881,7 @@ export default {
       var shard = shardKeys[shardIdx]
       var idsInShard = groups[shard]
       shardIdx++
-      self.loadEntryShard(shard, function(entries) {
+      self.loadEntryShardItems(shard, idsInShard, function(entries) {
         for (var j = 0; j < idsInShard.length; j++) {
           var entryId = idsInShard[j]
           var item = entries[entryId]
@@ -2052,7 +2128,8 @@ export default {
         if (this.destroyed) return
         this.fileCache.set(uri, "")
         done("")
-      }
+      },
+      complete: () => {}
     })
   },
 
