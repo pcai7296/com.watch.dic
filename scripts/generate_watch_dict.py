@@ -143,6 +143,22 @@ def encode_tag_bitmap(value):
     return "" if mask == 0 else format(mask, 'x')
 
 
+_TAG_RANK_WEIGHTS = {
+    "zk": 40, "gk": 36, "cet4": 30, "cet6": 18, "ky": 18,
+    "toefl": 8, "ielts": 8, "gre": -8,
+}
+
+
+def _tag_rank(tag):
+    """Rank a word by exam-tag usefulness (mirrors runtime scoreEnglishCandidate)."""
+    if not tag:
+        return 0
+    score = 0
+    for t in tag.split():
+        score += _TAG_RANK_WEIGHTS.get(t, 0)
+    return score
+
+
 def encode_phrase_dict(value):
     """Replace common POS/domain markers with single-char codes."""
     if not value:
@@ -678,6 +694,7 @@ def main():
     (output_dir / "cn_index").mkdir(parents=True)
 
     word_indexes = {letter: [] for letter in "abcdefghijklmnopqrstuvwxyz"}
+    word_two = {}
     inflect = {}
     reverse_inflect = {}
 
@@ -705,6 +722,9 @@ def main():
         first_letter = row["word"].lower()[0]
         if first_letter in word_indexes:
             word_indexes[first_letter].append((entry_id, row))
+        two = row["word"].lower()[:2]
+        if len(two) == 2 and "a" <= two[0] <= "z" and "a" <= two[1] <= "z":
+            word_two.setdefault(two, []).append((entry_id, row))
         entry_shard = entry_shard_for(entry_id)
         entry_shards.setdefault(entry_shard, []).append((entry_id, row))
 
@@ -751,9 +771,47 @@ def main():
                 )
             )
             prev_word = word
-        write_txt(output_dir / "words" / f"word_{first_letter}.txt", 
+        write_txt(output_dir / "words" / f"word_{first_letter}.txt",
             "\n".join(lines) + "\n"
         )
+
+    def write_word_shard(filename, rows):
+        rows = sorted(rows, key=lambda item: item[1]["word"].lower())
+        lines = []
+        prev_word = ""
+        for entry_id, row in rows:
+            word = row["word"]
+            lines.append(
+                "\t".join(
+                    [
+                        encode_front_code(word, prev_word),
+                        to_base36(entry_id),
+                        encode_tag_bitmap(compact_tag(row["tag"])),
+                    ]
+                )
+            )
+            prev_word = word
+        write_txt(output_dir / "words" / filename, "\n".join(lines) + "\n")
+
+    # 2-letter prefix shards (hot path: autocomplete + exact/prefix search)
+    # Write all 676 combos (incl. empty) so every word_<two>.txt path exists and
+    # runtime readers never stall on a missing file.
+    two_shard_count = 0
+    for a in "abcdefghijklmnopqrstuvwxyz":
+        for b in "abcdefghijklmnopqrstuvwxyz":
+            two = a + b
+            write_word_shard(f"word_{two}.txt", word_two.get(two, []))
+            two_shard_count += 1
+
+    # Single-letter head shards: top-ranked words for single-char autocomplete seed
+    head_shard_count = 0
+    for first_letter, indexed_rows in sorted(word_indexes.items()):
+        head_rows = sorted(
+            indexed_rows,
+            key=lambda item: (-_tag_rank(item[1]["tag"]), item[1]["word"].lower()),
+        )[:200]
+        write_word_shard(f"word_{first_letter}_head.txt", head_rows)
+        head_shard_count += 1
 
     inflect_rows = []
     for forms in inflect.values():
@@ -898,7 +956,10 @@ def main():
         "entriesEncoding": "implicit-eid, front-coded-word, ipa-mapped, phrase-encoded",
         "wordIndexFiles": len(word_indexes),
         "wordIndexEntries": len(rows),
-        "wordShards": len(word_indexes),
+        "wordShards": len(word_indexes) + two_shard_count + head_shard_count,
+        "wordLetterShards": len(word_indexes),
+        "wordTwoShards": two_shard_count,
+        "wordHeadShards": head_shard_count,
         "chineseIdEncoding": "base64url-uleb128-delta",
         "chineseIdOrdering": "strictly-increasing",
         "inflectShards": len(inflect),

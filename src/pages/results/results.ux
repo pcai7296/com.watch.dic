@@ -395,7 +395,7 @@ export default {
           this.finishEnglishSearch(normalized, token)
           return
         }
-        this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
+        this.readText("/common/dict/words/word_" + this._wordShardFor(normalized) + ".txt", (text) => {
           if (token !== this.searchToken) {
             return
           }
@@ -934,9 +934,24 @@ export default {
     done()
   },
 
+  // Map a word query to the smallest shard that holds its candidates.
+  // 2+ chars with an alpha 2nd char -> 2-letter shard (e.g. "test" -> "te");
+  // otherwise -> 1-letter file (single char, or rare non-alpha 2nd char).
+  _wordShardFor(q) {
+    const s = this.normalizeWord(q)
+    if (s.length >= 2 && s.charAt(1) >= "a" && s.charAt(1) <= "z") {
+      return s.slice(0, 2)
+    }
+    return s.charAt(0)
+  },
+
   getCandidateShards(query) {
-    const first = this.normalizeWord(query).charAt(0)
+    const q = this.normalizeWord(query)
+    const first = q.charAt(0)
     if (first >= "a" && first <= "z") {
+      if (q.length >= 2 && q.charAt(1) >= "a" && q.charAt(1) <= "z") {
+        return [q.slice(0, 2)]
+      }
       return [first]
     }
     return []
@@ -1075,7 +1090,7 @@ export default {
     // 先查词库，有则用词库释义；无则用词根释义
     const first = lower.charAt(0)
     if (first >= "a" && first <= "z") {
-      this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
+      this.readText("/common/dict/words/word_" + this._wordShardFor(form) + ".txt", (text) => {
         const candidates = []
         this.collectCompactWordCandidates(text, form, candidates, seen, "变形", 1)
         if (candidates.length > 0) {
@@ -1099,9 +1114,12 @@ export default {
       done()
       return
     }
-    this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
-      var prevWord = ""
-      const lines = text.split("\n")
+    this.readText("/common/dict/words/word_" + this._wordShardFor(baseWord) + ".txt", (text) => {
+    var prevWord = ""
+    // Only the leading rows matter: the scan itself stops at FUZZY_SCAN_LIMIT,
+    // so avoid materializing the entire first-letter file (up to ~16k lines)
+    // as a string array here.
+    const lines = text.split("\n").slice(0, FUZZY_SCAN_LIMIT)
       for (let i = 0; i < lines.length; i++) {
         const parts = lines[i].split("\t")
         if (parts.length < 3) {
@@ -1171,7 +1189,7 @@ export default {
       return
     }
 
-    this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
+    this.readText("/common/dict/words/word_" + this._wordShardFor(base) + ".txt", (text) => {
       const candidates = []
       this.collectCompactWordCandidates(text, base, candidates, seen, "变形", 1)
       this.hydrateCompactCandidates(candidates, results, 0, () => {

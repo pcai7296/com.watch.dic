@@ -130,11 +130,17 @@ export default {
     return decodePrefixField(parts[0], prevWord) || ""
   },
 
+  // Parse at most SUGGESTION_PARSE_LIMIT rows. Autocomplete only consumes the
+  // first 80 candidates via scanEnglishSuggestionRows, and the shard is
+  // alphabetically ordered so every "startsWith(seed)" word for a 2-letter
+  // seed lives in the leading rows. Capping here keeps a 200KB shard (e.g.
+  // word_to.txt) from materializing ~13k objects in memory.
   _parseSuggestionLines(text) {
     var rows = text.split("\n")
+    var LIMIT = 800
     var out = []
     var prevWord = ""
-    for (var i = 0; i < rows.length; i++) {
+    for (var i = 0; i < rows.length && i < LIMIT; i++) {
       var parts = rows[i].split("\t")
       if (parts.length >= 3) {
         var word = this._decodeWordPrefix(parts, prevWord)
@@ -532,7 +538,7 @@ export default {
       return
     }
 
-    this.loadEnglishSuggestionSource(normalized.charAt(0), (source) => {
+    this.loadEnglishSuggestionSource(this._wordShardKey(normalized), (source) => {
       if (suggestionToken !== this.englishSuggestionToken) {
         return
       }
@@ -555,6 +561,24 @@ export default {
       self._suggestionTimer = null
       self.refreshEnglishSuggestions(self.englishSeed)
     }, 200)
+  },
+
+  // Map an autocomplete seed to the smallest shard that contains its candidates.
+  // 2+ chars with an alpha 2nd char -> 2-letter shard (e.g. "test" -> "te").
+  // Single char -> head shard (e.g. "t" -> "t_head", top-N high-freq words).
+  // Otherwise -> 1-letter file (rare, fallthrough).
+  _wordShardKey(seed) {
+    if (seed.length >= 2 && seed.charAt(1) >= "a" && seed.charAt(1) <= "z") {
+      return seed.slice(0, 2)
+    }
+    if (seed.length === 1) {
+      return seed.charAt(0) + "_head"
+    }
+    return seed.charAt(0)
+  },
+
+  _wordShardPath(key) {
+    return "/common/dict/words/word_" + key + ".txt"
   },
 
   loadEnglishSuggestionSource(letter, done) {
@@ -581,7 +605,7 @@ export default {
     this.englishSuggestionPending[letter] = [done]
 
     file.readText({
-      uri: "/common/dict/words/word_" + letter + ".txt",
+      uri: this._wordShardPath(letter),
       encoding: "utf-8",
       success: (data) => {
         if (this.destroyed) {
