@@ -2124,7 +2124,7 @@ export default {
       encoding: "utf-8",
       success: (data) => {
         if (this.destroyed) return
-        const text = data && data.text ? data.text : ""
+        const text = (data && data.text ? data.text : "").replace(/\r/g, "")
         this.fileCache.set(uri, text)
         done(text)
       },
