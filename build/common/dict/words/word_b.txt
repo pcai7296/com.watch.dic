@@ -6,6 +6,11 @@
 2cchanal	tl	80
 3helor	tm	5e
 3k	tn	23
+4 of	bji	
+7 the hand	cj9	
+dead	cjh	
+cknife	ckl	
+cline	cjo	
 4ache	to	2
 4bone	tp	48
 4drop	tq	c0
@@ -28,11 +33,14 @@
 2ffle	u7	a8
 2g	u8	3
 3gage	u9	76
+3s of	boa	
+5under the eyes	ex3	
 2il	ua	80
 3t	ub	f8
 2ke	uc	36
 4ry	ud	2
 2lance	ue	76
+7 of	bjg	
 7d	uf	40
 3cony	ug	7e
 3d	uh	78
@@ -87,6 +95,7 @@
 6shop	vu	2
 3d	vv	80
 3e	vw	f6
+4 to the waist	def	
 4faced	vx	80
 4ly	vy	7c
 3gain	vz	be
@@ -100,12 +109,15 @@
 3rage	w7	80
 4el	w8	7c
 5n	w9	f8
+6 of	bnr	
 6ness	wa	40
 4icade	wb	e0
 5er	wc	fe
 5ster	wd	80
 3ter	we	e0
 2se	wf	96
+4 of the ear	coe	
+cskull	coy	
 4ball	wg	3f
 4ment	wh	7a
 3hful	wi	40
@@ -140,6 +152,19 @@
 2y	xb	7e
 2zaar	xc	88
 1e	xd	3
+2 better to	dvm	
+4ound to	e0k	
+3in power	egc	
+3of some help	djn	
+4n a diet	dnv	
+4ut of the question	bz2	
+3smooth and slick	dw2	
+4ure not to	dj9	
+8to	dvu	
+3that as it may	dp2	
+4o laid off	dut	
+3unequal to	e0l	
+3worthy of	dqv	
 2ach	xe	37
 4on	xf	c0
 3d	xg	68
@@ -154,13 +179,16 @@
 3st	xp	56
 3t	xq	e3
 4ific	xr	80
+5ng of the heart	cre	
 4s	xs	20
 3utiful	xt	23
 5y	xu	36
 3ver	xv	40
 2cause	xw	3
+7 of	bou	
 3kon	xx	80
 3ome	xy	23
+6 of	bm1	
 5ing	xz	40
 2d	y0	3
 3clothes	y1	2
@@ -180,6 +208,9 @@
 3t	yf	80
 4le	yg	8
 2fore	yh	3
+6 the common era	erz	
+bevent	esh	
+bpresent	ery	
 6hand	yi	7c
 3uddle	yj	c0
 8ment	yk	80
@@ -190,6 +221,7 @@
 5ner	yp	4
 8s	yq	20
 6ing	yr	3e
+9 of the year	cj8	
 3rudge	ys	c0
 3uile	yt	c0
 2half	yu	7e
@@ -197,11 +229,16 @@
 5ior	yw	7c
 7ur	yx	43
 3ind	yy	3
+6 the scenes	f3s	
+6-the-scenes story	f0s	
+jupporter	f3t	
 3old	yz	80
 6en	z0	80
 7r	z1	80
 4ove	z2	80
 2ing	z3	16
+5 the case that	eas	
+amotive or purpose	emo	
 2labor	z4	80
 4ted	z5	80
 3ch	z6	80
@@ -223,6 +260,8 @@ at	zh	40
 6ings	zm	80
 4ved	zn	34
 4w	zo	43
+5 the foot	f0u	
+aline	eyw	
 3t	zp	56
 4s	zq	20
 2mused	zr	80
@@ -232,10 +271,12 @@ at	zh	40
 4diction	zv	80
 4factor	zw	c0
 5icial	zx	76
+a influence of the sovereign	cqp	
 9ry	zy	48
 6t	zz	7e
 7s	100	20
-4volent	101	c0
+4volence from the emperor	ekq	
+9t	101	c0
 3ign	102	d8
 4son	103	80
 3t	104	e2
@@ -243,6 +284,7 @@ at	zh	40
 5st	106	c0
 2rate	107	c0
 3eave	108	c0
+7 of	bnt	
 4ft	109	80
 0Berlin	10a	20
 0berry	10b	4
@@ -251,24 +293,33 @@ at	zh	40
 2seech	10e	80
 4t	10f	e0
 3ide	10g	3
+6 the point	ev5	
 6s	10h	57
 4ege	10i	c0
 3mirch	10j	80
 3peak	10k	c0
 3t	10l	20
+4 of the bunch	cp4	
 4ial	10m	80
 4ow	10n	c8
 2t	10o	34
+3hink of	bp6	
 3oken	10p	c0
 3ray	10q	fe
 4oth	10r	80
 3ter	10s	22
+6 kept under the table	erm	
 3ween	10t	3
+7 the eyebrows	ete	
+cfixed stars	etf	
 2verage	10u	f0
 2ware	10v	18
+6 of	bny	
 3ilder	10w	f8
 8ing	10x	80
 2yond	10y	17
+6 the earth	f3z	
+btopmost clouds	f66	
 1ias	10z	78
 4ed	110	8
 2ble	111	34
@@ -303,6 +354,7 @@ at	zh	40
 2ochemistry	11u	42
 3grapher	11v	40
 8y	11w	72
+9 external to the classics	de9	
 3logical	11x	20
 7st	11y	40
 6y	11z	36
@@ -322,6 +374,7 @@ at	zh	40
 3on	12d	40
 2t	12e	83
 3e	12f	76
+3s of	bma	
 3ter	12g	77
 6ly	12h	4
 6ness	12i	48
@@ -381,6 +434,7 @@ at	zh	40
 3use	140	3a
 3w	141	43
 4hard	142	80
+4ing the trumpet	f9g	
 2udgeon	143	80
 3e	144	82
 4print	145	90
@@ -399,6 +453,7 @@ at	zh	40
 5er	14i	40
 5inghouse	14j	40
 3st	14k	fc
+5 of	bot	
 5ful	14l	40
 3t	14m	23
 4ing	14n	2
@@ -412,6 +467,7 @@ at	zh	40
 3us	14v	80
 2hemian	14w	80
 2il	14x	76
+4 on the toe	efe	
 4er	14y	8
 3sterous	14z	80
 2ld	150	7c
@@ -425,7 +481,10 @@ at	zh	40
 3d	158	7e
 4age	159	c0
 3e	15a	16
+4 of the forearm	cto	
+5stuck in the throat	dmt	
 4s	15b	20
+5 of the dead	crv	
 3homie	15c	80
 3net	15d	80
 3us	15e	7a
@@ -450,11 +509,14 @@ at	zh	40
 4less	15x	80
 4s	15y	20
 2rder	15z	76
+6ing the sea	f51	
 3e	160	fc
 4d	161	2
 5om	162	c0
 3ing	163	c3
 3n	164	17
+4 of the same parents	cma	
+cwife	cq1	
 3row	165	3
 2som	166	1c
 3s	167	17
@@ -462,10 +524,15 @@ at	zh	40
 5y	169	c2
 3ch	16a	80
 3h	16b	3
+4 sides of the coin	cmb	
+5the same height	eqz	
 4er	16c	20
 3tle	16d	3
 6neck	16e	80
 4om	16f	17
+6 of the heart	cqe	
+eocean	cs2	
+7tip of the heart	cpu	
 2ugh	16g	8c
 3lder	16h	c0
 3nce	16i	7e
@@ -496,12 +563,14 @@ at	zh	40
 4ket	177	b0
 5ish	178	80
 3g	179	c0
+4 of	bo9	
 4gadocio	17a	80
 6rt	17b	80
 3id	17c	c0
 4n	17d	57
 3ke	17e	b6
 3nch	17f	36
+6 of the armed forces	crp	
 4d	17g	be
 5ish	17h	c0
 5y	17i	1c
@@ -523,6 +592,7 @@ at	zh	40
 4d	17y	3
 5th	17z	9c
 4k	180	23
+5 of	bjy	
 5down	181	78
 5fast	182	23
 5through	183	22
@@ -545,8 +615,10 @@ at	zh	40
 3de	18k	12
 5groom	18l	a
 4ge	18m	23
+6 of the nose	crx	
 4le	18n	88
 3ef	18o	56
+5 and to the point	c2q	
 5case	18p	30
 3ght	18q	3
 6en	18r	44
@@ -587,6 +659,7 @@ at	zh	40
 3ther	19q	3
 7hood	19r	2
 7s	19s	20
+3ught to the utmost degree	dcp	
 3w	19t	14
 4beat	19u	80
 4n	19v	43
@@ -657,6 +730,8 @@ at	zh	40
 3n	1bo	1f
 4er	1bp	8
 4ing	1bq	40
+7 at the stake	ehz	
+8the midnight oil	f5v	
 5sh	1br	c0
 3row	1bs	e0
 3st	1bt	5e
@@ -671,6 +746,7 @@ at	zh	40
 4le	1c2	60
 3y	1c3	3
 2t	1c4	3
+3 on the contrary	eb6	
 3cher	1c5	3e
 3t	1c6	c8
 4er	1c7	57
@@ -682,6 +758,12 @@ at	zh	40
 2zz	1cd	68
 4er	1ce	40
 1y	1cf	3
+2 the time	eg3	
+b that	dp0	
+cwhen	ed7	
+7way	egz	
+aside	eib	
+8indow	ehs	
 2-product	1cg	48
 2e	1ch	3
 2line	1ci	80

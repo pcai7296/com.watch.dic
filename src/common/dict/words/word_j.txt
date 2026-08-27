@@ -1,5 +1,6 @@
 0jabber	5ol	80
 2ck	5om	8
+4 the ripper	fa1	
 4et	5on	3f
 2de	5oo	80
 4d	5op	80
@@ -58,7 +59,9 @@
 4nd	5q6	80
 2g	5q7	fa
 3ging	5q8	40
+2hn the baptist	f9i	
 2in	5q9	43
+4ed at the hip	ei3	
 4t	5qa	1c
 2ke	5qb	17
 2lly	5qc	9c
@@ -70,6 +73,7 @@
 9t	5qi	7e
 aic	5qj	40
 5ey	5qk	1e
+7 around the world	esc	
 2vial	5ql	c0
 2y	5qm	17
 3ful	5qn	c
@@ -77,6 +81,7 @@ aic	5qj	40
 1ubilant	5qp	c0
 6tion	5qq	80
 2dge	5qr	1e
+5 of	bkp	
 5ment	5qs	5e
 3icial	5qt	b0
 6ous	5qu	c0
@@ -100,7 +105,19 @@ aic	5qj	40
 5prudence	5rc	80
 3y	5rd	7c
 2st	5re	3
+4 around the corner	ep8	
+6t the time of	c9d	
+5before the battle	eo9	
+gcontest	eob	
+gend	enl	
+7low the crutch	eqm	
+5off the boat	eog	
+5the opposite	er1	
+9thing	eol	
+ainiest bit	eq1	
+5what the doctor ordered	emj	
 4ice	5rf	5e
+7 of the peace	cqs	
 5fiable	5rg	80
 7cation	5rh	a8
 6y	5ri	fc

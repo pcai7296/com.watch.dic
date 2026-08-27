@@ -51,7 +51,10 @@
 3n	2hx	7e
 4ing	2hy	40
 2y	2hz	23
+3 care for the elderly	ecm	
+4of the week	cjj	
 3light	2i0	16
+3s in the past	dlr	
 3time	2i1	10
 2ze	2i2	c0
 3zle	2i3	78
@@ -144,6 +147,7 @@ as	2k4	20
 2ed	2ki	9e
 3m	2kj	78
 3p	2kk	3
+4 in the mountains	dlz	
 4en	2kl	c
 4ly	2km	2
 3r	2kn	1e
@@ -237,6 +241,7 @@ aly	2mj	4e
 2magnetize	2n3	40
 5ogue	2n4	80
 4nd	2n5	9e
+6 of	bk3	
 6ing	2n6	80
 4rcate	2n7	80
 3ean	2n8	80
@@ -253,6 +258,7 @@ aly	2mj	4e
 4nstrate	2nj	fc
 aion	2nk	60
 bve	2nl	80
+d of	bnj	
 4ralize	2nm	80
 4te	2nn	80
 5ic	2no	80
@@ -290,9 +296,12 @@ aal	2og	20
 7nt	2ok	8
 6ence	2ol	40
 8t	2om	7c
+6ing on the situation	eev	
 3ict	2on	f8
 3lete	2oo	e0
+7 of	bok	
 6ion	2op	20
+9 of the spleen	cv4	
 4ore	2oq	e0
 5y	2or	8
 3ort	2os	c0
@@ -315,10 +324,12 @@ aal	2og	20
 7ion	2p9	fc
 4ivation	2pa	c0
 6e	2pb	78
+7 of	bod	
 3th	2pc	3e
 3ute	2pd	80
 5ize	2pe	80
 5y	2pf	fc
+6 to the people's congress	d0n	
 2racinate	2pg	80
 4nge	2ph	40
 7d	2pi	80
@@ -336,6 +347,8 @@ aal	2og	20
 7ize	2pu	80
 3cend	2pv	fc
 7ant	2pw	d8
+a via the female line	eyt	
+as of the dragon	cum	
 6t	2px	f8
 4ribe	2py	1f
 6ption	2pz	3e
@@ -359,6 +372,7 @@ aal	2og	20
 3k	2qh	23
 3olate	2qi	f8
 3pair	2qj	3c
+7 of	bmv	
 5tch	2qk	78
 4erado	2ql	80
 7te	2qm	fe
@@ -366,6 +380,7 @@ aal	2og	20
 4icable	2qo	c0
 5se	2qp	fc
 5te	2qq	1c
+7 of	boi	
 4oil	2qr	c0
 7er	2qs	40
 5ndent	2qt	80
@@ -379,6 +394,7 @@ aal	2og	20
 5tute	2r1	80
 8ion	2r2	80
 4roy	2r3	1e
+7 the four olds	eup	
 5uctible	2r4	80
 9on	2r5	5c
 9ve	2r6	7c
@@ -418,6 +434,7 @@ aion	2rn	80
 8ing	2s4	60
 9on	2s5	40
 3elop	2s6	43
+7ing to the greatest extent	ddi	
 7ment	2s7	23
 3iant	2s8	80
 5te	2s9	f8
@@ -427,6 +444,7 @@ aion	2rn	80
 4ous	2sd	c0
 4se	2se	fc
 3oid	2sf	c0
+6 of	bol	
 4lve	2sg	80
 4te	2sh	7e
 6d	2si	c0
@@ -452,6 +470,8 @@ aion	2rn	80
 4og	2t2	1c
 6ue	2t3	63
 3meter	2t4	fc
+8 of the moon	ctu	
+k's orbit	cte	
 4ond	2t5	1e
 3phanous	2t6	80
 3ry	2t7	3f
@@ -464,6 +484,7 @@ aion	2rn	80
 4um	2te	c0
 2dactic	2tf	80
 2e	2tg	83
+3 of	bk7	
 3hard	2th	80
 3sel	2ti	8
 3t	2tj	7e
@@ -506,6 +527,7 @@ ad	2ub	a0
 3ute	2uk	f8
 5ion	2ul	40
 2m	2um	fc
+3 sight of the aged	csg	
 3e	2un	40
 4nsion	2uo	fe
 9al	2up	40
@@ -532,9 +554,12 @@ ad	2ub	a0
 3somania	2va	80
 2re	2vb	80
 4ct	2vc	7f
+6 and to the point	c2p	
 6ion	2vd	1f
 6ly	2ve	1c
+8 perceived through the senses	et4	
 6or	2vf	3f
+8 of board of rites	ew8	
 8y	2vg	3a
 3ge	2vh	80
 3t	2vi	16
@@ -555,7 +580,9 @@ ad	2ub	a0
 ament	2vx	42
 6roval	2vy	48
 9e	2vz	4
+a of	boz	
 4rm	2w0	c0
+6 of	boo	
 5range	2w1	40
 7y	2w2	e0
 4ster	2w3	fe
@@ -570,6 +597,7 @@ ament	2vx	42
 7ible	2wc	c0
 8ng	2wd	c0
 4harge	2we	fc
+9 of	bjz	
 4iple	2wf	c0
 7ine	2wg	fc
 ad	2wh	40
@@ -610,6 +638,7 @@ bory	2xd	80
 7ion	2xg	2f
 3dain	2xh	f0
 3ease	2xi	3f
+7 of the blood	cq0	
 7s	2xj	20
 4mbodied	2xk	80
 8y	2xl	80
@@ -659,6 +688,7 @@ bed	2y5	8
 3parage	2yt	c0
 7te	2yu	80
 6ity	2yv	80
+9 between the sexes	etd	
 5ssionate	2yw	80
 5tch	2yx	e8
 4el	2yy	a0
@@ -674,6 +704,7 @@ bed	2y5	8
 5sable	2z8	80
 7l	2z9	fc
 6e	2za	fc
+7 of	bnv	
 7d	2zb	c0
 6ition	2zc	f8
 4roof	2zd	80
@@ -717,11 +748,13 @@ aful	2zn	40
 5l	30f	80
 5nce	30g	7e
 6t	30h	fe
+7 and out of sight	fd0	
 5steful	30i	40
 4end	30j	e0
 6sion	30k	80
 6t	30l	40
 7ion	30m	80
+a in the head	dl8	
 4il	30n	28
 6l	30o	d0
 7ation	30p	40
@@ -776,6 +809,8 @@ bed	30w	c0
 4y	322	7a
 5ing	323	40
 1o	324	3
+2 as the romans do	dqq	
+3me the honor	ehq	
 2cile	325	c0
 3k	326	bc
 3tor	327	23
@@ -783,6 +818,8 @@ bed	30w	c0
 6s	329	20
 4rinaire	32a	80
 7e	32b	e8
+8 of superemacy of law	bwu	
+cthe mean	cl5	
 3ument	32c	de
 8ary	32d	58
 9tion	32e	40
@@ -838,6 +875,7 @@ bd	333	40
 3e	33s	80
 3ing	33t	80
 2uble	33u	23
+6 the amount	f2a	
 6-cross	33v	80
 4t	33w	5f
 5ful	33x	6c
@@ -860,6 +898,7 @@ bd	333	40
 2yen	34e	80
 2ze	34f	f0
 4n	34g	17
+5s of	bo5	
 0Dr	34h	2
 0drab	34i	80
 3conian	34j	80
@@ -886,6 +925,7 @@ bd	333	40
 5ful	354	68
 8ly	355	40
 4m	356	1f
+5 of	blt	
 4ry	357	e0
 3gs	358	80
 3nch	359	a0
@@ -906,6 +946,7 @@ bd	333	40
 5l	35o	80
 5r	35p	23
 4ing	35q	20
+7 under the influence	eua	
 3zzle	35r	c0
 6y	35s	80
 2oll	35t	80
@@ -913,6 +954,7 @@ bd	333	40
 3ne	35v	80
 3op	35w	80
 3p	35x	3f
+4 the subject	ezx	
 4-off	35y	20
 6ut	35z	20
 4let	360	c0
@@ -964,6 +1006,9 @@ bd	333	40
 4tion	37a	fc
 3ess	37b	80
 3ing	37c	3
+6 the current year	enq	
+bday	eq9	
+bnight	eu5	
 2sk	37d	1e
 4y	37e	40
 3t	37f	3e
@@ -972,11 +1017,13 @@ bd	333	40
 2ties	37i	20
 4ful	37j	80
 3y	37k	3f
+4 to defend the country	d3u	
 1vd	37l	3
 1warf	37m	f8
 2ell	37n	78
 5er	37o	40
 5ing	37p	dc
+8 on the past	eer	
 2indle	37q	e0
 1ye	37r	5c
 2ing	37s	c

@@ -60,10 +60,14 @@ export default {
     tc3: "",
     tc4: "",
     timeTimer: null,
+    btnScaleEnabled: false,
     pressedKey: "",
     releasingKey: ""
   },
   onBtnDown(key) {
+    if (!this.btnScaleEnabled) {
+      return
+    }
     this.pressedKey = key
     this.releasingKey = ""
     this._pressStart = Date.now()
@@ -71,6 +75,9 @@ export default {
   },
 
   onBtnUp(key) {
+    if (!this.btnScaleEnabled) {
+      return
+    }
     if (Date.now() - this._pressStart >= 200) {
       this._longPress = true
     }
@@ -97,14 +104,20 @@ export default {
       },
       fail: (data, code) => {
         console.log("index device.getInfo failed; using compiled target: " + code)
-      }
+      },
+      complete: () => {}
     })
     this._cleanInvalidHistory()
     this._trackLaunch()
+    this._loadBtnScale()
     this._updateTime()
     this.timeTimer = setInterval(() => {
       this._updateTime()
     }, 1000)
+  },
+
+  onShow() {
+    this._loadBtnScale()
   },
 
   onDestroy() {
@@ -130,6 +143,21 @@ export default {
     this.tc4 = t[4]
   },
 
+  _loadBtnScale() {
+    storage.get({
+      key: "dic_button_scale",
+      default: "0",
+      success: (data) => {
+        const value = data && (data.value || data)
+        this.btnScaleEnabled = value === "1"
+      },
+      fail: (data, code) => {
+        console.log("index btn scale get failed: " + code)
+      },
+      complete: () => {}
+    })
+  },
+
   _trackLaunch() {
     storage.get({
       key: "dic_launch_count",
@@ -146,7 +174,8 @@ export default {
           value: String(nextCount),
           fail: (setData, code) => {
             console.log("index launch count save failed: " + code)
-          }
+          },
+          complete: () => {}
         })
         if (nextCount === 1 || nextCount % 10 === 0) {
           this.goSponsor()
@@ -155,7 +184,8 @@ export default {
       fail: (getData, code) => {
         console.log("index launch count read failed: " + code)
         this.goSponsor()
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -180,11 +210,13 @@ export default {
         if (clean.length < list.length) {
           storage.set({
             key: "dic_history",
-            value: JSON.stringify(clean)
+            value: JSON.stringify(clean),
+            complete: function() {}
           })
         }
       },
-      fail: function() {}
+      fail: function() {},
+      complete: function() {}
     })
   },
 

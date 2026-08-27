@@ -25,6 +25,7 @@
 6al	6r6	3f
 8ities	6r7	20
 ay	6r8	7e
+6s of the persian gulf	cu5	
 6wide	6r9	42
 4ve	6ra	3e
 3ty	6rb	80
@@ -47,6 +48,7 @@ aic	6re	40
 2ysay	6rs	80
 6er	6rt	80
 1ear	6ru	3
+4 the mark	ewz	
 4by	6rv	1e
 4ly	6rw	43
 3t	6rx	7e
@@ -86,6 +88,7 @@ aic	6re	40
 9hood	6sv	e
 9ing	6sw	8
 3ther	6sx	3
+7 of	bmt	
 2mesis	6sy	80
 2oclassical	6sz	40
 3lithic	6t0	80
@@ -94,6 +97,7 @@ aic	6re	40
 4ate	6t3	80
 3phyte	6t4	80
 2phew	6t5	1e
+6 by the male line	ehc	
 4ritis	6t6	80
 3otism	6t7	80
 2rve	6t8	9c
@@ -115,15 +119,19 @@ aic	6re	40
 7ize	6to	e0
 5on	6tp	c8
 2ver	6tq	3
+5 to be forgotten	dv7	
 5theless	6tr	3c
 2w	6ts	3
 3ly	6tt	c
 3s	6tu	3
+4 from the grapevine	ek8	
 4cast	6tv	40
 4paper	6tw	23
 9s	6tx	20
 4stand	6ty	40
 2xt	6tz	3
+4 to the aisle	d6l	
+4-to-last item on a program	fbb	
 3us	6u0	80
 1ib	6u1	80
 3ble	6u2	e0
@@ -133,6 +141,7 @@ aic	6re	40
 3k	6u6	80
 4el	6u7	78
 4name	6u8	58
+8 for the city suzhou	edc	
 3otine	6u9	c0
 2ece	6ua	1e
 2ggard	6ub	80
@@ -152,6 +161,7 @@ aic	6re	40
 2tpick	6up	80
 3rogen	6uq	7c
 1o	6ur	3
+2 trace to be seen	dsg	
 2.	6us	2
 2bility	6ut	20
 3le	6uu	3e
@@ -174,6 +184,7 @@ aic	6re	40
 5nformist	6vb	c0
 bty	6vc	40
 3e	6vd	3
+4 of	bls	
 4ntity	6ve	80
 4such	6vf	80
 4theless	6vg	58
@@ -210,6 +221,59 @@ bty	6vc	40
 3talgia	6wb	e0
 4rum	6wc	80
 2t	6wd	3
+3 acquainted with the situation	dth	
+5t all the same	dry	
+4be able to hear	din	
+6yond the scope of	cbx	
+5othered with the details	du1	
+4expected at the outset	dwm	
+8nding the slightest effort	eei	
+4fit for the occasion	drm	
+5ollow the beaten track	edv	
+4having the face	ee5	
+5elping in the least	d08	
+4in a position to	dpj	
+7the least	d09	
+g concerned	d0a	
+hinferior	d07	
+bmood to	c2o	
+4miss the farming season	eeb	
+4overstepping the prescribed limits	eew	
+4the least bit concerned	edz	
+8only	ed9	
+c one	eaz	
+8right flavor	edr	
+8same	edy	
+c thing	ede	
+8usual type	ee0	
+5o be allowed	dk0	
+aconcerned	dk1	
+brushed	dk2	
+adenied	dk3	
+bisclosed	dk4	
+aoneself	dk5	
+butdone	dk6	
+apooh-poohed	djz	
+bresent	djc	
+bushed around	dj0	
+arepeated	dk7	
+atrifled with	d25	
+aworried about	dhq	
+7give in to	dle	
+7have the guts	c4f	
+8esitate to	fbp	
+7object to	fbh	
+7pay attention to	fb3	
+7refuse to	fbg	
+7speak of	emm	
+8ubmit to force	fb9	
+7the point	ce4	
+8ire of	emv	
+7understand the situation	ce9	
+4up to the task	cd5	
+4want to be outdone	dil	
+5ide of the mark	cbq	
+5orth the trip	eee	
 3ability	6we	80
 5le	6wf	f8
 6y	6wg	40
@@ -223,6 +287,7 @@ bty	6vc	40
 4s	6wo	20
 4worthy	6wp	10
 3hing	6wq	23
+7 out of the ordinary	cgi	
 3ice	6wr	7f
 6able	6ws	1c
 4fication	6wt	8
@@ -238,6 +303,7 @@ bty	6vc	40
 7ment	6x3	68
 2va	6x4	80
 3el	6x5	7e
+5 in the vernacular	dn0	
 5ist	6x6	2
 5ty	6x7	f8
 0November	6x8	23
@@ -245,6 +311,7 @@ bty	6vc	40
 2w	6xa	3
 3adays	6xb	5e
 3here	6xc	3e
+7 to be found	e0n	
 2xious	6xd	e0
 1uance	6xe	a0
 2bile	6xf	80
@@ -260,6 +327,8 @@ bty	6vc	40
 4ify	6xp	a0
 2mb	6xq	f2
 4er	6xr	3
+6 one in the country	dha	
+6s of	bli	
 3erical	6xs	78
 5ology	6xt	80
 6us	6xu	fc

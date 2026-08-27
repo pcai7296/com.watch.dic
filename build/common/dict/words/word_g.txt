@@ -152,6 +152,7 @@ aal	4fl	8
 3gle	4gh	b0
 2ld	4gi	c0
 4ing	4gj	40
+7 the lily	f93	
 2mmick	4gk	80
 2nger	4gl	88
 6ly	4gm	80
@@ -159,10 +160,13 @@ aal	4fl	8
 3der	4go	c0
 4le	4gp	c0
 3l	4gq	3
+4 from the mainland	ejx	
 4friend	4gr	20
 3th	4gs	80
 2st	4gt	e0
 2ve	4gu	23
+4 of	bjl	
+3ing succor to the enemy	df4	
 1lacial	4gv	c0
 5er	4gw	60
 3d	4gx	3
@@ -207,6 +211,7 @@ aal	4fl	8
 5y	4i0	c0
 3ve	4i1	1f
 3w	4i2	bc
+4 of the setting sun	cr7	
 4er	4i3	80
 4ing	4i4	c0
 2ucose	4i5	80
@@ -228,14 +233,23 @@ aal	4fl	8
 2bble	4il	80
 3let	4im	80
 0God	4in	17
-0goddess	4io	8
+0god of the north sky	cnc	
+4the father	ez9	
+8son	f0l	
+3dess	4io	8
 2ggle	4ip	80
+2ing in the same direction	dkb	
+6the same way	epe	
+8rough the motions	et9	
+6with the tide	egl	
 2ld	4iq	37
 4brick	4ir	80
 4en	4is	1f
 4fish	4it	2
 3f	4iu	3e
-2ng	4iv	80
+2ne to the dogs	dgp	
+5with the wind	egh	
+3g	4iv	80
 2od	4iw	23
 4by	4ix	10
 6e	4iy	1
@@ -308,10 +322,12 @@ bs	4kf	2
 3sp	4kt	5e
 5ing	4ku	80
 4s	4kv	23
+5 stirring in the wind	dmc	
 5hopper	4kw	48
 5y	4kx	8
 3te	4ky	a0
 5ful	4kz	de
+5s on the ear	efd	
 4ification	4l0	80
 6y	4l1	c0
 5ng	4l2	80
@@ -329,12 +345,14 @@ bal	4la	c0
 2ease	4le	f8
 5y	4lf	40
 4t	4lg	3
+5 person of the past	cjq	
 5ly	4lh	c
 0Greece	4li	22
 0greed	4lj	8
 5y	4lk	7e
 0Greek	4ll	e
 0green	4lm	a3
+5 in the face	dkm	
 5grocer	4ln	2
 5horn	4lo	80
 7use	4lp	9c
@@ -356,6 +374,7 @@ aness	4lt	80
 3n	4m5	b8
 4d	4m6	fc
 3p	4m7	7c
+4 on the road	eeh	
 4e	4m8	80
 4ping	4m9	80
 3sly	4ma	80
@@ -395,10 +414,12 @@ aness	4lt	80
 5ian	4n8	20
 2ess	4n9	3
 4t	4na	23
+5 from the same country	eho	
 5s	4nb	20
 2ffaw	4nc	80
 2idance	4nd	3e
 4e	4ne	3e
+5 to the reader	dd2	
 5line	4nf	30
 3ld	4ng	20
 4e	4nh	c0
@@ -430,6 +451,7 @@ aness	4lt	80
 3ter	4o7	88
 4le	4o8	80
 2y	4o9	b4
+3 from the north	ejk	
 2zzle	4oa	80
 1ym	4ob	21
 3nasium	4oc	3d

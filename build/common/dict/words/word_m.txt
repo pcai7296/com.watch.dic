@@ -11,12 +11,14 @@
 3am	66e	5
 5e	66f	11
 3den	66g	20
+3e of	bla	
 3rigal	66h	80
 2elstrom	66i	80
 3stro	66j	80
 2gazine	66k	3f
 3enta	66l	80
 3ic	66m	7f
+5 the gathering	f7o	
 5al	66n	40
 5ian	66o	48
 4sterial	66p	80
@@ -56,6 +58,9 @@ at	672	fc
 5ity	67n	7e
 5s	67o	20
 2ke	67p	23
+4 of	bj8	
+5the country wealthy	enn	
+9military powerful	enw	
 4shift	67q	80
 4up	67r	48
 3ing	67s	20
@@ -90,6 +95,9 @@ at	672	fc
 6ian	68l	40
 4oth	68m	c0
 2n	68n	3
+3 behind the mirror	er7	
+4of the world	cjg	
+3-in-the-middle attack	diu	
 3acle	68o	a0
 4ge	68p	1f
 6ment	68q	3c
@@ -106,6 +114,7 @@ at	672	fc
 4fest	691	b8
 8ation	692	c0
 8o	693	80
+9 of the communist party	cmw	
 5old	694	e0
 4pulate	695	f8
 9ive	696	80
@@ -132,11 +141,13 @@ br	69i	c
 4ud	69r	80
 3ble	69s	fe
 3ch	69t	63
+5 of the volunteer army	cpp	
 3e	69u	80
 3garine	69v	80
 4in	69w	fc
 6al	69x	b8
-3ine	69y	fc
+3iana islands in the pacific	dnn	
+4ne	69y	fc
 6r	69z	80
 4onette	6a0	80
 4tal	6a1	f0
@@ -161,6 +172,9 @@ br	69i	c
 3tial	6ak	a0
 5net	6al	40
 4yr	6am	a8
+6 of the revolution	csq	
+7to the national cause	d8r	
+erevolution	ddw	
 3vel	6an	e8
 6lous	6ao	8
 6ous	6ap	74
@@ -175,6 +189,7 @@ br	69i	c
 3querade	6ay	80
 3s	6az	7e
 4acre	6b0	b8
+4es of	bn8	
 4ive	6b1	fc
 3t	6b2	88
 4er	6b3	3f
@@ -210,6 +225,7 @@ as	6bn	6d
 5ity	6bx	88
 2udlin	6by	80
 3l	6bz	80
+3soleum of the yellow emperor	ct1	
 3ve	6c0	80
 2ven	6c1	80
 4rick	6c2	c0
@@ -231,6 +247,7 @@ as	6bn	6d
 3n	6ci	e3
 4der	6cj	c0
 4ing	6ck	3
+7 behind the words	f3v	
 7ful	6cl	48
 4s	6cm	7e
 4time	6cn	1c
@@ -253,6 +270,7 @@ aly	6cz	c
 3dle	6d4	e0
 6some	6d5	80
 3ia	6d6	6e
+5n neuropathy at the wrist	ei2	
 5te	6d7	e8
 6or	6d8	40
 4cal	6d9	3f
@@ -270,6 +288,7 @@ aly	6cz	c
 2ek	6dl	e0
 3t	6dm	83
 4ing	6dn	23
+7 of the whole committee	cnj	
 2galomania	6do	80
 2lancholy	6dp	e8
 0Melbourne	6dq	20
@@ -282,14 +301,28 @@ aly	6cz	c
 4n	6dx	9e
 3t	6dy	1c
 2mber	6dz	3
-6ship	6e0	38
+6 of society of jesus	er5	
+athe criminal police	cli	
+eimperial clan	cnb	
+ekgb	cnp	
+elegislative yuan	cnn	
+enational team	clx	
+eroyal family	ckn	
+esame organization	ckk	
+ftanding committee	cly	
+hte council	cjm	
+eyounger generation	cmv	
+6s of the same family	ckv	
+7hip	6e0	38
 4rane	6e1	c0
+8s lining the brain	f77	
 3ento	6e2	a0
 3o	6e3	50
 4ir	6e4	80
 4rable	6e5	40
 6ndum	6e6	40
 5ial	6e7	de
+8 to the emperor	dfs	
 6se	6e8	20
 6ze	6e9	42
 5y	6ea	5f
@@ -352,6 +385,9 @@ as	6fp	80
 ay	6fv	e0
 3hane	6fw	40
 4od	6fx	3f
+6 of dispatching the ball	cpy	
+aloss of weight	btt	
+aof averages	bjc	
 6ical	6fy	c0
 aly	6fz	40
 6ology	6g0	40
@@ -383,6 +419,10 @@ aly	6g3	40
 3air	6gq	40
 3day	6gr	e
 4le	6gs	3
+6 of the back	ck6	
+eforehead	crf	
+enight	cnl	
+eriver	cq5	
 3get	6gt	80
 3morning	6gu	20
 3night	6gv	2e
@@ -414,6 +454,7 @@ aly	6g3	40
 8re	6hl	c
 5on	6hm	22
 7aire	6hn	5a
+7s of	bnx	
 4s	6ho	20
 2me	6hp	c0
 4tic	6hq	40
@@ -439,10 +480,14 @@ aly	6g3	40
 4on	6ia	80
 4skirt	6ib	2
 5ter	6ic	3e
+8 of the imperial household	cor	
+hnterior	cp9	
 6ry	6id	5e
+8 of the interior	csl	
 3now	6ie	80
 3or	6if	1c
 5ity	6ig	7e
+8 of the population	crk	
 3t	6ih	e8
 3uet	6ii	80
 4s	6ij	3e
@@ -496,6 +541,7 @@ cation	6jj	80
 0mistimed	6jv	80
 4ral	6jw	80
 5ess	6jx	1c
+8 of the house	cm7	
 5ust	6jy	40
 3understand	6jz	1e
 4se	6k0	20
@@ -597,6 +643,7 @@ cation	6jj	80
 3bid	6mo	e0
 3dant	6mp	80
 3e	6mq	1
+4 flourishing by the day	edw	
 4over	6mr	3c
 4s	6ms	80
 3ibund	6mt	c0
@@ -619,11 +666,15 @@ cation	6jj	80
 5ito	6na	be
 3s	6nb	58
 3t	6nc	23
+4 of	blf	
+7 the day	chc	
+5recent in the past	dio	
 4ly	6nd	5c
 2te	6ne	c0
 4l	6nf	3c
 3h	6ng	40
 4er	6nh	23
+6-in-law and daughter-in-law	eh6	
 6land	6ni	2
 3if	6nj	e0
 4le	6nk	80
@@ -644,7 +695,9 @@ cation	6jj	80
 2uld	6nz	3c
 3nt	6o0	3c
 5ain	6o1	23
+8 of flames of legend	ey7	
 8ous	6o2	8a
+8s of	bn1	
 5ebank	6o3	80
 3rn	6o4	be
 5ful	6o5	c0
@@ -654,12 +707,15 @@ cation	6jj	80
 3th	6o9	43
 5ful	6oa	e
 2ve	6ob	3
+4d to the core	dfc	
 4ment	6oc	9e
+8 aimed at the masses	ei9	
 3ie	6od	37
 5s	6oe	20
 0Mr.	6of	3
 1s.	6og	3
 0much	6oh	3
+4 of	bkk	
 3ous	6oi	20
 2d	6oj	5e
 3dle	6ok	e0
@@ -686,6 +742,7 @@ cation	6jj	80
 2ndane	6p5	e0
 3icipal	6p6	78
 9ity	6p7	80
+c of the islands	cvi	
 4ficence	6p8	80
 9t	6p9	40
 4ments	6pa	80

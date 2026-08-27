@@ -1,5 +1,6 @@
 <script>
 import "./global"
+import {loadDictionaryProfile} from "./common/dictProfile"
 
 export default {
   data: {
@@ -12,6 +13,9 @@ export default {
 
   onCreate() {
     console.log("app created")
+    loadDictionaryProfile(function(profile) {
+      console.log("dict profile loaded: " + (profile && profile.profile ? profile.profile : "unknown"))
+    })
     console.log("fixed W466 screen: circle 466x466")
   },
 
