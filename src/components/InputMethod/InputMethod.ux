@@ -323,8 +323,12 @@
 
 <script>
 import vibrator from "@system.vibrator";
+import device from "@system.device"
 import { SimpleInputMethod } from "./assets/dicUtil.js";
 import {getSuggestionSeed, getSuggestions, onSuggestionsChange} from "../../common/suggestionState"
+
+const {buildTarget} = global
+
 const KEY_MAPS = {
   full: [
     ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -395,6 +399,9 @@ export default {
     screentype: {
       default: "circle",
     },
+    englishonly: {
+      default: false,
+    },
   },
   data: {
     cval: "",
@@ -413,12 +420,14 @@ export default {
     percent66: 0,
     // 针对screenShape为rect的设备，会自动获取screenWidth并绑定到根div
     // 这样便能同时适配n67和o65甚至是后续设备，但实际效果可能受designWidth影响
-    screenWidth: 432,
-    keyboardLeftOffset: 120,
+    screenWidth: buildTarget.width,
+    keyboardLeftOffset: Math.max(0, (buildTarget.width - 192) / 2),
     keys: KEY_MAPS,
   },
   onInit() {
-    if (this.lang !== "cn" && this.lang !== "en") {
+    if (this.englishonly) {
+      this.lang = "en"
+    } else if (this.lang !== "cn" && this.lang !== "en") {
       this.lang = "cn";
       this.numFlag_jp = false;
     }
@@ -429,12 +438,11 @@ export default {
       }
       this.cvalList = tempCvalList;
     }
-    this.screenWidth = 432
-    this.keyboardLeftOffset = 120
-    this.$emit("ready", {})
+    this.adjustScreenWidth()
     this.$watch("hide", "watchHidePropsChange");
     this.$watch("maxlength", "watchMaxLengthPropsChange");
     this.$watch("keyboardtype", "watchKeyboardTypePropsChange");
+    this.$watch("englishonly", "watchEnglishOnlyPropsChange");
     onSuggestionsChange(function () {
       if (this.lang === "en") {
         this.resetReslutList()
@@ -445,6 +453,7 @@ export default {
     this.$unwatch("hide")
     this.$unwatch("maxlength")
     this.$unwatch("keyboardtype")
+    this.$unwatch("englishonly")
     onSuggestionsChange(null)
   },
   addAllTxt(txt) {
@@ -475,6 +484,10 @@ export default {
         this.resetReslutList();
         break;
       case "lang":
+        if (this.englishonly) {
+          this.lang = "en"
+          break
+        }
         this.lang = this.lang === "cn" ? "en" : "cn";
         this.cval = "";
         this.clearWaiting();
@@ -655,6 +668,16 @@ export default {
       this.cvalList = tempCvalList;
     }
   },
+  watchEnglishOnlyPropsChange() {
+    if (this.englishonly) {
+      this.lang = "en"
+      this.numFlag = false
+      this.numFlag_jp = false
+      this.cval = ""
+      this.clearWaiting()
+      this.resetReslutList()
+    }
+  },
   watchKeyboardTypePropsChange() {
     if (this.lang !== "cn" && this.lang !== "en") {
       this.lang = "cn";
@@ -702,6 +725,22 @@ export default {
       }
     }
     return output;
+  },
+  adjustScreenWidth() {
+    device.getInfo({
+      success: (data) => {
+        const width = Number(data && data.screenWidth)
+        if (width > 0) {
+          this.screenWidth = width
+          this.keyboardLeftOffset = Math.max(0, (width - 192) / 2)
+        }
+      },
+      fail: () => {
+        this.screenWidth = buildTarget.width
+        this.keyboardLeftOffset = Math.max(0, (buildTarget.width - 192) / 2)
+      },
+      complete: () => {}
+    })
   },
 };
 </script>

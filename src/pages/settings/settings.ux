@@ -26,6 +26,12 @@
         checked="{{ searchSwipeExitLocked }}"
         @change="onSearchSwipeExitChange"
       ></switch>
+      <text class="setting-title btn-scale-title">按钮缩放</text>
+      <switch
+        class="suggestion-switch"
+        checked="{{ btnScaleEnabled }}"
+        @change="onBtnScaleChange"
+      ></switch>
     </div>
   </div>
 </template>
@@ -36,9 +42,10 @@ import storage from "@system.storage"
 
 export default {
   private: {
-    englishSuggestionEnabled: true,
+    englishSuggestionEnabled: false,
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
+    btnScaleEnabled: true,
     screenProfile: "rect",
     destroyed: false,
     touchStartX: -1,
@@ -49,7 +56,7 @@ export default {
     screenProfile: "rect"
     storage.get({
       key: "dic_english_suggestions",
-      default: "1",
+      default: "0",
       success: (data) => {
         if (this.destroyed) {
           return
@@ -89,6 +96,20 @@ export default {
         console.log("settings search swipe get failed: " + code)
       }
     })
+    storage.get({
+      key: "dic_button_scale",
+      default: "1",
+      success: (data) => {
+        if (this.destroyed) {
+          return
+        }
+        const value = data && (data.value || data)
+        this.btnScaleEnabled = value === "1"
+      },
+      fail: (data, code) => {
+        console.log("settings btn scale get failed: " + code)
+      }
+    })
   },
 
   onDestroy() {
@@ -112,6 +133,11 @@ export default {
   onSearchSwipeExitChange(evt) {
     this.searchSwipeExitLocked = !!(evt && evt.checked)
     this.saveSwitch("dic_search_swipe_exit_locked", this.searchSwipeExitLocked)
+  },
+
+  onBtnScaleChange(evt) {
+    this.btnScaleEnabled = !!(evt && evt.checked)
+    this.saveSwitch("dic_button_scale", this.btnScaleEnabled)
   },
 
   saveSwitch(key, enabled) {
@@ -218,6 +244,10 @@ export default {
   margin-top: 34px;
   flex-direction: column;
   align-items: center;
+}
+
+.btn-scale-title {
+  margin-top: 34px;
 }
 
 .page-circle {

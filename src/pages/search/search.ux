@@ -47,6 +47,7 @@ import file from "@system.file"
 import storage from "@system.storage"
 import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
+import {getDictionaryProfile} from "../../common/dictProfile"
 
 const {buildTarget, navGuard} = global
 
@@ -78,7 +79,7 @@ export default {
     autoSearch: "",
     searchMode: "",
     inflectDepth: "",
-    screenProfile: "rect"
+    screenProfile: "pill-standard"
   },
 
   private: {
@@ -89,8 +90,8 @@ export default {
     englishSuggestionsText: "",
     keyboardHidden: false,
     keyboardType: "QWERTY",
-    screenType: "rect",
-    maxLength: 15,
+    screenType: "pill-shaped",
+    maxLength: 5,
     vibrateMode: "short",
     lastToastAt: 0,
     toastCooldown: 1500,
@@ -98,16 +99,13 @@ export default {
     touchStartY: -1,
     destroyed: false,
     autoSearchPending: false,
-    englishSuggestionCache: null,
-    englishSuggestionParsed: null,
-    englishSuggestionPending: null,
-    englishSuggestionOrder: null,
     englishSuggestionToken: 0,
-    englishSuggestionEnabled: true,
+    englishSuggestionEnabled: false,
     searchSwipeExitLocked: true,
     searchSubmitLocked: false,
     _suggestionTimer: null,
     autoSearchTimer: null,
+    imeMounted: false,
     marqueeTimer: null,
     tapTimes: [],
     marqueeActive: false,
@@ -134,19 +132,12 @@ export default {
     return decodePrefixField(parts[0], prevWord) || ""
   },
 
-  _parseSuggestionLines(text) {
-    var rows = text.split("\n")
-    var out = []
-    var prevWord = ""
-    for (var i = 0; i < rows.length; i++) {
-      var parts = rows[i].split("\t")
-      if (parts.length >= 3) {
-        var word = this._decodeWordPrefix(parts, prevWord)
-        prevWord = word
-        out.push({word: word, entryId: parts[1], tags: parts[2] || ''})
-      }
-    }
-    return out
+  // Cache raw shard lines instead of pre-parsed objects. scanEnglishSuggestionRows
+  // decodes only rows matching the current seed, so a large shard never
+  // materializes thousands of objects, and no fixed row cap can silently drop
+  // deep-prefix candidates (e.g. "int" in word_in.txt).
+  _splitSuggestionLines(text) {
+    return text ? text.split("\n") : []
   },
 
   onInit() {
@@ -166,7 +157,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("search device.getInfo failed; using compiled target: " + code)
-      }
+      },
+      complete: () => {}
     })
     if (this.queryParam) {
       this.query = this.queryParam
@@ -176,8 +168,8 @@ export default {
     this.refreshDisplay()
     if (this.autoSearch === "1" && this.query) {
       this.autoSearchPending = true
-      // 等待 InputMethod 异步初始化完成（ready 事件）后再跳转
-      // timeout 兜底，防止 ready 事件过早/过晚触发
+      // 等待页面 onReady（子组件构建完成）后再跳转
+      // timeout 兜底，防止 onReady 过早/过晚触发
       this.autoSearchTimer = setTimeout(() => {
         this.autoSearchTimer = null
         if (!this.destroyed && this.autoSearchPending) {
@@ -189,10 +181,10 @@ export default {
   },
 
   applyScreenInfo(data) {
-    const screenShape = data.shape || data.screenShape || "rect"
-    const screenWidth = Number(data.width || data.screenWidth || 432)
+    const screenShape = data.shape || data.screenShape || "pill-shaped"
+    const screenWidth = Number(data.width || data.screenWidth || 212)
     this.screenType = screenShape
-    this.screenProfile = data.profile || data.screenProfile || "rect"
+    this.screenProfile = data.profile || data.screenProfile || "pill-standard"
     this.maxLength = this.getMaxLength(screenShape, screenWidth)
   },
 
@@ -226,12 +218,19 @@ export default {
     this.englishSuggestionPending = null
     this.englishSuggestionOrder = null
     this.stopMarquee()
+    // 页面销毁后主动 GC，释放补全缓存（官方内存文档：及时 runGC 避免泄漏）
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   onShow() {
     this.searchSubmitLocked = false
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()
+    if (!this.imeMounted && !this.keyboardHidden) {
+      this.imeMounted = true
+    }
   },
 
   onReady() {
@@ -246,22 +245,26 @@ export default {
   },
 
   onBackPress() {
-    if (!navGuard()) return
     return this.searchSwipeExitLocked
   },
 
   toggleKeyboard() {
     this.keyboardHidden = !this.keyboardHidden
+    if (!this.imeMounted && !this.keyboardHidden) {
+      this.imeMounted = true
+    }
     this.refreshDisplay()
   },
 
   onInputBoxClick() {
-    if (!navGuard()) return
     var now = Date.now()
     this.tapTimes.push(now)
     this.tapTimes = this.tapTimes.filter(function(t) { return now - t <= 1500 })
     if (this.tapTimes.length >= 3) {
       this.tapTimes = []
+      if (!navGuard()) {
+        return
+      }
       router.replace({
         uri: "/pages/filter",
         params: { mode: "input", queryParam: this.query }
@@ -278,8 +281,8 @@ export default {
     this.refreshDisplay()
   },
 
-  onKeyDown(evt) {
-    console.log("key down: " + JSON.stringify(evt))
+  onKeyDown() {
+    // keyDown 事件仅透传占位，输入逻辑见 onComplete/onDelete；热路径不再打印日志
   },
 
   onDelete() {
@@ -324,7 +327,9 @@ export default {
   },
 
   onSearchButtonClick() {
-    if (!navGuard()) return
+    if (!navGuard()) {
+      return
+    }
     if (!this.query) {
       router.back()
       return
@@ -336,6 +341,7 @@ export default {
     if (this.searchSubmitLocked) {
       return
     }
+    const raw = this.query
     const normalized = this.normalizeWord(this.query)
     this.keyboardHidden = true
     this.refreshDisplay()
@@ -353,7 +359,8 @@ export default {
       params: {
         query: normalized,
         searchMode: this.searchMode || "",
-        inflectDepth: this.inflectDepth || "0"
+        inflectDepth: this.inflectDepth || "0",
+        phraseMode: raw.indexOf(" ") >= 0 ? "1" : "0"
       }
     })
   },
@@ -527,7 +534,7 @@ export default {
       return
     }
 
-    this.loadEnglishSuggestionSource(normalized.charAt(0), (source) => {
+    this.loadEnglishSuggestionSource(this._wordShardKey(normalized), (source) => {
       if (suggestionToken !== this.englishSuggestionToken) {
         return
       }
@@ -552,6 +559,34 @@ export default {
     }, 200)
   },
 
+  // Map an autocomplete seed to the smallest shard that contains its candidates.
+  // 2+ chars with an alpha 2nd char -> 2-letter shard (e.g. "test" -> "te").
+  // Single char -> head shard (e.g. "t" -> "t_head", top-N high-freq words).
+  // Otherwise -> 1-letter file (rare, fallthrough).
+  _useTwoLetterShards() {
+    const profile = getDictionaryProfile()
+    return !!(profile && profile.wordTwoShards > 0)
+  },
+
+  _useHeadShards() {
+    const profile = getDictionaryProfile()
+    return !!(profile && profile.wordHeadShards > 0)
+  },
+
+  _wordShardKey(seed) {
+    if (this._useTwoLetterShards() && seed.length >= 2 && seed.charAt(1) >= "a" && seed.charAt(1) <= "z") {
+      return seed.slice(0, 2)
+    }
+    if (seed.length === 1 && this._useHeadShards()) {
+      return seed.charAt(0) + "_head"
+    }
+    return seed.charAt(0)
+  },
+
+  _wordShardPath(key) {
+    return "/common/dict/words/word_" + key + ".txt"
+  },
+
   loadEnglishSuggestionSource(letter, done) {
     // Cache hit — use pre-parsed rows
     if (Object.prototype.hasOwnProperty.call(this.englishSuggestionParsed, letter)) {
@@ -562,7 +597,7 @@ export default {
     // Migrate from old text cache if present
     if (Object.prototype.hasOwnProperty.call(this.englishSuggestionCache, letter)) {
       var _rows = this.englishSuggestionCache[letter] || ""
-      var _parsed = _rows ? this._parseSuggestionLines(_rows) : []
+      var _parsed = _rows ? this._splitSuggestionLines(_rows) : []
       this._cacheEnglishSuggestion(letter, _parsed)
       delete this.englishSuggestionCache[letter]
       done(_parsed)
@@ -576,14 +611,14 @@ export default {
     this.englishSuggestionPending[letter] = [done]
 
     file.readText({
-      uri: "/common/dict/words/word_" + letter + ".txt",
+      uri: this._wordShardPath(letter),
       encoding: "utf-8",
       success: (data) => {
         if (this.destroyed) {
           return
         }
         var text = data && data.text ? data.text : ""
-        var parsed = text ? this._parseSuggestionLines(text) : []
+        var parsed = text ? this._splitSuggestionLines(text) : []
         this._cacheEnglishSuggestion(letter, parsed)
         var pending = this.englishSuggestionPending[letter] || []
         delete this.englishSuggestionPending[letter]
@@ -601,14 +636,15 @@ export default {
         for (var i = 0; i < pending.length; i++) {
           pending[i]([])
         }
-      }
+      },
+      complete: () => {}
     })
   },
 
   loadEnglishSuggestionSetting() {
     storage.get({
       key: "dic_english_suggestions",
-      default: "1",
+      default: "0",
       success: (data) => {
         if (this.destroyed) {
           return
@@ -624,7 +660,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("search storage.get failed: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -641,7 +678,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("search swipe setting get failed: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -683,19 +721,26 @@ export default {
   },
 
   scanEnglishSuggestionRows(rows, seed, items, seen) {
+    var prevWord = ""
     for (var i = 0; i < rows.length; i++) {
-      var row = rows[i]
-      if (!row || !row.entryId || !/^[0-9a-z]+$/.test(row.entryId)) {
+      var parts = rows[i].split("\t")
+      if (parts.length < 3) {
         continue
       }
-      var word = this.normalizeEnglishSeed(row.word)
+      var entryId = parts[1]
+      if (!entryId || !/^[0-9a-z]+$/.test(entryId)) {
+        continue
+      }
+      var decoded = this._decodeWordPrefix(parts, prevWord)
+      prevWord = decoded
+      var word = this.normalizeEnglishSeed(decoded)
       if (!word || word === seed || seen[word] || word.indexOf(seed) !== 0) {
         continue
       }
       seen[word] = true
       items.push({
         word: word,
-        score: this.scoreEnglishCandidate(seed, word, this._expandTag(row.tags || ""))
+        score: this.scoreEnglishCandidate(seed, word, this._expandTag(parts[2] || ""))
       })
       // Early termination — enough candidates for scoring to pick the best 30
       if (items.length >= 80) {
@@ -762,7 +807,7 @@ export default {
   },
 
   isEnglishWord(value) {
-    return /^[a-z][a-z'-]{0,20}$/.test(value || "")
+    return /^[a-z][a-z' -]{0,30}$/.test(value || "")
   },
 
   hasEnglish(value) {

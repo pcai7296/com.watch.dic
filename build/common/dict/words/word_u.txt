@@ -14,6 +14,10 @@ as	arf	40
 4ella	ari	3
 2pire	arj	80
 1nable	ark	e
+6 to bear the pain	d9z	
+break the custom	d8i	
+amake sense of	fdj	
+areturn the favor	d8g	
 3dorned	arl	40
 3ffected	arm	80
 3ided	arn	40
@@ -21,6 +25,8 @@ as	arf	40
 6ous	arp	f8
 3ssuming	arq	80
 3voidable	arr	8
+3ware of the disasters ahead	csm	
+finner workings	cvt	
 2bearable	ars	4e
 4coming	art	c0
 4lievable	aru	2
@@ -48,6 +54,17 @@ as	arf	40
 3tuous	asg	80
 2daunted	ash	40
 3er	asi	3
+5 the banner of	cml	
+acircumstances	ex6	
+afoot	etn	
+aguise of	cmn	
+ainfluence of alcohol	clo	
+ajurisdiction of	cmi	
+askin	eve	
+bun	eue	
+aumbrella of	cmk	
+awater	esp	
+5-the-table manipulations	ett	
 5bid	asj	80
 5cut	ask	80
 5developed	asl	40
@@ -90,6 +107,8 @@ ament	at7	80
 4vided	atm	2
 3o	atn	7e
 4ubtedly	ato	7c
+3reamed of	bp4	
+7t of	bp0	
 3ue	atp	20
 4late	atq	80
 2earth	atr	c0
@@ -122,6 +141,7 @@ bly	aud	5e
 4ent	aui	80
 2happy	auj	e
 3ealthy	auk	22
+5rd of	bp3	
 2icorn	aul	80
 3dimensional	aum	80
 3fication	aun	80
@@ -137,6 +157,7 @@ bly	aud	5e
 3nhabited	aux	40
 4itiated	auy	80
 3on	auz	7e
+5 of the comoros	cqf	
 3que	av0	fe
 6ness	av1	40
 3son	av2	80
@@ -149,6 +170,7 @@ bly	aud	5e
 7e	av9	5e
 7ities	ava	20
 9y	avb	1f
+a of the philippines	cqy	
 4ocal	avc	80
 2just	avd	c
 6ified	ave	80
@@ -178,6 +200,8 @@ bly	aud	5e
 4latable	aw2	c0
 4ralleled	aw3	40
 3leasant	aw4	e
+a to the eye	d7q	
+ls	dgz	
 3recedented	aw5	c8
 5dictable	aw6	40
 5meditated	aw7	80
@@ -230,6 +254,7 @@ cness	ax0	80
 3hreatening	axi	80
 3ie	axj	8
 4l	axk	3
+5 the end of time	cfn	
 4mely	axl	80
 3old	axm	a0
 4uched	axn	40
@@ -242,10 +267,17 @@ cness	ax0	80
 2warranted	axu	80
 3ieldy	axv	c0
 4lling	axw	e
+9 to be left out	dsi	
 4tting	axx	80
 3onted	axy	80
 4rldly	axz	80
+5thy of	bow	
 1p	ay0	3
+2 in the sky	dhw	
+3to the eyeballs	cyb	
+amaximum	cy2	
+apresent	cxi	
+atask	cxs	
 2-to-date	ay1	2c
 2braid	ay2	c0
 2date	ay3	38
@@ -257,6 +289,7 @@ cness	ax0	80
 2land	ay9	40
 2on	aya	1f
 2per	ayb	1e
+5 part of the body	cki	
 2right	ayc	fc
 4sing	ayd	60
 3oar	aye	d8
@@ -273,7 +306,9 @@ cness	ax0	80
 2tight	ayp	80
 3odate	ayq	4
 2ward	ayr	1e
+6 of	bm3	
 6s	ays	c
+7 of	bnq	
 1ranium	ayt	8
 2ban	ayu	5e
 5e	ayv	40
@@ -294,6 +329,7 @@ cness	ax0	80
 3less	aza	6e
 3r	azb	e
 2her	azc	40
+2ing the toilet	f8g	
 2ual	azd	3f
 5ly	aze	2
 3rp	azf	80

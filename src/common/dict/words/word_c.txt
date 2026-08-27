@@ -27,6 +27,7 @@
 9d	1de	80
 8ing	1df	80
 9on	1dg	44
+b on the abacus	efr	
 8or	1dh	44
 6us	1di	88
 3dron	1dj	80
@@ -37,6 +38,7 @@
 6e	1do	c0
 4pers	1dp	80
 3l	1dq	23
+4 the score	euo	
 4igraphy	1dr	80
 4ous	1ds	c0
 5w	1dt	80
@@ -54,6 +56,11 @@
 4aign	1e5	fe
 4us	1e6	7c
 2n	1e7	43
+3 be compared to	dsl	
+7said to be	bzx	
+4it be possible that	dtk	
+4stand the test	en2	
+3't get the point	ehl	
 0Canada	1e8	3
 5ian	1e9	22
 0canal	1ea	7e
@@ -75,6 +82,8 @@
 3ker	1eq	80
 3nibalism	1er	40
 4on	1es	3c
+5t be said to be	c09	
+9ar the burden	f4j	
 4y	1et	c0
 3oe	1eu	5c
 4n	1ev	80
@@ -92,6 +101,7 @@
 2p	1f7	5f
 3ability	1f8	48
 5le	1f9	5c
+7 of	bnl	
 4cious	1fa	c0
 6tance	1fb	8
 7or	1fc	8
@@ -130,6 +140,7 @@
 5ologist	1g9	80
 4s	1ga	20
 3e	1gb	23
+4 of	bkc	
 4en	1gc	80
 5r	1gd	74
 6ism	1ge	40
@@ -154,10 +165,12 @@
 5t	1gx	3e
 4ing	1gy	40
 3riage	1gz	5e
+8 for collecting the bride	edl	
 5er	1h0	3e
 5on	1h1	c0
 4ot	1h2	3e
 4y	1h3	23
+5 at the waist	ehf	
 3t	1h4	7c
 4ographer	1h5	80
 5n	1h6	20
@@ -204,6 +217,7 @@
 3lk	1ib	80
 3sal	1ic	88
 4e	1id	7f
+5 of the ruin	cpf	
 5s	1ie	20
 4tic	1if	e0
 3terize	1ig	80
@@ -218,7 +232,8 @@
 4at	1ip	80
 4rn	1iq	c0
 4s	1ir	20
-3il	1is	80
+3iar to the general	d5h	
+4l	1is	80
 4ty	1it	e8
 3ort	1iu	80
 0CD	1iv	23
@@ -252,9 +267,11 @@
 4enary	1jn	20
 6nial	1jo	40
 5r	1jp	20
+6 of the sky	ctm	
 4igrade	1jq	de
 5metre	1jr	1e
 4ral	1js	3e
+7 committee of the ccp	cqj	
 7ization	1jt	80
 9e	1ju	8
 5e	1jv	3f
@@ -270,6 +287,7 @@
 4monial	1k5	40
 8ous	1k6	c0
 7y	1k7	fe
+8 of capping the roof	csx	
 3tain	1k8	17
 7ly	1k9	2
 7ty	1ka	bc
@@ -300,7 +318,9 @@ aion	1kd	80
 6llor	1kz	b0
 4delier	1l0	80
 4ge	1l1	3
+6 is the only constant	enz	
 6able	1l2	2
+6s behind the scenes	f3u	
 4nel	1l3	7e
 4t	1l4	a3
 3os	1l5	fe
@@ -340,6 +360,7 @@ be	1le	fc
 5er	1m3	20
 4t	1m4	1f
 3ck	1m5	e3
+5 the record	ezf	
 5ered	1m6	80
 5out	1m7	40
 5s	1m8	20
@@ -354,6 +375,7 @@ be	1le	fc
 3mical	1mh	1e
 5st	1mi	3e
 7ry	1mj	3f
+3n of the southern dynasties	cti	
 3que	1mk	1e
 3rish	1ml	78
 4ry	1mm	14
@@ -371,10 +393,12 @@ be	1le	fc
 3ef	1my	76
 5ly	1mz	40
 3ld	1n0	23
+5 in the womb	djw	
 5care	1n1	20
 5hood	1n2	16
 5ish	1n3	4
 5ren	1n4	20
+8 of the nobility	cva	
 4l	1n5	7c
 5i	1n6	40
 5y	1n7	40
@@ -383,15 +407,18 @@ be	1le	fc
 4panzee	1na	40
 3n	1nb	3c
 0China	1nc	3
-4ese	1nd	23
-0chip	1ne	f8
+0china and the west	d6k	
+0Chinese	1nd	23
+0chink in the armor	dnh	
+3p	1ne	f8
 4munk	1nf	80
 4s	1ng	2
 3rp	1nh	c0
 3sel	1ni	e0
 3valrous	1nj	80
 7y	1nk	c0
-2lorophyll	1nl	40
+2loride of acid	bts	
+5ophyll	1nl	40
 2ocolate	1nm	37
 3ice	1nn	ff
 6s	1no	20
@@ -448,6 +475,7 @@ bory	1p2	80
 6scribe	1p3	c0
 7pect	1p4	40
 7tance	1p5	6e
+cs of the people	cka	
 atial	1p6	80
 6vent	1p7	c0
 5s	1p8	3a
@@ -458,6 +486,7 @@ atial	1p6	80
 3ies	1pd	20
 4zen	1pe	1e
 7ship	1pf	40
+b of the planet	cub	
 3y	1pg	23
 2vic	1ph	60
 4l	1pi	de
@@ -482,6 +511,7 @@ at	1pp	80
 5on	1q1	80
 5ty	1q2	b0
 3sh	1q3	b8
+5 on the frontier	efg	
 4p	1q4	bc
 4s	1q5	23
 5ic	1q6	3e
@@ -501,6 +531,7 @@ at	1pp	80
 5liness	1qk	8
 5se	1ql	40
 4r	1qm	23
+5 of	bk6	
 5ance	1qn	20
 5ing	1qo	8
 5ly	1qp	6
@@ -521,6 +552,7 @@ at	1pp	80
 6ele	1r4	80
 6s	1r5	20
 3ff	1r6	7c
+5 barring the way	ers	
 3mate	1r7	56
 6ic	1r8	40
 5x	1r9	f8
@@ -539,6 +571,8 @@ at	1pp	80
 3ister	1rm	80
 3ne	1rn	13
 3se	1ro	43
+5 to the border	d7t	
+dend	d1o	
 5-up	1rp	20
 5d-minded	1rq	80
 5ly	1rr	4
@@ -579,6 +613,7 @@ ave	1sf	20
 3st	1sq	1f
 5al	1sr	28
 3t	1ss	57
+4ing on the tongue	efi	
 3x	1st	c0
 2b	1su	80
 3bler	1sv	80
@@ -625,9 +660,12 @@ ave	1sf	20
 2la	1u0	20
 4nder	1u1	80
 3d	1u2	17
+4 snap during the spring	ew4	
 4-blooded	1u3	80
 3laborate	1u4	dc
 aion	1u5	68
+aor of the investigator	cvb	
+dwith the enemy	egk	
 5ge	1u6	80
 5pse	1u7	fc
 5r	1u8	9e
@@ -657,6 +695,7 @@ aism	1um	40
 5nade	1uw	80
 5y	1ux	fc
 4r	1uy	34
+5 of the sky	ctn	
 5ation	1uz	80
 4ssal	1v0	e0
 6us	1v1	80
@@ -673,6 +712,7 @@ aism	1um	40
 4ustible	1vc	e0
 8on	1vd	48
 3e	1ve	23
+4 of	bjq	
 4dienne	1vf	80
 5y	1vg	7e
 4ly	1vh	80
@@ -687,6 +727,7 @@ aism	1um	40
 3ma	1vq	82
 5nd	1vr	1e
 7er	1vs	4c
+9 of the imperial guards	cu6	
 4emorate	1vt	f0
 5nce	1vu	f8
 8ment	1vv	80
@@ -719,6 +760,7 @@ aer	1w8	40
 6e	1wm	80
 6icate	1wn	df
 aion	1wo	7f
+d lines to the rear	dfa	
 7sm	1wp	1e
 8t	1wq	e
 7ty	1wr	7c
@@ -742,7 +784,8 @@ aate	1x7	80
 8le	1x9	f8
 6riot	1xa	88
 4el	1xb	fc
-6ling	1xc	90
+6led by the circumstances	eic	
+7ing	1xc	90
 5ndium	1xd	80
 6sate	1xe	fa
 9ion	1xf	78
@@ -752,6 +795,7 @@ aate	1x7	80
 8t	1xj	5c
 6ing	1xk	40
 7tion	1xl	7f
+b against the clock	ev2	
 9ve	1xm	3c
 bness	1xn	40
 8or	1xo	a
@@ -760,14 +804,17 @@ bness	1xn	40
 ay	1xr	80
 9t	1xs	80
 6in	1xt	5c
+8 of	bns	
 8t	1xu	7c
+9s of the people	ckb	
 7sance	1xv	80
 at	1xw	80
 5ement	1xx	78
 aary	1xy	c0
 6te	1xz	7f
 8ly	1y0	c
-7ion	1y1	8
+7ing the square	f6g	
+8on	1y1	8
 6x	1y2	7e
 7ion	1y3	a0
 8ty	1y4	48
@@ -784,6 +831,7 @@ aary	1yc	40
 5rt	1yf	c0
 5se	1yg	fc
 7d	1yh	c0
+8 of	bo6	
 7r	1yi	88
 6ite	1yj	38
 8ion	1yk	7f
@@ -814,6 +862,7 @@ bve	1yr	dc
 5de	1z9	f8
 5it	1za	c8
 6ve	1zb	f8
+8 of	bp9	
 5ntrate	1zc	be
 bd	1zd	8
 aion	1ze	1c
@@ -928,6 +977,7 @@ bion	21x	5e
 6e	22f	c0
 4oisseur	22g	c0
 5tation	22h	90
+9ve of	bp5	
 4ubial	22i	80
 3quer	22j	fc
 7or	22k	28
@@ -957,8 +1007,10 @@ asm	232	40
 by	238	40
 9te	239	7e
 aion	23a	5e
+8ed to be	e0m	
 5gn	23b	e0
 5st	23c	7e
+7 of	bnk	
 7ency	23d	c0
 9t	23e	de
 aly	23f	48
@@ -988,6 +1040,7 @@ cal	23y	c0
 9ed	243	40
 7nge	244	80
 6uct	245	de
+9ed under the supervision of	cmo	
 9ion	246	7e
 7e	247	c0
 4ul	248	88
@@ -1034,12 +1087,14 @@ aion	24o	48
 7e	25d	1f
 7ity	25e	60
 7ous	25f	5c
+a blowing of the wind	csc	
 7um	25g	40
 4ort	25h	80
 5ur	25i	40
 4raband	25j	80
 6ct	25k	fc
 8ion	25l	40
+b of the uterus	cup	
 8or	25m	40
 8s	25n	20
 6dict	25o	fa
@@ -1055,6 +1110,8 @@ aory	25q	ca
 6ve	25y	f8
 8d	25z	88
 5ol	260	b7
+7 of guns of ammunitions	bu4	
+bsource of supply	bto	
 6versial	261	fa
 ay	262	78
 9t	263	c0
@@ -1074,6 +1131,7 @@ cly	26g	40
 5rge	26h	e8
 8nt	26i	80
 6sant	26j	c0
+a with the confucian classics	egn	
 8tion	26k	63
 cal	26l	40
 7e	26m	c8
@@ -1088,6 +1146,7 @@ cal	26l	40
 4ict	26v	f8
 7ion	26w	f8
 5nce	26x	fe
+8 of	bo4	
 8d	26y	40
 7ing	26z	48
 5vial	270	c0
@@ -1120,9 +1179,11 @@ ad	27h	40
 4ial	27r	fc
 4less	27s	2
 0CORE	27t	dc
-0cork	27u	20
+0core of the earth	crr	
+3k	27u	20
 3n	27v	5e
 4er	27w	3
+6 of the mouth	cqt	
 5t	27x	c0
 4ice	27y	80
 4ucopia	27z	80
@@ -1178,6 +1239,7 @@ cism	28y	80
 3gar	29d	80
 4h	29e	37
 3ld	29f	1
+5 it be	ewa	
 3ncil	29g	3c
 4sel	29h	78
 7ing	29i	48
@@ -1195,6 +1257,7 @@ cism	28y	80
 8roductive	29u	80
 5less	29v	40
 5ries	29w	20
+9 of the indian ocean	cu8	
 6y	29x	23
 7side	29y	23
 5y	29z	1c
@@ -1219,6 +1282,8 @@ cism	28y	80
 5ant	2ai	80
 4r	2aj	63
 5age	2ak	70
+5ing the sky	f7c	
+dwhole land	exe	
 5t	2al	80
 4t	2am	80
 5ous	2an	40
@@ -1259,6 +1324,7 @@ cism	28y	80
 3ze	2bm	40
 4y	2bn	5f
 2eam	2bo	3e
+5 of the crop	cst	
 4se	2bp	a0
 4te	2bq	3f
 5ion	2br	20
@@ -1269,6 +1335,7 @@ cism	28y	80
 as	2bw	70
 4ible	2bx	a0
 5t	2by	e2
+6 with the people	eea	
 6or	2bz	40
 4o	2c0	80
 4ulous	2c1	c0
@@ -1285,6 +1352,7 @@ as	2bw	70
 2icket	2cc	3c
 3me	2cd	3e
 4inal	2ce	3e
+8 to be executed	dxj	
 4son	2cf	40
 3nge	2cg	80
 5ing	2ch	80
@@ -1298,6 +1366,7 @@ as	2bw	70
 7on	2cp	ba
 4ic	2cq	dc
 6al	2cr	fc
+8 annotations between the lines	etg	
 6ism	2cs	1c
 7ze	2ct	1c
 5que	2cu	c0
@@ -1307,6 +1376,7 @@ as	2bw	70
 4odile	2cy	20
 3nyism	2cz	80
 3ok	2d0	80
+5 of the arm	cqq	
 5ed	2d1	68
 4n	2d2	80
 3p	2d3	1e
@@ -1323,6 +1393,7 @@ as	2bw	70
 4d	2de	5e
 5ed	2df	2
 4n	2dg	bc
+5 of the head	cng	
 2ucial	2dh	fc
 3de	2di	7c
 4ity	2dj	80
@@ -1420,6 +1491,7 @@ bd	2e4	40
 3lery	2g3	80
 3ter	2g4	8
 4ing	2g5	20
+7 the gordian knot	f8p	
 1yberspace	2g6	10
 2cle	2g7	3e
 4ical	2g8	80
