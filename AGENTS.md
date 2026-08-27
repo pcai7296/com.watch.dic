@@ -1,192 +1,203 @@
 ﻿# 腕上词典 — AGENTS.md
 
-> **⚠️ MANDATORY: Before any Vela work (.ux, manifest, build, deploy, API), call skill(name="vela-dev") first — see .opencode/instructions/vela.md**
+> Layered docs: this file (repo-wide) + `src/common/AGENTS.md` (shared modules/assets) + `scripts/AGENTS.md` (dict generator + deploy). Read the relevant layer before touching that area.
 
 ## What this is
 
-**腕上词典** (Wrist Dictionary) — a Xiaomi Vela QuickApp for Mi Band smartwatches. Built with iot-toolkit (iot CLI). Single-page SFC format (.ux files: <template> + <script> + <style> in one file, parsed by prettier as Vue).
+**腕上词典** (Wrist Dictionary) — an offline Xiaomi Vela QuickApp dictionary for Mi Band watches. Built with aiot-toolkit (`aiot` CLI). Single-page SFC format (`.ux` = `<template>` + `<script>` + `<style>`, parsed by Prettier as Vue).
+
+This repo is **one of 5 single-resolution sibling repos** under `com.watch.dic/`, each a standalone git repo with its own package name:
+
+| Repo | Screen | Profile |
+|------|--------|---------|
+| com.watch.dic.w192 | 192×490 | pill-compact |
+| **com.watch.dic.w212** (this) | 212×520 | pill-standard |
+| com.watch.dic.w336 | 336×480 | rect |
+| com.watch.dic.w432 | 432×514 | rect |
+| com.watch.dic.w466 | 466×466 | circle |
+
+Remote: `github.com/pcai7296/com.watch.dic.git`.
+
+## Versioning
+
+- Canonical version: `src/manifest.json` → `versionName` / `versionCode` (currently 3.0.0 / 6).
+- Known drift (don't trust them): `package.json` `version` and README badge lag behind; CHANGELOG entries are written per release.
 
 ## Key config
 
 | File | What |
 |------|------|
-| opencode.json | Loads AGENTS.md + .opencode/instructions/vela.md + poster-qc.md |
-| .opencode/instructions/conventions.md | Font-size rules (min 18px), about page multi-screen layout, emulator policy |
-| .opencode/instructions/dictionary-coverage.md | Dict coverage analysis + CC-CEDICT integration |
-| .opencode/instructions/poster-qc.md | Poster generation + GLM-4V-Flash visual QA workflow |
-| .prettierrc.js | No semicolons, double quotes, no trailing commas, racketSpacing: false, printWidth 100, 2-space indent. .ux parsed as Vue |
-| .stylelintrc.js | Allows custom Vela CSS props + :blur pseudo-class |
-| commitlint.config.js | Conventional commits: ug, eat, ix, docs, style, 
-efactor, 	est, chore, 
-evert, merge |
-| .eslintignore | Ignores dist/, uild/, sign/, 
-ode_modules/ |
-| .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/ (dict/sign/dist/build now committed)
+| quickapp.config.js | Enables JSC + `scripts/conditionalCompilationPlugin.js` webpack plugin |
+| .prettierrc.js | No semicolons, double quotes, no trailing commas, bracketSpacing: false, printWidth 100, 2-space indent. `.ux` parsed as Vue |
+| .stylelintrc.js | Allows custom Vela CSS props + `:blur` pseudo-class |
+| commitlint.config.js | Conventional commits: build, feat, fix, docs, style, refactor, test, chore, revert, merge |
+| .eslintignore | Ignores dist/, build/, sign/, node_modules/ |
+| .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/. dict/sign/dist/build ARE committed |
 
-No .eslintrc* — ESLint defaults via iot-toolkit.
+No `.eslintrc*` — ESLint defaults via aiot-toolkit. No `.opencode/` instructions dir (older docs referencing vela.md/conventions.md/poster-qc.md are obsolete).
+
+## Conditional compilation (multi-target from one codebase)
+
+Each sibling repo shares near-identical `src/`; targets differ via compile-time env:
+
+- `npm run build:212` → `cross-env TARGET_ID=W212 TARGET_WIDTH=212 TARGET_HEIGHT=520 aiot build --enable-custom-component` (same pattern for w192/w336/w432/w466).
+- `src/common/buildTarget.js` contains `// if true:` / `// endif` blocks per target; the plugin (`scripts/conditionalCompilationPlugin.js`) registers `scripts/conditionalCompilationLoader.js` as a pre-loader for css/js/json/html/vue/ux. The loader sanitizes `process.env` keys to valid identifiers before delegating to the official `conditional-compilation-webpack-plugin/loader.js`.
+- `buildTarget.js` exports `{id, width, height, profile, shape}`.
+- `src/global.js` mounts both on `global`: `global.buildTarget`, `global.navGuard`. Pages read `const {buildTarget} = global`.
+- `app.ux` seeds data from compiled target, then refines at runtime via `@system.device` getInfo: computes `screenProfile` — circle if shape=circle, rect if shape=rect, else aspect ratio ≤ 0.4 → pill-compact, else pill-standard.
+
+Resolution batch builds/releases: `npm run build:resolutions` / `release:resolutions` → PowerShell scripts in `scripts/`.
 
 ## Commands
 
 | Command | What |
 |---------|------|
-| 
-pm run start | Dev server (iot start --watch) |
-| 
-pm run build | Build RPK (iot build) |
-| 
-pm run release | Release build (iot release) |
-| 
-pm run lint | ESLint --fix on src/ (.ux,.js) |
-| 
-pm run deploy:watch | Build + ADB push to emulator-5554 |
-| 
-pm run deploy:watch:fast | ADB push only (skip build) |
+| npm run start | Dev server (aiot start --watch) |
+| npm run build | Default-target RPK build (aiot build) |
+| npm run build:192…466 | Target-specific RPK builds (cross-env + conditional compilation) |
+| npm run build:resolutions | Batch-build all resolution packages (PowerShell) |
+| npm run release:resolutions | Batch-release all resolutions (PowerShell) |
+| npm run release | Release build (aiot release) |
+| npm run lint | ESLint --format codeframe --fix on src/ (.ux,.js) |
+| npm run deploy:watch | Build + ADB push to emulator-5554 |
+| npm run deploy:watch:fast | ADB push only (skip build) |
 
-build/ and dist/ are committed to Git (user decision 2026-08-15: all RPK inputs tracked)
-spack v1.7.12 via iot-toolkit.
+build/ and dist/ are committed to Git (user decision 2025-08-15: all RPK inputs tracked). spack via aiot-toolkit ^2.0.5.
 
 ## Deploy
 
-- scripts/deploy_watch.ps1 — PowerShell. Targets emulator-5554. Override: -Serial 192.168.x.x:5555 or -NoBuild.
-- Flow: build → newest *.rpk in dist/ → db push → db shell pm install → db shell am start → verify m dump checks [resumed].
-- $ErrorActionPreference = "Stop" — exits on any failure.
-
-## Real device management
-
-ork_astrobox/ — AstroBox CLI fork for multi-device management (pairing, RPK install via queue).
-
-## Pre-commit
-
-Run ash husky.sh once (requires git):
-- Pre-commit via lint-staged: Prettier → ESLint (.ux/.js); Prettier → stylelint (./less/.css)
-- Commit-msg via commitlint
+- scripts/deploy_watch.ps1 — PowerShell, `$ErrorActionPreference = "Stop"`. Targets emulator-5554; override `-Serial 192.168.x.x:5555` or skip build with `-NoBuild`.
+- Flow: build → newest *.rpk in dist/ → adb push → adb shell pm install → adb shell am start → verify am dump shows [resumed].
 
 ## Project structure
 
-`
+```
 src/
-  app.ux / manifest.json          — Entry + config
-  pages/                          — 9 pages
-    index/                        — Home with 4 buttons
-    search/                       — IME + cursor editing + autocomplete
-    results/                      — English/Chinese results (1425 lines)
-    filter/                       — Letter drill-down jump-search
-    detail/                       — Word detail + favorite toggle (661 lines)
-    records/                      — History / favorites list (type param)
-    about/                        — Credits, license, multi-screen adaptive usage text
-    sponsor/                      — Donation QR code
-    settings/                     — User preferences (suggestion toggle, swipe lock)
-  components/
-    InputMethod/                  — English QWERTY keyboard (890 lines), sub-assets for layouts
+  app.ux / global.js / manifest.json   — Entry, global mounts, config
+  pages/                               — 9 pages
+    index/      (812)  — Home, minimal/classic layout, button-scale setting
+    search/     (927)  — IME + cursor editing + autocomplete + swipe-exit lock
+    results/    (2337) — English/Chinese results, pagination, fuzzy, phrase mode
+    filter/     (432)  — Letter drill-down jump-search
+    detail/     (627)  — Word detail + favorite toggle (150 cap)
+    records/    (808)  — History/favorites list, paginated 20/page
+    about/      (401)  — Credits, license, multi-screen usage text
+    sponsor/    (96)   — Donation QR code
+    settings/   (286)  — Toggles (see Storage)
+  components/InputMethod/              — English QWERTY keyboard (923 lines) + assets/{full,horizontal,t9,arc}
   common/
-    dict/                         - 269 shards (committed to Git, do NOT edit)
-    icons/                        — Button/decoration icons
-  i18n/                           — Locale JSON files (defaults, en, zh-CN)
-scripts/                          — generate_watch_dict.py, deploy_watch.ps1
-omo/                              — 32 Python scripts for asset gen, poster, coverage tests
-data/                             — Source dict CSVs (ecdict_tagged_14942_compact.csv, cedict.txt.gz)
-release_repo/                     — Published RPK + cover.png + preview screenshots
-`
+    buildTarget.js / navGuard.js / dictCodec.js / suggestionState.js
+    dict/       (1082 files)           — Generated shards, DO NOT EDIT
+    icons/                             — 21 button/UI PNGs
+    logo/deco-icon/search-icon/sponsor-code.png
+  i18n/                                — defaults.json is a placeholder; real strings in en.json / zh-CN.json
+scripts/                               — generate_watch_dict.py + helpers + PS1 deploys (see scripts/AGENTS.md)
+data/                                  — Source corpora: ecdict_tagged_14942_compact.csv, cedict.txt.gz,
+                                         bnc_coca_word_family_lists_v2.xlsx, wordnet dump (data/dict/),
+                                         phrases.csv, phrases_cedict.csv, words_ccedict.csv
+research_cn_index_trim/                — Read-only analysis reports on cn_index size trimming
+sign/ · build/ · dist/                 — Committed signing material and artifacts
+```
 
 ## Screen & style
 
-- Canvas: 212x520px, designWidth: "device-width", minPlatformVersion: 1000
-- Background #020813 on all pages except about (#000000)
-- Blue/white/black dark theme
-- **All text min 18px** — do not go below unless user OKs truncation
-- **About page**: usage text wraps by screen profile; 466×466 uses the same safe width as results.
+- Canvas: 212×520, designWidth: "device-width", minPlatformVersion: 1000. Never override designWidth.
+- Background #020813 everywhere except about (#000000). Blue/white/black dark theme.
+- **All text min 18px** — do not go below unless user OKs truncation.
+- About page wraps usage text by screen profile; use shared safe widths for results-like content.
+- Profiles come from `global.buildTarget` (+ runtime refinement in app.ux): pill-standard / pill-compact / rect / circle.
 
-## Storage
+## Storage (@system.storage)
 
-| Key | Type | Max | Purpose |
+| Key | Type | Cap | Purpose |
 |-----|------|-----|---------|
-| dic_history | JSON array | 20 | Search history |
-| dic_favorites | JSON array | 20 | Favorites |
+| dic_history | JSON array of {query, type: word\|phrase, ids?} | 20 | Search history (word & phrase modes share key, typed entries) |
+| dic_favorites | JSON array | 150 | Favorites, A-Z filter in records page |
+| dic_home_layout | "minimal" (default) \| "classic" | — | Home layout mode |
+| dic_english_suggestions | "1"/"0" (default 1) | — | Autocomplete toggle |
+| dic_result_long_press_home | "1"/"0" (default 1) | — | Long-press back (650ms) on results → home |
+| dic_search_swipe_exit_locked | "1"/"0" (default 1) | — | Lock swipe-exit while typing on search |
+| dic_button_scale | "1"/"0" (default 1) | — | Press-shrink effect on classic layout buttons |
 
-Both via @system.storage. Dedup/toggle by normalized word.
+Dedup/toggle by normalized word.
 
-## Router
+## Navigation
 
-Features: system.router, system.vibrator, system.device, system.file, system.storage, system.prompt (toast).
+- Features: system.router, system.vibrator, system.device, system.file, system.storage, system.prompt.
+- 9 pages in manifest.json, entry = pages/index.
+- **navGuard()** (common/navGuard.js): 500ms lock — every router call must pass through it so rapid taps can't stack duplicate pages.
+- Quirks: records→search uses router.replace with autoSearch="1"; detail→results (inflect) uses router.replace; detail inflect button has 1s cooldown, max 3 depth levels.
 
-9 pages in manifest.json, entry = pages/index.
+## Dictionary (compact-v3 schema)
 
-## Dictionary (~128k Chinese phrases, 15k English headwords)
+Source: ECDICT + CC-CEDICT (single-char English glosses + multi-word phrases) + BNC/COCA word families + WordNet derived links + suffix rules. Regenerate: `python scripts/generate_watch_dict.py` (~1000 lines; cleans OUT dir each run). **Never edit shards directly.**
 
-Source: ECDICT + CC-CEDICT + BNC/COCA word-family lists.
-Regenerate: python scripts/generate_watch_dict.py (never edit shards directly).
+Self-describing stats live in `src/common/dict/meta.json` (70,408 English headwords; 134,322 cn phrases; resultLimit 20). Runtime codec shared in `src/common/dictCodec.js`.
 
 | Feature | Mechanism |
 |---------|-----------|
-| English lookup | 26 first-letter files (`words/word_a.txt`..`word_z.txt`); row = `word<TAB>entryId<TAB>tag` |
-| Chinese lookup | Unicode codepoint % 64 to 64 bucket files; ID lists are strictly decoded delta-base36 |
-| Inflect lookup | `inflect/` + `inflect_reverse/`; `key_for()` 2-char sharding is used only here |
-| Entry lookup | `entries/entry_<nn>.txt`, sharded by `entryId / 500`; canonical full data for English and Chinese hydration |
-| Fuzzy search | Edit distance <=2, scan <=4000 words, pool <=80 candidates |
-| Autocomplete | Async read/cache of the same compact `word_<a-z>.txt` index; exam tag affects ranking |
-| Results cap | 20 |
+| English index | `words/` 3-tier shards: `word_<letter>.txt` ×26, `word_<2chars>.txt` ×676, `word_<letter>_head.txt` ×26 (top-N for single-char seed). Row = base36 prefixLen+suffix TAB base36 entryId TAB hex tagCode |
+| Entry hydration | `entries/entry_<nn>.txt`, shard = entryId // 500 (141 shards). Front-coded word per shard, implicit entryId, ipa-mapped phonetics, phrase-encoded defs |
+| Chinese single char | `zh_index/zh_<hex>.txt` ×64 buckets (ord % 64) |
+| Chinese phrases | `cn_index/cn_<hex>.txt` ×96 buckets (ord % 96); phrase → ID list |
+| Chinese ID codec | Strictly-increasing delta ULEB128 bytes wrapped in unpadded URL-safe Base64 (decodeDeltaIds in dictCodec.js) |
+| Inflect lookup | `inflect/` + `inflect_reverse/`, 26 first-letter files per direction; links = exchange + BNC/COCA families + WordNet + suffix rules |
+| Fuzzy search | Edit distance ≤ 2 (bounded), scan ≤ 4000 lines, pool ≤ 80 candidates |
+| Autocomplete | Async read/cache of same word shards; shard key = first 1–2 chars (`_wordShardKey`); exam tag boosts ranking |
+| Results cap | 20 per page, then next-page cards (records pagination also 20/page) |
 
-There is no `index_en.txt` or `english_suggestions.js/.json` runtime resource.
+There is no `index_en.txt` or `english_suggestions.js/.json` runtime resource — don't reintroduce.
 
-Coverage: English 100%, Chinese ~86% (14 modern words missing from CC-CEDICT).
-Test: python omo/dict_coverage_test.py
+Coverage: English headwords complete vs sources; Chinese phrase coverage tuned by trim/filter passes (see research_cn_index_trim reports).
 
 ## InputMethod component
 
-- English QWERTY only
-- Emits: isibilityChange, keyDown, delete, complete
-- Asset paths use {{lang}} variable — handled by iot-toolkit 2.0.4+
+- English QWERTY only; layout asset dirs: full / horizontal / t9 / arc.
+- Emits: visibilityChange, keyDown, delete, complete.
+- Cross-page autocomplete state lives in `common/suggestionState.js` module singletons (props-based passing crashed Vela DOM creation).
+- Asset paths may use {{lang}} variable — handled by aiot-toolkit 2.x.
 
 ## Swipe-back gesture (every page)
 
-| Page | Start X <= | End X >= | dY <= |
-|------|------------|----------|-------|
-| Most pages | 53 | 159 | 120 |
-| about.ux | 20 | 180 | 60 |
-
-Copy pattern from any page except about. Needs getTouchPoint() + 	ouchStartX/Y.
-
-## Router quirks
-
-- **records to search**: 
-outer.replace (not push) with utoSearch="1"
-- **detail to results** (inflect): 
-outer.replace (not push)
-- **Detail page**: 1s cooldown on inflect button, max 3 depth levels
+Pattern: touchstart records X/Y; touchend requires start in left ~25% of screen width, end past right ~75%, |dY| ≤ 120 (about.ux uses looser fixed thresholds). Copy from any page except about; needs getTouchPoint() + touchStartX/Y. Respect the search-page swipe-exit lock setting.
 
 ## VSCode MCP
 
-elajs-mcp in .vscode/mcp.json with auto-approved: tap, screenshot, navigate, input text, build, get device logs, storage inspect.
+velajs-mcp in .vscode/mcp.json; broad autoApprove list (tap, screenshot, navigate, input_text, build_project, get_device_log, get_storage, emulator control…).
 
 ## Emulator policy
 
-**Do not touch the emulator unless asked.** Verification is the user's job (per conventions.md).
+**Do not touch the emulator unless asked.** Verification is the user's job.
 
 ## Tests & CI
 
-- **Offline tests**: `omo/dict_coverage_test.py`, `omo/dict_compaction_test.py`, `omo/dict_semantic_validator.py`
-- **Test framework / CI**: No app test framework. No GitHub Actions.
+- Offline python checks: scripts/check_ids.py, scripts/check_phrases.py (+ research_cn_index_trim audit scripts).
+- No app test framework, no CI.
 
 ## ANTI-PATTERNS (THIS PROJECT)
 
-- **Never edit dictionary shard files** under src/common/dict/. Regenerate via python scripts/generate_watch_dict.py.
-- **No static asset paths** with {{lang}} — iot-toolkit 2.0.4+ handles variable-depth paths.
-- **No type suppression** — no s any, @ts-ignore, @ts-expect-error.
-- **No semicolons** — Prettier enforces no-semicolon style.
-- **No empty catch blocks** — always handle or re-throw.
-- **Don't remove swipe-back gesture** when adding new pages.
+- **Never edit dictionary shards** under src/common/dict/ — regenerate via generate_watch_dict.py.
+- **Never bypass navGuard** for router calls on interactive buttons.
+- **Don't hardcode screen dimensions** — use `global.buildTarget` / screenProfile so the 5 sibling repos stay in sync.
+- **Conditional-compilation blocks must stay balanced** (`// if true:` … `// endif`) — they're processed across css/js/json/html/vue/ux.
+- **No type suppression** (as any, @ts-ignore, @ts-expect-error); **no semicolons**; **no empty catch blocks**.
+- **Don't remove the swipe-back gesture** when adding pages.
 - **No generic AI boilerplate** — match project's telegraphic, no-fluff style.
-- **Don't override designWidth** — must stay "device-width" for the 212x520 canvas.
-- **ESLint runs with --fix by default** — it auto-formats on lint. Be aware before running 
-pm run lint.
+- **ESLint runs with --fix** — it auto-formats; know that before `npm run lint`.
 
 ## CODE MAP
 
 | Symbol | Type | File | Role |
 |--------|------|------|------|
-| key_for() | function | scripts/generate_watch_dict.py | Generate 2-char shard key for inflect / reverse-inflect files only |
-| zh_bucket_for() | function | scripts/generate_watch_dict.py | Unicode bucket for Chinese index |
-| load_cc_cedict() | function | scripts/generate_watch_dict.py | Parse CC-CEDICT into cn_index |
-| SimpleInputMethod | object | src/components/InputMethod/assets/dicUtil.js | English dict query orchestration |
-| decodeDeltaIds() | function | src/pages/results/results.ux | Strictly decode delta-base36 Chinese index IDs |
-| loadEnglishSuggestionSource() | function | src/pages/search/search.ux | Async load/cache compact first-letter word index |
+| buildTarget | const | src/common/buildTarget.js | Compile-time target {id,width,height,profile,shape}; conditional blocks resolved at build |
+| navGuard() | function | src/common/navGuard.js | 500ms anti-double-tap router lock; mounted on global |
+| parseBase36 / decodePrefixField / decodeDeltaIds | function | src/common/dictCodec.js | Runtime compact-v3 codecs (base36 fields, front-coded words, delta-ULEB128+base64url IDs) |
+| getSuggestionSeed/setSuggestions/onSuggestionsChange | function | src/common/suggestionState.js | Module-scoped autocomplete bridge between search page and IME |
+| key_for(value) | function | scripts/generate_watch_dict.py | Normalize to 2-char shard key ([^a-z0-9] → "_") |
+| zh_bucket_for / cn_bucket_for | function | scripts/generate_watch_dict.py | ord % 64 (single char) / ord % 96 (phrases) bucket names |
+| encode_delta_ids / decode_delta_ids | function | scripts/generate_watch_dict.py | Generator-side strict delta-ULEB128 codec |
+| encode_front_code / decode_front_code | function | scripts/generate_watch_dict.py | Front-coding of word column inside entry shards |
+| load_cc_cedict / load_word_family_links / load_wordnet_derived_links | function | scripts/generate_watch_dict.py | Corpus ingestion phases |
+| derived_candidates(word) | function | scripts/generate_watch_dict.py | Suffix-rule inflection candidates |
+| _wordShardKey / loadEnglishSuggestionSource | function | src/pages/search/search.ux | Pick word_<key>.txt shard, async cache, stream suggestions |
+| decodeDeltaIds usage | function | src/pages/results/results.ux | Hydrate zh/cn ID lists from buckets |

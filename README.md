@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/版本-2.3.0-1d74e8?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/版本-3.1.0-1d74e8?style=flat-square" alt="Version" />
   <img src="https://img.shields.io/badge/平台-Mi%20Band-1d74e8?style=flat-square" alt="Platform" />
   <img src="https://img.shields.io/badge/框架-Vela%20QuickApp-1d74e8?style=flat-square" alt="Framework" />
-  <img src="https://img.shields.io/badge/词库-15k%2B-2ea043?style=flat-square" alt="Headwords" />
+  <img src="https://img.shields.io/badge/词库-20k%2B-2ea043?style=flat-square" alt="Headwords" />
   <img src="https://img.shields.io/badge/屏幕-212×520-ff6b35?style=flat-square" alt="Screens" />
   <img src="https://img.shields.io/badge/输入-英文-1d74e8?style=flat-square" alt="Languages" />
   <img src="https://img.shields.io/badge/工具-aiot--toolkit-ff6b35?style=flat-square" alt="Build" />
@@ -20,7 +20,7 @@
 
 **腕上词典** 是一款运行在小米手环上的 Vela 快应用，把一部完整的英汉词典装进手腕。查英语单词、汉字、动词变形——全程离线，抬手即用。
 
-本仓库是 **212×520（胶囊屏）** 单分辨率适配分支，包名 `com.watch.dic.w212`。基于小米 `aiot-toolkit` 开发，内置 **15,000+ 条词汇**（数据源：ECDICT + CC-CEDICT + BNC/COCA 词族）。
+本仓库是 **212×520（胶囊屏）** 单分辨率适配分支，包名 `com.watch.dic.w212`。基于小米 `aiot-toolkit` 开发，内置 **20,000+ 条词汇**（数据源：ECDICT + CC-CEDICT + BNC/COCA 词族）。
 
 > 本仓库是 5 个分辨率分支之一：`w192`(192×490) / `w212`(212×520) / `w336`(336×480) / `w432`(432×514) / `w466`(466×466)。每个分支独立构建自己的 RPK，互不干扰。
 
@@ -83,7 +83,7 @@ npm run deploy:watch
 npm run deploy:watch -- -Serial 192.168.x.x:5555
 ```
 
-构建产物为 `dist/com.watch.dic.w212.debug.2.3.0.rpk`（已纳入 Git）。
+构建产物为 `dist/com.watch.dic.w212.debug.3.1.0.rpk`（已纳入 Git）。
 
 ---
 
@@ -106,7 +106,7 @@ src/
 ├── components/
 │   └── InputMethod/              # 英文输入法（全键盘 + 光标控制）
 ├── common/
-│   ├── dict/                     # 紧凑词典分片（269 个，已纳入 Git）
+│   ├── dict/                     # 紧凑词典分片（279 个，已纳入 Git）
 │   └── icons/                    # 按钮/装饰图标
 ├── i18n/                         # 国际化文件（zh-CN, en, defaults）
 scripts/
@@ -132,9 +132,9 @@ build/                            # 构建中间产物（已纳入 Git）
 | **自动补全** | 异步读取并缓存同一份紧凑英文索引；考试标签参与排序 |
 | **模糊搜索** | 扫描紧凑英文索引（≤4000 词、候选池 80），再按 `entryId` 补全完整词条 |
 
-> **15,000+ 条词汇**，源自 ECDICT + CC-CEDICT + BNC/COCA 词族频率数据。
+> **20,000+ 条词汇**，源自 ECDICT + CC-CEDICT + BNC/COCA 词族频率数据。
 
-词典分片 **已纳入 Git 版本管理**（`src/common/dict/`，269 个文件），克隆后无需重新生成即可构建。
+词典分片 **已纳入 Git 版本管理**（`src/common/dict/`，279 个文件），克隆后无需重新生成即可构建。
 
 ### 重新生成词典（可选）
 

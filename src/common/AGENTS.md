@@ -1,4 +1,4 @@
-﻿# src/common/ 鈥?Shared Modules + Static Assets
+﻿# src/common/ — Shared Modules + Static Assets
 
 Cross-page ES modules, app icon, and shared icons. All paths referenced by pages/components are resolved relative here.
 
@@ -6,14 +6,16 @@ Cross-page ES modules, app icon, and shared icons. All paths referenced by pages
 
 ```
 common/
-鈹溾攢鈹€ suggestionState.js      # Shared ES module 鈥?autocomplete state for search page
-鈹溾攢鈹€ dict/                   # Generated dictionary shards 鈥?gitignored
-鈹溾攢鈹€ icons/                  # 16 PNGs (book / button icons)
-鈹溾攢鈹€ logo.png                # App icon
-鈹溾攢鈹€ deco-icon.png           # Decorative icon
-鈹溾攢鈹€ deco-icon-about.png     # About-page decorative icon
-鈹溾攢鈹€ search-icon.png         # Search-page decorative icon
-鈹斺攢鈹€ sponsor-code.png        # Donate QR on sponsor page
+├── suggestionState.js      # Shared ES module — autocomplete state for search page
+├── buildTarget.js          # Compile-time screen target {id,width,height,profile,shape}; conditional-compilation blocks
+├── navGuard.js             # 500ms router anti-double-tap lock (mounted on global via src/global.js)
+├── dictCodec.js            # Runtime compact-v3 codecs (parseBase36, decodePrefixField, decodeDeltaIds)
+├── dict/                   # Generated dictionary shards — committed to Git
+├── icons/                  # 21 button/UI PNGs
+├── logo.png                # App icon
+├── deco-icon.png           # Decorative icon
+├── search-icon.png         # Search-page decorative icon
+└── sponsor-code.png        # Donate QR on sponsor page
 ```
 
 ## suggestionState.js
@@ -28,32 +30,55 @@ Module-scoped singletons for autocomplete state shared between `pages/search` an
 
 Usage: `import { setSuggestions, onSuggestionsChange } from '../../common/suggestionState.js'`.
 
-## dict/ 鈥?Generated Shards (DO NOT EDIT)
+## buildTarget.js + navGuard.js
 
-See `scripts/AGENTS.md` for the full layout (`words/`, `entries/`, `zh_index/`, `cn_index/`, `inflect/`, `inflect_reverse/`, `meta.json`). Regenerate with `python scripts/generate_watch_dict.py`.
+- `buildTarget.js` resolves at build time via conditional-compilation blocks (`// if true:` / `// endif` keyed on TARGET_ID/TARGET_WIDTH/TARGET_HEIGHT env). Exports `{id, width, height, profile, shape}`.
+- `navGuard()` returns false within 500ms of the last accepted navigation — wrap router calls to prevent double-tap page stacking.
+- Both are mounted on `global` by `src/global.js`; pages read `const {buildTarget} = global`.
 
-The directory is committed to Git (269 shards) - clone-and-build works out of the box. Regenerate only when the source CSVs change.
+## dictCodec.js
 
-## icons/ 鈥?16 PNGs
+Shared runtime codecs for the compact-v3 dictionary schema. Import from pages instead of re-implementing:
+
+| Export | Purpose |
+|--------|---------|
+| `parseBase36(value)` | strict base36 → number (-1 on invalid / unsafe) |
+| `decodePrefixField(value, previous)` | front-coded word field reconstruction |
+| `decodeDeltaIds(value)` | strictly-increasing delta ULEB128 bytes in unpadded URL-safe Base64 → entry ID array |
+| `decodeFrontCode` helpers | mirror of generator-side front coding |
+
+See `scripts/AGENTS.md` for the shard layout these decode.
+
+## dict/ — Generated Shards (DO NOT EDIT)
+
+Layout: `words/`, `entries/`, `zh_index/`, `cn_index/`, `inflect/`, `inflect_reverse/`, `meta.json`. Regenerate with `python scripts/generate_watch_dict.py`.
+
+The directory IS committed to Git (~1082 files incl. meta.json) — clone-and-build works out of the box. Regenerate only when the source corpora in `data/` change.
+
+## icons/ — 21 PNGs
 
 | Group | Files | Used by |
 |-------|-------|---------|
-| Book illustrations | `01_flat_book.png` 鈥?`10_az_book.png` | Home page button assets |
-| Buttons | `btn_search.png`, `btn_history.png`, `btn_fav.png`, `btn_transform.png`, `btn_about.png`, `btn_sponsor.png` | Home page buttons |
+| Home buttons | `btn_search.png`, `btn_history.png`, `btn_fav.png`, `btn_transform.png` (+`_blue`), `btn_about.png`, `btn_sponsor.png` | Home page (classic layout) |
+| Nav/back | `btn_back.png`, `btn_back_thin.png`, `btn_back_mirror_thin.png` | Page headers |
+| State/UI | `btn_check.png`, `btn_delete_fat.png`, `btn_heart_gold.png`, `btn_info_i.png`, `collect-circle-true/false.png`, `history.png`, `language.png`, `settings-2.png`, `Sync_circle.png` | records/detail/settings/index |
 
-Buttons follow the 4 + 2 home layout in `pages/index`. Filename numbers (01鈥?0) are stable references used by `omo/_gen_*.py`; do not reorder.
+Home layout switch (minimal/classic) lives in `pages/settings` (`dic_home_layout`).
 
 ## WHERE TO LOOK
 
 | Task | Location | Notes |
 |------|----------|-------|
 | Share state across pages/components | `suggestionState.js` | module-scope only; no global window pollution |
-| Add new button/book icon | drop PNG in `icons/` + reference in target page | match existing naming (numeric prefix for book, `btn_` for buttons) |
+| Screen dims/profile in a page | `global.buildTarget` | never hardcode pixels; sibling repos share this code |
+| Guard a router call | `navGuard()` from global | required on interactive buttons |
+| Decode dict shard data | `dictCodec.js` | don't reimplement codecs per page |
+| Add new button icon | drop PNG in `icons/` + reference in target page | match existing naming (`btn_` prefix for buttons) |
 | Update app icon | `logo.png` | referenced from `manifest.json` |
 | Regenerate dictionary shards | `scripts/generate_watch_dict.py` | never hand-edit `dict/` |
 
 ## ANTI-PATTERNS
 
-- **Never hand-edit `dict/`** 鈥?regenerated by `scripts/generate_watch_dict.py`.
-- **Never add Vitest / react context patterns** 鈥?`suggestionState.js` is deliberately module-scoped to avoid Vela DOM-creation crashes.
-- **Never inline icon refs** 鈥?keep them in `icons/` so the home page can swap sets without touching code.
+- **Never hand-edit `dict/`** — regenerated by `scripts/generate_watch_dict.py`.
+- **Never add Vitest / react context patterns** — `suggestionState.js` is deliberately module-scoped to avoid Vela DOM-creation crashes.
+- **Never inline icon refs** — keep them in `icons/` so layouts can swap sets without touching code.
