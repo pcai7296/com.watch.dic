@@ -15,6 +15,7 @@
 7ion	5tx	80
 3hrymose	5ty	80
 3k	5tz	36
+4 of	bm5	
 4adaisical	5u0	80
 4ey	5u1	c0
 4luster	5u2	80
@@ -55,6 +56,7 @@
 5lide	5v1	c0
 3e	5v2	3c
 3guage	5v3	23
+8 of the trade	cnt	
 5id	5v4	e0
 6sh	5v5	c0
 5or	5v6	80
@@ -78,9 +80,12 @@
 3situde	5vo	80
 4o	5vp	80
 3t	5vq	2
+4 third of the month	ckg	
+5words of the dying	cm0	
 4ing	5vr	c0
 2tch	5vs	80
 3e	5vt	3
+4 in the month	dj4	
 4ly	5vu	5e
 4ncy	5vv	80
 5t	5vw	f8
@@ -105,6 +110,14 @@
 3e	5wf	c0
 3ish	5wg	e0
 2w	5wh	3f
+3 of conservation of charge	buh	
+nenergy	but	
+nmass	bv0	
+ptter	bwp	
+oomentum	bwt	
+7elasticity of demand	bwo	
+7perdurability of matter	bwr	
+asistance of energy	bv6	
 3n	5wi	7c
 3suit	5wj	48
 3yer	5wk	3e
@@ -131,6 +144,7 @@
 3n	5x5	dc
 3p	5x6	7c
 3rn	5x7	23
+5 of	bmi	
 5ed	5x8	1e
 5ing	5x9	1c
 3se	5xa	f8
@@ -138,7 +152,9 @@
 4t	5xc	3f
 3ther	5xd	5e
 3ve	5xe	23
+5 the past behind	etx	
 5n	5xf	80
+4ing much to be desired	duj	
 2ctern	5xg	80
 4ure	5xh	3e
 2dge	5xi	40
@@ -182,9 +198,12 @@
 3s	5yk	16
 4en	5yl	c
 4on	5ym	3
+6 to be learned	dxq	
 6s	5yn	20
 3t	5yo	1c
 2t	5yp	23
+3 it be	fbd	
+4the matter drop	eu6	
 3hal	5yq	e0
 5rgic	5yr	c0
 7y	5ys	c0
@@ -204,6 +223,7 @@
 1iability	5z6	b8
 4le	5z7	3c
 3ison	5z8	e0
+3ng of the southern dynasties	ctj	
 3r	5z9	c
 2bel	5za	c0
 5ous	5zb	80
@@ -236,20 +256,25 @@
 3t	602	77
 2gature	603	80
 3ht	604	23
+5 of the setting sun	co1	
+6to the barbarian	d8e	
 5en	605	c
 6r	606	8
 5house	607	40
 5ly	608	c
+7 touching the water	f07	
 5ning	609	1e
 5s	60a	20
 3neous	60b	80
 2ke	60c	3
 4lihood	60d	3c
 5y	60e	1e
+6 to be fruitful	dvw	
 4n	60f	80
 5ess	60g	8
 4wise	60h	7c
 2ly	60i	8
+4 of the valley	ct7	
 2mb	60j	fc
 4er	60k	80
 4o	60l	80
@@ -291,6 +316,10 @@ as	617	e0
 4or	61l	3c
 2ssome	61m	80
 3t	61n	bf
+4 of of prices	bju	
+doperty	bjn	
+bquotation	bjw	
+bshareholders	bjx	
 4en	61o	3
 6er	61p	4
 4less	61q	c0
@@ -321,6 +350,7 @@ as	617	e0
 6-room	62f	4
 2zard	62g	40
 1oad	62h	5e
+4s of	bo8	
 3f	62i	be
 3m	62j	80
 3n	62k	7c
@@ -330,6 +360,7 @@ as	617	e0
 5some	62o	40
 2bby	62p	f8
 3e	62q	80
+4 of the brain	ct9	
 3ster	62r	40
 2cal	62s	3e
 5e	62t	80
@@ -371,6 +402,7 @@ as	617	e0
 4ing	63t	c8
 5tude	63u	78
 2ok	63v	3
+4ing at the big picture	eh9	
 3m	63w	f0
 3n	63x	80
 3p	63y	fc
@@ -387,8 +419,11 @@ as	617	e0
 3ry	649	1e
 2se	64a	1f
 3s	64b	3e
+3t to the ages	dgq	
 2t	64c	83
+3 of	bkt	
 3h	64d	20
+3s of	bmg	
 3tery	64e	f0
 2ud	64f	17
 4ly	64g	2
@@ -403,7 +438,10 @@ as	617	e0
 3-risk	64p	20
 3bred	64q	80
 3er	64r	14
+5 part of the body	cjy	
+6the curtain	f46	
 2yal	64s	fc
+5 to the end	d3e	
 5ty	64t	1c
 1ubricant	64u	80
 7te	64v	bc
@@ -411,6 +449,7 @@ as	617	e0
 6ious	64x	80
 2cid	64y	a0
 3k	64z	37
+4 with the ladies	egi	
 4y	650	17
 3rative	651	e0
 4e	652	80
@@ -434,6 +473,7 @@ as	617	e0
 3ch	65k	23
 5eon	65l	8
 3g	65m	5e
+4s of the planet	cuc	
 2rch	65n	c0
 3e	65o	f0
 3id	65p	80

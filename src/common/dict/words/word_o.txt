@@ -14,6 +14,7 @@
 2fuscate	6yq	80
 2ituary	6yr	80
 2ject	6ys	3f
+6 of the of ownership	bpc	
 6ion	6yt	fc
 7ve	6yu	fc
 9s	6yv	20
@@ -73,7 +74,8 @@ aal	70a	20
 5rence	70d	fc
 2ean	70e	37
 0Oceania	70f	e
-2tober	70g	23
+0oceans of	bom	
+0October	70g	23
 0octogenarian	70h	80
 4pus	70i	40
 2ular	70j	80
@@ -91,12 +93,90 @@ aal	70a	20
 3ur	70v	2c
 0Odyssey	70w	a0
 0of	70x	3
+2 a day	bq0	
+5kind	bs2	
+5mind	brh	
+6orning	bs7	
+5night	bqo	
+5piece	bqz	
+5size	bqh	
+6ort	bqq	
+6udden	bso	
+7rety	bt2	
+5truth	bs0	
+4ge	bke	
+4ll	bjj	
+4nd on	bti	
+5y	bkw	
+4vail	bn3	
+3base	bjh	
+3choice	bl2	
+4orse	bof	
+5urse	bkf	
+3family	bj4	
+3import	bkb	
+4ntent	ble	
+7rest to	bvz	
+4tself	bly	
+3kin	bm4	
+3late	bl6	
+3malice	blp	
+4oment	bkg	
+3name	bjo	
+4ecessity	blm	
+4ote	bk1	
+3old	bk4	
+4neself	bjf	
+3publication	bm6	
+5rpose	bko	
+5s	blk	
+3record	bjm	
+5putation	blx	
+8e	bmj	
+4ight	bjd	
+3sort	bk9	
+7s	bn2	
+3taste	bl3	
+4he appropriate age	co8	
+7bride's party	cni	
+7day	bpg	
+7essence	bpr	
+7firm opinion	cqb	
+7highest order	co6	
+fquality	cqv	
+7moment	bpj	
+7name of	bj3	
+7opposite sex	cq7	
+8rder of	bj2	
+7previous day	ck3	
+7rank	bpp	
+7same age	cl4	
+cfamily branch	ckm	
+cgeneration	cmf	
+ckind	clc	
+cname	ckx	
+copinion	cmc	
+ctype	cle	
+8urface	bpf	
+7time	bpb	
+7utmost importance	cse	
+4ype	bjb	
+3use	bk5	
+3value	bja	
+5ntage	bmx	
+3worth	bkv	
+3yore	bob	
 2f	70y	3
+3 of	bj9	
+4the beaten track	ety	
+8charts	euw	
+8stage	et3	
 3-key	70z	80
 3beat	710	80
 3ence	711	3a
 5d	712	bc
 5sive	713	d8
+9 to the eye	d7o	
 4r	714	7f
 3hand	715	c0
 3ice	716	23
@@ -119,6 +199,7 @@ aal	70a	20
 0OK	71n	3
 0okay	71o	14
 1ld	71p	3
+3 expert in the field	dj8	
 2faction	71q	80
 6ory	71r	c0
 2igarch	71s	80
@@ -135,8 +216,73 @@ aal	70a	20
 4scient	723	80
 4vorous	724	80
 1n	725	23
+2 the aisle	efn	
+8lert	efk	
+7basis of	cc4	
+8ody	eek	
+8rink	efo	
+c of crisis	cce	
+gextinction	ccy	
+7cards	eft	
+8ontrary	efh	
+7edge of	cc8	
+8ve of war	cby	
+7floor	ef4	
+7ground	ees	
+7happy occasion of	cbz	
+8our	eeo	
+7market	eed	
+7one hand	ebg	
+8ther hand	ecs	
+dside of	c7j	
+7point of death	cad	
+imise	cbs	
+iparture	cbr	
+8retext	efq	
+avious occasion	eej	
+7right track	edu	
+9verbank	efu	
+8oad	een	
+9cks	efv	
+7same day	edb	
+clevel	edt	
+ctrack	ee4	
+8ly	efp	
+8pot	ef6	
+b calculation	ef7	
+8treet	eeg	
+7table	eeu	
+7up	ed0	
+9 and up	cc2	
+7verge	efm	
+c of	ccx	
+f collapse	cci	
+7waterfront	efw	
+9y	eds	
+8hole	eel	
+2-the-ground promotion	eet	
+7job training	eem	
+7spot inspection	ef8	
+eterview	eex	
+evestigation	ef9	
+clive broadcast	ee7	
+cmeeting	efa	
+creport	ee6	
 2ce	726	23
 2e	727	23
+3 after the other	eh4	
+5nd the same	cw6	
+6swering the other	eik	
+4closely following the other	eil	
+4ladle spoils the pot	en3	
+5eg over the other	egs	
+4of	bjr	
+6 the given	cff	
+bnorthern dynasties	cf0	
+5r the other	edp	
+5ut of a multitude	evu	
+4side of the story	ce6	
+3's share of the action	cel	
 3rous	728	80
 3self	729	17
 2going	72a	60
@@ -144,6 +290,8 @@ aal	70a	20
 2line	72c	20
 3ooker	72d	20
 3y	72e	3
+4 in the case that	ceu	
+5to be expected	du2	
 2set	72f	e0
 3laught	72g	c0
 2to	72h	16
@@ -152,9 +300,11 @@ aal	70a	20
 6s	72k	8
 1oze	72l	c0
 1pacity	72m	80
+7 of the cornea	cv3	
 3lescence	72n	80
 3que	72o	f8
 2en	72p	3
+4 area outside the city	eqk	
 4-book	72q	20
 4er	72r	2
 4ing	72s	3e
@@ -216,6 +366,7 @@ ay	738	7c
 2dain	74c	80
 3eal	74d	e0
 4r	74e	23
+5 of reference of accounts	bus	
 5ly	74f	7c
 3inance	74g	c0
 6rily	74h	8
@@ -228,6 +379,7 @@ ay	738	7c
 6se	74o	2
 8r	74p	2
 7m	74q	fc
+8 from the geological past	ejp	
 6zation	74r	3e
 7e	74s	1c
 8r	74t	20
@@ -236,7 +388,9 @@ ay	738	7c
 7tion	74w	78
 3fice	74x	80
 3gin	74y	7e
+6 of the universe	cs7	
 6al	74z	fc
+8 essence of the cosmos	cr4	
 8ity	750	c0
 8ly	751	40
 7te	752	7c
@@ -273,7 +427,17 @@ ay	758	80
 3s	75x	3
 4elves	75y	3
 2st	75z	e0
+4 of	bon	
 2t	760	3
+3 in the open	dhp	
+4of	bj5	
+6 sight of	bj6	
+7the common run	cfl	
+bordinary	cgj	
+bpale of	bpa	
+bway	cep	
+3-of-the-way place	cdv	
+ks	ceq	
 3break	761	78
 3cast	762	20
 4ome	763	7e
@@ -283,6 +447,8 @@ ay	758	80
 5or	767	1c
 7s	768	4e
 3er	769	1e
+5 corner of the eye	co3	
+6tip of the eyebrow	ct6	
 5most	76a	48
 3fit	76b	70
 4ox	76c	80
@@ -290,6 +456,7 @@ ay	758	80
 4row	76e	40
 7th	76f	c0
 3ing	76g	52
+6 in the country	dlb	
 3landish	76h	80
 5st	76i	40
 5w	76j	28
@@ -306,6 +473,12 @@ ay	758	80
 3set	76u	fc
 4hine	76v	80
 4ide	76w	3
+7 of	bkq	
+8the body	f1z	
+ccountry	ezh	
+cdoor	f2c	
+csphere of civilization	cuh	
+cthree-point line	eoc	
 4kirt	76x	c
 8s	76y	b0
 4poken	76z	e2
@@ -319,6 +492,10 @@ ay	758	80
 3tion	777	a0
 2en	778	5c
 3r	779	3
+4 the last years	eoe	
+9whole body	eoj	
+9years	eqv	
+4-the-top praise	epm	
 4all	77a	7c
 4balance	77b	40
 5earing	77c	c0

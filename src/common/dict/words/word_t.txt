@@ -24,10 +24,14 @@
 2ke	a86	23
 3ing	a87	80
 2le	a88	5f
+4 of the white snake	cpo	
 4nt	a89	5e
 6ed	a8a	60
+4s of the supernatural	cuz	
 3isman	a8b	80
 3k	a8c	3
+4 of	bkh	
+4ing of	bm7	
 3l	a8d	3
 4y	a8e	c0
 3on	a8f	80
@@ -64,6 +68,7 @@
 3t	a9a	80
 2sk	a9b	1f
 3te	a9c	5f
+5 of	bl4	
 5less	a9d	42
 4y	a9e	c2
 2ttered	a9f	80
@@ -83,12 +88,15 @@
 1ea	a9t	23
 3ch	a9u	3
 5er	a9v	23
+7s of the state	cn2	
 5ing	a9w	2c
+8 the ignorant	f98	
 3m	a9x	7f
 4s	a9y	20
 4work	a9z	2
 3pot	aa0	42
 3r	aa1	fe
+4s in the eyes	dno	
 3se	aa2	fa
 2chnical	aa3	7e
 7ian	aa4	3c
@@ -114,6 +122,7 @@
 7ion	aao	23
 4x	aap	28
 3l	aaq	3
+4 of	blb	
 4ing	aar	a0
 2merity	aas	80
 3p	aat	80
@@ -123,9 +132,11 @@ bal	aaw	10
 7nce	aax	40
 7te	aay	60
 8ure	aaz	7f
+b of the soil	cs6	
 5st	ab0	80
 7uous	ab1	80
 4le	ab2	7e
+6 of goddess of fertility	ez3	
 6s	ab3	20
 4o	ab4	b8
 5ral	ab5	c0
@@ -146,15 +157,18 @@ bal	aaw	10
 6tious	abk	80
 5r	abl	fc
 6ness	abm	40
-4inous	abn	80
+4ing towards the sun	f4u	
+6ous	abn	80
 3ement	abo	40
 4t	abp	80
 3nis	abq	23
 3or	abr	80
-3se	abs	5e
+3s of hundreds of	bnz	
+4e	abs	5e
 4ile	abt	c8
 5on	abu	f6
 3t	abv	1f
+4 of the commanding officer	cqu	
 4acle	abw	60
 5tive	abx	fa
 4h	aby	1
@@ -178,12 +192,14 @@ bal	aaw	10
 6y	acg	7a
 7ing	ach	40
 5torial	aci	20
+9es beyond the great wall	esv	
 8y	acj	7c
 4or	ack	7e
 6ist	acl	8
 3se	acm	a0
 3tiary	acn	20
 2st	aco	3f
+4 of goodness of fit	bvk	
 4ament	acp	80
 5tor	acq	80
 4ify	acr	d8
@@ -201,9 +217,901 @@ bal	aaw	10
 5ful	ad3	2
 5sgiving	ad4	18
 3t	ad5	3
+4 being the case	eat	
 4ch	ad6	c0
 3w	ad7	e0
 2e	ad8	3
+3 ability to judge well	czl	
+6solute beginning	f6l	
+5ctual situation	eyp	
+5frotropical realm	f8y	
+5ids virus	f8h	
+6rway in the throat	bz3	
+5lmagest by ptolemy	eid	
+5nalytic method	f42	
+6cient silk road	f0t	
+6des mountains	fad	
+6imal kingdom	f4z	
+6tarctic peninsula	f9c	
+5pollo project	f3k	
+6pearance of all things	cg0	
+5rabian nights	fae	
+6t of tea	cow	
+5ttitude of mechanically borrowing	cs8	
+5ustralian continent	f7p	
+6tumn equinox	f7s	
+bwind is soughing	f58	
+5xiomatic method	f49	
+7s of evil	ctv	
+4back of a chair	c0r	
+cone's mind	cdk	
+cthe head	bx8	
+6nd-tightening spell	f55	
+7king business	f0y	
+6rking of dogs fighting	cvn	
+7n door is open	etq	
+6sque country	ezg	
+5eam of a steelyard	c24	
+7ten track	f6k	
+6ginning of spring	csu	
+6lt of orion	cu9	
+6ring strait	f9m	
+6st part	ert	
+aolicy	evg	
+5iblical book of proverbs	cp0	
+msalms	cp1	
+dsong of solomon	ct5	
+6g dipper	f1u	
+8picture	ez8	
+6nomial theorem	f9n	
+5lessing of three lifetimes	ckp	
+6ue dome of heaven	crb	
+5ody shop	eys	
+6ot hits the floor	c06	
+6ttom of the page	bxw	
+aless pit	f84	
+6xer uprising	f9p	
+5reeding season	f5d	
+6ide's side	f03	
+7ght moon	f69	
+6oken bridge	f6y	
+7nze age	f1q	
+5ubonic plage bacillus	f9x	
+6ck stops here	ew3	
+6ilding or room opposite	emg	
+6lb of the fritillary	byb	
+7k of	bpi	
+6reaucratic system	ewy	
+6siness world	et0	
+4calligraphic community	f35	
+6mbrian explosion	f7z	
+6pital theater	f56	
+bist class	f21	
+6tering industry	f16	
+7holic church	f2p	
+5entral administration	f76	
+cplains of china	cuw	
+9ist faction	f8q	
+5hange given back	ep6	
+8shui river in henan	dmj	
+7racter ten	f15	
+8tist movement	fa3	
+6ina seas	faf	
+8ese communist regime	f6i	
+cedible frog	f8w	
+clunar calendar	f8s	
+cnation	eyr	
+dew year	ena	
+cpeople	eri	
+cremainder theorem	f8e	
+cside	f0h	
+5ivil service system	er4	
+5lass enemy	f1p	
+5ockroach principle	f5a	
+6ming year	epb	
+7mon people	eqc	
+bsilkworm	f3i	
+8unist youth league	f40	
+6nfucian classics	fag	
+7temporary era	f70	
+9nt of a conversation	c1q	
+bs of the cup	by1	
+8inuum hypothesis	f86	
+6oked duck flew away	ez4	
+7l autumn breeze	f5y	
+9of autumn	csd	
+6rner of one's eyes	cf3	
+7rect path	f4a	
+9sponding time period	eo0	
+6untries involved	fah	
+7rse of a race	c1d	
+eone's life	cdr	
+5reation of the world	bxn	
+6ime of armed rebellion	crt	
+dcorruption	csn	
+dhooliganism	cso	
+dtreason	csk	
+9an peninsula	f9d	
+cwar	f1w	
+7tical moment	f3f	
+6op of a bird	c1s	
+7wd runs after trash	erb	
+6ying of a baby	c1w	
+7stal palace	f6r	
+5urrent dynasty	f3o	
+cimperial dynasty	f37	
+cmarket situation	ets	
+donth	ews	
+coffice holder	ez1	
+cperiod	ez0	
+creigning emperor	f3g	
+csituation	f02	
+cyear	eom	
+g's	eon	
+7tain drops	f80	
+cfalls	f81	
+6stomer reigns supreme	f53	
+4dalai lama	f9z	
+6mage is done	f54	
+6oist doctrine of inaction	cuf	
+6rk ages before civilization	esn	
+9side	exl	
+6te of a meeting	c1n	
+6y after tomorrow	env	
+8before	eou	
+e yesterday	eod	
+5ead of night	cnq	
+9sea	f2z	
+7th of one's father	ced	
+jmother	cea	
+6pth of winter	csv	
+6signation for a punishment	ceg	
+7olation of trauma	cun	
+6tailed story	f4i	
+as in brief	dms	
+5ie is cast	f2w	
+6m light of night	cm6	
+6rection indicated	f68	
+6shes from one's hometown	efj	
+7tant past	f2t	
+csky	f6p	
+6vine right of kings	cl3	
+5oppler effect	f1i	
+6uble ninth festival	f4r	
+5ragon throne	f89	
+5uration of a conference	c25	
+6st has settled	f7q	
+4earliest ancestor	f8v	
+8y ming	eyz	
+7th's axis	f64	
+ccore	f59	
+drust	f61	
+cmagnetic field	f22	
+6stern hemisphere	f71	
+5dge of a bed	c1k	
+eknife	c1t	
+5ight immortals	f25	
+bnfluential points	f26	
+amethods of bonesetting	cpn	
+aprecepts	f27	
+9-fold noble way	eq8	
+5lephant in the room	bz1	
+5mperor's bed	f43	
+fody	f1f	
+ehand	ewx	
+enew clothes	eqe	
+7ress dowager	f9k	
+5nd of an era	cmd	
+blast year	cfa	
+bthe show	bxa	
+fyear	bx0	
+7s of the earth	by4	
+6emy and us	d9f	
+aof the people	bxb	
+aranks	f7l	
+9's rear	f6q	
+6tire country	exv	
+binternet	f62	
+bnation	ewu	
+bsum	f4d	
+5ra of japanese occupation	ct2	
+5ssential character	f2y	
+5xam area	exy	
+9date	f3b	
+9period	f2e	
+6perience of war	cmj	
+7ort-import bank of china	coq	
+6ternal world	ewh	
+7remity of the foot	bxy	
+5ye of a needle	c1h	
+4faction seeking peace	f5p	
+8s of life	cn7	
+dthe matter	bxv	
+6ir sex	f0x	
+6mily's financial circumstances	f0d	
+6r east	exb	
+9nd	esd	
+6te of humankind	cue	
+5emale sex	f2k	
+as in a family	c5p	
+7inine arts	f8z	
+6rghana valley	f7f	
+6udal system	ewp	
+5iber of this plant	cd2	
+6nal bell	f1c	
+astraw	f1y	
+ayears	f2b	
+6re of a stove	c1p	
+7st and the last	byf	
+aglimmer of light	cji	
+ahalf	epv	
+alight of dawn	cje	
+ameridian	erd	
+bonth of summer	cj0	
+apot of gold	cjt	
+atime	en4	
+ayears	ere	
+6sh enter the trap	c05	
+9hold	ev1	
+6ve aggregates	ewd	
+9confucian relationships	ewe	
+9impurities	ewf	
+9senses	evt	
+aupernatural powers	ew9	
+5lesh of oyster	cu7	
+6oating ribs	fai	
+7w of time	chg	
+8ering season	f5e	
+5olks back home	epk	
+7lowing day	esf	
+emorning	f41	
+epages	faj	
+esection	f3e	
+eyear	epc	
+6od in a dish	c5r	
+6rbidden city	f32	
+6ur cleanups movement	evv	
+aorners	evw	
+9directions	evx	
+9great inventions	eql	
+9heavenly kings	evy	
+9limbs	evz	
+9noble truths	ev8	
+9olds	ew0	
+9rivers	ew1	
+9seasons	ew2	
+8th wall	f4f	
+5rame of a building	c20	
+6ont line	exc	
+aside	ewg	
+6uiting season	f5f	
+5ull amount	exa	
+9light of day	civ	
+9moon	ezq	
+9picture	exu	
+arice	euz	
+9works	f0a	
+6ndamental and the incidental	byn	
+4game of go	cg5	
+6p couldn't be bigger	c4d	
+6tes of hell	ctq	
+5eneral idea	etu	
+7uine article	f57	
+5ift of the gab	by7	
+6rl of one's dreams	cer	
+cyour dreams	cqg	
+5lobal south	f2m	
+5ood and the bad	byi	
+6vernment in imperial times	dn6	
+5rand canyon	f79	
+7ss roots	f7k	
+6eat and the good	byg	
+acompassion mantra	eva	
+adepression	evj	
+ahelmsman	evk	
+alakes	evl	
+amajority	eu8	
+anorthern wilderness	eu2	
+apowers	evm	
+aseal	eux	
+aunwashed	evn	
+awall	etm	
+9er part	euh	
+cself	f44	
+7enwich meridian	fa0	
+6ouper family	f0b	
+5uy in charge	dlq	
+4halo of the moon	by9	
+6mmer and sickle	da6	
+6n dynasty	f99	
+8river in guangdong	dmk	
+6usa language	f3w	
+6zy dusk of twilight	cul	
+5ead of the house	bxe	
+7rt sutra	f4m	
+6brew university of jerusalem	cqw	
+6ight of folly	ctg	
+esummer	crg	
+6roes of liangshan marsh	cuj	
+5iggs mechanism	f7i	
+7hest rank	f7b	
+6ndu kush	fak	
+5oi polloi	fa4	
+6locene epoch	f9t	
+7y roman empire	f75	
+9scriptures	f83	
+6ng family	f0e	
+7ored one himself	en7	
+6tel and restaurant business	d2s	
+6use of commons	cm1	
+5uman body	eyd	
+aworld	eu1	
+5ypocrisy of the world	bxm	
+4iberian peninsula	f9e	
+5dle rich	f6c	
+5mperial college	f4p	
+furt	f18	
+dfamily	ezs	
+dguard	f6n	
+dpalace	f6s	
+j in beijing	dmu	
+dthrone	f7n	
+7lications are profound	f8i	
+5ndian subcontinent	fal	
+6justice to dou e	dgu	
+6s and outs	dap	
+7ured person	ezc	
+6ternational communist movement	f2o	
+pty	ez6	
+imedia	f29	
+5soperimetric inequality	fam	
+5wakura mission	f7r	
+4jade emperor	f87	
+9hare	f90	
+6panese armed forces	f7g	
+dkana scripts	fa5	
+dside or party	ejd	
+dword for company	eco	
+5oy of matrimony	ctw	
+4kangxi emperor	f8b	
+5ey trick	f4b	
+5ing of hell	cpt	
+6tchen of a restaurant	c1u	
+5orean side	f0i	
+bwar	f1x	
+5uiper belt	f85	
+4lady of the house	bxh	
+6mentations of jeremiah	cvo	
+6nd of dreams	cpz	
+cnod	cpa	
+8lord class	f1s	
+7tern festival	f7u	
+6rge intestine	eya	
+6st bus	eu4	
+9days	eur	
+9few years	erl	
+9straw	eul	
+aupper	eum	
+6te emperor	ew7	
+9qing	ewk	
+8r jin dynasty	f9a	
+7in alphabet	f9f	
+6w of a state	c13	
+bthe jungle	bxu	
+fland	bxk	
+7s of the buddhism	byd	
+5east bit	exi	
+6ft side	etj	
+6ss complications the better	c03	
+9experienced ones	f0n	
+8er of two evils	cjb	
+bpart	eui	
+5ife of a pasha	c1g	
+6ght of early dawn	clh	
+6kes of	bpt	
+6ly family	f05	
+6ngering death	f3p	
+6on's share	f28	
+6terary world	ex1	
+7tle details	ex8	
+5ocal commander	ezb	
+apopulation	ewv	
+6fty heights	f9q	
+6ok of things	ck9	
+8s of the deceased	byc	
+6rd of lu	cqm	
+8's day	er6	
+6sing side	f0j	
+6tus sutra	f96	
+6west professions	fan	
+5unar calendar	f8t	
+anew year	en9	
+4madeira islands	fao	
+6in part	erx	
+aoints	f20	
+6jority of	bpo	
+6kings of	cvp	
+6le sex	f1t	
+6n himself	et1	
+8of the moment	bxd	
+7y or the few	bzp	
+6ss of common people	cjk	
+5ean value theorem	er9	
+6i lanfang school	eyl	
+5id-slope of a mountain	c1x	
+7dle generation	f3q	
+bof the month	bxq	
+inight	bxr	
+6litary and the police	byk	
+7ky way	erv	
+6ng and qing dynasties	daq	
+9dynasty	f9b	
+9tombs	fap	
+7utest detail	f3h	
+5oment of truth	cpd	
+6narch and his ministers	da8	
+b's will	en5	
+8stic community	f33	
+7th childbirth is due	exn	
+6od of the people	bxc	
+7n and the stars	byp	
+6rals of the time	bx3	
+7e the better	bzt	
+7ning sun	f1b	
+7tal world	ex0	
+6st honorable	ess	
+9important	eqi	
+9respected	est	
+9valuable information	esu	
+6uth of a river	c1o	
+5ultitude of common people	cjn	
+6sic of former kings	cp2	
+dsuch operas	ck1	
+5ysteries of the universe	by5	
+4nanjing massacre	f97	
+6tural order of things	co7	
+cworld	exo	
+9e of the offense	bxt	
+5ecessities of life	cn8	
+6gative side	ezl	
+6ther world	exm	
+6w moon	eqt	
+8replaces the old	bzw	
+8world	eot	
+8year festival	en8	
+7s in brief	dly	
+6xt best thing	eq2	
+9day	eq6	
+9few days	etc	
+9generation	eyu	
+9life	eso	
+9one	emw	
+9step	ewn	
+bop	ev3	
+9work shift	eo7	
+9year	eo4	
+5ight before	erg	
+6ne springs	f2g	
+9top officials	exk	
+8-toothed rake	f2d	
+6rvana sutra	f9u	
+5orman conquest of england	cus	
+7th and south poles	d36	
+afrigid zone	f2j	
+amagnetic pole	f2r	
+apole	f2s	
+astar	f13	
+atemperate zone	f2i	
+9ern expeditionary army	f3n	
+dhemisphere	f5u	
+dpart a country	d4u	
+dsea	f39	
+eong dynasty	f4c	
+dwarlords	f6a	
+dzhou dynasty	f5z	
+6t-very-distant past	eda	
+5uclear problem	ewl	
+6mber of	bpd	
+5yeva or neva river	emq	
+4objective world	evs	
+as indicated	faq	
+5kinawa archipelago	f9y	
+5ld and the young	byh	
+8capital	etr	
+8one-two	ehe	
+8tricks	ev0	
+8world	eqy	
+7en days	far	
+8r generation	f72	
+5ne and only way	cjl	
+8in control	dhm	
+8that got away	dsb	
+8with authority	ecn	
+7-child policy	ekw	
+5pen ocean	ey8	
+6ium war	f1v	
+ds	f9v	
+6posite sex	f38	
+eide	ezi	
+5rdinary daily routine	f63	
+6iginal place	etv	
+5ther day	ene	
+alist	eoi	
+ashore	ep1	
+bide	eo1	
+awoman	enr	
+f or man	eg4	
+5utcome of a battle	c1v	
+7side and the inside	bym	
+cworld	exp	
+4pages ahead	f6m	
+7oda bearing god	f3c	
+6lace guard	f6b	
+7m of one's hand	ce2	
+6n-pearl river delta	f4n	
+7golin family	f0c	
+6rallel postulate	f7j	
+7ty in power	djb	
+6ssage of the years	by8	
+7t few days	ev9	
+9is dead	f11	
+5eace faction	f5q	
+6lvic cavity	f9l	
+6ople holding power	eph	
+6riod of japanese rule	cna	
+7manent five	ev7	
+7son facing you	edo	
+bin charge	djy	
+ethe street	byy	
+dvolved	ezd	
+bof one's thoughts	ceb	
+5ick of	bpn	
+6t of one's stomach	cf6	
+5lace for that	di9	
+7net mars	f88	
+7y of passions	cms	
+5oint at issue	eh0	
+6lice and the community	byj	
+6ssibility of mutual coexistence	cua	
+5receding statement	fas	
+7historic shang dynasty	f94	
+7sent age	ey3	
+ctime	eo3	
+7vious day	er8	
+eynasty	f48	
+dfew days	ewr	
+6ime meridian	f5o	
+binister of shu	coc	
+aof one's life	cdz	
+6o-war faction	f1r	
+7cess of childbirth	cp6	
+7per way to eat	d0h	
+aty market	exx	
+8het muhammad	f9h	
+7s outweigh the cons	c08	
+8ecuting side	f0k	
+don and the defense	byq	
+5sychological harm of pornography	ctf	
+5ublic purse	f0m	
+6nishment fits the crime	c07	
+4qianlong era	f8c	
+6n and han dynasties	dar	
+9rmy	f5s	
+7g army	f5t	
+9court	f1o	
+8hai-tibet route	f6o	
+8ming festival	f7w	
+5ueen of flowers	css	
+6ick-footed climb up first	emr	
+4radiance of spring	csr	
+6mifications are huge	f6x	
+5eal body	ew5	
+9mccoy	f1k	
+aeaning	f1l	
+9situation	eye	
+9thing	es3	
+9world	et5	
+7son why	etk	
+e n p	etl	
+6bel party	ey9	
+6d cross	f1g	
+6formist faction	f8r	
+eparty	eyq	
+6gion around the river	c02	
+bbetween the kidneys	c00	
+bnear the line	c01	
+6mainder theorem	f8f	
+aing people	erj	
+6st of	bpk	
+7ult becomes apparent	eyf	
+6verse side	ezm	
+6ward of one's efforts	cf9	
+5hizome of large-headed atractylodes	cnd	
+5ibbon around a cap	dh0	
+6ce is cooked	f8m	
+6ght flank	et6	
+akidney	et8	
+aseason	esg	
+bocial connection	eqr	
+atime	end	
+bo autonomy	d1z	
+dbe elected	bz8	
+dhost	d1q	
+brack	esq	
+away	eoh	
+9eous and harmonious fists	dal	
+6sing sun	f4v	
+6tes of zhou	cvq	
+6ver of love	coa	
+5oad ahead	f0o	
+9to disaster	d82	
+6of of the world	bxj	
+7t cause	f1a	
+e of trouble	co0	
+9of all evil	cfu	
+6sicrucian order	ezo	
+6yal society	f00	
+5ule of former kings	co4	
+6ssian federation	fat	
+6tting season	f5g	
+5yukyu islands	fau	
+bor luchu islands	emu	
+4sage confucius	f9o	
+9of intoxication	cux	
+6int of war	cp8	
+6me as	eg2	
+b before	ee9	
+9day	epl	
+9evening	euq	
+9family	esl	
+9month	esj	
+9night	esw	
+9old problem	eov	
+dstuff	eqj	
+dtrick	eqp	
+9place	er3	
+9thing applies	equ	
+5cene of a fire	c1l	
+dthe incident	by0	
+6hool authorities	eym	
+bsayings of confucius	cnk	
+5eason changes	f5h	
+6cond opium war	eu0	
+bperson	esx	
+bsex	evq	
+7ret of success	cp5	
+7ular world	exf	
+6rmon on the mount	bzn	
+6t of integers	cn4	
+bnatural numbers	cn5	
+7ting sun	f4w	
+6x industry	ey6	
+8trade	eza	
+5heath of a pen	c21	
+6ow must go on	ebe	
+5ick and the wounded	byo	
+6dereal year	ep9	
+8s of a ship	c1y	
+6eve method	f47	
+6lent treatment	f7m	
+7k road	f1h	
+7ver point	evr	
+bscreen	f5c	
+6mple and good life	cyr	
+6tuation is grim	f3m	
+hhopeless	f3y	
+htense	f34	
+6x directions	ezp	
+7ty-year cycle	ep0	
+5ky above	f2f	
+5leeve of a garment	c23	
+6ightest amount or degree	eml	
+ething	euy	
+ewhiff of trouble	cry	
+5mall investor	eyv	
+9er part	euj	
+5ociety of friends	cq3	
+fjesus	cq4	
+6ft knife	f5b	
+8ware industry	ezk	
+6lar year	ep5	
+7e of the foot	bxx	
+6ng dynasty	f6z	
+6oner the better	c04	
+6rt of	bph	
+6und and the fury	byl	
+aof a bell	c1m	
+7th magnetic pole	f2u	
+apole	f2v	
+9ern cross	f3l	
+dhemisphere	f78	
+dsong dynasty	f5l	
+5peed of light	cod	
+6irit is still alive	etp	
+6orting world	exq	
+6ring equinox	f6t	
+5tars and stripes	das	
+8t of a race	c1e	
+9ing line	f17	
+dpoint	ewq	
+6eady-state theory	eu3	
+6ill of the night	bxg	
+6ore front	f1d	
+6raits times	fav	
+7ength observed in brushstrokes	dmm	
+7okes of a character	c1r	
+8ng force	ex9	
+5ubject under discussion	et7	
+6m owed	f74	
+7mer solstice	f5w	
+6n and moon	d7c	
+8god	f0q	
+8over the sea	bzy	
+8shines brightly	f4x	
+ffiercely	f4y	
+7's corona	f4s	
+6rface of a wall	c1j	
+fthe river	bxz	
+7rounding words	faw	
+5yriac script	f8n	
+4talk of the town	bxl	
+6ng and song dynasties	d8z	
+9dynasty	f95	
+5eacher's seat	f5n	
+9ing of confucius	cvr	
+6dious details in full	dlg	
+6eming world	exr	
+6n commandments	f3r	
+5heory of curves	cr9	
+eevolution	cql	
+esurfaces	cra	
+6ief cries thief	f7x	
+7ng in itself	dju	
+6ree doctrines	es4	
+aearliest dynasties	es5	
+ajudicial chief ministries	erc	
+ano's	emp	
+asacrificial animals	es6	
+bpring months	erq	
+bu's	es7	
+5ime after one's death	egq	
+9has come	emz	
+9just before daybreak	emi	
+6niest bit	f2h	
+6p of the iceberg	by6	
+fnose	by3	
+6tle of emperor	crn	
+5oiling masses	fax	
+6ne of a school	c1f	
+6p four	esy	
+8margin	f1e	
+8of a building	c1i	
+bthe page	bxs	
+8ranks	f2l	
+6tality of human attributes	cqh	
+5raditional chinese calendar	f8x	
+olunar calendar	f8u	
+6easure of buddha's law	cop	
+6ue essence	f8j	
+9god	f3d	
+9way	erw	
+7th comes to light	d78	
+adawns upon one	emy	
+ain a flash	c5z	
+5urpan depression in xinjiang	dnp	
+5wenty-eight constellations	eyh	
+6inkle of an eye	cov	
+6o equinoxes	epn	
+9yes	epo	
+8of us	cjc	
+9pposing sides	epp	
+8poles	epq	
+4ultimate essence of things	ct3	
+5mbilicus of a melon	c26	
+5nderworld of chinese mythology	cur	
+6ited states	f4g	
+7versity of hong kong	cqx	
+5pper body	f12	
+5rge to smoke	dck	
+5s federal government	f7t	
+5zbek people	erk	
+4vast majority	f50	
+9ocean	f6v	
+9sky	f6d	
+6ult of heaven	ctx	
+5ery end	eoy	
+9front	eqh	
+9moment	eqg	
+5icissitudes of life	cn9	
+6ews of the departed	bye	
+6rgin mary	f8d	
+4walls have ears	duz	
+6rring states period	ezj	
+7s of the roses	bya	
+6y back	eo6	
+8of former kings	cjx	
+bthe hegemon	bxf	
+fking	bx9	
+9ne carries oneself	ekl	
+cis following	ekm	
+cspeaks	ekn	
+8the wind blows	bzz	
+7s of the world	bxo	
+5eak force	ezn	
+6st wing	f24	
+8ern hemisphere	f5x	
+cpacific ocean	f5i	
+eradise	f60	
+5heel comes full circle	eyc	
+6ite race	f0r	
+6ole amount	eyx	
+budience	f10	
+abody	ewj	
+aclass	ex7	
+bountry	eu9	
+h in rebellion	djr	
+aday	eqn	
+aearth	f08	
+afamily	eut	
+g is invited	euu	
+bront	eyg	
+ajourney	f14	
+alength	f01	
+aneighborhood	f23	
+bight	evc	
+aof america	cpj	
+dchina	cpk	
+dmalaysia	cpl	
+aprovince	f19	
+astory	ez5	
+atime	enx	
+bown turns out	enf	
+away	eqf	
+bide world	ern	
+borld	eta	
+ayear	eof	
+6ys and the wherefores	byr	
+5ider world	exs	
+6ll of god	cem	
+cheaven	cf7	
+cthe people	bwy	
+9to move mountains	cw8	
+6ng of the nose	by2	
+7ter solstice	f6u	
+5olf prize	f7a	
+6man herself	exj	
+6rd on the street	bzl	
+7kers in marxist theory	dm6	
+8ing poor	f4k	
+7ld in chaos	dkq	
+dthe large	byx	
+bs at peace	eh8	
+aof business	cl0	
+dchinese opera	cmq	
+dfinance	clf	
+dmaterial desires	cls	
+eortals	cmx	
+fvies	cmy	
+dsensual pleasures	cmu	
+eport	cm8	
+dthe dead	bxi	
+hliving	bxp	
+9's first	eoz	
+5rath of heaven	ctz	
+6ong bus	f3j	
+aside	ey4	
+away round	epu	
+4year after next	en0	
+9before last	en1	
+8's harvest	ep4	
+8s have slipped by	dp7	
+6llow river basin	f4e	
+bsprings	f7h	
+5ongle great encyclopedia	evd	
+6ung of an animal	cne	
+9er generation	f73	
+5uan or mongol dynasty	ems	
+4zhao family	f0f	
 3ater	ad9	50
 5re	ada	2f
 3ft	adb	7a
@@ -224,6 +1132,7 @@ bal	aaw	10
 6ist	adq	20
 6y	adr	78
 4e	ads	3
+5 is something the matter	emx	
 5after	adt	58
 5by	adu	7c
 5fore	adv	5e
@@ -246,7 +1155,11 @@ bal	aaw	10
 3gh	aec	78
 3n	aed	43
 4g	aee	3
+5 of the past	cky	
+5s change for the better	ecr	
+7of the world	cmz	
 4k	aef	3
+5 of	bkn	
 5ing	aeg	22
 3rd	aeh	23
 5ly	aei	c
@@ -268,6 +1181,7 @@ bal	aaw	10
 4sand	aey	23
 8-fold	aez	40
 8fold	af0	40
+8s of	bmo	
 2rall	af1	c0
 4sh	af2	88
 3ead	af3	df
@@ -293,9 +1207,17 @@ bal	aaw	10
 5g	afn	ec
 4ttle	afo	c0
 4ugh	afp	3
+7 the night	er0	
 7out	afq	3e
+a the ages	fay	
+fland	f2q	
+fnight	f0z	
+funited states	f4h	
+fworld	ext	
+fyear	epd	
 4w	afr	43
 5back	afs	80
+5ing the embroidered ball	f6j	
 3ust	aft	fc
 2umb	afu	7c
 4p	afv	40
@@ -327,6 +1249,8 @@ bal	aaw	10
 2mber	agl	fc
 4re	agm	80
 3e	agn	23
+4 of the day	cfm	
+cyear	ce8	
 4-consuming	ago	40
 4ly	agp	b8
 4table	agq	2e
@@ -344,16 +1268,2438 @@ bal	aaw	10
 3t	ah2	c0
 3y	ah3	5f
 2p	ah4	5e
+3 of the eyebrows	ctp	
+bfoot	cpr	
+biceberg	cth	
+bnose	csa	
 3ple	ah5	c0
 2rade	ah6	80
 3e	ah7	de
+4 of	blg	
 4d	ah8	3
+5 of	bmh	
 4some	ah9	18
 2ssue	aha	fe
 0Titanic	ahb	c0
 0title	ahc	7e
 3ular	ahd	80
 1o	ahe	3
+2 abide by the law	ckt	
+5scond from the army	cvy	
+6orb the essence	dei	
+4ccede to a throne	drk	
+7pt the new	czv	
+6omplish the objective	dd9	
+6use the victim	dcg	
+5hieve the dao	day	
+5t as a go-between	eqx	
+7behind the scenes	d22	
+7in a play	eb8	
+7out of malice	fbv	
+4dapt to the situation	c3g	
+5d the finishing touch	d4l	
+8o the fun	c30	
+7up the total	cwz	
+5here to a surface	drd	
+5just the speed	dbw	
+5mire from the heart	cvu	
+athe full moon	d63	
+7t the truth	db1	
+ao a crime	dr8	
+5vance through the water	d0e	
+4ffirm the original sentence	d9i	
+4gree to a contract	dqp	
+dnd sign	dpf	
+4id the enemy	dbg	
+5m to get by	fc0	
+4llow for the unpredictable	cdi	
+4mend the constitution	dd3	
+4nnounce to the world	c2u	
+5swer the door	d5f	
+ephone	dai	
+4ppeal to the public	c32	
+8r in the flesh	c4s	
+hnews	c4o	
+aon the scene	ces	
+but of nowhere	fcw	
+ato be	c8p	
+6reciate the kindness	dem	
+7oach the airfield	dac	
+gfront line	d2f	
+4rgue in favor of	ds5	
+5range to be ready	c8x	
+4scend the throne	dfw	
+bo the throne	c3v	
+5k for a beating	f5j	
+dfavor	f5k	
+7the way	czm	
+8o be excused	c85	
+5pire to the throne	c3u	
+5sail the nostrils	dgf	
+6ign the task of	c14	
+bo a job	dqy	
+4tone for a crime	fb7	
+5tach to a substrate	dri	
+8k the enemy	dau	
+egoal	d95	
+3balance the books	dcr	
+5n the sale of	c0x	
+5r the way	d13	
+6e the breast	de0	
+cfeet	dez	
+cupper body	d6y	
+5sk in the light	c4w	
+4e	e0o	
+5 a bargain	ccb	
+9eliever	ccp	
+anefit to	bzr	
+9ig disappointment	cbw	
+9urden on	c5l	
+8cinch	cco	
+9ulture snob	cc1	
+8different person	c9q	
+asgrace	cck	
+8favorite	ccq	
+8go-getter	c7i	
+aod deal	c8n	
+dfit	c9a	
+dmatch	c9n	
+c-for-nothing	c4b	
+8laughing stock	cc3	
+8movie actor	ccc	
+8newcomer	ccr	
+9uisance	ccj	
+8paid escort	ccg	
+9erfectionist	ccs	
+9roblem	cbt	
+bponent of	bzm	
+8real headache	cbv	
+afugee	cct	
+8scapegoat	ccm	
+9econd so-and-so	bzj	
+9itting duck	ccd	
+9oldier	cca	
+are loser	cch	
+9pokesperson	ccu	
+9ubstitute for	c4h	
+accessful candidate	cc5	
+aspect	cc9	
+8tax on	c5h	
+9eacher	ccv	
+9hief	ccf	
+9rue friend	cbu	
+8vegetarian	ccl	
+8wet blanket	cc6	
+9orthy teacher	ccw	
+8yes-man	c7h	
+7bbreviated to	cav	
+8laze with anger	dnz	
+9e bodied	dvf	
+bto	c8g	
+d afford	c88	
+ebear	c82	
+eendure	c8b	
+esupport	c7u	
+fwim	c8a	
+etouch	c83	
+ewithstand	c8f	
+8orted prematurely	e0p	
+9ut to	c7c	
+e arrive	c7a	
+fdie	c79	
+fmaterialize	c7b	
+9ve	dw9	
+8sent	dyd	
+c without leave	duo	
+c-minded	dye	
+9orbed with	do6	
+7ccommodating	e0q	
+bpanied by	dq4	
+9ustomed to	caw	
+8quitted	e0r	
+7ddicted	e0s	
+e to	cax	
+9led	e0t	
+8ept in	ci4	
+8justed to uniformity	cay	
+8mired	e0u	
+atted to	caz	
+8vised	e0v	
+7ffiliated to	cb0	
+hwith	do7	
+9licted with	do8	
+8raid	dxl	
+c of heights	c6p	
+gstrangers	c6q	
+8ter	duf	
+7gitated	e0w	
+7irworthy	e0x	
+7larmed	e0y	
+8ert	dyf	
+8ike	dyn	
+9ve	dxt	
+8l alone	dsc	
+ain tears	cdj	
+apresent	ds9	
+aright	drq	
+asmiles	dsf	
+atalk	ds3	
+8one	dwq	
+7mazed	e0z	
+8bitious	dyl	
+f and unafraid	c98	
+9ushed	e10	
+8enable to persuasion	can	
+8ong	dw4	
+7n ambassador	dyp	
+9exception	dxg	
+bpert in	chs	
+ayesore	e11	
+9irksome presence	dxb	
+9official	dwi	
+9unrecognized talent	dxv	
+8esthetized	e12	
+8nexed	e13	
+9ihilated	e14	
+9oyed	e15	
+8ointed	e16	
+8tagonistic to	cb1	
+9i-imperialist	e17	
+8xious	dxx	
+d and frightened	c93	
+iworried	c94	
+7part from	dr5	
+8palled	e18	
+9licable	dyi	
+9ointed	e19	
+9rehensive	dze	
+aoved	e1a	
+8t to change	c80	
+7round the corner	bzd	
+ased	e1b	
+8rested	e1c	
+e by fear	dpq	
+7s as ever	de3	
+8hamed to face	c8d	
+8king for trouble	di3	
+8sured of success	c6h	
+8tonished	e1d	
+aunded	e1e	
+7t a disadvantage	c73	
+bloss	c6k	
+bstandstill	c74	
+an impasse	dpv	
+9death's door	dpa	
+9ease	dpr	
+9home	dp8	
+9large	dp9	
+aoggerheads	dpw	
+9odds	dpx	
+d with	dh5	
+ane's post	dik	
+9risk	dpn	
+9sb's mercy	dpu	
+9the scene	bz4	
+9wits' end	dp5	
+7vailable for sale	dht	
+9ricious and mean	c7o	
+7waiting betrothal	e1f	
+9re	dwl	
+9y on business	diq	
+8fully	e1g	
+6backed up by	dla	
+8ffled	e1h	
+8lding	e1i	
+8ptized	e1j	
+8refoot	e1k	
+8shful	e0d	
+7eaten	e1l	
+8hind bars	dwc	
+8leaguered	e1m	
+9ligerent	dzo	
+8neath one's dignity	ds1	
+9t on	dl3	
+8side oneself	dxd	
+8tter than	dtg	
+9ween two parties	dsn	
+8wildered	e1n	
+atched	e1o	
+8yond control of	c67	
+7iased	e1p	
+7lessed	e1q	
+8ind	dxp	
+bed by greed	dq3	
+8ocked up	dt1	
+7oastful	e1r	
+8rn	dx7	
+a of	c6n	
+bunlucky	dx8	
+bwith	dnt	
+8und to	cb2	
+e prevail	cal	
+8wled over	du5	
+7randed as	dos	
+9ve	dy8	
+b enough to	c8t	
+8eached	e1s	
+9wing	e1t	
+8imming over	du7	
+j with	dj6	
+8oken-hearted	e1u	
+9ught up	dt2	
+7ullied	e1v	
+8mper to bumper	cb3	
+8rglarized	e1w	
+9ied	e1x	
+8stling with customers	do9	
+9y	dxk	
+a rushing about	dt9	
+6called	e1y	
+c by god	dpm	
+8nceled	e1z	
+8pable of	c6o	
+9tivated	e20	
+aured	e21	
+8reful	e22	
+9sick	e23	
+8ught off guard	duq	
+dred-handed	dwk	
+dunprepared	e24	
+9sed by	dq5	
+9tious or vigilant	drt	
+7entered	e25	
+8rtain of victory	c68	
+eto get	c77	
+7hattersome	e26	
+8eated	e27	
+8ivalrous	e28	
+8oked up	dt3	
+9osy	e29	
+8ristened	e2a	
+7lassified as	dot	
+8ear	dvc	
+b about	dsq	
+b-eyed	dvd	
+8ogged up	dt4	
+9se	dvr	
+b friends	dvs	
+cto	c8u	
+bd	dwv	
+bly related	e2b	
+8ueless	e2c	
+7ocky	e2d	
+8gnizant of	c6v	
+8llectively called	e2e	
+8mmissioned	e2f	
+9parable to	cb4	
+btible	dy7	
+g with	do1	
+aelled	e2g	
+alete strangers	dvt	
+ed	e2h	
+ely at ease	dps	
+hconvinced	e2i	
+hgone	e2j	
+hsold out	dst	
+8ncerned	e2k	
+f about	dtc	
+ailiatory or apologetic	drw	
+9fined to	cb5	
+aronted	e2l	
+aused	e2m	
+e and disoriented	c9f	
+9genial	dzp	
+bsted	e2n	
+9jugate	dzv	
+9nected	e2o	
+9sidered to be	bys	
+atantly evolving	e2p	
+bipated	e2q	
+brained	e2r	
+9taminated	e2s	
+aent with	dnu	
+ainued	e2t	
+arary to	caj	
+bolled	e2u	
+eing	e2v	
+9vinced	e2w	
+aulsed	e2x	
+8rrelated	e2y	
+aupt	dyb	
+8upled	e2z	
+8vered with	doa	
+i water	dmr	
+7redulous	e0h	
+8ippled	e30	
+9tically ill	dx1	
+cized	e31	
+8owded together	dvx	
+7ut off from	dpt	
+7ynical	dyr	
+6daunted by challenges	dq6	
+8zed	e32	
+9zled	e33	
+d and stunned	c9g	
+7ead	dwr	
+a drunk	dws	
+alocked	e34	
+9f and blind	c8z	
+bto	cai	
+8capitated	e35	
+9eased	dz5	
+9ided by	dq7	
+9ommissioned	e36	
+8dicated to	cb6	
+8eply affected	e37	
+dconcerned	e38	
+dgrieved	e39	
+dhidden	e3a	
+din	ci7	
+8feated	e3b	
+e and dispersed	c9h	
+9icient in	ci8	
+aned to be	byt	
+bitely able	dvg	
+8lighted with oneself	dob	
+arious	e03	
+asted	e3c	
+8moted	e3d	
+8pendent on	dl4	
+9ressed	e3e	
+8ranged	e3f	
+8tached from	dr6	
+9ermined	e3g	
+g by	dq8	
+hto	cb7	
+j win	c8c	
+bred	e3h	
+7iagonally opposite to	ca7	
+8fficult	dvo	
+f to bear	c8e	
+bdent	dzt	
+8gnified	e3i	
+8ligent or attentive	dru	
+8rected at	dpl	
+8sappointing	e3j	
+9charged from hospital	dqx	
+aontented	e3k	
+dinued	e3l	
+buraged	e3m	
+bvered	e3n	
+aredited	e3o	
+9graced	e3p	
+austed with	doc	
+9loyal	dzy	
+9missed	e3q	
+9orderly	e3r	
+9satisfied	e3s	
+9tracted	e3t	
+bessed	e3u	
+bibuted	e3v	
+8vorced	e3w	
+7og-tired	dwu	
+8minant	dy4	
+8ne	e3x	
+a for	die	
+bwith it	ckf	
+7rawn into	dto	
+cto	cb8	
+8owned	e3y	
+8unk and rowdy	c9c	
+7umbfounded	e3z	
+8ped	e40	
+8ty bound	dwx	
+6eager and anxious	c91	
+cfor	dia	
+bly sought after	dug	
+8rthshaking	e41	
+7clipsed	e42	
+7ffective	dwj	
+7lated	e43	
+8ected	e44	
+7mbarrassed	e45	
+9ittered	e46	
+8otionally involved	e47	
+imoved	e48	
+8ployed	e49	
+e at	dpy	
+7namored of	c6w	
+8chanted	e4a	
+f by	dq9	
+8gaged in politics	cgr	
+9rossed	e4b	
+8raged	e4c	
+8thralled	e4d	
+9irely different	dva	
+atled	e4e	
+e to	cb9	
+9ranced	dzz	
+aenched	e4f	
+austed	e4g	
+8vious	dzr	
+7qual to	c9s	
+9ipped with	dod	
+7radicated	e4h	
+8oded	e4i	
+7stablished	e4j	
+9ranged	e4k	
+7ven	dul	
+a better than	dsk	
+bworse	dui	
+a-steven	dum	
+aly matched	dym	
+9r-victorious	dw3	
+aywhere	e4l	
+7xactly as if	dhz	
+elike	dtq	
+9m-oriented	dxn	
+8ecuted	e4m	
+8hausted	e4n	
+8pected	e4o	
+cing	e4p	
+9osed	e4q	
+8terminated	e4r	
+9remely accurate	dxi	
+6face to face	c7t	
+ad with	doe	
+g problems	dof	
+9ing imminent calamity	dyz	
+8ir	dwg	
+9thful unto death	dwb	
+8miliar with	dnw	
+8r from	dqo	
+ainferior	dvk	
+8scinated	e4s	
+9t asleep	dwo	
+aidious but incompetent	dqw	
+8wningly submissive	dzw	
+7earful	e4t	
+8d up with	dib	
+7iercely competitive	e4u	
+8lled with	dog	
+8nalized	e4v	
+9ed	dyh	
+9ished	e4w	
+8red	e4x	
+9st to	c7n	
+e start	c7e	
+8xed	e4y	
+7lat	dx6	
+8eeting	dza	
+8ooded	e4z	
+8ustered	e50	
+7ond of	c6t	
+8oled	e51	
+8r rent	di8	
+9ever filial	e0c	
+9giving	e52	
+8und throughout	e53	
+7rank	e54	
+8ee	dvq	
+a of worries	c6g	
+8iendly	e55	
+9ghtened	e56	
+g into fits	dtp	
+hto death	c9b	
+7ulfilled	e57	
+9l	dvj	
+a of	c6b	
+d admiration	c6c	
+eremorse	c6a	
+etricks	c6d	
+evigor	c6e	
+ezeal	c69	
+bto overflowing	c8h	
+ay aware of	c6j	
+cconcentrated	e58	
+cfocused	e59	
+8rious	dyg	
+6genderswapped	e5a	
+9erally referred to	cba	
+bous	dy2	
+8tting on well	di4	
+7ifted with	doh	
+8ven	e5b	
+b detention	dz3	
+cone's freedom	ds6	
+cspecial treatment	dvn	
+7oing to	cbb	
+8ne forever	e5c	
+8od at	dp3	
+d using	dp4	
+bin bed	cfy	
+a-hearted and honest	c7q	
+7radually influenced	e5d	
+9teful	dy3	
+aified	e5e	
+9vely mistaken	dzc	
+8een with envy	dnq	
+8ouchy	e5f	
+anded	e5g	
+6hanged	e5h	
+8ppy	dwh	
+8rmful	e5i	
+d to	cbc	
+9vested	e5j	
+8ving an affair	dx5	
+7eard	e5k	
+aing impaired	e5l	
+7idden away in	cgn	
+8ghly principled	e5m	
+dsuccessful	e5n	
+8red	e5o	
+7omesick	e5p	
+9ophobic	e5q	
+8nest	dxo	
+c and upright	c90	
+8odwinked	e5r	
+8spitable to	cat	
+dlized	e5s	
+7umble	dyx	
+9iliated	e5t	
+6identical with	do2	
+8le	dyv	
+7ll	dx2	
+9ogical	e5u	
+7mbued with	doi	
+8minent	dz2	
+9ortalized	e5v	
+8partial	e5w	
+assable	e5x	
+cioned	e01	
+atient for success	dhx	
+9etuous	e02	
+9otent	e5y	
+9risoned	e5z	
+7n	ci9	
+8 a coma	c0k	
+bdaze	c0j	
+bhurry	c0f	
+bpredicament	c0i	
+brush	c0e	
+btangle	c0h	
+an uproar	ci5	
+arrears	ci0	
+9bliss	ci1	
+boom	chy	
+aud	chz	
+9charge	chd	
+f of	bzs	
+aommand	chq	
+g of	bzu	
+bntact	chl	
+buples	cia	
+9debt	chr	
+bmand	chf	
+9effect	ch2	
+arection	cib	
+9favor of	bzv	
+aront	che	
+aull control	cg3	
+eswing	cgo	
+9general use	cds	
+aood order	cfh	
+bvernment service	cge	
+9harmony with	c9o	
+aiding	cic	
+9labor	cid	
+aove	ch4	
+d with	c89	
+9malposition	cie	
+aourning	cif	
+9one's adolescence	cdd	
+aperation	cig	
+arder	cgp	
+averall charge	ch8	
+9pain	cho	
+alace	cg8	
+aosition	chb	
+ct	chh	
+bwer	cgk	
+arison	chm	
+aublic service	cfz	
+9relation with	c9r	
+9season	chn	
+brvice	cgf	
+atep with	c8j	
+braitened circumstances	cih	
+9the army	bx4	
+dlimelight	bx7	
+dmajority	bx5	
+eilk	bx6	
+dsun	bx2	
+dway	bwz	
+erong	bx1	
+9vogue	ci2	
+8attentive	e60	
+8competent	e61	
+anclusive	e62	
+9urable	e63	
+8debted	dzd	
+9ifferent	dyt	
+h to	cap	
+9omitable	e0b	
+8fatuated with	doj	
+9ected	e64	
+e by	dqa	
+arior to	caq	
+btile	e65	
+9luenced	e66	
+9ormed	e67	
+e of	c6x	
+8oculated	e68	
+8separable	dzb	
+8tended to	cbd	
+bsifying	e69	
+ardependent	dzs	
+bested	e6a	
+g in	cii	
+brelated	e6b	
+bviewed	e6c	
+bwoven	e6d	
+9imate	dya	
+e or close	drn	
+8vincible	e00	
+9olved	e6e	
+e in	cij	
+h politics	cgs	
+fwith	dok	
+8wardly terrorized	e6f	
+7rrelevant	e6g	
+6jammed	e6h	
+7ealous	dz0	
+d of	c6u	
+7ittery	e6i	
+7olted around	dvh	
+8yous	e6j	
+7ust about to	c76	
+bgetting light	dtm	
+blike	dse	
+bright for	dhc	
+6keen on	dkw	
+7idding	dzj	
+8lled	e6k	
+8ndhearted	e6l	
+ared spirits	e06	
+7nowing	e6m	
+an as	dou	
+cto everyone	cbe	
+6lacking	e6n	
+d in	cik	
+g boldness	cil	
+8den with anxiety	do0	
+8id out	dsu	
+8te	dv2	
+8ughing and playing	c9i	
+8w-abiding	dvl	
+8zy	dyw	
+7eft out	dsh	
+bspeechless	dve	
+8nient	dzh	
+d with others	do5	
+8ss than	dtf	
+7ike	dtr	
+a family	dt8	
+aly or possible	dqs	
+dto succeed	c8q	
+8mited	e6o	
+d to	cbf	
+8ned up	dt5	
+9ked	e6p	
+c together	dvy	
+8terate and numerate	c9e	
+7ocated	e6q	
+d at	dpz	
+ein	cim	
+eprominently	e6r	
+8nely	e6s	
+8st	e6t	
+a in thought	cin	
+bto memory	ca1	
+8ud and clear	c7v	
+8vey-dovey in public	cgx	
+8wer than	dtl	
+8yal	dxs	
+b to	cac	
+6mad about money	dss	
+9e a scapegoat	ccn	
+bredundant	dy5	
+9ly in love	ch5	
+8gnanimous	e09	
+8nually adroit	e07	
+8rooned	e6u	
+9ried	e6v	
+7eddlesome	e6w	
+8ntally confused	e6x	
+8rciful	e6y	
+7indful	e6z	
+8slead	e70	
+9matched	e71	
+9sing	e72	
+9taken	e73	
+areated	e74	
+8xed in	cio	
+7obile	dy1	
+8re at ease	dl7	
+9tal	dxy	
+8th-eaten	dz8	
+8ved	e75	
+7urdered	e76	
+6named	e77	
+8rrowly partisan	dz6	
+7ecessary to	c95	
+8wly married	e78	
+7o different	ds2	
+9match for	dh7	
+aore	dql	
+8stalgic about	dta	
+8t less than	dhr	
+aworth mentioning	djo	
+9hing difficult	dvp	
+6observant and alert	c96	
+assed	e79	
+cive	e7a	
+9tructed	e7b	
+7ccupied	e7c	
+e with	dol	
+7f benefit to	bzk	
+aurrowing habit	c6r	
+9importance	c6m	
+9one mind	c4j	
+dvoice	c4k	
+9use	c5s	
+9vital interest	c65	
+8f duty	dun	
+athe beat	bz9	
+emark	bz6	
+9icially wed	dxr	
+cous	e0e	
+7lder than by	do4	
+7mitted	e7d	
+7n a sabbatical	c5m	
+all-night duty	dhi	
+9bad terms	dke	
+9call	diz	
+9duty	dkn	
+9foot	djt	
+ariendly terms	dl5	
+9good terms	dit	
+auard	dkv	
+9night duty	dja	
+fwatch	dj3	
+9one's guard	dhk	
+fmind	dhd	
+fway	dh6	
+9patrol	dkz	
+arobation	dl1	
+9sale	dkd	
+ahow	dix	
+aick leave	djf	
+atandby	dl6	
+aummer vacation	dko	
+9tenterhooks	dl2	
+ahe alert	byz	
+dgo	byv	
+dlookout	bz0	
+dmove	byw	
+8e's old self	drh	
+cunshirkable responsibility	ds7	
+9self	e7e	
+7pen	dv3	
+a-minded	dv4	
+9rative	e7f	
+8inionated	e7g	
+8portune	dz9	
+7riented towards	dxw	
+7stentatious	dzu	
+i and extravagant	c99	
+7ut	dsv	
+9 of credit	c5f	
+dkilter	c5j	
+dluck	c5i	
+doffice	c57	
+dpower	c4t	
+eractice	c5k	
+dstock	c5g	
+9dated	dzm	
+aone by	dqb	
+7ver	du8	
+a the moon	bz5	
+acome with grief	dnx	
+adue	dzf	
+agrown with weeds	dom	
+ashadowed	e7h	
+awhelmed by emotions	dqc	
+6paralyzed	e7i	
+9ted by death	dpo	
+aial	e7j	
+d to	cbg	
+8ssionate about	dtd	
+gly in love	ch6	
+9t worrying	dw8	
+8tient	dxa	
+7eeved	e7k	
+aish	e7l	
+8nding	dz4	
+9niless	e7m	
+8rched high	duv	
+9fect	dwy	
+8stered beyond endurance	dwz	
+7icky	e7n	
+b about food	dt7	
+8ercingly painful	e7o	
+8ssed off	duu	
+8thy and correct	c8s	
+7lagued with misfortunes	don	
+9yful	e7p	
+8easantly surprised	e7q	
+7oisoned	e7r	
+8pular	dwt	
+8sitive that	dh4	
+9sessed	e7s	
+9ted	e7t	
+aponed accordingly	e7u	
+7raised by everyone	dqd	
+8ecisely the same	bzb	
+9destined	e08	
+9eminent	e0f	
+9gnant	dxu	
+9maturely gray	e7v	
+9occupied	e7w	
+9pared for accidents	dif	
+9sent	dw5	
+d during childbirth	dv0	
+ded at court	dpd	
+gwith	dnr	
+8oficient in	ci3	
+btable	e7x	
+9miscuous	e04	
+aoted	e7y	
+e to	cbh	
+9ne to	car	
+9ud of oneself	c6s	
+7ublished	e7z	
+8nished	e80	
+8rely	e81	
+9portedly	e82	
+8zzled	e83	
+d by	dqe	
+6qualified	e84	
+8ick-witted	dwf	
+9ts	e85	
+6rampant	dzk	
+8pt	e05	
+7eady	dwp	
+b to	ca0	
+9lly busy	dv8	
+9sonable	e86	
+asured	e87	
+8born	e88	
+9uked	e89	
+8ckoned with	doo	
+9onciled	e8a	
+arded as	dov	
+8duced	e8b	
+d to	cbi	
+8ferred to as	c5o	
+8incarnated	e8c	
+8lated	e8d	
+9eased from prison	dqz	
+fon bail	dl0	
+avant	dx9	
+9igious	dxh	
+8nowned	e8e	
+8solved	e8f	
+9ponsible	dwd	
+h for	di0	
+9tless	e8g	
+aricted	e8h	
+8united	e8i	
+8vived	e8j	
+7ich in	chp	
+8diculed	e8k	
+dous	dyc	
+8ght next to	c7k	
+7ooted to	cbj	
+8uted	e8l	
+c and dispersed	c9j	
+7ude	dyu	
+8ined	e8m	
+8mored	e8n	
+6sacked	e8o	
+8ddled with debts	dop	
+8tisfactory	dy0	
+cied	e8p	
+8ved	e8q	
+b from	dr7	
+9vy	e0i	
+7b's concubine	e0a	
+bguarantor	dzq	
+7cared into submission	dtn	
+dof dying	c6y	
+dsenseless	e8r	
+etiff	dy6	
+9ttered about	dte	
+hnd lost	c9k	
+7eated	e8s	
+9worthy	e0j	
+8cretly delighted	e8t	
+8lf-reliant	dwe	
+8nsible or reasonable	drs	
+9t to prison	c9z	
+eslaughter	cas	
+aimentally attached to	cbk	
+8ttled conclusively	e8u	
+8xually aroused	e8v	
+gttracted	e8w	
+7hamed	e8x	
+bless	e8y	
+9ttered	e8z	
+8ocked	e90	
+d to learn	c92	
+9rt	dw1	
+b of	c6i	
+bsighted	e91	
+9ulder to shoulder	c9t	
+7idelined	e92	
+8tuated	e93	
+e at	dq0	
+fin	cip	
+7leepless all night	ds4	
+7ofthearted	e94	
+8ld	e95	
+a out	dsw	
+8mebody	e96	
+8rry	dx4	
+b that	dh3	
+7pared	e97	
+c worry	dww	
+8eechless	e98	
+8oiled	e99	
+7tartled	e9a	
+8eeped in	ci6	
+8ifling	e9b	
+9ll angry	dur	
+9ngy	e0g	
+8randed	dz7	
+9ict with oneself	dny	
+8uck	e9c	
+9dying	e9d	
+9nned	e9e	
+7ubjected to	cao	
+9missive	dzx	
+8ccessful in business	cgz	
+9ked in	ciq	
+8itable for	dig	
+for appropriate	dro	
+8perfluous	dzn	
+bior to	cah	
+8re	dvv	
+a of success	c66	
+bto	c8y	
+9prised	e9f	
+8spected of	c6z	
+i bribery	c70	
+gto be	byu	
+bnded	e9g	
+aicious	e9h	
+6taken aback	dzi	
+ddvantage of	c6l	
+cin	cir	
+cprisoner	e9i	
+8lented yet self-effacing	dv6	
+8ngled up with	dic	
+9tamount to	cau	
+7empted	e9j	
+8nable	dzl	
+9derhearted	e9k	
+8rminally ill	dx3	
+9rified	e9l	
+7he acknowledged leader	bzh	
+achef	bzg	
+alast resort	bza	
+aparent of	bwx	
+areigning emperor	bzf	
+asame	bzc	
+e age	bz7	
+bole survivor	bze	
+btarting pitcher	bzi	
+8inning on top	djq	
+8oroughly discredited	e9m	
+8rilled	e9n	
+8undering	e9o	
+7icklish	e9p	
+8ght	dxc	
+8red of living	c71	
+7ogether constantly	dvz	
+8lerant	dz1	
+8o busy	duy	
+8rn with grief	do3	
+8ssed around	dvi	
+8tal strangers	dwa	
+bly devoted	e9q	
+fispersed	e9r	
+eoblivious	dzg	
+eshameless	e9s	
+7ransferred to	cbl	
+cormed	e9t	
+bmitted by copying	dqf	
+9pped	e9u	
+8easured	e9v	
+9nding	e9w	
+8ifled with	doq	
+8oubled	e9x	
+anced	e9y	
+7urn	dv5	
+7wo-sided	dti	
+6unable	e9z	
+c to	cbm	
+f bear	c9y	
+hreathe	cab	
+gcontinue	c8i	
+gendure	cam	
+gfind	c7s	
+gintervene	ca8	
+gpay	c87	
+greach	c97	
+isist	ca5	
+gstand	c8o	
+9voidable	ea0	
+8bearable	ea1	
+8certain	ea2	
+9hanged	ea3	
+9onventional	ea4	
+8der great pressure	du0	
+butilized	ea5	
+9uly humble	dyy	
+8employed	ea6	
+8fair	ea7	
+bthful	ea8	
+9ortunate	ea9	
+8generous	eaa	
+9rateful	eab	
+8intelligible	eac	
+9ted in action	cis	
+8lucky	ead	
+8mentionable	eae	
+8popular	eaf	
+8salaried	eag	
+9uited to	cbn	
+are	eah	
+8usually high	duw	
+7p to mischief	c78	
+8set	dxz	
+b or disturbed	drr	
+7sed by everyone	dqg	
+bfor	dih	
+bto	cbo	
+bup	dt6	
+7tterly defeated	dys	
+6vaccinated	eai	
+8lued at	dq1	
+7ery close	dts	
+considerate	due	
+bfond of	c64	
+bhungry	dud	
+bpatient	dub	
+coor	du6	
+dpular	dua	
+bsimilar	du3	
+8xed or annoyed	drx	
+7ictorious	eaj	
+8gilant	eak	
+e in peacetime	cit	
+6warlike	eal	
+8tched closely	eam	
+7ealthy and heartless	c9l	
+9ned	ean	
+9ry of war	c6f	
+8ll acquainted with	diw	
+cware	dtj	
+bmatched	dtt	
+bprepared	dtu	
+a-informed	dtv	
+bknown	dtw	
+bmannered	dtx	
+dtched	dty	
+boff	dsz	
+bregarded	dtz	
+7ide open	dup	
+aly known as	dow	
+8ld	dxf	
+a with joy	dns	
+9ling	dxe	
+d to	ca6	
+8ndy	eao	
+9ed and dined	c9m	
+8th	dor	
+a child	dlf	
+ain grasp	dvb	
+9ness	dxm	
+d to	ca9	
+7on over	du9	
+8rm-eaten	dyq	
+9n out	dsx	
+9ried	eap	
+9th it	dh2	
+cmentioning	dwn	
+bwhile	dyo	
+by of	c72	
+8unded	eaq	
+d in action	ciu	
+7ronged	ear	
+5ar the brunt	dcc	
+cweight	da3	
+i of	c0y	
+6t about the bush	cyn	
+9gainst the shore	d3n	
+9round the bush	d4r	
+8down the price	d0i	
+8the summer heat	d8c	
+9o a pulp	drf	
+5come the character	d2o	
+enorm	d3s	
+5g for a loan	fb6	
+7on the streets	cfs	
+5lieve oneself to be	c8r	
+5nd at the waist	clq	
+8the rules	df2	
+8with the wind	cgt	
+6efit the community	d6i	
+fpeople	d0f	
+4ite the dust	dea	
+4leed from the nose	cw0	
+4oost the morale of	c19	
+dpressure	dbi	
+dvoltage	dfj	
+5th be disadvantaged	dv1	
+bwilling	dux	
+8share the limelight	d1u	
+5w the head	d5t	
+4rake to a halt	drj	
+6nch off the road	d16	
+6ve the rain	ddb	
+dwaves	dfo	
+5eak in a fall	ebk	
+ehorse	ebs	
+dnd analyze	eb9	
+9out of prison	fcs	
+9the hymen	d96	
+dlaw	d44	
+drule	d55	
+hs	d97	
+dsurface	d7k	
+brough the ground	d0d	
+5ing back the dead	czq	
+9the house down	cyl	
+ao a close	dqm	
+9up the rear	cxa	
+4urn the midnight oil	daz	
+6y the dead	dbn	
+chatchet	df3	
+5y the whole lot	d1v	
+3calculate the final bill	d59	
+hrunning total	d8p	
+hscore	dbh	
+htotal	d8q	
+6l in a loan	ebj	
+9t a day	eiw	
+8the shots	d42	
+ctune	d3p	
+6m the nerves	df7	
+5p the roof	ddr	
+5re for and educate	eqs	
+6ry on the shoulder	cet	
+9the can	cx0	
+5tch a glimpse of	dij	
+and feed on	fbe	
+dhold on	fb1	
+9the wind	d9s	
+6er for the masses	cdq	
+5use a loss of	di1	
+4elebrate the new year	cwo	
+4hallenge the law	d6e	
+6nge the channel	d2x	
+eguard	d33	
+elaws	d3m	
+esubject	d1m	
+etv channel	d2y	
+7t the sutras	dg9	
+6tter on and on	egp	
+5eck for receipt of	ein	
+9the guard posts	dbc	
+dsentries	dcs	
+6rish the memory of	c17	
+6w the cud	dg5	
+4ircle in the air	c4z	
+7ulate on the internet	cfr	
+8mvent the law	d86	
+4laim to be	c8w	
+6rify the facts	dfl	
+5ean the floor	d9u	
+dstreet	d5n	
+7r the road	d2q	
+dway	czx	
+9up the mess	cx7	
+5ing on to	fc9	
+5ose the book	d3a	
+ddoor	d47	
+dmarket	d31	
+dpasses	d8l	
+4ollaborate with the enemy	ch1	
+5me as a surprise	fcc	
+8into the world	cwc	
+8to a compromise	dph	
+ddecision	dpb	
+dhalt	dpi	
+djudgment	dpk	
+dstand	dp6	
+bthe rescue	c2l	
+fsurface	c2k	
+6mit to the flames	c3l	
+7unicate with the spirits	cgw	
+6pete in a contest	ec7	
+gsemifinal	ecc	
+bto be first	c7l	
+7lete the task	d6u	
+hraining course	d2a	
+gyear's harvest	cyk	
+7ute on the abacus	cft	
+5ncentrate on the task	cfd	
+7oct a cock-and-bull story	dqu	
+6fer a title on	fdn	
+7irm the truth of	c11	
+co be false	ca2	
+6nect to the internet	c3m	
+6quer the world	d4j	
+6sider oneself to be	c8k	
+cto be	c8l	
+h worthless	c8m	
+7ole the bereaved	dg7	
+7pire against the state	d17	
+6tend for a mate	fb8	
+7inue in a post	ebl	
+7ract for a job	f6w	
+6verge to a limit	dr4	
+8y the way	d18	
+7ince the masses	deg	
+5ok the books	ddp	
+5unt all of them	fce	
+5ver the costs	d93	
+droad	d4h	
+dwhole	d4f	
+9up the truth	cxe	
+4rash into the ocean	czr	
+5eate a stir in	eby	
+athe universe	d7z	
+5oss the limit	d6f	
+fne	d5a	
+docean	db2	
+dstage	d7i	
+freet	d4t	
+4ut down the price	d01	
+7open the abdomen	d2j	
+7the gas supply	d51	
+bprice	d4q	
+bribbon	d91	
+3dance in a group	ebi	
+cthe air	c4y	
+gbreeze	c5a	
+9to the beat	c3i	
+5re to be first	c7m	
+5zzle the eyes	dgb	
+4eal the fatal blow	d73	
+8with the aftermath	cgc	
+5clare at the outset	clk	
+bto be untrue	ca4	
+5fault on a debt	fdx	
+6end the crown	dcz	
+5serve to be called	cag	
+5termine the chemical composition	da0	
+hnature	d57	
+hsentence	d9g	
+5velop the mind	d1j	
+4ie of a broken-heart	di6	
+5scard the dregs	dg6	
+7harge into the air	cz8	
+7riminate in favor of	dsd	
+6engage from the performance	cw2	
+6mantle the stage	dah	
+6pose of a matter	di7	
+6regard the law	d83	
+5vide up the work	cw7	
+6ulge the inside story	d8j	
+4o a follow-up	fbx	
+6the actual writing	ck7	
+acooking	cl8	
+ahonors	cl9	
+ajob oneself	ck8	
+arounds	cla	
+asplits	clb	
+avery opposite	ch7	
+awrong thing	ciw	
+6with the masses	cc7	
+5te on and trust	fbf	
+4rain into the sea	czj	
+6w the outline of	c0t	
+cwinning ticket	d8b	
+8up the theme	cxf	
+5ess as a man	fdl	
+9the set	d3c	
+5ift with the waves	ch9	
+jind	cgv	
+6nk the northwest wind	d9b	
+6ve down the price	czw	
+5op from the sky	cvv	
+8out of school	fby	
+8the matter	d6n	
+9o the ground	c3c	
+5y in the shade	c58	
+fun	c51	
+3ease up the pace	cxw	
+5t on the sly	cfk	
+4liminate the roots	dfk	
+4ngage in a contest	ece	
+athe gear	ddo	
+5joy the cool air	d71	
+dsights	dc4	
+5large the breasts	dg1	
+5rich the blood	dbb	
+epeople	d0z	
+5ter the arena	dc8	
+fmy	d9k	
+dcapital	d99	
+demperor's palace	dav	
+dscene	dad	
+eea	d92	
+dvenue	dc5	
+dway	d0v	
+4scort the emperor	dfb	
+5tablish a presence in	ebz	
+6imate the value	d6j	
+4xamine the cadres	dbx	
+feyes	dby	
+freliability	dbz	
+5ceed the speed limit	d6v	
+etime limit	cy1	
+5it the market	d6s	
+5pand the balance sheet	d9x	
+6el from the party	cpg	
+9the cold	dcf	
+6lain all the details	cwt	
+bthe facts	d9q	
+7oit the opponent's shortcomings	de4	
+6ound the classics	dgk	
+5tend the period	d7d	
+escope	dcd	
+3face into the wind	cyh	
+8the corner	d54	
+cenemy	d5v	
+cwall	d3x	
+5de into the distance	czo	
+5il the imperial exams	db5	
+9o be chosen	c9v	
+eretained	c9w	
+6nt in the bathroom	c5d	
+5ll behind the ranks	d5c	
+8from the sky	crc	
+8in a trap	ebv	
+ato the ocean	cyw	
+8to the ground	c31	
+5n the flames	der	
+4ear the communists	dc6	
+5ed the starving ghosts	ddn	
+9o the full	c33	
+6l the pulse	d38	
+6t the feet perfectly	dgv	
+5rtilize the soil	dew	
+4ight on the leitai	cfj	
+9the whole world	d1b	
+ao a standstill	drb	
+cthe death	c3a	
+5ll in a blank	ec5	
+cnd submit	ebb	
+8the air	d8d	
+croad	d6p	
+csky	dbf	
+9o the brim	c3n	
+5nd a place for	era	
+8the derivative	d1k	
+ctime	cwx	
+g to	c27	
+5x the capital	daf	
+4lash on and off	fb0	
+9the yellow light	d7b	
+5oat in the air	c52	
+gwind	c59	
+9on the current	cfe	
+gwaves	cfq	
+6ut the law	d85	
+5utter in the wind	c5b	
+5y on a crane	fdv	
+7through the air	d0r	
+8o the moon	c3j	
+4ollow the crowd	d3j	
+fustomary ceremonies	d49	
+edoctor's advice	d1l	
+eexample of	c0g	
+eherd	d45	
+eright path	czt	
+fules	d4a	
+etrail of	c0n	
+gend	d3r	
+5rbid the eating of	c1c	
+6get for a while	f2x	
+4ulfill the quota	dg2	
+5mble the ball	ddh	
+3gain a foothold in	ecb	
+8the ascendancy	dd0	
+cupper hand	d2r	
+5me the system	d2g	
+5rrison the border	dec	
+5ther around the stove	d62	
+5ze into the air	cz5	
+hdistance	czn	
+4et a glimpse of	dhj	
+9sense of	dhe	
+8ll the glory	cnr	
+8n idea of	fdh	
+7free of	fdd	
+7hold of	fcu	
+7in a huff	eax	
+crage	eaw	
+9to the market	cw5	
+7off the hook	cx1	
+8n a horse	f0g	
+athe boat	cdc	
+9e's share of	epx	
+8ut of class	eus	
+edanger	ey0	
+etrouble	eyb	
+ewhack	ezw	
+7the ball rolling	cyc	
+bdesired outcome	cyf	
+blines crossed	cyi	
+bmaterials ready	cy5	
+bnews	cy4	
+bwrong idea	cxd	
+9rough the winter	cwp	
+jyear	cp3	
+8o the top	c2e	
+4ive a boost to	dpp	
+aname to	dpc	
+9s a dowry	fd5	
+dpresent	fci	
+8it a try	eio	
+8the correct time	cwi	
+ceye to	c2j	
+cgame away	cyp	
+do-ahead	cw9	
+dreen light	czb	
+cmiddle finger	d05	
+9o the departed	c2n	
+fneedy	c2m	
+8up the ghost	cwe	
+4o against the current	cwn	
+iflow	cws	
+irules	cww	
+itrend	cwv	
+iwind	cwr	
+7mong the masses	cx9	
+6by way of	ej6	
+6for a hike	eoq	
+cstroll	eoo	
+cwalk	eny	
+6into the water	cvx	
+6off the scale	cwm	
+ftage	cwh	
+7n a binge	exz	
+bdiet	ewm	
+bhike	exw	
+bjourney	ewt	
+btour	ev4	
+crip	ewi	
+9the offensive	cd8	
+drampage	cd7	
+8to the streets	cxo	
+7ut of bounds	eun	
+eusiness	eru	
+dcontrol	err	
+7ver the line	cw3	
+6the same way	cw4	
+awrong way	cwb	
+8rough the formalities	cwj	
+imotions	cwk	
+7o a lecture	dox	
+bmeeting	doz	
+9the bathroom	c2f	
+dcapital	c29	
+eountryside	c2b	
+ddogs	c2g	
+dkitchen	c2a	
+dmoon	c2c	
+funtains	c2h	
+doffice	c28	
+dtoilet	c2d	
+6with the stream	cdl	
+5vern the country	d0x	
+4rab the limelight	dfg	
+6sp the meaning of	c1b	
+5eet and usher in	ebc	
+9the eye	d77	
+5ieve over the dead	d0b	
+6n and bear it	ekk	
+7d the teeth	dga	
+5ow in a pot	ebp	
+8the intellect	d7m	
+4uard the frontier	de8	
+3hand it to	ejo	
+8someone the swordhilt	d4e	
+7le the situation calmly	d8s	
+6g in the air	c4x	
+8up the phone	cxv	
+fsword	cxt	
+5ppen to be	c8v	
+5rm the innocent	de1	
+5te the rich	dc9	
+9o part with	fc5	
+5ul over the coals	d0l	
+5ve a bad reputation	ek7	
+beef	elm	
+big argument	ejv	
+ehead	eij	
+ctch fight	ekd	
+de	elj	
+brainstorm	em1	
+ceak	ek2	
+acatfight	em3	
+blear conscience	ejb	
+gview	eii	
+f-cut stand	ehv	
+cose call	eie	
+bompetition	ekv	
+cnfrontation	em4	
+dnection with	ebt	
+dversation	el9	
+crner missing	ekz	
+adisagreement	em5	
+bouble meaning	ekp	
+bress rehearsal	eko	
+afacelift	em6	
+dial	elu	
+clling out	egt	
+h-out	egu	
+bever reaching	eln	
+cw drinks	eji	
+bist fight	ekc	
+bondness for	dw6	
+coting	elv	
+bree hand	eif	
+ciendly chat	elk	
+bull house	ehu	
+cngicidal effect	ejq	
+aget-together	egm	
+blib tongue	eli	
+dmpse at	ed5	
+bnawing regret	elh	
+bood meal	eig	
+ftalk	ehm	
+braceful demeanor	elz	
+ceat time	eg8	
+cudge against	ej7	
+builty conscience	el6	
+ahaircut	em7	
+crd landing	ek1	
+ftime	egv	
+beadache	em8	
+drt-to-heart chat	ctc	
+bierarchical relationship	em9	
+cgh temperature	eim	
+bousewarming party	ej9	
+ajob	ejz	
+alie-in	dh9	
+cghthearted air	ek9	
+book	ehp	
+dse tongue	el5	
+bucky stroke	elf	
+cxurious lifestyle	ema	
+ameal	ela	
+cntal lapse	el0	
+bind to	cu3	
+cscarriage	emb	
+anap	ely	
+crrow escape	ekj	
+bightmare	ell	
+apassion for	dw0	
+bicnic	elr	
+blan	ejg	
+ceasant journey	eku	
+bower failure	ej4	
+gshortage	eje	
+breference for	dw7	
+dmature birth	el7	
+eonition	em0	
+cior engagement	ele	
+coblem arise	eix	
+dmising future	ek5	
+arecollection	emc	
+cst	eki	
+ericted view	ejn	
+cunion	elt	
+bich aftertaste	ekx	
+cpped seam	elq	
+bow	el8	
+bunny nose	eld	
+asale	ekb	
+cy	efy	
+berious conversation	ek3	
+cx change	eih	
+bhampoo	elw	
+dre of	cdo	
+dve	elo	
+bilver tongue	el1	
+bkill	ekh	
+bleepless night	ejm	
+bnack	els	
+cowball fight	eke	
+bpecial fondness	ejr	
+iliking	ejs	
+clitting headache	emd	
+crawling business	ejl	
+bquare meal	ekf	
+btomachache	eme	
+cring break	ejw	
+doke	elg	
+ell	elp	
+cuffy nose	elc	
+buperstitious belief	el4	
+bweet aftertaste	elb	
+atacit understanding	elx	
+cste of	cdt	
+cut face	ejf	
+bear	el3	
+bone mark	ejy	
+cugh life	eiy	
+bransportation service	ej5	
+cy	ej8	
+avasectomy	em2	
+9s a subunit	ebw	
+9ttained the way	c7d	
+8confidence in	fd1	
+l oneself	fd2	
+9ustody of	ed4	
+8faith in	fd4	
+8had enough of	ecv	
+8in a stranglehold	dhb	
+bcare	fbz	
+bone's person	eo5	
+8just started to	eh3	
+8long experience of	ec4	
+8money and time	ef2	
+8no expectation of	eb2	
+bintention of	eb3	
+btime to	ecx	
+athing to do	ecl	
+jsay	ee3	
+8one's fill of	dy9	
+ehand in	enu	
+9r have not	emt	
+8peace of mind	ecq	
+arfect command of	ecy	
+8room to maneuver	eht	
+8the audacity to	bzq	
+cfinal say	c75	
+cgall	c7y	
+cknack	c7z	
+cnerve	c7w	
+cright taste	c7g	
+jo	bzo	
+duns	c81	
+csame name	c7f	
+cwandering eye	c7r	
+9o	eip	
+a do with	dr9	
+8water get in	esb	
+4eal the breach	deh	
+5lp out of difficulties	fcg	
+8the needy	d4x	
+cpoor	d35	
+4it the ball lightly	d9t	
+cig time	cxq	
+bcharts	dcx	
+bmarket	d5b	
+bnet	db9	
+btarget	dag	
+4og the conversation	de7	
+5ld by the hand	chv	
+fwaist	ck2	
+8on to	fba	
+8the helm	d4z	
+clines	d50	
+cpen	d4n	
+crudder	d4y	
+4unt for and collect	eto	
+3idle away the time	cxj	
+8on the job	cf1	
+4mpair the appetite	dfq	
+6lement the law	d70	
+4nclude on a list	fca	
+6rease the army	d4m	
+aingly distort the truth	dd8	
+5fringe the rights of	c15	
+5struct the young	d64	
+5tercept at the net	clp	
+dthe ball	dde	
+8pret the divinatory trigrams	dda	
+hlaw	d6h	
+8vene in a fight	ec2	
+5undate the market	d72	
+5vestigate and deal with	fcn	
+fon the spot	cfg	
+6igorate the country	d69	
+7te the groom	ddk	
+3join in the fun	c50	
+8the army	d8u	
+cmilitary	d8y	
+cnobility	dbo	
+cwto	dbp	
+5urney in a dream	ec6	
+4ump the gun	dcn	
+ctrack	dc2	
+3keep a hold on	fbj	
+8out the elements	cx5	
+8the law	d2c	
+9o the edge	c2x	
+fside	c2r	
+gubject	c2t	
+4ick the bucket	de6	
+5ll the fatted calf	db4	
+4nit the brows	df8	
+5ock at the gate	clg	
+9on a door	fda	
+cthe door	cev	
+6w the facts	cyy	
+cropes	cyz	
+cscore	cyo	
+7ingly violate the law	d7x	
+3land on the moon	cf5	
+5y the foundation	daj	
+bgroundwork	dbj	
+4ead by the hand	chk	
+fnose	cju	
+8the charge	d23	
+cway	cz9	
+6rn from the ancients	ctr	
+9on the job	ceh	
+6ve a gap of	di5	
+9it to	eks	
+e nature	ejh	
+9out of consideration	fcx	
+9the confines of	c0s	
+dfactory	d75	
+eield	d4s	
+dhospital	d5j	
+dmonastery	d80	
+funtain	d6z	
+drails	d87	
+dvenue	d7w	
+5t it be known	dh1	
+7the dough rest	d5u	
+bstring out	cx8	
+bworld know	cx4	
+5vel the land	d3i	
+dscore	d5s	
+4ift the curtain	dcq	
+cfishnet	ddf	
+5ght the flame	d88	
+5ne the street	d2u	
+5sten to a talk	dqr	
+5ve in a cave	ebn	
+dplace	eba	
+bthe moment	c4l	
+8off the land	d03	
+8through the winter	d06	
+7n up the atmosphere	cy3	
+4ock the door	d7r	
+5ok after the house	cwq	
+8for a bargain	eu7	
+edraw	ese	
+ejob	es0	
+epartner	etb	
+fretext	euc	
+dnd obtain	eos	
+8in the mirror	c4g	
+ato the distance	cx2	
+5se the way	d0g	
+5wer the head	d3v	
+dinterest rate	d1e	
+dstandard	d7g	
+dtemperature	dan	
+dvoltage	dbv	
+4ure the enemy	deu	
+3maintain the land	d6o	
+5ke a beeline for	ep7	
+acopy of	dhg	
+adisplay of	dhf	
+afool of	dhh	
+8full use of	eyo	
+an of	fdt	
+8light of	fd7	
+8on the spot	cda	
+8sense of	fdi	
+9port of	fds	
+9ure of	fd8	
+8the final decision	cx6	
+cgrade	cy6	
+clist	cxp	
+cminute visible	cxg	
+cpoint	cx3	
+cvagina tighter	cy9	
+8up the number	cmt	
+9se of	f65	
+5nage the household	d41	
+5rch at the double	cku	
+6k the price	d4v	
+5tch the advertised description	dae	
+4ediate in a quarrel	eck	
+5et on the battlefield	cej	
+8the enemy head-on	cdy	
+dye	d21	
+cstandard required	d2v	
+4igrate to the cloud	c3r	
+5ngle with the cognoscenti	cha	
+5srepresent the facts	dgg	
+6s the target	dao	
+4oisten the lungs	dgw	
+5nopolize the limelight	dgl	
+5p the floor	dco	
+5ve in a circle	ebh	
+8the capital	d2t	
+9o and fro	dpe	
+3need the toilet	d20	
+4ip in the bud	c5e	
+4ot be	dk8	
+9 able	diy	
+aconsidered	dk9	
+aworth mentioning	djp	
+7conform to	fbq	
+7know the reason	cd6	
+7say a word	eok	
+7take to heart	es2	
+7use all of	edx	
+4umber in the thousands	c4n	
+athe years	d4g	
+3obey the emperor's decree	dej	
+5serve the ritual mourning	dba	
+4ffend the eyes	dfh	
+4pen the back door	cyu	
+ccity gate	d2b	
+cfloodgates	d5e	
+cthrottle	d5d	
+cway	czp	
+5press the people	d0y	
+4rbit the earth	dd5	
+5der with the chin	cg7	
+4vercome the shame	del	
+7look the sea	dbu	
+7step the bounds	dg4	
+glimit	d8v	
+grules	dgm	
+7write the firmware	dgn	
+3pacify the country	d6a	
+epeople	d14	
+5int the eyebrows	dbt	
+dtown red	d52	
+5per over the issues	d00	
+5rade through the streets	d1y	
+6ticipate in a meeting	ech	
+5ss on a copy	fdb	
+dpresent	fcy	
+dsong	fdg	
+etory	fd6	
+dtask	fd9	
+bto	fbn	
+8the ball	d8a	
+duck	d9l	
+cimperial examinations	d98	
+ctime	cyd	
+cwinter	d8f	
+5y a visit to	dqk	
+7on the spot	cee	
+7the bill	d37	
+4enetrate the defense	dfx	
+5rform the ritual bows	d9e	
+4ick up the check	cxh	
+fpieces	cxr	
+4lace on the table	ce1	
+6y a prank on	fcr	
+8by the book	cja	
+8the endgame	d4d	
+cfield	d2i	
+dool	d3w	
+cgood cop	d0c	
+cleading role	d2m	
+cmarket	d1i	
+cprofound thinker	d46	
+crole of	c0m	
+cwhite knight	d26	
+czither	d4c	
+5ow the first furrow	d0w	
+5ug in a bulb	ecj	
+dcomponent	ecg	
+4oke in the eye	c4r	
+5p out of gear	fdp	
+5se a challenge to	drc	
+4ray for a son	fb4	
+8to a god	dr3	
+5epare the soil	d9m	
+6sent to the emperor	c3f	
+8rve the outmoded	deo	
+6tend not to know	es8	
+bto be	cak	
+g asleep	caa	
+hlovely	ca3	
+hnaive	cae	
+iice	c9u	
+hpoor	c9p	
+hsolemn	caf	
+enot know	es9	
+6y on the people	cdu	
+5obe the unknown	dft	
+ao the bottom	c3o	
+6duce the goods	d6r	
+6nounce the words correctly	dfu	
+6tect from the rain	cta	
+bthe country	d3q	
+feyes	db7	
+6ve oneself to be	c9x	
+7ide for the elderly	cdf	
+4ublish in the newspapers	c56	
+5ll back the advantage	d0o	
+8on a handle	fdq	
+8the strings	dch	
+5rge the ranks	dgc	
+5sh with the forehead	cgy	
+5t a lid on	fcl	
+9stop to	dqj	
+7into the pot	cy0	
+7on a play	fbc	
+cspurt	fcm	
+athe market	cdx	
+7the blame on	cec	
+8o the test	c2s	
+forch	c2v	
+7under the plow	d0q	
+3quote out of context	fde	
+3raise the alarm	d9v	
+dcurtain	da4	
+dprice	d5o	
+dsame topic	d2d	
+5lly to a cause	dr1	
+5nk among the best	d3o	
+5ze to the ground	c3h	
+4each for the stars	cdm	
+9the higher authorities	daa	
+dlowest point	d29	
+dpinnacle	da5	
+dshore	d9h	
+dtop	d5g	
+dupper limit	d4p	
+6d and pass on	fb2	
+6p the benefits	dgd	
+5bel against the emperor	d4k	
+5call the past	d8o	
+6ount the events	dgx	
+5duce the balance sheet	d6m	
+epace	d8w	
+fressure	d7e	
+etax rate	d2h	
+5fer in particular to	eb5	
+9to oneself as	fdo	
+6und or be reimbursed	drv	
+7se would be impolite	dsm	
+5gain the natural state	d4i	
+ethrone	dfp	
+7rd as the foremost	cgu	
+athe same as	cfw	
+5in in a horse	ec9	
+5ject out of hand	fbw	
+5lease into the wild	czd	
+6ieve the distressed	dfn	
+5main in the hospital	c4p	
+athe same	d24	
+6ove the dross	dcm	
+ehusk	dcl	
+eskin	daw	
+5nt by the day	cix	
+fhour	cks	
+fmonth	ckj	
+fweek	ck5	
+5pair in a rush	ecf	
+6eat the same	d3b	
+7l the barbarians	dgh	
+6ly to a letter	dr2	
+etelegram	drg	
+fhread	dre	
+6ulse the enemy	df0	
+5sist the enemy	dcu	
+6pect the elderly	dcb	
+flaw	d61	
+7ond to a call	dqn	
+hharge	dr0	
+ethe market	c34	
+6t for a bit	f8l	
+7ore the ming dynasty	de5	
+6ult in a stalemate	ebq	
+5tire for the night	cdg	
+brom the courtroom	cvz	
+6urn from the grave	cro	
+ato the capital	c35	
+hpast	c2z	
+hsender	c3e	
+htopic	c3b	
+5veal the inside story	d6q	
+etruth	db0	
+6ise the current edition	d94	
+8it the past	d9r	
+4ide in a palanquin	ecd	
+8the clouds	ddd	
+cdragon	dd7	
+cwind	db3	
+5ng off the hook	d27	
+5se from the ashes	csp	
+8into the air	cym	
+8through the nobility	d11	
+kranks	d12	
+9o the occasion	c36	
+fsky	c3d	
+gurface	c39	
+4oll up the sleeves	cxu	
+5ut the enemy	dey	
+4un like the wind	cye	
+7off the track	d0k	
+8ut of	fck	
+d food	fbt	
+7the meter	d5m	
+bwhole show	d02	
+5sh through the work	cxc	
+9o the rescue	c3p	
+6tle in the air	c55	
+3sail against the current	d2k	
+8the seas	den	
+5ve the nation	d3g	
+cshow	d2e	
+dituation	d7s	
+5y nothing of	fbm	
+4candalize the public	d7f	
+5ore the winning point	d30	
+4eal off the country	d0u	
+6rch for and seize	evo	
+5ek out the new	cwa	
+8the truth	d9j	
+5ize by the arms	cm9	
+gthroat	cm4	
+9the crown	ddu	
+dopportune moment	d9d	
+lity	dbe	
+dthrone	df9	
+5lect the best	d5q	
+i parts	d5r	
+6f-draw the winning tile	d5y	
+6l or dispose of	f8a	
+5nd a letter to	dqt	
+8down the line	czz	
+8on a mission	fdk	
+8the betrothal gifts	da7	
+9o the press	c38	
+6tence the accuser	ddv	
+5rve as the norm	cgl	
+9in the army	c4v	
+9the king diligently	d6b	
+5t the pace	d48	
+brecord straight	d1h	
+btone	d40	
+6tle out of court	fcp	
+4hare the bed	d6d	
+dsame interests	d28	
+iroom	d0s	
+6ve the head	d60	
+5ield from the sun	cvw	
+6ne through the ages	d1t	
+5ock the whole world	d1n	
+6ot for the basket	cdn	
+9in the air	c4u	
+9the breeze	dc1	
+6ut from the rooftops	cw1	
+6w on the face	cdw	
+8the way	cz6	
+5rink in the wash	c5c	
+5un the world	d4o	
+4idestep the question	d6x	
+5gn across the seal	d68	
+7al the musicians	ded	
+5mmer to a paste	drl	
+5ng for a living	fb5	
+8the high part	czu	
+clead vocals	d2w	
+cpraises of	c18	
+5t face-to-face and drink	doy	
+7in a circle	ebu	
+7on the fence	cf2	
+4kimp on the job	cf4	
+6rt around the issue	d2p	
+4lam the door	d8k	
+6p on the face	cen	
+5eep on the ground	cex	
+5ide in and out	duh	
+9on the job	cew	
+6p out of gear	fdm	
+4mooth the skin	dct	
+4nap out of it	ebx	
+4oak the feet	dg3	
+6r into the sky	czs	
+5lve the riddle	dex	
+5und the horn	d9y	
+dnight watches	d4b	
+dretreat	d9w	
+4peak from the heart	cpe	
+9in defense of	ds0	
+csupport of	drp	
+9off the cuff	d19	
+aut of turn	fbk	
+9the truth	d6g	
+ao the audience	c37	
+9with the eyes	cg9	
+6nd the night	d3z	
+dsummer	d7u	
+dwhole night	d1r	
+5ike the ball	ddc	
+6ll the beans	dfy	
+6t on and curse	fbo	
+5lit at the seam	clr	
+5oil the beauty of	c16	
+dfun	dd4	
+6t the differences	ddx	
+6ut the classics	dgj	
+5read the news	dat	
+5ur on a horse	fdw	
+4queeze out of business	fcv	
+bthe fingers	dfv	
+fthroat	dep	
+4tab in the back	c4i	
+6ge a sit-in	ebo	
+6mp the feet	dfi	
+6nd above the crowd	d3l	
+as testament to	fdf	
+9in the corner	c4q	
+6rt on a journey	fct	
+enew	f91	
+estory	fcj	
+9the bidding	d5w	
+dharvest	d5l	
+dservers	d5x	
+6y for a time	epg	
+cthe night	cde	
+8out of	fdc	
+e trouble	fd3	
+5eal the show	d34	
+6p on a mine	fdr	
+bthe brake	cfi	
+fgas	cf8	
+9ut of line	fcf	
+5ick to the topic	c3k	
+6r the pot	ddy	
+8up the fire	cxm	
+5op for a rest	faz	
+8the clock	d84	
+6re in a cellar	eca	
+ewarehouse	ec8	
+5rike the colors	dc3	
+7p to the waist	c3s	
+6oll around the streets	d6t	
+abeneath the moon	ddt	
+adown the street	d0j	
+5udy for a degree	f6f	
+9the classic texts	d65	
+eonfucian classics	d79	
+dunderlying principles	d7a	
+4ubstitute on the sly	cfp	
+5cceed on the throne	cfo	
+bto a title	dra	
+ethe throne	c3q	
+6k the breast	df1	
+5ffer all kinds of	fc3	
+5pervise the manufacture of	c12	
+6ply the answering phrase	da1	
+7ort the family business	d0t	
+gront	d3k	
+5rge like the tide	czy	
+6render to the authorities	c3w	
+4wallow the wrong way	d0p	
+6y to and fro	dqi	
+5eep the floor	dbq	
+dstreets	df5	
+5im with the tide	ch0	
+6rl in the air	c54	
+6tch on and off	fa2	
+3tack against the wind	d3y	
+5ke a daughter-in-law	eau	
+aliking for	er2	
+book at	fc2	
+aperiod of	dhl	
+bhotograph of	dhn	
+9n end-of-term exam	fcb	
+9s a concubine	fbs	
+8good care of	fbu	
+8in and retain	dv9	
+8no account of	eub	
+bnotice of	ew6	
+8over the job	cwf	
+8the bait	cze	
+dest	cyj	
+dlame	cz7	
+ccredit	cz1	
+eown	cz4	
+cfield	cyq	
+chelm	czf	
+cinitiative	czh	
+clead	cxl	
+diberty of	c0d	
+dong route	cxb	
+hview	cwy	
+cmeasure of	c0a	
+edicine orally	cza	
+diddle road	cy8	
+coffensive	czi	
+dpportunity	cyx	
+cplunge	czc	
+cshape of	c0c	
+ctonsure	czg	
+cwrong	cyv	
+9o the road	c2i	
+5lk on and on	eg5	
+9ver the telephone	cyt	
+8to the king	c2w	
+5ttoo the face	d6c	
+4ell the truth	d2l	
+5st the taste of	c0u	
+cwaters	d9o	
+4hank the matchmaker	db6	
+5e bitter end	d3d	
+8one	det	
+7core	dfe	
+7east of	c10	
+8nd	d3t	
+8xtent that	cc0	
+7full	d74	
+7greatest extent	ddj	
+7last	d32	
+8eft of	c0p	
+9tter	dax	
+7marrow	dgi	
+7north of	c0v	
+7point	d43	
+c that	cbp	
+7satisfaction of everyone	c1a	
+8ide	d76	
+b of	c0q	
+8outh of	c0w	
+7utmost	dge	
+7west of	c0z	
+5ink little of	fdu	
+9of a way	dh8	
+cthe past	c0b	
+cwith respect	ek4	
+5row the dice	dcy	
+4ie in to	ebf	
+7the bridal veil	ddl	
+bknot	ddm	
+5ghten the strings	dgy	
+4orment the people	d10	
+5uch the ground	d81	
+dpillow	dce	
+4rail on the ground	cfc	
+6vel across the oceans	d7h	
+bround the country	d1g	
+lworld	d15	
+athe world	d2z	
+5eat the situation lightly	d5z	
+eymptoms	d9n	
+5y to be brave	c86	
+4urn back the clock	czk	
+8off the screen	d0m	
+9n a screen	fcq	
+bthe light	ce3	
+ks	cek	
+fwater	ce0	
+8the tables	d5i	
+3underestimate the enemy	deq	
+8stand the unspoken implications	d8h	
+4p the ante	cya	
+5set the apple cart	ddg	
+4se as a tool	fbl	
+cvenue	fbr	
+7the correct method	cyg	
+5urp the military	dd1	
+3vacuum the floor	dci	
+4iolate the constitution	ddq	
+flaw	d7y	
+frules	dg0	
+5sit the usa	d8x	
+dyellow springs	d89	
+4omit and have diarrhea	eia	
+3wait for the opportunity	cdh	
+8in the wings	c53	
+5lk around the stage	d1x	
+8the runway	d8t	
+5nder off the topic	d2n	
+5rm the bench	dca	
+5sh off the floor	d1w	
+8the dishes	ddz	
+cface	d58	
+cmedicine down	d1d	
+5tch from the sidelines	cuk	
+6er the garden	d56	
+dplants	d7n	
+5ve the hand	d3h	
+4ear out the doorstep	cxk	
+5ed out the traitors	cxz	
+8the soil	dee	
+5igh in the hand	c4m	
+5t the bed	dam	
+4het the appetite	dg8	
+5ile the time away	cwu	
+6p the buttocks	dfz	
+6stle down the wind	d1f	
+4ield all the power	cwl	
+9the pen	dff	
+5n in a bid	ebm	
+7the championship	d66	
+bfirst battle	cz3	
+blaurels	d67	
+bsupport of	c0l	
+btop award	d1p	
+crust of	c0o	
+5pe out the villains	cxx	
+5thdraw and retain it	ekr	
+4ork against the clock	cxy	
+9s a doctor	fbi	
+dforeman	fc4	
+dlaborer	fc6	
+dpharmacist	fc7	
+erostitute	fc1	
+dteacher	fc8	
+8for a bit	eq5	
+eliving	erh	
+8in a profession	eb1	
+bthe fields	c4c	
+8on a train	f3x	
+8the land	cys	
+6ship the astral deities	dfr	
+fdevil	df6	
+4reck the house	d39	
+5ite for a living	f5m	
+9on the blackboard	cei	
 2ad	ahf	48
 4y	ahg	80
 3st	ahh	3e
@@ -374,17 +3720,20 @@ bal	aaw	10
 3l	ahw	f0
 2mato	ahx	5f
 3b	ahy	1e
+4 of the unknown soldier	ct8	
 4stone	ahz	80
 3orrow	ai0	3
 2n	ai1	1f
 3e	ai2	1c
 4s	ai3	20
+5 of the musical scale	crz	
 3gs	ai4	80
 4ue	ai5	7f
 3ic	ai6	a0
 4ght	ai7	3
 3sorial	ai8	80
 2o	ai9	3
+3 late to be sorry	du4	
 3l	aia	1f
 4s	aib	20
 3th	aic	3
@@ -393,6 +3742,8 @@ bal	aaw	10
 5ed	aif	40
 5paste	aig	3
 2p	aih	3f
+3 of the head	clw	
+blist	cnu	
 3ic	aii	7e
 5s	aij	20
 3ographical	aik	40
@@ -415,7 +3766,9 @@ bal	aaw	10
 4uous	aj1	c0
 5re	aj2	bc
 2ss	aj3	bc
+4ed about by the wind	eg0	
 2tal	aj4	3f
+5 eclipse of the sun	cos	
 5itarian	aj5	80
 7y	aj6	40
 5ly	aj7	2
@@ -446,6 +3799,7 @@ bal	aaw	10
 3el	ajw	7f
 4r	ajx	7f
 5ing	ajy	40
+8 into the sky	epw	
 3n	ajz	23
 2xic	ak0	f8
 4n	ak1	80
@@ -453,7 +3807,9 @@ bal	aaw	10
 3s	ak3	20
 1race	ak4	7c
 5able	ak5	80
+5s of	bnb	
 4k	ak6	fe
+5 in the wilderness	dmq	
 4t	ak7	e8
 5ability	ak8	80
 7le	ak9	c0
@@ -469,16 +3825,20 @@ bly	aki	40
 4uce	akj	c0
 3ffic	akk	7f
 3gedy	akl	fc
+7 of the commons	ctk	
 4ic	akm	18
 3il	akn	7c
 4n	ako	23
 5er	akp	2
 5ing	akq	3f
+8 in the basic skills	dme	
 5load	akr	40
 5s	aks	20
 4t	akt	f8
 5or	aku	fc
+7 to the nation	d5k	
 3jectory	akv	80
+a of the ball	csf	
 3m	akw	1e
 4mel	akx	80
 4p	aky	bc
@@ -511,6 +3871,7 @@ aion	alj	80
 7ory	alp	c0
 5late	alq	1f
 8ion	alr	5e
+b of the meaning	cvs	
 8or	als	2
 6ucent	alt	e0
 5mission	alu	7c
@@ -546,6 +3907,7 @@ aation	am1	80
 5ure	amo	5f
 8r	amp	88
 4t	amq	5e
+5 of	bm2	
 5ise	amr	a0
 5ment	ams	6f
 5y	amt	bc
@@ -566,19 +3928,24 @@ aly	an0	8
 3spass	an8	e0
 8er	an9	40
 4ses	ana	80
-2ial	anb	7e
+2iad of the home key	cm3	
+4l	anb	7e
 4ngle	anc	7e
 6ular	and	8
 3bal	ane	40
 4e	anf	7c
+5s under the yellow emperor	evp	
 4ulation	ang	c0
 5nal	anh	80
 5tary	ani	e0
 6e	anj	d8
 7s	ank	20
 3ck	anl	7e
+5 of the eye	coj	
+dtrade	cph	
 5ery	anm	80
 5le	ann	e0
+5s of the trade	cpx	
 0Trident	ano	80
 0trifle	anp	bc
 5ing	anq	40
@@ -658,6 +4025,9 @@ aly	an0	8
 3key	aps	1e
 3moil	apt	e8
 3n	apu	3
+4 in the conversation	dkr	
+5of	bk0	
+6ut the lights	eng	
 4coat	apv	80
 4ing	apw	2c
 5p	apx	c
@@ -671,6 +4041,7 @@ aly	an0	8
 3sle	aq5	80
 2telage	aq6	80
 3or	aq7	fe
+5 to the crown prince	dbd	
 5ial	aq8	60
 2xedo	aq9	80
 0TV	aqa	33

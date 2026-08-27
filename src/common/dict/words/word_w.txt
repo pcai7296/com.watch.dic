@@ -21,6 +21,7 @@
 4man	b8e	2
 4out	b8f	40
 3l	b8g	23
+4 of the uterus	cr3	
 4et	b8h	1e
 4op	b8i	80
 5w	b8j	80
@@ -48,6 +49,7 @@
 4onger	b95	80
 4th	b96	1e
 3n	b97	5d
+4 of	bnd	
 4ing	b98	a
 3p	b99	c0
 3rant	b9a	d8
@@ -60,6 +62,7 @@
 4ing	b9h	20
 4room	b9i	2
 3p	b9j	8
+4 of the family sphecidae	cok	
 4ish	b9k	80
 3te	b9l	bf
 5ful	b9m	8
@@ -68,6 +71,7 @@
 5dog	b9p	20
 5ful	b9q	8
 3er	b9r	23
+5 under the bridge	es1	
 5-clock	b9s	20
 6proof	b9t	20
 6skiing	b9u	20
@@ -82,12 +86,15 @@
 2ve	ba3	3e
 4length	ba4	c
 4r	ba5	e8
+4s of	blz	
 3y	ba6	40
 2x	ba7	fe
 3y	ba8	40
 2y	ba9	43
+3 of the celestial master	ckd	
 3lay	baa	80
-3side	bab	2
+3s of the world	cn0	
+4ide	bab	2
 1e	bac	3
 2ak	bad	1f
 4en	bae	c
@@ -100,6 +107,7 @@
 4iness	bal	40
 5some	bam	80
 4y	ban	fc
+5 of	bnf	
 3sel	bao	80
 3ther	bap	e3
 7ing	baq	40
@@ -123,7 +131,8 @@
 7s	bb8	20
 4ly	bb9	3e
 3p	bba	5e
-2igh	bbb	1f
+2i of the northern dynasties	cs5	
+3gh	bbb	1f
 5t	bbc	23
 3rd	bbd	f0
 2lcome	bbe	3
@@ -136,6 +145,7 @@
 0Welsh	bbl	80
 0welter	bbm	80
 2st	bbn	23
+4 of	bm8	
 4ern	bbo	23
 7er	bbp	22
 4ward	bbq	c
@@ -146,6 +156,8 @@
 5s	bbv	20
 3rf	bbw	8
 3t	bbx	3
+4 of	bkz	
+4's to be done	dso	
 4ever	bby	3f
 4soever	bbz	14
 2eat	bc0	5f
@@ -155,14 +167,18 @@
 3lm	bc4	80
 4p	bc5	80
 3n	bc6	3
+4 the moment comes	ent	
+9time comes	emh	
 4ever	bc7	1f
 3re	bc8	3
 5as	bc9	7c
 5by	bca	28
 5ver	bcb	1e
 3t	bcc	80
+4 the appetite	f92	
 4her	bcd	3
 2ich	bce	3
+5 day of the week	cdb	
 5ever	bcf	1e
 3ff	bcg	80
 3le	bch	3
@@ -181,6 +197,7 @@
 4tle	bcu	be
 3t	bcv	c0
 4e	bcw	3
+5 of the eye	cmh	
 5wash	bcx	1c
 4tle	bcy	c0
 2o	bcz	3
@@ -196,6 +213,7 @@
 1ick	bd9	80
 4ed	bda	bc
 2de	bdb	23
+4 of the mark	cnm	
 4ly	bdc	c
 4n	bdd	c
 4spread	bde	5e
@@ -203,6 +221,7 @@
 3th	bdg	3c
 2eld	bdh	e8
 2fe	bdi	3
+4 of the young master	cme	
 2g	bdj	80
 3gle	bdk	80
 2ld	bdl	1e
@@ -211,7 +230,9 @@
 3e	bdo	80
 3ful	bdp	8
 3l	bdq	3
+4 of the gods	cfb	
 4ful	bdr	80
+7ly slaughter the innocent	f7v	
 4ing	bds	1e
 7ly	bdt	2
 7ness	bdu	2
@@ -236,6 +257,7 @@
 3k	bed	98
 4le	bee	80
 3ner	bef	f
+4ie the pooh	f9w	
 4ow	beg	80
 3some	beh	80
 3ter	bei	3
@@ -251,12 +273,30 @@
 2t	bes	fc
 3ch	bet	90
 3h	beu	3
+4 back to the mountain	cez	
+5the current	ega	
+9help of	cd0	
 4draw	bev	fe
 8al	bew	40
 4er	bex	e8
 4hold	bey	b8
 4in	bez	1e
+6 and without the borders	d1a	
+7the body	euf	
+drders	ezt	
+dsom	ezr	
+bhome	esi	
+bnext few days	eqq	
+corms	ezu	
+bparty	et2	
+brules	ezv	
+byear	eo2	
 4out	bf0	3
+7 the slightest difference	ex2	
+noubt	eww	
+mhesitation	ezz	
+mscruple	ezy	
+ainking the matter through	epi	
 4stand	bf1	fc
 3ness	bf2	fe
 3ticism	bf3	80
@@ -269,6 +309,7 @@
 2lf	bfa	1f
 3longong	bfb	20
 2man	bfc	3
+3en of the new society	cjf	
 2nder	bfd	5f
 6ful	bfe	1f
 3t	bff	80
@@ -285,9 +326,13 @@
 2rd	bfq	3
 4ing	bfr	20
 4s	bfs	20
+5 of the ancient thinkers	cts	
+ddeceased	cuq	
 3k	bft	3
+4 within the communist party	enm	
 4day	bfu	2
 4er	bfv	23
+6 employed by the month	ehg	
 4force	bfw	2
 4ing	bfx	20
 4load	bfy	60
@@ -299,20 +344,26 @@
 5hop	bg4	3c
 8s	bg5	20
 3ld	bg6	23
+5 of the living	cn1	
 5-wide	bg7	c
 5ly	bg8	40
 5wide	bg9	56
 3m	bga	5e
 3n	bgb	2
+4 next to the skin	d5p	
 3ried	bgc	2
+6s about the future consequences	eoa	
 4y	bgd	3
 3se	bge	1e
 4hip	bgf	bc
 4t	bgg	1e
 3th	bgh	3
+5 the money	eyy	
 5less	bgi	e
 5while	bgj	3e
 5y	bgk	5e
+6 of	bmz	
+9 the name	con	
 2uld	bgl	3
 3nd	bgm	1f
 5ed	bgn	2
@@ -338,8 +389,11 @@
 5watch	bh7	40
 3t	bh8	80
 4e	bh9	3
+5 of	bkm	
 5r	bha	2c
 4ing	bhb	3e
+7 on the blackboard	efx	
+7s in the vernacular	dng	
 2ong	bhc	3
 3ught	bhd	e0
 2y	bhe	c0

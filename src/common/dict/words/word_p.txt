@@ -7,6 +7,7 @@
 4age	799	7f
 6ing	79a	40
 4ed	79b	c0
+6 to the rafters	dgr	
 5r	79c	40
 5t	79d	1e
 3t	79e	d0
@@ -21,6 +22,8 @@
 4s	79n	20
 2il	79o	1c
 3n	79p	1e
+4 in the ass	dml	
+cneck	dm7	
 4ful	79q	1e
 4killer	79r	80
 4staking	79s	e0
@@ -30,6 +33,7 @@
 3r	79w	23
 2l	79x	28
 3ace	79y	23
+6 in the moon	dmv	
 4table	79z	60
 5e	7a0	80
 5ial	7a1	80
@@ -41,10 +45,12 @@ by	7a6	80
 4tte	7a7	c0
 3ings	7a8	80
 3l	7a9	80
+4 of	bog	
 4iate	7aa	80
 7ive	7ab	80
 5d	7ac	80
 3m	7ad	3c
+4 of the hand	cmm	
 4y	7ae	80
 3pable	7af	80
 4itate	7ag	e0
@@ -133,13 +139,19 @@ aary	7ci	40
 3se	7cr	80
 4imony	7cs	80
 3t	7ct	37
+4 of	bk2	
+7 the official staff	cke	
 4-time	7cu	20
+4ake of	boc	
 4ial	7cv	fc
+7 eclipse of the moon	cu1	
+nsun	cri	
 7ity	7cw	80
 7ly	7cx	4c
 5cipant	7cy	58
 bs	7cz	20
 9te	7d0	7e
+b of	bo3	
 6le	7d1	7c
 6ular	7d2	9e
 aize	7d3	80
@@ -177,6 +189,8 @@ aly	7d4	c
 4rnal	7dz	10
 6ity	7e0	20
 3h	7e1	5f
+4 for the visually impaired	edj	
+5to the underworld	de2	
 4etic	7e2	b8
 4ogen	7e3	c0
 5logical	7e4	80
@@ -185,6 +199,7 @@ aly	7d4	c
 4way	7e7	40
 3ience	7e8	5e
 6t	7e9	1f
+7 of	bmp	
 7s	7ea	20
 4na	7eb	80
 3riarch	7ec	40
@@ -213,6 +228,7 @@ aly	7d4	c
 3n	7ez	80
 2y	7f0	23
 3able	7f1	20
+7 to the bearer	dgs	
 3check	7f2	40
 3ment	7f3	7c
 3off	7f4	8
@@ -249,6 +265,7 @@ aly	7d4	c
 3lar	7fz	8
 2ek	7g0	80
 3l	7g1	bc
+4ed on the spot	efb	
 3p	7g2	9c
 3r	7g3	f8
 4less	7g4	c0
@@ -287,6 +304,7 @@ aly	7d4	c
 4mbra	7h1	80
 4ry	7h2	c0
 2ople	7h3	3
+6 living on the frontiers	edq	
 2pper	7h4	1e
 3tic	7h5	80
 2r	7h6	22
@@ -324,17 +342,22 @@ ay	7i0	80
 3igee	7i2	80
 4l	7i3	e8
 5ous	7i4	c0
+5s of the sea	crl	
 4meter	7i5	e8
 4od	7i6	7f
+6 during the day	ep3	
 6ic	7i7	48
+8 table of the elements	cqi	
 8al	7i8	f8
 aly	7i9	20
 4patetic	7ia	80
 5heral	7ib	c8
 8y	7ic	e0
+9 of the body	cpb	
 6rastic	7id	80
 4scope	7ie	a0
 5h	7if	b8
+6 of	bn9	
 6able	7ig	e0
 6ing	7ih	80
 3jure	7ii	80
@@ -346,10 +369,12 @@ aly	7i9	20
 9ly	7io	c
 4eable	7ip	c0
 6te	7iq	f8
+7ing the whole place	esr	
 4issible	7ir	68
 8on	7is	5e
 8ve	7it	c0
 5t	7iu	7e
+6 of	bl1	
 3nicious	7iv	80
 3pendicular	7iw	e8
 5tual	7ix	b8
@@ -365,8 +390,16 @@ aly	7i9	20
 5st	7j7	7c
 7ence	7j8	c8
 9t	7j9	48
+a mold on the wall	eey	
 4nickety	7ja	80
 4on	7jb	23
+6 from the same county	ehi	
+lprovince	ehn	
+7in the know	dhu	
+7of the same age	cjs	
+jgeneration	ckh	
+jprofession	cjw	
+8n the sick list	ee2	
 6able	7jc	80
 7ge	7jd	80
 7l	7je	3f
@@ -424,6 +457,7 @@ aly	7i9	20
 7ology	7ku	80
 7y	7kv	30
 3se	7kw	7c
+5 of the moon	csh	
 2d	7kx	20
 2enomena	7ky	c0
 9l	7kz	a0
@@ -452,6 +486,7 @@ by	7l4	8
 8y	7lm	20
 5electric	7ln	8
 5graph	7lo	6f
+a of the entire family	cmg	
 aer	7lp	2
 aic	7lq	c
 as	7lr	20
@@ -479,12 +514,14 @@ ay	7ls	8
 3nic	7md	37
 3torial	7me	80
 4ure	7mf	23
+7 of the deceased	cr6	
 7s	7mg	20
 8que	7mh	60
 2ddling	7mi	80
 2e	7mj	37
 3bald	7mk	80
 3ce	7ml	3
+5 in the old style	dj7	
 5meal	7mm	a0
 3d	7mn	80
 3r	7mo	a8
@@ -531,6 +568,7 @@ ay	7ls	8
 3tol	7nt	9c
 5n	7nu	38
 2t	7nv	7c
+3 of the stomach	ctb	
 3ch	7nw	fc
 5er	7nx	c0
 3fall	7ny	80
@@ -574,6 +612,7 @@ ay	7ls	8
 5ation	7p0	7c
 5ing	7p1	20
 5s	7p2	20
+6 in the wild	dmz	
 3que	7p3	80
 3sh	7p4	40
 4ma	7p5	40
@@ -591,6 +630,7 @@ ay	7ls	8
 3y	7ph	3
 4er	7pi	2e
 4ground	7pj	3f
+4ing to the gallery	des	
 4mate	7pk	2
 4room	7pl	2
 4wright	7pm	40
@@ -598,9 +638,12 @@ ay	7ls	8
 2ea	7po	78
 4d	7pp	f8
 4sant	7pq	3f
+8 to the eye	d6w	
 5e	7pr	3
 6d	7ps	2
 5ing	7pt	40
+8 to the ear	dek	
+hye	d7p	
 5ure	7pu	63
 4t	7pv	80
 3beian	7pw	80
@@ -610,6 +653,7 @@ ay	7ls	8
 4tiful	7q0	5c
 6tude	7q1	80
 5y	7q2	1f
+6 of	bmr	
 3onastic	7q3	80
 3thora	7q4	80
 2iable	7q5	e0
@@ -650,10 +694,12 @@ ay	7ls	8
 2em	7r4	1f
 3t	7r5	5e
 4ry	7r6	1c
+6 in the old style	djk	
 2ignant	7r7	80
 3nt	7r8	3f
 5ed	7r9	20
 5less	7ra	20
+5s of the compass	cut	
 3se	7rb	e0
 4on	7rc	5e
 6ous	7rd	9e
@@ -672,8 +718,10 @@ ay	7ls	8
 4te	7rq	3
 5ic	7rr	20
 7al	7rs	3e
+9 situation of the time	ch3	
 7ian	7rt	1e
 7s	7ru	5e
+8 and the economy	d1c	
 3l	7rv	dc
 4en	7rw	c0
 4inate	7rx	e0
@@ -707,6 +755,7 @@ ay	7ls	8
 3e	7sp	18
 3ulace	7sq	80
 6r	7sr	7f
+7 on the internet	ef3	
 7ity	7ss	48
 6tion	7st	3f
 5ous	7su	c0
@@ -727,6 +776,7 @@ ay	7ls	8
 4folio	7t9	a0
 4ion	7ta	7c
 4rait	7tb	5c
+8 of the deceased	cu2	
 8ist	7tc	40
 8ure	7td	40
 6y	7te	f8
@@ -742,8 +792,10 @@ ay	7ls	8
 8ness	7to	80
 3se	7tp	80
 5ss	7tq	5e
+7 of	bn7	
 7ed	7tr	80
 7ion	7ts	7e
+a of the empire	cty	
 4ibility	7tt	1e
 6le	7tu	3
 7y	7tv	1c
@@ -799,6 +851,7 @@ ay	7ls	8
 9ity	7v9	40
 9ly	7va	7c
 7e	7vb	23
+8 of the past	cq9	
 6se	7vc	1d
 6tioner	7vd	f0
 3gmatic	7ve	a0
@@ -818,7 +871,9 @@ as	7vq	20
 7nce	7vs	20
 8t	7vt	78
 6ing	7vu	7c
+9 part of the text	cld	
 5pt	7vv	80
+7s of the antiquity	cuu	
 4ious	7vw	7e
 5pice	7vx	a0
 7tant	7vy	80
@@ -826,6 +881,7 @@ as	7vq	20
 aion	7w0	c0
 8ous	7w1	40
 5se	7w2	fe
+7 to the finest detail	d8n	
 6ion	7w3	7c
 4lude	7w4	d8
 4ocious	7w5	80
@@ -899,6 +955,7 @@ ave	7xy	c0
 4ide	7y1	98
 7ncy	7y2	48
 8t	7y3	1f
+9 of the association	cqr	
 4s	7y4	9e
 5ing	7y5	80
 5ure	7y6	7e
@@ -922,6 +979,7 @@ ave	7xy	c0
 7ing	7yo	48
 5lence	7yp	8
 8t	7yq	78
+9 custom of the time	chi	
 5ricate	7yr	c0
 4ent	7ys	5f
 7ion	7yt	28
@@ -957,6 +1015,7 @@ ave	7xy	c0
 3or	7zn	7c
 5ities	7zo	20
 7y	7zp	fc
+8 seating for the aged	edk	
 3sm	7zq	8
 4on	7zr	5f
 6er	7zs	1f
@@ -1059,6 +1118,7 @@ aion	826	40
 4ote	82h	fe
 7r	82i	40
 6ion	82j	8
+9 to the nobility	dgt	
 4pt	82k	fc
 6ly	82l	8
 4ulgate	82m	c0
@@ -1086,6 +1146,7 @@ aion	826	40
 7ic	838	80
 4itiate	839	c0
 7ous	83a	80
+a wind throughout the journey	f4q	
 4onent	83b	40
 5rtion	83c	7c
 aal	83d	c
@@ -1134,6 +1195,7 @@ aist	848	40
 4uberance	84k	80
 at	84l	80
 3ud	84m	1f
+5 of	bmy	
 3ve	84n	1f
 5nance	84o	80
 6der	84p	80
@@ -1141,6 +1203,7 @@ at	84l	80
 7ially	84r	80
 4ide	84s	5f
 7d	84t	3c
+8 with the basic necessities	ege	
 7nt	84u	c0
 9ial	84v	80
 5nce	84w	5e
@@ -1179,6 +1242,7 @@ ast	85p	40
 3lic	85t	3f
 6ation	85u	7c
 6ity	85v	78
+9 department of the ccp	cqc	
 7ze	85w	d0
 6ly	85x	2
 5sh	85y	1e
@@ -1190,6 +1254,7 @@ ast	85p	40
 3rile	864	80
 2ff	865	1c
 4ery	866	80
+4iness under the eyes	ex4	
 2gilism	867	80
 7t	868	80
 3nacious	869	80
@@ -1205,6 +1270,7 @@ ast	85p	40
 3sate	86j	c0
 6ion	86k	80
 4e	86l	de
+5 taken at the wrist	ei0	
 3verize	86m	80
 2mmel	86n	80
 3p	86o	7e
@@ -1220,8 +1286,13 @@ ast	85p	40
 3gent	86y	e0
 3ish	86z	1f
 6ment	870	e
+4tive expedition to the east	dak	
+rnorth	d9a	
+rsouth	d9c	
+rwest	d9p	
 3y	871	80
 2pil	872	63
+5 of the eye	cnw	
 3pet	873	1c
 4y	874	8
 2rblind	875	80
@@ -1232,6 +1303,7 @@ ast	85p	40
 3gative	87a	80
 6ory	87b	80
 4e	87c	e0
+5 of	bme	
 3ification	87d	40
 6ed	87e	40
 5y	87f	dc

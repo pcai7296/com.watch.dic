@@ -47,6 +47,7 @@
 4ur	b14	1c
 2riability	b15	40
 6le	b16	7c
+8 with the times	ego	
 5nce	b17	c0
 6t	b18	60
 5tion	b19	7c
@@ -95,7 +96,8 @@
 4ilate	b2g	f8
 8ion	b2h	40
 4ral	b2i	80
-5iloquist	b2j	80
+5icles of the brain	ctd	
+6loquist	b2j	80
 4ure	b2k	7c
 7some	b2l	40
 3ue	b2m	40
@@ -130,9 +132,11 @@
 5go	b3f	c0
 3ve	b3g	80
 3y	b3h	3
+4 early in the morning	did	
 2ssel	b3i	fc
 3t	b3j	1e
 4ige	b3k	c0
+7s of the past	cqa	
 6ial	b3l	80
 4ment	b3m	80
 4ure	b3n	80
@@ -170,6 +174,8 @@ ainous	b49	80
 5tape	b4j	24
 2e	b4k	c0
 3w	b4l	3e
+4 of the back	cjp	
+csituation	cn6	
 4er	b4m	2
 4point	b4n	1c
 2gilance	b4o	40
@@ -205,12 +211,14 @@ ainous	b49	80
 5ity	b5i	80
 3tual	b5j	fc
 7ly	b5k	7c
+9 the same	exh	
 5e	b5l	5e
 5osity	b5m	90
 7o	b5n	80
 6us	b5o	e0
 3ulent	b5p	80
 4s	b5q	fe
+5 of the family bunyaviridae	cob	
 2sa	b5r	3a
 4ge	b5s	80
 4s	b5t	20
@@ -254,6 +262,7 @@ ainous	b49	80
 2gue	b6v	e0
 2ice	b6w	1f
 3d	b6x	f8
+4 of	blh	
 2latile	b6y	e0
 3canic	b6z	40
 6o	b70	7e

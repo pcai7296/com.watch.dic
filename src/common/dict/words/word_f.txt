@@ -15,6 +15,11 @@
 9ion	3t5	40
 7ies	3t6	a0
 7y	3t7	7c
+4ng the goalmouth	fa8	
+bstreet	f0p	
+cun	f4t	
+bwater	f0w	
+cind	f6h	
 3simile	3t8	c0
 3t	3t9	17
 4ion	3ta	c8
@@ -35,6 +40,7 @@
 3ot	3tp	40
 2hrenheit	3tq	6c
 2il	3tr	3
+4 of	blj	
 4-safe	3ts	80
 4ure	3tt	36
 3nt	3tu	7c
@@ -63,12 +69,15 @@
 2me	3uh	7c
 3iliar	3ui	3e
 8ity	3uj	80
+b in the public consciousness	dli	
 9ze	3uk	40
 6es	3ul	20
 5y	3um	23
+6 of the deceased	coh	
 4ne	3un	fc
 4sh	3uo	c0
 3ous	3up	23
+6 throughout the world	ewc	
 2n	3uq	1f
 3atic	3ur	e0
 7al	3us	40
@@ -81,6 +90,9 @@
 6tic	3uz	7b
 6y	3v0	f6
 2r	3v1	3
+3 behind the front line	erf	
+4from the center	ejc	
+eity	eir	
 3-reaching	3v2	c0
 3ce	3v3	c0
 3e	3v4	3e
@@ -107,11 +119,17 @@
 3al	3vp	fc
 5ism	3vq	40
 3e	3vr	1c
+4 of the nation	cnf	
+4d to be ill-matched	dx0	
 4ful	3vs	40
 3her	3vt	3
+6 of the reigning emperor	cq6	
+gpublic	cpi	
 6-in-law	3vu	c
+d and son-in-law	eh5	
 4om	3vv	80
 3igue	3vw	fc
+7d to the extreme	dd6	
 3ten	3vx	80
 3uity	3vy	80
 4ous	3vz	e0
@@ -123,20 +141,25 @@
 3na	3w5	40
 2vor	3w6	34
 5able	3w7	d4
+9 climate throughout the year	ep2	
 5ed	3w8	40
 5ite	3w9	34
 4ur	3wa	2e
 6able	3wb	c
 6ite	3wc	3
+3us of the scalp	cuy	
 2wn	3wd	80
 0FAX	3we	16
 0faze	3wf	80
 1ealty	3wg	c0
 3r	3wh	1f
+4 after the event	eq3	
 4ful	3wi	1c
 4less	3wj	8
+4s originate in the mind	dll	
 3sible	3wk	fc
 4t	3wl	3e
+5 of the sacred heart	cqz	
 3t	3wm	f0
 4her	3wn	1e
 4ure	3wo	bc
@@ -154,9 +177,12 @@
 4back	3x0	bc
 4er	3x1	40
 3l	3x2	23
+4 for the ball	ed1	
 4ing	3x3	17
+7s of the masses	cve	
 3s	3x4	20
 3t	3x5	20
+4 not touching the ground	eec	
 2ign	3x6	c0
 5ed	3x7	80
 3nt	3x8	c0
@@ -204,6 +230,7 @@
 4sh	3ye	c0
 3ter	3yf	e0
 3us	3yg	80
+5 dies in the belly	dnd	
 2ud	3yh	e0
 4al	3yi	50
 2ver	3yj	3f
@@ -213,6 +240,7 @@
 3t	3yn	80
 2ber	3yo	78
 3re	3yp	2e
+4oid tumor of the uterus	cv2	
 2ckle	3yq	e0
 3tion	3yr	5e
 7al	3ys	40
@@ -242,7 +270,13 @@
 4gree	3zg	80
 4ngs	3zh	80
 3l	3zi	3
+4 the house	etw	
+4-in-the-blank question	dku	
 4et	3zj	80
+4ing the atmosphere	f7e	
+centire sky	f4l	
+dyes	fa9	
+4s the eyes	faa	
 4y	3zk	80
 3m	3zl	23
 4ed	3zm	20
@@ -251,8 +285,11 @@
 5y	3zp	40
 2nable	3zq	80
 4l	3zr	77
+5 wishes of the departed	cpq	
+6years of the century	cn3	
 5e	3zs	80
 5ly	3zt	14
+7 in a position to	ec0	
 4nce	3zu	7e
 6ial	3zv	7c
 7ng	3zw	40
@@ -272,6 +309,7 @@
 4te	40a	b8
 2r	40b	40
 3e	40c	23
+4 beneath the surface	f1n	
 4arm	40d	80
 4brand	40e	80
 4fighter	40f	2
@@ -281,11 +319,17 @@
 5roof	40j	40
 4wood	40k	2
 6rk	40l	a
+3ing from the hip	ekt	
 3m	40m	7e
 4ly	40n	2
 4ness	40o	8
 4s	40p	20
 3st	40q	3
+5 day of the month	cg1	
+6half of the day	cg2	
+inight	chj	
+iyear	ceo	
+6thing in the morning	dhy	
 5-aid	40r	20
 6rate	40s	8
 2scal	40t	80
@@ -328,8 +372,10 @@
 4k	41u	28
 4nel	41v	88
 3p	41w	78
+4pong of	bp2	
 3re	41x	fc
 3sh	41y	7e
+5 in the pan	dn2	
 5light	41z	42
 5y	420	40
 4k	421	a8
@@ -373,6 +419,7 @@
 3rt	433	a0
 3t	434	80
 2oat	435	7e
+5ing in the wind	dmo	
 3ck	436	fc
 3od	437	5e
 5gate	438	80
@@ -392,6 +439,7 @@
 3w	43m	16
 4er	43n	23
 6s	43o	20
+4ing all over the place	eiv	
 2u	43p	3f
 3ctuate	43q	f8
 8ion	43r	48
@@ -432,9 +480,14 @@
 3low	44q	1f
 6er	44r	8
 6ing	44s	1e
+9 the author's fancy	f6e	
+emodel	f45	
+eways of old	cm5	
 4y	44t	c0
 2ment	44u	c0
 2nd	44v	1e
+4 of	bms	
+7 the bottle	csz	
 4le	44w	80
 2od	44x	23
 4stuff	44y	80
@@ -451,6 +504,19 @@
 2p	459	80
 3pish	45a	80
 2r	45b	3
+3 a period of time	egx	
+4the first time	eb4	
+8life of me	c7p	
+8most part	ec1	
+8past few days	ed2	
+hyears	ed3	
+dmany years	ecp	
+dseveral years	ed6	
+9urpose of	c7x	
+8sake of	c84	
+ame reason	ect	
+8time being	ebr	
+4use by the emperor	ds8	
 3age	45c	c0
 6r	45d	80
 4y	45e	c0
@@ -495,6 +561,7 @@
 4ive	46h	3e
 4o	46i	80
 3k	46j	1f
+4 in the road	dlm	
 3lorn	46k	c0
 3m	46l	23
 4al	46m	7c
@@ -575,7 +642,11 @@ aly	47b	40
 2eak	48p	a0
 3ckle	48q	80
 3e	48r	3
+4 of	bje	
+5verse in the vernacular	dlk	
 4dom	48s	3e
+7 of the media	csw	
+fpress	cr2	
 4lancer	48t	80
 5y	48u	c
 4way	48v	2
@@ -592,6 +663,7 @@ aly	47b	40
 8ly	496	c
 3sco	497	c0
 4h	498	1f
+5 out of the oven	cgg	
 5en	499	8
 5ly	49a	40
 5ness	49b	40
@@ -603,6 +675,7 @@ aly	47b	40
 0fridge	49h	3d
 3ed	49i	2
 4nd	49j	3
+6 of the family	clt	
 6ly	49k	3
 6ship	49l	3
 4ze	49m	80
@@ -624,8 +697,16 @@ aly	47b	40
 3lic	4a2	80
 6some	4a3	80
 3m	4a4	3
+4 all over the place	ed8	
+5the back	ehr	
+aeginning	el2	
+aottom	ekg	
+9outset	eky	
+9start	ej2	
+9year dot	eh7	
 3nd	4a5	80
 4t	4a6	3
+5 of the stage	co9	
 5ier	4a7	7e
 3st	4a8	7e
 3thy	4a9	80
@@ -635,6 +716,7 @@ aly	47b	40
 3gal	4ad	e0
 6ity	4ae	40
 3it	4af	23
+5 of the sapindus trees	ctl	
 5ful	4ag	5c
 8ness	4ah	40
 5ion	4ai	e0
@@ -649,6 +731,8 @@ aly	47b	40
 3fil	4ar	ac
 6l	4as	18
 3l	4at	3
+4 in the face	djl	
+5of	bjp	
 4-blown	4au	80
 6odied	4av	80
 5fledged	4aw	80
@@ -667,6 +751,7 @@ aly	47b	40
 4-raising	4b9	20
 4amental	4ba	fe
 4ing	4bb	48
+4us of the eye	coz	
 3eral	4bc	3e
 5eal	4bd	c0
 3gi	4be	c0
@@ -701,3 +786,4 @@ aly	47b	40
 5ity	4c7	90
 3ure	4c8	23
 2zz	4c9	40
+4y about the details	eow	
