@@ -1,5 +1,6 @@
 0I	51t	3
-0i.e.	51u	c
+0i would be much obliged	epa	
+1.e.	51u	c
 1ce	51v	23
 3 cream	51w	1
 3-cream	51x	4
@@ -57,6 +58,7 @@ aic	525	80
 4cit	53d	c0
 4terate	53e	f8
 3ness	53f	37
+3s of the day	ckr	
 3uminate	53g	f8
 9i	53h	80
 aon	53i	40
@@ -202,7 +204,184 @@ aable	56q	80
 4tation	57e	80
 5e	57f	c0
 1n	57g	23
-2 spite of	57h	40
+2 a fit of pique	dsy	
+5hurry to	eci	
+5matter of seconds	dsp	
+6oment of desperation	dsr	
+5spurt of energy	dt0	
+6tate of depression	dsj	
+ewar	dsa	
+4bsence of	bvd	
+4cknowledgement of	bvl	
+4dvance of	bua	
+d the field	c41	
+6ocacy of	bw3	
+4id of	buo	
+4nticipation of	bvw	
+4rrears of	bvm	
+4we of	bwb	
+3bar of	btv	
+4ehalf of	bwa	
+4reach of	bux	
+3care of	bub	
+5se of	btr	
+4elebration of	bwd	
+4harge of	btp	
+6se of	bvs	
+4ommand of the army	c43	
+7emoration of	bwl	
+5nsequence of	bvu	
+7ideration of	buz	
+6tempt of	bvn	
+7ravention of	bwc	
+8ol of	bql	
+5rroboration of	bwf	
+5urse of	bue	
+3danger of	bv1	
+4edication of	bw8	
+5fault of	bum	
+6ect of	bun	
+7nce of	buq	
+8se of	buv	
+6iance of	bw2	
+5spite of	bwh	
+4isregard of	bw7	
+4oubt of	bva	
+4read of	bwe	
+3excess of	buk	
+6use of	bvx	
+5pectation of	bvq	
+3face of	bu1	
+5vor of	bvh	
+7ur of	bvj	
+4ear of	bvf	
+4raud of	bv2	
+5ont of	buj	
+b the door	c3y	
+4urtherance of	bwi	
+3honor of	bv5	
+7ur of	bv7	
+5pes of	bwg	
+3lieu of	bw6	
+5ght of	btn	
+3memory of	btm	
+3need of	bv9	
+3occupation of	bv3	
+4rder of	bth	
+3payment of	btu	
+4eril of	bw0	
+4ity of	bvt	
+4lace of	bu5	
+4oint of	btj	
+5ssession of	bur	
+4raise of	bvg	
+5ejudice of	bvv	
+5ospect of	bvy	
+4ursuance of	bwk	
+8it of	bw4	
+3quest of	bw9	
+3receipt of	bug	
+6ognition of	bu7	
+5gard of	bvc	
+5membrance of	bw1	
+5placement of	bup	
+5spect of	bve	
+6traint of	bv8	
+4idicule of	bw5	
+5ght of	btl	
+3satisfaction of	bvb	
+4earch of	bty	
+5quence of	btx	
+5ttlement of	bui	
+4ight of	buf	
+6n of	btz	
+4pite of	57h	40
+4tead of	bwj	
+4upport of	bu0	
+3term of	bu2	
+7s of	bu9	
+6ror of	bvp	
+4he air	dm2	
+8mount stipulated	dm3	
+8scendant	dni	
+8udience	dn1	
+7bag	dmw	
+8eginning	dnj	
+7capacity of	c47	
+8enter	dnk	
+8ontrol of	btk	
+9untry	dld	
+arse of time	c2y	
+7dark	dm4	
+8ead of night	c3z	
+7end	dkj	
+9emy's hands	dn4	
+8uropean style	dm8	
+8vening	dmd	
+8xtreme	dmi	
+8yes	dnl	
+7final analysis	dlo	
+aest detail	dlu	
+9rst instance	dis	
+dmoments	div	
+8lesh	dna	
+8ullness of time	c3t	
+9ture	dlv	
+7indefinite future	dlw	
+7language of	bwv	
+8ight of	c42	
+7meantime	dnc	
+8iddle	dma	
+ast of	c49	
+8ood for playing	cxn	
+9uth	dmn	
+9vie	dn9	
+7name of	c40	
+8ear future	dkp	
+9wspaper	dmx	
+9xt few days	dji	
+7old style	djj	
+8pen	dkx	
+8rder of	bu6	
+7papers	dnm	
+9st	dls	
+b always	dkf	
+cfew days	dkc	
+8ipeline	dnf	
+9t	dn8	
+8resence of	c46	
+9ime of youth	c44	
+9ocess of	btw	
+aper order	dkt	
+7rear	dn5	
+9cent past	dky	
+9d	dm5	
+8ight place	dim	
+dway	di2	
+7same amount	djs	
+cboat	dkh	
+g together	djd	
+cmanner	dki	
+cway as	cz2	
+cyear	dhv	
+8hade	dn7	
+8ky	dn3	
+8tyle of annals	c45	
+7wake of	c48	
+8ee hours	dnb	
+8ind	dmp	
+8rong	dm9	
+7years of	c4a	
+4ie of	buu	
+5me of	btg	
+4oken of	buy	
+5uch with the people	d04	
+3view of	bud	
+5olation of	bvo	
+5rtue of	bvr	
+8re of	bwm	
+3want of	bv4	
+4itness of	buc	
 2ability	57i	60
 3ccessible	57j	58
 5urate	57k	28
@@ -215,6 +394,7 @@ atly	57o	80
 4imate	57r	c0
 3ppreciable	57s	80
 6opriate	57t	40
+d for the occasion	edg	
 4t	57u	20
 3smuch	57v	8
 3ugural	57w	80
@@ -249,8 +429,10 @@ bt	580	48
 4ination	58p	68
 6e	58q	3c
 7d	58r	40
+6ing to the west	dab	
 4ude	58s	1f
 5sive	58t	f8
+9 of	bmu	
 3ogitant	58u	80
 4herent	58v	40
 4me	58w	1e
@@ -277,7 +459,8 @@ aion	59d	40
 ale	59h	80
 6uptible	59i	c0
 3rease	59j	1f
-7ingly	59k	1c
+7ing by the day	eh2	
+aly	59k	1c
 5dible	59l	78
 6ulity	59m	c0
 5ment	59n	a0
@@ -307,8 +490,11 @@ aly	5a5	48
 6ure	5ab	c0
 4pendence	5ac	3e
 at	5ad	5e
+b of	bkd	
+bly of	boq	
 4terminate	5ae	80
 4x	5af	3c
+5 of cost of living	buw	
 0India	5ag	f
 5n	5ah	2f
 0indicate	5ai	de
@@ -322,6 +508,7 @@ at	5ad	5e
 at	5aq	fc
 4gence	5ar	80
 7ous	5as	e0
+a peoples of the americas	cuo	
 7t	5at	c0
 6stion	5au	40
 5nant	5av	fc
@@ -409,6 +596,8 @@ dd	5bl	40
 3lame	5d5	80
 7d	5d6	80
 6mation	5d7	80
+c of the liver	cui	
+lungs	cvg	
 5te	5d8	c8
 6ion	5d9	78
 4exible	5da	40
@@ -419,6 +608,7 @@ dd	5bl	40
 7za	5df	40
 5x	5dg	e0
 3orm	5dh	1e
+6 of	bn4	
 6al	5di	40
 7tion	5dj	23
 9ve	5dk	60
@@ -474,6 +664,8 @@ dd	5bl	40
 2n	5ey	1e
 3ate	5ez	c8
 3er	5f0	5c
+5 corner of the eye	co2	
+6part of the lip	cln	
 5most	5f1	40
 3ocence	5f2	80
 7t	5f3	7e
@@ -500,12 +692,18 @@ dd	5bl	40
 6ption	5fo	80
 5utable	5fp	80
 3ect	5fq	3e
+6 of the gampsocleis genus	cud	
 6icide	5fr	80
 6s	5fs	20
+7 of the order coleoptera	co5	
 4nsate	5ft	80
 5tient	5fu	80
 4rt	5fv	fe
+3hore of	bp1	
 3ide	5fw	1f
+6 of	bl0	
+7the city	f09	
+beye	eyn	
 6r	5fx	80
 5ious	5fy	c8
 4ght	5fz	7c
@@ -545,10 +743,12 @@ dd	5bl	40
 7ly	5gx	c
 5te	5gy	80
 4ead	5gz	3
+7 of	boy	
 4igate	5h0	c0
 5ll	5h1	c0
 5nct	5h2	7c
 8ive	5h3	c0
+b feel for the language	ecu	
 bly	5h4	48
 5tute	5h5	fe
 9s	5h6	20
@@ -562,6 +762,7 @@ bs	5ha	20
 8or	5he	8
 as	5hf	20
 6ment	5hg	7e
+a of the violin family	cnx	
 aal	5hh	f8
 cist	5hi	d0
 as	5hj	20
@@ -595,12 +796,15 @@ as	5hj	20
 9ual	5ib	fc
 cly	5ic	8
 6igence	5id	7e
+c about the enemy	eop	
 at	5ie	7c
 8ible	5if	f8
 4nd	5ig	1e
 5se	5ih	7c
 6ify	5ii	e8
 7ty	5ij	1c
+9 of the fire	cr0	
+hrain	csy	
 7ve	5ik	7c
 5t	5il	e8
 6ion	5im	5f
@@ -645,6 +849,7 @@ ate	5jl	7c
 7ttent	5jp	f8
 5n	5jq	84
 6al	5jr	7c
+8 contradiction among the people	eq0	
 7tional	5js	3f
 6ecine	5jt	80
 7t	5ju	37
@@ -654,6 +859,7 @@ ate	5jl	7c
 7se	5jy	80
 6ret	5jz	7c
 9ation	5k0	4c
+e of the cause	cps	
 9er	5k1	e
 5regnum	5k2	80
 6ogate	5k3	e0
@@ -682,6 +888,7 @@ ar	5kj	20
 5idate	5kq	fc
 9ion	5kr	40
 3o	5ks	3
+4 the bargain	epy	
 4nation	5kt	8
 4xicate	5ku	c0
 9ion	5kv	40
@@ -748,6 +955,7 @@ aors	5m5	20
 4ice	5mk	a8
 4ke	5ml	c0
 4luntary	5mm	c0
+b movements of the limbs	cuv	
 5ve	5mn	7c
 7d	5mo	40
 3ulnerable	5mp	80
@@ -786,6 +994,7 @@ aors	5m5	20
 4sistible	5nm	40
 5olute	5nn	40
 5pective	5no	38
+c of	bo0	
 6onsible	5np	40
 4verence	5nq	40
 9t	5nr	40
@@ -797,8 +1006,10 @@ aors	5m5	20
 6te	5nx	f8
 7ing	5ny	40
 8on	5nz	80
+1s the same as	eg1	
 0Islam	5o0	8
 0island	5o1	3f
+6 of the immortals	cs9	
 3e	5o2	30
 2olate	5o3	fc
 7d	5o4	60
@@ -807,10 +1018,21 @@ aors	5m5	20
 2sue	5o7	fc
 5s	5o8	20
 2thmus	5o9	80
+7 of the fauces	cv6	
 1t	5oa	3
+2 can clearly be seen	epj	
+4omes with the territory	dp1	
+5uld even be said	eq4	
+3may be assumed that	eay	
+asaid	f1j	
+3would be better	eox	
+i to	cz0	
+2's lonely at the top	dq2	
+5not the only case	dhs	
 0Italian	5ob	e
 4y	5oc	22
 0item	5od	34
+4 of the highest quality	cpw	
 4s	5oe	20
 3rate	5of	c0
 2inerant	5og	c0

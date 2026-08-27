@@ -83,7 +83,7 @@ function decodeDeltaIds(value) {
     if (ids.length > 0 && current <= ids[ids.length - 1]) {
       return []
     }
-    if (current < 0 || current > 14941) {
+    if (!Number.isSafeInteger(current)) {
       return []
     }
     ids.push(current)

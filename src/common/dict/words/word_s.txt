@@ -5,6 +5,7 @@
 0saccharin	8xk	80
 9e	8xl	80
 3k	8xm	fc
+4ing the worst-performing employee	fab	
 3rament	8xn	80
 4ed	8xo	fe
 4ifice	8xp	be
@@ -28,7 +29,8 @@
 4ing	8y7	22
 4or	8y8	1e
 0Saint	8y9	1c
-0saintly	8ya	80
+0saint vincent and the grenadines	da2	
+5ly	8ya	80
 2ke	8yb	7c
 2lad	8yc	3f
 4ry	8yd	3e
@@ -119,6 +121,7 @@ by	907	5c
 2w	90q	1c
 3dust	90r	80
 2y	90s	23
+3 of	bkx	
 3ing	90t	2
 1cab	90u	80
 4bard	90v	80
@@ -131,6 +134,7 @@ by	907	5c
 5ing	912	80
 4e	913	fc
 5d	914	40
+5s fall from the eyes	ejj	
 4pel	915	a0
 3mper	916	80
 3n	917	fe
@@ -152,9 +156,12 @@ by	907	5c
 3venger	91n	40
 2enario	91o	80
 4e	91p	5e
+5 of the crime	cr1	
 5ry	91q	7e
+7 in the distance	dmy	
 4ic	91r	40
 4t	91s	7c
+5 of	bm0	
 3ptical	91t	ba
 2hedule	91u	7e
 4matic	91v	80
@@ -162,6 +169,7 @@ by	907	5c
 5e	91x	fc
 3ism	91y	c0
 3olar	91z	5e
+7-official in the qing dynasty	dm1	
 7ly	920	40
 7ship	921	7e
 4ol	922	a3
@@ -185,6 +193,7 @@ by	907	5c
 6ing	92k	80
 4e	92l	ff
 5s	92m	2
+6 of	bmm	
 4n	92n	bc
 5ful	92o	40
 4pion	92p	80
@@ -201,7 +210,9 @@ by	907	5c
 5e	930	fc
 5ing	931	40
 5py	932	80
+5s of	boh	
 4tch	933	7e
+7ing the surface	f67	
 4wl	934	80
 3eam	935	1e
 4ed	936	c0
@@ -257,12 +268,15 @@ aly	93i	40
 6ed	94k	a0
 6ing	94l	c0
 3t	94m	23
+4 of the government	crw	
 4s	94n	20
 3weed	94o	42
 2cede	94p	80
 3lude	94q	e0
 5sion	94r	40
 3ond	94s	23
+6 half of the night	cjz	
+jyear	cg4	
 6-hand	94t	28
 6ary	94u	7c
 6hand	94v	2
@@ -338,6 +352,7 @@ aly	93i	40
 3d	96t	3
 3ile	96u	80
 4or	96v	3e
+6ity in the family	dlh	
 3sation	96w	d8
 9al	96x	40
 4e	96y	3f
@@ -384,6 +399,7 @@ cze	97h	40
 3ial	983	b0
 4es	984	3c
 4ous	985	7f
+7 about the matter	ens	
 7ly	986	4c
 3mon	987	d8
 6ize	988	80
@@ -395,6 +411,7 @@ cze	97h	40
 3vant	98e	1f
 4e	98f	3
 4ice	98g	23
+7 to the public	d1s	
 7able	98h	80
 5le	98i	80
 5tude	98j	80
@@ -402,6 +419,7 @@ cze	97h	40
 2t	98l	23
 3back	98m	b8
 3ting	98n	7c
+7-up exercises during the break	enb	
 4le	98o	be
 6d	98p	80
 6ment	98q	3e
@@ -425,6 +443,7 @@ cze	97h	40
 3ck	998	80
 5le	999	c0
 3de	99a	5e
+5s of	bne	
 4ow	99b	1e
 6y	99c	8
 4y	99d	1c
@@ -455,7 +474,8 @@ cze	97h	40
 7ed	9a2	80
 3ve	9a3	3e
 5r	9a4	2
-4ings	9a5	80
+4ing the head or face	eja	
+7s	9a5	80
 3wl	9a6	80
 2e	9a7	3
 3af	9a8	80
@@ -513,6 +533,8 @@ cze	97h	40
 4worn	9bo	80
 3re	9bp	5e
 4t	9bq	23
+5 of	bjs	
+6stave of the barrel	cpv	
 5-range	9br	40
 5age	9bs	7c
 5coming	9bt	1e
@@ -524,12 +546,14 @@ cze	97h	40
 5s	9bz	3
 3t	9c0	5e
 3uld	9c1	3
+6 not be exposed to	dii	
 6er	9c2	9f
 4t	9c3	3
 3ve	9c4	d8
 5l	9c5	68
 3w	9c6	3
 4er	9c7	7f
+4ing the hardships of travel	crh	
 4y	9c8	80
 2red	9c9	e0
 4wd	9ca	f8
@@ -552,14 +576,18 @@ cze	97h	40
 4ter	9cr	78
 5le	9cs	fe
 2y	9ct	5d
+3 of	bm9	
 3ness	9cu	40
 1ibilant	9cv	80
 3ling	9cw	80
 3yl	9cx	80
 2ck	9cy	63
+4 of	bky	
 4en	9cz	60
+6 of	bnu	
 4ness	9d0	6e
 2de	9d1	23
+4 of the body	cm2	
 4real	9d2	80
 4show	9d3	80
 5plitting	9d4	80
@@ -580,6 +608,7 @@ cze	97h	40
 4ificance	9dj	5e
 at	9dk	fc
 6y	9dl	f8
+4s from the past	ejt	
 2lence	9dm	7f
 5t	9dn	3f
 3ica	9do	40
@@ -607,12 +636,15 @@ at	9dk	fc
 cly	9ea	48
 2n	9eb	5c
 3ce	9ec	3
+5 the beginning of history	clu	
+adawn of time	cga	
 5re	9ed	bc
 7ly	9ee	2
 6ity	9ef	8
 3ecure	9eg	80
 4w	9eh	80
 3g	9ei	3
+4 of	blr	
 4e	9ej	c0
 5r	9ek	e
 4le	9el	23
@@ -625,6 +657,7 @@ cly	9ea	48
 2r	9es	3
 3en	9et	98
 2ster	9eu	3
+6 of a woman's father-in-law	drz	
 2t	9ev	3
 3e	9ew	7c
 4s	9ex	20
@@ -644,6 +677,8 @@ cly	9ea	48
 4ing	9fb	20
 2ein	9fc	80
 3leton	9fd	f8
+8 in the closet	dne	
+9of the dead	crs	
 3ptic	9fe	50
 7al	9ff	58
 7ism	9fg	40
@@ -689,6 +724,7 @@ cly	9ea	48
 4g	9gk	28
 4t	9gl	c0
 3p	9gm	78
+4 in the face	dlc	
 4dash	9gn	80
 3sh	9go	40
 3te	9gp	a0
@@ -719,6 +755,7 @@ cly	9ea	48
 4y	9he	40
 3ng	9hf	80
 3p	9hg	7e
+4 of the tongue	csi	
 4page	9hh	80
 5er	9hi	5c
 7y	9hj	fc
@@ -740,6 +777,7 @@ cly	9ea	48
 3ven	9hz	80
 6ly	9i0	40
 3w	9i1	3
+4 on the uptake	ef0	
 4ly	9i2	c
 2ue	9i3	80
 3g	9i4	40
@@ -753,13 +791,18 @@ cly	9ea	48
 4p	9ic	80
 2y	9id	dc
 1mack	9ie	40
+5 of	bmk	
+5ing the lips	fac	
 3ll	9if	3
+5 bump on the skin	ee8	
+6of the back	cjd	
 3rmy	9ig	80
 4t	9ih	ff
 3sh	9ii	7c
 3ttering	9ij	80
 2ear	9ik	c0
 3ll	9il	43
+5 of	blv	
 5y	9im	22
 4ting	9in	40
 2ile	9io	3
@@ -770,6 +813,7 @@ cly	9ea	48
 5r	9it	2
 6s	9iu	20
 4ing	9iv	22
+4y-effect makeup around the eyes	eug	
 3oth	9iw	ff
 6ly	9ix	4c
 3ther	9iy	e0
@@ -812,6 +856,7 @@ cly	9ea	48
 3g	9jz	c0
 4gle	9k0	80
 1o	9k1	3
+2 be it	eqb	
 2-called	9k2	c
 2ak	9k3	bc
 3p	9k4	5f
@@ -836,6 +881,7 @@ cly	9ea	48
 3ium	9kn	48
 2fa	9ko	1b
 3t	9kp	1f
+4 in the head	dks	
 4ball	9kq	2
 4en	9kr	8
 4ly	9ks	c
@@ -853,6 +899,7 @@ cly	9ea	48
 4ly	9l4	4c
 4mn	9l5	fc
 6ity	9l6	80
+4s of the feet	cv0	
 3icit	9l7	c0
 7or	9l8	40
 8us	9l9	c0
@@ -876,12 +923,17 @@ cly	9ea	48
 4how	9lr	3c
 4one	9ls	3
 4thing	9lt	3
+9 of	bl8	
+c a	bs9	
 5ime	9lu	1c
+8 in the future	dlx	
 8s	9lv	3
 4what	9lw	7c
+8 of	bp7	
 6ere	9lx	3
 3nolent	9ly	80
 2n	9lz	3
+3 of the boss	cqo	
 3ata	9m0	80
 3g	9m1	3
 3net	9m2	80
@@ -905,15 +957,24 @@ bion	9mb	c0
 6ful	9mk	8
 4y	9ml	3
 3t	9mm	7f
+4 of	bk8	
 2ul	9mn	5e
+4 of the deceased	ctt	
 3nd	9mo	23
+5 of friction of fabric	euv	
+9the heart	cou	
+dwind	cpc	
 5proof	9mp	60
 3p	9mq	5f
+4 of the day	ckq	
 3r	9mr	7f
 4ce	9ms	3c
+6 of the law	cns	
 6s	9mt	20
 3se	9mu	80
 3th	9mv	3
+5 of	blo	
+8 the five ranges	cl6	
 5east	9mw	1e
 6rn	9mx	1f
 5wards	9my	8
@@ -956,8 +1017,10 @@ bion	9mb	c0
 4ula	9nz	80
 3wn	9o0	c0
 2eak	9o1	3
+5 of	bku	
 5er	9o2	3f
 5ing	9o3	20
+8 of	bln	
 4r	9o4	9e
 3cial	9o5	3f
 7ist	9o6	1e
@@ -989,6 +1052,7 @@ bly	9oo	40
 9ve	9ow	80
 3ech	9ox	3f
 4d	9oy	3f
+5 in the final stage	dkl	
 5y	9oz	40
 3leology	9p0	80
 4l	9p1	9f
@@ -1018,6 +1082,8 @@ bly	9oo	40
 3ral	9pp	78
 4e	9pq	80
 4it	9pr	5f
+6 of the planet mars	crq	
+7reaches to the rainbow	dcw	
 6ual	9ps	fe
 3t	9pt	3e
 4e	9pu	9c
@@ -1066,6 +1132,7 @@ bly	9qe	40
 3ig	9r1	80
 5htly	9r2	80
 4ng	9r3	63
+6 chill in the air	dlp	
 6board	9r4	40
 6time	9r5	4c
 6water	9r6	40
@@ -1087,22 +1154,29 @@ bly	9qe	40
 4nder	9rm	c0
 4re	9rn	ff
 6ly	9ro	40
+8 in the middle	dmb	
 4sh	9rp	c8
 4t	9rq	c8
 3eak	9rr	40
 5mish	9rs	80
 4eze	9rt	fe
+6ing the fingers between sticks	eti	
 4lch	9ru	80
 3id	9rv	2
 4nt	9rw	80
 4rrel	9rx	de
 5t	9ry	40
-1tab	9rz	dc
+1t john the baptist	f9j	
+3luke the evangelist	f9r	
+3mark the evangelist	f36	
+5tthew the evangelist	f9s	
+2ab	9rz	dc
 4ility	9s0	7c
 7ze	9s1	68
 4le	9s2	5e
 3ccato	9s3	80
 4k	9s4	7c
+5s of	bp8	
 3dium	9s5	3e
 3ff	9s6	7e
 3ge	9s7	3e
@@ -1149,23 +1223,29 @@ bd	9sz	40
 4fish	9tc	40
 4k	9td	c0
 4t	9te	3
+5 of the month	cl2	
+dyear	cgq	
 5er	9tf	20
 5ing	9tg	20
 5le	9th	fc
 6ing	9ti	40
 4vation	9tj	46
 5e	9tk	7e
+5ing people fill the land	ept	
 3sh	9tl	c0
 4is	9tm	80
 3te	9tn	1f
+5 of the market	ckw	
 5ly	9to	40
 5ment	9tp	3e
+9 of cost of production	btq	
 0States	9tq	20
 0statesman	9tr	3c
 4ic	9ts	fc
 5on	9tt	23
 7ary	9tu	f8
-7ery	9tv	78
+7ed on the continent	eff	
+8ry	9tv	78
 7s	9tw	20
 5stical	9tx	1c
 9s	9ty	7e
@@ -1219,6 +1299,7 @@ ad	9ut	10
 3gma	9va	80
 6tize	9vb	80
 3ll	9vc	43
+5 wet behind the ears	esz	
 5ness	9vd	8
 4t	9ve	40
 5ed	9vf	80
@@ -1230,6 +1311,7 @@ ad	9ut	10
 3ng	9vl	fc
 5iness	9vm	80
 5y	9vn	c0
+4k of	bmb	
 4t	9vo	80
 3pend	9vp	40
 4ple	9vq	80
@@ -1296,12 +1378,14 @@ ad	9ut	10
 6line	9xf	58
 4et	9xg	23
 4ngth	9xh	7e
+8 of acid	bwn	
 8en	9xi	7e
 5uous	9xj	70
 9ly	9xk	40
 4ss	9xl	7e
 6ful	9xm	20
 4tch	9xn	fc
+7es of	bor	
 4w	9xo	80
 3iate	9xp	80
 7d	9xq	80
@@ -1312,12 +1396,14 @@ ad	9ut	10
 6nt	9xv	80
 4fe	9xw	d8
 4ke	9xx	7e
+6s you in the face	cy7	
 5ing	9xy	f8
 8ly	9xz	40
 4ng	9y0	7e
 6ent	9y1	c0
 6s	9y2	40
 4p	9y3	fc
+5 of	bka	
 5e	9y4	7c
 4ve	9y5	f8
 3oke	9y6	fc
@@ -1337,6 +1423,7 @@ ad	9ut	10
 6s	9yk	20
 5o	9yl	fa
 4y	9ym	23
+5 of the confucian classics	coo	
 3ff	9yn	3c
 5y	9yo	c8
 3ltify	9yp	80
@@ -1363,6 +1450,7 @@ ad	9ut	10
 4uct	9za	40
 5e	9zb	e8
 6d	9zc	80
+3folder of	bov	
 3ject	9zd	a2
 7ed	9ze	40
 7ion	9zf	40
@@ -1420,6 +1508,7 @@ ate	a0c	e0
 3way	a0v	5c
 2cceed	a0w	5f
 5ss	a0x	1f
+7 across the board	ev6	
 7ful	a0y	7f
 aly	a0z	c
 7ion	a10	3c
@@ -1432,6 +1521,7 @@ aly	a0z	c
 3k	a17	3e
 2dden	a18	1f
 6ly	a19	c
+8 all the rage	enh	
 2e	a1a	78
 2ffer	a1b	5e
 6ing	a1c	2
@@ -1454,6 +1544,7 @@ as	a1o	20
 4case	a1t	ea
 4e	a1u	72
 5d	a1v	40
+4ing the time	eor	
 2lfur	a1w	50
 3ky	a1x	c0
 3len	a1y	c8
@@ -1464,6 +1555,7 @@ as	a1o	20
 3marily	a23	80
 7ze	a24	1c
 6y	a25	be
+7 of	bkl	
 5tion	a26	80
 4er	a27	23
 4it	a28	7c
@@ -1536,6 +1628,7 @@ btion	a3p	40
 3e	a43	3
 4ly	a44	c
 3face	a45	63
+7 of the body	cof	
 4eit	a46	80
 3ge	a47	f8
 5on	a48	fe
@@ -1546,7 +1639,8 @@ btion	a3p	40
 4ount	a4d	e0
 3name	a4e	3c
 3pass	a4f	f8
-7ingly	a4g	40
+7ing the physical world	evb	
+aly	a4g	40
 4lus	a4h	fe
 4rise	a4i	23
 7ing	a4j	c
@@ -1563,11 +1657,14 @@ bs	a4r	3c
 6or	a4u	80
 4ivability	a4v	40
 7l	a4w	7e
+8 of the fittest	cvm	
 6e	a4x	de
+6ing family of the deceased	coi	
 6or	a4y	40
 2sceptibility	a4z	80
 9le	a50	f8
 3pect	a51	fe
+7 of	bmf	
 5nd	a52	fc
 7er	a53	40
 6se	a54	e0
@@ -1599,6 +1696,7 @@ bs	a4r	3c
 5ness	a5u	8
 3ll	a5v	fe
 5ing	a5w	40
+8 of the head	cnz	
 4ter	a5x	40
 7ing	a5y	80
 3rve	a5z	a0

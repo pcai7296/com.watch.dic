@@ -105,7 +105,8 @@ export default {
     currentTime: "",
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
-    releasingKey: ""
+    releasingKey: "",
+    btnScaleEnabled: false
   },
 
   onInit() {
@@ -117,12 +118,14 @@ export default {
       }.bind(this),
       fail: function(data, code) {
         console.log("index device.getInfo failed; using compiled target: " + code)
-      }.bind(this)
+      }.bind(this),
+      complete: function() {}
     })
     this._updateTime()
     this._loadLayout()
     this._cleanInvalidHistory()
     this._trackLaunch()
+    this._loadBtnScale()
   },
 
   _updateTime() {
@@ -148,7 +151,8 @@ export default {
           self.layoutMode = value
         }
       },
-      fail: function() {}
+      fail: function() {},
+      complete: function() {}
     })
   },
 
@@ -168,7 +172,8 @@ export default {
           value: String(nextCount),
           fail: function(setData, code) {
             console.log("index launch count save failed: " + code)
-          }
+          },
+          complete: function() {}
         })
         if (nextCount === 1 || nextCount % 10 === 0) {
           this.goSponsor()
@@ -177,7 +182,8 @@ export default {
       fail: function(getData, code) {
         console.log("index launch count read failed: " + code)
         this.goSponsor()
-      }.bind(this)
+      }.bind(this),
+      complete: function() {}
     })
   },
 
@@ -198,14 +204,18 @@ export default {
           }
         }
         if (clean.length < list.length) {
-          storage.set({ key: "dic_history", value: JSON.stringify(clean) })
+          storage.set({ key: "dic_history", value: JSON.stringify(clean), complete: function() {} })
         }
       },
-      fail: function() {}
+      fail: function() {},
+      complete: function() {}
     })
   },
 
   onBtnDown(key) {
+    if (!this.btnScaleEnabled) {
+      return
+    }
     this.pressedKey = key
     this.releasingKey = ""
     this._pressStart = Date.now()
@@ -213,6 +223,9 @@ export default {
   },
 
   onBtnUp(key) {
+    if (!this.btnScaleEnabled) {
+      return
+    }
     if (Date.now() - this._pressStart >= 200) {
       this._longPress = true
     }
@@ -228,6 +241,24 @@ export default {
         self.releasingKey = ""
       }
     }, 200)
+  },
+
+  _loadBtnScale() {
+    var self = this
+    storage.get({
+      key: "dic_button_scale",
+      default: "1",
+      success: function(data) {
+        var value = data && (data.value || data)
+        self.btnScaleEnabled = value === "1"
+      },
+      fail: function() {},
+      complete: function() {}
+    })
+  },
+
+  onShow() {
+    this._loadBtnScale()
   },
 
   onDestroy() {
@@ -288,7 +319,8 @@ export default {
       },
       fail: () => {
         router.push({ uri: "/pages/records", params: { type: "favorites", loading: "0" } })
-      }
+      },
+      complete: () => {}
     })
   },
   goAbout() {

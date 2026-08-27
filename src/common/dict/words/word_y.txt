@@ -5,6 +5,17 @@
 2w	bho	80
 3n	bhp	fe
 1ear	bhq	3
+4 of the boar	cj7	
+ccock	cj5	
+cdog	chu	
+dragon	cj4	
+chorse	cht	
+cmonkey	cj6	
+crabbit	ciz	
+em	cj1	
+et	ciy	
+csnake	cj2	
+ctiger	cj3	
 4ly	bhr	1c
 4n	bhs	e8
 3st	bht	88
@@ -25,9 +36,13 @@
 2lk	bi8	48
 2rk	bi9	20
 2u	bia	3
+3 are the one	ebd	
 3ng	bib	3
+5 lady of the house	ck4	
+6master of the house	ckc	
 5ster	bic	7c
 3r	bid	3
+4 majesty the emperor	f7y	
 4s	bie	3
 5elf	bif	3
 7ves	big	3

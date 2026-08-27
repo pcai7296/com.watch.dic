@@ -51,6 +51,7 @@ import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
+import {getDictionaryProfile} from "../../common/dictProfile"
 
 const {navGuard} = global
 
@@ -58,6 +59,7 @@ const FUZZY_SCAN_LIMIT = 4000
 const FUZZY_POOL_LIMIT = 80
 const MAX_SAFE_ENTRY_ID = 9007199254740991
 const WORD_INDEX_LETTERS = "abcdefghijklmnopqrstuvwxyz"
+const MAX_CHINESE_SCAN_SHARDS = 10
 
 class LRUCache {
   constructor(max) {
@@ -117,7 +119,8 @@ export default {
   protected: {
     query: "",
     searchMode: "",
-    inflectDepth: ""
+    inflectDepth: "",
+    phraseMode: "0"
   },
 
   private: {
@@ -136,8 +139,6 @@ export default {
     screenWidth: 0,
     queryMarqueeOn: false,
     queryMarqueeSpeed: 40,
-    wordMarqueeThreshold: 0,
-    marqueeArmed: false,
     flushTimer: null,
     searchPage: 0,
     totalResultCount: 0,
@@ -209,7 +210,6 @@ export default {
       this.cardWidth = sw - 20
     }
     this.contentWidth = this.cardWidth - 24
-    this.wordMarqueeThreshold = this.resolveWordMarqueeThreshold(sw)
     this.queryText = this.normalizeWord(this.query)
     this.applyQueryMarquee(this.queryText)
     this.performSearch()
@@ -227,16 +227,7 @@ export default {
       this.applyQueryMarquee(currentQuery)
       this.performSearch()
     }
-    // marquee 在搜索完成后通过 _finishWithMarquee 启动
-  },
-
-  resolveWordMarqueeThreshold(sw) {
-    if (sw === 192) return 9
-    if (sw === 212) return 10
-    if (sw === 336) return 20
-    if (sw === 432) return 25
-    if (sw === 466) return 25
-    return 10
+    // 超长单词用 marquee 跑马灯展示全文（list 内嵌 scroll 在 Band 10 上无法接收触摸事件，拖动无效）
   },
 
   applyQueryMarquee(text) {
@@ -248,12 +239,6 @@ export default {
       this.queryMarqueeOn = false
       this.queryMarqueeSpeed = 40
     }
-  },
-
-  calcCardWordMarqueeSpeed(word) {
-    // 速度 ≈ 词长 × 4，让长词追上视觉上的同步循环。除非 word 太长会失控，用 60 封顶。
-    const len = (word || "").length
-    return Math.min(60, Math.max(40, len * 4))
   },
 
   goBack() {
@@ -276,7 +261,8 @@ export default {
       },
       fail: (data, code) => {
         console.log("results long press setting get failed: " + code)
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -350,12 +336,15 @@ export default {
       success: function(data) {
         if (token !== self.searchToken) return
         var list = self._parseHistoryList(data)
-        for (var i = 0; i < list.length; i++) {
-          var entry = list[i]
-          if (entry.query === normalized && entry.ids && entry.ids.length > 0) {
-            self.historyCache = list
-            self._hydrateFromCachedIds(entry.ids, token)
-            return
+        // 词组模式不使用历史缓存（历史记录是单词模式的）
+        if (self.phraseMode !== "1") {
+          for (var i = 0; i < list.length; i++) {
+            var entry = list[i]
+            if (entry.query === normalized && entry.ids && entry.ids.length > 0) {
+              self.historyCache = list
+              self._hydrateFromCachedIds(entry.ids, token)
+              return
+            }
           }
         }
         self.historyCache = list
@@ -364,7 +353,8 @@ export default {
       fail: function() {
         self.historyCache = []
         self._startNormalSearch(normalized, token)
-      }
+      },
+      complete: function() {}
     })
   },
 
@@ -381,7 +371,6 @@ export default {
         }
         this._flushResults()
         this._stopFlushTimer()
-        this.marqueeArmed = true
         if (this.resultCards.length > 0) {
           this._saveSearchHistory()
           if (this.resultCards.length >= 20) {
@@ -414,7 +403,7 @@ export default {
           this.finishEnglishSearch(normalized, token)
           return
         }
-        this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
+        this.readText("/common/dict/words/word_" + this._wordShardFor(normalized) + ".txt", (text) => {
           if (token !== this.searchToken) {
             return
           }
@@ -437,9 +426,13 @@ export default {
           })
         })
       } else {
-        const shards = this.getCandidateShards(normalized)
+        // 词组精准模式（由 search.ux 通过 phraseMode 参数传入）
+        if (this.phraseMode === "1") {
+          this.performPhraseSearch(normalized, token)
+          return
+        }
 
-        this.collectShardResults(shards, normalized, results, seen, 0, () => {
+        this.collectEnglishResults(normalized, results, seen, () => {
           this.collectInflectResult(normalized, results, seen, () => {
             if (token !== this.searchToken) {
               return
@@ -486,7 +479,7 @@ export default {
       var idsInShard = groups[shard]
       shardIdx++
 
-      self.loadEntryShard(shard, function(entries) {
+      self.loadEntryShardItems(shard, idsInShard, function(entries) {
         if (token !== self.searchToken) return
         var seen = {}
         for (var i = 0; i < self.resultCards.length; i++) {
@@ -511,7 +504,6 @@ export default {
     function done() {
       self._flushResults()
       self._stopFlushTimer()
-      self.marqueeArmed = true
       if (self.resultCards.length === 0) {
         self.statusText = "未找到"
       } else if (self.resultCards.length >= 20) {
@@ -541,7 +533,6 @@ export default {
         }
         this._flushResults()
         this._stopFlushTimer()
-        this.marqueeArmed = true
         if (this.resultCards.length === 0) {
           this.statusText = "未找到"
         } else {
@@ -553,7 +544,6 @@ export default {
     }
 
     this._stopFlushTimer()
-    this.marqueeArmed = true
     if (this.resultCards.length === 0) {
       this.statusText = "未找到"
     } else if (this.resultCards.length >= 20) {
@@ -568,6 +558,118 @@ export default {
     }
     this._saveSearchHistory()
     this._appendNextButton()
+  },
+
+  // 词组精准模式：跳过单词索引，全量匹配词组
+  performPhraseSearch(query, token) {
+    this.loadShardIndex(() => {
+      if (token !== this.searchToken) {
+        return
+      }
+
+      const results = []
+      const seen = {}
+      const shards = this.getCandidateShards(query)
+
+      this.collectShardResults(shards, query, results, seen, 0, () => {
+        if (token !== this.searchToken) {
+          return
+        }
+
+        this._flushResults()
+        this._stopFlushTimer()
+        if (this.resultCards.length === 0) {
+          this.statusText = "未找到"
+        } else if (this.resultCards.length >= 20) {
+          this._collectExtraEnglishIds(query, () => {
+            this._finalizeAfterSearch()
+          })
+          return
+        } else {
+          this.totalResultCount = this.resultCards.length
+          this._finalizeAfterSearch()
+          return
+        }
+        this._saveSearchHistory()
+        this._appendNextButton()
+      }, "phrase")
+    })
+  },
+
+  // 普通模式：单词结果不足10条时补充词组
+  collectPhraseSupplement(query, token, done) {
+    if (this.resultCards.length >= 10 || token !== this.searchToken) {
+      done()
+      return
+    }
+
+    // 计算词组限流数量
+    var phraseLimit = 2
+    if (query.length >= 2) {
+      phraseLimit = 3
+    }
+    // 若精确命中单词索引，放宽至5条
+    if (this.resultCards.length > 0) {
+      phraseLimit = 5
+    }
+
+    const results = []
+    const seen = {}
+    // 标记已有的单词结果
+    for (var i = 0; i < this.resultCards.length; i++) {
+      seen[this.resultCards[i].id] = true
+    }
+
+    const shards = this.getCandidateShards(query)
+    this.collectShardResults(shards, query, results, seen, 0, () => {
+      if (token !== this.searchToken) {
+        done()
+        return
+      }
+
+      // 按排序规则排序：考试标签权重 > 词组长度（短优先）
+      results.sort((a, b) => {
+        const tagA = this._getTagWeight(a.tag)
+        const tagB = this._getTagWeight(b.tag)
+        if (tagA !== tagB) {
+          return tagB - tagA
+        }
+        return a.word.length - b.word.length
+      })
+
+      // 限流：只添加指定数量的词组
+      var added = 0
+      for (var j = 0; j < results.length && added < phraseLimit; j++) {
+        if (!this.resultCards.find(function(c) { return c.id === results[j].id })) {
+          this._enqueueCard(results[j])
+          added++
+        }
+      }
+
+      done()
+    })
+  },
+
+  // 普通英文搜索优先中高考单词
+  _getNormalTagPriority(tag) {
+    if (!tag) return 0
+    if (tag.indexOf("zk") >= 0) return 2
+    if (tag.indexOf("gk") >= 0) return 1
+    return 0
+  },
+
+  // 获取考试标签权重
+  _getTagWeight(tag) {
+    if (!tag) return 0
+    if (tag.indexOf("中考") >= 0) return 100
+    if (tag.indexOf("高考") >= 0) return 90
+    if (tag.indexOf("四级") >= 0) return 80
+    if (tag.indexOf("六级") >= 0) return 70
+    if (tag.indexOf("考研") >= 0) return 60
+    if (tag.indexOf("雅思") >= 0) return 50
+    if (tag.indexOf("托福") >= 0) return 50
+    if (tag.indexOf("GRE") >= 0) return 40
+    return 0
   },
 
   performChineseSearch(query, token) {
@@ -592,7 +694,6 @@ export default {
 
         this._flushResults()
         this._stopFlushTimer()
-        this.marqueeArmed = true
         if (this.resultCards.length === 0) {
           this.statusText = "未找到"
         } else if (this.resultCards.length >= 20) {
@@ -633,73 +734,104 @@ export default {
   },
 
   collectChineseResults(ids, query, results, seen, index, token, done) {
-    if (token !== this.searchToken || this.destroyed || index >= ids.length || this.resultCards.length >= 20) {
+    if (token !== this.searchToken || this.destroyed || this.resultCards.length >= 20) {
       done()
       return
     }
-
-    const entryId = this.parseEntryId(ids[index])
-    if (entryId < 0) {
-      this.collectChineseResults(ids, query, results, seen, index + 1, token, done)
-      return
-    }
-
-    const shard = this.entryShardFor(entryId)
-    this.loadEntryShard(shard, (entries) => {
-      if (token !== this.searchToken || this.destroyed) {
+    const grouped = this._groupIdsByShard(ids)
+    const shardOrder = grouped.order
+    const groups = grouped.groups
+    let shardIndex = 0
+    const self = this
+    const nextShard = () => {
+      if (token !== self.searchToken || self.destroyed || self.resultCards.length >= 20 || shardIndex >= shardOrder.length || shardIndex >= MAX_CHINESE_SCAN_SHARDS) {
         done()
         return
       }
-      let nextIndex = index
-      while (nextIndex < ids.length && this.resultCards.length < 20) {
-        const nextId = this.parseEntryId(ids[nextIndex])
-        if (nextId < 0 || this.entryShardFor(nextId) !== shard) {
-          break
+      const shard = shardOrder[shardIndex]
+      const wantedIds = groups[shard]
+      shardIndex++
+      self.loadEntryShardItems(shard, wantedIds, (entries) => {
+        if (token !== self.searchToken || self.destroyed) {
+          done()
+          return
         }
-
-        const item = entries[nextId]
-        if (item) {
-          const lower = this.normalizeWord(item.word)
-          if (!seen[lower] && this.normalizeChineseText(item.translation).indexOf(query) >= 0) {
+        for (let i = 0; i < wantedIds.length && self.resultCards.length < 20; i++) {
+          const entryId = wantedIds[i]
+          const item = entries[entryId]
+          if (!item) continue
+          const lower = self.normalizeWord(item.word)
+          if (!seen[lower] && self.normalizeChineseText(item.translation).indexOf(query) >= 0) {
             seen[lower] = true
-            const card = this.createResultCard(nextId, lower, item.word, item.phonetic, item.translation, item.tag)
+            const card = self.createResultCard(entryId, lower, item.word, item.phonetic, item.translation, item.tag)
             results.push(card)
-            this._enqueueCard(card)
+            self._enqueueCard(card)
           }
         }
-        nextIndex++
-      }
-
-      this.collectChineseResults(ids, query, results, seen, nextIndex, token, done)
-    })
+        nextShard()
+      })
+    }
+    nextShard()
   },
 
-  loadCnIndex(bucket, done) {
-    const cached = this.cnIndexCache.get(bucket)
+  loadCnMatches(bucket, query, done) {
+    const cacheKey = bucket + "|" + query
+    const cached = this.cnIndexCache.get(cacheKey)
     if (cached) {
       done(cached)
       return
     }
 
-    this.readText("/common/dict/cn_index/cn_" + bucket + ".txt", (text) => {
-      const indexMap = {}
+    const uri = "/common/dict/cn_index/cn_" + bucket + ".txt"
+    this.readText(uri, (text) => {
+      if (this.destroyed) {
+        done([])
+        return
+      }
+      const ids = []
+      const idSeen = {}
       var prevPhrase = ""
       const lines = text.split("\n")
-      for (let i = 0; i < lines.length; i++) {
+      let exactFound = false
+      let prefixKeys = 0
+      for (let i = 0; i < lines.length && ids.length < 50; i++) {
         const parts = lines[i].split("\t")
-        if (parts.length >= 2) {
-          var phrase = decodePrefixField(parts[0], prevPhrase)
-          if (phrase === null) {
-            continue
+        if (parts.length < 2) continue
+        const phrase = decodePrefixField(parts[0], prevPhrase)
+        if (phrase === null) continue
+        prevPhrase = phrase
+
+        if (phrase === query) {
+          exactFound = true
+          const list = decodeDeltaIds(parts[1]) || []
+          for (let j = 0; j < list.length && ids.length < 50; j++) {
+            const id = list[j]
+            if (!idSeen[id]) {
+              idSeen[id] = true
+              ids.push(id)
+            }
           }
-          indexMap[phrase] = decodeDeltaIds(parts[1])
-          prevPhrase = phrase
+          break
+        }
+
+        if (!exactFound && phrase.indexOf(query) === 0) {
+          prefixKeys++
+          if (prefixKeys > 20) continue
+          const list = decodeDeltaIds(parts[1]) || []
+          const limited = list.slice(0, 10)
+          for (let j = 0; j < limited.length && ids.length < 50; j++) {
+            const id = limited[j]
+            if (!idSeen[id]) {
+              idSeen[id] = true
+              ids.push(id)
+            }
+          }
         }
       }
-      this.cnIndexCache.set(bucket, indexMap)
-      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
-      this.fileCache.delete("/common/dict/cn_index/cn_" + bucket + ".txt")
-      done(indexMap)
+      // 原始文本不再需要，立即释放
+      this.fileCache.delete(uri)
+      this.cnIndexCache.set(cacheKey, ids)
+      done(ids)
     })
   },
 
@@ -715,85 +847,58 @@ export default {
     }
 
     const bucket = this.cnBucketFor(firstChar)
-    this.loadCnIndex(bucket, (indexMap) => {
+    this.loadCnMatches(bucket, query, (ids) => {
       if (token !== this.searchToken || this.destroyed) {
         done(results)
         return
       }
-      let ids = indexMap[query]
-
-      // Prefix match fallback: max 20 candidate keys, 10 IDs per key, 50 total
-      if (!ids) {
-        const candidates = Object.keys(indexMap)
-          .filter((key) => key.indexOf(query) === 0)
-          .slice(0, 20)
-
-        const allIds = []
-        const idSeen = {}
-        for (let i = 0; i < candidates.length; i++) {
-          const idList = indexMap[candidates[i]] || []
-          const limited = idList.slice(0, 10)
-          for (let j = 0; j < limited.length; j++) {
-            if (!idSeen[limited[j]]) {
-              idSeen[limited[j]] = true
-              allIds.push(limited[j])
-            }
-          }
-        }
-        ids = allIds.slice(0, 50)
-      } else {
-        ids = ids.slice(0, 50)
-      }
-
       if (!ids || ids.length === 0) {
         done(results)
         return
       }
-
       this.fetchEntriesByIds(ids, results, seen, 0, token, done)
     })
   },
 
   fetchEntriesByIds(ids, results, seen, index, token, done) {
-    if (token !== this.searchToken || this.destroyed || index >= ids.length || this.resultCards.length >= 20) {
+    if (token !== this.searchToken || this.destroyed || this.resultCards.length >= 20) {
       done(results)
       return
     }
-
-    const entryId = this.parseEntryId(ids[index])
-    if (entryId < 0) {
-      this.fetchEntriesByIds(ids, results, seen, index + 1, token, done)
-      return
-    }
-
-    const shard = this.entryShardFor(entryId)
-    this.loadEntryShard(shard, (entries) => {
-      if (token !== this.searchToken || this.destroyed) {
+    const grouped = this._groupIdsByShard(ids)
+    const shardOrder = grouped.order
+    const groups = grouped.groups
+    let shardIndex = 0
+    const self = this
+    const nextShard = () => {
+      if (token !== self.searchToken || self.destroyed || self.resultCards.length >= 20 || shardIndex >= shardOrder.length) {
         done(results)
         return
       }
-      let nextIndex = index
-      while (nextIndex < ids.length && this.resultCards.length < 20) {
-        const nextId = this.parseEntryId(ids[nextIndex])
-        if (nextId < 0 || this.entryShardFor(nextId) !== shard) {
-          break
+      const shard = shardOrder[shardIndex]
+      const wantedIds = groups[shard]
+      shardIndex++
+      self.loadEntryShardItems(shard, wantedIds, (entries) => {
+        if (token !== self.searchToken || self.destroyed) {
+          done(results)
+          return
         }
-
-        const item = entries[nextId]
-        if (item) {
-          const lower = this.normalizeWord(item.word)
+        for (let i = 0; i < wantedIds.length && self.resultCards.length < 20; i++) {
+          const entryId = wantedIds[i]
+          const item = entries[entryId]
+          if (!item) continue
+          const lower = self.normalizeWord(item.word)
           if (!seen[lower]) {
             seen[lower] = true
-            const card = this.createResultCard(nextId, lower, item.word, item.phonetic, item.translation, item.tag)
+            const card = self.createResultCard(entryId, lower, item.word, item.phonetic, item.translation, item.tag)
             results.push(card)
-            this._enqueueCard(card)
+            self._enqueueCard(card)
           }
         }
-        nextIndex++
-      }
-
-      this.fetchEntriesByIds(ids, results, seen, nextIndex, token, done)
-    })
+        nextShard()
+      })
+    }
+    nextShard()
   },
 
   loadEntryShard(shard, done) {
@@ -832,6 +937,77 @@ export default {
     })
   },
 
+  _groupIdsByShard(ids) {
+    const groups = {}
+    const order = []
+    for (let i = 0; i < ids.length; i++) {
+      const entryId = this.parseEntryId(ids[i])
+      if (entryId < 0) continue
+      const shard = this.entryShardFor(entryId)
+      if (!groups[shard]) {
+        groups[shard] = []
+        order.push(shard)
+      }
+      groups[shard].push(entryId)
+    }
+    return {groups: groups, order: order}
+  },
+
+  loadEntryShardItems(shard, wantedIds, done) {
+    const cacheKey = "partial:" + shard
+    const cached = this.entryCache.get(cacheKey)
+    if (cached) {
+      const out = {}
+      for (let i = 0; i < wantedIds.length; i++) {
+        if (cached[wantedIds[i]]) {
+          out[wantedIds[i]] = cached[wantedIds[i]]
+        }
+      }
+      done(out)
+      return
+    }
+
+    const uri = "/common/dict/entries/entry_" + shard + ".txt"
+    this.readText(uri, (text) => {
+      if (this.destroyed) {
+        done({})
+        return
+      }
+      const entries = {}
+      const baseId = parseInt(shard, 10) * 500
+      const wanted = {}
+      for (let i = 0; i < wantedIds.length; i++) {
+        wanted[wantedIds[i]] = true
+      }
+      const lines = text.split("\n")
+      var previousWord = ""
+      for (let i = 0; i < lines.length; i++) {
+        const parts = lines[i].split("\t")
+        if (parts.length < 3) {
+          continue
+        }
+        const entryId = baseId + i
+        var word = decodePrefixField(parts[0], previousWord)
+        if (word === null) {
+          continue
+        }
+        previousWord = word
+        if (!wanted[entryId]) {
+          continue
+        }
+        entries[entryId] = {
+          word: word,
+          phonetic: parts[1] || "",
+          translation: parts[2] || "",
+          tag: parts[3] || ""
+        }
+      }
+      this.fileCache.delete(uri)
+      this.entryCache.set(cacheKey, entries)
+      done(entries)
+    })
+  },
+
   loadShardIndex(done) {
     if (this.shardIndex) {
       done()
@@ -847,15 +1023,74 @@ export default {
     done()
   },
 
+  // Map a word query to the smallest shard that holds its candidates.
+  // 2+ chars with an alpha 2nd char -> 2-letter shard (e.g. "test" -> "te");
+  // otherwise -> 1-letter file (single char, or rare non-alpha 2nd char).
+  _useTwoLetterShards() {
+    const profile = getDictionaryProfile()
+    return !!(profile && profile.wordTwoShards > 0)
+  },
+
+  _wordShardFor(q) {
+    const s = this.normalizeWord(q)
+    if (this._useTwoLetterShards() && s.length >= 2 && s.charAt(1) >= "a" && s.charAt(1) <= "z") {
+      return s.slice(0, 2)
+    }
+    return s.charAt(0)
+  },
+
   getCandidateShards(query) {
-    const first = this.normalizeWord(query).charAt(0)
+    const q = this.normalizeWord(query)
+    const first = q.charAt(0)
     if (first >= "a" && first <= "z") {
+      if (this._useTwoLetterShards() && q.length >= 2 && q.charAt(1) >= "a" && q.charAt(1) <= "z") {
+        return [q.slice(0, 2)]
+      }
       return [first]
     }
     return []
   },
 
-  collectShardResults(shards, query, results, seen, index, done) {
+  collectEnglishResults(query, results, seen, done) {
+    const shards = this.getCandidateShards(query)
+    const candidates = []
+    const self = this
+    let shardIndex = 0
+
+    const nextShard = () => {
+      if (self.destroyed || shardIndex >= shards.length || candidates.length >= 80) {
+        // 中高考优先，同优先级保持分片原始顺序
+        candidates.sort((a, b) => {
+          const pa = self._getNormalTagPriority(a.tag)
+          const pb = self._getNormalTagPriority(b.tag)
+          if (pa !== pb) {
+            return pb - pa
+          }
+          return a._order - b._order
+        })
+        self.hydrateCompactCandidates(candidates, results, 0, done)
+        return
+      }
+      const shard = shards[shardIndex]
+      shardIndex++
+      self.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
+        if (self.destroyed) {
+          done()
+          return
+        }
+        const before = candidates.length
+        self.collectCompactWordCandidates(text, query, candidates, seen, "", 80 - before)
+        for (let i = before; i < candidates.length; i++) {
+          candidates[i]._order = i
+        }
+        nextShard()
+      })
+    }
+
+    nextShard()
+  },
+
+  collectShardResults(shards, query, results, seen, index, done, source) {
     if (index >= shards.length || this.resultCards.length >= 20) {
       done()
       return
@@ -864,9 +1099,9 @@ export default {
     const shard = shards[index]
     this.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
       const candidates = []
-      this.collectCompactWordCandidates(text, query, candidates, seen, "", 20 - this.resultCards.length)
+      this.collectCompactWordCandidates(text, query, candidates, seen, source || "", 20 - this.resultCards.length)
       this.hydrateCompactCandidates(candidates, results, 0, () => {
-        this.collectShardResults(shards, query, results, seen, index + 1, done)
+        this.collectShardResults(shards, query, results, seen, index + 1, done, source)
       })
     })
   },
@@ -988,7 +1223,7 @@ export default {
     // 先查词库，有则用词库释义；无则用词根释义
     const first = lower.charAt(0)
     if (first >= "a" && first <= "z") {
-      this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
+      this.readText("/common/dict/words/word_" + this._wordShardFor(form) + ".txt", (text) => {
         const candidates = []
         this.collectCompactWordCandidates(text, form, candidates, seen, "变形", 1)
         if (candidates.length > 0) {
@@ -1012,10 +1247,13 @@ export default {
       done()
       return
     }
-    this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
-      var prevWord = ""
-      const lines = text.split("\n")
-      for (let i = 0; i < lines.length; i++) {
+    this.readText("/common/dict/words/word_" + this._wordShardFor(baseWord) + ".txt", (text) => {
+    var prevWord = ""
+    // Only the leading rows matter: the scan itself stops at FUZZY_SCAN_LIMIT,
+    // so avoid materializing the entire first-letter file (up to ~16k lines)
+    // as a string array here.
+    const lines = text.split("\n", FUZZY_SCAN_LIMIT + 1)
+      for (let i = 0; i < lines.length && i < FUZZY_SCAN_LIMIT; i++) {
         const parts = lines[i].split("\t")
         if (parts.length < 3) {
           prevWord = ""
@@ -1084,7 +1322,7 @@ export default {
       return
     }
 
-    this.readText("/common/dict/words/word_" + first + ".txt", (text) => {
+    this.readText("/common/dict/words/word_" + this._wordShardFor(base) + ".txt", (text) => {
       const candidates = []
       this.collectCompactWordCandidates(text, base, candidates, seen, "变形", 1)
       this.hydrateCompactCandidates(candidates, results, 0, () => {
@@ -1116,12 +1354,19 @@ export default {
       if (!lower || seen[lower]) {
         continue
       }
-      if (source) {
+      // 模式过滤：词组模式=前缀匹配+只留含空格条目；普通模式=前缀匹配+排除含空格条目；其他来源（变形）=精确匹配
+      if (source === "phrase") {
+        if (lower.indexOf(" ") < 0 || lower.indexOf(normalizedQuery) !== 0) {
+          continue
+        }
+      } else if (source) {
         if (lower !== normalizedQuery) {
           continue
         }
-      } else if (lower.indexOf(normalizedQuery) !== 0) {
-        continue
+      } else {
+        if (lower.indexOf(" ") >= 0 || lower.indexOf(normalizedQuery) !== 0) {
+          continue
+        }
       }
 
       const entryId = this.parseEntryId(parts[1])
@@ -1254,7 +1499,7 @@ export default {
       return
     }
     var prevWord = ""
-    const lines = text.split("\n")
+    const lines = text.split("\n", FUZZY_SCAN_LIMIT + 1)
     for (
       let i = 0;
       i < lines.length &&
@@ -1437,6 +1682,9 @@ export default {
   },
 
   _saveSearchHistory() {
+    if (this._historySavePending) {
+      return
+    }
     var query = this.queryText
     if (!query) {
       return
@@ -1457,6 +1705,7 @@ export default {
       return
     }
 
+    this._historySavePending = true
     var self = this
     storage.get({
       key: "dic_history",
@@ -1465,13 +1714,15 @@ export default {
       },
       fail: function() {
         self._writeHistoryBlock(null, query, ids)
-      }
+      },
+      complete: function() {}
     })
   },
 
   _writeHistoryBlock(data, query, ids) {
     var list = this._parseHistoryList(data)
-    var item = {query: query}
+    var type = this.phraseMode === "1" ? "phrase" : "word"
+    var item = {query: query, type: type}
     if (ids.length > 0) {
       item.ids = ids
     }
@@ -1479,7 +1730,7 @@ export default {
     var output = [item]
     for (var i = 0; i < list.length && output.length < 20; i++) {
       var oldItem = list[i]
-      if (oldItem && oldItem.query && this.normalizeWord(oldItem.query) !== query) {
+      if (oldItem && oldItem.query && (this.normalizeWord(oldItem.query) !== query || (oldItem.type || "word") !== type)) {
         output.push(oldItem)
       }
     }
@@ -1488,7 +1739,14 @@ export default {
 
     storage.set({
       key: "dic_history",
-      value: JSON.stringify(output)
+      value: JSON.stringify(output),
+      success: function() {
+        this._historySavePending = false
+      }.bind(this),
+      fail: function() {
+        this._historySavePending = false
+      }.bind(this),
+      complete: function() {}
     })
   },
 
@@ -1499,8 +1757,7 @@ export default {
         recordKind: "next-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false,
-        wordMarqueeSpeed: 40
+        wordMarqueeOn: false
       })
       this.resultCards = this.resultCards.slice()
     }
@@ -1540,7 +1797,8 @@ export default {
       })
     } else {
       this.totalResultCount = this.resultCards.length
-      this.statusText = baseStatus + " " + this.resultCards.length + "条"
+      var prefix = this.phraseMode === "1" ? "短语" : ""
+      this.statusText = prefix + baseStatus + " " + this.resultCards.length + "条"
       this._saveSearchHistory()
       this._appendNextButton()
     }
@@ -1549,23 +1807,33 @@ export default {
   _updatePaginationStatus() {
     var total = this.totalResultCount
     var pageNum = this.searchPage + 1
+    var prefix = this.phraseMode === "1" ? "短语" : ""
     if (total <= 20) {
-      this.statusText = "一共" + total + "条"
+      this.statusText = prefix + "找到" + total + "条"
     } else if (this.mightHaveMore) {
-      this.statusText = "当前第" + pageNum + "页，最多加载60条"
+      this.statusText = prefix + "当前第" + pageNum + "页，最多加载60条"
     } else {
-      this.statusText = "当前第" + pageNum + "页，一共" + total + "条"
+      this.statusText = prefix + "当前第" + pageNum + "页，一共" + total + "条"
     }
   },
 
   _collectExtraEnglishIds(query, done) {
+    // 词组模式不补充英文词，只保留词组结果
+    if (this.phraseMode === "1") {
+      done()
+      return
+    }
     var first = query.charAt(0)
     if (first < "a" || first > "z") {
       done()
       return
     }
+    var token = this.searchToken
     var self = this
-    this.readText("/common/dict/words/word_" + first + ".txt", function(text) {
+    this.readText("/common/dict/words/word_" + this._wordShardFor(query) + ".txt", function(text) {
+      if (token !== self.searchToken) {
+        return
+      }
       if (!text || self.collectedIds.length >= 40) {
         done()
         return
@@ -1676,7 +1944,7 @@ export default {
       var shard = shardKeys[shardIdx]
       var idsInShard = groups[shard]
       shardIdx++
-      self.loadEntryShard(shard, function(entries) {
+      self.loadEntryShardItems(shard, idsInShard, function(entries) {
         for (var j = 0; j < idsInShard.length; j++) {
           var entryId = idsInShard[j]
           var item = entries[entryId]
@@ -1704,8 +1972,7 @@ export default {
         recordKind: "prev-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false,
-        wordMarqueeSpeed: 40
+        wordMarqueeOn: false
       })
     }
     for (var i = 0; i < cards.length; i++) {
@@ -1718,8 +1985,7 @@ export default {
         recordKind: "next-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false,
-        wordMarqueeSpeed: 40
+        wordMarqueeOn: false
       })
     }
     this.resultCards = pageCards
@@ -1750,9 +2016,27 @@ export default {
     const cardHeight = Math.max(100, 64 + safeLines.length * lineHeight)
     const bestTag = this.highestTag(tag)
     const showTag = this.canFitWithTag(word || "", bestTag)
-    const wordLen = (word || "").length
-    const wordMarqueeOn = wordLen > this.wordMarqueeThreshold
-    const wordMarqueeSpeed = wordMarqueeOn ? this.calcCardWordMarqueeSpeed(word) : 40
+
+    // 按真实字形宽度连续计算能填满卡片宽度的最大字号(无级缩放，避免阶梯式字号造成的"空隙感")。
+    // getCharWidth 按翻译(700)标定，实际设备字形更宽且单词为 800 粗体，用 WORD_SCALE 补偿真实宽度；
+    // 上一版用 1.4 仍偏小(出现右侧空隙)，说明真实比例低于 1.4，下调到 1.38 以贴满宽度且不再裁切。
+    const headWidth = this.cardWidth - 24
+    const tagReserve = showTag ? 8 + this.measureWordWidth(bestTag, 18) * 1.1 : 8
+    const avail = headWidth - tagReserve
+    const WORD_SCALE = 1.38
+    const SAFETY = 1.05
+    const unitW = this.measureWordWidth(word || "", 1) || 1
+    let wordFontSize = 28
+    let wordMarqueeOn = false
+    const fitFont = Math.floor(avail / (unitW * WORD_SCALE * SAFETY))
+    if (fitFont >= 28) {
+      wordFontSize = 28
+    } else if (fitFont >= 18) {
+      wordFontSize = fitFont
+    } else {
+      wordMarqueeOn = true
+      wordFontSize = 18
+    }
 
     return {
       entryId: entryId,
@@ -1768,7 +2052,7 @@ export default {
       cardHeight: cardHeight,
       itemHeight: cardHeight + 10,
       wordMarqueeOn: wordMarqueeOn,
-      wordMarqueeSpeed: wordMarqueeSpeed
+      wordFontSize: wordFontSize
     }
   },
 
@@ -1878,6 +2162,15 @@ export default {
     return 8
   },
 
+  measureWordWidth(word, font) {
+    const s = word || ""
+    let w = 0
+    for (let i = 0; i < s.length; i++) {
+      w += this.getCharWidth(s.charAt(i))
+    }
+    return w * (font / 18)
+  },
+
   readText(uri, done) {
     const cached = this.fileCache.get(uri)
     if (cached !== undefined) {
@@ -1890,7 +2183,7 @@ export default {
       encoding: "utf-8",
       success: (data) => {
         if (this.destroyed) return
-        const text = data && data.text ? data.text : ""
+        const text = (data && data.text ? data.text : "").replace(/\r/g, "")
         this.fileCache.set(uri, text)
         done(text)
       },
@@ -1898,7 +2191,8 @@ export default {
         if (this.destroyed) return
         this.fileCache.set(uri, "")
         done("")
-      }
+      },
+      complete: () => {}
     })
   },
 
@@ -1907,7 +2201,7 @@ export default {
   },
 
   isEnglishWord(value) {
-    return /^[a-z][a-z'-]{0,20}$/.test(value || "")
+    return /^[a-z][a-z' -]{0,30}$/.test(value || "")
   },
 
   showToast(message) {
@@ -2048,7 +2342,7 @@ export default {
 
     if (startsInLeftQuarter && endsAtRightQuarter && mostlyHorizontal) {
       router.back()
-    }https://github.com/pcai7296/wrist-dictionary/com
+    }
 
     
 

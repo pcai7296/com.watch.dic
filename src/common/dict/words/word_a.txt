@@ -1,4 +1,166 @@
 0a	0	3
+1 amount of	br1	
+2band of	bq2	
+5k of	bpy	
+4r of	bq3	
+5rage of	bt6	
+6el of	brm	
+4ttalion of	bte	
+6ery of	br0	
+3eauty in the bud	c5y	
+4nd in a stream	ecz	
+3it of	bq8	
+8 a	bu3	
+7n the side	cfx	
+3lade of	brk	
+5nket of	brv	
+3olt from the blue	cwd	
+4uquet of	bt8	
+3unch of	bt5	
+2cake of	brb	
+3hoice of	brx	
+3luster of	brw	
+3oat of	brf	
+4llection of	bqt	
+5ony of	bsg	
+4nglomerate of	bt4	
+4py of a film	dj5	
+4uple of	bsi	
+3rack in a rock	ecw	
+4ick in the neck	c61	
+4op of	bsb	
+5wd of	bsr	
+3up of	br7	
+2dab of	bt3	
+3ecade of	bsp	
+b a century	dj1	
+4vil of	bs4	
+3ose of	bri	
+3rop in the ocean	c5w	
+7of	bqb	
+2fall on the buttocks	cgb	
+4raway and hard-to-reach land	dqh	
+3east for the eyes	cef	
+4w of	bsn	
+3lock of	bsx	
+5od of	bsq	
+3raction of	brs	
+3und of	bqa	
+2galaxy of	bta	
+4me of	bqn	
+4ng of	bs1	
+3rain of	bra	
+4oup of	bpv	
+2handful of	btf	
+3eap of	bsf	
+4ll of	bs8	
+4rd of	bsv	
+3int of	bt9	
+4t with the public	chx	
+3ost of	brc	
+2job in the bureaucracy	c5q	
+2kind of	bs3	
+9 a bread	dj2	
+2lack of	bst	
+4yer of	bq9	
+3eft-and-right pair of shoes	dho	
+4ngth of	bqg	
+3ine of	bpe	
+3oad of	bpw	
+4t of	bro	
+3ump on the heart	cgm	
+2majority of	brq	
+4ss of	bq4	
+4tter of	bqw	
+4ximum of	bqc	
+3easure of	bqx	
+4mber of one's clique	fcd	
+3inimum of	bqd	
+3ountain of	br5	
+3ug of	bt1	
+4ltitude of	btc	
+4ster of	bsy	
+2nest of	bss	
+3ip in the air	c5t	
+3ook in the mountains	c62	
+3umber of	bps	
+2pack of	brd	
+6age of	br3	
+6et of	bqu	
+4il of	btb	
+5n in the neck	c5v	
+5r of	br9	
+4rt of	bqi	
+6icle of	br6	
+4tch of	brp	
+3eck of	bt7	
+4riod of	bq1	
+5son in the know	c4e	
+3iece of	bqy	
+4le of	bs6	
+4nch of	bsj	
+3lenty of	bsz	
+4ot of	bry	
+3ortion of	bsk	
+4sitive in the negative	c5x	
+4wer of	bpm	
+3rofusion of	btd	
+5mise must be kept	dyj	
+2quantity of	bqs	
+5rter of	brt	
+4eue of	bqp	
+2rainbow of	bsl	
+4nge of	bq7	
+4y of	brj	
+3oll of	bqk	
+4w of	brg	
+2score of	brr	
+3equence of	bq6	
+4ries of	bqe	
+4t of	bpq	
+3hade of	bsm	
+4eet of	bpz	
+4ill for a clinic	fco	
+4ot in the dark	c5u	
+3lap on the face	cg6	
+4ice of	bru	
+5p of a pen	djh	
+athe tongue	c1z	
+3nap of the fingers	c22	
+3ort of	bqr	
+3pan of	bsh	
+5rk of	brl	
+4ecies of	bsa	
+4ot of	bqf	
+3tock of	bpu	
+5rm of	brn	
+4rain of	br2	
+6w in the wind	c60	
+5eak of	bsc	
+7m of	bre	
+5ing of	bqj	
+6p of	bqv	
+3uccession of	brz	
+4it of	br4	
+4rge of	bsd	
+3warm of	bt0	
+2team of	bs5	
+3ooth for a tooth	fch	
+4tal of	bq5	
+3rain of	br8	
+4eat for the eyes	ce5	
+4oop of	bsw	
+3urn for the better	cdp	
+3ype of	bpl	
+2variety of	bsu	
+3ictim of a calamity	djm	
+edisaster	djg	
+2walk in the park	c5n	
+4ve of	bpx	
+3ealth of	bse	
+3ord to the wise	c3x	
+5ld of	bqm	
+2year and a half	dpg	
 1bandon	1	de
 7ed	2	40
 7ment	3	40
@@ -39,7 +201,11 @@
 6ve	12	c0
 3und	13	f0
 4t	14	3
+5 the same	eno	
+7o be obliterated	dtb	
 3ve	15	3
+5 the common	eze	
+afray	f3a	
 5board	16	80
 2rade	17	80
 4sion	18	e0
@@ -91,8 +257,10 @@ aon	2h	44
 4nt	2i	17
 6uate	2j	c0
 4pt	2k	17
+6 of	blq	
 6able	2l	4
 7nce	2m	1c
+a of bill of exchange	bws	
 4ss	2n	fe
 6ary	2o	8
 6ibility	2p	40
@@ -117,9 +285,15 @@ ds	33	20
 8sh	38	f6
 aed	39	c0
 ament	3a	48
+e out of the ordinary	cgh	
 4rd	3b	fc
 6ance	3c	1c
-6ingly	3d	1c
+6ing to the facts	dbk	
+hlocation	dbl	
+hregulations	dbm	
+hsituation	d7l	
+awith the times	egd	
+9ly	3d	1c
 7on	3e	40
 4st	3f	c0
 4unt	3g	76
@@ -138,6 +312,7 @@ as	3k	20
 6te	3t	fc
 4sation	3u	40
 5e	3v	fe
+6 of	bnh	
 6r	3w	20
 5tom	3x	5c
 8ed	3y	5e
@@ -167,6 +342,7 @@ as	3k	20
 5t	4m	c0
 6tal	4n	80
 2re	4o	56
+4s of	bo1	
 3id	4p	c0
 4monious	4q	c0
 7y	4r	c0
@@ -174,9 +350,13 @@ as	3k	20
 4nym	4t	c0
 4phobia	4u	80
 4ss	4v	3
+6 the board	f06	
+bmiddle	f0v	
+bworld	etz	
 2t	4w	17
 3ing	4x	40
 4on	4y	7f
+6 of of detine	bjv	
 6s	4z	20
 4vate	50	70
 5e	51	57
@@ -185,6 +365,7 @@ as	3k	20
 7y	54	37
 3or	55	36
 3ress	56	16
+3s of the apostles	cv7	
 3ual	57	56
 6ly	58	4c
 5rial	59	80
@@ -237,7 +418,9 @@ bor	6i	60
 6tion	6k	48
 5e	6l	d6
 4ssion	6m	fe
+9 to the united nations	dfm	
 4t	6n	56
+5 of	bmq	
 5tedly	6o	40
 3onish	6p	c0
 2obe	6q	c0
@@ -258,6 +441,7 @@ bor	6i	60
 2vance	75	5e
 7d	76	74
 7ment	77	40
+6ing all the time	eiz	
 5tage	78	17
 9ous	79	8
 9s	7a	20
@@ -265,6 +449,7 @@ bor	6i	60
 6itious	7c	c0
 6ure	7d	56
 9r	7e	40
+9s of the gummi bears	cv8	
 8ous	7f	40
 4rb	7g	14
 5se	7h	f8
@@ -293,6 +478,9 @@ ds	7n	20
 1ffable	84	c0
 4ir	85	5e
 6s	86	20
+7 of the heart	crd	
+fnation	cno	
+8within the palace	ez7	
 3ect	87	7e
 6ation	88	80
 6ed	89	c0
@@ -312,15 +500,26 @@ ds	7n	20
 3ord	8n	7f
 6able	8o	c0
 3ront	8p	80
+2oul of	bnm	
 2raid	8q	3
+6 of	bnp	
+9 the slightest thing	clv	
 0Africa	8r	26
 6n	8s	26
 0after	8t	3
+5 the celebrations	erp	
+aevent	eqo	
+awar	eq7	
 5math	8u	80
 5noon	8v	3
 5ward	8w	1e
 1gain	8x	3
 5st	8y	17
+7 the bristles	eyj	
+ccurrent	euk	
+cheadwind	eyk	
+cstream	ey5	
+cwind	ewo	
 3pe	8z	80
 2e	90	63
 3d	91	40
@@ -359,6 +558,7 @@ aness	9e	40
 ae	9y	7e
 3onomy	9z	80
 1head	a0	2
+5 of	bl9	
 1id	a1	1e
 0AIDS	a2	22
 0ail	a3	80
@@ -391,6 +591,7 @@ ae	9y	7e
 4ve	au	80
 2der	av	40
 2ert	aw	dc
+3xander the great	evi	
 2gae	ax	40
 3ebra	ay	4e
 2ias	az	80
@@ -405,6 +606,24 @@ ae	9y	7e
 3ve	b8	1f
 2kali	b9	c0
 2l	ba	23
+3 members of a group	fcz	
+4of	bjk	
+5ver the body	eju	
+dplace	eiu	
+dworld	ej1	
+4parts of the country	cey	
+4the best	en6	
+9orders	eni	
+8colors of spring	cfv	
+8grains	enj	
+8more	eit	
+8people	emk	
+8time	ej0	
+9rades	enk	
+8way	emn	
+b around	eka	
+8year round	eiq	
+6rough the night	emf	
 3ay	bb	80
 3egation	bc	48
 5e	bd	f8
@@ -422,6 +641,7 @@ ae	9y	7e
 3ocate	bp	fa
 4t	bq	60
 4w	br	17
+5 of	bmn	
 5ance	bs	ba
 4y	bt	7c
 3ude	bu	c0
@@ -432,10 +652,18 @@ ae	9y	7e
 2mond	bz	80
 4st	c0	3
 3s	c1	80
+4giving for the needy	edn	
 2oft	c2	c0
 3ne	c3	77
+5 in the world	djx	
 4g	c4	3
+5 of	bkj	
+6the border	f2n	
+aline	exd	
+ariver	f1m	
+away	eqw	
 5side	c5	3a
+9 of	bn0	
 3of	c6	c0
 3ud	c7	17
 2phabet	c8	1e
@@ -457,6 +685,8 @@ ae	9y	7e
 6um	co	54
 4nus	cp	40
 2ways	cq	3
+6 in the right	dir	
+7the same routine	esa	
 0AM	cr	2
 0amalgam	cs	80
 7ate	ct	c0
@@ -494,12 +724,14 @@ ae	9y	7e
 3cable	dp	c0
 3d	dq	78
 4st	dr	20
+6 the clouds and mist	da9	
 3ss	ds	80
 3ty	dt	80
 2munition	du	20
 2nesia	dv	c0
 5ty	dw	c0
 2ong	dx	3
+5 the people	eqa	
 5st	dy	4
 3ral	dz	80
 4phous	e0	80
@@ -516,7 +748,9 @@ ae	9y	7e
 2ulet	eb	80
 3se	ec	be
 5ment	ed	a
-1nachronistic	ee	80
+1n ambassador of the church	cqd	
+3island in the sea	dlt	
+2achronistic	ee	80
 3erobic	ef	80
 3gram	eg	80
 3lgesia	eh	80
@@ -542,20 +776,24 @@ ae	9y	7e
 3ient	f1	3f
 4llary	f2	80
 2d	f3	3
+3 the rest	d7v	
 2ecdotal	f4	40
 7e	f5	f2
 3mia	f6	90
 5c	f7	80
 3sthesia	f8	40
+a to half the body	d3f	
 7tic	f9	c0
 2gel	fa	14
 4r	fb	36
 3le	fc	56
+5 to the vertical	deb	
 3ry	fd	23
 3uish	fe	d0
 4lar	ff	c0
 2hydrous	fg	80
 2imal	fh	23
+6 from the chinese zodiac	ek6	
 6s	fi	20
 5te	fj	80
 7d	fk	c0
@@ -574,6 +812,7 @@ ae	9y	7e
 8r	fx	44
 4y	fy	e2
 5ing	fz	40
+8 in the extreme	dmh	
 3ual	g0	76
 6ly	g1	48
 4ity	g2	20
@@ -586,6 +825,7 @@ ae	9y	7e
 6ous	g9	f8
 3rexia	ga	80
 3ther	gb	3
+7 part of the country	chw	
 2swer	gc	3
 2t	gd	17
 3agonism	ge	e0
@@ -631,6 +871,7 @@ as	gv	20
 3how	hi	36
 3one	hj	17
 3thing	hk	3
+8 of	bmd	
 3way	hl	15
 4here	hm	17
 1orta	hn	80
@@ -667,8 +908,10 @@ as	gv	20
 5ition	ii	80
 3eal	ij	fe
 6ing	ik	48
+9 to the masses	dgo	
 5r	il	57
 6ance	im	36
+6ing on the outside	efs	
 5se	in	80
 4llation	io	80
 4ndage	ip	80
@@ -683,6 +926,7 @@ as	gv	20
 5cable	iy	9c
 7nt	iz	e6
 7tion	j0	fe
+b to the task	dcv	
 5ed	j1	20
 4y	j2	7e
 3oint	j3	de
@@ -693,7 +937,8 @@ as	gv	20
 7e	j8	d8
 4eciable	j9	e8
 8te	ja	fe
-9ion	jb	4a
+9ing the arts	fa6	
+aon	jb	4a
 5hend	jc	d0
 8sion	jd	60
 ave	je	90
@@ -702,23 +947,31 @@ ave	je	90
 4oach	jh	fe
 8es	ji	20
 8ing	jj	40
+b the end	ewb	
 5bation	jk	80
 5priate	jl	fe
+b for the times	edh	
+cto the market	d53	
+joccasion	d90	
 aion	jm	40
 5val	jn	7c
 6e	jo	5e
+7 of	bng	
 5ximate	jp	fc
 bly	jq	4e
 0April	jr	23
 0apron	js	82
 4pos	jt	80
+7 of	boe	
 2t	ju	f8
+3 to the occasion	dc0	
 3itude	jv	e0
 3ly	jw	40
 1quamarine	jx	40
 4rium	jy	60
 4tic	jz	e0
 3educt	k0	80
+4ous chamber of the eye	cog	
 3ifer	k1	80
 4line	k2	80
 0Arab	k3	2
@@ -737,9 +990,11 @@ bly	jq	4e
 2c	kg	68
 3ane	kh	80
 3h	ki	fa
+4 of the foot	cq2	
 4aeological	kj	60
 ay	kk	c0
 5ic	kl	60
+5ngel gabriel of the annunciation	cv5	
 4er	km	80
 5type	kn	80
 4ipelago	ko	c0
@@ -753,8 +1008,10 @@ be	kr	7e
 3or	kw	40
 3uous	kx	60
 2e	ky	2
+3 bound to be many	duk	
 3a	kz	37
 4s	l0	20
+5 outside the city	f30	
 3na	l1	e0
 2got	l2	80
 3ue	l3	3e
@@ -765,10 +1022,13 @@ be	kr	7e
 4tocracy	l8	80
 9t	l9	c0
 3thmetic	la	5e
+2k of the covenant	cug	
 2m	lb	3
 3ada	lc	80
 4ment	ld	40
 3chair	le	2
+3ed enemy of the nation	cmp	
+6to the teeth	dev	
 3istice	lf	80
 3or	lg	40
 5ed	lh	40
@@ -779,6 +1039,9 @@ be	kr	7e
 2oma	lm	c0
 5tic	ln	c0
 3und	lo	3
+6 the city	evh	
+clock	ez2	
+bworld	esk	
 4se	lp	fc
 2raign	lq	c0
 4nge	lr	56
@@ -813,6 +1076,20 @@ be	kr	7e
 6ry	mk	80
 3less	ml	80
 1s	mm	23
+2 a matter of fact	enp	
+5result of	eo8	
+3big as the sky	dus	
+3different as can be	enc	
+3in the past	d7j	
+5structed by the physician	eb7	
+4t should be	egf	
+3of	bj7	
+3recorded in the accounts	dcj	
+3the circumstances allow	eg7	
+7name implies	eg6	
+7occasion demands	egg	
+7proverb says	egr	
+7time draws near	edi	
 2cend	mn	78
 6ancy	mo	80
 6ing	mp	40
@@ -827,6 +1104,7 @@ be	kr	7e
 0Asia	my	23
 4n	mz	3
 0aside	n0	16
+5 of	blc	
 3nine	n1	80
 2k	n2	3
 3ance	n3	80
@@ -834,6 +1112,7 @@ be	kr	7e
 2leep	n5	17
 2paragus	n6	80
 3ect	n7	de
+6 of the celestial bodies	cs1	
 4n	n8	80
 4rity	n9	80
 5sion	na	c0
@@ -851,6 +1130,7 @@ be	kr	7e
 8ate	nm	58
 aion	nn	20
 4ult	no	f8
+7s the nostrils	fa7	
 4y	np	80
 3emblage	nq	40
 7e	nr	fc
@@ -870,6 +1150,7 @@ as	o3	20
 9ion	o5	8
 4st	o6	5e
 6ance	o7	72
+a to the poor	dbs	
 8t	o8	7e
 9ship	o9	40
 3ociate	oa	fe
@@ -879,11 +1160,13 @@ as	o3	20
 3uage	oe	c0
 4me	of	fe
 5ption	og	fe
+a of the virgin mary	ct0	
 4rance	oh	38
 5e	oi	fc
 6d	oj	80
 7ly	ok	40
 2terisk	ol	80
+5n of	bnc	
 5oid	om	c0
 3hma	on	80
 3igmatic	oo	80
@@ -907,6 +1190,33 @@ as	o3	20
 3mmetric	p6	80
 aal	p7	40
 1t	p8	3
+2 peace with the world	eav	
+3the back	egw	
+9se	ehd	
+7crack of dawn	cd9	
+7end of	cd3	
+7first opportunity	egj	
+7gallop	ei5	
+7head	eha	
+9lm	ei6	
+b of state	cd4	
+7knee	ehx	
+7last moment	eh1	
+9test	ei8	
+7moment	ehk	
+7opportune moment	ehj	
+8utset	ei4	
+7peak	ehy	
+8oint of death	cd1	
+8resent	ehh	
+e stage	ehb	
+ftime	efc	
+7root	ehw	
+7same time	eef	
+8cheduled time	efz	
+8lightest pretext	ei7	
+8ummit	ei1	
+7time of	ccz	
 2heism	p9	c0
 6t	pa	40
 0Athens	pb	20
@@ -927,8 +1237,10 @@ aal	p7	40
 4phy	pq	c0
 2tach	pr	fe
 6ed	ps	40
+8 with the letter	egb	
 6ment	pt	48
 5k	pu	3e
+6 from the rear	ek0	
 6s	pv	20
 4in	pw	fe
 6ment	px	c0
@@ -937,6 +1249,7 @@ aal	p7	40
 4nd	q0	76
 6ance	q1	78
 8t	q2	78
+9s of the daoist immortals	cv9	
 5t	q3	8
 6ion	q4	77
 7ve	q5	3c
@@ -989,6 +1302,7 @@ aal	p7	40
 6itarian	rg	80
 9tive	rh	60
 8y	ri	7e
+9 over the household	epf	
 7zation	rj	80
 8e	rk	60
 3o	rl	14
@@ -1009,6 +1323,7 @@ cy	rn	c4
 3umn	s0	3
 2xiliary	s1	fc
 1vail	s2	38
+5 of	bn5	
 5ability	s3	8
 7le	s4	ff
 3lanche	s5	e0
@@ -1037,8 +1352,10 @@ cy	rn	c4
 2uncular	ss	80
 1wait	st	14
 3ke	su	1f
+5ned to the truth	dds	
 3rd	sv	3e
 4e	sw	76
+5 of	bnw	
 5ness	sx	60
 3y	sy	3
 2e	sz	d0

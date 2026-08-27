@@ -12,10 +12,16 @@
 4le	4ot	c0
 2il	4ou	f8
 3r	4ov	3
+4 around the anus	ey2	
+5on the temples	ef1	
 4cut	4ow	e
 2lcyon	4ox	80
 3e	4oy	80
 3f	4oz	3
+4 of the country	clj	
+cday	cjr	
+5the day	eqd	
+9sky	f04	
 4hearted	4p0	80
 3l	4p1	7f
 4mark	4p2	c0
@@ -44,6 +50,7 @@
 6raft	4pp	40
 4kerchief	4pq	1e
 4le	4pr	de
+6 of the big dipper	com	
 5ing	4ps	20
 4out	4pt	28
 4s-on	4pu	40
@@ -54,6 +61,7 @@
 3g	4pz	7f
 4ar	4q0	80
 4dog	4q1	80
+4ing in the balance	dmf	
 3kering	4q2	80
 2phazard	4q3	e0
 3pen	4q4	17
@@ -67,9 +75,12 @@
 4or	4qc	f8
 5ur	4qd	2e
 3d	4qe	23
+4 lump in the abdomen	dln	
+5on the eyes	eeq	
 4-working	4qf	20
 4bitten	4qg	80
 4en	4qh	dc
+6ing of the arteries	cvf	
 4headed	4qi	c0
 4ihood	4qj	80
 4ly	4qk	5f
@@ -87,6 +98,7 @@
 7ous	4qw	48
 7ze	4qx	40
 6y	4qy	fe
+7 is to be prized	dyk	
 3ness	4qz	fc
 3p	4r0	88
 4oon	4r1	80
@@ -99,7 +111,8 @@
 5ly	4r8	80
 5ness	4r9	40
 3vest	4ra	5e
-2ssle	4rb	88
+2s to bear the blame	db8	
+3sle	4rb	88
 3te	4rc	7c
 5n	4rd	cc
 4y	4re	fc
@@ -131,6 +144,8 @@
 3y	4s4	40
 1e	4s5	3
 2ad	4s6	43
+4 of the family	cl7	
+chousehold	cnh	
 4ache	4s7	3f
 4ing	4s8	3c
 4line	4s9	1e
@@ -148,23 +163,31 @@
 6ful	4sl	40
 6y	4sm	3
 3p	4sn	3e
+4s of	bo2	
 3r	4so	3
+4 of	blu	
+4d of	bna	
 4ing	4sp	32
 4ken	4sq	80
 4say	4sr	c0
 4t	4ss	23
+5 set on the mundane	ee1	
 5beat	4st	20
 5en	4su	80
 5h	4sv	8
 5rending	4sw	80
 5y	4sx	8
 3t	4sy	1f
+4 death of the universe	cox	
+5of change of phase	bww	
 4er	4sz	28
 4ing	4t0	c
 3ve	4t1	f8
 5n	4t2	5f
+6 helps the worthy	f82	
 6ly	4t3	40
 4ily	4t4	e
+5ness in the head	dl9	
 4y	4t5	23
 5-handedness	4t6	80
 2ckle	4t7	80
@@ -193,6 +216,8 @@
 4et	4tu	be
 3ot	4tv	80
 3p	4tw	3
+4 in the mess kitchen	dkg	
+5to the needy	d4w	
 4er	4tx	40
 4ful	4ty	5f
 4less	4tz	4c
@@ -211,6 +236,7 @@
 2patitis	4uc	80
 2r	4ud	3
 3ald	4ue	c8
+6 to the crown prince	dbr	
 3b	4uf	7a
 4aceous	4ug	80
 4icide	4uh	80
@@ -247,7 +273,8 @@
 2atus	4vc	80
 2bernate	4vd	c2
 8ion	4ve	42
-2de	4vf	df
+2dden beneath the surface	f4o	
+3e	4vf	df
 4bound	4vg	80
 4ous	4vh	c0
 2e	4vi	80
@@ -255,6 +282,7 @@
 4oglyph	4vk	80
 aic	4vl	80
 2gh	4vm	3
+4 in the clouds	djv	
 4-rise	4vn	20
 4brow	4vo	80
 4er	4vp	20
@@ -262,6 +290,7 @@ aic	4vl	80
 5ight	4vr	7c
 5y	4vs	1c
 4way	4vt	1e
+7 for the emperor	edm	
 2jack	4vu	30
 2ke	4vv	f8
 2larious	4vw	e0
@@ -285,6 +314,7 @@ aic	4vl	80
 3ing	4we	20
 3sute	4wf	c0
 2s	4wg	3
+3 excellency the army commander	f5r	
 0Hispanic	4wh	40
 0hiss	4wi	88
 3tology	4wj	80
@@ -292,6 +322,7 @@ aic	4vl	80
 7c	4wl	38
 8al	4wm	3c
 6y	4wn	3f
+7 of the party	cll	
 4rionic	4wo	80
 2t	4wp	3f
 3chhike	4wq	20
@@ -313,6 +344,7 @@ aic	4vl	80
 3e	4x6	1f
 3iday	4x7	23
 3low	4x8	5c
+6 of the palm	cu4	
 3ocaust	4x9	e0
 4graph	4xa	80
 3ster	4xb	80
@@ -338,6 +370,7 @@ aic	4vl	80
 2ne	4xv	80
 4st	4xw	17
 6y	4xx	c
+7 is the best policy	evf	
 4y	4xy	16
 5moon	4xz	c
 3or	4y0	50
@@ -363,6 +396,7 @@ aic	4vl	80
 4ed	4yk	40
 5t	4yl	40
 3ology	4ym	80
+4scope for the year	ec3	
 3rendous	4yn	80
 4ible	4yo	3e
 5fic	4yp	80
@@ -381,12 +415,15 @@ aic	4vl	80
 4ess	4z2	1e
 4ile	4z3	fc
 6ity	4z4	c0
+4s of	boj	
 2t	4z5	3
+3 off the press	esm	
 3dog	4z6	1
 3el	4z7	23
 2und	4z8	38
 3r	4z9	3
 3se	4za	63
+5 of woman's husband-to-be	c63	
 5hold	4zb	5c
 9s	4zc	20
 5keeping	4zd	20
@@ -432,6 +469,7 @@ aic	4vl	80
 3p	50h	40
 2nch	50i	80
 3dred	50j	3
+7s of	bo7	
 3ger	50k	5e
 4ry	50l	3
 3k	50m	80

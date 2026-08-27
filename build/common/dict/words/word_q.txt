@@ -1,4 +1,5 @@
-0quack	886	80
+0qi of the northern dynasties	cs4	
+1uack	886	80
 3drangle	887	80
 5ilateral	888	40
 5uped	889	80
@@ -18,6 +19,7 @@ ds	88g	20
 3ndary	88n	c0
 4tify	88o	18
 6tative	88p	78
+7ies of	bmc	
 7y	88q	5e
 5um	88r	80
 3rantine	88s	80

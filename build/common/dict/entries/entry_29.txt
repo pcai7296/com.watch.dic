@@ -440,3 +440,61 @@
 2o	zu:	@动物园	23
 3logy	zau'QladZi	@动物学, 动物区系; | 动物学	20
 3m	zu:m	@急速上升, 变焦摄影, 嗡嗡声; $猛增, 急速上升, 摄象机移动; !使摄象机移动; { 缩放	12
+0of the order of		大约, 约等于
+7name of		名叫...
+3family		出身门第高的
+1ut of		在...外, 离开..., 从...里面, 出于, 由于, 因为, 缺乏, 没有, 放弃, 丧失
+6 sight of		在不能看见...的地方
+0as of		在…时候,从…时候起,到…时候止,直到…
+0make of		用...制造, 了解, 对待
+0off of		从
+2 value		有用的
+3type		类型的
+0method of of averages		平均法
+0of right		使恢复正常, 校正, 纠正
+0free of		无...的, 在...外面
+0of oneself		自动地, 自发地
+0balance of		当付款项
+0of base		没有根据的,捏造的,与事实不符
+0back of		在…后面;在…以前;是…的起因
+0of all		在所有的之中
+0all of		实足
+0give of		奉献, 贡献
+0of record		有案可查的
+0list of of property		财产目录
+0of name		有名的
+0full of		充满; 牣; 尽是
+0come of		出身于, 由...引起
+0one of		其中之一
+0short of		缺乏, 达不到, 除...以外
+0ratio of of depreciation		折旧率
+0list of of prices		价格表, 价目表定价
+0action of of detine		收回被非法占有动产的诉讼
+0list of of quotation		估价目录, 行情表
+bshareholders		股东名单
+0break of		v. 放弃
+0discharge of		卸下
+0turn of		从…撵出去
+0of note		著名的, 显要的
+0part of		部分
+0demand of		要求
+0of old		古时的, 从前的, 很久以前的, 以往的, 从前, 很久前, 早就
+3use		有用
+0clear of		畅通的,无阻的;清除了…的;无,没有
+0die of		死于…,因…而死
+0sort of		有几分地
+0of sort		不怎么样的
+0strip of		剥夺,搬掉
+0of import		的进口
+0care of		由...转交; 转交
+0independent of		独立于...的, 不受...支配的
+0of age		成年, 够岁数了
+3course		当然
+3moment		#重要的, 有意义的
+0talk of		谈到, 说到, 说及
+0read of		读知, 阅悉
+0along of		因为
+0much of		许多,很多
+0summary of		摘要信息
+0write of		写; 记述
+0think of		考虑, 关心, 想起, 记起, 想像, 有...的看法

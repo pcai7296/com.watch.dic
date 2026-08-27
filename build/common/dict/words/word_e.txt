@@ -1,9 +1,13 @@
 0each	381	3
+4 of	bll	
 2ger	382	5e
+5 to be first	duc	
 3le	383	3e
 5t	384	80
 2r	385	3
 3ly	386	3
+5 in the month	dje	
+frning	dka	
 3n	387	16
 4est	388	dc
 4ings	389	8
@@ -26,7 +30,9 @@
 4ward	38q	8
 8s	38r	2
 3y	38s	3
+4 on the eyes	eep	
 2t	38t	3
+3 of	bld	
 2vesdrop	38u	80
 1bb	38v	d0
 2ullience	38w	80
@@ -38,6 +44,7 @@
 3ectic	392	80
 8ism	393	c0
 3ipse	394	78
+7 of the moon	cu0	
 3ogue	395	80
 2ological	396	40
 7st	397	c0
@@ -55,6 +62,8 @@ aly	39b	8
 1ddy	39j	a0
 2entate	39k	40
 2ge	39l	7f
+4 of the road	col	
+cwater	cny	
 2ible	39m	78
 3ct	39n	80
 3fice	39o	c0
@@ -106,6 +115,7 @@ aly	39b	8
 5h	3ay	3
 5y	3az	17
 2ther	3b0	3
+6 one or the other	edf	
 1jaculate	3b1	80
 2ect	3b2	78
 1ke	3b3	20
@@ -149,6 +159,7 @@ as	3bq	2c
 3gible	3c5	f8
 3minate	3c6	fc
 8ion	3c7	4c
+b of the weak	csj	
 3te	3c8	f8
 3xir	3c9	c0
 2lipsis	3ca	80
@@ -219,6 +230,7 @@ as	3bq	2c
 7al	3e3	4c
 2pathy	3e4	80
 3eror	3e5	3e
+7 of the sea	cr8	
 3hasis	3e6	5c
 7ze	3e7	7c
 5tic	3e8	c0
@@ -245,6 +257,7 @@ as	3bq	2c
 4se	3et	40
 3hant	3eu	c8
 3ipher	3ev	80
+4rcling the city	f31	
 3lose	3ew	7c
 6ure	3ex	f8
 3omiast	3ey	80
@@ -258,6 +271,11 @@ as	3bq	2c
 3yclopedia	3f6	f0
 bc	3f7	80
 2d	3f8	23
+3 of the century	cl1	
+bmonth	cko	
+bwar	ckz	
+corld	ck0	
+byear	cgd	
 3anger	3f9	48
 8ed	3fa	40
 3earing	3fb	80
@@ -272,11 +290,14 @@ bc	3f7	80
 5oxin	3fk	40
 4w	3fl	f8
 5ment	3fm	40
+3s of the earth	csb	
 3ue	3fn	c0
 4rance	3fo	78
 5e	3fp	dc
 5ing	3fq	c0
+8 while the world lasts	ero	
 2emy	3fr	17
+5 of the emperor	ct4	
 3rgetic	3fs	7a
 5ies	3ft	20
 6ze	3fu	48
@@ -351,10 +372,12 @@ bc	3f7	80
 7l	3hr	c0
 8ing	3hs	80
 4usiasm	3ht	7c
+a of the new convert	cjv	
 9tic	3hu	3e
 cally	3hv	40
 3ice	3hw	c0
 4re	3hx	1e
+6ly outside the norm	f8k	
 6ty	3hy	80
 4tle	3hz	fc
 7d	3i0	40
@@ -403,7 +426,10 @@ bal	3il	28
 2och	3j7	f8
 1quable	3j8	80
 4l	3j9	7e
+5 to the capital	d8m	
 5ity	3ja	5e
+8 between the sexes	eth	
+9of the sexes	cvc	
 4nimity	3jb	80
 4te	3jc	c8
 5ion	3jd	fc
@@ -459,6 +485,7 @@ bal	3il	28
 5tial	3kr	fc
 2tablish	3ks	3c
 9ment	3kt	1c
+d of	blw	
 4te	3ku	7c
 3eem	3kv	70
 3hetic	3kw	8
@@ -514,19 +541,23 @@ bal	3il	28
 4green	3ma	40
 4lasting	3mb	e8
 4y	3mc	3
+5 color under the sun	epz	
 5body	3md	3
 5day	3me	17
 5one	3mf	3
 5thing	3mg	3
+a under the sun	eud	
 5where	3mh	3
 2ict	3mi	a0
 5ion	3mj	80
 3dence	3mk	7e
+8 that reveals the villain	eb0	
 6t	3ml	5e
 3l	3mm	1c
 3nce	3mn	c0
 3scerate	3mo	c0
 2ocative	3mp	80
+9 of the past	cq8	
 3ke	3mq	f8
 3lution	3mr	7e
 9ary	3ms	48
@@ -547,6 +578,7 @@ bal	3il	28
 4ination	3n7	2d
 6e	3n8	1f
 4ple	3n9	23
+7 from the past	eis	
 7s	3na	20
 4s	3nb	20
 3sperate	3nc	e0
@@ -564,6 +596,7 @@ bly	3nn	40
 4rpt	3no	f0
 4ss	3np	fc
 6ive	3nq	5c
+9 blinking of the eyes	cvd	
 9ly	3nr	8
 3hange	3ns	7e
 4equer	3nt	80
@@ -578,6 +611,7 @@ bly	3nn	40
 4ude	3o2	fc
 5sion	3o3	40
 7ve	3o4	fc
+9 of	bkr	
 9ly	3o5	6c
 3ogitate	3o6	80
 4riate	3o7	80
@@ -629,6 +663,7 @@ aon	3p2	80
 3rbitant	3ph	e0
 4cise	3pi	80
 3tic	3pj	f8
+6 odors assail the nostrils	f8o	
 2pand	3pk	fe
 6ing	3pl	40
 5se	3pm	40
@@ -681,6 +716,7 @@ as	3qb	20
 bly	3qx	80
 4rt	3qy	36
 4se	3qz	7e
+6d to the sun	dc7	
 5ition	3r0	e8
 7ory	3r1	80
 5tulate	3r2	80
@@ -700,6 +736,8 @@ bly	3qx	80
 8ize	3rg	80
 4nd	3rh	fc
 6ed	3ri	40
+6ing forever into the distance	epr	
+ainto the distance	eps	
 5sion	3rj	7e
 7ve	3rk	7c
 5t	3rl	7c
@@ -725,6 +763,7 @@ cy	3s4	5e
 5polate	3s5	80
 5vagance	3s6	80
 at	3s7	78
+b in the extreme	dmg	
 4eme	3s8	3e
 7ly	3s9	e
 6ist	3sa	80
