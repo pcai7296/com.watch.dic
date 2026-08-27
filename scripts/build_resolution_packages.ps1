@@ -37,7 +37,7 @@ foreach ($target in $targets) {
     throw "No RPK generated for $($target.Id)"
   }
 
-  $name = "com.watch.dic.w212.debug.2.3.0.$($target.Id.ToLowerInvariant()).rpk"
+  $name = "com.watch.dic.w212.debug.3.1.0.$($target.Id.ToLowerInvariant()).rpk"
   $destination = Join-Path $staging $name
   Copy-Item -LiteralPath $rpk.FullName -Destination $destination -Force
   $bytes = [System.IO.File]::ReadAllBytes($destination)
@@ -49,7 +49,7 @@ foreach ($target in $targets) {
     file = $name
     sha256 = $hash
     package = "com.watch.dic.w212"
-    version = "2.3.0"
+    version = "3.1.0"
   }
 }
 

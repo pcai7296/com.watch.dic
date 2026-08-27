@@ -1,5 +1,36 @@
 # 更新日志
 
+## 3.1.0（2026年8月26日）—— 性能与搜索体验优化 🚀
+
+- 普通英文搜索优先展示中高考（zk/gk）单词
+- 双字中文搜索内存大幅优化：cn_index 按需扫描、entry 按需提取、shard 分组加载
+- 修复中文搜索“未找到”：词典文本读取统一去除 CR
+- results 页 storage 回调补齐 complete/success/fail，日志更干净
+- 历史记录防重复写入
+- 英文输入联想默认关闭
+- 首页按压缩放动画优化（移除不支持的 @keyframes，改用 transition）
+- InputMethod 移除自定义 ready 事件冲突
+- 版本号升至 3.1.0
+
+---
+
+## 3.0.0（2026年8月15日）—— 大词库与多档位 📚
+
+- 引入 dev/lite/standard 三档词典 profile，meta.json 驱动运行时动态分片
+- 支持大词库：标准档 70,000+ 英文词头，lite 档 20,000+
+- 英文索引升级：双字母分片 + head 分片，降低大词库内存占用
+- 中文索引支持 balanced/core 裁剪模式，体积与覆盖率可调
+- 新增词典审计脚本（profile_audit）与性能/自一致性基准（bench_search）
+- 修复 front-code 超长公共前缀导致大词库生成失败
+- Windows 下词典原子替换改用 shutil.move，避免目录残留
+- meta.json 使用相对路径，仓库可移植
+- 模糊搜索 split limit，避免大词库分片全量数组
+- 移除补全候选 800 行硬截断，按前缀即时解码
+- 构建产物 build/dist 不再纳入 Git，RPK 改由 Release 发布
+- 新增词典档位说明与 Worktree 切换文档
+
+---
+
 ## 2.3.1（2026年7月30日）—— 翻页修复 📖
 
 🐛 翻页修复

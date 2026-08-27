@@ -99,7 +99,7 @@ export default {
     destroyed: false,
     autoSearchPending: false,
     englishSuggestionToken: 0,
-    englishSuggestionEnabled: true,
+    englishSuggestionEnabled: false,
     searchSwipeExitLocked: true,
     searchSubmitLocked: false,
     _suggestionTimer: null,
@@ -641,7 +641,7 @@ export default {
   loadEnglishSuggestionSetting() {
     storage.get({
       key: "dic_english_suggestions",
-      default: "1",
+      default: "0",
       success: (data) => {
         if (this.destroyed) {
           return
