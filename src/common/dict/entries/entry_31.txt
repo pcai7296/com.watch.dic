@@ -1,500 +1,500 @@
-0the military and the police		军警
-4sound and the fury		喧哗与骚动
-4outside and the inside		表里
-4fundamental and the incidental		本末
-4sick and the wounded		伤病员
-4moon and the stars		星月
-4prosecution and the defense		控辩
-4whys and the wherefores		根由
-1o be considered to be		即为
-6defined to be		即为
-6suspected to be		疑似
-6on the go		奔走
-dmove		流转
-1he world in the large		宏观世界
-4person in the street		普通人
-1o be on the alert		留心眼儿
-dlookout		把风
-1he elephant in the room		房间里的大象
-0be out of the question		不行
-0the airway in the throat		喉管
-1o be at the scene		临场
-6over the moon		心花怒放
-7ff the mark		失准
-6the same age		同年
-1he right to be elected		被选举权
-1o be off the beat		走板
-6the last resort		不得已而为之
-6precisely the same		如出一辙
-6the same		撞车
-6around the corner		将至
-6the sole survivor		独生
-areigning emperor		坐龙庭
-achef		主厨
-aacknowledged leader		执牛耳
-astarting pitcher		先发
-6a second so-and-so		再生
-6of benefit to		惠及
-1he word on the street		坊间传言
-1o be a proponent of		倡导
-1he sermon on the mount		山中圣训
-1o have the right to		有权
-1he many or the few		众寡
-1o have the audacity to		胆敢
-3be a benefit to		裨益
-6in charge of		主抓
-1he more the better		多多益善
-1o be in command of		统辖
-9favor of		支持
-1he new replaces the old		新陈代谢
-0can be said to be		堪称
-0the sun over the sea		海日
-4way the wind blows		风头
-4region between the kidneys		命门
-bnear the line		沿线
-baround the river		沿江
-4less complications the better		多一事不如少一事
-4sooner the better		趁早
-4fish enter the trap		鱼丽
-4boot hits the floor		靴子落地
-4punishment fits the crime		罪有应得
-5ros outweigh the cons		瑕不掩瑜
-0cannot be said to be		无所谓
-0to take the measure of		打量
-4hink of the past		缅怀
-4ake the shape of		具体到
-cliberty of		不揣冒昧
-3be in a rush		猴急
-bhurry		赶时间
-3follow the example of		效法
-3be in a tangle		纠缠
-bpredicament		前不着村，后不着店
-bdaze		愣神儿
-bcoma		昏迷
-3win the support of		收揽
-3play the role of		充当
-3follow the trail of		追蹑
-3win the trust of		取信
-3the left of		左边
-7side of		一旁
-1he back of a chair		椅背
-1o leave the confines of		脱出
-3draw the outline of		勾勒
-3test the taste of		咂摸
-4he north of		以北
-7south of		以南
-3ban the sale of		禁售
-4ear the weight of		支承
-3the west of		以西
-7east of		以东
-3confirm the truth of		证明
-3supervise the manufacture of		监制
-1he law of a state		王法
-1o assign the task of		责成
-3infringe the rights of		侵权
-3spoil the beauty of		毁容
-3cherish the memory of		怀念
-3sing the praises of		捧场
-3boost the morale of		助威
-3the satisfaction of everyone		大快人心
-3grasp the meaning of		弄懂
-3forbid the eating of		禁食
-1he course of a race		赛程
-4start of a race		起跑
-4tone of a school		校风
-4life of a pasha		齐人之福
-4eye of a needle		针鼻
-4top of a building		顶层
-4surface of a wall		墙面
-4edge of a bed		床沿
-4scene of a fire		火场
-5ound of a bell		钟声
-4date of a meeting		会期
-4mouth of a river		河口
-4fire of a stove		炉火
-4content of a conversation		一席话
-4strokes of a character		字画
-4crop of a bird		嗉子
-4edge of a knife		刀口
-4kitchen of a restaurant		内场
-4outcome of a battle		胜负
-4crying of a baby		呱呱
-4mid-slope of a mountain		半山腰
-4sides of a ship		船舷
-0a slip of the tongue		口误
-0the frame of a building		屋架
-4sheath of a pen		笔套
-0a snap of the fingers		拈指
-0the sleeve of a garment		衣袖
-4beam of a steelyard		秤杆
-4duration of a conference		会期
-4umbilicus of a melon		瓜脐
-1o find the time to		抽时间
-3go to the office		上班
-dcapital		诣阙
-dkitchen		下厨
-dcountryside		下乡
-dmoon		登月
-dtoilet		出恭
-4et to the top		登顶
-4o to the bathroom		上一号
-ddogs		落水
-dmountains		上山
-3take to the road		就道
-3give the eye to		眉眼传情
-3come to the surface		表面化
-frescue		接应
-3give to the needy		赒恤
-fdeparted		追赠
-0not in the mood to		无心
-0direct and to the point		干脆
-0brief and to the point		简明扼要
-0to keep to the side		靠边
-3put to the test		考验
-3keep to the subject		切题
-3announce to the world		公诸于世
-3put to the torch		付之一炬
-3talk to the king		启奏
-3keep to the edge		溜边
-0in the course of time		一来二去
-0to return to the past		复旧
-3add to the fun		助兴
-3fall to the ground		倒地
-3appeal to the public		诉诸公论
-3feed to the full		填饱
-3respond to the market		应市
-5turn to the capital		回京
-4ise to the occasion		应运而生
-3speak to the audience		口播
-4end to the press		付梓
-3rise to the surface		浮上
-3fight to the death		死战
-3return to the topic		言归正传
-3drop to the ground		卧倒
-3rise to the sky		升空
-4eturn to the sender		回退
-3present to the emperor		引见
-3adapt to the situation		见景生情
-3raze to the ground		夷为平地
-3dance to the beat		踩点
-3fly to the moon		奔月
-3stick to the topic		扣题
-3commit to the flames		付之一炬
-5nnect to the internet		上网
-3fill to the brim		加满
-3probe to the bottom		穷尽
-3rush to the rescue		驰援
-3succeed to the throne		即位
-3migrate to the cloud		上云
-3strip to the waist		袒膊
-0in the fullness of time		久而久之
-0to aspire to the throne		问鼎
-5cend to the throne		登大宝
-3surrender to the authorities		投案
-0a word to the wise		闻一知十
-0in front of the door		门前
-3the dead of night		夜深人静
-7name of		代表
-3advance of the field		头里
-3the light of		比照
-3command of the army		挥师
-3the prime of youth		妙龄
-7style of annals		编年体
-7presence of		当着
-7capacity of		身为
-7wake of		随着
-7midst of		之中
-7years of		年间
-0to be a good-for-nothing		不是东西
-3work in the fields		上山下乡
-1he gap couldn't be bigger		不啻天渊
-0a person in the know		个中人
-0not to have the guts		没种
-0to look in the mirror		照镜子
-3be a substitute for		充作
-3stab in the back		暗害
-3be of one mind		一条心
-dvoice		众口同声
-3live in the moment		今朝有酒今朝醉
-3weigh in the hand		掂量
-3number in the thousands		以亿计
-3appear in the news		上报
-3remain in the hospital		留院
-3stand in the corner		面壁思过
-3poke in the eye		插眼
-3appear in the flesh		现身
-3be out of power		在野
-3shoot in the air		无的放矢
-4erve in the army		从军
-3bask in the light		沾光
-3hang in the air		悬空
-3dance in the air		飘舞
-3circle in the air		飞翔
-3join in the fun		凑热闹
-3dry in the sun		晒干
-3float in the air		空中飘浮
-3wait in the wings		候场
-3swirl in the air		纷飞
-3rustle in the air		萧瑟
-3publish in the newspapers		登报
-3be out of office		在野
-3dry in the shade		阴干
-3float in the wind		飘举
-3dance in the breeze		飞舞
-3flutter in the wind		迎风招展
-3shrink in the wash		抽水
-3faint in the bathroom		晕池
-3nip in the bud		杜渐防萌
-3be out of credit		停机
-dstock		断档
-6a tax on		劳神
-6out of luck		倒霉
-dkilter		失准
-dpractice		荒疏
-6a burden on		拖累
-6on a sabbatical		赋闲
-0a walk in the park		轻车熟路
-0to be referred to as		唤做
-1he females in a family		内眷
-0a job in the bureaucracy		官职
-0the food in a dish		盘飧
-1o be of use		顶用
-0a nip in the air		寒意
-2shot in the dark		无的放矢
-2pain in the neck		讨嫌
-2drop in the ocean		九牛一毛
-2positive in the negative		不幸之幸
-2beauty in the bud		美人坯子
-0the truth in a flash		顿悟
-0a straw in the wind		一叶知秋
-2crick in the neck		失枕
-2nook in the mountains		山阿
-0house of woman's husband-to-be		人家
-0to be very fond of		钟爱
-6of vital interest		利害攸关
-6sure of success		胜算
-6beyond control of		由不得
-6certain of victory		必胜
-6full of zeal		来劲
-eremorse		自怨自艾
-d		充斥
-d admiration		激赏
-etricks		见招拆招
-evigor		发扬踔厉
-6weary of war		厌战
-6free of worries		安枕
-6assured of success		左券在握
-6short of		短欠
-6fully aware of		明知
-6at a loss		大惑不解
-6taken advantage of		任人宰割
-6of importance		当事
-6born of		出身
-6capable of		能够
-6afraid of heights		恐高
-gstrangers		怕生
-6of burrowing habit		穴居
-6proud of oneself		自高
-6fond of		喜爱
-6jealous of		妒嫉
-6cognizant of		认知
-6enamored of		恋慕
-6informed of		知悉
-6scared of dying		怕死
-7uspected of		涉嫌
-i bribery		涉贿
-6tired of living		活得不耐烦
-6worthy of		不愧
-6at a disadvantage		占下风
-bstandstill		踏步不前
-3have the final say		说了算
-3be just about to		刚一
-6certain to get		稳获
-6up to mischief		使坏
-6about to die		将死
-farrive		将至
-fmaterialize		有眉目
-e		待要
-3have attained the way		有道
-3be first to start		领头
-3have the same name		重名
-cright taste		是味儿
-3be a yes-man		唯唯诺诺
-8go-getter		进取
-0on the other side of		以外
-0to be right next to		紧邻
-3compete to be first		争先
-3dare to be first		敢为人先
-3be first to		挑头
-6avaricious and mean		贪鄙
-0for the life of me		死活
-0to be good-hearted and honest		让畔
-3have the wandering eye		吃着碗里，看着锅里
-3be unable to find		找不着
-6face to face		对面
-6able to support		吃得住
-6loud and clear		戛然
-3have the nerve		好意思
-0for the purpose of		借以
-0to have the gall		有脸
-cknack		熟习
-3be apt to change		善变
-3have the runs		腹泻
-3be able to bear		吃得住
-etouch		摸得着
-0for the sake of		以利于
-0to ask to be excused		告便
-3try to be brave		逞强
-3be unable to pay		支付不起
-6able to afford		吃得消
-6in love with		爱上
-6able to swim		会水
-eendure		可堪
-6determined to win		势在必得
-6ashamed to face		愧对
-6difficult to bear		难受
-6able to withstand		经得起
-d		能够
-6full to overflowing		满溢
-6unable to continue		断港绝潢
-6in step with		接轨
-3consider oneself to be		自命
-cto be		视为
-h worthless		视如敝屣
-3be a good deal		合算
-6unable to stand		禁不起
-3appear to be		貌似
-3be likely to succeed		有边儿
-5lieve oneself to be		自居
-5 pithy and correct		一语道破
-6brave enough to		勇于
-6close to		傍近
-3happen to be		刚好
-3claim to be		自称
-3arrange to be ready		整装
-3be sure to		务必
-6deaf and blind		眼瞎耳聋
-6honest and upright		作风正派
-6eager and anxious		怦怦
-6shocked to learn		惊悉
-6anxious and frightened		惴惴不安
-iworried		忧思
-6necessary to		用得着
-6observant and alert		眼观六路耳听八方
-6unable to reach		够不着
-6ambitious and unafraid		长风破浪
-6ostentatious and extravagant		摆阔
-6a good fit		合体
-6frightened to death		胆破
-6drunk and rowdy		酗讼
-0just at the time of		正值
-0to be literate and numerate		能写会算
-6confused and disoriented		找不着北
-6dazzled and stunned		目眩神迷
-7efeated and dispersed		败亡
-6laughing and playing		嬉笑
-6routed and dispersed		溃散
-6scattered and lost		散佚
-6wealthy and heartless		为富不仁
-7ined and dined		吃请
-6a good match		相契
-6in harmony with		融合
-3pretend to be poor		哭穷
-3be a different person		判若两人
-6in relation with		来往
-6equal to		匹敌
-6shoulder to shoulder		比肩
-3pretend to be nice		装好人
-3fail to be chosen		落选
-eretained		流失
-3prove oneself to be		不愧
-3be unable to bear		经不住
-6sent to prison		入狱
-6ready to		甘于
-6lost to memory		泯没
-3confirm to be false		证伪
-3pretend to be lovely		装可爱
-3declare to be untrue		否认
-3be unable to resist		经不起
-6willing to		甘心
-6diagonally opposite to		斜对
-6unable to intervene		插不上手
-6witness to		见证
-3pretend to be asleep		装睡
-3be unable to breathe		喘不过气来
-6loyal to		忠于
-0on the point of death		不行了
-0to pretend to be naive		装傻
-hsolemn		故作端庄
-3deserve to be called		不愧
-3be superior to		更胜
-6deaf to		听不进去
-6contrary to		违背
-3pretend to be		伪装
-3be bound to prevail		必胜
-6unable to endure		不支
-6amenable to persuasion		服软
-6subjected to		饱受
-6indifferent to		看淡
-8ferior to		矮半截
-6prone to		倾向于
-6sent to slaughter		出栏
-6hospitable to		款待
-6tantamount to		等于
-6abbreviated to		略作
-7ccustomed to		过惯
-7ddicted to		沉迷
-8justed to uniformity		整齐划一
-8mitted to		考取
-7ffiliated to		归属
-7ntagonistic to		对立
-6bound to		势必
-7umper to bumper		大排长龙
-6comparable to		堪比
-8nfined to		限于
-6dedicated to		奉祀
-8termined to		执意
-7rawn to		吸住
-6entitled to		有权
-6generally referred to		通称
-7oing to		将要
-6harmful to		妨害
-6intended to		旨在
-6known to everyone		街知巷闻
-6limited to		只限于
-6partial to		右袒
-7romoted to		升上
-6reduced to		沦为
-7ooted to		植根于
-6sentimentally attached to		恋慕
-6transferred to		转归
-6unable to		不克
-8suited to		不合
-7sed to		习惯
-3the point that		以致于
-0not wide of the mark		不为过
-0on the point of departure		临行
-imise		濒死
-0to be a problem		成问题
-8true friend		够朋友
-8real headache		伤脑筋
-8big disappointment		坑爹
-0not beyond the scope of		不外
-0on the eve of war		临战
-7happy occasion of		欣逢
-0to the extent that		甚或
-3be a culture snob		附庸风雅
-0on the up and up		步步高升
-0to be a laughing stock		闹太套
-0on the basis of		基于
-0to be a successful candidate		得中
-8wet blanket		大杀风景
-3do with the masses		群众性
-0on the edge of		濒临
-0to be a suspect		涉嫌
-9oldier		当兵
-8bargain		合算
-8movie actor		从影
-8sitting duck		待毙
-0on the brink of crisis		危在旦夕
-0to be a thief		作贼
+0simplistic		图样图森破
+0undertaker		殡仪员
+0paramilitary		新疆生产建设兵团
+0contraception		安全措施
+0parsley		欧芹
+0transnational		跨国
+0gravely		一病不起
+0duo		了去了
+0epidemiology		传媒
+0homology		同源
+0cardigan		羊毛衫
+0pelvis		肾盂
+0empress		乾陵
+0chauffeur		司机
+0marines		海军陆战队
+0afro		爆炸头
+0hoover		胡佛
+0almighty		大能
+0radiance		光彩
+1ecapture		夺回
+0maggot		蛆
+0unto		各异
+0heron		地瓜鸟
+0apathy		哀莫大于心死
+0serf		劳役
+0theologian		爱留根纳
+0restate		重述
+0mutiny		兵变
+0leach		冲掉
+0chariot		乘
+0megawatt		兆瓦
+0snipe		大沙锥
+0cholera		痧
+0busted		吹了
+0macroeconomic		宏观经济
+0sulk		怄
+0rottweiler		罗威纳犬
+0crucifix		十字
+0nipple		乳头
+0cortex		凹朴皮
+0incest		乱伦
+0situ		原位
+0adultery		奸
+0coconut		彩虹鹦鹉
+0pixel		像元
+0indo		印太
+0uptake		鲁钝
+0outpatient		门诊
+0subcontract		分包
+0wooded		山林
+0abc		澳洲广播电台
+0longitudinal		纵
+0pedigree		串串
+0taxonomy		干旱土
+0cracker		仙贝
+0householder		住户
+0skid		打滑
+0adhesion		沾黏
+0sleek		光滑
+0firth		科林·弗思
+0cursor		光标
+1hristen		取名
+0jab		戳
+0inversion		倒位
+0sideline		副业
+0audiovisual		影音
+0groin		股癣
+0undergrowth		树丛
+0fetal		胎动
+0mockery		嘲笑
+0thrush		光背地鸫
+0livery		制服
+0sheikh		哈西纳
+0protracted		拖欧
+0electrify		通电
+0criminology		犯罪学
+0biotechnology		生技
+0tribune		国际先驱论坛报
+0outstretched		庹
+0decor		内饰
+1un		敦
+0vinyl		乙烯
+0bailiff		公差
+0stag		公鹿
+0ghetto		噪音盒
+0pram		婴儿车
+1olyp		息肉
+0nucleotide		尿嘧啶
+0sphincter		括约肌
+0overlay		叠加
+0predispose		预设
+0cad		计算机辅助设计
+0dresser		变装者
+0valentine		七夕
+0hefty		彪壮
+0proviso		但书
+0expiry		到期日
+0dough		剂
+0blitz		爆炒
+0thug		恶少
+0vaulting		尤尔钦科
+0platinum		白金
+0hertz		赫
+0titan		克罗诺斯
+2ller		分蘖
+0mule		是骡子是马，牵出来遛遛
+1isguided		大跃进
+0oats		五谷
+0mega		兆
+0enclave		内飞地
+0sauna		三温暖
+0coli		大肠杆菌
+0ark		挪亚方舟
+0stronghold		劫寨
+0ombudsman		信访局
+0impressionist		凡高
+0miscarry		小产
+0harlequin		丑鸭
+0dope		二百五
+0funk		放克
+0octave		低八度
+0italic		正体
+0equivalence		等价关系
+0skinny		干瘦
+0mandarin		K书
+0subset		一部分
+0overpower		制伏
+0tuft		撮
+0pancreatitis		胰腺炎
+0trump		主
+0pheasant		勺鸡
+0daffodil		喇叭水仙
+0veranda		廊
+0asbestos		火浣布
+0orangutan		猩猩
+2chestrate		主使
+0vodka		伏特加
+0headlight		前大灯
+0cabaret		卡巴莱
+0mellow		圆润
+0chassis		床
+0tunic		中山服
+0systemic		全身性红斑狼疮
+0teller		出纳员
+0hangover		宿酒
+2rrier		乌灰鹞
+0stow		储物
+0pep		愣劲儿
+0flurry		慌忙
+0misconduct		薄熙来
+0geophysics		地球物理
+0babe		宝子
+0staunch		刚烈
+0headland		地岬
+0thistle		荼
+0amen		诚心所愿
+0swathe		半壁江山
+0rump		尻
+0monde		世界报
+0append		依附
+0populist		民粹派
+0bullock		牯
+0hoot		叫嚣
+0cobalt		回回青
+0karate		手刀
+0pronouncement		声言
+0camcorder		录影机
+2tchment		学区房
+0fizz		咝
+0hardline		强硬派
+0grapple		扭打
+0histamine		组织胺
+0destabilize		动摇
+0lymphoma		淋巴瘤
+0muzzle		口吻
+0enthalpy		焓
+0curate		策展
+0stallion		儿马
+0punitive		北征
+1olyester		多元酯
+0cordon		封锁线
+0mead		蜂蜜酒
+0duvet		被套
+0clove		丁香
+0basalt		玄武岩
+0choral		声部
+1entrifuge		脱水机
+0impedance		偏置电阻
+0executor		执行人
+0precondition		先决条件
+0typeset		拼版
+0cum		埃蕾
+0froth		撇掉
+0terrier		㹴
+0secession		反分裂法
+0marquis		五等爵位
+0aback		大吃一惊
+0nostalgic		怀古
+0tectonic		板块
+0entropy		交叉熵
+0tandem		协力车
+2rtan		塑胶跑道
+0paddock		赛车女郎
+0sabbath		主日
+1equel		后传
+0yew		李光耀
+0outlay		用
+0polythene		聚乙烯
+0notional		不一致字
+0scribe		仓颉
+0clarinet		单簧管
+0kingfisher		三趾翠鸟
+2dding		废话
+0aerosol		气溶胶
+0misplace		丢失
+0regency		凯悦
+0winch		绞车
+0electro		弱电统一
+0stead		挂机
+0ethernet		乙太网路
+0persona		人设
+0kitty		凯蒂
+0corollary		推论
+0shin		新义州市
+0admiralty		金钟
+0lob		高球
+0inlay		嵌
+0skeletal		氟骨症
+1uede		鞣
+0inescapable		天罗地网
+0lunge		弓箭步
+0cull		扑杀
+0emu		鸸鹋
+0moderation		不为酒困
+0disobedient		乖忤
+0viz		九流
+0chime		一拍即合
+0harem		三妻四妾
+0nay		内比都
+0tut		切
+0fibrosis		纤维囊泡症
+0monoxide		一氧化碳
+0tanner		唐纳
+0zion		郇山隐修会
+0parchment		仿羊皮纸
+0casino		娱乐场
+0spasm		抽动
+0flotation		浮选
+0casserole		焖
+0soiled		纣
+0elective		退选
+0soles		脚底
+0combo		连招
+1ustard		卡仕达
+0waltz		圆舞曲
+0syphilis		大疮
+0grime		污垢
+0mussel		海虹
+0rabbi		拉比
+0carte		单点
+0bio		生物
+0autograph		签名
+0seductive		冶
+0jut		出头的椽子先烂
+0mink		水貂
+0sadist		虐待狂
+1cone		司康
+0primrose		报春花
+0flog		抶
+0stretcher		担架
+0topaz		红璧玺
+1endon		手筋
+0jostle		挨挤
+0boulevard		林荫道
+0evangelist		玛窦
+0buttock		股沟
+0manic		躁狂
+0whimper		吭哧
+3z		呼啸
+0trendy		拉风
+1atter		碎片
+0nouveau		土豪
+0raspberry		山莓
+0modal		了
+1ull		咂摸
+0blanc		勃朗峰
+0dung		屎蚵螂
+0apocalypse		五瘟神
+0spaghetti		吊带衫
+0gravy		底汁
+0fuselage		机身
+0tableau		画面
+0scavenge		觅食
+1tratosphere		同温层
+0benchmark		基准
+0dichotomy		伪命题
+0hurtle		呼啸而过
+0yank		强拉
+0papacy		教廷
+0kiwi		奇异果
+0mongol		且末县
+1asturbate		五打一
+0fairway		球道
+0highness		主公
+0yogurt		优格
+0chemotherapy		化学治疗
+0stave		五线谱
+0canton		州
+0hawking		摆卖
+0reputable		正派
+0overdo		画蛇添足
+0snuff		绞杀
+0pee		上一号
+0menopause		停经
+0stagnate		凝滞
+0tensor		张量
+0munch		朵颐
+0inflect		屈折语
+0pathogenesis		病机
+0transparency		统一发票
+0handcuff		镣锁
+0com		中国新闻网
+0juniper		刺柏
+0warhead		化学战斗部
+0snapshot		快照
+0bramble		树莓
+0chub		鲦
+0parapet		俾倪
+0leech		吸血鬼
+0paraffin		巴拿芬
+0radiology		放射学
+0brothel		冶游
+0reset		复位
+0wholehearted		披肝沥胆
+0pulsar		波霎
+1ew		□
+1hoton		光子
+0nether		地府
+0cleric		监牧
+0jurassic		中生代
+0aggrieved		哀怨
+0cossack		哥萨克
+0fearsome		张飞
+0blaspheme		亵渎
+0expo		世博
+0intelligentsia		知识分子
+0clover		三叶草
+0providence		上天
+0leek		五荤
+0tubular		匜
+0cobra		印度眼镜蛇
+2smology		多元宇宙
+2urtier		弄臣
+0ember		火星子
+0hereby		特此
+0rummage		翻
+0bon		一路平安
+0hypnosis		催眠状态
+0emir		埃米尔
+0romp		嬉戏
+0sigma		西格玛
+0precinct		人行区
+0revamp		翻新
+0surety		作保
+1tubble		再生稻
+0overtone		弦外之音
+0divinity		月下老人
+0underclass		下级
+0recharge		充值
+2bound		反噬
+0partridge		四川山鹧鸪
+0typography		全身
+0fondant		翻糖
+0whack		失序
+0saxophone		萨克斯
+0offside		越位
+0tat		任达华
+0breech		枪闩
+0platoon		分队
+0buzzard		喜山𫛭
+0infra		次
+0sine		正弦
+0wisp		一溜烟
+0crossword		填字游戏
+0deconstruct		解构
+0ling		95后
+0miscellaneous		九流
+0wallaby		小袋鼠
+0superego		超我
+0keel		龙骨
+0anemone		刺丝囊
+0lotion		乳液
+0nozzle		加油枪
+0baggy		吊裆裤
+1igwig		大腕
+0soprano		女高音
+1haman		巫
+0tot		炸薯球
+0outcrop		乌鲁鲁
+0cystic		纤维囊泡症
+0ligament		韧带
+1exicography		例语
+0modulus		系数
+0parole		假释
+1rostaglandin		前列腺素
+0tern		大凤头燕鸥
+0chalet		小屋
+0monolith		巨石
+0obstetrics		催生
+0fart		出溜屁
+0lacquer		唇釉
+0jetty		埗
+0nightingale		夜莺
+0revolver		左轮手枪
+0billet		差使
+0orgasm		性交高潮
+0louse		书蠹
+0discontinuity		不连续面
+0recoup		回本
+0sorcerer		妖人
+0myocardial		心梗
+0beige		米色
+0straddle		跨
+0priori		先验
+0domino		多米诺
+0undercover		密访
+0alderman		市议员
+0mousse		慕斯
+0afloat		水能载舟，亦能覆舟
+1lto		中阮
+0graffiti		到此一游
+0binge		刷剧
+0measles		德国麻疹
+0geriatric		老龄
+0whence		何处
+0ventricular		室颤
+0bicarbonate		小苏打
+0cardiovascular		心血管
+0marmalade		果子酱
+0flue		气道
+0cadre		下放
+0reissue		再发
+0vassal		封国
+0sortie		架次
+1quirm		蠕
+0tearful		含泪
+0foundry		工种
+0pulmonary		慢性阻塞性肺病
+0urn		捡骨
+0eigenvalue		本征值
+1ucharist		圣餐
+0commodore		准将
+0jumbo		繁文缛节
+0suffix		上
+0nigger		尼哥
+0rosette		乌塌菜
+0caster		脚轮
+0bracken		蕨
+0meningitis		流脑
+0kinase		激酶
+0ligand		配体
+0catfish		塘虱
+0peregrine		游隼
+0albumin		白蛋白
+0claret		紫红色
+0threesome		3P
+0pooh		不善
+0octagon		八角形
+0morrow		次日
+0showdown		PK
+0footage		剪接
+0sonic		爆声
+0lousy		操蛋
+0aromatherapy		芳疗
+0introspect		内观
+0hawthorn		冰糖葫芦
+0geranium		天竺葵
+0encore		安可
+0ganglion		神经节
+1rub		蟊
+0hernia		疝
+0neutrophil		中性粒细胞
+0monoclonal		单克隆抗体
+0unwind		抽丝剥茧
+0sludge		污泥
+0dismount		下马
+0guarantor		中保
+0weighty		千里寄鹅毛
+0lifeline		命脉
+0basilica		圣伯多禄大殿
+0orgy		杂交派对
+0hog		一不做，二不休
+0meteorological		世界气象组织
+0terracotta		俑坑
+0wart		尖锐湿疣
+0baronet		斯当东
+0tang		趟
+0pragmatism		不管白猫黑猫，捉住老鼠就是好猫
+0fugitive		亡命之徒
+0jig		啪啪啪
