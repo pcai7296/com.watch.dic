@@ -1,442 +1,500 @@
-0the qing court		清廷
-4class enemy		人民公敌
-4bronze age		青铜器时代
-4pro-war faction		主战派
-4landlord class		地主阶级
-4male sex		男性
-4big dipper		北斗星
-4opium war		鸦片战争
-4crimean war		克里木战争
-4korean war		六二五战争
-4final straw		压死骆驼的最后一根稻草
-0outside the body		体外
-0the main points		要旨
-4capitalist class		资产阶级
-4earth's magnetic field		地磁场
-4whole neighborhood		四邻八舍
-5est wing		白宫群英
-4eight immortals		八仙
-bnfluential points		八会穴
-aprecepts		八戒
-4lion's share		大头
-4international media		国际媒体
-0double the amount		两倍
-0the final years		末年
-0outside the door		门外
-0the nine-toothed rake		九齿钉耙
-4exam period		考期
-4sky above		上天
-4nine springs		九泉
-4tiniest bit		一分一毫
-4north temperate zone		北温带
-afrigid zone		北寒带
-4female sex		女性
-4top ranks		前茅
-4global south		全球南方
-0along the border		沿边
-0the international communist movement		国际共产主义运动
-4catholic church		天主教会
-2roughout the land		海内
-2e north magnetic pole		北极
-apole		北极
-4distant past		上古
-4south magnetic pole		南极
-apole		南极
-4die is cast		无可挽回
-1o forget for a while		丢开
-1he essential character		神髓
-4dead sea		死海
-0areas outside the city		野外
-0encircling the city		环城
-0the forbidden city		故宫
-4monastic community		僧伽
-4situation is tense		风声紧
-4calligraphic community		书坛
-0st mark the evangelist		马尔谷
-0the current imperial dynasty		圣朝
-4opposite sex		异性
-4northern sea		溟池
-0above the fray		忘机
-0the exam date		考期
-4pagoda bearing god		托塔天王
-4true god		真神
-4following section		后段
-4critical moment		生死关头
-5urrent reigning emperor		圣躬
-4minutest detail		秋毫
-4common silkworm		家蚕
-4wrong bus		错车
-4apollo project		太阳神计划
-4southern cross		南十字座
-5ituation is grim		形势严峻
-4northern expeditionary army		北伐军
-4current dynasty		国朝
-4lingering death		凌迟
-4middle generation		中生代
-4ten commandments		十戒
-0behind the scenes		内幕
-6-the-scenes supporter		后台
-0changes behind the scenes		潜移
-0meaning behind the words		口风
-0the hausa language		豪萨语
-1o work on a train		跑车
-1he situation is hopeless		病入膏肓
-0beyond the earth		天外
-0the communist youth league		共产主义青年团
-4following morning		明朝
-4analytic method		分析法
-4emperor's bed		龙床
-4greater self		大我
-0following the model		沿例
-0lower the curtain		闭幕
-0the sieve method		筛法
-4previous dynasty		前朝
-4axiomatic method		公理法
-4correct path		正道
-4key trick		要诀
-4northern song dynasty		北宋
-4entire sum		全数
-4yellow river basin		黄河流域
-4fourth wall		第四堵墙
-4united states		合众国
-2roughout the united states		全美
-2e detailed story		根由
-0cannot bear the burden		负担不起
-0the working poor		穷忙族
-0filling the entire sky		弥天
-0the heart sutra		心经
-4pan-pearl river delta		泛珠江三角
-0hidden beneath the surface		潜藏
-0the imperial college		国学
-0propitious wind throughout the journey		一帆风顺
-0the double ninth festival		重九
-4sun's corona		日冕层
-0facing the sun		向阳
-0tending towards the sun		喜阳
-1he rising sun		旭日
-4setting sun		夕阳
-5un shines brightly		阳光明媚
-ffiercely		骄阳似火
-4animal kingdom		后生动物
-4vast majority		绝大多数
-0bordering the sea		滨海
-0respect the aged		尊老
-0the customer reigns supreme		顾客至上
-4damage is done		覆水难收
-4band-tightening spell		紧箍咒
-4capital theater		首都剧场
-4genuine article		本尊
-4autumn wind is soughing		秋风飒飒
-4earth's core		地心
-4cockroach principle		老鼠拖木锨，大头在后头
-4soft knife		软刀子
-5ilver screen		银屏
-4breeding season		发情期
-4flowering season		花期
-5ruiting season		果期
-4rutting season		动情期
-4season changes		换季
-4western pacific ocean		西太平洋
-1o ask for a beating		招打
-dfavor		求情
-1he southern song dynasty		南宋
-1o write for a living		摇笔杆
-1he teacher's seat		讲筵
-4prime meridian		本初子午线
-4faction seeking peace		鸽派
-4peace faction		主和派
-0his excellency the army commander		师座
-0the qin army		秦军
-7g army		清军
-4northern hemisphere		北半球
-0burning the midnight oil		聚萤映雪
-0the summer solstice		夏至点
-4western hemisphere		西半球
-4cool autumn breeze		秋风送爽
-4northern zhou dynasty		北周
-4western paradise		西天
-4earth's crust		地壳
-5ntire internet		全网
-4ordinary daily routine		吃喝拉撒睡
-4earth's axis		地轴
-1o make use of		使用
-0beyond the topmost clouds		九霄云外
-0scratching the surface		不痛不痒
-0the direction indicated		指向
-4bright moon		皎月
-4northern warlords		北洋军阀
-4palace guard		禁卫
-4idle rich		有钱有闲
-4vast sky		长空
-0following the author's fancy		嬉笑怒骂
-0to study for a degree		念学位
-0completing the square		配方
-0facing the wind		迎风
-0the chinese communist regime		兲朝
-2rowing the embroidered ball		抛绣球
-2e beaten track		成规
-4absolute beginning		太初
-4pages ahead		后文
-4imperial guard		龙韬
-4qinghai-tibet route		青藏线
-4distant sky		远天
-4enemy's rear		敌后
-4crystal palace		水晶宫
-4imperial palace		金阙
-4spring equinox		春分点
-4winter solstice		冬至点
-4vast ocean		烟海
-1o contract for a job		包工
-1he ramifications are huge		事关重大
-4broken bridge		断桥
-4song dynasty		两宋
-4contemporary era		当代
-4eastern hemisphere		东半球
-4older generation		老辈
-4younger generation		子弟
-4sum owed		欠债
-4holy roman empire		神圣罗马帝国
-4central administration		中枢
-0membranes lining the brain		脑膜
-0the southern hemisphere		南半球
-4grand canyon		科罗拉多大峡谷
-4wolf prize		沃尔夫奖
-4highest rank		一品
-0covering the sky		横空
-0reaching the sky		连天
-0filling the atmosphere		横空
-0the ferghana valley		费尔干纳
-4japanese armed forces		自卫队
-4yellow springs		黄泉
-4higgs mechanism		希格斯机制
-4parallel postulate		平行公设
-4grass roots		草民
-4enemy ranks		敌阵
-4silent treatment		冷暴力
-4imperial throne		龙椅
-0magic the gathering		万智牌
-0the australian continent		澳大利亚洲
-4dust has settled		已见分晓
-4iwakura mission		岩仓使节团
-4autumn equinox		秋分点
-4us federal government		华府
-4lantern festival		灯节
-0willfully slaughter the innocent		滥杀无辜
-0the qingming festival		寒食
-4thief cries thief		恶人先告状
-0your majesty the emperor		皇上
-0the cambrian explosion		寒武爆发
-5urtain drops		落幕
-cfalls		闭幕
-0heaven helps the worthy		吉人自有天相
-0the holy scriptures		圣经
-4bottomless pit		无底坑
-4kuiper belt		库珀带
-4continuum hypothesis		连续统假设
-4jade emperor		玉帝
-4planet mars		荧惑
-4dragon throne		龙椅
-1o sell or dispose of		脱手
-1he kangxi emperor		康熙
-4qianlong era		乾隆
-4virgin mary		圣母
-4chinese remainder theorem		孙子定理
-4remainder theorem		剩余定理
-0using the toilet		大小便
-0the aids virus		爱滋病毒
-4implications are profound		事关重大
-4true essence		真谛
-0entirely outside the norm		一反常态
-0to rest for a bit		小憩
-1he rice is cooked		生米煮成熟饭
-4syriac script		叙利亚文
-0exotic odors assail the nostrils		异香扑鼻
-0cutting the gordian knot		快刀斩乱麻
-0the centrist faction		中立派
-4reformist faction		维新派
-4chinese lunar calendar		旧历
-4lunar calendar		农历
-4traditional chinese lunar calendar		夏历
-4earliest ancestor		鼻祖
-4chinese edible frog		田鸡
-4traditional chinese calendar		农历
-4afrotropical realm		埃塞俄比亚界
-4feminine arts		女红
-4jade hare		玉兔
-1o start on a new		另开
-0whet the appetite		开味
-0gilding the lily		多此一举
-0the prehistoric shang dynasty		商代
-4tang dynasty		大唐
-4lotus sutra		妙法莲华经
-4nanjing massacre		南京大屠杀
-1eaching the ignorant		蒙求
-1he han dynasty		汉代
-4later jin dynasty		金国汗
-4ming dynasty		明代
-4antarctic peninsula		南极洲半岛
-4crimean peninsula		克里木
-4iberian peninsula		伊比利亚
-4latin alphabet		罗马字
-0blowing the trumpet		吹喇叭
-0the prophet muhammad		穆圣
-0john the baptist		施洗约翰
-0st john the baptist		洗者若翰
-0the empress dowager		母后
-4pelvic cavity		盆腔
-4bering strait		白令海峡
-5inomial theorem		二项式定理
-4sage confucius		孔圣人
-4boxer uprising		义和乱
-4lofty heights		险峰
-0st luke the evangelist		路加
-3matthew the evangelist		玛窦
-0the holocene epoch		全新世
-4nirvana sutra		大本涅槃经
-4opium wars		鸦片战争
-0winnie the pooh		维尼熊
-0the bubonic plage bacillus		鼠疫杆菌
-4okinawa archipelago		冲绳群岛
-4dalai lama		达赖
-4greenwich meridian		格林尼治本初子午线
-0jack the ripper		开膛手杰克
-0to switch on and off		开关
-1he chartist movement		宪章派
-4hoi polloi		市井小民
-4japanese kana scripts		假名
-0appreciating the arts		审美
-1ssaults the nostrils		扑面
-0facing the goalmouth		临门
-1illing the eyes		满眼
-4s the eyes		满目
-0sacking the worst-performing employee		末位淘汰
-1macking the lips		吧唧吧唧
-0the andes mountains		安地斯
-5rabian nights		天方夜谭
-4china seas		中国海
-5onfucian classics		圣经
-6untries involved		当事国
-4floating ribs		季肋
-5ollowing pages		后文
-4hindu kush		兴都库什
-4indian subcontinent		天竺
-5soperimetric inequality		等周不等式
-4lowest professions		下九流
-4madeira islands		马德拉群岛
-5ing tombs		明十三陵
-4objects indicated		所指
-5lden days		旧时
-4preceding statement		前述
-4russian federation		俄联邦
-5yukyu islands		硫球
-4straits times		海峡时报
-5urrounding words		前后文
-4toiling masses		短衣帮
-2roughout the ages		千秋万代
-1o stop for a rest		停歇
-3flash on and off		明灭
-3catch and hold on		接着
-3read and pass on		传阅
-0not to pay attention to		不去理
-0to pray for a son		求子
-3sing for a living		卖唱
-3beg for a loan		乞贷
-3atone for a crime		折罪
-3contend for a mate		夺偶
-0not to submit to force		威武不屈
-0to hold on to		守住
-0next-to-last item on a program		压轴戏
-0to put on a play		做戏
-0let it be		算了
-0to catch and feed on		捕食
-3dote on and trust		宠信
-0not to refuse to		在所不辞
-7object to		不厌
-0to work as a doctor		从医
-3keep a hold on		拴住
-3speak out of turn		多嘴
-3use as a tool		当枪使
-3say nothing of		何况
-3pass on to		转给
-3spit on and curse		唾骂
-0not to hesitate to		在所不辞
-0to not conform to		不合
-3use as a venue		假座
-3take as a concubine		收房
-3run out of food		断粮
-3take good care of		呵护
-3act out of malice		泄私愤
-3reject out of hand		一笔抹杀
-3do a follow-up		随访
-4rop out of school		辍学
-3have in care		照看
-3aim to get by		浅希近求
-3work as a prostitute		做鸡
-3take a look at		看看
-3suffer all kinds of		受尽
-3work as a foreman		领工
-3hate to part with		舍不得
-3work as a laborer		务工
-dpharmacist		悬壶
-dteacher		任课
-3cling on to		攀附
-3include on a list		列入
-3take an end-of-term exam		大考
-3come as a surprise		出人意表
-0a member of one's clique		私人
-0to count all of them		尽数
-3step out of line		越轨
-3help out of difficulties		解救
-0a tooth for a tooth		以牙还牙
-0to give as a present		奉赠
-3start on a story		开讲
-3run out of		断货
-3put a lid on		加盖
-7on a spurt		猛劲儿
-3investigate and deal with		究办
-0a shill for a clinic		医托
-0to settle out of court		私了
-3turn on a screen		亮屏
-3play a prank on		整蛊
-3break out of prison		越狱
-3start on a journey		上路
-3get hold of		到手
-3squeeze out of business		挤垮
-3appear out of nowhere		空降
-3leave out of consideration		付之度外
-3pass on a present		转赠
-0all members of a group		上下
-0distant and out of sight		杳茫
-0to have confidence in		信任
-l oneself		自信
-3stay out of trouble		躲风
-3have faith in		信服
-3give as a dowry		陪送
-3pass on a story		传话
-3make light of		一笑置之
-8sure of		认准
-3pass on a task		转托
-3knock on a door		叩门
-3pass on a copy		传写
-3stay out of		躲开
-3get free of		解脱
-3quote out of context		断章取义
-3stand as testament to		诉说
-3pass on a song		传唱
-3get an idea of		探知
-3make sense of		弄懂
-0unable to make sense of		弄不懂
-0to send on a mission		派遗
-3dress as a man		女扮男装
-3slip out of gear		跳挡
-3confer a title on		册立
-3refer to oneself as		自喻
-3pop out of gear		跳挡
-4ull on a handle		拉手
-3step on a mine		踩雷
-3make sport of		消遣
-8fun of		取闹
-3think little of		渺视
-3fly on a crane		乘鹤
-3spur on a horse		跃马
-3default on a debt		拖债
+0lacewing		草蜻蛉
+0croupier		荷官
+0salsa		莎莎舞
+0papillon		蝴蝶犬
+0kamala		贺锦丽
+0liniment		跌打药
+1epton		轻子
+0amide		酰胺
+0quinone		醌
+0ilmenite		钛铁矿
+0osmium		銤
+0clavicle		锁骨
+1alcitonin		降血钙素
+0golem		魔像
+0blenny		鳚
+0chinoiserie		中国风
+0hotpot		串串
+0ribose		五碳糖
+0cassiopeia		仙后座
+0standpipe		储水管
+1pectrograph		光谱仪
+0fluoridate		加氟
+0lasagna		千层面
+0fentanyl		吩坦尼
+0antiphon		唱和
+0monocotyledon		单子叶
+0unicellular		单细胞
+0tutelary		土地公
+0photojournalist		报道摄影师
+0ectoderm		外胚层
+0allspice		多香果
+0hadron		大型强子对撞机
+0macrocosm		宏观世界
+0antiphonal		对唱
+0enantiomer		对映体
+0neap		小潮
+0baha		巴哈伊
+0chur		库尔
+0stoa		廊庑
+0goldcrest		戴菊
+0whodunit		推理小说
+0mocha		摩卡
+0eventuate		未果
+0durian		榴莲
+0graticule		标线
+1eometer		欧几里得
+0mortician		殡仪员
+0chlorate		氯酸
+0duckweed		浮萍
+0whitethroat		灰白喉林莺
+0burnout		烧胎
+1risket		牛腩
+0nougat		牛轧糖
+0zebu		犎
+0loup		狼井
+0ululate		狼嗥
+0stromatolite		叠层岩
+1crofula		瘰疬
+0picosecond		皮秒
+0arista		笀
+0safflower		红花
+0impetigo		脓痂疹
+0anomala		苻
+0mycelium		菌丝
+0eth		苏黎世联邦理工学院
+0vitis		蘝
+0blackfly		蚋
+0consanguinity		血缘关系
+0kith		亲朋好友
+0costal		软肋
+0kimberlite		金伯利岩
+0technetium		锝
+0bobsleigh		雪车
+0puffball		马勃菌
+1atella		髌骨
+0trigeminal		三叉神经
+0cinnabar		丹
+0pentathlon		五项全能
+1requel		前传
+2ostatitis		前列腺炎
+1erspicacity		前瞻性
+0stegosaurus		剑龙
+0nubia		努比亚
+0centaurus		半人马座
+0kapok		吉贝
+0tilapia		吴郭鱼
+0prefectural		地委
+0manometer		压力计
+0napa		大白菜
+0mantissa		尾数
+0cornus		山茱萸
+0flatbed		平板车
+0schadenfreude		幸灾乐祸
+0flysch		复理石
+0sexology		性学
+1wiftlet		戈氏金丝燕
+0bosh		我靠
+0scaup		斑背潜鸭
+1adomasochism		施虐者
+0menses		月事
+1oonstone		月光石
+0noumenon		本体
+0pectin		果胶
+0freon		氟利昂
+0chloramphenicol		氯霉素
+0rheology		流变学
+0halal		清真
+0carpal		滑鼠手
+0whitewater		漂流者
+0teriyaki		照烧
+1aurine		牛磺酸
+0biota		生物群
+0cyanosis		发绀
+0falconet		白腿小隼
+0thiol		硫醇
+0borax		硼砂
+0tourmaline		碧玺
+0apatite		磷灰石
+0mentis		神志
+0komodo		科莫多龙
+0lutea		红嘴相思鸟
+0gonadotropin		绒毛性腺激素
+0julienne		丝
+0tamarind		罗望子
+0viviparous		胎生
+2de		舒肥法
+0boatswain		船老大
+0phenyl		苯基
+1alliasse		草垫子
+0sphygmomanometer		血压计
+0gymnosperm		裸子植物
+1nu		角马
+0probative		证明力
+0cyberpunk		赛博朋克
+1hipper		起扑杆
+0axonal		轴突运输
+0pyroxene		辉石
+0guacamole		酪梨莎莎酱
+0quantize		量化
+0rubidium		铷
+0cheapskate		铁公鸡
+0phloem		韧皮
+0luminol		鲁米诺
+0mescaline		麦司卡林
+0yellowhammer		黄鹀
+0tapioca		Q
+0entendre		一语双关
+0dingo		丁格犬
+0erysipelas		丹毒
+0icosahedron		二十面体
+0pekingese		京巴狗
+0manatee		人鱼
+0stupa		佛骨塔
+0pedometer		佩戴
+3icure		修脚
+0ideogram		六书
+0hasp		别子
+0librium		利眠宁
+0dosimeter		化学剂量计
+0kilocalorie		千卡
+0meniscus		半月板
+0ghillie		吉利服
+0isobar		同量异位素
+0blastula		囊胚
+0mindset		固定型思维
+0erfurt		埃尔福特
+0multipolar		多极化
+0agave		夜来香
+0barbet		大拟啄木鸟
+0caboodle		婚纱摄影
+0upsilon		宇普西龙
+0floozy		小妖精
+0microclimate		小气候
+0penne		尖管面
+0crataegus		山楂
+0talus		崩坍
+0baruch		巴录
+0coextensive		布朗克斯
+0autosome		常染色体
+0telekinesis		念力
+0moa		恐鸟
+0cotta		意式奶冻
+0appetit		慢慢吃
+0gentamicin		庆大霉素
+1urdy		手摇风琴
+0endotracheal		插管
+0trivet		支子
+0deadhead		放空
+0mandala		曼荼罗
+0datura		曼陀罗
+1iplodocus		梁龙
+0abscissa		横坐标
+0medlar		欧楂
+0cyanobacteria		氰基细菌
+0salicylic		水杨酸
+0dropsy		水肿
+0tetrodotoxin		河豚毒素
+0liquefaction		煤制油
+0swallowtail		燕尾蝶
+0colter		犁头
+0baobab		猴面包树
+0panhandle		瓦罕走廊
+0thrombocytopenia		发热伴血小板减少综合征
+0pallidus		白喉冠鹎
+0soapstone		皂石
+1cutum		盾牌座
+0redbreast		知更鸟
+0ammoniac		硵
+0erythromycin		红霉素
+0theodolite		经纬仪
+0roughneck		老粗
+0nonagenarian		耄
+0ascitic		腹水
+0turgor		膨压
+0razzle		花招
+0surefire		万全
+0rosicrucian		蔷薇十字团
+0pyrolysis		裂解
+0hocus		装神弄鬼
+0anaphylaxis		过敏性
+0zymogen		酶原
+0nosocomial		院感
+0raiment		霓裳
+0marimba		马林巴
+0vomica		马钱子
+0hyperbaric		高压氧
+0benumb		麻痹
+0sinusitis		鼻窦炎
+0triceratops		三角恐龙
+0antifreeze		乙二醇
+0frater		修士
+0kana		假名
+0aril		假种皮
+0photodiode		光二极管
+0donjon		内城
+0hexafluoride		六氟化硫
+0gallbladder		六腑
+0covariate		协变量
+0bora		博拉博拉岛
+0worrisome		可虑
+0miso		味噌
+0ruckus		咋呼
+0kea		啄羊鹦鹉
+0gaga		嘎嘎小姐
+0pitter		噼里啪啦
+0jai		回力球
+0woodchuck		土拨鼠
+0efflorescence		壁癌
+0doyenne		大姐大
+0apus		天燕座
+0pachinko		小钢珠
+0lunette		弦月窗
+0necrophilia		恋尸癖
+0buckwheat		扒糕
+1estir		振作
+0teleprompter		提字器
+0nuclide		放射性核素
+0lancelet		文昌鱼
+0demountable		方舱
+0sunfish		曼波鱼
+0breadfruit		木菠萝
+0reis		李嘉欣
+0civet		果子狸
+0skipjack		柴鱼片
+0merlot		梅洛
+0sarsaparilla		沙士
+0profiterole		泡芙
+0lumpenproletariat		流氓无产者
+0gypsophila		满天星
+1racilis		灰奇鹛
+0alkane		烷
+0gangue		煤矸石
+0calomel		甘汞
+0formic		甲酸
+0majordomo		男管家
+0ketone		甾酮
+0ginkgo		白果
+0parsec		秒差距
+0glutamic		谷氨酸
+0compendious		简括
+0valine		缬氨酸
+0bilharzia		罗汉病
+0greenback		美钞
+0velodrome		老山自行车馆
+0ovule		胚珠
+0depilatory		脱毛剂
+0absinthe		苦艾酒
+0wildcard		万用字元
+0horsefly		虻
+0pocus		装神弄鬼
+0saccade		跳视
+0trackball		轨迹球
+0dolerite		辉绿岩
+1idgeridoo		迪吉里杜管
+0snapdragon		金鱼草
+0zirconium		锆
+0mesothelioma		间皮瘤
+0albite		青金石
+0shoehorn		鞋拔
+0femtosecond		飞秒
+0pomade		发蜡
+0butadiene		丁二烯
+0sampan		三板
+0labrum		上唇
+0wunderkind		人精
+0shrike		伯劳
+0roentgen		伦琴射线
+0commensal		偏利共栖
+0hemiplegia		偏瘫
+0actinic		光化性角化病
+0hexose		六碳糖
+0polyhedron		凸多面体
+0quantile		分位数
+0avatar		分身
+0sideswipe		刮蹭
+0cnidarian		刺胞动物
+0parathyroid		副甲状腺
+0galactose		半乳糖
+0demigod		半神
+0ipecac		吐根
+0dumbbell		哑铃
+0chiffchaff		叽咋柳莺
+1esta		回力球
+0perioperative		围术期
+2dology		土壤学
+0sandbar		坝
+0geomancy		堪舆
+0burrito		墨西哥卷饼
+0cassia		官桂
+0gamesmanship		小动作
+0poplin		府绸
+0fuze		引信
+0vibrio		弧菌
+0pretzel		德国结
+0sauerkraut		德国酸菜
+0hokey		扯
+0organophosphate		敌敌畏
+0procaine		普鲁卡因
+0amah		望夫石
+0ganymede		木卫三
+0noh		柏崎
+0bollworm		棉铃虫
+0kabuki		歌舞伎
+0holotype		正型标本
+0millibar		毫巴
+0baud		波特
+0turbojet		涡喷
+0pterosaur		准噶尔翼龙
+0harum		满不在乎
+0flintlock		火枪
+0decoct		熬
+0passiflora		热情果
+0cowpox		牛痘
+0ecosphere		生态圈
+0dizygotic		异卵
+0tertian		痎
+0menorrhagia		痭
+0spittoon		痰盂
+0trioxide		白砒
+0helipad		直升机坪
+0blockhouse		碉堡
+0naloxone		纳洛酮
+0valerian		缬草
+0meconium		胎便
+0cochineal		胭脂虫
+0fibula		腓骨
+0couchette		卧铺
+1halcopyrite		自然铜
+0tryptophan		色氨酸
+0rubus		茥
+0terpene		萜
+0roundworm		蛔
+0damselfly		蜻蛉
+0affiance		许婚
+0ortho		邻苯醌
+0ruthenium		钌
+0echidna		针鼹
+0cassiterite		锡石
+0amharic		阿姆哈拉
+0squab		雏鸽
+0catafalque		灵棺
+0bluestone		青石
+0paramagnetic		顺磁
+0milkweed		马利筋
+0revetment		驳岸
+0jackass		骚驴
+0fishtail		鱼尾
+0ergot		麦角
+1phedrine		麻黄素
+0tricuspid		三尖瓣
+0amyl		亚硝酸异戊酯
+0dugong		人鱼
+0bento		便当
+0crawfish		克氏原螯虾
+0infield		内场
+0palanquin		八抬大轿
+0gerund		动名词
+0rupiah		印尼盾
+0dystopia		反乌托邦
+0laryngitis		喉炎
+0dromedary		单峰驼
+0basophil		嗜碱性球
+0eld		坡鹿
+0shim		垫片
+0pouf		墩子
+0milady		宫主
+0capsicum		小米辣
+0nereid		尼厄丽德
+0urinalysis		尿检
+0wonton		扁食
+0naan		打馕
+0marginalia		批注
+0vinculum		括线
+0penmanship		书法
+0gane		木目金
+0koa		枇杷膏
+0hookah		水烟壶
+0terrazzo		水磨石
+0sambar		水鹿
+2tay		沙爹
+0extragalactic		河外星系
+0seersucker		泡泡纱
+1plotch		洇
+0quatrefoil		海棠形
+0edelweiss		火绒草
+0parboil		焯
+0orthodontic		牙套
+0coccus		球菌
+0spearmint		留兰香
+0celandine		白屈菜
+0saponin		皂素
+0fluxgate		磁通门
+0neurotoxin		神经毒素
+0roseate		粉红燕鸥
+0erythropoietin		红血球生成素
+0biogenic		组胺
+0kyat		缅元
+0borscht		罗宋汤
+0hogwash		胡话
+0egomania		自大狂
+0sepal		花萼
+0jojoba		荷荷巴
+0medicament		药剂
+0hematite		血师
+0bellboy		行李员
+0syrah		西拉
+0decrypt		解密
+0cowpea		豆橛子
+0elephantiasis		象皮病
+0celadon		辟雍砚
+0scandium		钪
+0niobium		铌
+0tantalum		钽
+0whitebait		银鱼
+0celesta		钢片琴
+0openwork		镂空
+0bilabial		双唇音
+0telecast		电视广播
+0neckerchief		领巾
+0toxoid		类毒素
+0butanol		丁醇
+0macula		中央凹
+0nominative		主格
+0calque		借译
+2talepsy		僵住症
+0metalanguage		元语言
+0clindamycin		克林霉素
+0fascicle		分册
+0shopaholic		剁手党
+0phimosis		包茎
+0nitwit		十三点
+0jitterbug		吉特巴
+0heterocyclic		吖嗪
+0quadriceps		四头肌
+0annulus		圆环
+2gstrom		埃
+0thaler		塔勒
+0pneumoconiosis		尘肺
+0jerboa		大五趾跳鼠
+0geum		大长今
+0moonwalk		太空步
+0catamite		娈童
+0glyph		字图
+0tantric		密宗
+0atresia		实女
+0brucellosis		布氏杆菌病
+0ibuprofen		布洛芬
+0farsi		帕西
+0dianthus		康乃馨
+0spondylitis		强直性脊柱炎
+0glovebox		手套箱
+0diabolo		扯铃
+0planchette		扶乩
+0vasopressin		抗利尿激素
+0bunion		拇囊炎
+0accipiter		日本松雀鹰
+0carbo		普通鸬鹚
+0postpartum		月中
+0lignin		木质素
+0xylem		木质部

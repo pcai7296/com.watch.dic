@@ -2,6 +2,7 @@
 5ing	886
 5s	886
 3drangles	887
+7ts	ck4
 5ilaterals	888
 5upeds	889
 3ffed	88a
@@ -18,6 +19,7 @@
 3lification	88g,88i
 ds	88f,88i
 7ed	88i
+8r	88i
 8s	88i
 6y	88h
 7ing	88i
@@ -25,7 +27,8 @@ ds	88f,88i
 4m	88m
 5s	88l
 3ndaries	88n
-4tified	88o
+4tification	88o
+8ed	88o
 9s	88o
 7ying	88o
 6tative	88q
@@ -36,6 +39,7 @@ as	88s
 4relled	88t
 8ing	88t
 7s	88t
+8ome	88t
 5ied	88u
 7s	88u
 5ying	88u
@@ -89,14 +93,17 @@ as	88s
 6ing	89g
 3cken	89h
 7ed	89i
-7ing	89i
+7ing	89h,89i
 7s	89i
 6r	89h
 6st	89h
+5ly	89h
 3eted	89k
+6n	89k
 6r	89k
 6st	89k
 5ing	89k
+5ly	89k
 5s	89k
 3lling	89l
 5s	89l
@@ -111,6 +118,7 @@ as	88s
 3rked	89q
 5ing	89q
 5s	89q
+5y	89q
 3sle	89r
 5ings	89r
 3ts	89s
@@ -121,9 +129,10 @@ as	88s
 3zzed	89w
 6s	89w
 5ing	89w
-2otas	89x
+2otable	89z
+5s	89x
 5tion	89z
-9s	89y
+9s	89y,89z
 4ed	89z
 5s	89z
 4ing	89z
