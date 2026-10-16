@@ -14,7 +14,13 @@
       "name": "system.router"
     },
     {
+      "name": "system.app"
+    },
+    {
       "name": "system.vibrator"
+    },
+    {
+      "name": "system.brightness"
     },
     {
       "name": "system.device"

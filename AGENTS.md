@@ -16,7 +16,7 @@
 | .eslintignore | Ignores dist/, build/, sign/, node_modules/ |
 | .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/ |
 
-No .eslintrc* — ESLint defaults via aiot-toolkit. No .opencode/ in this branch — the vela-dev skill itself is the authority.
+`.eslintrc.js` 只提供解析所需的 `env`/`parserOptions`，`rules` 故意留空（格式交给 Prettier）；`.ux` 没有可用 parser，因此 lint 只扫 `.js`。No .opencode/ in this branch — the vela-dev skill itself is the authority.
 
 ## Commands
 
@@ -24,8 +24,10 @@ No .eslintrc* — ESLint defaults via aiot-toolkit. No .opencode/ in this branch
 |---------|------|
 | npm run start | Dev server (aiot start --watch) |
 | npm run build | Build W192 RPK (aiot build, buildTarget 硬编码 192×490) |
+| npm run build:192…466 | **存在但会误导**：本仓 `buildTarget.js` 是**单目标硬编码**（无条件编译块），这些脚本设置了 `TARGET_*` 也不会切换目标。只有 w212/w336 是多目标 |
+| npm run build:resolutions | 批量构建 5 个目标（PowerShell） |
 | npm run release | Release build (aiot release) |
-| npm run lint | ESLint --fix on src/ (.ux,.js) |
+| npm run lint | ESLint 检查 `src/` 下的 **.js**（只报告，不改文件）；要改格式用 `npm run lint:fix` |
 | npm run deploy:watch | Build + ADB push to emulator-5554 |
 | npm run deploy:watch:fast | ADB push only (skip build) |
 
@@ -55,7 +57,7 @@ src/
   components/
     InputMethod/                  — English QWERTY keyboard, sub-assets for layouts
   common/
-    dict/                         — 269 个词典分片（已纳入 Git，勿手改）
+    dict/                         — 1,082 个词典分片，**standard 档**（已纳入 Git，勿手改）
     icons/                        — Button/decoration icons
   i18n/                           — Locale JSON files (defaults, en, zh-CN)
 scripts/                          — generate_watch_dict.py, deploy_watch.ps1, build_resolution_packages.ps1
@@ -87,10 +89,12 @@ Features: system.router, system.vibrator, system.device, system.file, system.sto
 
 9 pages in manifest.json, entry = pages/index.
 
-## Dictionary (~128k Chinese phrases, 15k English headwords)
+## Dictionary（standard 档，实测 `src/common/dict/meta.json`）
 
+**70,408** English headwords / **119,542** cn phrases / `wordShards` **728**（26 字母 + 676 双字母 + 26 head）/ `cnIndexMode` balanced / `entryShards` 141 / 共 **1,082** 个文件。**以 meta.json 为准，不要把数字写进文档。**
 Source: ECDICT + CC-CEDICT + BNC/COCA word-family lists.
-Regenerate: python scripts/generate_watch_dict.py (never edit shards directly).
+
+**不要在本仓重生成词库**：本仓**没有 `data/` 目录**（生成器必需语料缺失，必失败），且本仓 `scripts/generate_watch_dict.py` 是**旧版**（896 行，**无 argparse**，无 `--profile`/`--output`）。词库只在 w212（唯一有完整语料集）生成后复制过来——w192/w336/w432/w466 四仓的 dict 目前**逐字节相同**。
 
 | Feature | Mechanism |
 |---------|-----------|
@@ -132,6 +136,9 @@ Copy pattern from any page except about. Needs getTouchPoint() + touchStartX/Y.
 ## ANTI-PATTERNS (THIS PROJECT)
 
 - **Never edit dictionary shard files** under src/common/dict/. Regenerate via python scripts/generate_watch_dict.py.
+- **不要在本仓重生成词库**（没有 `data/`，且生成器是旧版无 argparse）。
+- **Vela 不支持 `@keyframes`**（日志报 `Unknown style - keyframes`），按压缩放用 `transition`。本仓 `src/pages/index/index.ux` 已从 `@keyframes dicPressIn/Out` 改为 `transition: transform 120ms ease-out`（与 w212 一致）——**新增动画不要再用 `@keyframes`**。
+- **`npm run lint` 已修复**：此前脚本用 `--format codeframe`（ESLint 8 已移除该 formatter）→ 直接 `exit 2` 且一个文件都没检查；仓内也没有 ESLint 配置。现在有 `.eslintrc.js`，`lint` = `eslint --ext .js src/`（不自动改文件），`lint:fix` 才改。`commitlint` / `lint-staged` 因缺 `.husky/` 仍不生效。
 - **No static asset paths** with {{lang}} — aiot-toolkit 2.0.4+ handles variable-depth paths.
 - **No type suppression** — no as any, @ts-ignore, @ts-expect-error.
 - **No semicolons** — Prettier enforces no-semicolon style.
@@ -139,7 +146,7 @@ Copy pattern from any page except about. Needs getTouchPoint() + touchStartX/Y.
 - **Don't remove swipe-back gesture** when adding new pages.
 - **Don't override designWidth** — must stay "device-width" for the 192x490 canvas.
 - **Never cross-build** — this folder builds W192 only. Other resolutions live in sibling branches.
-- **ESLint runs with --fix by default** — it auto-formats on lint. Be aware before running npm run lint.
+- **ESLint 只查 .js 且不再自动改文件** —— 需要格式化用 `npx prettier --write`，或用 `npm run lint:fix`。
 
 ## CODE MAP
 
