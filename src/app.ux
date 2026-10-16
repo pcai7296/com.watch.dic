@@ -43,37 +43,16 @@ export default {
   },
 
   onCreate() {
-    console.log("app created")
-    loadDictionaryProfile(function(profile) {
-      console.log("dict profile loaded: " + (profile && profile.profile ? profile.profile : "unknown"))
-    })
+    loadDictionaryProfile()
     applyKeepScreenOnSetting()
     const appData = this.data
     if (appData.screenHeight > 0) {
       appData.screenAspectRatio =
         Math.round((appData.screenWidth / appData.screenHeight) * 1000) / 1000
     }
-    console.log(
-      "compiled screen target=" +
-        appData.buildTargetId +
-        " shape=" +
-        appData.screenShape +
-        " width=" +
-        appData.screenWidth +
-        " profile=" +
-        appData.screenProfile
-    )
     device.getInfo({
       success: (data) => {
         this.updateScreenInfo(data)
-        console.log(
-          "runtime screen detected width=" +
-            this.data.screenWidth +
-            " height=" +
-            this.data.screenHeight +
-            " profile=" +
-            this.data.screenProfile
-        )
       },
       fail: (data, code) => {
         console.log("device.getInfo failed; using compiled target: " + code)

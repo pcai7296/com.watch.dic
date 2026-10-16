@@ -8,14 +8,6 @@ export function getDictionaryProfile() {
   return _profile
 }
 
-export function isTwoLetterShardsEnabled() {
-  return !!(_profile && _profile.wordTwoShards > 0)
-}
-
-export function isHeadShardsEnabled() {
-  return !!(_profile && _profile.wordHeadShards > 0)
-}
-
 export function loadDictionaryProfile(done) {
   if (_profile) {
     if (done) done(_profile)

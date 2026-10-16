@@ -19,29 +19,29 @@
 
       <div class="minimal-btns">
         <div class="m-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
-          <image class="m-btn-icon" src="/common/icons/language.png" style="width:32px;height:32px;" />
-          <text class="m-btn-text">查单词</text>
+          <image static class="m-btn-icon" src="/common/icons/language.png" style="width:32px;height:32px;" />
+          <text static class="m-btn-text">查单词</text>
         </div>
         <div class="m-btn m-btn-mt {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
-          <image class="m-btn-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
-          <text class="m-btn-text">历史记录</text>
+          <image static class="m-btn-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
+          <text static class="m-btn-text">历史记录</text>
         </div>
         <div class="m-btn m-btn-mt {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
-          <image class="m-btn-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
-          <text class="m-btn-text">我的收藏</text>
+          <image static class="m-btn-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
+          <text static class="m-btn-text">我的收藏</text>
         </div>
         <div class="m-btn m-btn-mt {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
-          <image class="m-btn-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
-          <text class="m-btn-text">设置</text>
+          <image static class="m-btn-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
+          <text static class="m-btn-text">设置</text>
         </div>
       </div>
 
       <div class="m-bottom">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
-          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:30px;height:30px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:30px;height:30px;" />
         </div>
         <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
-          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:30px;height:30px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:30px;height:30px;" />
         </div>
       </div>
     </div>
@@ -56,35 +56,35 @@
       <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
 
       <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
-        <image class="c-btn-icon" src="/common/icons/language.png" style="width:36px;height:36px;" />
-        <text class="btn-label">查单词</text>
+        <image static class="c-btn-icon" src="/common/icons/language.png" style="width:36px;height:36px;" />
+        <text static class="btn-label">查单词</text>
       </div>
 
       <div class="button-group button-group-{{screenProfile}}">
         <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'inflect' ? 'press-in' : '' }} {{ releasingKey === 'inflect' ? 'press-out' : '' }}" onclick="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
-          <image class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:32px;height:32px;" />
-          <text class="grid-btn-text">变形</text>
+          <image static class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:32px;height:32px;" />
+          <text static class="grid-btn-text">变形</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
-          <image class="c-grid-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
-          <text class="grid-btn-text">设置</text>
+          <image static class="c-grid-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
+          <text static class="grid-btn-text">设置</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
-          <image class="c-grid-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
-          <text class="grid-btn-text">历史</text>
+          <image static class="c-grid-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
+          <text static class="grid-btn-text">历史</text>
         </div>
         <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
-          <image class="c-grid-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
-          <text class="grid-btn-text">收藏</text>
+          <image static class="c-grid-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
+          <text static class="grid-btn-text">收藏</text>
         </div>
       </div>
 
       <div class="bottom-row bottom-row-{{screenProfile}}">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
-          <image class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:36px;height:36px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:36px;height:36px;" />
         </div>
         <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
-          <image class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:36px;height:36px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:36px;height:36px;" />
         </div>
       </div>
     </div>
@@ -92,7 +92,6 @@
 </template>
 
 <script>
-import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
@@ -116,22 +115,11 @@ export default {
   },
 
   onInit() {
-    var app = this.$app.$def
     this.screenProfile = buildTarget.profile
-    device.getInfo({
-      success: function(data) {
-        app.updateScreenInfo(data)
-      }.bind(this),
-      fail: function(data, code) {
-        console.log("index device.getInfo failed; using compiled target: " + code)
-      }.bind(this),
-      complete: function() {}
-    })
     this._updateTime()
     this._loadLayout()
-    this._cleanInvalidHistory()
+    this._scheduleHistoryCleanup()
     this._trackLaunch()
-    this._loadBtnScale()
   },
 
   _updateTime() {
@@ -218,6 +206,17 @@ export default {
     })
   },
 
+  _scheduleHistoryCleanup() {
+    var self = this
+    if (this._historyCleanTimer) {
+      clearTimeout(this._historyCleanTimer)
+    }
+    this._historyCleanTimer = setTimeout(function() {
+      self._historyCleanTimer = null
+      self._cleanInvalidHistory()
+    }, 1500)
+  },
+
   onBtnDown(key) {
     if (!this.btnScaleEnabled) {
       return
@@ -272,6 +271,10 @@ export default {
     if (this._btnUpTimer) {
       clearTimeout(this._btnUpTimer)
       this._btnUpTimer = null
+    }
+    if (this._historyCleanTimer) {
+      clearTimeout(this._historyCleanTimer)
+      this._historyCleanTimer = null
     }
   },
 
