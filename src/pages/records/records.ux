@@ -56,6 +56,7 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 export default {
   protected: {
@@ -123,6 +124,7 @@ export default {
   },
 
   onShow() {
+    applyKeepScreenOnSetting()
     this.loadRecords()
     // 1.5s 让人先看清单词，再齐步启动所有跑马灯
     if (this.marqueeTimer) {

@@ -64,6 +64,7 @@
 
 <script>
 import router from "@system.router"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 export default {
   private: {
@@ -92,6 +93,7 @@ export default {
   },
 
   onShow() {
+    applyKeepScreenOnSetting()
     this.applyScreenLayout()
   },
 

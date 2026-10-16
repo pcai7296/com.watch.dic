@@ -4,41 +4,51 @@
       <image class="back-btn" src="/common/icons/Back_B.png" onclick="goBack" />
     </div>
 
-    <div class="content">
-      <text class="setting-title">英文输入联想</text>
-      <switch
-        class="suggestion-switch"
-        checked="{{ englishSuggestionEnabled }}"
-        @change="onSuggestionChange"
-      ></switch>
-      <text class="setting-title result-home-title">结果页长按返回主页</text>
-      <switch
-        class="suggestion-switch"
-        checked="{{ resultLongPressHomeEnabled }}"
-        @change="onResultLongPressHomeChange"
-      ></switch>
-      <div class="search-swipe-title">
-        <text class="setting-title">搜索输入页</text>
-        <text class="setting-title">强制不可滑动退出</text>
+    <scroll class="settings-scroll" scroll-y="true">
+      <div class="content">
+        <text class="setting-title">英文输入联想</text>
+        <switch
+          class="suggestion-switch"
+          checked="{{ englishSuggestionEnabled }}"
+          @change="onSuggestionChange"
+        ></switch>
+        <text class="setting-title result-home-title">结果页长按返回主页</text>
+        <switch
+          class="suggestion-switch"
+          checked="{{ resultLongPressHomeEnabled }}"
+          @change="onResultLongPressHomeChange"
+        ></switch>
+        <div class="search-swipe-title">
+          <text class="setting-title">搜索输入页</text>
+          <text class="setting-title">强制不可滑动退出</text>
+        </div>
+        <switch
+          class="suggestion-switch"
+          checked="{{ searchSwipeExitLocked }}"
+          @change="onSearchSwipeExitChange"
+        ></switch>
+        <text class="setting-title btn-scale-title">按钮缩放</text>
+        <switch
+          class="suggestion-switch"
+          checked="{{ btnScaleEnabled }}"
+          @change="onBtnScaleChange"
+        ></switch>
+
+        <text class="setting-title keep-screen-title">屏幕常亮</text>
+        <switch
+          class="suggestion-switch"
+          checked="{{ keepScreenOnEnabled }}"
+          @change="onKeepScreenOnChange"
+        ></switch>
       </div>
-      <switch
-        class="suggestion-switch"
-        checked="{{ searchSwipeExitLocked }}"
-        @change="onSearchSwipeExitChange"
-      ></switch>
-      <text class="setting-title btn-scale-title">按钮缩放</text>
-      <switch
-        class="suggestion-switch"
-        checked="{{ btnScaleEnabled }}"
-        @change="onBtnScaleChange"
-      ></switch>
-    </div>
+    </scroll>
   </div>
 </template>
 
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import {applyKeepScreenOnSetting, setKeepScreenOnEnabled} from "../../common/keepScreenOn"
 
 export default {
   private: {
@@ -46,6 +56,7 @@ export default {
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
     btnScaleEnabled: true,
+    keepScreenOnEnabled: false,
     screenProfile: "rect",
     destroyed: false,
     touchStartX: -1,
@@ -110,6 +121,9 @@ export default {
         console.log("settings btn scale get failed: " + code)
       }
     })
+    applyKeepScreenOnSetting((enabled) => {
+      this.keepScreenOnEnabled = enabled
+    })
   },
 
   onDestroy() {
@@ -138,6 +152,12 @@ export default {
   onBtnScaleChange(evt) {
     this.btnScaleEnabled = !!(evt && evt.checked)
     this.saveSwitch("dic_button_scale", this.btnScaleEnabled)
+  },
+
+  onKeepScreenOnChange(evt) {
+    this.keepScreenOnEnabled = !!(evt && evt.checked)
+    setKeepScreenOnEnabled(this.keepScreenOnEnabled)
+    this.saveSwitch("dic_keep_screen_on", this.keepScreenOnEnabled)
   },
 
   saveSwitch(key, enabled) {
@@ -213,6 +233,13 @@ export default {
   flex-shrink: 0;
 }
 
+.settings-scroll {
+  width: 100%;
+  height: 428px;
+  flex-direction: column;
+  align-items: center;
+}
+
 .content {
   width: 100%;
   margin-top: 50px;
@@ -247,6 +274,10 @@ export default {
 }
 
 .btn-scale-title {
+  margin-top: 34px;
+}
+
+.keep-screen-title {
   margin-top: 34px;
 }
 

@@ -11,11 +11,16 @@
 
 <script>
 import router from "@system.router"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 export default {
   private: {
     touchStartX: -1,
     touchStartY: -1
+  },
+
+  onShow() {
+    applyKeepScreenOnSetting()
   },
 
   goBack() {
