@@ -50,6 +50,7 @@ import router from "@system.router"
 import storage from "@system.storage"
 import file from "@system.file"
 import prompt from "@system.prompt"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
 import {getDictionaryProfile} from "../../common/dictProfile"
 
@@ -216,6 +217,7 @@ export default {
   },
 
   onShow() {
+    applyKeepScreenOnSetting()
     this.loadResultLongPressHomeSetting()
     // Re-check query — Vela may reuse page instance without re-firing onInit
     const currentQuery = this.normalizeWord(this.query)

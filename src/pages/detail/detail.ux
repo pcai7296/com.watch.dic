@@ -34,6 +34,7 @@
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {navGuard} = global
 
@@ -186,6 +187,10 @@ export default {
       this.displayLines.push({ text: tagLines[i], isTag: true })
     }
     this.refreshFavoriteState()
+  },
+
+  onShow() {
+    applyKeepScreenOnSetting()
   },
 
   onDestroy() {

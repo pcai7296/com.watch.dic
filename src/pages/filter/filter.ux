@@ -211,6 +211,7 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {navGuard} = global
 
@@ -240,6 +241,10 @@ export default {
     if (this.mode === "input") {
       this.inputText = this.queryParam || ""
     }
+  },
+
+  onShow() {
+    applyKeepScreenOnSetting()
   },
 
   selectFilter(value) {

@@ -61,6 +61,7 @@
 
 <script>
 import router from "@system.router"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {navGuard} = global
 
@@ -91,6 +92,7 @@ export default {
   },
 
   onShow() {
+    applyKeepScreenOnSetting()
     this.applyScreenLayout()
   },
 

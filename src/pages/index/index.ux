@@ -96,6 +96,7 @@ import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {buildTarget, navGuard} = global
 
@@ -263,6 +264,7 @@ export default {
   },
 
   onShow() {
+    applyKeepScreenOnSetting()
     this._loadBtnScale()
   },
 
