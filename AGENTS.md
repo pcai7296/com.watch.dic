@@ -11,7 +11,7 @@
 
 ## 版本
 
-`src/manifest.json`：`versionName` **3.1.0** / `versionCode` **7**（`package.json` 同）。
+`src/manifest.json`：`versionName` **3.2.0** / `versionCode` **8**（`package.json` 同）。
 `scripts/build_resolution_packages.ps1` 现已从 `src/manifest.json` 读取包名与版本（不再硬编码）；`release_resolution_packages.ps1` 仍可能写死版本，改动版本号时留意。
 
 ## 词库（实测 `src/common/dict/meta.json`）
