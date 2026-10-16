@@ -306,8 +306,8 @@ export default {
 }
 
 .back-btn {
-  width: 60px;
-  height: 60px;
+  width: 72px;
+  height: 72px;
   margin-left: 15px;
   margin-right: 8px;
   flex-shrink: 0;
