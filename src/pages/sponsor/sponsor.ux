@@ -10,6 +10,7 @@
 
 <script>
 import router from "@system.router"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {navGuard} = global
 
@@ -17,6 +18,10 @@ export default {
   private: {
     touchStartX: -1,
     touchStartY: -1
+  },
+
+  onShow() {
+    applyKeepScreenOnSetting()
   },
 
   goBack() {

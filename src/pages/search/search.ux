@@ -44,6 +44,7 @@ import router from "@system.router"
 import prompt from "@system.prompt"
 import file from "@system.file"
 import storage from "@system.storage"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
 import {getDictionaryProfile} from "../../common/dictProfile"
@@ -224,6 +225,7 @@ export default {
   },
 
   onShow() {
+    applyKeepScreenOnSetting()
     this.searchSubmitLocked = false
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()

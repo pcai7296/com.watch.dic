@@ -33,6 +33,13 @@
           checked="{{ btnScaleEnabled }}"
           @change="onBtnScaleChange"
         ></switch>
+
+        <text class="setting-title keep-screen-title">屏幕常亮</text>
+        <switch
+          class="suggestion-switch"
+          checked="{{ keepScreenOnEnabled }}"
+          @change="onKeepScreenOnChange"
+        ></switch>
       </div>
     </scroll>
   </div>
@@ -41,6 +48,7 @@
 <script>
 import router from "@system.router"
 import storage from "@system.storage"
+import {applyKeepScreenOnSetting, setKeepScreenOnEnabled} from "../../common/keepScreenOn"
 
 export default {
   private: {
@@ -48,6 +56,7 @@ export default {
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
     btnScaleEnabled: false,
+    keepScreenOnEnabled: false,
     screenProfile: "circle",
     destroyed: false,
     touchStartX: -1,
@@ -112,6 +121,9 @@ export default {
         console.log("settings btn scale get failed: " + code)
       }
     })
+    applyKeepScreenOnSetting((enabled) => {
+      this.keepScreenOnEnabled = enabled
+    })
   },
 
   onDestroy() {
@@ -140,6 +152,12 @@ export default {
   onBtnScaleChange(evt) {
     this.btnScaleEnabled = !!(evt && evt.checked)
     this.saveSwitch("dic_button_scale", this.btnScaleEnabled)
+  },
+
+  onKeepScreenOnChange(evt) {
+    this.keepScreenOnEnabled = !!(evt && evt.checked)
+    setKeepScreenOnEnabled(this.keepScreenOnEnabled)
+    this.saveSwitch("dic_keep_screen_on", this.keepScreenOnEnabled)
   },
 
   saveSwitch(key, enabled) {
@@ -260,6 +278,10 @@ export default {
 }
 
 .btn-scale-title {
+  margin-top: 34px;
+}
+
+.keep-screen-title {
   margin-top: 34px;
 }
 
