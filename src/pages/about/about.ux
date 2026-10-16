@@ -300,6 +300,12 @@ export default {
   align-items: center;
 }
 
+.back-btn {
+  width: 102px;
+  height: 72px;
+  flex-shrink: 0;
+}
+
 .about-list {
   width: 196px;
   height: 385px;
