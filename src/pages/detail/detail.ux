@@ -556,7 +556,7 @@ export default {
 
 .top-row {
   width: 336px;
-  height: 72px;
+  height: 76px;
   padding-left: 14px;
   padding-right: 8px;
   flex-direction: row;
@@ -565,8 +565,8 @@ export default {
 }
 
 .back-btn {
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
   margin-right: 8px;
   flex-shrink: 0;
 }

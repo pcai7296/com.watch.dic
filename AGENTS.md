@@ -1,192 +1,110 @@
-﻿# 腕上词典 — AGENTS.md
+# 腕上词典 (w336) — AGENTS.md
 
-> **⚠️ MANDATORY: Before any Vela work (.ux, manifest, build, deploy, API), call skill(name="vela-dev") first — see .opencode/instructions/vela.md**
+> **⚠️ Vela 相关改动（.ux / manifest / build / deploy / API）前先加载 `vela-dev` skill。**
+> 本仓**没有** `.opencode/`（`vela.md`、`conventions.md`、`poster-qc.md` 在本仓不存在；仅 w432/w466 有）。分层文档：本文件 + `src/common/AGENTS.md` + `src/pages/AGENTS.md` + `src/components/InputMethod/AGENTS.md` + `scripts/AGENTS.md`。
 
-## What this is
+## 这是什么
 
-**腕上词典** (Wrist Dictionary) — a Xiaomi Vela QuickApp for Mi Band smartwatches. Built with iot-toolkit (iot CLI). Single-page SFC format (.ux files: <template> + <script> + <style> in one file, parsed by prettier as Vue).
+**腕上词典** — 小米手环上的离线 Vela 快应用，aiot-toolkit 构建。
+本仓是 **w336 分辨率分支**：336×480 矩形屏（shape `rect`），包名 `com.watch.dic.w336`。
+`buildTarget.js` 是**多目标 + 条件编译**（与 w212 同构），且**默认值已修正为 W336**——此前它是 w212 那份的字节副本，默认值是 W212，导致不带 `TARGET_*` 时 `npm run build`/`release` 会按 W212 编译。**改动该文件时务必确认默认值仍是 W336。**
 
-## Key config
+## 版本
 
-| File | What |
+`src/manifest.json`：`versionName` **3.1.0** / `versionCode` **7**（`package.json` 同）。
+`scripts/build_resolution_packages.ps1` 现已从 `src/manifest.json` 读取包名与版本（不再硬编码）；`release_resolution_packages.ps1` 仍可能写死版本，改动版本号时留意。
+
+## 词库（实测 `src/common/dict/meta.json`）
+
+**standard 档**：headwords **70,408**、`wordShards` **728**（26 字母 + 676 双字母 + 26 head）、`cnIndexMode` balanced、`entryShards` 141、cn phrases 119,542、zhChars 5,817。
+目录共 **1,082 个文件**（728 words + 141 entries + 96 cn_index + 64 zh_index + 26 inflect + 26 inflect_reverse + meta.json）。
+运行时由 `src/common/dictProfile.js` 按 meta 的 `wordTwoShards`/`wordHeadShards` 选片。
+
+**不要在本仓重生成词库**：本仓**没有 `data/` 目录**，生成器跑不起来。要在 w212（唯一有完整语料集）生成后复制过来。
+
+## 关键配置
+
+| 文件 | 内容 |
 |------|------|
-| opencode.json | Loads AGENTS.md + .opencode/instructions/vela.md + poster-qc.md |
-| .opencode/instructions/conventions.md | Font-size rules (min 18px), about page multi-screen layout, emulator policy |
-| .opencode/instructions/dictionary-coverage.md | Dict coverage analysis + CC-CEDICT integration |
-| .opencode/instructions/poster-qc.md | Poster generation + GLM-4V-Flash visual QA workflow |
-| .prettierrc.js | No semicolons, double quotes, no trailing commas, racketSpacing: false, printWidth 100, 2-space indent. .ux parsed as Vue |
-| .stylelintrc.js | Allows custom Vela CSS props + :blur pseudo-class |
-| commitlint.config.js | Conventional commits: ug, eat, ix, docs, style, 
-efactor, 	est, chore, 
-evert, merge |
-| .eslintignore | Ignores dist/, uild/, sign/, 
-ode_modules/ |
-| .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/ (dict/sign/dist/build now committed)
+| `.prettierrc.js` | 无分号、双引号、无尾逗号、`bracketSpacing: false`、printWidth 100、2 空格；`.ux` 按 Vue 解析 |
+| `.stylelintrc.js` | 允许 Vela 自定义 CSS 属性与 `:blur` 伪类 |
+| `commitlint.config.js` | Conventional commits（**未挂钩**：无 `.husky/`，实际不生效） |
+| `.eslintignore` | 忽略 `dist/`、`build/`、`sign/`、`node_modules/` |
+| `.gitignore` | 忽略 `/build/`、`/dist/`、`*.rpk`、`node_modules/`、`.husky/`、`.codegraph/`、`.omo/`、`.tmp/`（**`dict/` 与 `sign/` 才入库**） |
+| `.gitattributes` | `src/common/dict/** -text` —— **不要删**，删了 git 会规范化换行，全库假 diff |
+| `quickapp.config.js` | 启用 JSC + `scripts/conditionalCompilationPlugin.js` |
 
-No .eslintrc* — ESLint defaults via iot-toolkit.
+`.eslintrc.js` 只提供解析用的 `env`/`parserOptions`，`rules` 留空；`npm run lint` **只报告不改文件**（`.ux` 没有 parser，不参与检查），`npm run lint:fix` 才写回。
 
-## Commands
+## 命令
 
-| Command | What |
-|---------|------|
-| 
-pm run start | Dev server (iot start --watch) |
-| 
-pm run build | Build RPK (iot build) |
-| 
-pm run release | Release build (iot release) |
-| 
-pm run lint | ESLint --fix on src/ (.ux,.js) |
-| 
-pm run deploy:watch | Build + ADB push to emulator-5554 |
-| 
-pm run deploy:watch:fast | ADB push only (skip build) |
+| 命令 | 说明 |
+|------|------|
+| `npm run start` | 开发服务器（`aiot start --watch`） |
+| `npm run build` | 默认目标 RPK |
+| `npm run build:192 … build:466` | 各目标构建（cross-env + 条件编译） |
+| `npm run build:resolutions` / `release:resolutions` | 批量构建 / 发布 5 个目标 |
+| `npm run release` | 发布构建 |
+| `npm run lint` | ESLint 检查 `.js`（只报告）；`lint:fix` 才改文件 |
+| `npm run deploy:watch` / `deploy:watch:fast` | 构建 + ADB 推送到 emulator-5554 / 只推送 |
 
-build/ and dist/ are committed to Git (user decision 2026-08-15: all RPK inputs tracked)
-spack v1.7.12 via iot-toolkit.
+## 部署
 
-## Deploy
+`scripts/deploy_watch.ps1`（`$ErrorActionPreference = "Stop"`）：构建 → 取 `dist/` 最新 `*.rpk` → `adb push` → `pm install` → `am start` → `am dump` 验证 `[resumed]`。
+`-Serial 192.168.x.x:5555` 换设备；`-NoBuild` 跳过构建（**不要用**，会推旧包）。
 
-- scripts/deploy_watch.ps1 — PowerShell. Targets emulator-5554. Override: -Serial 192.168.x.x:5555 or -NoBuild.
-- Flow: build → newest *.rpk in dist/ → db push → db shell pm install → db shell am start → verify m dump checks [resumed].
-- $ErrorActionPreference = "Stop" — exits on any failure.
+## 结构
 
-## Real device management
-
-ork_astrobox/ — AstroBox CLI fork for multi-device management (pairing, RPK install via queue).
-
-## Pre-commit
-
-Run ash husky.sh once (requires git):
-- Pre-commit via lint-staged: Prettier → ESLint (.ux/.js); Prettier → stylelint (./less/.css)
-- Commit-msg via commitlint
-
-## Project structure
-
-`
+```
 src/
-  app.ux / manifest.json          — Entry + config
-  pages/                          — 9 pages
-    index/                        — Home with 4 buttons
-    search/                       — IME + cursor editing + autocomplete
-    results/                      — English/Chinese results (1425 lines)
-    filter/                       — Letter drill-down jump-search
-    detail/                       — Word detail + favorite toggle (661 lines)
-    records/                      — History / favorites list (type param)
-    about/                        — Credits, license, multi-screen adaptive usage text
-    sponsor/                      — Donation QR code
-    settings/                     — User preferences (suggestion toggle, swipe lock)
-  components/
-    InputMethod/                  — English QWERTY keyboard (890 lines), sub-assets for layouts
-  common/
-    dict/                         - 269 shards (committed to Git, do NOT edit)
-    icons/                        — Button/decoration icons
-  i18n/                           — Locale JSON files (defaults, en, zh-CN)
-scripts/                          — generate_watch_dict.py, deploy_watch.ps1
-omo/                              — 32 Python scripts for asset gen, poster, coverage tests
-data/                             — Source dict CSVs (ecdict_tagged_14942_compact.csv, cedict.txt.gz)
-release_repo/                     — Published RPK + cover.png + preview screenshots
-`
+  app.ux / global.js / manifest.json   —— 入口（无 app.js）、global DI、路由与 features
+  pages/                               —— 9 个页面（index/search/results/detail/records/filter/about/sponsor/settings）
+  components/InputMethod/              —— 唯一组件：QWERTY/T9 键盘 + assets/{full,arc,horizontal,t9}
+  common/                              —— buildTarget / dictCodec / dictProfile / navGuard / suggestionState + dict/ + icons/
+  i18n/                                —— defaults/en/zh-CN.json（占位内容）
+scripts/                               —— generate_watch_dict.py（旧版，无 argparse）+ PS1 构建/部署 + JS webpack loader
+```
+**不存在**：`data/`、`omo/`、`tests/`、`docs/`、`research_cn_index_trim/`、`work_astrobox/`、`opencode.json`。
 
-## Screen & style
+## 屏幕与样式
 
-- Canvas: 336x480px, designWidth: "device-width", minPlatformVersion: 1000
-- Background #020813 on all pages except about (#000000)
-- Blue/white/black dark theme
-- **All text min 18px** — do not go below unless user OKs truncation
-- **About page**: usage text wraps by screen profile; 466×466 uses the same safe width as results.
+- 画布 336×480，`designWidth: "device-width"`、`minPlatformVersion: 1000`。**不要覆盖 designWidth**。
+- 背景 `#020813`（about 页 `#000000`）。
+- 文字**最小 18px**，除非用户同意截断。
+- 自适应三层：编译期条件编译（`buildTarget.js` 的 `// if true:` / `// endif`）+ 运行期 `app.ux` 算 `screenProfile` + CSS 类名后缀 `page-{{screenProfile}}`。**无 rem/vw/rpx**。
+- **Vela CSS 不支持 `@keyframes`**（日志 `Unknown style - keyframes`），按压反馈用 `transition: transform 120ms ease-out`。本仓 `src/pages/index/index.ux` 已按此修正——**不要再用 `@keyframes`**。
 
-## Storage
+## Storage（`@system.storage`）
 
-| Key | Type | Max | Purpose |
-|-----|------|-----|---------|
-| dic_history | JSON array | 20 | Search history |
-| dic_favorites | JSON array | 20 | Favorites |
-
-Both via @system.storage. Dedup/toggle by normalized word.
+| Key | 上限 | 用途 |
+|-----|------|------|
+| `dic_history` | 20 | 搜索历史 |
+| `dic_favorites` | **150** | 收藏（代码 `detail.ux` 中为 150，`about.ux` 文案同） |
 
 ## Router
 
-Features: system.router, system.vibrator, system.device, system.file, system.storage, system.prompt (toast).
+`manifest.json` features：`system.router`、`system.vibrator`、`system.device`、`system.file`、`system.storage`、`system.prompt`；entry = `pages/index`，共 9 页。
+**所有交互跳转必须过 `navGuard()`**（500ms 锁）；`router.back()` 在滑动返回手势里按设计不包。
 
-9 pages in manifest.json, entry = pages/index.
+## ANTI-PATTERNS
 
-## Dictionary (~128k Chinese phrases, 15k English headwords)
+- **永不手改 `src/common/dict/**`** —— 生成器产物，`rmtree` 整体替换，front-code / delta / 行号强耦合。
+- **永不手改 `src/common/dictCodec.js`** —— 它是生成器侧 codec 的镜像，单改一边即破坏格式。
+- **不要绕过 `navGuard()`**。
+- **不要硬编码屏幕尺寸**，用 `global.buildTarget` / `screenProfile`。
+- **不要移除滑动手势返回**，新增页面必须照抄。
+- **不要跨分辨率构建**（本仓编译自己的目标）。
+- **不要写通用 AI 套话** —— 保持电报体、无废话。
+- **无 `as any` / `@ts-ignore` / `@ts-expect-error`；无分号；无空 catch**。
 
-Source: ECDICT + CC-CEDICT + BNC/COCA word-family lists.
-Regenerate: python scripts/generate_watch_dict.py (never edit shards directly).
+## 坑
 
-| Feature | Mechanism |
-|---------|-----------|
-| English lookup | 26 first-letter files (`words/word_a.txt`..`word_z.txt`); row = `word<TAB>entryId<TAB>tag` |
-| Chinese lookup | Unicode codepoint % 64 to 64 bucket files; ID lists are strictly decoded delta-base36 |
-| Inflect lookup | `inflect/` + `inflect_reverse/`; `key_for()` 2-char sharding is used only here |
-| Entry lookup | `entries/entry_<nn>.txt`, sharded by `entryId / 500`; canonical full data for English and Chinese hydration |
-| Fuzzy search | Edit distance <=2, scan <=4000 words, pool <=80 candidates |
-| Autocomplete | Async read/cache of the same compact `word_<a-z>.txt` index; exam tag affects ranking |
-| Results cap | 20 |
+- `npm run lint` 只查 `.js`（`.ux` 无 parser）；`commitlint` / `lint-staged` 因缺 `.husky/` 而不生效。
+- `dictProfile.isTwoLetterShardsEnabled` / `isHeadShardsEnabled` 是死代码（无调用者）。
+- 生成器里的 `key_for()` 也是死代码（两字母分片实际用 `word[:2]`），旧文档说它「驱动两字母分片」是错的。
+- 各页存在大量 `screenWidth || 212` 兜底与按 466/192/336/432 分支的 JS 魔数表，与「不要硬编码尺寸」冲突——不要扩大。
+- `detail.ux`、`filter.ux`、`records.ux`、`settings.ux` 的 storage/file 调用**缺 `complete` 回调**（success/fail 齐全），会刷 `finish_callback` 报错。
 
-There is no `index_en.txt` or `english_suggestions.js/.json` runtime resource.
+## 测试 / CI
 
-Coverage: English 100%, Chinese ~86% (14 modern words missing from CC-CEDICT).
-Test: python omo/dict_coverage_test.py
-
-## InputMethod component
-
-- English QWERTY only
-- Emits: isibilityChange, keyDown, delete, complete
-- Asset paths use {{lang}} variable — handled by iot-toolkit 2.0.4+
-
-## Swipe-back gesture (every page)
-
-| Page | Start X <= | End X >= | dY <= |
-|------|------------|----------|-------|
-| Most pages | 53 | 159 | 120 |
-| about.ux | 20 | 180 | 60 |
-
-Copy pattern from any page except about. Needs getTouchPoint() + 	ouchStartX/Y.
-
-## Router quirks
-
-- **records to search**: 
-outer.replace (not push) with utoSearch="1"
-- **detail to results** (inflect): 
-outer.replace (not push)
-- **Detail page**: 1s cooldown on inflect button, max 3 depth levels
-
-## VSCode MCP
-
-elajs-mcp in .vscode/mcp.json with auto-approved: tap, screenshot, navigate, input text, build, get device logs, storage inspect.
-
-## Emulator policy
-
-**Do not touch the emulator unless asked.** Verification is the user's job (per conventions.md).
-
-## Tests & CI
-
-- **Offline tests**: `omo/dict_coverage_test.py`, `omo/dict_compaction_test.py`, `omo/dict_semantic_validator.py`
-- **Test framework / CI**: No app test framework. No GitHub Actions.
-
-## ANTI-PATTERNS (THIS PROJECT)
-
-- **Never edit dictionary shard files** under src/common/dict/. Regenerate via python scripts/generate_watch_dict.py.
-- **No static asset paths** with {{lang}} — iot-toolkit 2.0.4+ handles variable-depth paths.
-- **No type suppression** — no s any, @ts-ignore, @ts-expect-error.
-- **No semicolons** — Prettier enforces no-semicolon style.
-- **No empty catch blocks** — always handle or re-throw.
-- **Don't remove swipe-back gesture** when adding new pages.
-- **No generic AI boilerplate** — match project's telegraphic, no-fluff style.
-- **Don't override designWidth** — must stay "device-width" for the 212x520 canvas.
-- **ESLint runs with --fix by default** — it auto-formats on lint. Be aware before running 
-pm run lint.
-
-## CODE MAP
-
-| Symbol | Type | File | Role |
-|--------|------|------|------|
-| key_for() | function | scripts/generate_watch_dict.py | Generate 2-char shard key for inflect / reverse-inflect files only |
-| zh_bucket_for() | function | scripts/generate_watch_dict.py | Unicode bucket for Chinese index |
-| load_cc_cedict() | function | scripts/generate_watch_dict.py | Parse CC-CEDICT into cn_index |
-| SimpleInputMethod | object | src/components/InputMethod/assets/dicUtil.js | English dict query orchestration |
-| decodeDeltaIds() | function | src/pages/results/results.ux | Strictly decode delta-base36 Chinese index IDs |
-| loadEnglishSuggestionSource() | function | src/pages/search/search.ux | Async load/cache compact first-letter word index |
+无测试框架、无 CI。仅有 w212 才有的离线校验（`profile_audit.py`、`bench_search.py`、`check_ids.py`、`check_phrases.py`）——本仓 `scripts/` 里没有。
