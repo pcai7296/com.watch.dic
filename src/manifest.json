@@ -1,8 +1,8 @@
 {
   "package": "com.watch.dic.w212",
   "name": "腕上词典",
-  "versionName": "3.1.0",
-  "versionCode": 7,
+  "versionName": "3.2.0",
+  "versionCode": 8,
   "minPlatformVersion": 1000,
   "icon": "/common/icon.png",
   "deviceTypeList": [

@@ -20,7 +20,7 @@ Remote: `github.com/pcai7296/com.watch.dic.git`.
 
 ## Versioning
 
-- Canonical version: `src/manifest.json` → `versionName` / `versionCode` (**currently 3.1.0 / 7**; `package.json` 也已同步为 3.1.0).
+- Canonical version: `src/manifest.json` → `versionName` / `versionCode` (**currently 3.2.0 / 8**; `package.json` 也已同步为 3.2.0).
 - Known drift (don't trust them): `package.json` `version` and README badge lag behind; CHANGELOG entries are written per release.
 
 ## Key config
