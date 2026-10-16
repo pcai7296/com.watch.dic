@@ -25,18 +25,22 @@ InputMethod/
 | `hide` | `true` | Show/hide IME |
 | `keyboardtype` | `"QWERTY"` | `"QWERTY"` or `"T9"` |
 | `maxlength` | `5` | Max visible suggestion slots |
-| `vibratemode` | `""` | Vibration on keystroke (empty = off) |
-| `screentype` | `"circle"` | `"circle"` (62-round), `"rect"` (67-square), or `"pill-shaped"` (66-capsule) |
+| `vibratemode` | `""` | 按键震动（空 = 关） |
+| `screentype` | `"circle"` | `"circle"`（圆屏）/ `"rect"`（方屏）/ `"pill-shaped"`（胶囊屏） |
+| `englishonly` | — | 只允许英文输入 |
 
-## Events
+## Events（实际 emit 的只有这 4 个）
 
 | Event | Payload | Description |
 |-------|---------|-------------|
-| `visibilityChange` | `{ visible: bool }` | IME shown/hidden |
-| `keyDown` | `{ key: string }` | Character input |
-| `delete` | — | Backspace |
-| `complete` | `{ content: string }` | Input confirmed / commit |
-| `ready` | — | IME component mounted |
+| `visibilityChange` | `{ visible: bool }` | 显示/隐藏 |
+| `keyDown` | `{ content: string }` | 字符输入（字母 / 空格 / 候选点击 —— **payload 键是 `content`，不是 `key`**） |
+| `delete` | `{}` | 退格 |
+| `complete` | `{ content: string }` | **唯一的提交口**（`addAllTxt`） |
+
+**没有 `ready` 事件。** `ready` 是框架保留事件名，`$emit("ready")` 会抛 `TypeError: not a function`。自动搜索改用**页面**的 `onReady`（`pages/search/search.ux`）。旧版本文件把它列为组件事件是错的。
+
+**本仓 `InputMethod.ux` 是 982 行**（其他仓约 900 行，圆屏键位有额外分支）——**不要跨仓照抄行号定位**。
 
 ## Key flow
 
