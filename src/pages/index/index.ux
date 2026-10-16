@@ -108,7 +108,6 @@ export default {
   private: {
     screenProfile: buildTarget.profile,
     layoutMode: "minimal",
-    currentTime: "",
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
     releasingKey: "",
