@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-{{screenProfile}}">
+  <div class="page page-{{screenProfile}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
     <!-- 共用：时间（弧形） -->
     <div style="width:212px;height:36px;margin-top:-25px;margin-bottom:-4px;position:relative;">
       <text style="position:absolute;left:53px;top:8.4px;width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;transform:rotate(-21deg);transform-origin:10px 16.5px;">{{tc0}}</text>
@@ -101,9 +101,49 @@ const {buildTarget, navGuard} = global
 
 export default {
   onBackPress() {
+    // 兜底：个别设备根页面返回不退出时主动退出；这里不 return true，
+    // 让系统默认逻辑（根页面返回 = 退出应用）也生效，避免事件被吃掉后无响应
     app.terminate()
-    return true
   },
+
+  onPageTouchStart(evt) {
+    var point = this.getTouchPoint(evt)
+    if (!point) {
+      this._pageSwipeX = -1
+      this._pageSwipeY = -1
+      return
+    }
+    this._pageSwipeX = point.clientX
+    this._pageSwipeY = point.clientY
+  },
+
+  onPageTouchEnd(evt) {
+    var point = this.getTouchPoint(evt)
+    var startX = this._pageSwipeX
+    var startY = this._pageSwipeY
+    this._pageSwipeX = -1
+    this._pageSwipeY = -1
+    if (!point || startX < 0) {
+      return
+    }
+    // 部分设备（如小米手环9）不会把根页面的侧滑手势交给 onBackPress，
+    // 这里自行识别「左缘起手、右移过半、基本水平」的滑动并退出应用
+    var mostlyHorizontal = Math.abs(point.clientY - startY) <= buildTarget.height * 0.25
+    if (startX <= buildTarget.width * 0.25 && point.clientX >= buildTarget.width * 0.75 && mostlyHorizontal) {
+      app.terminate()
+    }
+  },
+
+  getTouchPoint(evt) {
+    if (evt && evt.changedTouches && evt.changedTouches.length > 0) {
+      return evt.changedTouches[0]
+    }
+    if (evt && evt.touches && evt.touches.length > 0) {
+      return evt.touches[0]
+    }
+    return null
+  },
+
   private: {
     screenProfile: buildTarget.profile,
     layoutMode: "minimal",
