@@ -1,6 +1,7 @@
 0yachted	bhk
 5ing	bhk
 5s	bhk
+2nkees	cpg
 2rds	bhl
 5ticks	bhm
 3ned	bhn
@@ -12,7 +13,8 @@
 4ing	bhp
 4s	bhp
 3s	bho
-1early	bhq
+1eah	bhz
+3rly	bhq
 4ned	bhs
 5ing	bhs
 5s	bhs
@@ -23,6 +25,7 @@
 4owed	bhv
 7r	bhv
 6ing	bhv
+7sh	bhv
 6s	bhv
 4s	bhu
 3ped	bhw
@@ -44,11 +47,13 @@
 2unger	bib
 6st	bib
 5ster	bib
-9s	bic
+9s	bib,bic
 3r	bia
 4s	bia
 5elf	bia
 7ves	bia
 3thful	bih
+8ness	bih,bii
 5s	bih
 1ummiest	bij
+4y	cj4
