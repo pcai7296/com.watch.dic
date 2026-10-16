@@ -14,7 +14,7 @@
 
 ## 版本
 
-`src/manifest.json`：`versionName` **3.1.0** / `versionCode` **7**（`package.json` 同）。
+`src/manifest.json`：`versionName` **3.2.0** / `versionCode` **8**（`package.json` 同）。
 
 ## 词库（实测 `src/common/dict/meta.json`）
 
