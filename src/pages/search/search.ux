@@ -862,8 +862,8 @@ export default {
 
 .back-btn,
 .check-btn {
-  width: 60px;
-  height: 60px;
+  width: 72px;
+  height: 72px;
   margin-left: 0;
   margin-right: 8px;
   flex-shrink: 0;
