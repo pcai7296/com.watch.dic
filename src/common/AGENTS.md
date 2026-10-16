@@ -13,10 +13,11 @@ common/
 ├── suggestionState.js   # 联想状态的模块级单例（search ↔ IME）
 ├── dict/                # 生成的分片 —— 已入库，禁止手改
 ├── icons/               # 34 个按钮/UI PNG
+├── icon.png             # manifest 图标（白色圆底 + 蓝色词典书标）
 └── logo.png / search-icon.png / sponsor-code.png / deco-icon*.png
 ```
 
-本仓**没有** `keepScreenOn.js`（只有 w212 有）。`app.ux`、`global.js`、`manifest.json`、这些 `common/*.js`、`*.png` 在 `variants/*` 里都是**独立副本**，改完必须跑 `..\scripts\sync_source.ps1`；而 `common/dictProfile.js`、`common/keepScreenOn.js`、`common/AGENTS.md` **不在该脚本白名单里**，只能手工同步。
+本仓**已移植 `keepScreenOn.js`**（3.2.0 从 w212 移植：`applyKeepScreenOnSetting()` / `setKeepScreenOnEnabled()` + settings 页开关 + 各页 `onShow` 重下发）。`app.ux`、`global.js`、`manifest.json`、这些 `common/*.js`、`*.png` 在 `variants/*` 里都是**独立副本**，改完必须跑 `..\scripts\sync_source.ps1`——`common/dictProfile.js`、`common/keepScreenOn.js`、`common/icon.png` 与其余 `common/*.png` **都在白名单里**（会自动同步）；只有 `common/AGENTS.md` 故意排除。
 
 ## buildTarget.js
 
