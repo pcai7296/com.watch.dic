@@ -1,4 +1,4 @@
-﻿# src/common/ — Shared Modules + Static Assets
+# src/common/ — Shared Modules + Static Assets
 
 Cross-page ES modules, app icon, and shared icons. All paths referenced by pages/components are resolved relative here.
 
@@ -6,17 +6,18 @@ Cross-page ES modules, app icon, and shared icons. All paths referenced by pages
 
 ```
 common/
-├── suggestionState.js      # Shared ES module — autocomplete state for search page
-├── buildTarget.js          # Compile-time screen target {id,width,height,profile,shape}; conditional-compilation blocks
-├── navGuard.js             # 500ms router anti-double-tap lock (mounted on global via src/global.js)
-├── dictCodec.js            # Runtime compact-v3 codecs (parseBase36, decodePrefixField, decodeDeltaIds)
-├── dict/                   # Generated dictionary shards — committed to Git
-├── icons/                  # 21 button/UI PNGs
-├── logo.png                # App icon
-├── deco-icon.png           # Decorative icon
-├── search-icon.png         # Search-page decorative icon
-└── sponsor-code.png        # Donate QR on sponsor page
+├── suggestionState.js      # 联想状态的模块单例（search ↔ IME）
+├── buildTarget.js          # 编译期屏幕目标 {id,width,height,profile,shape}；多目标条件编译块
+├── dictProfile.js          # 读 /common/dict/meta.json 的档位单例（决定选 26 还是 728 个分片）
+├── keepScreenOn.js         # 屏幕常亮偏好缓存 + 下发（**仅本仓有**）
+├── navGuard.js             # 500ms 导航防连点锁（由 src/global.js 挂到 global）
+├── dictCodec.js            # compact-v3 运行时解码（parseBase36 / decodePrefixField / decodeDeltaIds）
+├── dict/                   # 生成的分片 —— 已入库，禁止手改
+├── icons/                  # 21 个按钮/UI PNG
+└── logo.png / logo_192_rounded.png / search-icon.png / sponsor-code.png
 ```
+
+**本仓没有 `deco-icon.png` / `deco-icon-about.png`**（前者在近期改动中被删除，后者只在 w432/w466 有）——不要照抄兄弟仓的图标名。
 
 ## suggestionState.js
 
@@ -29,6 +30,12 @@ Module-scoped singletons for autocomplete state shared between `pages/search` an
 | `onSuggestionsChange(cb)` | subscribe to suggestion updates (single-slot registration) |
 
 Usage: `import { setSuggestions, onSuggestionsChange } from '../../common/suggestionState.js'`.
+
+## dictProfile.js + keepScreenOn.js
+
+- `dictProfile.js` — `loadDictionaryProfile()` 读 `/common/dict/meta.json` → 模块级 `_profile` 单例 + 回调队列；**读失败静默 `_profile=null`**，全部退化为 26 字母分片。真正判据只有 `wordTwoShards > 0` / `wordHeadShards > 0` —— **没有任何分支在 `profile` 字符串上**。`isTwoLetterShardsEnabled` / `isHeadShardsEnabled` 无调用者（死代码）。
+- `keepScreenOn.js` — `applyKeepScreenOnSetting()` / `setKeepScreenOnEnabled()` 缓存 `dic_keep_screen_on`，各页 `onShow` 重新下发；**仅本仓有**（w192/w336/w432/w466 不存在该文件）。
+- 这两个文件**不在 `scripts/sync_source.ps1` 的白名单里** → 复制到 `variants/*` 时只能手工同步，是已知漂移源。
 
 ## buildTarget.js + navGuard.js
 
@@ -51,9 +58,16 @@ See `scripts/AGENTS.md` for the shard layout these decode.
 
 ## dict/ — Generated Shards (DO NOT EDIT)
 
-Layout: `words/`, `entries/`, `zh_index/`, `cn_index/`, `inflect/`, `inflect_reverse/`, `meta.json`. Regenerate with `python scripts/generate_watch_dict.py`.
+Layout: `words/`, `entries/`, `zh_index/`, `cn_index/`, `inflect/`, `inflect_reverse/`, `meta.json`. Regenerate with `python scripts/generate_watch_dict.py` — **仅本仓的生成器是新版**（有 `--profile` / `--cn-index-mode` / `--output`）；w192/w336/w432/w466 的是旧版无 argparse，且缺语料（见 [../AGENTS.md](../AGENTS.md)）。
 
-The directory IS committed to Git (~1082 files incl. meta.json) — clone-and-build works out of the box. Regenerate only when the source corpora in `data/` change.
+**本仓是 dev 档**：`profile=dev` / `headwords=1,400` / `wordShards=26` / `wordTwoShards=0` / `cnIndexPhrases=5,770`，共 **242** 个文件（兄弟仓是 standard：70,408 / 728 / 1,082）。**以 `meta.json` 为准，不要把数字写进文档**——上一版写 "~1082 files / 70,408 headwords" 正好说反了。
+
+目录 IS committed to Git（242 个文件含 meta.json）——clone 即可构建。**但 `build/` 与 `dist/` 不入库**（`.gitignore` 忽略）。
+
+三条硬约束：
+1. **不要手改 `meta.json`** —— 运行时靠它决定读 26 还是 728 个分片。
+2. **不要删 `.gitattributes` 的 `src/common/dict/** -text`** —— 删了 git 会规范化换行 → 全库假 diff。
+3. **CRLF 不统一，不能靠目录推断** —— 本仓 `entries/`、`cn_index/`、`inflect/` 有 CRLF，`zh_index/`、`words/` 没有。任何读分片的代码都要 `.replace(/\r/g, "")`（生成器与运行时强耦合：entries 的 eid = 分片号×500 + 0 基行号，删插一行即全片错位）。
 
 ## icons/ — 21 PNGs
 

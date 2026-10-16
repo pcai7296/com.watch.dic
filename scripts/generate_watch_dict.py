@@ -677,7 +677,18 @@ def main():
         default="core",
         help="cn_index CC-CEDICT augmentation mode: full=keep all, balanced=keep <=3 chars, core=drop CC-CEDICT additions (default)",
     )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default=None,
+        help="custom output directory (default: src/common/dict)",
+    )
     args = parser.parse_args()
+
+    # 支持自定义输出目录
+    global OUT
+    if args.output:
+        OUT = Path(args.output)
 
     rows = []
     with SOURCE.open("r", encoding="utf-8", newline="") as handle:

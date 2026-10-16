@@ -48,6 +48,7 @@ import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
 import {getDictionaryProfile} from "../../common/dictProfile"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {navGuard} = global
 
@@ -213,6 +214,7 @@ export default {
 
   onShow() {
     this.loadResultLongPressHomeSetting()
+    applyKeepScreenOnSetting()
     // Re-check query — Vela may reuse page instance without re-firing onInit
     const currentQuery = this.normalizeWord(this.query)
     if (currentQuery && currentQuery !== this.queryText) {

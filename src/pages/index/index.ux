@@ -95,10 +95,16 @@
 import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
+import app from "@system.app"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {buildTarget, navGuard} = global
 
 export default {
+  onBackPress() {
+    app.terminate()
+    return true
+  },
   private: {
     screenProfile: buildTarget.profile,
     layoutMode: "minimal",
@@ -259,6 +265,7 @@ export default {
 
   onShow() {
     this._loadBtnScale()
+    applyKeepScreenOnSetting()
   },
 
   onDestroy() {

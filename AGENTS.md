@@ -1,4 +1,4 @@
-﻿# 腕上词典 — AGENTS.md
+# 腕上词典 — AGENTS.md
 
 > Layered docs: this file (repo-wide) + `src/common/AGENTS.md` (shared modules/assets) + `scripts/AGENTS.md` (dict generator + deploy). Read the relevant layer before touching that area.
 
@@ -20,7 +20,7 @@ Remote: `github.com/pcai7296/com.watch.dic.git`.
 
 ## Versioning
 
-- Canonical version: `src/manifest.json` → `versionName` / `versionCode` (currently 3.0.0 / 6).
+- Canonical version: `src/manifest.json` → `versionName` / `versionCode` (**currently 3.1.0 / 7**; `package.json` 也已同步为 3.1.0).
 - Known drift (don't trust them): `package.json` `version` and README badge lag behind; CHANGELOG entries are written per release.
 
 ## Key config
@@ -32,7 +32,8 @@ Remote: `github.com/pcai7296/com.watch.dic.git`.
 | .stylelintrc.js | Allows custom Vela CSS props + `:blur` pseudo-class |
 | commitlint.config.js | Conventional commits: build, feat, fix, docs, style, refactor, test, chore, revert, merge |
 | .eslintignore | Ignores dist/, build/, sign/, node_modules/ |
-| .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/. dict/sign/dist/build ARE committed |
+| .gitignore | Ignores node_modules/, .husky/, .codegraph/, .omo/, .tmp/, `/build/`, `/dist/`, `*.rpk`. **入库的只有 `src/common/dict/` 与 `sign/`** |
+| .gitattributes | `src/common/dict/** -text` —— **不要删**，删了 git 会规范化换行导致全库假 diff |
 
 No `.eslintrc*` — ESLint defaults via aiot-toolkit. No `.opencode/` instructions dir (older docs referencing vela.md/conventions.md/poster-qc.md are obsolete).
 
@@ -62,7 +63,9 @@ Resolution batch builds/releases: `npm run build:resolutions` / `release:resolut
 | npm run deploy:watch | Build + ADB push to emulator-5554 |
 | npm run deploy:watch:fast | ADB push only (skip build) |
 
-build/ and dist/ are committed to Git (user decision 2025-08-15: all RPK inputs tracked). spack via aiot-toolkit ^2.0.5.
+**`build/` 与 `dist/` 并不入库**（`.gitignore` 忽略 `/build/`、`/dist/`、`*.rpk`；`git ls-files build dist` 为 0；RPK 改由 GitHub Release 发布）。入库的是 `src/common/dict/`（242 个文件）与 `sign/`（2 个文件）。aiot-toolkit ^2.0.5。
+
+**`npm run lint` 是空跑**：仓内只有 `.eslintignore`，**没有任何 eslint 配置**（`eslint --print-config` 返回 `rules:{}`、`parser:null`），但它带 `--fix`，会直接改格式。`commitlint.config.js` / `lint-staged` 因缺 `.husky/` 而未挂钩。
 
 ## Deploy
 
@@ -74,20 +77,20 @@ build/ and dist/ are committed to Git (user decision 2025-08-15: all RPK inputs 
 ```
 src/
   app.ux / global.js / manifest.json   — Entry, global mounts, config
-  pages/                               — 9 pages
-    index/      (812)  — Home, minimal/classic layout, button-scale setting
-    search/     (927)  — IME + cursor editing + autocomplete + swipe-exit lock
-    results/    (2337) — English/Chinese results, pagination, fuzzy, phrase mode
-    filter/     (432)  — Letter drill-down jump-search
-    detail/     (627)  — Word detail + favorite toggle (150 cap)
-    records/    (808)  — History/favorites list, paginated 20/page
-    about/      (401)  — Credits, license, multi-screen usage text
-    sponsor/    (96)   — Donation QR code
-    settings/   (286)  — Toggles (see Storage)
-  components/InputMethod/              — English QWERTY keyboard (923 lines) + assets/{full,horizontal,t9,arc}
+  pages/                               — 9 pages（**不要在任何文档里写固定行数**，这就是上一版过期的原因）
+    index/      — Home, minimal/classic layout, button-scale setting；onBackPress→app.terminate
+    search/     — IME + cursor editing + autocomplete + swipe-exit lock
+    results/    — English/Chinese results, pagination, fuzzy, phrase mode（最大的页面，约 2.5k 行）
+    filter/     — Letter drill-down jump-search（输入模式用 storage 键 `dic_large_input`）
+    detail/     — Word detail + favorite toggle (150 cap)
+    records/    — History/favorites list, paginated 20/page
+    about/      — Credits, license, multi-screen usage text
+    sponsor/    — Donation QR code
+    settings/   — Toggles (see Storage)
+  components/InputMethod/              — English QWERTY/T9 keyboard + assets/{full,horizontal,t9,arc}
   common/
-    buildTarget.js / navGuard.js / dictCodec.js / suggestionState.js
-    dict/       (1082 files)           — Generated shards, DO NOT EDIT
+    buildTarget.js / navGuard.js / dictCodec.js / dictProfile.js / keepScreenOn.js / suggestionState.js
+    dict/       (242 files, **dev 档**) — Generated shards, DO NOT EDIT
     icons/                             — 21 button/UI PNGs
     logo/deco-icon/search-icon/sponsor-code.png
   i18n/                                — defaults.json is a placeholder; real strings in en.json / zh-CN.json
@@ -118,12 +121,15 @@ sign/ · build/ · dist/                 — Committed signing material and arti
 | dic_result_long_press_home | "1"/"0" (default 1) | — | Long-press back (650ms) on results → home |
 | dic_search_swipe_exit_locked | "1"/"0" (default 1) | — | Lock swipe-exit while typing on search |
 | dic_button_scale | "1"/"0" (default 1) | — | Press-shrink effect on classic layout buttons |
+| dic_keep_screen_on | "1"/"0" (default 0) | — | 屏幕常亮：全 App 期间保持亮屏（`common/keepScreenOn.js` 缓存偏好 + 各页 onShow 重新下发） |
+| dic_large_input | "1"/"0" | — | filter 页的大字输入模式 |
+| dic_launch_count | number | — | index 页启动计数（首启与每 10 次跳赞助页） |
 
 Dedup/toggle by normalized word.
 
 ## Navigation
 
-- Features: system.router, system.vibrator, system.device, system.file, system.storage, system.prompt.
+- Features: system.router, system.app, system.vibrator, system.brightness, system.device, system.file, system.storage, system.prompt.
 - 9 pages in manifest.json, entry = pages/index.
 - **navGuard()** (common/navGuard.js): 500ms lock — every router call must pass through it so rapid taps can't stack duplicate pages.
 - Quirks: records→search uses router.replace with autoSearch="1"; detail→results (inflect) uses router.replace; detail inflect button has 1s cooldown, max 3 depth levels.
@@ -132,7 +138,9 @@ Dedup/toggle by normalized word.
 
 Source: ECDICT + CC-CEDICT (single-char English glosses + multi-word phrases) + BNC/COCA word families + WordNet derived links + suffix rules. Regenerate: `python scripts/generate_watch_dict.py` (~1000 lines; cleans OUT dir each run). **Never edit shards directly.**
 
-Self-describing stats live in `src/common/dict/meta.json` (70,408 English headwords; 134,322 cn phrases; resultLimit 20). Runtime codec shared in `src/common/dictCodec.js`.
+**本仓当前是 dev 档** —— `src/common/dict/meta.json` 实测：`profile=dev`、`headwords=1,400`、`wordShards=26`、`wordTwoShards=0`、`wordHeadShards=0`、`cnIndexMode=core`、`cnIndexPhrases=5,770`、`zhChars=2,180`、`resultLimit=20`，共 242 个文件。
+w192/w336/w432/w466 四仓是 **standard**（70,408 / 728 分片 / 1,082 文件）。**一律以 meta.json 为准，不要把数字写进文档。**
+运行时判据只有 `wordTwoShards > 0` / `wordHeadShards > 0`（`dictProfile.js`）；dev/lite 只有 26 个 `word_<letter>.txt`，676 个双字母分片与 26 个 head 分片**只在 standard 生成**。Runtime codec shared in `src/common/dictCodec.js`。
 
 | Feature | Mechanism |
 |---------|-----------|
@@ -172,11 +180,15 @@ velajs-mcp in .vscode/mcp.json; broad autoApprove list (tap, screenshot, navigat
 ## Tests & CI
 
 - Offline python checks: scripts/check_ids.py, scripts/check_phrases.py (+ research_cn_index_trim audit scripts).
-- No app test framework, no CI.
+- `npm run audit:dict` = `scripts/profile_audit.py`（分片完整性 + 体积档位：lite ≤4.0MB / standard ≤8.0MB 为 PASS）；`npm run bench:dict` = `scripts/bench_search.py`（自一致性，必须 100% 命中）。两者**只读**，可安全跑。
+- No app test framework, no CI. lint / commitlint / lint-staged 见上文（均未真正生效）。
 
 ## ANTI-PATTERNS (THIS PROJECT)
 
+- **`generate_watch_dict.py` 只在本仓是新版**（1,103 行，有 `--profile` / `--cn-index-mode` / `--output`）；w192/w336/w432/w466 的是旧版（896 行，**无 argparse**，输出目录硬编码）。跨仓脚本不能假定参数通用。
 - **Never edit dictionary shards** under src/common/dict/ — regenerate via generate_watch_dict.py.
+- **不要随手跑 `npm run dict:lite` / `dict:standard`** —— 这三个 `dict:*` 脚本**都不传 `--output`**，会先 `rmtree` 再就地覆盖 `src/common/dict/`。本仓当前是 dev（0.26MB），跑 `dict:standard` 会直接换成 7.2MB；而 lite/standard 的 git worktree **已不存在**，唯一回滚是 `git checkout -- src/common/dict`。
+- **不要在其他分辨率仓库重生成词库** —— w192/w336 没有 `data/`（必失败）；w432/w466 的 `data/` 缺 `phrases.csv` 与 `words_ccedict.csv`，跑起来会把 standard **静默缩水到 14,942 条**。本仓是唯一有完整语料集的仓库。
 - **Never bypass navGuard** for router calls on interactive buttons.
 - **Don't hardcode screen dimensions** — use `global.buildTarget` / screenProfile so the 5 sibling repos stay in sync.
 - **Conditional-compilation blocks must stay balanced** (`// if true:` … `// endif`) — they're processed across css/js/json/html/vue/ux.
@@ -193,7 +205,7 @@ velajs-mcp in .vscode/mcp.json; broad autoApprove list (tap, screenshot, navigat
 | navGuard() | function | src/common/navGuard.js | 500ms anti-double-tap router lock; mounted on global |
 | parseBase36 / decodePrefixField / decodeDeltaIds | function | src/common/dictCodec.js | Runtime compact-v3 codecs (base36 fields, front-coded words, delta-ULEB128+base64url IDs) |
 | getSuggestionSeed/setSuggestions/onSuggestionsChange | function | src/common/suggestionState.js | Module-scoped autocomplete bridge between search page and IME |
-| key_for(value) | function | scripts/generate_watch_dict.py | Normalize to 2-char shard key ([^a-z0-9] → "_") |
+| key_for(value) | function | scripts/generate_watch_dict.py | **死代码（全脚本零调用）**——两字母分片实际用 `word[:2]`；不要以为它在驱动分片命名 |
 | zh_bucket_for / cn_bucket_for | function | scripts/generate_watch_dict.py | ord % 64 (single char) / ord % 96 (phrases) bucket names |
 | encode_delta_ids / decode_delta_ids | function | scripts/generate_watch_dict.py | Generator-side strict delta-ULEB128 codec |
 | encode_front_code / decode_front_code | function | scripts/generate_watch_dict.py | Front-coding of word column inside entry shards |

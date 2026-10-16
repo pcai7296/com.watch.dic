@@ -2,6 +2,7 @@
 import device from "@system.device"
 import "./global"
 import {loadDictionaryProfile} from "./common/dictProfile"
+import {applyKeepScreenOnSetting} from "./common/keepScreenOn"
 
 const {buildTarget} = global
 
@@ -46,6 +47,7 @@ export default {
     loadDictionaryProfile(function(profile) {
       console.log("dict profile loaded: " + (profile && profile.profile ? profile.profile : "unknown"))
     })
+    applyKeepScreenOnSetting()
     const appData = this.data
     if (appData.screenHeight > 0) {
       appData.screenAspectRatio =

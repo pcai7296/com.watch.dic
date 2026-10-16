@@ -55,6 +55,7 @@
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
+import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
 const {navGuard} = global
 
@@ -145,6 +146,7 @@ export default {
       })
     }
     this.loadRecords()
+    applyKeepScreenOnSetting()
     // 1.5s 让人先看清单词，再按可见范围启动跑马灯
     if (this.marqueeTimer) {
       clearTimeout(this.marqueeTimer)
