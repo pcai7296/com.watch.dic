@@ -88,9 +88,6 @@ export default {
     this._trackLaunch()
     this._loadBtnScale()
     this._updateTime()
-    this.timeTimer = setInterval(() => {
-      this._updateTime()
-    }, 1000)
   },
 
   onBtnDown(key) {
@@ -140,8 +137,14 @@ export default {
   },
 
   onShow() {
+    this._updateTime()
+    this._startTimeTicker()
     applyKeepScreenOnSetting()
     this._loadBtnScale()
+  },
+
+  onHide() {
+    this._stopTimeTicker()
   },
 
   onDestroy() {
@@ -149,6 +152,7 @@ export default {
       clearTimeout(this._btnUpTimer)
       this._btnUpTimer = null
     }
+    this._stopTimeTicker()
   },
 
   _updateTime() {
@@ -156,11 +160,33 @@ export default {
     var h = now.getHours()
     var m = now.getMinutes()
     var t = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m
-    this.tc0 = t[0]
-    this.tc1 = t[1]
-    this.tc2 = t[2]
-    this.tc3 = t[3]
-    this.tc4 = t[4]
+    if (this.tc0 !== t[0]) this.tc0 = t[0]
+    if (this.tc1 !== t[1]) this.tc1 = t[1]
+    if (this.tc2 !== t[2]) this.tc2 = t[2]
+    if (this.tc3 !== t[3]) this.tc3 = t[3]
+    if (this.tc4 !== t[4]) this.tc4 = t[4]
+  },
+
+  _startTimeTicker() {
+    this._stopTimeTicker()
+    this._scheduleNextTick()
+  },
+
+  _scheduleNextTick() {
+    var self = this
+    var delay = 60000 - (Date.now() % 60000)
+    this._timeTimer = setTimeout(function() {
+      self._timeTimer = null
+      self._updateTime()
+      self._scheduleNextTick()
+    }, delay)
+  },
+
+  _stopTimeTicker() {
+    if (this._timeTimer) {
+      clearTimeout(this._timeTimer)
+      this._timeTimer = null
+    }
   },
 
   _trackLaunch() {
