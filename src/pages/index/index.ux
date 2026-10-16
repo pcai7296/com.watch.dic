@@ -65,7 +65,6 @@ export default {
     tc2: "",
     tc3: "",
     tc4: "",
-    timeTimer: null,
     btnScaleEnabled: false,
     pressedKey: "",
     releasingKey: ""
