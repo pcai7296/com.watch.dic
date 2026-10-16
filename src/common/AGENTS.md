@@ -9,12 +9,12 @@ common/
 ├── suggestionState.js      # 联想状态的模块单例（search ↔ IME）
 ├── buildTarget.js          # 编译期屏幕目标 {id,width,height,profile,shape}；多目标条件编译块
 ├── dictProfile.js          # 读 /common/dict/meta.json 的档位单例（决定选 26 还是 728 个分片）
-├── keepScreenOn.js         # 屏幕常亮偏好缓存 + 下发（**仅本仓有**）
+├── keepScreenOn.js         # 屏幕常亮偏好缓存 + 下发（原仅本仓有，现已移植到其余 4 仓）
 ├── navGuard.js             # 500ms 导航防连点锁（由 src/global.js 挂到 global）
 ├── dictCodec.js            # compact-v3 运行时解码（parseBase36 / decodePrefixField / decodeDeltaIds）
 ├── dict/                   # 生成的分片 —— 已入库，禁止手改
 ├── icons/                  # 21 个按钮/UI PNG
-└── logo.png / logo_192_rounded.png / search-icon.png / sponsor-code.png
+└── logo.png（App 内装饰图，116x116） / icon.png（manifest 图标） / logo_192_rounded.png / search-icon.png / sponsor-code.png
 ```
 
 **本仓没有 `deco-icon.png` / `deco-icon-about.png`**（前者在近期改动中被删除，后者只在 w432/w466 有）——不要照抄兄弟仓的图标名。
@@ -33,9 +33,9 @@ Usage: `import { setSuggestions, onSuggestionsChange } from '../../common/sugges
 
 ## dictProfile.js + keepScreenOn.js
 
-- `dictProfile.js` — `loadDictionaryProfile()` 读 `/common/dict/meta.json` → 模块级 `_profile` 单例 + 回调队列；**读失败静默 `_profile=null`**，全部退化为 26 字母分片。真正判据只有 `wordTwoShards > 0` / `wordHeadShards > 0` —— **没有任何分支在 `profile` 字符串上**。`isTwoLetterShardsEnabled` / `isHeadShardsEnabled` 无调用者（死代码）。
-- `keepScreenOn.js` — `applyKeepScreenOnSetting()` / `setKeepScreenOnEnabled()` 缓存 `dic_keep_screen_on`，各页 `onShow` 重新下发；**仅本仓有**（w192/w336/w432/w466 不存在该文件）。
-- 这两个文件**不在 `scripts/sync_source.ps1` 的白名单里** → 复制到 `variants/*` 时只能手工同步，是已知漂移源。
+- `dictProfile.js` — `loadDictionaryProfile()` 读 `/common/dict/meta.json` → 模块级 `_profile` 单例 + 回调队列；**读失败静默 `_profile=null`**，全部退化为 26 字母分片。真正判据只有 `wordTwoShards > 0` / `wordHeadShards > 0` —— **没有任何分支在 `profile` 字符串上**。
+- `keepScreenOn.js` — `applyKeepScreenOnSetting()` / `setKeepScreenOnEnabled()` 缓存 `dic_keep_screen_on`，各页 `onShow` 重新下发；**5 个仓现已一致**（其余 4 仓于 3.2.0 移植）。
+- 这两个文件**都在 `scripts/sync_source.ps1` 的 `$CopyItems` 白名单里**（`src\common\dictProfile.js` / `src\common\keepScreenOn.js`）→ `sync_source.ps1` 会自动同步到 `variants/*` 的 `src/common/`（那是实体副本，不是 Junction）。
 
 ## buildTarget.js + navGuard.js
 
@@ -88,7 +88,7 @@ Home layout switch (minimal/classic) lives in `pages/settings` (`dic_home_layout
 | Guard a router call | `navGuard()` from global | required on interactive buttons |
 | Decode dict shard data | `dictCodec.js` | don't reimplement codecs per page |
 | Add new button icon | drop PNG in `icons/` + reference in target page | match existing naming (`btn_` prefix for buttons) |
-| Update app icon | `logo.png` | referenced from `manifest.json` |
+| Update app icon | `icon.png` | 白色圆底版，被 `manifest.json` 的 `icon` 引用；`logo.png` 只用于 App 内装饰 |
 | Regenerate dictionary shards | `scripts/generate_watch_dict.py` | never hand-edit `dict/` |
 
 ## ANTI-PATTERNS
