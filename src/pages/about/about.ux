@@ -8,7 +8,7 @@
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
         <div class="app-card">
           <text class="app-name">腕上词典</text>
-          <text class="app-version">3.2.0</text>
+          <text class="app-version">{{versionName}}</text>
           <img class="deco-icon-about" src="/common/deco-icon-about.png" />
         </div>
       </list-item>
@@ -65,11 +65,13 @@
 <script>
 import router from "@system.router"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
+import app from "@system.app"
 
 const {navGuard} = global
 
 export default {
   private: {
+    versionName: "",
     touchStartX: -1,
     touchStartY: -1,
     layoutWidth: 196,
@@ -91,7 +93,21 @@ export default {
   },
 
   onInit() {
+    this.versionName = this._readVersionName()
     this.applyScreenLayout()
+  },
+
+  _readVersionName() {
+    const fallback = "3.2.0"
+    try {
+      const info = app.getInfo()
+      if (info && info.versionName) {
+        return String(info.versionName)
+      }
+    } catch (e) {
+      // 旧平台不支持 getInfo 时退回编译期写死的值
+    }
+    return fallback
   },
 
   onShow() {
