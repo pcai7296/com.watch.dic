@@ -2,7 +2,7 @@
   "package": "com.watch.dic.w432",
   "name": "腕上词典",
   "versionName": "3.2.0",
-  "versionCode": 8,
+  "versionCode": 9,
   "minPlatformVersion": 1000,
   "icon": "/common/icon.png",
   "deviceTypeList": [
