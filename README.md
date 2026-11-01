@@ -171,6 +171,12 @@ python scripts/generate_watch_dict.py
 
 ---
 
+## 更新日志
+
+当前版本 **3.2.0**：降低冷启动峰值、新增“屏幕常亮”、首页时间按分钟校正、应用图标更新。详见 [CHANGELOG.md](./CHANGELOG.md)。
+
 ## 许可
 
-腕上词典是开源的手腕伴侣。词库数据来自 [ECDICT](https://github.com/skywind3000/ECDICT)。
+本项目采用 **非商业署名许可 1.0（WD-NCA-1.0）**：允许自由使用、复制、修改与分发，但**仅限非商业目的**；分发或基于本项目创作时必须保留署名并注明修改；禁止售卖、付费下载、广告变现、预装搭售等商业使用。
+
+完整条款见 [LICENSE](./LICENSE)。词库数据来自 [ECDICT](https://github.com/skywind3000/ECDICT)、CC-CEDICT、BNC/COCA。
