@@ -102,7 +102,7 @@ features：`system.router`、`system.vibrator`、`system.device`、`system.file`
 - `npm run lint` 已修复（新增 `.eslintrc.js`，只查 `.js`，不改文件）；`commitlint`/`lint-staged` 因缺 `.husky/` 不生效。
 - `omo/` 下脚本的绝对路径**已从旧单仓** `J:\code\MI band\腕上词典\...` **改指当前工作区**（`com.watch.dic\release_repo` 与本仓 `src\common\`）；仍是绝对路径，跨机器需先改。
 - `src/config-watch.json` 是空对象 `{}`；`src/i18n/*.json` 是占位符。
-- `dictProfile.isTwoLetterShardsEnabled` / `isHeadShardsEnabled`、生成器 `key_for()` 均为死代码。
+- `dictProfile.isTwoLetterShardsEnabled` / `isHeadShardsEnabled` 已删除；生成器 `key_for()` 仍是无调用者的死代码。
 - `detail.ux` / `filter.ux` / `records.ux` / `settings.ux` 的异步调用缺 `complete` 回调。
 
 ## 测试 / CI

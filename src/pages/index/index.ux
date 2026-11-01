@@ -45,7 +45,6 @@
 </template>
 
 <script>
-import device from "@system.device"
 import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
@@ -109,6 +108,36 @@ export default {
     pressedKey: "",
     releasingKey: ""
   },
+  // 首帧之后再推赞助页：冷启动瞬间再建一个页面会叠加解码/节点峰值
+  _scheduleSponsorPrompt() {
+    var self = this
+    if (this._sponsorTimer) {
+      clearTimeout(this._sponsorTimer)
+    }
+    this._sponsorTimer = setTimeout(function() {
+      self._sponsorTimer = null
+      self.goSponsor()
+    }, 1500)
+  },
+
+  // 非关键的 storage 读取延后到首帧之后，避开与页面创建/图片解码抢峰值
+  _scheduleStartupTasks() {
+    var self = this
+    if (!this._btnScaleTimer) {
+      this._btnScaleTimer = setTimeout(function() {
+        self._btnScaleTimer = null
+        self._loadBtnScale()
+      }, 300)
+    }
+    if (!this._historyCleanDone && !this._historyCleanTimer) {
+      this._historyCleanTimer = setTimeout(function() {
+        self._historyCleanTimer = null
+        self._historyCleanDone = true
+        self._cleanInvalidHistory()
+      }, 4000)
+    }
+  },
+
   onBtnDown(key) {
     if (!this.btnScaleEnabled) {
       return
@@ -140,39 +169,42 @@ export default {
     }, 200)
   },
   onInit() {
-    const app = this.$app.$def
     this.screenProfile = buildTarget.profile
-    device.getInfo({
-      success: (data) => {
-        app.updateScreenInfo(data)
-        this.screenProfile = app.data.screenProfile
-      },
-      fail: (data, code) => {
-        console.log("index device.getInfo failed; using compiled target: " + code)
-      },
-      complete: () => {}
-    })
-    this._cleanInvalidHistory()
-    this._trackLaunch()
-    this._loadBtnScale()
     this._updateTime()
+    this._trackLaunch()
   },
 
   onShow() {
     this._updateTime()
     this._startTimeTicker()
     applyKeepScreenOnSetting()
-    this._loadBtnScale()
+    this._scheduleStartupTasks()
   },
 
   onHide() {
     this._stopTimeTicker()
+    if (this._sponsorTimer) {
+      clearTimeout(this._sponsorTimer)
+      this._sponsorTimer = null
+    }
   },
 
   onDestroy() {
     if (this._btnUpTimer) {
       clearTimeout(this._btnUpTimer)
       this._btnUpTimer = null
+    }
+    if (this._btnScaleTimer) {
+      clearTimeout(this._btnScaleTimer)
+      this._btnScaleTimer = null
+    }
+    if (this._historyCleanTimer) {
+      clearTimeout(this._historyCleanTimer)
+      this._historyCleanTimer = null
+    }
+    if (this._sponsorTimer) {
+      clearTimeout(this._sponsorTimer)
+      this._sponsorTimer = null
     }
     this._stopTimeTicker()
   },
@@ -246,12 +278,11 @@ export default {
           complete: () => {}
         })
         if (nextCount === 1 || nextCount % 10 === 0) {
-          this.goSponsor()
+          this._scheduleSponsorPrompt()
         }
       },
       fail: (getData, code) => {
         console.log("index launch count read failed: " + code)
-        this.goSponsor()
       },
       complete: () => {}
     })

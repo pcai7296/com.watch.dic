@@ -12,9 +12,9 @@ common/
 ├── navGuard.js          # 500ms 导航防连点锁（由 src/global.js 挂到 global）
 ├── suggestionState.js   # 联想状态的模块级单例（search ↔ IME）
 ├── dict/                # 生成的分片 —— 已入库，禁止手改
-├── icons/               # 36 个按钮/UI PNG
+├── icons/               # 30 个按钮/UI PNG（首页 4 个为 64×64）
 ├── icon.png             # manifest 图标（白色圆底 + 蓝色词典书标）
-└── logo.png / search-icon.png / sponsor-code.png / deco-icon*.png / deco-icon-about.png
+└── logo.png / sponsor-code.png / deco-icon*.png / deco-icon-about.png
 ```
 
 本仓**已移植 `keepScreenOn.js`**（3.2.0 从 w212 移植：`applyKeepScreenOnSetting()` / `setKeepScreenOnEnabled()` + settings 页开关 + 各页 `onShow` 重下发）。`app.ux`、`global.js`、`manifest.json`、这些 `common/*.js`、`*.png` 在 `variants/*` 里都是**独立副本**，改完必须跑 `..\scripts\sync_source.ps1`——`common/dictProfile.js`、`common/keepScreenOn.js`、`common/icon.png` 与其余 `common/*.png` **都在白名单里**（会自动同步）；只有 `common/AGENTS.md` 故意排除。
@@ -45,7 +45,7 @@ TARGET_PROFILE = "circle"; TARGET_SHAPE = "circle"
 
 `loadDictionaryProfile()` 读 `/common/dict/meta.json` → 模块级 `_profile` 单例 + 回调队列；**读失败静默 `_profile=null`**，全部退化为 26 字母分片（安全降级）。
 真正判据只有 `wordTwoShards > 0` / `wordHeadShards > 0`——**没有任何分支在 `profile` 字符串上**。
-`isTwoLetterShardsEnabled` / `isHeadShardsEnabled` 在 `src/` 内**无调用者（死代码）**。
+`isTwoLetterShardsEnabled` / `isHeadShardsEnabled` 已删除（原先也无调用者）。
 
 ## suggestionState.js — 为什么是模块单例
 
@@ -75,7 +75,7 @@ TARGET_PROFILE = "circle"; TARGET_SHAPE = "circle"
 - **`.gitattributes` 的 `src/common/dict/** -text` 不要删**：删了 git 会开始规范化换行 → 全库假 diff。
 - **CRLF 不统一，不能靠目录推断**：本仓 `entries/`、`cn_index/`、`inflect/`、`inflect_reverse/` 有 CRLF，`zh_index/` 没有，`words/` 部分有。任何读分片的代码都要 `.replace(/\r/g, "")`。
 
-## icons/ — 36 个 PNG
+## icons/ — 30 个 PNG
 
 按钮/状态图标，命名以 `btn_` 前缀为主。新增图标：放 PNG 进来 + 在页面里引用，**保持命名约定**，不要内联图标引用。
 
