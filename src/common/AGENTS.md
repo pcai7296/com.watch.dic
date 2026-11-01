@@ -13,8 +13,8 @@ common/
 ├── navGuard.js             # 500ms 导航防连点锁（由 src/global.js 挂到 global）
 ├── dictCodec.js            # compact-v3 运行时解码（parseBase36 / decodePrefixField / decodeDeltaIds）
 ├── dict/                   # 生成的分片 —— 已入库，禁止手改
-├── icons/                  # 21 个按钮/UI PNG
-└── logo.png（App 内装饰图，116x116） / icon.png（manifest 图标） / logo_192_rounded.png / search-icon.png / sponsor-code.png
+├── icons/                  # 15 个按钮/UI PNG（首页 4 个为 64×64）
+└── logo.png（App 内装饰图，116x116） / icon.png（manifest 图标） / sponsor-code.png
 ```
 
 **本仓没有 `deco-icon.png` / `deco-icon-about.png`**（前者在近期改动中被删除，后者只在 w432/w466 有）——不要照抄兄弟仓的图标名。
@@ -35,6 +35,8 @@ Usage: `import { setSuggestions, onSuggestionsChange } from '../../common/sugges
 
 - `dictProfile.js` — `loadDictionaryProfile()` 读 `/common/dict/meta.json` → 模块级 `_profile` 单例 + 回调队列；**读失败静默 `_profile=null`**，全部退化为 26 字母分片。真正判据只有 `wordTwoShards > 0` / `wordHeadShards > 0` —— **没有任何分支在 `profile` 字符串上**。
 - `keepScreenOn.js` — `applyKeepScreenOnSetting()` / `setKeepScreenOnEnabled()` 缓存 `dic_keep_screen_on`，各页 `onShow` 重新下发；**5 个仓现已一致**（其余 4 仓于 3.2.0 移植）。
+- **app 与页面各自打包，模块级单例不跨包**：`dictProfile` 把 profile 写 `global.__dictProfile`，`getDictionaryProfile()` 优先读它；`keepScreenOn` 写 `global.__keepScreenOnLoaded/__keepScreenOn`，冷启动只读一次 storage。search/results 的 `onInit` 仍会调 `loadDictionaryProfile()` 兜底。
+- `system.brightness` 可能不存在（模拟器/部分设备）：`apply()` 先判 `typeof brightness.setKeepScreenOn === "function"`，否则直接返回，避免每条 onShow 抛 TypeError 并中断 storage 回调。
 - 这两个文件**都在 `scripts/sync_source.ps1` 的 `$CopyItems` 白名单里**（`src\common\dictProfile.js` / `src\common\keepScreenOn.js`）→ `sync_source.ps1` 会自动同步到 `variants/*` 的 `src/common/`（那是实体副本，不是 Junction）。
 
 ## buildTarget.js + navGuard.js
@@ -69,13 +71,13 @@ Layout: `words/`, `entries/`, `zh_index/`, `cn_index/`, `inflect/`, `inflect_rev
 2. **不要删 `.gitattributes` 的 `src/common/dict/** -text`** —— 删了 git 会规范化换行 → 全库假 diff。
 3. **CRLF 不统一，不能靠目录推断** —— 本仓 `entries/`、`cn_index/`、`inflect/` 有 CRLF，`zh_index/`、`words/` 没有。任何读分片的代码都要 `.replace(/\r/g, "")`（生成器与运行时强耦合：entries 的 eid = 分片号×500 + 0 基行号，删插一行即全片错位）。
 
-## icons/ — 21 PNGs
+## icons/ — 15 PNGs
 
 | Group | Files | Used by |
 |-------|-------|---------|
-| Home buttons | `btn_search.png`, `btn_history.png`, `btn_fav.png`, `btn_transform.png` (+`_blue`), `btn_about.png`, `btn_sponsor.png` | Home page (classic layout) |
+| Home | `language.png`, `history.png`, `star-gradient.png`, `settings-2.png`, `btn_transform_blue.png` | Home page（源图 64×64，显示 32–36px） |
 | Nav/back | `btn_back.png`, `btn_back_thin.png`, `btn_back_mirror_thin.png` | Page headers |
-| State/UI | `btn_check.png`, `btn_delete_fat.png`, `btn_heart_gold.png`, `btn_info_i.png`, `collect-circle-true/false.png`, `history.png`, `language.png`, `settings-2.png`, `Sync_circle.png` | records/detail/settings/index |
+| State/UI | `btn_check.png`, `btn_delete_fat.png`, `btn_heart_gold.png`, `btn_info_i.png`, `collect-circle-true/false.png`, `Sync_circle.png` | records/detail/search |
 
 Home layout switch (minimal/classic) lives in `pages/settings` (`dic_home_layout`).
 

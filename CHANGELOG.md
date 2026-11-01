@@ -1,5 +1,14 @@
 # 更新日志
 
+## 未发布 —— 冷启动负荷优化
+
+- 首页 4 个 32px 图标的源图从 512×512 降到 64×64（解码内存合计 ~4MB → 64KB）
+- 冷启动不再立即 push 赞助页：首启/每 10 次延后 1.5s；`dic_launch_count` 读失败不再导航
+- 首页 `dic_button_scale`（300ms）与历史清理（4s）延后到首帧后；`onHide` 取消赞助页定时器
+- `dictProfile` / `keepScreenOn` 改为走 `global` 共享：修复页面包内模块单例不跨包导致的空 profile 与冷启动重复读 storage
+- `system.brightness` 不可用时先守卫，不再每个页面 onShow 抛 TypeError
+- 删除未引用图片资源；`config.logLevel` 改为 `warn`
+
 ## 3.1.0（2026年8月26日）—— 性能与搜索体验优化 🚀
 
 - 普通英文搜索优先展示中高考（zk/gk）单词

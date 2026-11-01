@@ -157,7 +157,6 @@ export default {
     this.screenProfile = buildTarget.profile
     this._updateTime()
     this._loadLayout()
-    this._scheduleHistoryCleanup()
     this._trackLaunch()
   },
 
@@ -231,12 +230,11 @@ export default {
           complete: function() {}
         })
         if (nextCount === 1 || nextCount % 10 === 0) {
-          this.goSponsor()
+          this._scheduleSponsorPrompt()
         }
       }.bind(this),
       fail: function(getData, code) {
         console.log("index launch count read failed: " + code)
-        this.goSponsor()
       }.bind(this),
       complete: function() {}
     })
@@ -267,15 +265,34 @@ export default {
     })
   },
 
-  _scheduleHistoryCleanup() {
+  // 首帧之后再推赞助页：冷启动瞬间再建一个页面会叠加解码/节点峰值
+  _scheduleSponsorPrompt() {
     var self = this
-    if (this._historyCleanTimer) {
-      clearTimeout(this._historyCleanTimer)
+    if (this._sponsorTimer) {
+      clearTimeout(this._sponsorTimer)
     }
-    this._historyCleanTimer = setTimeout(function() {
-      self._historyCleanTimer = null
-      self._cleanInvalidHistory()
+    this._sponsorTimer = setTimeout(function() {
+      self._sponsorTimer = null
+      self.goSponsor()
     }, 1500)
+  },
+
+  // 非关键的 storage 读取延后到首帧之后，避开与页面创建/图片解码抢峰值
+  _scheduleStartupTasks() {
+    var self = this
+    if (!this._btnScaleTimer) {
+      this._btnScaleTimer = setTimeout(function() {
+        self._btnScaleTimer = null
+        self._loadBtnScale()
+      }, 300)
+    }
+    if (!this._historyCleanDone && !this._historyCleanTimer) {
+      this._historyCleanTimer = setTimeout(function() {
+        self._historyCleanTimer = null
+        self._historyCleanDone = true
+        self._cleanInvalidHistory()
+      }, 4000)
+    }
   },
 
   onBtnDown(key) {
@@ -324,14 +341,18 @@ export default {
   },
 
   onShow() {
-    this._loadBtnScale()
     this._updateTime()
     this._startTimeTicker()
     applyKeepScreenOnSetting()
+    this._scheduleStartupTasks()
   },
 
   onHide() {
     this._stopTimeTicker()
+    if (this._sponsorTimer) {
+      clearTimeout(this._sponsorTimer)
+      this._sponsorTimer = null
+    }
   },
 
   onDestroy() {
@@ -342,6 +363,14 @@ export default {
     if (this._historyCleanTimer) {
       clearTimeout(this._historyCleanTimer)
       this._historyCleanTimer = null
+    }
+    if (this._btnScaleTimer) {
+      clearTimeout(this._btnScaleTimer)
+      this._btnScaleTimer = null
+    }
+    if (this._sponsorTimer) {
+      clearTimeout(this._sponsorTimer)
+      this._sponsorTimer = null
     }
     this._stopTimeTicker()
   },

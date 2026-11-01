@@ -91,8 +91,8 @@ src/
   common/
     buildTarget.js / navGuard.js / dictCodec.js / dictProfile.js / keepScreenOn.js / suggestionState.js
     dict/       (242 files, **dev 档**) — Generated shards, DO NOT EDIT
-    icons/                             — 21 button/UI PNGs
-    logo/deco-icon/search-icon/sponsor-code.png
+    icons/                             — 15 button/UI PNGs（首页 4 个为 64×64，解码 ≈16KB/张）
+    logo/icon/sponsor-code.png
   i18n/                                — defaults.json is a placeholder; real strings in en.json / zh-CN.json
 scripts/                               — generate_watch_dict.py + helpers + PS1 deploys (see scripts/AGENTS.md)
 data/                                  — Source corpora: ecdict_tagged_14942_compact.csv, cedict.txt.gz,
@@ -121,7 +121,7 @@ sign/ · build/ · dist/                 — Committed signing material and arti
 | dic_result_long_press_home | "1"/"0" (default 1) | — | Long-press back (650ms) on results → home |
 | dic_search_swipe_exit_locked | "1"/"0" (default 1) | — | Lock swipe-exit while typing on search |
 | dic_button_scale | "1"/"0" (default 1) | — | Press-shrink effect on classic layout buttons |
-| dic_keep_screen_on | "1"/"0" (default 0) | — | 屏幕常亮：全 App 期间保持亮屏（`common/keepScreenOn.js` 缓存偏好 + 各页 onShow 重新下发） |
+| dic_keep_screen_on | "1"/"0" (default 0) | — | 屏幕常亮：全 App 期间保持亮屏（`common/keepScreenOn.js` 缓存 `global` 共享值 + 各页 onShow 重新下发） |
 | dic_large_input | "1"/"0" | — | filter 页的大字输入模式 |
 | dic_launch_count | number | — | index 页启动计数（首启与每 10 次跳赞助页） |
 
