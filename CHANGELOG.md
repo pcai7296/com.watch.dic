@@ -1,6 +1,31 @@
 # 更新日志
 
-# 更新日志
+## 3.2.0（2026年11月1日）—— 冷启动与体验优化 🚀
+
+### 开发者版本
+
+- **冷启动**：首页 4 个图标源图 512×512 → 64×64（解码 ~4MB → 64KB）；赞助页首启/每 10 次延后 1.5s，`dic_launch_count` 读失败不再导航；`dic_button_scale` 300ms、历史清理 4s 延后到首帧后；`dictProfile` / `keepScreenOn` 改为走 `global` 共享；`system.brightness` 缺失时先守卫；删除未引用图片资源；`config.logLevel` 改为 `warn`
+- **屏幕常亮**：新增 `src/common/keepScreenOn.js` 与设置开关（`dic_keep_screen_on`），应用启动与各页面 `onShow` 重新下发 `brightness.setKeepScreenOn`
+- **首页时间**：改为按分钟对齐刷新，`onShow` 立即校正，`onHide` / `onDestroy` 停 ticker
+- **关于页**：版本号改为运行时读取 `app.getInfo().versionName`
+- **应用图标**：新增 `common/icon.png`（192×192，白圆 + 3D 书本），`manifest.json` 指向它
+- **首页侧滑**：`onBackPress` 不再 `return true`，自行识别「左缘起手、右移过半」并退出
+- **各分辨率**：w336/w432 返回按钮统一 72px；w466 补 about 页 `.back-btn`；w192/w336/w466 词库切到 standard；w432/w466 移除误提交的密钥与 `.claude/`
+- **工程**：版本 3.2.0 / versionCode 9；lint 脚本修正（`.ux` 不参与 ESLint）；`build_resolution_packages.ps1` 从 `manifest.json` 读版本
+
+### 发行版本
+
+- 新增“屏幕常亮”，看单词时屏幕不会自己熄灭
+- 首页时间更准，回到首页立即校正
+- 换新图标（白底书本），桌面更好认
+- 首页侧滑退出更稳
+- 关于页版本号自动读取，不再对不上
+- 部分机型返回按钮更大更好点
+- 设置页内容多了也能滚动
+- 打开更快、更省内存
+- 不会一进首页就跳打赏页
+- 修复“屏幕常亮”报错
+- 删除误提交的密钥与配置文件
 
 ## 3.1.0（2026年8月26日）—— 性能与搜索体验优化 🚀
 
