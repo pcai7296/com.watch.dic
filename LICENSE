@@ -1,0 +1,67 @@
+# 腕上词典非商业署名许可 1.0
+# Wrist Dictionary Non-Commercial Attribution License 1.0 (WD-NCA-1.0)
+
+版权所有 © 2026 睡不着的鸿鹄（pcai7296）
+
+适用作品：腕上词典（Wrist Dictionary）的源代码、词库数据、图标、文档，以及通过本仓库分发的安装包（以下统称“本作品”）。
+来源：https://github.com/pcai7296/com.watch.dic
+
+在遵守本许可全部条款的前提下，版权所有者授予你一项全球范围、免费、非独占、不可转授的许可，允许你：
+
+1. 以**非商业目的**使用、运行本作品；
+2. 复制、修改本作品，并基于本作品创作衍生作品；
+3. 分发本作品及其衍生作品（源代码或安装包形式均可）。
+
+## 一、非商业限制
+
+“非商业目的”指不以获取商业利益或金钱报酬为目的的使用。以下行为均属于商业使用，**必须事先取得版权所有者的书面授权**：
+
+1. 销售、出租、付费下载本作品或其衍生作品；
+2. 将本作品或其衍生作品作为付费服务、订阅、会员权益的一部分提供；
+3. 通过广告、流量分成、打赏引导或其他方式直接或间接获利；
+4. 将本作品或其衍生作品预装、捆绑到以营利为目的销售的产品中；
+5. 在企业或组织内部用于其商业经营活动。
+
+个人学习、研究、自用、非营利的开源项目与社区分享，属于非商业目的。
+
+## 二、署名要求
+
+分发、发布或以其他方式向他人提供本作品或其衍生作品时，你必须：
+
+1. 保留本许可文件与版权声明，不得删除、隐藏或篡改；
+2. 在显著位置注明：
+
+   > 基于腕上词典（Wrist Dictionary）by 睡不着的鸿鹄 / pcai7296，按 WD-NCA-1.0 许可使用
+   >
+   > https://github.com/pcai7296/com.watch.dic
+
+3. 若修改过本作品，注明“已修改”并简要说明修改内容；
+4. 不得以任何方式暗示原作者为你或你的衍生作品背书。
+
+## 三、名称与图标
+
+本许可不授予使用“腕上词典”“Wrist Dictionary”名称、应用图标或作者名义进行推广的权利；第 2 条要求的署名除外。
+
+## 四、专利
+
+本许可不授予任何专利许可。若你以本作品侵犯你的专利为由提起诉讼，你依据本许可获得的全部权利立即终止。
+
+## 五、终止
+
+你违反本许可任何条款时，本许可授予你的权利立即自动终止。终止后你应立即停止使用、复制、修改与分发本作品。恢复权利需版权所有者书面同意。
+
+## 六、免责声明
+
+本作品按“现状”提供，不附带任何明示或默示担保，包括但不限于适销性、特定用途适用性与不侵权担保。在任何情况下，版权所有者均不对因使用或无法使用本作品而产生的任何直接、间接、偶然、特殊或后果性损害承担责任。
+
+## 七、其他
+
+1. 本许可不影响你依据法律规定享有的合理使用等权利。
+2. 若本许可某条款被认定无效或不可执行，其余条款仍完全有效。
+3. 本许可以中文版本为准。
+
+---
+
+**English summary (for convenience only; the Chinese text prevails):**
+
+You may use, copy, modify and redistribute this work for non-commercial purposes only. You must keep this license, give clear credit to the original author (睡不着的鸿鹄 / pcai7296) with a link to the source repository, and indicate any changes. Any commercial use requires prior written permission from the copyright holder. The work is provided "AS IS", without warranty of any kind.
