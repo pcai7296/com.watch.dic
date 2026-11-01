@@ -4,20 +4,26 @@ let _profile = null
 let _loading = false
 const _pending = []
 
-export function getDictionaryProfile() {
+// app 与页面各自打包，模块级变量不跨包；共享状态只能走 global（ferry global）。
+function adoptSharedProfile() {
+  if (!_profile && typeof global !== "undefined" && global.__dictProfile) {
+    _profile = global.__dictProfile
+  }
   return _profile
 }
 
-export function isTwoLetterShardsEnabled() {
-  return !!(_profile && _profile.wordTwoShards > 0)
+function publishProfile() {
+  if (typeof global !== "undefined") {
+    global.__dictProfile = _profile
+  }
 }
 
-export function isHeadShardsEnabled() {
-  return !!(_profile && _profile.wordHeadShards > 0)
+export function getDictionaryProfile() {
+  return _profile || adoptSharedProfile()
 }
 
 export function loadDictionaryProfile(done) {
-  if (_profile) {
+  if (adoptSharedProfile()) {
     if (done) done(_profile)
     return
   }
@@ -37,6 +43,7 @@ export function loadDictionaryProfile(done) {
       } catch (e) {
         _profile = null
       }
+      publishProfile()
       const pending = _pending.splice(0)
       if (done) done(_profile)
       for (let i = 0; i < pending.length; i++) {
@@ -46,6 +53,7 @@ export function loadDictionaryProfile(done) {
     fail: () => {
       _loading = false
       _profile = null
+      publishProfile()
       const pending = _pending.splice(0)
       if (done) done(_profile)
       for (let i = 0; i < pending.length; i++) {
