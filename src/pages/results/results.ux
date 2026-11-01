@@ -50,7 +50,7 @@ import file from "@system.file"
 import prompt from "@system.prompt"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
-import {getDictionaryProfile} from "../../common/dictProfile"
+import {getDictionaryProfile, loadDictionaryProfile} from "../../common/dictProfile"
 
 const {navGuard} = global
 
@@ -186,6 +186,7 @@ export default {
   },
 
   onInit() {
+    loadDictionaryProfile()
     // 词典分片缓存：纯逻辑数据，不进 viewModel（避免 observer/代理开销）
     this.fileCache = new LRUCache(6)
     this.entryCache = new LRUCache(4)
