@@ -6,7 +6,8 @@
 /.omo/
 /.tmp/
 /opencode.json.bak*
-.opencode/mcp.json
+.opencode/
+.vscode/
 .claude/
 /fork_astrobox/
 /scripts/__pycache__/
