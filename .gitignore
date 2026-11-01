@@ -10,3 +10,4 @@
 /fork_astrobox/
 /scripts/__pycache__/
 *.pyc
+.vscode/
