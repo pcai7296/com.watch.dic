@@ -18,3 +18,25 @@
 # 用 .\scripts\use-dict.ps1 <dev|lite|standard> 切换，不要手工提交这个目录。
 /src/common/dict/
 .vscode/
+
+# === 2026-11-07 五仓合并为单源码后新增 ===
+# 旧仓库 / 变体 / 旧产物归档（由备份 7z 保底，不入库）
+/archive/
+# 词库三档独立仓库（真源，单独 git 管理）
+/dict_repo/
+# 对外发布仓与临时目录
+/release_repo/
+/.temp_*/
+# 工具运行态
+/.tools/
+/.dsh/
+/.dsh-progress/
+/.pi/
+/.martty/
+/.codegraph/
+/.omo/
+# 无关项目
+/Snapnotes-andriod/
+/Snapnotes-band/
+# 语料（62MB，构建期输入，非源码）
+/data/
