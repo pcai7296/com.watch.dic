@@ -121,3 +121,17 @@ $hash = (Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash.ToLowerI
 Write-Host "[$Target/$Profile] OK -> $destination  ($size KB, sha256=$($hash.Substring(0,12))…, dict headwords=$($dictMeta.headwords))"
 
 if (-not $KeepStage) { Remove-StageSafe $stage }
+
+# 供 build_all_products.ps1 汇总成 rpk_manifest.json
+[pscustomobject]@{
+  target = $Target
+  profile = $Profile
+  version = $Version
+  package = $packageName
+  path = $destination
+  sizeKB = $size
+  sha256 = $hash
+  headwords = $dictMeta.headwords
+  width = $column
+  height = $spec.Height
+}

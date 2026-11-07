@@ -20,8 +20,10 @@ foreach ($profile in $Profiles) {
     $buildParams = @{ Target = $target; Profile = $profile }
     if ($Version) { $buildParams.Version = $Version }
     $ok = $true
+    $info = $null
     try {
-      & (Join-Path $PSScriptRoot "build_product.ps1") @buildParams
+      $out = & (Join-Path $PSScriptRoot "build_product.ps1") @buildParams
+      $info = $out | Where-Object { $null -ne $_ -and $_.PSObject.Properties['sha256'] } | Select-Object -Last 1
     } catch {
       $ok = $false
       Write-Host ("[{0}] ERROR: {1}" -f $label, $_.Exception.Message) -ForegroundColor Red
@@ -37,11 +39,17 @@ foreach ($profile in $Profiles) {
     $size = [math]::Round($rpk.Length / 1KB, 1)
     $secs = [math]::Round(((Get-Date) - $start).TotalSeconds, 1)
     $results += [pscustomobject]@{
-      Target = $target
-      Profile = $profile
-      SizeKB = $size
-      Seconds = $secs
-      Path = $rpk.FullName
+      target = $target
+      profile = $profile
+      version = $(if ($info) { $info.version } else { $Version })
+      package = $(if ($info) { $info.package } else { "com.watch.dic.$target" })
+      width = $(if ($info) { $info.width } else { "" })
+      height = $(if ($info) { $info.height } else { "" })
+      path = ("{0}/{1}-{0}-{2}.rpk" -f $profile, $target, $(if ($info) { $info.version } else { "" }))
+      sizeKB = $size
+      sha256 = $(if ($info) { $info.sha256 } else { "" })
+      headwords = $(if ($info) { $info.headwords } else { 0 })
+      seconds = $secs
     }
     Write-Host ("[{0}] OK {1} KB in {2}s" -f $label, $size, $secs) -ForegroundColor Green
   }
@@ -49,12 +57,23 @@ foreach ($profile in $Profiles) {
 
 Write-Host ""
 Write-Host "=== summary ===" -ForegroundColor Cyan
-$results | Format-Table Target, Profile, SizeKB, Seconds -AutoSize | Out-String | Write-Host
+$results | Format-Table target, profile, sizeKB, headwords, seconds -AutoSize | Out-String | Write-Host
 if ($failed.Count -gt 0) {
   Write-Host ("FAILED: " + ($failed -join ", ")) -ForegroundColor Red
   exit 1
 }
-$manifestPath = Join-Path $repoRoot "release_packages\products-manifest.json"
-$results | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
+
+$version = ($results | Select-Object -First 1).version
+$manifest = [pscustomobject]@{
+  generatedAt = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
+  version = $version
+  count = $results.Count
+  packages = $results
+}
+$manifestPath = Join-Path $repoRoot "release_packages\rpk_manifest.json"
+$manifest | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 Write-Host ("wrote " + $manifestPath)
+
+$legacyPath = Join-Path $repoRoot "release_packages\products-manifest.json"
+if (Test-Path -LiteralPath $legacyPath) { Remove-Item -LiteralPath $legacyPath -Force }
 exit 0

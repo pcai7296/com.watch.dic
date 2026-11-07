@@ -169,3 +169,28 @@ Get-ChildItem src -Recurse -Include *.ux | ForEach-Object {
 # A6 切档耗时
 Measure-Command { .\scripts\use-dict.ps1 standard }
 ```
+
+## 7. 进度快照（2026-11-08）
+
+单仓合并完成：`src/` 是唯一源码，history 由 w212 提升而来；5 个分辨率靠 `.xxx-{{screenClass}}` 后缀类区分，基准列是 212。10 个产品包已由 `npm run build:products` 生成到 `release_packages/{lite,standard}/`，`release_packages/rpk_manifest.json` 记录 path / sha256 / size / headwords。
+
+| 项 | 状态 | 证据 |
+|---|---|---|
+| A1 调试包一包多机 | 未验证 | 需在 IDE 同时选 5 台模拟器（IDE 只给当前选中的一台推包，见根 AGENTS） |
+| A2 调试包保留 5 列 | ✅ | `dist` 调试包：`app.jsc` 含 `getInfo` 1 处；`index.jsc` 里 `-192/-336/-432/-466` = 12/16/16/17（`-212` 是基准列，不带后缀） |
+| A3 发布包无探测 | ✅ | 10 个包 `app.jsc` 的 `getInfo` / `@system.device` 均为 0 |
+| A4 体积增幅 ≤5% | ✅ | lite 1848.9–1850.1 KB vs 旧发布包 1912.7–1975.0 KB（整体还小了 2–6%） |
+| A5 内联 px 清零 | ✅（除 InputMethod） | 静态内联 px 只剩 `InputMethod.ux` 112 处；其余页面 0。动态 `style="width:{{cardWidth}}px"` 共 61 处保留——宽度本来就由 JS 按屏宽算 |
+| A6 切档 ≤3 s | ✅ | `use-dict.ps1 dev` 实测 0.17 s，不调用 Python |
+| A7 发布不重复生成词库 | ✅ | `build_product.ps1` 只 `robocopy` `dict_repo/<tier>`，全程不跑生成器 |
+| A8 10 包 + 清单 | ✅ | 5 分辨率 × lite/standard，`rpk_manifest.json` 齐全 |
+| A9 老设备不受损 | ✅（结构上） | 全库 `@media` 0 处；发布包无 `getInfo`。仍需 8 Pro 实机确认渲染 |
+| A10 功能不回退 | 部分 | 用户已在 212/336/432/466 目测"各个界面完全正常"；建议按冒烟清单逐项再走一遍 |
+| A11 包名/版本可升级 | ✅ | 5 个包名不变；`versionName` 3.2.0 / `versionCode` 9 与 `release_repo` 一致 |
+
+### 仍未做
+
+- **P7 InputMethod**：112 处静态内联 px + 5 列键盘尺寸，最大的一块。
+- **336/432/466 的逐页视觉调参**：页面宽度大多由 JS 按 `screenWidth` 算（`layoutWidth`/`cardWidth`），但字号、内边距仍是 212 的值；index 已拍过一轮，其余 8 页待逐页确认。
+- **`merge_columns.js` 的手调保护**：现在重跑会覆盖 index 手写的 `-336/-432/-466` 块。
+- **首页时钟**：用 `transform: scale()` 放大（336×1.3 / 432×1.45 / 466×1.5），几何仍是 212 的，待实机确认观感。

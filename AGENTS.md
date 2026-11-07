@@ -112,7 +112,9 @@ dict_repo/          三档词库独立仓（gitignored）
 
 ## 已知待办
 
-- 首页弧形时钟用 `transform: scale()` 在 336/432/466 上放大（1.3 / 1.45 / 1.5），内联 px 仍是 212 几何，待实机确认比例。
-- 其余页面（about / records / detail / search / settings / filter / results / sponsor）在 336/432/466 上仍是 212 尺寸，尚未逐页拍参数。
+- **InputMethod**（P7）：112 处静态内联 px + 键盘五列尺寸，最后一块大活。
+- 其余页面（about / records / detail / search / settings / filter / results / sponsor）在 336/432/466 上字号/内边距仍是 212 的值；宽度多半由 JS 按 `screenWidth` 算，需逐页目测调参。
+- 首页弧形时钟用 `transform: scale()` 放大（336×1.3 / 432×1.45 / 466×1.5），几何仍是 212 的，待实机确认观感。
 - `scripts/merge_columns.js` 会覆盖手写的列块，需要把手调值挪进独立数据文件后才可重跑。
-- ~~`scripts/build_product.ps1` 在 PS 5.1 下报 LiteralPath null~~ 已修：dict_repo 路径 + `.ps1` 需 UTF-8 BOM；10 个产品包已跑通并通过 `verify_products.ps1`。
+
+**静态内联 px 已清零**（除 InputMethod 112 处）：七页 back-btn 102×72、search 的 nav-arrow/clear-btn/check-btn、detail 的 sync-icon/fav-icon、index 的时钟数字全部进 `<style>`。页面里剩下的 61 处 `style="...{{var}}px"` 是 JS 按屏宽算出来的动态宽度，属设计。
