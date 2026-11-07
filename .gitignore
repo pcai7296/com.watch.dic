@@ -14,4 +14,7 @@
 /build/
 /dist/
 *.rpk
+# 词库是构建产物，真源在 ..\dict_repo（三档独立仓库）。
+# 用 .\scripts\use-dict.ps1 <dev|lite|standard> 切换，不要手工提交这个目录。
+/src/common/dict/
 .vscode/
