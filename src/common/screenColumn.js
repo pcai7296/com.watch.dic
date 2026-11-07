@@ -86,3 +86,10 @@ export function columnClass(width) {
   const column = pickColumn(width)
   return column === null ? "" : String(column)
 }
+
+// 简约布局只在胶囊屏（192 / 212）上有设计稿；矩形屏与圆屏一律走经典布局，
+// 所以 336 / 432 / 466 上不给切换入口，也不读 dic_home_layout。
+export function supportsMinimalLayout(cls) {
+  const c = String(cls || "")
+  return c === "192" || c === "212"
+}

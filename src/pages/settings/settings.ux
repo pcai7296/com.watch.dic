@@ -4,8 +4,8 @@
 
     <scroll class="settings-scroll settings-scroll-{{screenClass}}" scroll-y="true">
       <div class="content content-{{screenClass}}">
-        <text class="setting-title">首页布局</text>
-        <div class="layout-row">
+        <text if="{{supportsMinimal}}" class="setting-title">首页布局</text>
+        <div if="{{supportsMinimal}}" class="layout-row">
           <text class="layout-label {{layoutMode === 'classic' ? 'layout-active' : ''}}" onclick="setLayoutClassic">经典</text>
           <text class="layout-label layout-label-ml {{layoutMode === 'minimal' ? 'layout-active' : ''}}" onclick="setLayoutMinimal">简约</text>
         </div>
@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass, supportsMinimalLayout} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
@@ -68,7 +68,8 @@ export default {
     searchSwipeExitLocked: true,
     btnScaleEnabled: true,
     keepScreenOnEnabled: false,
-    layoutMode: "minimal",
+    layoutMode: supportsMinimalLayout(currentScreenClass()) ? "minimal" : "classic",
+    supportsMinimal: true,
     screenProfile: "pill-standard",
     destroyed: false,
     touchStartX: -1,
@@ -79,10 +80,11 @@ export default {
 
 
     this.screenClass = appScreenClass(this)
+    this.supportsMinimal = supportsMinimalLayout(this.screenClass)
     this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard"
     this._loadSetting("dic_home_layout", "minimal", function(value) {
       if (value === "classic" || value === "minimal") {
-        this.layoutMode = value
+        this.layoutMode = this.supportsMinimal ? value : "classic"
       }
     }.bind(this))
     this._loadSetting("dic_english_suggestions", "0", function(value) {
@@ -133,6 +135,7 @@ export default {
   },
 
   setLayoutMinimal() {
+    if (!this.supportsMinimal) return
     if (this.layoutMode === "minimal") return
     this.layoutMode = "minimal"
     this._saveLayout("minimal")

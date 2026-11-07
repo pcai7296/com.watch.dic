@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass, supportsMinimalLayout} from "../../common/screenColumn"
 import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
@@ -148,7 +148,7 @@ export default {
   private: {
     screenClass: currentScreenClass(),
     screenProfile: buildTarget.profile,
-    layoutMode: "minimal",
+    layoutMode: supportsMinimalLayout(currentScreenClass()) ? "minimal" : "classic",
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
     releasingKey: "",
@@ -204,7 +204,8 @@ export default {
       success: function(data) {
         var value = data && (data.value || data)
         if (value === "classic" || value === "minimal") {
-          self.layoutMode = value
+          // 简约布局只有胶囊屏（192/212）有设计稿，其余列强制经典
+          self.layoutMode = supportsMinimalLayout(self.screenClass) ? value : "classic"
         }
       },
       fail: function() {},
@@ -346,6 +347,10 @@ export default {
 
 
     this.screenClass = appScreenClass(this)
+    // 矩形屏/圆屏没有简约布局的设计稿，切列后立即回落到经典
+    if (!supportsMinimalLayout(this.screenClass)) {
+      this.layoutMode = "classic"
+    }
     this._updateTime()
     this._startTimeTicker()
     applyKeepScreenOnSetting()
