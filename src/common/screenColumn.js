@@ -11,6 +11,15 @@
 
 export const COLUMNS = [192, 212, 336, 432, 466]
 
+import buildTarget from "./buildTarget"
+
+// 页面/组件取当前列的唯一入口。
+// 发布包：global.__screenClass 不存在，直接返回编译期写死的 buildTarget.width。
+// 调试包：app.onCreate 里的探测会写 global.__screenClass，页面每次 onShow 重取一次即可跟上。
+export function currentScreenClass() {
+  return global.__screenClass || String(buildTarget.width)
+}
+
 const MIN_WIDTH = 100
 const MAX_WIDTH = 800
 

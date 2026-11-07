@@ -1,5 +1,5 @@
 <template>
-  <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
     <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;" onscroll="onRecordListScroll">
@@ -52,6 +52,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
@@ -67,6 +68,7 @@ export default {
   },
 
   private: {
+    screenClass: currentScreenClass(),
     recordItems: [],
     emptyText: "",
     touchStartX: -1,
@@ -136,6 +138,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     // 先提示加载中，再加载列表：toast 在页面显示后同步触发，storage.get 异步
     // 回调必然在其后，保证 toast 先于列表出现（真机页面切换瞬间的 toast 会被吞）
     if (this.pendingLoadingToast) {
@@ -687,16 +692,8 @@ export default {
   align-items: center;
 }
 
-
-
-
-
 .record-list {
   margin-bottom: 4px;
-}
-
-.record-item {
-  /* width bound inline */
 }
 
 .record-card {
@@ -744,8 +741,7 @@ export default {
   align-items: center;
 }
 
-.record-title,
-.record-title-marquee {
+.record-title {
   flex: 1;
   height: 38px;
   color: #ffffff;
@@ -754,6 +750,11 @@ export default {
 }
 
 .record-title-marquee {
+  flex: 1;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
   lines: 1;
   text-overflow: clip;
 }
@@ -806,5 +807,14 @@ export default {
   font-size: 20px;
   font-weight: 800;
   text-align: center;
+}
+
+.page-466 {
+  width: 466px;
+  height: 466px;
+  padding-top: 0;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
 }
 </style>

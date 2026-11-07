@@ -157,10 +157,4 @@ export default {
   margin-top: 3px;
   background-color: #00c853;
 }
-
-@media (shape: circle) {
-  .mediabox {
-    width: 80px;
-  }
-}
 </style>

@@ -48,10 +48,12 @@ export default {
     const cls = columnClass(appData.screenWidth)
     if (cls) {
       appData.screenClass = cls
+      global.__screenClass = cls
     }
   },
 
   onCreate() {
+    global.__screenClass = String(buildTarget.width)
     loadDictionaryProfile()
     applyKeepScreenOnSetting()
     const appData = this.data

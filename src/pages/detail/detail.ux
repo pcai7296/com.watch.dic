@@ -1,29 +1,29 @@
 <template>
-  <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
-    <div class="word-area" style="margin-left: {{wordAreaMarginLeft}}px;">
-      <marquee if="{{ wordMarqueeOn }}" class="word-marquee" style="width: {{contentWidth}}px;"
+    <div class="word-area word-area-{{screenClass}}" style="margin-left: {{wordAreaMarginLeft}}px;">
+      <marquee if="{{ wordMarqueeOn }}" class="word-marquee word-marquee-{{screenClass}}" style="width: {{contentWidth}}px;"
         scrollamount="{{ wordMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
         {{ wordText }}   {{ wordText }}
       </marquee>
-      <text if="{{ !wordMarqueeOn }}" class="word-text" style="width: {{contentWidth}}px;">{{ wordText }}</text>
-      <marquee if="{{ phoneticMarqueeOn }}" class="phonetic-marquee" style="width: {{contentWidth}}px;"
+      <text if="{{ !wordMarqueeOn }}" class="word-text word-text-{{screenClass}}" style="width: {{contentWidth}}px;">{{ wordText }}</text>
+      <marquee if="{{ phoneticMarqueeOn }}" class="phonetic-marquee phonetic-marquee-{{screenClass}}" style="width: {{contentWidth}}px;"
         scrollamount="{{ phoneticMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
         {{ phoneticText }}   {{ phoneticText }}
       </marquee>
-      <text if="{{ !phoneticMarqueeOn }}" class="phonetic-text" style="width: {{contentWidth}}px;">{{ phoneticText }}</text>
+      <text if="{{ !phoneticMarqueeOn }}" class="phonetic-text phonetic-text-{{screenClass}}" style="width: {{contentWidth}}px;">{{ phoneticText }}</text>
     </div>
 
-    <div class="content-area">
-      <list class="meaning-list" style="width: {{cardWidth}}px;">
+    <div class="content-area content-area-{{screenClass}}">
+      <list class="meaning-list meaning-list-{{screenClass}}" style="width: {{cardWidth}}px;">
         <list-item class="meaning-item" type="meaningLine" for="{{ item in displayLines }}">
           <text class="{{ item.isTag ? 'tag-line' : 'meaning-line' }}">{{ item.text }}</text>
         </list-item>
       </list>
     </div>
 
-    <div class="bottom-row" style="{{ bottomStyle }}">
+    <div class="bottom-row bottom-row-{{screenClass}}" style="{{ bottomStyle }}">
       <image src="/common/icons/Sync_circle.png" style="width:87px;height:60px;" onclick="goInflect" />
       <image src="/common/icons/{{ isFavorited ? 'collect-circle-true.png' : 'collect-circle-false.png' }}" style="width:66px;height:66px;" onclick="toggleFavorite" />
     </div>
@@ -31,6 +31,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
@@ -69,6 +70,7 @@ export default {
   },
 
   private: {
+    screenClass: currentScreenClass(),
     wordText: "",
     phoneticText: "",
     translationText: "",
@@ -194,6 +196,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     applyKeepScreenOnSetting()
   },
 
@@ -533,18 +538,13 @@ export default {
   align-items: center;
 }
 
-
-
-
-
 .word-area {
   margin-top: 14px;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.word-text,
-.word-marquee {
+.word-text {
   height: 40px;
   color: #ffffff;
   font-size: 32px;
@@ -553,12 +553,16 @@ export default {
 }
 
 .word-marquee {
+  height: 40px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
   lines: 1;
   text-overflow: clip;
 }
 
-.phonetic-text,
-.phonetic-marquee {
+.phonetic-text {
   height: 36px;
   color: #a9c8f6;
   font-size: 28px;
@@ -566,6 +570,10 @@ export default {
 }
 
 .phonetic-marquee {
+  height: 36px;
+  color: #a9c8f6;
+  font-size: 28px;
+  text-align: left;
   lines: 1;
   text-overflow: clip;
 }
@@ -628,5 +636,229 @@ export default {
 
 .favorite-button {
   background-color: #d82626;
+}
+
+.page-336 {
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-432 {
+  width: 432px;
+  height: 514px;
+  padding-top: 8px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-466 {
+  width: 466px;
+  height: 466px;
+  padding-top: 0;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word-area-336 {
+  margin-top: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  margin: 0;
+}
+
+.word-area-432 {
+  margin-top: 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 380px;
+  margin: 0;
+}
+
+.word-area-466 {
+  margin-top: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 260px;
+}
+
+.word-text-336 {
+  height: 40px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+  width: 250px;
+  margin: 0;
+}
+
+.word-text-432 {
+  height: 40px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+  width: 380px;
+  margin: 0;
+}
+
+.word-text-466 {
+  height: 36px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.word-marquee-336 {
+  height: 40px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+  lines: 1;
+  text-overflow: clip;
+  width: 250px;
+  margin: 0;
+}
+
+.word-marquee-432 {
+  height: 40px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: left;
+  lines: 1;
+  text-overflow: clip;
+  width: 380px;
+  margin: 0;
+}
+
+.word-marquee-466 {
+  height: 36px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: left;
+  lines: 1;
+  text-overflow: clip;
+}
+
+.phonetic-text-466 {
+  height: 32px;
+  color: #a9c8f6;
+  font-size: 26px;
+  text-align: left;
+}
+
+.phonetic-marquee-466 {
+  height: 32px;
+  color: #a9c8f6;
+  font-size: 26px;
+  text-align: left;
+  lines: 1;
+  text-overflow: clip;
+}
+
+.content-area-336 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 0;
+}
+
+.content-area-432 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 0;
+}
+
+.content-area-466 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.meaning-list-336 {
+  height: 286px;
+  margin-top: 8px;
+  width: 300px;
+}
+
+.meaning-list-432 {
+  height: 350px;
+  margin-top: 8px;
+  width: 412px;
+}
+
+.meaning-list-466 {
+  height: 250px;
+  margin-top: 8px;
+  width: 290px;
+}
+
+.meaning-line-466 {
+  height: 38px;
+  margin-left: 10px;
+  color: #e9f2ff;
+  font-size: 24px;
+  lines: 1;
+  text-overflow: clip;
+}
+
+.tag-line-466 {
+  height: 38px;
+  margin-left: 10px;
+  color: #6ba3e8;
+  font-size: 26px;
+}
+
+.bottom-row-336 {
+  height: 66px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bottom-row-432 {
+  height: 66px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 412px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bottom-row-466 {
+  height: 60px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
 }
 </style>

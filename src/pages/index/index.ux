@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-{{screenProfile}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
     <!-- 共用：时间（弧形） -->
     <div style="width:212px;height:36px;margin-top:-25px;margin-bottom:-4px;position:relative;">
       <text style="position:absolute;left:53px;top:8.4px;width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;transform:rotate(-21deg);transform-origin:10px 16.5px;">{{tc0}}</text>
@@ -11,10 +11,10 @@
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
     <div if="{{layoutMode === 'minimal'}}" class="minimal-wrap">
-      <text class="title title-{{screenProfile}} m-title">腕上词典</text>
+      <text class="title title-{{screenClass}} m-title">腕上词典</text>
 
-      <div class="icon-card icon-card-{{screenProfile}} m-icon-card">
-        <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
+      <div class="icon-card icon-card-{{screenClass}} m-icon-card">
+        <img class="deco-icon deco-icon-{{screenClass}}" src="/common/logo.png" />
       </div>
 
       <div class="minimal-btns">
@@ -48,38 +48,38 @@
 
     <!-- ===== 布局二：经典 (classic) ===== -->
     <div if="{{layoutMode === 'classic'}}" class="classic-wrap">
-      <div class="icon-card icon-card-{{screenProfile}} c-icon-card">
-        <img class="deco-icon deco-icon-{{screenProfile}}" src="/common/logo.png" />
+      <div class="icon-card icon-card-{{screenClass}} c-icon-card">
+        <img class="deco-icon deco-icon-{{screenClass}}" src="/common/logo.png" />
       </div>
 
-      <text class="title title-{{screenProfile}} c-title">腕上词典</text>
-      <text class="subtitle subtitle-{{screenProfile}}">抬手即查</text>
+      <text class="title title-{{screenClass}} c-title">腕上词典</text>
+      <text class="subtitle subtitle-{{screenClass}}">抬手即查</text>
 
-      <div class="main-button main-button-{{screenProfile}} secondary-button c-main-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
+      <div class="main-button main-button-{{screenClass}} secondary-button c-main-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
         <image static class="c-btn-icon" src="/common/icons/language.png" style="width:36px;height:36px;" />
         <text static class="btn-label">查单词</text>
       </div>
 
-      <div class="button-group button-group-{{screenProfile}}">
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'inflect' ? 'press-in' : '' }} {{ releasingKey === 'inflect' ? 'press-out' : '' }}" onclick="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
+      <div class="button-group button-group-{{screenClass}}">
+        <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'inflect' ? 'press-in' : '' }} {{ releasingKey === 'inflect' ? 'press-out' : '' }}" onclick="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
           <image static class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:32px;height:32px;" />
-          <text static class="grid-btn-text">变形</text>
+          <text static class="grid-btn-text grid-btn-text-{{screenClass}}">变形</text>
         </div>
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
+        <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
           <image static class="c-grid-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
-          <text static class="grid-btn-text">设置</text>
+          <text static class="grid-btn-text grid-btn-text-{{screenClass}}">设置</text>
         </div>
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
+        <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
           <image static class="c-grid-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
-          <text static class="grid-btn-text">历史</text>
+          <text static class="grid-btn-text grid-btn-text-{{screenClass}}">历史</text>
         </div>
-        <div class="grid-button grid-button-{{screenProfile}} {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
+        <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
           <image static class="c-grid-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
-          <text static class="grid-btn-text">收藏</text>
+          <text static class="grid-btn-text grid-btn-text-{{screenClass}}">收藏</text>
         </div>
       </div>
 
-      <div class="bottom-row bottom-row-{{screenProfile}}">
+      <div class="bottom-row bottom-row-{{screenClass}}">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
           <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:36px;height:36px;" />
         </div>
@@ -92,6 +92,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
@@ -145,6 +146,7 @@ export default {
   },
 
   private: {
+    screenClass: currentScreenClass(),
     screenProfile: buildTarget.profile,
     layoutMode: "minimal",
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
@@ -341,6 +343,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     this._updateTime()
     this._startTimeTicker()
     applyKeepScreenOnSetting()
@@ -455,7 +460,6 @@ export default {
   align-items: center;
 }
 
-/* — 共用时间（弧形） — */
 .time-header {
   width: 212px;
   height: 44px;
@@ -463,6 +467,7 @@ export default {
   margin-bottom: -4px;
   position: relative;
 }
+
 .time {
   position: absolute;
   width: 25px;
@@ -476,11 +481,35 @@ export default {
   color: #7090b0;
   transform-origin: 12.5px 16.5px;
 }
-.time1 { left: 60.9px; top: 10.8px; transform: rotate(-21deg); }
-.time2 { left: 79px; top: 6px; transform: rotate(-9deg); }
-.time3 { left: 93.5px; top: 2px; }
-.time4 { left: 108px; top: 6px; transform: rotate(9deg); }
-.time5 { left: 126.1px; top: 10.8px; transform: rotate(21deg); }
+
+.time1 {
+  left: 60.9px;
+  top: 10.8px;
+  transform: rotate(-21deg);
+}
+
+.time2 {
+  left: 79px;
+  top: 6px;
+  transform: rotate(-9deg);
+}
+
+.time3 {
+  left: 93.5px;
+  top: 2px;
+}
+
+.time4 {
+  left: 108px;
+  top: 6px;
+  transform: rotate(9deg);
+}
+
+.time5 {
+  left: 126.1px;
+  top: 10.8px;
+  transform: rotate(21deg);
+}
 
 .title {
   width: 160px;
@@ -490,17 +519,21 @@ export default {
   text-align: center;
 }
 
-/* ==============================
-   共用组件（两种布局复用）
-   ============================== */
 .icon-card {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 22px;
+  border-width: 0px;
+  background-color: transparent;
 }
 
 .deco-icon {
   display: flex;
+  width: 80px;
+  height: 80px;
 }
 
 .main-button {
@@ -572,10 +605,6 @@ export default {
   color: #ffffff;
 }
 
-/* ==============================
-   布局一：简约 (minimal)
-   所有类名独立，不与 classic 共用
-   ============================== */
 .minimal-wrap {
   flex-direction: column;
   align-items: center;
@@ -596,7 +625,6 @@ export default {
   margin-bottom: 10px;
 }
 
-/* 简约按钮 */
 .m-btn {
   width: 180px;
   height: 52px;
@@ -625,23 +653,11 @@ export default {
   font-weight: 700;
 }
 
-/* 简约底部 */
 .m-bottom {
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-}
-
-.m-circle {
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-  background-color: #14181e;
-  border-width: 1px;
-  border-color: #1a2a40;
-  justify-content: center;
-  align-items: center;
 }
 
 .m-circle-ml {
@@ -661,73 +677,6 @@ export default {
   text-align: center;
 }
 
-/* pill-standard icon */
-.icon-card-pill-standard {
-  width: 80px;
-  height: 80px;
-  border-radius: 22px;
-  border-width: 0px;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon-pill-standard {
-  width: 80px;
-  height: 80px;
-}
-
-/* pill-compact icon */
-.icon-card-pill-compact {
-  width: 64px;
-  height: 64px;
-  border-radius: 18px;
-  border-width: 0px;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon-pill-compact {
-  width: 64px;
-  height: 64px;
-}
-
-/* rect icon */
-.icon-card-rect {
-  width: 92px;
-  height: 92px;
-  border-radius: 26px;
-  border-width: 0px;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon-rect {
-  width: 86px;
-  height: 86px;
-}
-
-/* circle icon */
-.icon-card-circle {
-  width: 84px;
-  height: 84px;
-  border-radius: 24px;
-  border-width: 0px;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.deco-icon-circle {
-  width: 78px;
-  height: 78px;
-}
-
-/* ==============================
-   布局二：经典 (classic)
-   ============================== */
 .classic-wrap {
   flex-direction: column;
   align-items: center;
@@ -747,21 +696,6 @@ export default {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
-}
-
-.subtitle-pill-standard {
-  margin-bottom: 12px;
-}
-
-.subtitle-pill-compact {
-  margin-bottom: 8px;
-}
-
-.subtitle-rect {
-  margin-bottom: 14px;
-}
-
-.subtitle-circle {
   margin-bottom: 12px;
 }
 
@@ -782,22 +716,7 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-.button-group-pill-standard {
   width: 190px;
-}
-
-.button-group-pill-compact {
-  width: 160px;
-}
-
-.button-group-rect {
-  width: 84%;
-}
-
-.button-group-circle {
-  width: 76%;
 }
 
 .grid-button {
@@ -807,44 +726,15 @@ export default {
   border-width: 1.5px;
   border-color: rgba(104, 136, 184, 0.25);
   background-color: #081520;
-}
-
-.grid-button-pill-standard {
   width: 86px;
   height: 62px;
   margin: 4px;
   border-radius: 15px;
 }
 
-.grid-button-pill-compact {
-  width: 74px;
-  height: 56px;
-  margin: 4px;
-  border-radius: 13px;
-}
-
-.grid-button-rect {
-  width: 47%;
-  height: 68px;
-  margin-bottom: 12px;
-  border-radius: 18px;
-}
-
-.grid-button-circle {
-  width: 47%;
-  height: 68px;
-  margin-bottom: 12px;
-  border-radius: 18px;
-}
-
 .grid-btn-icon {
   width: 22px;
   height: 22px;
-}
-
-.grid-btn-icon-pill-compact {
-  width: 20px;
-  height: 20px;
 }
 
 .grid-btn-text {
@@ -854,52 +744,6 @@ export default {
   margin-top: 4px;
 }
 
-.grid-btn-text-pill-compact {
-  font-size: 13px;
-}
-
-/* ==============================
-   compact 页面级微调
-   ============================== */
-.page-pill-compact {
-  padding-top: 30px;
-}
-
-.title-pill-compact {
-  height: 38px;
-  font-size: 28px;
-}
-
-.title-rect,
-.title-circle {
-  margin-bottom: 8px;
-}
-
-.page-circle {
-  padding-top: 32px;
-}
-
-.bottom-row-pill-compact {
-  height: 40px;
-  margin-top: -1px;
-}
-
-.small-button-pill-compact {
-  height: 40px;
-}
-
-.bottom-row-rect,
-.bottom-row-circle {
-  margin-top: 10px;
-}
-
-.main-button-pill-compact {
-  height: 46px;
-}
-
-/* ==============================
-   长按缩放反馈动画（点按进页 / 长按回缩防误触）
-   ============================== */
 .press-in {
   transform: scale(0.85);
   transition: transform 120ms ease-out;
@@ -910,5 +754,354 @@ export default {
   transform: scale(1);
   transition: transform 120ms ease-out;
   transform-origin: 50% 50%;
+}
+
+.page-192 {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-336 {
+  width: 336px;
+  height: 480px;
+  padding-top: 39px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-432 {
+  width: 432px;
+  height: 514px;
+  padding-top: 39px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-466 {
+  width: 466px;
+  height: 466px;
+  padding-top: 25px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-192 {
+  width: 160px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  height: 38px;
+}
+
+.title-336 {
+  width: 160px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2px;
+  height: 30px;
+}
+
+.title-432 {
+  width: 206px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2px;
+  height: 32px;
+}
+
+.title-466 {
+  width: 148px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 2px;
+  height: 28px;
+}
+
+.icon-card-192 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+.icon-card-336 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 26px;
+  border-width: 0px;
+  background-color: transparent;
+  margin-bottom: 8px;
+}
+
+.icon-card-432 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 108px;
+  height: 90px;
+  border-radius: 26px;
+  border-width: 0px;
+  background-color: transparent;
+  margin-bottom: 9px;
+}
+
+.icon-card-466 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 70px;
+  border-radius: 24px;
+  border-width: 0px;
+  background-color: transparent;
+  margin-bottom: 6px;
+}
+
+.deco-icon-192 {
+  display: flex;
+  width: 64px;
+  height: 64px;
+}
+
+.deco-icon-336 {
+  display: flex;
+  width: 86px;
+  height: 86px;
+}
+
+.deco-icon-432 {
+  display: flex;
+  width: 86px;
+  height: 86px;
+}
+
+.deco-icon-466 {
+  display: flex;
+  width: 78px;
+  height: 78px;
+}
+
+.main-button-192 {
+  width: 176px;
+  height: 46px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-row-192 {
+  flex-direction: row;
+  justify-content: center;
+  height: 48px;
+  margin-top: -1px;
+}
+
+.bottom-row-336 {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100px;
+  height: 48px;
+  align-items: center;
+}
+
+.bottom-row-432 {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 129px;
+  height: 51px;
+  align-items: center;
+}
+
+.bottom-row-466 {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 92px;
+  height: 44px;
+  align-items: center;
+}
+
+.small-button-192 {
+  width: 70px;
+  height: 40px;
+  border-radius: 21px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle-192 {
+  color: #6888b8;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.subtitle-336 {
+  color: #6888b8;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 22px;
+}
+
+.subtitle-432 {
+  color: #6888b8;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 11px;
+  width: 154px;
+  height: 24px;
+}
+
+.subtitle-466 {
+  color: #6888b8;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+  width: 111px;
+  height: 20px;
+}
+
+.button-group-192 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+}
+
+.button-group-336 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+}
+
+.button-group-432 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 84%;
+}
+
+.button-group-466 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 76%;
+}
+
+.grid-button-192 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 1.5px;
+  border-color: rgba(104, 136, 184, 0.25);
+  background-color: #081520;
+  width: 74px;
+  height: 56px;
+  margin: 4px;
+  border-radius: 13px;
+}
+
+.grid-button-336 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 1.5px;
+  border-color: rgba(104, 136, 184, 0.25);
+  background-color: #081520;
+  width: 47%;
+  height: 68px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+.grid-button-432 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 1.5px;
+  border-color: rgba(104, 136, 184, 0.25);
+  background-color: #081520;
+  width: 47%;
+  height: 68px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+.grid-button-466 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 1.5px;
+  border-color: rgba(104, 136, 184, 0.25);
+  background-color: #081520;
+  width: 47%;
+  height: 68px;
+  margin-bottom: 12px;
+  border-radius: 18px;
+}
+
+.grid-btn-icon-192 {
+  width: 20px;
+  height: 20px;
+}
+
+.grid-btn-icon-336 {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 2px;
+}
+
+.grid-btn-icon-432 {
+  width: 36px;
+  height: 30px;
+  margin-bottom: 2px;
+}
+
+.grid-btn-icon-466 {
+  width: 26px;
+  height: 22px;
+  margin-bottom: 2px;
+}
+
+.grid-btn-text-192 {
+  color: #c0d0e8;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 4px;
 }
 </style>

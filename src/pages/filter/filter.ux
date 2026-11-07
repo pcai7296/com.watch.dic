@@ -1,8 +1,8 @@
 <template>
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
-    <div if="{{ mode === 'input' }}" class="input-row input-row-{{screenProfile}}" style="width: {{cardWidth}}px;">
-      <marquee class="input-text input-text-{{screenProfile}}"
+    <div if="{{ mode === 'input' }}" class="input-row input-row-{{screenClass}}" style="width: {{cardWidth}}px;">
+      <marquee class="input-text input-text-{{screenClass}}"
         scrollamount="40" direction="left" loop="-1" text-offset="40">
         {{ inputText }}
       </marquee>
@@ -209,6 +209,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
@@ -223,6 +224,7 @@ export default {
   },
 
   private: {
+    screenClass: currentScreenClass(),
     cardWidth: 188,
     touchStartX: -1,
     touchStartY: -1,
@@ -244,6 +246,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     applyKeepScreenOnSetting()
   },
 
@@ -354,10 +359,6 @@ export default {
   align-items: center;
 }
 
-
-
-
-
 .filter-list {
   height: 430px;
   margin-bottom: 4px;
@@ -389,10 +390,6 @@ export default {
   font-size: 26px;
   font-weight: 700;
   text-align: left;
-}
-
-.input-text-rect {
-  font-size: 22px;
 }
 
 .record-card {
@@ -433,5 +430,23 @@ export default {
 
 .delete-title {
   color: #ffffff;
+}
+
+.input-text-336 {
+  width: 100%;
+  height: 36px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.input-text-432 {
+  width: 100%;
+  height: 36px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
 }
 </style>

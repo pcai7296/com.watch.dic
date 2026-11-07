@@ -1,19 +1,19 @@
 <import name="input-method" src="../../components/InputMethod/InputMethod.ux"></import>
 
 <template>
-  <div class="page page-{{screenProfile}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
     <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
 
-    <div class="input-box input-box-{{screenProfile}}" @click="onInputBoxClick">
+    <div class="input-box input-box-{{screenClass}}" @click="onInputBoxClick">
       <!-- 常驻 marquee，短时静态、超长时从右向左平滑滚动 -->
-      <marquee id="marquee-text" class="input-text input-text-{{screenProfile}}"
+      <marquee id="marquee-text" class="input-text input-text-{{screenClass}}"
         scrollamount="{{marqueeSpeed}}" direction="left" loop="-1" text-offset="40">
         {{ displayText }}
       </marquee>
     </div>
 
-    <div class="edit-row edit-row-{{screenProfile}}">
+    <div class="edit-row edit-row-{{screenClass}}">
       <image src="/common/icons/btn_back_thin.png" style="width:55px;height:50px;" onclick="moveLeft" />
       <image class="clear-btn" src="/common/icons/btn_delete_fat.png" style="width:55px;height:45px;" onclick="clearText" />
       <image src="/common/icons/btn_back_mirror_thin.png" style="width:55px;height:50px;" onclick="moveRight" />
@@ -39,6 +39,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import device from "@system.device"
 import router from "@system.router"
 import prompt from "@system.prompt"
@@ -83,6 +84,7 @@ export default {
   },
 
   private: {
+    screenClass: currentScreenClass(),
     query: "",
     cursorIndex: 0,
     displayText: "",
@@ -226,6 +228,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     this.searchSubmitLocked = false
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()
@@ -850,14 +855,10 @@ export default {
   align-items: center;
 }
 
-
-
 .search-icon {
   width: 40px;
   height: 40px;
 }
-
-
 
 .input-box {
   width: 168px;
@@ -901,28 +902,6 @@ export default {
   text-align: center;
 }
 
-
-
-
-
-.input-box-rect {
-  width: 72%;
-}
-
-.input-text-rect {
-  font-size: 22px;
-}
-
-.input-box-circle {
-  width: 62%;
-  margin-top: 8px;
-  margin-bottom: 0;
-}
-
-.input-text-circle {
-  font-size: 22px;
-}
-
 .hint-area {
   width: 100%;
   flex: 1;
@@ -937,9 +916,136 @@ export default {
   height: 24px;
 }
 
-.page-circle {
-  padding-top: 16px;
+.page-336 {
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
 }
 
+.page-432 {
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
 
+.page-466 {
+  width: 100%;
+  height: 100%;
+  padding-top: 16px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box-336 {
+  width: 72%;
+  height: 60px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-radius: 18px;
+  background-color: #08172b;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 4px;
+  margin-right: 0;
+}
+
+.input-box-432 {
+  width: 296px;
+  height: 52px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-radius: 18px;
+  background-color: #08172b;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 4px;
+}
+
+.input-box-466 {
+  width: 62%;
+  height: 52px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-radius: 18px;
+  background-color: #08172b;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 4px;
+}
+
+.input-text-336 {
+  width: 100%;
+  height: 44px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.input-text-432 {
+  width: 100%;
+  height: 36px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.input-text-466 {
+  width: 100%;
+  height: 36px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.edit-row-336 {
+  width: 180px;
+  height: 58px;
+  margin-bottom: 6px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.edit-row-432 {
+  width: 256px;
+  height: 72px;
+  margin-bottom: 6px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.edit-row-466 {
+  width: 256px;
+  height: 72px;
+  margin-bottom: 6px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+  align-items: center;
+}
 </style>

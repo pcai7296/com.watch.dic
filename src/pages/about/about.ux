@@ -1,10 +1,10 @@
 <template>
-  <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
-    <list class="about-list" style="width: {{layoutWidth}}px;" onscroll="onListScroll">
+    <list class="about-list about-list-{{screenClass}}" style="width: {{layoutWidth}}px;" onscroll="onListScroll">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
-        <div class="app-card">
+        <div class="app-card app-card-{{screenClass}}">
           <text class="app-name">腕上词典</text>
           <text class="app-version">{{versionName}}</text>
           <img class="deco-icon-about" src="/common/logo.png" />
@@ -60,6 +60,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 import app from "@system.app"
@@ -123,6 +124,7 @@ const DEFERRED_SECTIONS = ["usage", "limits", "tags", "pos"]
 
 export default {
   private: {
+    screenClass: currentScreenClass(),
     versionName: "",
     touchStartX: -1,
     touchStartY: -1,
@@ -166,6 +168,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     this.refreshLayoutIfNeeded()
     applyKeepScreenOnSetting()
     this.scheduleDeferredSections()
@@ -405,10 +410,6 @@ export default {
   align-items: center;
 }
 
-
-
-
-
 .about-list {
   width: 196px;
   height: 410px;
@@ -504,5 +505,61 @@ export default {
   color: #ffffff;
   font-size: 18px;
   text-align: left;
+}
+
+.page-432 {
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-466 {
+  width: 466px;
+  height: 466px;
+  padding-top: 0;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-list-466 {
+  width: 196px;
+  height: 385px;
+}
+
+.app-card-336 {
+  width: 311px;
+  height: 240px;
+  padding-left: 18px;
+  padding-top: 24px;
+  border-radius: 30px;
+  background-color: #242424;
+  flex-direction: column;
+  position: relative;
+}
+
+.app-card-432 {
+  width: 417px;
+  height: 240px;
+  padding-left: 18px;
+  padding-top: 24px;
+  border-radius: 30px;
+  background-color: #242424;
+  flex-direction: column;
+  position: relative;
+}
+
+.app-card-466 {
+  width: 305px;
+  height: 240px;
+  padding-left: 18px;
+  padding-top: 24px;
+  border-radius: 30px;
+  background-color: #242424;
+  flex-direction: column;
+  position: relative;
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
-  <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" ontouchstart="onBackButtonTouchStart" ontouchend="onBackButtonTouchEnd" />
 
-    <marquee if="{{ queryMarqueeOn }}" id="query-marquee" class="query-marquee"
+    <marquee if="{{ queryMarqueeOn }}" id="query-marquee" class="query-marquee query-marquee-{{screenClass}}"
       scrollamount="{{ queryMarqueeSpeed }}" direction="left" loop="-1" text-offset="40">
       {{ queryText }}   {{ queryText }}
     </marquee>
-    <text if="{{ !queryMarqueeOn }}" class="query-text">{{ queryText }}</text>
+    <text if="{{ !queryMarqueeOn }}" class="query-text query-text-{{screenClass}}">{{ queryText }}</text>
     <text class="status-text" if="{{ statusText }}">{{ statusText }}</text>
 
     <list id="result-list" class="result-list" if="{{ resultCards.length > 0 }}" style="width: {{cardWidth}}px;">
@@ -26,7 +26,7 @@
         <div else class="result-card" style="width: {{cardWidth}}px; height: {{ item.cardHeight }}px;" @click="openDetail(item)">
           <div class="result-head">
             <text if="{{ !item.wordMarqueeOn }}" class="result-word" style="font-size: {{ item.wordFontSize }}px;">{{ item.word }}</text>
-            <marquee if="{{ item.wordMarqueeOn }}" class="result-word-marquee" style="font-size: {{ item.wordFontSize }}px;" scrollamount="40" direction="left" loop="-1" text-offset="40">{{ item.word }}   {{ item.word }}</marquee>
+            <marquee if="{{ item.wordMarqueeOn }}" class="result-word-marquee result-word-marquee-{{screenClass}}" style="font-size: {{ item.wordFontSize }}px;" scrollamount="40" direction="left" loop="-1" text-offset="40">{{ item.word }}   {{ item.word }}</marquee>
             <text class="result-tag">{{ item.tag }}</text>
           </div>
           <text class="result-phonetic">{{ item.phonetic }}</text>
@@ -42,6 +42,7 @@
 </template>
 
 <script>
+import {currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import file from "@system.file"
@@ -121,6 +122,7 @@ export default {
   },
 
   private: {
+    screenClass: currentScreenClass(),
     queryText: "",
     statusText: "",
     resultCards: [],
@@ -214,6 +216,9 @@ export default {
   },
 
   onShow() {
+
+
+    this.screenClass = currentScreenClass()
     this.loadResultLongPressHomeSetting()
     applyKeepScreenOnSetting()
     // Re-check query — Vela may reuse page instance without re-firing onInit
@@ -2423,12 +2428,7 @@ export default {
   align-items: center;
 }
 
-
-
-
-
-.query-text,
-.query-marquee {
+.query-text {
   width: 168px;
   height: 36px;
   margin-top: 12px;
@@ -2440,6 +2440,14 @@ export default {
 }
 
 .query-marquee {
+  width: 168px;
+  height: 36px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
   lines: 1;
   text-overflow: clip;
 }
@@ -2472,10 +2480,6 @@ export default {
   font-weight: 800;
 }
 
-.result-item {
-  /* width bound inline */
-}
-
 .result-card {
   padding-left: 12px;
   padding-right: 12px;
@@ -2493,7 +2497,16 @@ export default {
   align-items: center;
 }
 
-.result-word,
+.result-word {
+  flex: 1;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  lines: 1;
+  overflow: visible;
+}
+
 .result-word-marquee {
   flex: 1;
   height: 38px;
@@ -2501,10 +2514,6 @@ export default {
   font-size: 28px;
   font-weight: 800;
   lines: 1;
-}
-
-.result-word {
-  overflow: visible;
 }
 
 .result-tag {
@@ -2536,5 +2545,89 @@ export default {
   color: #aeb0b4;
   font-size: 18px;
   font-weight: 700;
+}
+
+.page-432 {
+  width: 100%;
+  height: 100%;
+  padding-top: 8px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-466 {
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.query-text-336 {
+  width: 250px;
+  height: 36px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin: 0;
+}
+
+.query-marquee-336 {
+  width: 250px;
+  height: 36px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  lines: 1;
+  text-overflow: clip;
+  margin: 0;
+}
+
+.result-word-marquee-192 {
+  flex: 1;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  lines: 1;
+  text-overflow: clip;
+}
+
+.result-word-marquee-336 {
+  flex: 1;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  lines: 1;
+  text-overflow: clip;
+}
+
+.result-word-marquee-432 {
+  flex: 1;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  lines: 1;
+  text-overflow: clip;
+}
+
+.result-word-marquee-466 {
+  flex: 1;
+  height: 38px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  lines: 1;
+  text-overflow: clip;
 }
 </style>
