@@ -27,6 +27,19 @@ const REPOS = [
 ]
 const PROFILE_SUFFIXES = ["-pill-standard", "-pill-compact", "-rect", "-circle"]
 
+// 五仓已合并进本仓：源仓现在只存在于 ..\com.watch.dic-archive\archive\。
+// 没有源仓就直接退出，避免误跑覆盖手调的 -336/-432/-466 块。
+const missingRepos = REPOS.filter((r) => !fs.existsSync(r.dir))
+if (missingRepos.length > 0) {
+  console.error(
+    "merge_columns.js 是五仓时代的迁移工具，找不到源仓：\n  " +
+      missingRepos.map((r) => r.dir).join("\n  ") +
+      "\n五个分仓已归档到 ..\\com.watch.dic-archive\\archive\\，本仓不再需要重跑它。\n" +
+      "确需重跑（会覆盖手调的 -336/-432/-466 块）时，请先改 REPOS 指向归档目录。"
+  )
+  process.exit(1)
+}
+
 function extractStyleBlocks(source) {
   const blocks = []
   const re = /<style[^>]*>([\s\S]*?)<\/style>/g
