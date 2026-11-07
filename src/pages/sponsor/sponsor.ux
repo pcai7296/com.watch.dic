@@ -1,6 +1,6 @@
 <template>
   <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
+    <image class="back-btn" src="/common/icons/btn_back.png" onclick="goBack" />
 
     <img class="sponsor-code sponsor-code-{{screenClass}}" src="/common/sponsor-code.png" />
     <text class="sponsor-caption">求喂饭</text>
@@ -77,6 +77,11 @@ export default {
 </script>
 
 <style>
+.back-btn {
+  width: 102px;
+  height: 72px;
+}
+
 .page {
   width: 100%;
   height: 100%;

@@ -2,8 +2,8 @@
 
 <template>
   <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
-    <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
-    <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" style="width:102px;height:72px;" onclick="onSearchButtonClick" />
+    <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" onclick="onSearchButtonClick" />
+    <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" onclick="onSearchButtonClick" />
 
     <div class="input-box input-box-{{screenClass}}" @click="onInputBoxClick">
       <!-- 常驻 marquee，短时静态、超长时从右向左平滑滚动 -->
@@ -14,9 +14,9 @@
     </div>
 
     <div class="edit-row edit-row-{{screenClass}}">
-      <image src="/common/icons/btn_back_thin.png" style="width:55px;height:50px;" onclick="moveLeft" />
-      <image class="clear-btn" src="/common/icons/btn_delete_fat.png" style="width:55px;height:45px;" onclick="clearText" />
-      <image src="/common/icons/btn_back_mirror_thin.png" style="width:55px;height:50px;" onclick="moveRight" />
+      <image class="nav-arrow" src="/common/icons/btn_back_thin.png" onclick="moveLeft" />
+      <image class="clear-btn" src="/common/icons/btn_delete_fat.png" onclick="clearText" />
+      <image class="nav-arrow" src="/common/icons/btn_back_mirror_thin.png" onclick="moveRight" />
     </div>
 
     <div if="{{ keyboardHidden }}" class="hint-area">
@@ -846,6 +846,21 @@ export default {
 </script>
 
 <style>
+.check-btn {
+  width: 102px;
+  height: 72px;
+}
+
+.nav-arrow {
+  width: 55px;
+  height: 50px;
+}
+
+.clear-btn {
+  width: 55px;
+  height: 45px;
+}
+
 .page {
   width: 100%;
   height: 100%;
