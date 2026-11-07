@@ -1,0 +1,36 @@
+<template>
+  <div class="probe-child probe-child-{{col}}">
+    <text class="note">{{col}}</text>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ["col"],
+  data: {
+    col: "none"
+  }
+}
+</script>
+
+<style>
+.probe-child {
+  width: 40px;
+  height: 24px;
+  margin-top: 4px;
+  background-color: #ff3b30;
+}
+
+.probe-child-466 {
+  background-color: #00ff00;
+}
+
+.probe-child-336 {
+  background-color: #0000ff;
+}
+
+.note {
+  font-size: 9px;
+  color: #ffffff;
+}
+</style>

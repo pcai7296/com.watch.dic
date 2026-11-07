@@ -1,0 +1,166 @@
+<import name="probe-child" src="../../components/ProbeChild/ProbeChild.ux"></import>
+
+<template>
+  <div class="page">
+    <text class="t">PROBE</text>
+    <text class="k">col: {{col}}</text>
+    <text class="k">w/h: {{w}} / {{h}}</text>
+    <text class="k">shape: {{shape}}</text>
+    <text class="k">density: {{density}}</text>
+    <text class="k">raw: {{raw}}</text>
+    <div class="ruler ruler-{{col}}"></div>
+    <text class="k">red=192px  blue=col</text>
+    <div class="varruler"></div>
+    <text class="k">yellow=var() 120px</text>
+    <div class="mediabox"></div>
+    <text class="k">green=@media(shape:circle) 40→80</text>
+    <probe-child col="{{col}}"></probe-child>
+  </div>
+</template>
+
+<script>
+import device from "@system.device"
+
+const COLUMNS = [192, 212, 336, 432, 466]
+
+function plausible(value) {
+  return typeof value === "number" && isFinite(value) && value >= 100 && value <= 800
+}
+
+function pickColumn(width) {
+  if (!plausible(width)) {
+    return "none"
+  }
+  let best = COLUMNS[0]
+  for (let i = 1; i < COLUMNS.length; i++) {
+    if (Math.abs(COLUMNS[i] - width) < Math.abs(best - width)) {
+      best = COLUMNS[i]
+    }
+  }
+  return String(best)
+}
+
+export default {
+  data: {
+    col: "none",
+    w: "-",
+    h: "-",
+    shape: "-",
+    density: "-",
+    raw: "-"
+  },
+
+  onShow() {
+    this.readFromApp()
+    this.readFromDevice()
+  },
+
+  onTouchStart(e) {
+    this.startX = e.touches[0].screenX
+  },
+
+  onTouchEnd(e) {
+    const endX = e.changedTouches[0].screenX
+    if (this.startX <= 40 && endX >= 80 && this.$page) {
+      this.$page.finish()
+    }
+  },
+
+  readFromApp() {
+    const appData = this.$app.$def.data
+    this.w = String(appData.screenWidth)
+    this.h = String(appData.screenHeight)
+    this.shape = String(appData.screenShape)
+    this.col = pickColumn(Number(appData.screenWidth))
+  },
+
+  readFromDevice() {
+    device.getInfo({
+      success: (data) => {
+        this.density = String(data.screenDensity)
+        this.raw = "w=" + data.screenWidth + " h=" + data.screenHeight +
+          " d=" + data.screenDensity + " shape=" + data.screenShape +
+          " ratio=" + data.screenPixelRatio
+        console.log("PROBE_RAW " + JSON.stringify(data))
+      },
+      fail: (data, code) => {
+        this.raw = "getInfo FAILED code=" + code
+        console.log("PROBE_FAIL " + code)
+      },
+      complete: () => {}
+    })
+  }
+}
+</script>
+
+<style>
+.page {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #000000;
+  padding-left: 6px;
+  padding-top: 6px;
+  --probe-w: 120px;
+}
+
+.t {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.k {
+  font-size: 9px;
+  color: #9ad1ff;
+}
+
+.ruler {
+  height: 10px;
+  margin-top: 3px;
+  background-color: #ff3b30;
+}
+
+.ruler-192 {
+  width: 192px;
+}
+
+.ruler-212 {
+  width: 212px;
+}
+
+.ruler-336 {
+  width: 336px;
+}
+
+.ruler-432 {
+  width: 432px;
+}
+
+.ruler-466 {
+  width: 466px;
+}
+
+.ruler-none {
+  width: 50px;
+}
+
+.varruler {
+  width: var(--probe-w, 30px);
+  height: 10px;
+  margin-top: 3px;
+  background-color: #ffcc00;
+}
+
+.mediabox {
+  width: 40px;
+  height: 10px;
+  margin-top: 3px;
+  background-color: #00c853;
+}
+
+@media (shape: circle) {
+  .mediabox {
+    width: 80px;
+  }
+}
+</style>

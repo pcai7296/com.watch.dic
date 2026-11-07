@@ -1,8 +1,9 @@
 <script>
-import device from "@system.device"
 import "./global"
 import {loadDictionaryProfile} from "./common/dictProfile"
 import {applyKeepScreenOnSetting} from "./common/keepScreenOn"
+import {columnClass} from "./common/screenColumn"
+import {probeScreenInfo} from "./common/screenProbe"
 
 const {buildTarget} = global
 
@@ -13,6 +14,9 @@ export default {
     screenHeight: buildTarget.height,
     screenAspectRatio: 0,
     screenProfile: buildTarget.profile,
+    // 发布包：编译期就由 buildTarget 定死（TARGET_WIDTH 条件编译块），不做任何设备查询。
+    // 调试包：先给默认列，再由探测修正，让同一个包在 5 台模拟器上各自选对列。
+    screenClass: String(buildTarget.width),
     buildTargetId: buildTarget.id
   },
 
@@ -40,6 +44,11 @@ export default {
     } else {
       appData.screenProfile = "pill-standard"
     }
+    // 只有探测成功且数值合理时才覆盖默认列
+    const cls = columnClass(appData.screenWidth)
+    if (cls) {
+      appData.screenClass = cls
+    }
   },
 
   onCreate() {
@@ -50,14 +59,8 @@ export default {
       appData.screenAspectRatio =
         Math.round((appData.screenWidth / appData.screenHeight) * 1000) / 1000
     }
-    device.getInfo({
-      success: (data) => {
-        this.updateScreenInfo(data)
-      },
-      fail: (data, code) => {
-        console.log("device.getInfo failed; using compiled target: " + code)
-      },
-      complete: () => {}
+    probeScreenInfo((info) => {
+      this.updateScreenInfo(info)
     })
   },
 

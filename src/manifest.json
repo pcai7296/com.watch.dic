@@ -68,6 +68,9 @@
       },
       "pages/settings": {
         "component": "settings"
+      },
+      "pages/probe": {
+        "component": "probe"
       }
     }
   }
