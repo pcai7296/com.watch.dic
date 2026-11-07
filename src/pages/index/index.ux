@@ -38,10 +38,10 @@
 
       <div class="m-bottom">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
-          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" />
+          <image static class="m-circle-icon m-circle-icon-{{screenClass}}" src="/common/icons/btn_info_i.png" />
         </div>
         <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
-          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" />
+          <image static class="m-circle-icon m-circle-icon-{{screenClass}}" src="/common/icons/btn_heart_gold.png" />
         </div>
       </div>
     </div>
@@ -56,35 +56,35 @@
       <text class="subtitle subtitle-{{screenClass}}">抬手即查</text>
 
       <div class="main-button main-button-{{screenClass}} secondary-button c-main-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
-        <image static class="c-btn-icon" src="/common/icons/language.png" />
-        <text static class="btn-label">查单词</text>
+        <image static class="c-btn-icon c-btn-icon-{{screenClass}}" src="/common/icons/language.png" />
+        <text static class="btn-label btn-label-{{screenClass}}">查单词</text>
       </div>
 
       <div class="button-group button-group-{{screenClass}}">
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'inflect' ? 'press-in' : '' }} {{ releasingKey === 'inflect' ? 'press-out' : '' }}" onclick="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
-          <image static class="c-grid-icon" src="/common/icons/btn_transform_blue.png" />
+          <image static class="c-grid-icon c-grid-icon-{{screenClass}}" src="/common/icons/btn_transform_blue.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">变形</text>
         </div>
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
-          <image static class="c-grid-icon" src="/common/icons/settings-2.png" />
+          <image static class="c-grid-icon c-grid-icon-{{screenClass}}" src="/common/icons/settings-2.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">设置</text>
         </div>
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
-          <image static class="c-grid-icon" src="/common/icons/history.png" />
+          <image static class="c-grid-icon c-grid-icon-{{screenClass}}" src="/common/icons/history.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">历史</text>
         </div>
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
-          <image static class="c-grid-icon" src="/common/icons/star-gradient.png" />
+          <image static class="c-grid-icon c-grid-icon-{{screenClass}}" src="/common/icons/star-gradient.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">收藏</text>
         </div>
       </div>
 
       <div class="bottom-row bottom-row-{{screenClass}}">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
-          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" />
+          <image static class="m-circle-icon m-circle-icon-{{screenClass}}" src="/common/icons/btn_info_i.png" />
         </div>
         <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
-          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" />
+          <image static class="m-circle-icon m-circle-icon-{{screenClass}}" src="/common/icons/btn_heart_gold.png" />
         </div>
       </div>
     </div>
@@ -774,24 +774,6 @@ export default {
   align-items: center;
 }
 
-.page-336 {
-  width: 336px;
-  height: 480px;
-  padding-top: 39px;
-  background-color: #000000;
-  flex-direction: column;
-  align-items: center;
-}
-
-.page-432 {
-  width: 432px;
-  height: 514px;
-  padding-top: 39px;
-  background-color: #000000;
-  flex-direction: column;
-  align-items: center;
-}
-
 .title-192 {
   width: 160px;
   color: #ffffff;
@@ -799,26 +781,6 @@ export default {
   font-weight: 800;
   text-align: center;
   height: 38px;
-}
-
-.title-336 {
-  width: 160px;
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 2px;
-  height: 30px;
-}
-
-.title-432 {
-  width: 206px;
-  color: #ffffff;
-  font-size: 30px;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 2px;
-  height: 32px;
 }
 
 .icon-card-192 {
@@ -832,46 +794,10 @@ export default {
   background-color: transparent;
 }
 
-.icon-card-336 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 84px;
-  height: 84px;
-  border-radius: 26px;
-  border-width: 0px;
-  background-color: transparent;
-  margin-bottom: 8px;
-}
-
-.icon-card-432 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 108px;
-  height: 90px;
-  border-radius: 26px;
-  border-width: 0px;
-  background-color: transparent;
-  margin-bottom: 9px;
-}
-
 .deco-icon-192 {
   display: flex;
   width: 64px;
   height: 64px;
-}
-
-.deco-icon-336 {
-  display: flex;
-  width: 86px;
-  height: 86px;
-}
-
-.deco-icon-432 {
-  display: flex;
-  width: 86px;
-  height: 86px;
 }
 
 .main-button-192 {
@@ -887,24 +813,6 @@ export default {
   justify-content: center;
   height: 48px;
   margin-top: -1px;
-}
-
-.bottom-row-336 {
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
-  width: 100px;
-  height: 48px;
-  align-items: center;
-}
-
-.bottom-row-432 {
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
-  width: 129px;
-  height: 51px;
-  align-items: center;
 }
 
 .small-button-192 {
@@ -924,48 +832,12 @@ export default {
   margin-bottom: 8px;
 }
 
-.subtitle-336 {
-  color: #6888b8;
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 10px;
-  width: 120px;
-  height: 22px;
-}
-
-.subtitle-432 {
-  color: #6888b8;
-  font-size: 21px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 11px;
-  width: 154px;
-  height: 24px;
-}
-
 .button-group-192 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 176px;
-}
-
-.button-group-336 {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 84%;
-}
-
-.button-group-432 {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 84%;
 }
 
 .grid-button-192 {
@@ -981,47 +853,9 @@ export default {
   border-radius: 13px;
 }
 
-.grid-button-336 {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-width: 1.5px;
-  border-color: rgba(104, 136, 184, 0.25);
-  background-color: #081520;
-  width: 47%;
-  height: 68px;
-  margin-bottom: 12px;
-  border-radius: 18px;
-}
-
-.grid-button-432 {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-width: 1.5px;
-  border-color: rgba(104, 136, 184, 0.25);
-  background-color: #081520;
-  width: 47%;
-  height: 68px;
-  margin-bottom: 12px;
-  border-radius: 18px;
-}
-
 .grid-btn-icon-192 {
   width: 20px;
   height: 20px;
-}
-
-.grid-btn-icon-336 {
-  width: 28px;
-  height: 28px;
-  margin-bottom: 2px;
-}
-
-.grid-btn-icon-432 {
-  width: 36px;
-  height: 30px;
-  margin-bottom: 2px;
 }
 
 .grid-btn-text-192 {
@@ -1029,6 +863,202 @@ export default {
   font-size: 13px;
   font-weight: 700;
   margin-top: 4px;
+}
+/* ===== 336 列：矩形 336x480，经典布局（数值参照旧 w336 仓） ===== */
+.page-336 {
+  width: 336px;
+  height: 480px;
+  padding-top: 20px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-336 {
+  width: 160px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.icon-card-336 {
+  width: 84px;
+  height: 84px;
+  border-radius: 22px;
+  border-width: 0px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.deco-icon-336 {
+  width: 72px;
+  height: 72px;
+}
+
+.subtitle-336 {
+  width: 120px;
+  height: 22px;
+  font-size: 18px;
+  color: #6888b8;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-button-336 {
+  width: 304px;
+  height: 70px;
+  border-radius: 16px;
+}
+
+.btn-label-336 {
+  font-size: 29px;
+}
+
+.c-main-btn-336 {
+  margin-bottom: 12px;
+}
+
+.c-btn-icon-336 {
+  width: 49px;
+  height: 49px;
+  margin-right: 14px;
+}
+
+.button-group-336 {
+  width: 304px;
+}
+
+.grid-button-336 {
+  width: 140px;
+  height: 66px;
+  margin: 4px;
+  border-radius: 14px;
+}
+
+.grid-btn-text-336 {
+  font-size: 16px;
+}
+
+.c-grid-icon-336 {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 4px;
+}
+
+.bottom-row-336 {
+  width: 100px;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.m-circle-icon-336 {
+  width: 24px;
+  height: 24px;
+}
+/* ===== 432 列：矩形 432x514，经典布局（数值参照旧 w432 仓） ===== */
+.page-432 {
+  width: 432px;
+  height: 514px;
+  padding-top: 20px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-432 {
+  width: 206px;
+  height: 32px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.icon-card-432 {
+  width: 108px;
+  height: 90px;
+  border-radius: 22px;
+  border-width: 0px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.deco-icon-432 {
+  width: 93px;
+  height: 77px;
+}
+
+.subtitle-432 {
+  width: 154px;
+  height: 24px;
+  font-size: 21px;
+  color: #6888b8;
+  text-align: center;
+  margin-bottom: 11px;
+}
+
+.main-button-432 {
+  width: 391px;
+  height: 75px;
+  border-radius: 19px;
+}
+
+.btn-label-432 {
+  font-size: 33px;
+}
+
+.c-main-btn-432 {
+  margin-bottom: 13px;
+}
+
+.c-btn-icon-432 {
+  width: 63px;
+  height: 52px;
+  margin-right: 17px;
+}
+
+.button-group-432 {
+  width: 391px;
+}
+
+.grid-button-432 {
+  width: 180px;
+  height: 71px;
+  margin: 4px;
+  border-radius: 17px;
+}
+
+.grid-btn-text-432 {
+  font-size: 18px;
+}
+
+.c-grid-icon-432 {
+  width: 36px;
+  height: 30px;
+  margin-bottom: 4px;
+}
+
+.bottom-row-432 {
+  width: 129px;
+  height: 51px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.m-circle-icon-432 {
+  width: 31px;
+  height: 26px;
 }
 /* ===== 466 列：w212 结构 + w466 比例（手动调参） ===== */
 .page-466 {
@@ -1066,40 +1096,6 @@ export default {
   height: 96px;
 }
 
-.minimal-btns-466 {
-  margin-bottom: 12px;
-}
-
-.m-btn-466 {
-  width: 280px;
-  height: 66px;
-  border-radius: 15px;
-  border-width: 1.5px;
-}
-
-.m-btn-mt-466 {
-  margin-top: 8px;
-}
-
-.m-btn-icon-466 {
-  width: 44px;
-  height: 40px;
-  margin-left: 12px;
-  margin-right: 12px;
-}
-
-.m-btn-text-466 {
-  font-size: 28px;
-}
-
-.m-bottom-466 {
-  margin-top: 12px;
-}
-
-.m-circle-ml-466 {
-  margin-left: 14px;
-}
-
 .m-circle-icon-466 {
   width: 40px;
   height: 40px;
@@ -1119,6 +1115,17 @@ export default {
   height: 66px;
 }
 
+.c-btn-icon-466 {
+  width: 44px;
+  height: 44px;
+  margin-right: 12px;
+}
+
+.c-grid-icon-466 {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 4px;
+}
 .btn-label-466 {
   font-size: 28px;
 }
