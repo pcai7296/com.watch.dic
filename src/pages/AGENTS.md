@@ -12,7 +12,7 @@ pages/
 ├── filter/      # 字母钻取跳查（大字输入用 storage 键 dic_large_input）
 ├── detail/      # 词条详情 + 收藏（上限 150）+ 变形跳转（1s 冷却、≤3 层）
 ├── records/     # 历史/收藏列表（type 参数，20/页，A-Z 筛选）
-├── about/       # 致谢/许可/多屏说明 — #000000 底，文字截断是已知问题
+├── about/       # 致谢/许可/多屏说明 — #000000 底；首屏只建卡+Developers，其余 4 段 onShow 后补（见下）
 ├── sponsor/     # 打赏二维码
 └── settings/    # 开关：联想 / 长按回主页 / 滑动退出锁 / 按压缩放 / 常亮 / 首页布局
 ```
@@ -45,9 +45,19 @@ pages/
 - **手势里的 `router.back()` 按设计不包 `navGuard()`**；交互按钮触发的 `push`/`replace` **必须**过 `navGuard()`。
 - `search.ux` 在滑动退出锁开启时，由 `onBackPress()` 返回 `this.searchSwipeExitLocked` 拦截系统返回——注意这是**返回锁**，不是退出应用。
 
+## about 页的渲染策略（性能，别改回去）
+
+Vela 的 `<list>` **不做虚拟化**：子节点在页面 `DomComponent build` 阶段一次全建（模拟器日志 `build:120 entities: 96, root: 131`），离屏 `list-item` 一样建、一样排版。about 是全静态长页（内容 2400+ px，视口仅 410px），所以：
+
+- `onInit` → `applyScreenLayout()` 只算宽度/高度，**只填 `licenseLines` 与首屏的卡+Developers**；`usage/limits/tags/pos` 的行数组保持 `[]`。
+- `onShow` → `refreshLayoutIfNeeded()`（`_layoutKey = sw|profile` 相等就跳过，**不要**像旧版那样无条件重跑 `applyScreenLayout()`，那等于每次 show 全量重绘）+ `scheduleDeferredSections()`：`setTimeout` 逐段填，每段间隔 16ms。
+- `<list onscroll="onListScroll">` 兜底：还没填完时用户一滑就 `fillAllSections()` 一次性补齐，避免空白。
+- 结果：首帧节点 131 → 33，`onInit` 之后才补 58 个 `text`。**不要为了「一次赋值更简单」把 4 段塞回 `onInit`。**
+- 文案统一在模块作用域常量（`USAGE_ITEMS` / `LIMIT_ITEMS` / `TAG_ITEMS` / `POS_ITEMS`），`fillSection(key)` 用 `SECTION_ITEMS[key]` 取，别再把字面量抄进方法里。
+
 ## Conventions
 
-- **背景**：所有页面 `#020813`，about 页 `#000000`。
+- **背景**：所有页面 `#000000` 纯黑（含 about 页），OLED 暗光下不发蓝；卡片/按钮仍用深蓝灰分层。
 - **字号**：最小 18px，除非用户明确同意截断。
 - **路由怪癖**：`records → search` 用 `router.replace` 带 `autoSearch="1"`；`detail → results`（变形）也用 `router.replace`。
 - **自适应**：条件编译 + `app.ux` 运行期算 `screenProfile` + CSS 类名后缀 `page-{{screenProfile}}`。无 rem/vw/rpx。

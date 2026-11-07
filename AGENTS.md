@@ -105,7 +105,7 @@ sign/ · build/ · dist/                 — Committed signing material and arti
 ## Screen & style
 
 - Canvas: 212×520, designWidth: "device-width", minPlatformVersion: 1000. Never override designWidth.
-- Background #020813 everywhere except about (#000000). Blue/white/black dark theme.
+- Background #000000 (pure black) on all pages, including about — OLED-friendly, no blue cast. Blue/white dark theme.
 - **All text min 18px** — do not go below unless user OKs truncation.
 - About page wraps usage text by screen profile; use shared safe widths for results-like content.
 - Profiles come from `global.buildTarget` (+ runtime refinement in app.ux): pill-standard / pill-compact / rect / circle.

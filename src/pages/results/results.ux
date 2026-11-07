@@ -2011,8 +2011,10 @@ export default {
       }
     }
     const safeLines = lines.length > 0 ? lines : [""]
+    // 真机实测卡片内容高：上内边距 12 + 单词行 34(28×1.2) + 音标行 19(16×1.2) + 正文每行 22，
+    // 再留 6px 下内边距。旧值 64 + 22n 少算 7px，真机上最后一行会顶到圆角边缘被裁。
     const lineHeight = 22
-    const cardHeight = Math.max(100, 64 + safeLines.length * lineHeight)
+    const cardHeight = Math.max(100, 71 + safeLines.length * lineHeight)
     const bestTag = this.highestTag(tag)
     const showTag = this.canFitWithTag(word || "", bestTag)
 
@@ -2072,6 +2074,55 @@ export default {
     return wordW + tagW <= this.cardWidth - CARD_PADDING
   },
 
+  // 正文折行专用度量：真机（212×520 截图逐字实测，18px/700）中文字形步进 18px、空格 5px、
+  // 大写 14px、小写/数字 10px、ASCII 标点 6px。getCharWidth 是单词字号用的旧标定表（整体偏窄、
+  // 靠 WORD_SCALE 补偿）；正文若沿用旧表，折出的每一行都远超 168px 内容宽，真机会按真实字形
+  // 二次折行，而每行 <text> 只有一行高，后半行就被裁掉——这就是真机中文释义被截断的根因。
+  wrapCharWidth(ch) {
+    if (!ch) {
+      return 0
+    }
+    if (
+      (ch >= "\u2e80" && ch <= "\u9fff") ||
+      (ch >= "\u2000" && ch <= "\u206f") ||
+      (ch >= "\u2500" && ch <= "\u257f") ||
+      (ch >= "\uff00" && ch <= "\uff60")
+    ) {
+      // CJK 部首/汉字、全角标点、通用标点（…—‘’“”）、制表符：中文语境一律按全角 18px 计
+      return 18
+    }
+    if (ch === " ") {
+      return 5
+    }
+    if (ch >= "A" && ch <= "Z") {
+      return 14
+    }
+    if (ch >= "a" && ch <= "z") {
+      return 10
+    }
+    if (ch >= "0" && ch <= "9") {
+      return 10
+    }
+    if (
+      ch === "." ||
+      ch === "," ||
+      ch === ";" ||
+      ch === ":" ||
+      ch === "/" ||
+      ch === "-" ||
+      ch === "\\" ||
+      ch === "(" ||
+      ch === ")" ||
+      ch === "[" ||
+      ch === "]" ||
+      ch === "'" ||
+      ch === "\""
+    ) {
+      return 6
+    }
+    return 10
+  },
+
   wrapText(value, maxWidth) {
     const text = (value || "").replace(/\s+/g, " ").trim()
     if (!text) {
@@ -2085,7 +2136,7 @@ export default {
 
     for (let i = 0; i < text.length; i++) {
       const ch = text.charAt(i)
-      const chWidth = this.getCharWidth(ch)
+      const chWidth = this.wrapCharWidth(ch)
 
       if (width + chWidth > maxWidth && line.length > 0) {
         if (lastBreak > 0) {
@@ -2113,10 +2164,11 @@ export default {
     return lines
   },
 
+  // 仅用于 wrapText 的正文度量，必须与 wrapCharWidth 保持同一套真机字形表。
   measureTextWidth(value) {
     let width = 0
     for (let i = 0; i < value.length; i++) {
-      width += this.getCharWidth(value.charAt(i))
+      width += this.wrapCharWidth(value.charAt(i))
     }
     return width
   },
@@ -2366,7 +2418,7 @@ export default {
   width: 100%;
   height: 100%;
   padding-top: 24px;
-  background-color: #020813;
+  background-color: #000000;
   flex-direction: column;
   align-items: center;
 }
@@ -2466,7 +2518,8 @@ export default {
 
 .result-phonetic {
   width: 100%;
-  height: 22px;
+  height: 19px;
+  line-height: 19px;
   color: #aeb0b4;
   font-size: 16px;
 }
@@ -2478,7 +2531,8 @@ export default {
 
 .result-translation-line {
   width: 100%;
-  height: 24px;
+  height: 22px;
+  line-height: 22px;
   color: #aeb0b4;
   font-size: 18px;
   font-weight: 700;

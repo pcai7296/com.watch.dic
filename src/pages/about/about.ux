@@ -2,7 +2,7 @@
   <div class="page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" style="width:102px;height:72px;" onclick="goBack" />
 
-    <list class="about-list" style="width: {{layoutWidth}}px;">
+    <list class="about-list" style="width: {{layoutWidth}}px;" onscroll="onListScroll">
       <list-item type="card" class="list-item" style="width: {{layoutWidth}}px; height: 250px;">
         <div class="app-card">
           <text class="app-name">腕上词典</text>
@@ -66,6 +66,61 @@ import app from "@system.app"
 
 const {navGuard} = global
 
+// 静态文案放在模块作用域：高度在 onInit 一次算完，文本节点按需补齐
+const LICENSE_ITEMS = ["ECDICT（MIT）", "CC-CEDICT", "BNC/COCA 词族表"]
+
+const USAGE_ITEMS = [
+  "1. 查词：输入英文或中文，支持词形变化检索",
+  "2. 大号输入：连点 3 次搜索框，切换大号键盘",
+  "3. 结果卡片：点击查看完整释义",
+  "4. 详情页：收藏词条，上限 150 条",
+  "5. 收藏管理：字母筛选、分页浏览",
+  "6. 历史记录：自动缓存最近 20 条",
+  "7.快捷方式：结果列表页长按返回键返回主页",
+  "8.设置：首页点击腕上词典四字下方图标进入自定义设置"
+]
+
+const LIMIT_ITEMS = [
+  "• 约 1.5 万英文词、12.2 万中文词组",
+  "• 每次最多显示 20 条，模糊候选最多 80 条",
+  "• 收藏上限 150 条，历史缓存 20 条",
+  "• 中文支持词组和单字检索，长句可能缺失",
+  "• 数据完全离线，首次读取分片时请稍候"
+]
+
+const TAG_ITEMS = [
+  "zk  中考词汇",
+  "gk  高考词汇",
+  "cet4  大学英语四级",
+  "cet6  大学英语六级",
+  "ky  考研词汇",
+  "toefl  托福",
+  "ielts  雅思",
+  "gre  GRE"
+]
+
+const POS_ITEMS = [
+  "n.  名词",
+  "v.  动词：vt. 及物 / vi. 不及物",
+  "a.  形容词",
+  "adv.  副词",
+  "pron.  代词",
+  "prep.  介词",
+  "conj.  连词",
+  "interj.  感叹词",
+  "num.  数词"
+]
+
+const SECTION_ITEMS = {
+  usage: USAGE_ITEMS,
+  limits: LIMIT_ITEMS,
+  tags: TAG_ITEMS,
+  pos: POS_ITEMS
+}
+
+// 首屏之外的段落：onShow 之后逐帧填空，滑动时兜底一次性补齐
+const DEFERRED_SECTIONS = ["usage", "limits", "tags", "pos"]
+
 export default {
   private: {
     versionName: "",
@@ -86,7 +141,10 @@ export default {
     adaptiveSectionStyle: "width: 196px; align-items: center;",
     sectionTitleStyle: "width: 180px; text-align: left;",
     devLineStyle: "width: 180px; text-align: center;",
-    descLineStyle: "width: 180px; text-align: left;"
+    descLineStyle: "width: 180px; text-align: left;",
+    _layoutKey: "",
+    _allFilled: false,
+    _fillTimer: null
   },
 
   onInit() {
@@ -108,8 +166,16 @@ export default {
   },
 
   onShow() {
-    this.applyScreenLayout()
+    this.refreshLayoutIfNeeded()
     applyKeepScreenOnSetting()
+    this.scheduleDeferredSections()
+  },
+
+  onDestroy() {
+    if (this._fillTimer) {
+      clearTimeout(this._fillTimer)
+      this._fillTimer = null
+    }
   },
 
   applyScreenLayout() {
@@ -118,6 +184,7 @@ export default {
     const profile = appData.screenProfile || "pill-standard"
     const isPill = profile === "pill-standard" || profile === "pill-compact"
     const safeWidth = sw === 466 ? Math.round(sw / Math.SQRT2) : sw - 20
+    this._layoutKey = sw + "|" + profile
 
     if (isPill) {
       this.layoutWidth = 196
@@ -135,45 +202,88 @@ export default {
       this.descLineStyle = "width: " + this.textWidth + "px; text-align: left;"
     }
 
-    this.usageLines = this.wrapUsageText(this.textWidth)
-    this.licenseLines = this.wrapSectionLines([
-      "ECDICT（MIT）",
-      "CC-CEDICT",
-      "BNC/COCA 词族表"
-    ], this.textWidth)
-    this.limitLines = this.wrapSectionLines([
-      "• 约 1.5 万英文词、12.2 万中文词组",
-      "• 每次最多显示 20 条，模糊候选最多 80 条",
-      "• 收藏上限 150 条，历史缓存 20 条",
-      "• 中文支持词组和单字检索，长句可能缺失",
-      "• 数据完全离线，首次读取分片时请稍候"
-    ], this.textWidth)
-    this.tagLines = this.wrapSectionLines([
-      "zk  中考词汇",
-      "gk  高考词汇",
-      "cet4  大学英语四级",
-      "cet6  大学英语六级",
-      "ky  考研词汇",
-      "toefl  托福",
-      "ielts  雅思",
-      "gre  GRE"
-    ], this.textWidth)
-    this.posLines = this.wrapSectionLines([
-      "n.  名词",
-      "v.  动词：vt. 及物 / vi. 不及物",
-      "a.  形容词",
-      "adv.  副词",
-      "pron.  代词",
-      "prep.  介词",
-      "conj.  连词",
-      "interj.  感叹词",
-      "num.  数词"
-    ], this.textWidth)
-    this.usageHeight = this.sectionHeight(this.usageLines, 260)
+    const usageLines = this.wrapSectionLines(USAGE_ITEMS, this.textWidth)
+    const limitLines = this.wrapSectionLines(LIMIT_ITEMS, this.textWidth)
+    const tagLines = this.wrapSectionLines(TAG_ITEMS, this.textWidth)
+    const posLines = this.wrapSectionLines(POS_ITEMS, this.textWidth)
+
+    // 首屏只有致谢卡片 + Developers；其余 4 段先算高度占位，文本节点 show 之后再补
+    this.licenseLines = this.wrapSectionLines(LICENSE_ITEMS, this.textWidth)
+    this.usageLines = []
+    this.limitLines = []
+    this.tagLines = []
+    this.posLines = []
+
+    this.usageHeight = this.sectionHeight(usageLines, 260)
     this.licenseHeight = this.sectionHeight(this.licenseLines, 110)
-    this.limitsHeight = this.sectionHeight(this.limitLines, 260)
-    this.tagsHeight = this.sectionHeight(this.tagLines, 260)
-    this.posHeight = this.sectionHeight(this.posLines, 320)
+    this.limitsHeight = this.sectionHeight(limitLines, 260)
+    this.tagsHeight = this.sectionHeight(tagLines, 260)
+    this.posHeight = this.sectionHeight(posLines, 320)
+  },
+
+  refreshLayoutIfNeeded() {
+    const appData = this.$app.$def.data || {}
+    const sw = appData.screenWidth || 212
+    const profile = appData.screenProfile || "pill-standard"
+    if (sw + "|" + profile === this._layoutKey) {
+      return
+    }
+    this._allFilled = false
+    this.applyScreenLayout()
+    this.scheduleDeferredSections()
+  },
+
+  scheduleDeferredSections() {
+    if (this._allFilled || this._fillTimer) {
+      return
+    }
+
+    let index = 0
+    const step = () => {
+      this._fillTimer = null
+      if (index >= DEFERRED_SECTIONS.length) {
+        this._allFilled = true
+        return
+      }
+      this.fillSection(DEFERRED_SECTIONS[index])
+      index++
+      this._fillTimer = setTimeout(step, 16)
+    }
+    this._fillTimer = setTimeout(step, 0)
+  },
+
+  fillSection(key) {
+    const lines = this.wrapSectionLines(SECTION_ITEMS[key], this.textWidth)
+    if (key === "usage") {
+      this.usageLines = lines
+    } else if (key === "limits") {
+      this.limitLines = lines
+    } else if (key === "tags") {
+      this.tagLines = lines
+    } else if (key === "pos") {
+      this.posLines = lines
+    }
+  },
+
+  fillAllSections() {
+    if (this._allFilled) {
+      return
+    }
+    this._allFilled = true
+    if (this._fillTimer) {
+      clearTimeout(this._fillTimer)
+      this._fillTimer = null
+    }
+    for (let i = 0; i < DEFERRED_SECTIONS.length; i++) {
+      this.fillSection(DEFERRED_SECTIONS[i])
+    }
+  },
+
+  onListScroll() {
+    // 兜底：用户滑到还没填的段落时立刻补齐，避免空白
+    if (!this._allFilled) {
+      this.fillAllSections()
+    }
   },
 
   wrapSectionLines(items, maxWidth) {
@@ -189,27 +299,6 @@ export default {
 
   sectionHeight(lines, minimum) {
     return Math.max(minimum, 58 + lines.length * 28)
-  },
-
-  wrapUsageText(maxWidth) {
-    const items = [
-      "1. 查词：输入英文或中文，支持词形变化检索",
-      "2. 大号输入：连点 3 次搜索框，切换大号键盘",
-      "3. 结果卡片：点击查看完整释义",
-      "4. 详情页：收藏词条，上限 150 条",
-      "5. 收藏管理：字母筛选、分页浏览",
-      "6. 历史记录：自动缓存最近 20 条",
-      "7.快捷方式：结果列表页长按返回键返回主页",
-      "8.设置：首页点击腕上词典四字下方图标进入自定义设置"
-    ]
-    const lines = []
-    for (let i = 0; i < items.length; i++) {
-      const wrapped = this.wrapText(items[i], maxWidth)
-      for (let j = 0; j < wrapped.length; j++) {
-        lines.push(wrapped[j])
-      }
-    }
-    return lines
   },
 
   wrapText(value, maxWidth) {
