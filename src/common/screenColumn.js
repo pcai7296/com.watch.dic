@@ -20,30 +20,46 @@ export function currentScreenClass() {
   return global.__screenClass || String(buildTarget.width)
 }
 
-const MIN_WIDTH = 100
+const MIN_WIDTH = 80
 const MAX_WIDTH = 800
 
-// 粗筛：挡住 0 / undefined / 负数 / 明显不是屏幕宽度的值。
-// 注意它挡不住 dp 量级（96 / 106 / 160 / 216 / 233），单位必须以实机探针为准；
-// 若确认 getInfo 返回的是 dp，这里改成 width * screenDensity 再判。
+// 同 5 个目标的 dp 宽度（= 物理宽度 / DPR）。
+// 实测：466×466 的小米手表在 device.getInfo() 里返回 screenWidth = 233，
+// 也就是 dp；初版按 px 就近取列，233 会被判成 212，于是 466 上套用了 212 的布局。
+export const COLUMN_DP = [96, 106, 160, 216, 233]
+
 export function isPlausibleWidth(width) {
   const w = Number(width)
   return isFinite(w) && w >= MIN_WIDTH && w <= MAX_WIDTH
 }
 
-// 就近取列；取不到返回 null（调用方保持原来的默认列）
+function nearestIndex(list, value) {
+  let best = 0
+  let bestError = Math.abs(list[0] - value)
+  for (let i = 1; i < list.length; i++) {
+    const error = Math.abs(list[i] - value)
+    if (error < bestError) {
+      best = i
+      bestError = error
+    }
+  }
+  return { index: best, error: bestError }
+}
+
+// 同时按"物理 px"和"dp"两种口径解释这个宽度，取相对误差更小的那一种。
+// 例：233 → px 口径最接近 212（误差 21），dp 口径正好命中 233 → 取 466 列；
+//     466 → px 口径正好命中 → 取 466 列；106 → dp 口径命中 → 212 列。
 export function pickColumn(width) {
   const w = Number(width)
   if (!isPlausibleWidth(w)) {
     return null
   }
-  let best = COLUMNS[0]
-  for (let i = 1; i < COLUMNS.length; i++) {
-    if (Math.abs(COLUMNS[i] - w) < Math.abs(best - w)) {
-      best = COLUMNS[i]
-    }
+  const byPx = nearestIndex(COLUMNS, w)
+  const byDp = nearestIndex(COLUMN_DP, w)
+  if (w > 0 && byDp.error / w < byPx.error / w) {
+    return COLUMNS[byDp.index]
   }
-  return best
+  return COLUMNS[byPx.index]
 }
 
 // 返回可直接拼进类名的字符串（"192"…"466"），取不到时返回空串

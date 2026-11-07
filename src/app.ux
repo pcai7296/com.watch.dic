@@ -49,6 +49,9 @@ export default {
     if (cls) {
       appData.screenClass = cls
       global.__screenClass = cls
+      console.log("[screenClass] raw=" + appData.screenWidth + " shape=" + appData.screenShape + " -> " + cls)
+    } else {
+      console.log("[screenClass] raw=" + appData.screenWidth + " unrecognized, keep " + appData.screenClass)
     }
   },
 
