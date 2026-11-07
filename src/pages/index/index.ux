@@ -19,29 +19,29 @@
 
       <div class="minimal-btns">
         <div class="m-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
-          <image static class="m-btn-icon" src="/common/icons/language.png" style="width:32px;height:32px;" />
+          <image static class="m-btn-icon" src="/common/icons/language.png" />
           <text static class="m-btn-text">查单词</text>
         </div>
         <div class="m-btn m-btn-mt {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
-          <image static class="m-btn-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
+          <image static class="m-btn-icon" src="/common/icons/history.png" />
           <text static class="m-btn-text">历史记录</text>
         </div>
         <div class="m-btn m-btn-mt {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
-          <image static class="m-btn-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
+          <image static class="m-btn-icon" src="/common/icons/star-gradient.png" />
           <text static class="m-btn-text">我的收藏</text>
         </div>
         <div class="m-btn m-btn-mt {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
-          <image static class="m-btn-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
+          <image static class="m-btn-icon" src="/common/icons/settings-2.png" />
           <text static class="m-btn-text">设置</text>
         </div>
       </div>
 
       <div class="m-bottom">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
-          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:30px;height:30px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" />
         </div>
         <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
-          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:30px;height:30px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" />
         </div>
       </div>
     </div>
@@ -56,35 +56,35 @@
       <text class="subtitle subtitle-{{screenClass}}">抬手即查</text>
 
       <div class="main-button main-button-{{screenClass}} secondary-button c-main-btn {{ pressedKey === 'search' ? 'press-in' : '' }} {{ releasingKey === 'search' ? 'press-out' : '' }}" onclick="goSearch" ontouchstart="onBtnDown('search')" ontouchend="onBtnUp('search')">
-        <image static class="c-btn-icon" src="/common/icons/language.png" style="width:36px;height:36px;" />
+        <image static class="c-btn-icon" src="/common/icons/language.png" />
         <text static class="btn-label">查单词</text>
       </div>
 
       <div class="button-group button-group-{{screenClass}}">
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'inflect' ? 'press-in' : '' }} {{ releasingKey === 'inflect' ? 'press-out' : '' }}" onclick="goInflectSearch" ontouchstart="onBtnDown('inflect')" ontouchend="onBtnUp('inflect')">
-          <image static class="c-grid-icon" src="/common/icons/btn_transform_blue.png" style="width:32px;height:32px;" />
+          <image static class="c-grid-icon" src="/common/icons/btn_transform_blue.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">变形</text>
         </div>
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'settings' ? 'press-in' : '' }} {{ releasingKey === 'settings' ? 'press-out' : '' }}" onclick="goSettings" ontouchstart="onBtnDown('settings')" ontouchend="onBtnUp('settings')">
-          <image static class="c-grid-icon" src="/common/icons/settings-2.png" style="width:32px;height:32px;" />
+          <image static class="c-grid-icon" src="/common/icons/settings-2.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">设置</text>
         </div>
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'history' ? 'press-in' : '' }} {{ releasingKey === 'history' ? 'press-out' : '' }}" onclick="goHistory" ontouchstart="onBtnDown('history')" ontouchend="onBtnUp('history')">
-          <image static class="c-grid-icon" src="/common/icons/history.png" style="width:32px;height:32px;" />
+          <image static class="c-grid-icon" src="/common/icons/history.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">历史</text>
         </div>
         <div class="grid-button grid-button-{{screenClass}} {{ pressedKey === 'favorites' ? 'press-in' : '' }} {{ releasingKey === 'favorites' ? 'press-out' : '' }}" onclick="goFavorites" ontouchstart="onBtnDown('favorites')" ontouchend="onBtnUp('favorites')">
-          <image static class="c-grid-icon" src="/common/icons/star-gradient.png" style="width:32px;height:32px;" />
+          <image static class="c-grid-icon" src="/common/icons/star-gradient.png" />
           <text static class="grid-btn-text grid-btn-text-{{screenClass}}">收藏</text>
         </div>
       </div>
 
       <div class="bottom-row bottom-row-{{screenClass}}">
         <div class="m-circle {{ pressedKey === 'about' ? 'press-in' : '' }} {{ releasingKey === 'about' ? 'press-out' : '' }}" onclick="goAbout" ontouchstart="onBtnDown('about')" ontouchend="onBtnUp('about')">
-          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" style="width:36px;height:36px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_info_i.png" />
         </div>
         <div class="m-circle m-circle-ml {{ pressedKey === 'sponsor' ? 'press-in' : '' }} {{ releasingKey === 'sponsor' ? 'press-out' : '' }}" onclick="goSponsor" ontouchstart="onBtnDown('sponsor')" ontouchend="onBtnUp('sponsor')">
-          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" style="width:36px;height:36px;" />
+          <image static class="m-circle-icon" src="/common/icons/btn_heart_gold.png" />
         </div>
       </div>
     </div>
@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
@@ -345,7 +345,7 @@ export default {
   onShow() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     this._updateTime()
     this._startTimeTicker()
     applyKeepScreenOnSetting()
@@ -704,10 +704,14 @@ export default {
 }
 
 .c-btn-icon {
+  width: 36px;
+  height: 36px;
   margin-right: 8px;
 }
 
 .c-grid-icon {
+  width: 32px;
+  height: 32px;
   margin-bottom: 4px;
 }
 
@@ -783,15 +787,6 @@ export default {
   align-items: center;
 }
 
-.page-466 {
-  width: 466px;
-  height: 466px;
-  padding-top: 25px;
-  background-color: #000000;
-  flex-direction: column;
-  align-items: center;
-}
-
 .title-192 {
   width: 160px;
   color: #ffffff;
@@ -819,16 +814,6 @@ export default {
   text-align: center;
   margin-bottom: 2px;
   height: 32px;
-}
-
-.title-466 {
-  width: 148px;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 2px;
-  height: 28px;
 }
 
 .icon-card-192 {
@@ -866,18 +851,6 @@ export default {
   margin-bottom: 9px;
 }
 
-.icon-card-466 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 78px;
-  height: 70px;
-  border-radius: 24px;
-  border-width: 0px;
-  background-color: transparent;
-  margin-bottom: 6px;
-}
-
 .deco-icon-192 {
   display: flex;
   width: 64px;
@@ -894,12 +867,6 @@ export default {
   display: flex;
   width: 86px;
   height: 86px;
-}
-
-.deco-icon-466 {
-  display: flex;
-  width: 78px;
-  height: 78px;
 }
 
 .main-button-192 {
@@ -932,15 +899,6 @@ export default {
   margin-top: 10px;
   width: 129px;
   height: 51px;
-  align-items: center;
-}
-
-.bottom-row-466 {
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
-  width: 92px;
-  height: 44px;
   align-items: center;
 }
 
@@ -981,16 +939,6 @@ export default {
   height: 24px;
 }
 
-.subtitle-466 {
-  color: #6888b8;
-  font-size: 17px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 8px;
-  width: 111px;
-  height: 20px;
-}
-
 .button-group-192 {
   flex-direction: row;
   flex-wrap: wrap;
@@ -1013,14 +961,6 @@ export default {
   justify-content: center;
   align-items: center;
   width: 84%;
-}
-
-.button-group-466 {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 76%;
 }
 
 .grid-button-192 {
@@ -1062,19 +1002,6 @@ export default {
   border-radius: 18px;
 }
 
-.grid-button-466 {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-width: 1.5px;
-  border-color: rgba(104, 136, 184, 0.25);
-  background-color: #081520;
-  width: 47%;
-  height: 68px;
-  margin-bottom: 12px;
-  border-radius: 18px;
-}
-
 .grid-btn-icon-192 {
   width: 20px;
   height: 20px;
@@ -1092,16 +1019,135 @@ export default {
   margin-bottom: 2px;
 }
 
-.grid-btn-icon-466 {
-  width: 26px;
-  height: 22px;
-  margin-bottom: 2px;
-}
-
 .grid-btn-text-192 {
   color: #c0d0e8;
   font-size: 13px;
   font-weight: 700;
   margin-top: 4px;
+}
+/* ===== 466 列：w212 结构 + w466 比例（手动调参） ===== */
+.page-466 {
+  width: 466px;
+  height: 466px;
+  padding-top: 25px;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-466 {
+  width: 300px;
+  height: 34px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.icon-card-466 {
+  width: 96px;
+  height: 88px;
+  border-radius: 24px;
+  border-width: 0px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.deco-icon-466 {
+  width: 96px;
+  height: 96px;
+}
+
+.minimal-btns-466 {
+  margin-bottom: 12px;
+}
+
+.m-btn-466 {
+  width: 280px;
+  height: 66px;
+  border-radius: 15px;
+  border-width: 1.5px;
+}
+
+.m-btn-mt-466 {
+  margin-top: 8px;
+}
+
+.m-btn-icon-466 {
+  width: 44px;
+  height: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.m-btn-text-466 {
+  font-size: 28px;
+}
+
+.m-bottom-466 {
+  margin-top: 12px;
+}
+
+.m-circle-ml-466 {
+  margin-left: 14px;
+}
+
+.m-circle-icon-466 {
+  width: 40px;
+  height: 40px;
+}
+
+.subtitle-466 {
+  width: 200px;
+  height: 24px;
+  font-size: 20px;
+  color: #6888b8;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-button-466 {
+  width: 280px;
+  height: 66px;
+}
+
+.btn-label-466 {
+  font-size: 28px;
+}
+
+.c-main-btn-466 {
+  margin-bottom: 12px;
+}
+
+.button-group-466 {
+  width: 280px;
+}
+
+.grid-button-466 {
+  width: 129px;
+  height: 66px;
+  margin: 5px;
+  border-radius: 14px;
+}
+
+.grid-btn-text-466 {
+  font-size: 18px;
+}
+
+.grid-btn-icon-466 {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 2px;
+}
+
+.bottom-row-466 {
+  width: 100px;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 </style>

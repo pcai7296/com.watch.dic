@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import file from "@system.file"
@@ -218,7 +218,7 @@ export default {
   onShow() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     this.loadResultLongPressHomeSetting()
     applyKeepScreenOnSetting()
     // Re-check query — Vela may reuse page instance without re-firing onInit

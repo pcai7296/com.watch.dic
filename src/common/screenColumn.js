@@ -20,12 +20,31 @@ export function currentScreenClass() {
   return global.__screenClass || String(buildTarget.width)
 }
 
+// 页面/组件里取当前列的推荐入口（传 this）。
+//
+// 为什么不能只靠 global：app 与页面是各自打包的 bundle，调试包实测
+// app.ux 已经探测到 466、页面里读 global.__screenClass 却仍是 undefined，
+// 于是页面回退到 buildTarget.width（调试默认 212），整页套成 212 的布局。
+// 跨包共享状态要走 this.$app.$def（旧仓 d6db0ef 的单包多屏就是这么做的）。
+export function appScreenClass(vm) {
+  try {
+    const def = vm && vm.$app && vm.$app.$def
+    const cls = def && def.data && def.data.screenClass
+    if (cls) {
+      return String(cls)
+    }
+  } catch (e) {
+    // $app 取不到时静默回退，不能让首帧崩掉
+  }
+  return currentScreenClass()
+}
+
 const MIN_WIDTH = 80
 const MAX_WIDTH = 800
 
 // 同 5 个目标的 dp 宽度（= 物理宽度 / DPR）。
-// 实测：466×466 的小米手表在 device.getInfo() 里返回 screenWidth = 233，
-// 也就是 dp；初版按 px 就近取列，233 会被判成 212，于是 466 上套用了 212 的布局。
+// 官方文档说 screenWidth 是 dp，但 466 圆表实测返回 raw=466（物理 px），
+// 所以两种口径都算一遍、取相对误差更小的那个，避免设备间单位不一致。
 export const COLUMN_DP = [96, 106, 160, 216, 233]
 
 export function isPlausibleWidth(width) {

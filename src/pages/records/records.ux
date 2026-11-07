@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
@@ -140,7 +140,7 @@ export default {
   onShow() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     // 先提示加载中，再加载列表：toast 在页面显示后同步触发，storage.get 异步
     // 回调必然在其后，保证 toast 先于列表出现（真机页面切换瞬间的 toast 会被吞）
     if (this.pendingLoadingToast) {

@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 import app from "@system.app"
@@ -170,7 +170,7 @@ export default {
   onShow() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     this.refreshLayoutIfNeeded()
     applyKeepScreenOnSetting()
     this.scheduleDeferredSections()

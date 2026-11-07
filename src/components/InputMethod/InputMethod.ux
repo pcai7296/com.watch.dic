@@ -322,7 +322,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import vibrator from "@system.vibrator";
 import device from "@system.device"
 import { SimpleInputMethod } from "./assets/dicUtil.js";
@@ -428,7 +428,7 @@ export default {
   },
   onInit() {
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     if (this.englishonly) {
       this.lang = "en"
     } else if (this.lang !== "cn" && this.lang !== "en") {

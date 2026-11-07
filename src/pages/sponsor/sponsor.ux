@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
@@ -24,7 +24,7 @@ export default {
   onShow() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     applyKeepScreenOnSetting()
   },
 

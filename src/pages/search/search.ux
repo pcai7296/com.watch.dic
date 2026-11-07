@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import device from "@system.device"
 import router from "@system.router"
 import prompt from "@system.prompt"
@@ -230,7 +230,7 @@ export default {
   onShow() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     this.searchSubmitLocked = false
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()

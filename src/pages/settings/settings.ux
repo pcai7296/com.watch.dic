@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import {currentScreenClass} from "../../common/screenColumn"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
@@ -78,7 +78,7 @@ export default {
   onInit() {
 
 
-    this.screenClass = currentScreenClass()
+    this.screenClass = appScreenClass(this)
     this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard"
     this._loadSetting("dic_home_layout", "minimal", function(value) {
       if (value === "classic" || value === "minimal") {
