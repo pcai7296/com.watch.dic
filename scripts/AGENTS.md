@@ -7,13 +7,35 @@
 | File | Lines | Role |
 |------|-------|------|
 | `generate_watch_dict.py` | ~1009 | Build `src/common/dict/` shards (compact-v3) from `data/` corpora |
+| `use-dict.ps1` | ~60 | `robocopy /MIR` 把 `dict_repo/<tier>` 灌进 `src/common/dict/`（切档，秒级） |
+| `build_product.ps1` | ~120 | **出一个产品包**：暂存 → 换词库 → 删其余四列 → 改包名 → 构建 → 收进 `release_packages/<tier>/` |
+| `build_all_products.ps1` | ~70 | 5 分辨率 × 2 档 = 10 个产品包（`npm run build:products`） |
+| `build_resolution_packages.ps1` | ~60 | 只按 `TARGET_*` 批量构建开发包（`npm run build:resolutions`），不换词库、不删列 |
+| `release_resolution_packages.ps1` | ~68 | 同上但走 `aiot release`（`npm run release:resolutions`） |
 | `deploy_watch.ps1` | ~70 | Build RPK + `adb push` + install + launch on emulator-5554 |
-| `build_resolution_packages.ps1` | ~60 | Batch-build all 5 target RPKs (`npm run build:resolutions`) |
-| `release_resolution_packages.ps1` | ~68 | Batch-release all 5 targets (`npm run release:resolutions`) |
+| `strip_columns.js` | ~120 | 按 `--target` 物理删除其余四列的 `-192/-212/-336/-432/-466` 规则 |
+| `merge_columns.js` | ~320 | 从旧五仓把各列数值合并进基础选择器 + `.xxx-NNN` 覆盖块（一次性工具，重跑会覆盖手调值） |
+| `wire_screen_class.js` | ~120 | 向各页 `private:` 注入 `screenClass` 并在 `onShow/onInit` 刷新 |
+| `analyze_columns.js` | ~200 | 旧五仓选择器对齐分析（报告用） |
 | `conditionalCompilationPlugin.js` / `conditionalCompilationLoader.js` | 15 / 21 | Webpack pre-loader applying `// if true:` / `// endif` blocks; loader sanitizes `process.env` keys first |
 | `expand_words.py` | — | Expand English headword coverage (CC-CEDICT single-char glosses → `data/words_ccedict.csv`) |
 | `extract_cedict_phrases.py` / `filter_phrases.py` / `trim_phrases.py` | — | Mine / filter / tighten CC-CEDICT multi-word phrases (`data/phrases*.csv`) |
 | `check_ids.py` / `check_phrases.py` | — | Offline sanity checks over generated shards / phrases |
+
+## 产品包流水线（build_product.ps1）
+
+同一份源码出 10 个包，`npm run build:products` 一次跑完。
+
+1. `robocopy` 把仓复制到 `.tmp\product\<target>-<profile>`（排除 `.tmp` `node_modules` `dist` `build` `.git`）
+2. `node_modules` 用 **junction** 指回真实目录（aiot 自己会重建软链）
+3. `robocopy /MIR dict_repo\<tier>` → `src/common/dict/`，并校验 `meta.json.profile`
+4. `strip_columns.js --target <width>` 物理删掉其它四列的规则
+5. 改 `src/manifest.json` 的 `package`（`com.watch.dic.<target>`）与 `versionName`
+6. 设 `TARGET_ID/TARGET_WIDTH/TARGET_HEIGHT` 后 `npm run build`（探测代码被条件编译删除）
+7. 产物复制到 `release_packages/<tier>/<target>-<tier>-<version>.rpk`，打印体积 + sha256
+
+**注意**：`.ps1` 必须带 UTF-8 BOM。没有 BOM 时 Windows PowerShell 5.1 按 ANSI 解码中文注释，会出现莫名其妙的 `Unexpected token '}'`。删除暂存目录用脚本里的 `Remove-StageSafe`（先摘 junction 再删，`Remove-Item -Recurse` 会穿透 junction）。
+
 
 ## generate_watch_dict.py
 

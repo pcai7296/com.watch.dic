@@ -43,8 +43,8 @@
 
 ### 轴三：词库档位
 
-- 三档词库在**仓外** `..\dict_repo\`（dev / lite / standard，独立 git 仓）。`src/common/dict/` 被 gitignore，用 `.\scripts\use-dict.ps1 dev|lite|standard` 秒级切换（robocopy /MIR）。
-- 生成：`npm run dict:dev|lite|standard` → 先写 `../dict_repo/<tier>`，再 `use-dict.ps1`。**只在 w212 语料集下生成**（`data/` 必须完整：`phrases.csv` + `words_ccedict.csv`，缺了会静默缩水到 14,942 条）。
+- 三档词库在 **`dict_repo\`**（仓内，dev / lite / standard，独立 git 仓、被根仓 ignore）。`src/common/dict/` 被 gitignore，用 `.\scripts\use-dict.ps1 dev|lite|standard` 秒级切换（robocopy /MIR）。
+- 生成：`npm run dict:dev|lite|standard` → 先写 `dict_repo/<tier>`，再 `use-dict.ps1`。**只在 w212 语料集下生成**（`data/` 必须完整：`phrases.csv` + `words_ccedict.csv`，缺了会静默缩水到 14,942 条）。
 - 运行时只读 `meta.json` 选片（`dictProfile.js`），判据只有 `wordTwoShards > 0` / `wordHeadShards > 0`，**没有任何代码分支看 profile 字符串**。
 - 不要手改 `src/common/dict/` 下任何分片——生成器每次 `rmtree` 输出目录。
 
@@ -63,7 +63,9 @@
 | `npm run lint` | eslint src/（不带 --fix） |
 | `npm run dict:dev\|lite\|standard` | 生成并切换词库档位 |
 | `npm run audit:dict` / `bench:dict` | 词库只读审计 / 基准 |
-| `npm run build:resolutions` | 5 目标批量出包（PowerShell） |
+| `npm run build:resolutions` | 5 目标批量出开发包（PowerShell，不换词库、不删列） |
+| `npm run build:products` | **10 个产品包**（5 分辨率 × lite/standard）→ `release_packages/<tier>/` |
+| `.\scripts\verify_products.ps1` | 校验 10 个包：包名 / 无 getInfo / 无其它列规则 / 词库档位 |
 
 **模拟器**：IDE 的「调试」只给它当前选中的那一台推包，多选时其它机器会停在 `Startup home app failure`。要实测多台就手工：
 
@@ -110,7 +112,7 @@ dict_repo/          三档词库独立仓（gitignored）
 
 ## 已知待办
 
-- 首页时钟块仍是 212 写死的内联样式（`width:212px` + 5 个绝对定位数字），在 336/432/466 上偏小。
+- 首页弧形时钟用 `transform: scale()` 在 336/432/466 上放大（1.3 / 1.45 / 1.5），内联 px 仍是 212 几何，待实机确认比例。
 - 其余页面（about / records / detail / search / settings / filter / results / sponsor）在 336/432/466 上仍是 212 尺寸，尚未逐页拍参数。
 - `scripts/merge_columns.js` 会覆盖手写的列块，需要把手调值挪进独立数据文件后才可重跑。
-- `scripts/build_product.ps1` 在 Windows PowerShell 5.1 下报 `Cannot bind argument to parameter 'LiteralPath' because it is null`，pwsh 7 正常。
+- ~~`scripts/build_product.ps1` 在 PS 5.1 下报 LiteralPath null~~ 已修：dict_repo 路径 + `.ps1` 需 UTF-8 BOM；10 个产品包已跑通并通过 `verify_products.ps1`。

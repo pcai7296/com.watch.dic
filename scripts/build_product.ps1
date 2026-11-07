@@ -1,4 +1,4 @@
-param(
+﻿param(
   [Parameter(Mandatory = $true)][ValidateSet("w192", "w212", "w336", "w432", "w466")][string]$Target,
   [Parameter(Mandatory = $true)][ValidateSet("lite", "standard")][string]$Profile,
   [string]$Version = "",
@@ -15,6 +15,20 @@ param(
 # 该复制不保留 junction（见根 AGENTS.md 的 variants 教训）。
 
 $ErrorActionPreference = "Stop"
+
+# 暂存目录里有指向真实 node_modules 的 junction，Remove-Item -Recurse 可能穿透它。
+# 先摘掉 reparse point 再删目录（与归档 variants 时踩过的坑同源）。
+function Remove-StageSafe([string]$path) {
+  if (-not (Test-Path -LiteralPath $path)) { return }
+  $nm = Join-Path $path "node_modules"
+  if (Test-Path -LiteralPath $nm) {
+    $item = Get-Item -LiteralPath $nm -Force
+    if ($item.Attributes -band [System.IO.FileAttributes]::ReparsePoint) {
+      [System.IO.Directory]::Delete($nm, $false)
+    }
+  }
+  Remove-Item -LiteralPath $path -Recurse -Force
+}
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $workspace = Split-Path -Parent $repoRoot
@@ -35,7 +49,7 @@ if (-not $Version) { $Version = $manifest.versionName }
 $packageName = "com.watch.dic.$Target"
 
 $stage = Join-Path $repoRoot ".tmp\product\$Target-$Profile"
-if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage -Recurse -Force }
+Remove-StageSafe $stage
 New-Item -ItemType Directory -Force -Path $stage | Out-Null
 
 Write-Host "[$Target/$Profile] staging -> $stage"
@@ -46,9 +60,12 @@ $global:LASTEXITCODE = 0
 # node_modules 用 junction（aiot 自己会在临时工程里重建软链，不需要实体副本）
 New-Item -ItemType Junction -Path (Join-Path $stage "node_modules") -Target (Join-Path $repoRoot "node_modules") | Out-Null
 
-# 换词库档位
-$dictSource = Join-Path $workspace "dict_repo\$Profile"
-if (-not (Test-Path -LiteralPath $dictSource)) { throw "dict tier not found: $dictSource" }
+# 换词库档位（dict_repo 通常在仓内；老布局在仓外，两种都认）
+$dictSource = Join-Path $repoRoot "dict_repo\$Profile"
+if (-not (Test-Path -LiteralPath $dictSource)) {
+  $dictSource = Join-Path $workspace "dict_repo\$Profile"
+}
+if (-not (Test-Path -LiteralPath $dictSource)) { throw "dict tier not found: $Profile" }
 $null = robocopy $dictSource (Join-Path $stage "src\common\dict") /MIR /NFL /NDL /NJH /NJS /NP
 if ($LASTEXITCODE -ge 8) { throw "robocopy dict failed: $LASTEXITCODE" }
 $global:LASTEXITCODE = 0
@@ -93,7 +110,7 @@ $rpk = Get-ChildItem -LiteralPath (Join-Path $stage "dist") -Filter "*.rpk" -Fil
   Sort-Object LastWriteTime -Descending | Select-Object -First 1
 if ($null -eq $rpk) { throw "no RPK produced for $Target/$Profile" }
 
-$outDir = Join-Path $workspace "release_packages\$Profile"
+$outDir = Join-Path $repoRoot "release_packages\$Profile"
 New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 $outName = "$Target-$Profile-$Version.rpk"
 $destination = Join-Path $outDir $outName
@@ -103,4 +120,4 @@ $size = [math]::Round((Get-Item -LiteralPath $destination).Length / 1KB, 1)
 $hash = (Get-FileHash -LiteralPath $destination -Algorithm SHA256).Hash.ToLowerInvariant()
 Write-Host "[$Target/$Profile] OK -> $destination  ($size KB, sha256=$($hash.Substring(0,12))…, dict headwords=$($dictMeta.headwords))"
 
-if (-not $KeepStage) { Remove-Item -LiteralPath $stage -Recurse -Force }
+if (-not $KeepStage) { Remove-StageSafe $stage }
