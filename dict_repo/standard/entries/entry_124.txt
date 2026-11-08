@@ -1,0 +1,500 @@
+0stem of flower		花梗
+0root of tooth		牙根
+0tooth of cog wheel		轮齿
+0stroke of luck		际遇
+0conditions of extreme adversity		风雨晦冥
+0prolonged spell of rainy weather		连阴雨
+0of indomitable spirit		顶天立地
+0tarim river of xinjiang		塔里木河
+0guilty of terrible crimes		罪大恶极
+0nobility of spirit		浩气
+0spirit of buddha		佛心
+0crust of earth		地盘
+0movement of earth's crust		构造运动
+0dove of peace		和平鸽
+0to sweep one's eyes over		扫视
+0latent heat of evaporation		蒸发热
+0surface of discontinuity		不连续面
+0target of scorn		过街老鼠
+0caravan of horses carrying goods		马帮
+0an object of ridicule		笑柄
+0object of ridicule		笑谈
+0exchange of ideas		思想交流
+cunequal values		不等价交换
+0rapid dispatch of an opponent		秒杀
+2nk of professor		授衔
+0curtain of rain		雨幕
+0length of schooling		学制
+0vast swathe of territory		半壁江山
+0pain of separation		离愁
+0direction of cleavage		解理方向
+devents		风头
+0forest of apricot trees		杏林
+0bird of regulus genus		戴菊鸟
+0hemolytic disease of newborn		溶血病
+0information telegraph agency of russia		塔斯社
+0copy of dvd		翻版碟
+0percentage of repeat customers		回头率
+0quantity of sand		输沙量
+0to save from damage		保全
+0forest of steles		碑林
+0secondary growth of forest		次生林
+0center of target		靶心
+0roll of honor		排名榜
+0of western appearance		金发碧眼
+0to relieve from office		免去职务
+0bureau of civil affairs		民政局
+0item of jewelry		饰品
+8stationery		文具
+0tactical mixture of chemical agents		混合毒剂
+0disorder of internal organs		内伤
+0register of names		名籍
+cshareholders		股东名册
+0clod of earth		土坷垃
+0flight of stairs		楼梯间
+0epicanthal fold of upper eyelid		重眼皮
+0cubic meter of earth		土方
+0smell of alcohol		酒味
+0owner of ship		船主
+0to grow all over		长满
+0delivery of goods		收存
+0exhibition of goods		商展
+0inspection of goods		验货
+0to buy freedom from punishment		赎罪
+3create something from nothing		无中生有
+0belching of sour putrid gas		嗳气酸腐
+0volume of freight		运输量
+0bag made of woven straw		草包
+0origin of an incident		事由
+0band of accomplice		凶党
+0scene of dilapidation		颓景
+0makeshift band of individuals		草台班子
+0baoshang district of shanghai		宝山
+0fengxian suburban district of shanghai		奉贤
+0harlem district of manhattan		哈莱姆
+0jiading district of northwest shanghai		嘉定
+2nshan suburban district of shanghai		金山
+0kowloon district of hong kong		九龙
+0minhang district of shanghai		闵行区
+0qingpu suburban district of shanghai		青浦
+0shinagawa district of tokyo		品川
+1ongjiang suburban district of shanghai		松江
+0to trail over one's shoulders		披肩
+0dream of golden millet		黄粱梦
+0of universal importance		遮天蔽日
+0count of votes		计票
+0master of ceremonies		司仪
+0suspected of murder		疑凶
+0debt of gratitude		人情债
+0of undetermined status		三不管
+0diameter of hole		孔径
+0subdivision of radio waveband		分频
+0certificate of deposit		存单
+0layer of frozen soil		冻土层
+9soil		土层
+0an expression of opinion		一说
+0expression of opinion		言论
+0branch of government		行政机关
+alearning		学科
+0words of truth		文以载道
+0drip of rain		掉点儿
+0brick of ice		冰砖
+0fan of apple products		果粉
+0to prevail over one's opponents		取胜
+0freedom of speech		言论自由
+0speech of thanks		谢词
+0certificate of origin		产地证
+0failure of etiquette		失仪
+0root of unity		单位根
+0miscarriage of justice		冤案
+0stern of boat		船艄
+0pair of antithetical phrases		对子
+0crime of spying		间谍罪
+0message of congratulation		贺词
+0pair of aces		对幺
+0ear of grain		谷穗
+0league of legends		英雄联盟
+0cloud of dust		尘雾
+0to benefit from advice		受教
+0soldier of fortune		兵痞
+0to protect from wind		防风
+0conflict of laws		国际私法
+0bag of tricks		鸡鸣狗盗
+1olt of gun		枪机
+0tip of tongue		舌尖
+0constant of integration		积分常数
+1enter of circle		圆心
+1ircle of friends		交游
+0battle of britain		不列颠战役
+astalingrad		斯大林格勒会战
+awaterloo		滑铁卢
+bits		斗智
+1eginning of spring		春意
+0colors of spring		春色
+3umn of flame		火柱
+2nfucian moral injunctions of fidelity		孝悌忠信
+0grain of sand		沙粒
+0democratic republic of congo		刚果民主共和国
+0republic of andorra		安道尔共和国
+cchina		中华民国
+droatia		克罗地亚共和国
+dzechoslovakia		捷克斯洛伐克
+cireland		爱尔兰共和国
+ckorea		大韩民国
+cmacedonia		马其顿共和国
+cpalau		帕劳
+cslovenia		斯洛文尼亚共和国
+0national museum of china		中国国家博物馆
+0patter of rain		淅沥
+0collectivization of agriculture		人民公社化
+0screen of beads		珠箔
+0palace of jade emperor		紫微宫
+0classic of rites		礼经
+0twelve channels of tcm		十二经
+1orrents of rain		滂沱大雨
+0puzhou opera of shanxi province		蒲剧
+1roof of identity		身份证明
+0code of brotherhood		义气
+2nfucian code of ethics		礼教
+0victim of corporal punishment		受刑人
+0children by a previous marriage		拖油瓶
+0angle of drift		偏角
+0of dubious background		来路不明
+0an elaborate string of references		繁征博引
+0mountain of immortals		仙山
+0color of wine		酒色
+0academy of classical learning		书院
+bsciences		科学院
+0chinese academy of engineering		中国工程院
+0generation of ideas		发想
+0to laugh one's head off		笑掉大牙
+0brilliance of youth		头角
+0root of chord		根音
+0string of copper coins		钱串子
+0ear of wheat		麦穗
+0smell of urine		臊气
+0cyberspace administration of china		国家互联网信息办公室
+0standardization administration of prc		国家标准化管理委员会
+1ong of cicadas		蝉鸣
+0plate of armor		鳞甲
+0of spectacular significance		排山倒海
+0affected manner of speaking		怪声怪气
+0manner of dressing		打扮
+aexpression		口气
+aspeaking		口头语
+0spray of molten steel		钢花
+0channel of communication		交流道
+btcm		经脉
+0quantity of sediment		含沙量
+0beginning of menstrual cycle		入月
+0flight of steps		台阶
+0outer tip of an eyebrow		眉尖
+0regardless of weather conditions		风雨无阻
+0coordinated sequence of strategic moves		连环计
+0sequence of numbers		数列
+cprocesses		流程
+csongs		串烧
+0pitch of screw		螺距
+0tip of brow		眉梢
+1o make out		看出
+0ancient instruments of torture		刀锯鼎镬
+0novel of denunciation		谴责小说
+0sigh of regret		叹惜
+0clank of metal		铛铛
+0ear of maize		棒子
+0starch of pueraria root		葛粉
+0prescribed dose of medicine		剂量
+0angle of dip		倾角
+0slice of bread		面包片
+0more than a year		一年多
+0beijing institute of education		北京教育学院
+0institute of sinology		汉学系
+0forced labor of feudal tenant		差役
+0incredible pace of development		神速
+0veil of mystery		神秘面纱
+0statute of limitations		时效法
+0inscrutable twist of fate		天机
+0temple of heaven		天坛
+0root of ningpo figwort		玄参
+0an error of judgment		走眼
+0error of judgment		误判
+0root of chinese pulsatilla		白头翁
+gthorowax		柴胡
+8dahurian angelica		白芷
+8isatis tinctoria		板蓝根
+8vladimiria souliei		川木香
+0preservation of soil moisture		保墒
+0owner of enterprise		企业主
+0chunks of ice		冰坨子
+0tiny trickle of funds		涓滴
+0guilty of monstrous crimes		恶贯满盈
+0frame of reference		参照系
+0torrent of abuse		狗血喷头
+0places of pleasure		三瓦两舍
+0refined pleasure of poetic minds		雅人深致
+0federal bureau of investigation		联邦调查局
+0principles of dynastic succession		正统
+0succession of seasons		岁序
+0equations of motion		运动方程
+0laws of motion		运动定律
+0of humble origin		寒微
+0non-chinese citizen of chinese ancestry		华裔
+0smell of gunpowder		火药味
+0items of expenditure		用项
+0qi of southern dynasties		南朝齐
+0guest of honor		主宾
+2ard of honor		仪仗队
+0fruit of vaccinium bracteatum		乌饭果
+0made of silver		银制
+0of highest priority		重中之重
+0tongue of flame		火舌
+0coat of arms		徽章
+0national coat of arms		国徽
+0burst of laughter		爆笑
+0origin of mankind		人类起源
+0grains of sand		沙砾
+0pitch of spiral		螺距
+0mount of olives		橄榄山
+0chain of islands		列岛
+9ossicles		听骨链
+0unbroken chain of peaks		山峦
+0an atmosphere of political oppression		万马齐喑
+0ministry of rites		礼部
+cappointments		吏部
+ceducation		教育部
+cnational defense		国防部
+csupervision		监察部
+cworks		工部
+1ade of iron		铁打
+0flash of insight		一闪念
+0panel of judges		合议庭
+0by a hair's breadth		间不容发
+0plane of projection		投影面
+0multitude of loose ends		千头万绪
+0imprecise indication of quantity		概数
+0meager quantity of foodstuff		升斗
+0quantity of rainfall		降雨量
+0action at a distance		超距作用
+0to learn from		借镜
+0running of armed forces		治军
+0buir lake of inner mongolia		贝尔湖
+0hulun lake of inner mongolia		呼伦湖
+0lake of burning sulfur		火湖
+0adherent of religion		宗教徒
+0herat province of afghanistan		赫拉特省
+1uambo province of angola		万博省
+0kandahar province of afghanistan		坎大哈省
+1hyber province of pakistan		开伯尔
+0nangarhar province of afghanistan		楠格哈尔省
+0pahang province of malaysia		彭亨
+1unjab province of pakistan		旁遮普
+0sindh province of pakistan		信德省
+0vaud province of switzerland		沃州
+0patch of cloth		铺衬
+0answering phrase of duet		对歌
+0studies of ancient chinese civilization		国学
+0men of vision		仁人义士
+0ceremony of sacrifice		宴飨
+0leaning tower of pisa		比萨斜塔
+0sponsor of an organization		会首
+0tropic of cancer		北回归线
+0beast of burden		力畜
+0cap of mushroom		菌盖
+0blade of tongue		舌面
+0origin of dharma		法源
+0topic of discussion		议题
+0uk chancellor of exchequer		财政大臣
+0of japanese origin		日系
+0legendary magic potion of immortals		仙药
+0writing brush of weasel bristle		狼毫
+0made of steel		钢制
+0declaration of independence		独立宣言
+0independence of action		特立独行
+0gulf of guinea		几内亚湾
+0more and more emerge		层出不穷
+0flock of sheep		羊群
+0angle of depression		俯角
+aiffraction		衍射角
+bvergence		偏角
+9elevation		仰角
+9intersection		交角
+9rotation		旋转角
+0pitch of tones		调值
+0cream of tartar		塔塔粉
+0rolls of dried soymilk cream		腐竹
+0grain of cooked rice		饭粒
+9rice		米粒
+0oath of alliance		盟誓
+0herd of sheep		牧群
+0texture of timber		材质
+1o seek refuge from disaster		躲难
+0rope of palm fiber		棕缚
+0speck of dust		纤尘
+0peak of excitement		兴奋高潮
+0continent of europe		欧洲大陆
+1ertificate of appointment		任命状
+gttendance		肄业证书
+fconformity		合格证
+findebtedness		欠条
+fpartial completion		肄业证书
+1hamber of deputies		众议院
+2ristmas and new year's day		双旦
+0biographic sketch of an emperor		本纪
+0loop of rope		套儿
+0mandate of heaven		天命
+0breach of responsibility		失责
+0waist of trousers		裤腰
+0seed of ajwain		阿育魏实
+8sterculia lychnophora		胖大海
+0colors of autumn		秋色
+0an unending stream of pilgrims		香火不绝
+0stream of consciousness		意识流
+aparticles		粒子流
+0remainder of cloth		料头
+0slice of lemon		柠檬片
+0chest of drawers		五斗柜
+0width of chest		胸宽
+0thread of screw		螺纹
+0soldier garrisoned at a frontier		屯戍
+1assanid empire of persia		萨桑王朝
+0hometown of overseas chinese		侨乡
+0outer shell of electrons		价电子
+3flow of talent		人才流失
+0bay of bengal		孟加拉湾
+8iscay		坎塔布连海
+7pigs		猪湾
+0proud of oneself		得意
+0frequency of vibration		振频
+0pile of rubble		瓦砾堆
+0crying tears of joy		喜极而泣
+1ollection of seal stamps		印谱
+0lapel of jacket		胸襟
+0grain of wheat		麦粒
+0pith of mandarin orange		橘络
+1erception of tremor		震觉
+0wanton destruction of forested lands		滥砍滥伐
+0ocean of lust		欲海
+0festival of fasting		斋戒节
+0proceeding at a tremendous pace		追风逐电
+0statue of liberty		自由女神像
+0moon of jupiter		木卫
+0at a stretch		一口气
+0grin of dissatisfaction		冷笑
+0duke of pei		沛公
+0curtain of pearls		珠箔
+0gulf of aden		亚丁湾
+8jiaozhou		胶州湾
+8mexico		墨湾
+8oman		阿曼湾
+8tonkin		北部湾
+0kingdom of heaven		天国
+0movement of personnel		调动
+0scenery of exceptional charm		别有洞天
+0guest at a banquet		宴客
+0to manage or direct		主持
+0realm of necessity		必然王国
+0beasts of burden		役使动物
+0of burden		使役
+0at a glance		一览
+0flash of thought		闪念
+0abstaining from liquor and tobacco		烟酒不沾
+0chambers of imperial concubines		后宫
+0dynastic records of imperial china		会要
+0bead of sweat		汗粒
+0moon of mars		火卫
+8saturn		土卫
+0beam of elementary particles		粒子束
+0ulceration of oral cavity		口腔炎
+0glib of tongue		能言善辩
+0worthy of pride		傲人
+0organization of african unity		非洲统一组织
+0ripping of fabric		嚓嚓
+0equality of ethnic groups		民族平等
+0patch of bruising		淤血斑
+0worthy of praise		可圈可点
+0grain of glutinous sorghum		秫米
+0temple of tibetan buddhism		喇嘛庙
+0hierarchy of needs		需求层次理论
+0multiple variants of chinese characters		重文
+0bureau of hygiene		卫生局
+0income provided by a sinecure		干俸
+0pole of rotation		旋转极
+0to show one's hand		亮底牌
+0axis of symmetry		对称轴
+0to give one's verdict		宣判
+0critical shortage of grain		粮荒
+0to take deferred time off		补休
+8time off		脱岗
+0lining of gut		肠壁
+0tide of thought		思潮
+0loneliness of faithful widow		碧海青天
+0crotch of trousers		裤裆
+0to date from		追溯
+0woman from a respectable family		良家女子
+0heel tendon of mammals		跟腱
+0clash of opposing forces		冲突
+0beam of electrons		电子束
+1irthday of reigning emperor		圣诞
+0emperor of japan		天皇
+0fleet of vehicles		车队
+0ashamed of being inferior		自愧不如
+0dinosaur ancestor of birds		祖鸟
+0scholar of chinese		汉学家
+0bits of rubbish		唾余
+0vein of ore		矿层
+0fringes of cloth		边幅
+0isle of mann		马恩岛
+0beads of sweat		汗珠
+0gang of bandits		匪帮
+8hoodlums		流氓集团
+0retention of urine		癃闭
+0doctrine of equivalents		均等论
+0cluster of flowers		花丛
+bgraves		丛冢
+0noun of locality		方位词
+0to benefit from counsel		受命
+0hoots of laughter		哄笑
+0blade of an oar		桨板
+0clap of thunder		打雷
+1enter of gravity		质心
+1lassification of animals		动物分类
+0horn of africa		非洲之角
+0national bureau of statistics		国家统计局
+0to give one's allegiance		拥戴
+0devoid of conscience		丧天害理
+0lhalu suburb of lhasa		拉鲁
+0archive of graphics		图谱
+0deck of cards		卡池
+8playing cards		纸叶子
+0british commonwealth of nations		大英国协
+0commonwealth of australia		澳大利亚联邦
+gdominica		多米尼克国
+0equilibrium of forces		均势
+0thread of discussion		语锋
+0glare of sunlight		阳炎
+0faculty of sinology		汉学系
+0to give one's assent		应允
+0oath of allegiance		约契
+0bunch of flowers		花簇
+9gangsters		黑帮
+0to die from excessive ejaculation		精尽人亡
+0bkar-dgam-pa sect of tibetan buddhism		噶当派
+0likelihood of being worthwhile		搞头
+0genre of writing		文体
+0prisoner of conscience		良心犯
+0scattering of bundle		散束
+0inflammation of membrane		膜炎
+0gospel of john		若望福音
+0stamen of corn		天花
+0calendar of events		活动看板
+0realm of freedom		自由王国
+0to repeat from memory		背诵
+0depths of misery		苦海
+0seeds of pepper		胡椒子
+0plaster of paris		煅石膏
+0at a walking pace		行板
+0purified of defiling illusion		清净
+0herd of horses		马群
+0maker of immortality pill		炼丹术
+0tangle of vines		葛藤
+0superintendent of education		提学御史

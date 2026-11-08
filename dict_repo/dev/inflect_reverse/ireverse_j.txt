@@ -1,0 +1,9 @@
+0jacket	jacketed,jacketing,jackets
+2pan	japanned,japanning,japans
+1eans	s
+1ob	jobbed,jobbing,jobs
+2in	joined,joining,joins
+2ke	joked,jokes,joking
+2y	joyed,joying,joys
+1uice	juices
+2mp	jumped,jumping,jumps

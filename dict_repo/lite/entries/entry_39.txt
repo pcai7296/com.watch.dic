@@ -1,0 +1,442 @@
+0the qing court		清廷
+4class enemy		人民公敌
+4bronze age		青铜器时代
+4pro-war faction		主战派
+4landlord class		地主阶级
+4male sex		男性
+4big dipper		北斗星
+4opium war		鸦片战争
+4crimean war		克里木战争
+4korean war		六二五战争
+4final straw		压死骆驼的最后一根稻草
+0outside the body		体外
+0the main points		要旨
+4capitalist class		资产阶级
+4earth's magnetic field		地磁场
+4whole neighborhood		四邻八舍
+5est wing		白宫群英
+4eight immortals		八仙
+bnfluential points		八会穴
+aprecepts		八戒
+4lion's share		大头
+4international media		国际媒体
+0double the amount		两倍
+0the final years		末年
+0outside the door		门外
+0the nine-toothed rake		九齿钉耙
+4exam period		考期
+4sky above		上天
+4nine springs		九泉
+4tiniest bit		一分一毫
+4north temperate zone		北温带
+afrigid zone		北寒带
+4female sex		女性
+4top ranks		前茅
+4global south		全球南方
+0along the border		沿边
+0the international communist movement		国际共产主义运动
+4catholic church		天主教会
+2roughout the land		海内
+2e north magnetic pole		北极
+apole		北极
+4distant past		上古
+4south magnetic pole		南极
+apole		南极
+4die is cast		无可挽回
+1o forget for a while		丢开
+1he essential character		神髓
+4dead sea		死海
+0areas outside the city		野外
+0encircling the city		环城
+0the forbidden city		故宫
+4monastic community		僧伽
+4situation is tense		风声紧
+4calligraphic community		书坛
+0st mark the evangelist		马尔谷
+0the current imperial dynasty		圣朝
+4opposite sex		异性
+4northern sea		溟池
+0above the fray		忘机
+0the exam date		考期
+4pagoda bearing god		托塔天王
+4true god		真神
+4following section		后段
+4critical moment		生死关头
+5urrent reigning emperor		圣躬
+4minutest detail		秋毫
+4common silkworm		家蚕
+4wrong bus		错车
+4apollo project		太阳神计划
+4southern cross		南十字座
+5ituation is grim		形势严峻
+4northern expeditionary army		北伐军
+4current dynasty		国朝
+4lingering death		凌迟
+4middle generation		中生代
+4ten commandments		十戒
+0behind the scenes		内幕
+6-the-scenes supporter		后台
+0changes behind the scenes		潜移
+0meaning behind the words		口风
+0the hausa language		豪萨语
+1o work on a train		跑车
+1he situation is hopeless		病入膏肓
+0beyond the earth		天外
+0the communist youth league		共产主义青年团
+4following morning		明朝
+4analytic method		分析法
+4emperor's bed		龙床
+4greater self		大我
+0following the model		沿例
+0lower the curtain		闭幕
+0the sieve method		筛法
+4previous dynasty		前朝
+4axiomatic method		公理法
+4correct path		正道
+4key trick		要诀
+4northern song dynasty		北宋
+4entire sum		全数
+4yellow river basin		黄河流域
+4fourth wall		第四堵墙
+4united states		合众国
+2roughout the united states		全美
+2e detailed story		根由
+0cannot bear the burden		负担不起
+0the working poor		穷忙族
+0filling the entire sky		弥天
+0the heart sutra		心经
+4pan-pearl river delta		泛珠江三角
+0hidden beneath the surface		潜藏
+0the imperial college		国学
+0propitious wind throughout the journey		一帆风顺
+0the double ninth festival		重九
+4sun's corona		日冕层
+0facing the sun		向阳
+0tending towards the sun		喜阳
+1he rising sun		旭日
+4setting sun		夕阳
+5un shines brightly		阳光明媚
+ffiercely		骄阳似火
+4animal kingdom		后生动物
+4vast majority		绝大多数
+0bordering the sea		滨海
+0respect the aged		尊老
+0the customer reigns supreme		顾客至上
+4damage is done		覆水难收
+4band-tightening spell		紧箍咒
+4capital theater		首都剧场
+4genuine article		本尊
+4autumn wind is soughing		秋风飒飒
+4earth's core		地心
+4cockroach principle		老鼠拖木锨，大头在后头
+4soft knife		软刀子
+5ilver screen		银屏
+4breeding season		发情期
+4flowering season		花期
+5ruiting season		果期
+4rutting season		动情期
+4season changes		换季
+4western pacific ocean		西太平洋
+1o ask for a beating		招打
+dfavor		求情
+1he southern song dynasty		南宋
+1o write for a living		摇笔杆
+1he teacher's seat		讲筵
+4prime meridian		本初子午线
+4faction seeking peace		鸽派
+4peace faction		主和派
+0his excellency the army commander		师座
+0the qin army		秦军
+7g army		清军
+4northern hemisphere		北半球
+0burning the midnight oil		聚萤映雪
+0the summer solstice		夏至点
+4western hemisphere		西半球
+4cool autumn breeze		秋风送爽
+4northern zhou dynasty		北周
+4western paradise		西天
+4earth's crust		地壳
+5ntire internet		全网
+4ordinary daily routine		吃喝拉撒睡
+4earth's axis		地轴
+1o make use of		使用
+0beyond the topmost clouds		九霄云外
+0scratching the surface		不痛不痒
+0the direction indicated		指向
+4bright moon		皎月
+4northern warlords		北洋军阀
+4palace guard		禁卫
+4idle rich		有钱有闲
+4vast sky		长空
+0following the author's fancy		嬉笑怒骂
+0to study for a degree		念学位
+0completing the square		配方
+0facing the wind		迎风
+0the chinese communist regime		兲朝
+2rowing the embroidered ball		抛绣球
+2e beaten track		成规
+4absolute beginning		太初
+4pages ahead		后文
+4imperial guard		龙韬
+4qinghai-tibet route		青藏线
+4distant sky		远天
+4enemy's rear		敌后
+4crystal palace		水晶宫
+4imperial palace		金阙
+4spring equinox		春分点
+4winter solstice		冬至点
+4vast ocean		烟海
+1o contract for a job		包工
+1he ramifications are huge		事关重大
+4broken bridge		断桥
+4song dynasty		两宋
+4contemporary era		当代
+4eastern hemisphere		东半球
+4older generation		老辈
+4younger generation		子弟
+4sum owed		欠债
+4holy roman empire		神圣罗马帝国
+4central administration		中枢
+0membranes lining the brain		脑膜
+0the southern hemisphere		南半球
+4grand canyon		科罗拉多大峡谷
+4wolf prize		沃尔夫奖
+4highest rank		一品
+0covering the sky		横空
+0reaching the sky		连天
+0filling the atmosphere		横空
+0the ferghana valley		费尔干纳
+4japanese armed forces		自卫队
+4yellow springs		黄泉
+4higgs mechanism		希格斯机制
+4parallel postulate		平行公设
+4grass roots		草民
+4enemy ranks		敌阵
+4silent treatment		冷暴力
+4imperial throne		龙椅
+0magic the gathering		万智牌
+0the australian continent		澳大利亚洲
+4dust has settled		已见分晓
+4iwakura mission		岩仓使节团
+4autumn equinox		秋分点
+4us federal government		华府
+4lantern festival		灯节
+0willfully slaughter the innocent		滥杀无辜
+0the qingming festival		寒食
+4thief cries thief		恶人先告状
+0your majesty the emperor		皇上
+0the cambrian explosion		寒武爆发
+5urtain drops		落幕
+cfalls		闭幕
+0heaven helps the worthy		吉人自有天相
+0the holy scriptures		圣经
+4bottomless pit		无底坑
+4kuiper belt		库珀带
+4continuum hypothesis		连续统假设
+4jade emperor		玉帝
+4planet mars		荧惑
+4dragon throne		龙椅
+1o sell or dispose of		脱手
+1he kangxi emperor		康熙
+4qianlong era		乾隆
+4virgin mary		圣母
+4chinese remainder theorem		孙子定理
+4remainder theorem		剩余定理
+0using the toilet		大小便
+0the aids virus		爱滋病毒
+4implications are profound		事关重大
+4true essence		真谛
+0entirely outside the norm		一反常态
+0to rest for a bit		小憩
+1he rice is cooked		生米煮成熟饭
+4syriac script		叙利亚文
+0exotic odors assail the nostrils		异香扑鼻
+0cutting the gordian knot		快刀斩乱麻
+0the centrist faction		中立派
+4reformist faction		维新派
+4chinese lunar calendar		旧历
+4lunar calendar		农历
+4traditional chinese lunar calendar		夏历
+4earliest ancestor		鼻祖
+4chinese edible frog		田鸡
+4traditional chinese calendar		农历
+4afrotropical realm		埃塞俄比亚界
+4feminine arts		女红
+4jade hare		玉兔
+1o start on a new		另开
+0whet the appetite		开味
+0gilding the lily		多此一举
+0the prehistoric shang dynasty		商代
+4tang dynasty		大唐
+4lotus sutra		妙法莲华经
+4nanjing massacre		南京大屠杀
+1eaching the ignorant		蒙求
+1he han dynasty		汉代
+4later jin dynasty		金国汗
+4ming dynasty		明代
+4antarctic peninsula		南极洲半岛
+4crimean peninsula		克里木
+4iberian peninsula		伊比利亚
+4latin alphabet		罗马字
+0blowing the trumpet		吹喇叭
+0the prophet muhammad		穆圣
+0john the baptist		施洗约翰
+0st john the baptist		洗者若翰
+0the empress dowager		母后
+4pelvic cavity		盆腔
+4bering strait		白令海峡
+5inomial theorem		二项式定理
+4sage confucius		孔圣人
+4boxer uprising		义和乱
+4lofty heights		险峰
+0st luke the evangelist		路加
+3matthew the evangelist		玛窦
+0the holocene epoch		全新世
+4nirvana sutra		大本涅槃经
+4opium wars		鸦片战争
+0winnie the pooh		维尼熊
+0the bubonic plage bacillus		鼠疫杆菌
+4okinawa archipelago		冲绳群岛
+4dalai lama		达赖
+4greenwich meridian		格林尼治本初子午线
+0jack the ripper		开膛手杰克
+0to switch on and off		开关
+1he chartist movement		宪章派
+4hoi polloi		市井小民
+4japanese kana scripts		假名
+0appreciating the arts		审美
+1ssaults the nostrils		扑面
+0facing the goalmouth		临门
+1illing the eyes		满眼
+4s the eyes		满目
+0sacking the worst-performing employee		末位淘汰
+1macking the lips		吧唧吧唧
+0the andes mountains		安地斯
+5rabian nights		天方夜谭
+4china seas		中国海
+5onfucian classics		圣经
+6untries involved		当事国
+4floating ribs		季肋
+5ollowing pages		后文
+4hindu kush		兴都库什
+4indian subcontinent		天竺
+5soperimetric inequality		等周不等式
+4lowest professions		下九流
+4madeira islands		马德拉群岛
+5ing tombs		明十三陵
+4objects indicated		所指
+5lden days		旧时
+4preceding statement		前述
+4russian federation		俄联邦
+5yukyu islands		硫球
+4straits times		海峡时报
+5urrounding words		前后文
+4toiling masses		短衣帮
+2roughout the ages		千秋万代
+1o stop for a rest		停歇
+3flash on and off		明灭
+3catch and hold on		接着
+3read and pass on		传阅
+0not to pay attention to		不去理
+0to pray for a son		求子
+3sing for a living		卖唱
+3beg for a loan		乞贷
+3atone for a crime		折罪
+3contend for a mate		夺偶
+0not to submit to force		威武不屈
+0to hold on to		守住
+0next-to-last item on a program		压轴戏
+0to put on a play		做戏
+0let it be		算了
+0to catch and feed on		捕食
+3dote on and trust		宠信
+0not to refuse to		在所不辞
+7object to		不厌
+0to work as a doctor		从医
+3keep a hold on		拴住
+3speak out of turn		多嘴
+3use as a tool		当枪使
+3say nothing of		何况
+3pass on to		转给
+3spit on and curse		唾骂
+0not to hesitate to		在所不辞
+0to not conform to		不合
+3use as a venue		假座
+3take as a concubine		收房
+3run out of food		断粮
+3take good care of		呵护
+3act out of malice		泄私愤
+3reject out of hand		一笔抹杀
+3do a follow-up		随访
+4rop out of school		辍学
+3have in care		照看
+3aim to get by		浅希近求
+3work as a prostitute		做鸡
+3take a look at		看看
+3suffer all kinds of		受尽
+3work as a foreman		领工
+3hate to part with		舍不得
+3work as a laborer		务工
+dpharmacist		悬壶
+dteacher		任课
+3cling on to		攀附
+3include on a list		列入
+3take an end-of-term exam		大考
+3come as a surprise		出人意表
+0a member of one's clique		私人
+0to count all of them		尽数
+3step out of line		越轨
+3help out of difficulties		解救
+0a tooth for a tooth		以牙还牙
+0to give as a present		奉赠
+3start on a story		开讲
+3run out of		断货
+3put a lid on		加盖
+7on a spurt		猛劲儿
+3investigate and deal with		究办
+0a shill for a clinic		医托
+0to settle out of court		私了
+3turn on a screen		亮屏
+3play a prank on		整蛊
+3break out of prison		越狱
+3start on a journey		上路
+3get hold of		到手
+3squeeze out of business		挤垮
+3appear out of nowhere		空降
+3leave out of consideration		付之度外
+3pass on a present		转赠
+0all members of a group		上下
+0distant and out of sight		杳茫
+0to have confidence in		信任
+l oneself		自信
+3stay out of trouble		躲风
+3have faith in		信服
+3give as a dowry		陪送
+3pass on a story		传话
+3make light of		一笑置之
+8sure of		认准
+3pass on a task		转托
+3knock on a door		叩门
+3pass on a copy		传写
+3stay out of		躲开
+3get free of		解脱
+3quote out of context		断章取义
+3stand as testament to		诉说
+3pass on a song		传唱
+3get an idea of		探知
+3make sense of		弄懂
+0unable to make sense of		弄不懂
+0to send on a mission		派遗
+3dress as a man		女扮男装
+3slip out of gear		跳挡
+3confer a title on		册立
+3refer to oneself as		自喻
+3pop out of gear		跳挡
+4ull on a handle		拉手
+3step on a mine		踩雷
+3make sport of		消遣
+8fun of		取闹
+3think little of		渺视
+3fly on a crane		乘鹤
+3spur on a horse		跃马
+3default on a debt		拖债

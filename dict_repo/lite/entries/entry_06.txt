@@ -1,0 +1,500 @@
+0crash	krES	@哗啦声, 猛撞, 崩溃, 粗布; v. 撞碎, 破碎, (使)...坠毁; #速成的; { 崩溃	7e
+4s	krEs	#粗俗的, 愚钝的, 粗糙的, 非常的	c0
+3te	kreit	@板条箱, 装货箱; [建] 篓, 筐	80
+5r	'kreita	@火山口, 环行山, 弹坑; ] 焊口; 火山石; 弧坑; 焰口	e0
+3vat	kra'vEt	@领带, 围巾, 三角绷带; | 三角布绷带	80
+4e	kreiv	v. 渴望, 热望, 恳求	40
+5n	'kreivan	@懦夫, 怯懦者, 胆小鬼; #怯懦的, 畏缩的, 胆小的	80
+4ing	'kreiviN	@渴望, 热望; | 瘾, 癖, 嗜欲	80
+3wl	krQ:l	@爬行, 匍匐而行, 养鱼池; v. 爬行	7c
+3yon	'kreian	@蜡笔, 蜡笔画; !以蜡笔作画	c3
+3ze	kreiz	@狂热, 大流行; v. (使)发狂, (使)开裂	40
+4y	'kreizi	#发狂的, 狂热的	5f
+2eam	kri:m	@乳酪, 奶油, 面霜; | 乳油, 乳皮; 乳膏, 霜	3e
+4se	kri:s	@皱痕, 折痕; v. (使)起皱痕	a0
+4te	kri:'eit	!创造, 建造, 引起, 任命	3f
+5ion	kri:'eiSan	@创造, 创作物, 发明; ] 产生	20
+6ve	kri:'eitiv	#有创造力的, 创作的, 产生的	1c
+5ure	'kri:tSa	@人, 动物, 创造物, 生物	1e
+3dence	'kri:dans	@信任, 祭器台, 供桌, 凭证; } 设计人, 创立人, 创设人	c0
+6tial	kri'denSal	@国书, 凭据, 证明书; > 凭证, 证书	58
+as		@信任状, 国书, 文件, 身份证明, 证书; } 信用证, 国书, 证书	70
+4ible	'kredabl	#可信的, 可靠的; } 可信的, 可靠的	a0
+5t	'kredit	@信用, 信任, 荣誉, 贷款, 学分; !归功于, 赞颂, 信任, 相信; { 信用量	e2
+6or	'kredita	@债权人; } 债权人, 债主, 贷方	40
+4o	'kri:dau	@信条	80
+4ulous	'kredZulas	#轻信的, 易受骗的	c0
+3ed	kri:d	@宗教信条, 教义, 纲领	40
+4k	kri:k	@小溪, 小河, 小湾	c0
+4p	kri:p	@爬, 徐行, 蠕动; $爬, 蔓延, 潜行	fc
+3puscular	kri'pVskjula	#微光的, 黄昏的, 拂晓的; | 黄昏的, 朦胧的	80
+3scendo	kri:'Sendau	@声音渐强	80
+4t	krest	@冠, 饰毛, 头盔的顶部; $到达绝顶; !加以顶饰	80
+5fallen	'krest.fQ:lan	#垂头丧气的, 意气沮丧的, 气馁的	80
+3vasse	kri'vEs	@裂缝, (堤、坝等的)决口, 崩溃处; !使有裂缝	40
+4ice	'krevis	@裂缝; | 缝	e0
+3w	kru:	@全体人员, 一群人, 全体队员; crow的过去式	5e
+2icket	'krikit	@蟋蟀, 板球	3c
+3me	kraim	@犯罪, 罪行, 罪恶; } 犯罪, 罪, 罪恶	3e
+4inal	'kriminal	@罪犯, 犯人, 刑事; #犯了罪的, 刑事的, 有罪的	3e
+4son	'krimzan	@深红色; #深红色的; v. (使)变为深红色, 脸红	40
+3nge	krindZ	@畏缩, 奉承; $畏缩, 抖缩, 阿谀	80
+5ing	krindZ	@奉承（的）	80
+4kle	'kriNkl	@皱, 波纹; !使皱, 使缩, 起皱; $皱, 拳曲	80
+3pple	'kripl	@跛者, 残废; !使跛, 使成残废, 削弱; #跛的, 残废的	fc
+6ing	'kripliN	(往复)曲折, 断裂, 临界的, 极限的	48
+3sis	'kraisis	@危机, 危险期, 紧要关头; | 危象; 骤退, 临界, 极期	3c
+4p	krisp	#脆的, 新鲜的, 活泼的; v. (使)烘脆, (使)拳曲, (使)起皱; @松脆物	78
+4scross	'kriskrQs	@十字形; #十字形的; %十字形地; !画十字形于; $交叉往来	40
+3teria	krai'tiaria	pl. 标准; { 条件	88
+7on	krai'tiarian	@标准, 准则, 规范; ] 判据	ba
+4ic	'kritik	@批评家, 鉴定家	dc
+6al	'kritikal	#批评的, 决定性的, 危险的, 临界的; | 危象的; 临界的, 极期的	fc
+6ism	'kritisizm	@批评, 评论, 非难; } 批判, 批评, 评论	1c
+7ze	'kritisaiz	v. 批评, 吹毛求疵, 非难	1c
+5que	kri'ti:k	@评论文章, 评论	c0
+2oak	krauk	@呱呱叫声, 哇哇声; $呱呱地叫, 发牢骚; !用嘶哑的声音说	80
+3chet	'krauSei	@钩针编织品, 钩边; v. 用钩针编织	80
+4kery	'krQkari	@陶器, 瓦器; ] 土器	80
+4odile	'krQkadail	@鳄鱼	20
+3nyism	'krajniizam	@任人唯亲	80
+3ok	kruk	@钩, 弯曲部分, 坏蛋; !使弯曲, 诈骗; $弯曲	80
+5ed	'krukid	#弯曲的, 歪的, 邪恶的	68
+4n	kru:n	v. 低声歌唱, 低唱, 低吟; @低唱, 低吟, 轻哼	80
+3p	krQp	@农作物, 产量, 平头; !收割, 修剪, 种植; $收获; { 裁剪	1e
+4s	krQp	| 分批出现(疹)	20
+3ss	krQs	@十字架, 十字架形物件, 交叉, 十字标, 交叉路, 磨难, 杂交; #生气的, 交叉的, 相反的; v. 交叉, 横过, 越过; { 交叉, 十字标	df
+5bones	'krQsbaunz	@交叉的股骨图形	40
+6reeding	'krQsbri:diN	@杂交育种; v. 杂交(crossbred的过去分词)	40
+5cut	'krOskVt	vt.$横切, 横穿; #横切的, 横穿的; @剖面, 对角的小路, 捷径, 横穿的小路	40
+5ing	'krQsiN	@横越, 横渡, 交叉点, 渡口; > 划线	42
+5roads		@十字路口, 交叉路口, 聚会的中心地点, (喻)需作抉择的重要关头, 紧要关头	2
+3tchety	'krQtSiti	#有怪想的, 反复无常的, 想入非非的	80
+3uch	'krautS	@蹲伏, 蜷缩; $蹲下, 蜷着, 缩着; !低头	e0
+3w	krau	@啼叫, 乌鸦, 鸡鸣, 撬棍; $啼叫, 报晓	5c
+4d	kraud	@群众, 一伙人; !拥挤, 挤满, 挤进	5e
+5ed	'kraudid	#拥挤的, 塞满的	2
+4n	kraun	@王冠, 王权, 顶点; !使成王, 加冕, 居...之顶	bc
+2ucial	'kru:Sal	#决定性的, 重要的, 严厉的; | 十字形的; 决断的, 定局的	fc
+3de	kru:d	#天然的, 未成熟的, 粗糙的, 粗鲁的; @天然的物质	7c
+4ity	'kru:diti	@简陋, 粗糙, 不成熟状态	80
+3el	'kru:al	#残酷的, 令人极痛苦的; } 残忍的, 残酷的	5f
+5ty	'kru:alti	@残酷, 野蛮, 残酷行为; } 残酷, 残忍, 虐待	8
+3ise	kru:z	@巡航, 巡弋, 漫游; v. 巡航, 巡弋, 漫游	38
+3mb	krVm	@碎屑, 面包屑, 少许; !捏碎, 弄碎	a0
+5le	'krVmbl	v. (使)粉碎, (使)成为碎屑, 瓦解, 崩溃, 败落	e0
+4ple	'krVmpl	!弄皱, 压皱; $崩溃, 变皱	e0
+3sade	kru:'seid	@改革运动, 十字军东侵; $从事改革运动, 加入十字军	80
+4h	krVS	@压碎, 粉碎, 群众, 迷恋; !压破, 征服, 塞, 弄皱, 榨出; $被压碎, 起皱, 挤	7c
+4t	krVst	@外壳, 坚硬外皮, 面包皮; !盖以硬皮; $结硬皮	fc
+5acean	krV'steiSjan	#甲壳纲的; @甲壳纲动物	40
+3tch	krVtS	@拐杖, 支撑, 依靠; !支撑	80
+3x	krVks	@十字架形, 关键, 难题; | 十字, 十字形	80
+2y	krai	@叫声, 哭声, 大叫; $哭, 叫, 喊; !叫喊, 大声说, 哭出	3
+3ogenic	'kraiadZenik	#低温学的; | 降温的, 产低温的	80
+3pt	kript	@土窖, 地穴, 地下室; | 隐窝; 滤泡, 腺管	80
+5ic	'kriptik	#神秘的, 含义模糊的, 隐藏的; | 隐蔽的	c0
+3stal	'kristl	@水晶, 水晶装饰品, 结晶; #水晶的, 水晶一样的, 透明的	7c
+7line	'kristalain	#透明的；水晶般的；水晶制的	40
+9zation	'kristalai'zeiSan	@结晶, 定形, 明朗化, 具体化; ] 结晶	40
+ae	'kristalaiz	!使结晶, 使具体化; $结晶, 具体化	40
+bd	'kristalaizd	#|结晶的, 使晶状的; v. 使结晶( crystallize的过去式和过去分词); 计划成型, 具体化	40
+1ub	kVb	@幼兽, 年轻人	80
+0Cuban	'kju:ban	#古巴的, 古巴人的; @古巴人	40
+0cube	kju:b	@立方体, 立方; [机] 立方体, 立方	7e
+3ic	'kju:bik	#立方体的, 立方的; [机] 立方的, 立方体的	4e
+5le	'kju:bikl	@小卧室; | 小隔间(宿舍或病室中的)	80
+4sm	'kju:bizm	@立体派	40
+2ckoo	'kuku:	@杜鹃鸟, 布谷鸟	8
+3umber	'kju:kamba	@黄瓜; | 黄瓜, 胡瓜	7c
+2ddle	'kVdl	@搂抱, 拥抱; !抚抱, 抱着睡, 拥抱; $依偎, 依偎着躺在一起	80
+2e	kju:	@提示, 线索; !给...暗示(或提示); { 尾接指令	fc
+2ff	kVf	@袖口, 一巴掌; !用巴掌打; $殴斗	80
+2isine	kwi:'zi:n	@烹调风格, 烹调法, 烹饪, 厨房	c2
+2linary	'kVlinari	#厨房的, 烹调用的	c0
+3minate	'kVlmineit	$到绝顶, 达于极点, 达到高潮; !使到绝顶, 使达到高潮	68
+8ion	.kVlmi'neiSan	@顶点, 高潮, 最高点	c0
+3pable	'kVlpabl	#该责备的, 有罪的; } 应受处罚, 有罪	c0
+4rit	'kVlprit	@犯人, 罪犯, 刑事被告; } 犯罪者, 犯人, 罪犯	80
+3t	kVlt	@膜拜, 礼拜式, 祭仪, 一群信徒; | 迷信, 巫术	c0
+4ivate	'kVltiveit	!培养, 耕作	fc
+9d	'kVltiveitid	#耕耘的, 栽植的, 有教养的	80
+8ion	.kVlti'veiSan	@教化, 培养, 耕作; | 培养}	60
+4ural	'kVltSaral	#文化的, 教养的, 修养的; | 培养的	20
+6e	'kVltSa	@文化, 修养, 耕种; !耕种, 培养	7f
+2mber	'kVmba	!妨害, 阻碍, 使受苦; @妨害, 累赘	80
+6some	'kVmbasam	#笨重的, 麻烦的, 累赘的	e0
+3ulative	'kju:mjulativ	#累积的; | 蓄积的, 累积的	28
+5us	'kju:mjulas	@积云, 堆积物; | 丘	80
+2nning	'kVniN	#狡猾的, 巧妙的, 可爱的; } 狡猾的的, 狡诈的, 熟练的	fc
+2p	kVp	@杯子, 茶杯, 优胜杯; !使成杯状, 为...拔火罐	23
+3board	'kVpbQ:d	@食橱, 碗柜, 餐具柜	7e
+3idity	kju:'piditi	@贪心, 贪婪	80
+3s	kVp	@拨火罐（器具）；杯子（cup的复数形式）	20
+2rative	'kjurativ	#治病的, 有疗效的; @药物, 治疗法	8
+5or	kjua'reita	@管理者, 经理, 主管人, 掌管者, 馆长, 大学学监, 监护人, 保护人; > 临时监护人	c0
+3b	ka:b	@抑制, 勒马绳, 边石; !抑制, 束缚, 勒住	f8
+3d	ka:d	@凝乳; ] 凝乳; 凝乳状物; 酪状物; 皂粒	80
+4le	'ka:dl	!使凝结, 使凝固, 使变质; $凝结, 凝固, 变质	80
+3e	kjua	@治疗, 治愈, 治疗法; !治疗, 治愈, 改正, 腌制, 加工处理, 使硫化; $受治疗, 被加工处理, 被硫化	7e
+3few	'ka:fju:	@晚钟, 打晚钟时刻, 宵禁; } 宵禁, 宵禁令	80
+3iosity	.kjuari'Qsiti	@好奇心, 新奇的事物, 珍品	5c
+5us	'kjuarias	#好奇的, 求知的, 古怪的	5e
+3l	ka:l	@拳曲, 鬈发; !弄卷; $拳曲, 弯曲	3c
+4y	'ka:li	#拳曲的, 卷毛的, 弯曲的	28
+3mudgeon	ka:'mVdZan	@脾气坏的人, 吝啬鬼	80
+3rency	'kVransi	@货币, 通货, 流通, 通用; { 货币, 货币型	7a
+6t	'kVrant	@涌流, 趋势, 流; #流通的, 现在的, 当前的, 流行的; { 当前的	7c
+7ly	'kVrantli	%现在, 当前, 一般, 普通; { 当前	48
+4iculum	ka'rikjulam	@课程; | 课程, 学程	fa
+5sh	'ka:riS	#野狗似的, 脾气坏的, 没教养的	80
+3se	ka:s	@咒骂, 诅咒; !诅咒, 咒骂	3c
+4ive	'ka:siv	#草书的, 草书体的; @草书, 草书原稿	80
+4ory	'ka:sari	#匆匆忙忙的, 草率的, 粗略的	c0
+3t	ka:t	#简略的, 简短的, 生硬的	c8
+4ail	ka:'teil	!缩减, 剥夺, 简略; } 剥夺特权	e0
+6n	'ka:tan	@帐, 幕, 窗帘; !装帘子于, 遮蔽	5e
+7s	'ka:tanz	@[俚]灾难；窗帘（curtain的复数）	20
+3vaceous	ka:'veiSas	#曲线美的, 肉体美的	80
+4e	ka:v	@曲线, 弯曲, 曲线球; !弯, 使弯曲; $成曲形	7c
+2shion	'kuSan	@垫子, 橡皮软垫; !加垫褥, 缓冲, 掩盖	fe
+3todian	kV'staudjan	@管理人, 保管人, 监护人; > 保管人, 管理人	e0
+6y	'kVstadi	@监护, 拘留, 监禁; > 保管, 照顾, 保护	80
+5m	'kVstam	@习惯, 风俗, 海关, 自定义; #定制的; { 定制; 自定义	7e
+6arily	'kVstamarili	%照例, 通常, 习惯上	40
+8y	'kVstamari	#习惯的, 惯常的; > 通常的, 习惯的	b8
+6er	'kVstama	@消费者; ] 顾客	7e
+8s	'kVstama	@客户；顾客（customer的复数）	20
+6s	'kVstam	@海关, 关卡, 关税; > 关税, 海关	42
+2t	kVt	@切口, 割伤, 降低, 切, 割, 砍, 削, 伤口, 削减, 缩短, 删节, 通路; #经切割的, 缩减的; !切, 割, 减少, 刺痛, 开辟, 雕刻, 删节, 缩短, 停止, 排斥, 切断, 关, 显出; $切, 割, 砍, 刺痛, 相交, 抄近路, 剪辑; { 剪切	23
+3e	kju:t	#可爱的, 聪明的, 伶俐的; | 品他病	20
+3icle	'kju:tikl	@表皮; | 表皮; 角质层(植); 护膜	c0
+3lery	'kVtlari	@刀剑制造业, 刃具制造业, 刀剑, 刃具, 刀叉餐具	80
+3ter	'kVta	@裁剪者, 切割者, 切割器; ] 刀具; 剪切机; 切刀; 切胶机	8
+4ing	'kVtiN	@切断, 切下, 路堑; ] 切屑	20
+1yberspace		{ 空间, 网控空间	10
+2cle	'saikl	@周期, 循环, 自行车, 一段时间, 整套; $循环, 轮转, 骑自行车; !使循环, 使轮转; { 环路; 周期; 循环	3e
+4ical	'siklik(e)l	#周期的, 轮转的, 循环的, 轮列的, 轮卷的, 环状的, 环的, 组诗的, 始末的; { 循环的	80
+5ng	'saikliN	@骑脚踏车兜风, 骑脚踏车消遣; [机] 循环操作	20
+5st	'saiklist	@骑脚踏车的人	2
+4one	'saiklaun	@龙卷风, 暴风; ] 旋流(分离,除尘)器	c0
+2gnet	'signit	@小天鹅	80
+2linder	'silinda	@圆筒, 圆筒状物, 汽缸, 柱面; { 柱面	f8
+2nic	'sinik	@犬儒学派的人, 玩世不恭的人, 愤世嫉俗者, 好挖苦人的人; #犬儒学派的	80
+5al	'sinikal	#愤世嫉俗的, 讽刺的, 冷嘲的	68
+3osure	'sina.zjua	@小熊座, 北极星, 众目之的	80
+2press	'saipras	@柏, 落羽杉, 柏树; [机] 桧木	80
+2tology	sai'tQladZi	@细胞学; | 细胞学	80
+0dabble	'dEbl	$玩水, 拨弄, 涉猎; !溅湿	80
+6r	'dEbla	@戏水者, 浅尝者	80
+2d	dEd	@爸爸, 爹爹	1
+2ft	dA:ft. dEft	#愚笨的, 癫狂的, 狂闹的	80
+2gger	'dEga	@匕首; !用剑刺	c0
+3uerreotype	da'gerautaip	@达盖尔银板照相法; v. 用达盖尔银板法照相	80
+2ily	'deili	#每日的, 日常的; %每日地, 日常地; @日报	37
+3nty	'deinti	#秀丽的；美味的；讲究的；挑剔的	80
+3ry	'deari	@牛奶公司, 乳品店, 乳牛场	7c
+3sy	'deizi	@雏菊, 一流人物; #第一流的	40
+2lliance	'dElians	@调戏, 调情	80
+4y	'dEli	$戏耍, 玩弄, 闲混; !浪费	80
+2m	dEm	@水坝, 障碍; v. 控制, 筑坝; { 直接存取法	7e
+3age	'dEmidZ	@损害, 伤害; v. 损害	3e
+6s	'dEmidZ	@赔偿金; > 损害赔偿; 伤害	20
+3n	dEm	@一点, 诅咒, 丝毫; interj. 该死, 该死的; !诅咒, 罚...下地狱; $指责, 谴责, 骂...该死, 证明...有罪	98
+3p	dEmp	@潮湿, 湿气; #潮湿的; !使潮湿, 使阻尼, 抑止; $变潮湿, 衰减	fe
+4ed	dEmp	#被窒息的；阻尼的；衰减的	80
+5n	'dEmpan	!弄湿, 使沮丧; $变湿, 丧气	c0
+5r	'dEmpa	@令人扫兴的人, 增湿器, 阻尼器; ] 减震器	80
+2nce	dEns. dA:ns	@跳舞, 舞蹈, 舞会; v. 跳舞	3
+5r	'dA:nsa	@舞蹈演员, 跳舞者	20
+3dy	'dEndi	@花花公子; #服装浮华的, 极好的	80
+3ger	'deindZa	@危险, 威胁; } 危险, 危险物, 危机	37
+6ous	'deindZaras	#危险的; } 危险的, 危害的	77
+4le	'dENgl	$摇晃地悬挂着, 追求; !使摇晃地悬挂; @悬垂	c0
+3k	dENk	#阴湿的, 潮湿的	c0
+2pper	'dEpa	#整洁的, 整齐的, 短小精悍的	80
+4led	'dEpld	#斑纹的, 花斑的	80
+2re	dea	@挑战, 挑动, 大胆; v. 敢, 胆敢	1f
+4devil	'dea.deval	@铤而走险的人, 蛮勇的人; #蛮勇的, 不怕死的	80
+3ing	'deariN	#大胆的	4c
+3k	dA:k	@黑暗, 夜, 黄昏, 模糊; #黑暗的, 暗的, 深色的, 隐密的, 模糊的, 无知的	23
+4ness	'dA:knis	@黑暗, 暗, 深色, 隐密, 模糊, 无知	2
+3ling	'dA:liN	@亲爱的, 可爱的人, 可爱的物; #可爱的, 亲爱的	14
+3t	dA:t	@飞镖, 投射; !投射; $疾走, 突进	e0
+2sh	dES	@冲撞, 破折号, 短跑; $猛冲, 冲撞; !泼溅, 使猛撞, 搀和, 使破灭, 使沮丧	3e
+3tard	'dEstad	@懦夫, 卑鄙的人; #怯懦的	80
+2ta	'deita	pl. 资料, 数据; { 数据; DOS内部命令:用于显示或设定系统的日期	36
+4base	'deitabeis	@数据库; { 数据库	32
+3e	deit	@日期, 约会, 枣椰树; !约会, 定日期; $注明日期, 过时	63
+4d	'deitid	#有日期的, 陈旧的	40
+3um	'deitam	@论据, 材料, 资料, 已知数; | 材料, 资料, 论据	18
+2ub	dQ:b	v. 涂抹, 乱画, 弄脏; @污迹, 劣画	80
+4ster	'dQ:bsta	@拙劣的画匠	80
+3ghter	'dQ:ta	@女儿; #女儿的	3
+3nt	dQ:nt	!威吓, 难倒, 使气馁	80
+5ing	'dQ:ntiN	#使人畏缩的	40
+5less	'dQ:ntlis	#不屈不挠的, 大胆的	40
+2wdle	'dQ:dl	v. 游手好闲, 混日子	c0
+3n	dQ:n	@破晓, 黎明; $破晓	7e
+4ing	'dQ:niN	@拂晓, 黎明	40
+2y	dei	@天, 日子, 白天, 工作日; | 日(一昼夜), 昼, 白天	23
+3light	'deilait	@白昼, 日光; !使沐浴于日光; $享有日光	16
+3time	'deitaim	@白天, 日间	10
+2ze	'deiz	!使茫然, 使发昏, 使眼花缭乱; @迷乱, 眼花缭乱	c0
+3zle	'dEzl	v. (使)眼花, 炫耀; @耀眼	78
+5ing	'dEzliN	#眼花缭乱的, 耀眼的	40
+1eactivate	di:'Ektiveit	!撤消遣散, 复员, 使无效, 使不活动	80
+3d	ded	#死的, 不活泼的, 麻木的, 熄灭的; @死者; %完全地, 直接地	43
+4en	'dedn	!使减弱, 使麻木; $减弱	80
+4line	'dedlain	@最后期限, 截止期限; > 截止日期	32
+5ock	'dedlQk	@僵局, 停顿; v. (使)停顿, (使)相持不下; { 死锁	a0
+5y	'dedli	#致命的, 致死的; %非常, 如死一般地	74
+4pan	'dedpEn	@无表情的脸	80
+3f	def	#聋的; | 聋的	37
+4en	'defan	!使聋; $变聋	8
+3l	di:l	@交易, 协定, 数量, 买卖, 松木板; $处理, 应付, 做生意; !分配, 发牌, 给予; { 发牌	5f
+4er	'di:la	@经销商, 商人; > 交易员, 贩卖商	58
+4ing	'di:liN	@经营行为, 行为, 交易; } 待遇, 处置, 行为	80
+3n	di:n	@院长, 主持牧师; } 外交团长, 学院院长, 教务长	38
+3r	'dia	@亲爱的人; #亲爱的, 昂贵的, 严重的, 急迫的; interj. 啊; %深爱地, 高价地	3
+4th	da:T	@缺乏, 粮食不足, 饥馑	a0
+3th	deT	@死亡; | 死亡	17
+2bacle	dei'bA:kl	@崩溃, 大失败	80
+4r	di'bA:	!排除, 防止, 禁止; } 阻止, 阻挡, 排除	80
+5k	di'bA:k	!使登陆, 使下船, 卸(货); $登陆	80
+4se	di'beis	!贬低, 降低	80
+4table	di'beitabl	#可争论的, 成问题的, 未决定的	40
+5e	di'beit	@辩论, 讨论; v. 争论, 辩论	de
+4uch	di'bQ:tS	!使堕落; $放荡; @放荡	40
+3ilitate	di'biliteit	!使衰弱	c0
+7y	di'biliti	@衰弱, 体弱; | 虚弱	80
+3onair	.deba'nea	#温文有礼的, 高兴的	80
+4uch	di'bautS	$走出, 流出; !使流出	80
+3rief	di:'bri:f	!听取报告, 盘问	80
+5s	'deibri:	@碎片, 残骸; | 碎屑	e0
+3t	det	@债务, 罪过; > 借款, 欠款, 债务	7e
+4or	'deta	@债务人, 借主, 借方; } 负债者, 债务人, 借方	40
+3unk	di:'bVNk	!揭穿, 暴露, 拆穿假面具	80
+4t	'deibju:	@初次登台, 开张; v. 初次登台	80
+2cade	'dekeid	@十年, 十	3e
+6nce	'dekadans	@颓废	c0
+7t	'dekadant	#衰微的, 颓废的; @颓废派	40
+4mp	di'kEmp	$撤营, 逃走, 逃亡; } 撤退, 逃走, 逃亡	80
+4nt	di'kEnt	!轻轻倒出, 移入其他容器; | 倾泻, 倾析	80
+4y	di'kei	@衰退, 腐败; v. (使)衰退, (使)腐败	7c
+3eit	di'si:t	@欺骗, 谎言; > 诈骗, 欺骗	dc
+6ful	di'si:tful	#欺诈的	40
+5ve	di'si:v	v. 欺骗, 行骗	7c
+0December	di'semba	@十二月	23
+0decency	'di:sansi	@得体, 礼貌, 正派; } 正当, 正派, 合乎礼仪	80
+5t	'di:sant	#有分寸的, 得体的, 大方的	fc
+6ralize	di:'sentralaiz	!使分散, 下放(权力), 疏散(人口); > 分权	80
+4ption	di'sepSan	@欺骗, 诡计; } 瞒骗, 诈欺, 欺骗	c0
+7ve	di'septiv	#迷惑的, 虚伪的, 欺诈的	48
+3ibel	'desibel	@分贝; { 分贝	80
+4de	di'said	v. 决定, 判决	43
+6dly	di'saididli	%决定了, 坚决, 明显, 显而易见, 显然, 明确, 果断, 毫无疑问	8
+5uous	di'sidjuas	#每年落叶的, 非永久性的; | 脱落的	c0
+4mal	'desimal	#十进位的, 小数的; @十进制, 小数; { 十进制, 小数点	78
+6te	'desimeit	!每十人杀一人, 大批杀害	80
+4pher	di'saifa	!译解, 解释; @密电译文	a0
+4sion	di'siZan	@决定, 决心, 决断; { 判定	3f
+6ve	di'saisiv	#决定性的, 坚定的, 果断的	18
+3k	dek	@甲板, (汽车后部的)行李仓; !装饰, 打扮, 装甲板; { 纸牌背面图案	7c
+3laim	di'kleim	v. 慷慨陈词, 演讲, 朗读	c0
+5mation	.dekla'meiSan	@慷慨激昂的演说, 雄辩, 慷慨激昂的演说词	80
+5ration	.dekla'reiSan	@宣告, 说明, 宣布; { 说明	78
+6e	di'klea	v. 宣布, 声明, 申报, 断言	7e
+5ssify	di:'klEsifai	!(文件)解密, 从机密表删除	80
+4ination	.dekli'neiSan	@下倾, 倾斜, 衰微; | 偏角, 偏差, 偏转(眼球)	80
+6e	di'klain	@衰退, 跌落, 下降; !使降低, 婉谢; $下降, 衰落, 偏斜	fe
+5vity	di'kliviti	@倾斜, 下坡	40
+3ode	di:'kaud	!解码, 译解; { 译码	80
+4mpose	.di:kam'pauz	v. 分解, (使)腐烂	f8
+8ition	.di:kQmpa'ziSan	@分解, 腐败, 变质; ] 分解; 裂解	c0
+4rate	'dekareit	v. 装饰	fe
+7ion	.deka'reiSan	@装饰, 装饰品	62
+as	.deka'reiSan	@装修；装饰品（decoration的复数）	20
+8ve	'dekareitiv	#装饰性的	48
+5um	di'kQ:ram	@端正, 礼貌, 合宜, 礼仪	c0
+4y	di'kQi	@圈套, 诱骗; !诱骗	80
+3rease	'di:kri:s	@减少, 减少量; v. 减少	7e
+5e	di'kri:	@法令, 判决, 天意; !颁布, 判决; $发布命令	e8
+5pit	di'krepit	#衰老的	e0
+4y	di'krai	!反对, 责难, 诽谤, 诋毁	c0
+2dicate	'dedikeit	!献出, 贡献	78
+8d	'dedikeitid	#专注的, 献身的	20
+7ion	.dedi'keiSan	@奉献, 献身, 献辞; { 专用	a0
+3uce	di'dju:s	!推论, 演绎出; } 推断, 推出, 演绎	bc
+5t	di'dVkt	!扣除, 减去; > 扣除, 减去, 折扣	b8
+6ive	di'dVktiv	#推论的, 演绎的; } 推定的, 推断的, 演绎的	80
+2ed	di:d	@行为, 实行, 契约; !立契转让	9e
+3m	di:m	v. 认为, 相信	78
+3p	di:p	#深的; %深入地; @深渊, 深处	3
+4en	'dipan	$深化; !使加深, 使强烈	c
+4ly	'di:pli	%深刻地, 在深处, 深沉地	2
+3r	dia	@鹿	1e
+2face	di'feis	!损伤外观; } 毁伤外貌, 破坏外观, 涂污	c0
+4lcate	di'fElkeit	$盗用公款, 侵吞公款; > 侵吞, 盗用, 贪污	80
+4me	di'feim	!诽谤, 中伤, 破坏名誉; } 诽谤, 中伤, 诋毁名誉	c0
+4ult	di'fQ:lt	@违约, 不履行责任, 缺席, 默认值; v. 疏怠职责, 缺席, 拖欠, 默认; { 默认; 默认值; 缺省值	e8
+3eat	di'fi:t	@败北, 失败; !击败, 使落空	7e
+6ist	di'fi:tist	@失败主义者	80
+4cate	'defikeit	!除去污物, 澄清, 净化; $澄清, 排便	40
+5t	di'fekt	@缺点; | 缺损, 缺陷	fc
+6ion	di'fekSan	@背叛, 缺乏, 毛病; } 缺点, 过失, 背叛	40
+7ve	di'fektiv	#有缺陷的, 欠缺的; @有缺陷的人, 不完全变化词	40
+4nce	di'fens	@防卫, 防卫设备; > (诉讼程序中的)辩护	3e
+5d	di'fend	!防护, 辩护, 防卫; } 作...的辩护律师, 辩护, 为...答辩	5e
+6ant	di'fendant	@被告; > 被告方	a8
+5se	di'fens	@防卫, 防卫物; | 防御	c0
+6ive	di'fensiv	#防卫的, 防备用的, 自卫的; @守势, 防卫姿势, 防卫物	40
+4r	di'fa:	$推迟, 延期, 听从; !使推迟, 使延期	e0
+5ence	'defarans	@顺从, 尊重	c0
+7tial	.defa'renSal	#恭敬的; | 输精管的	c8
+3iance	di'faians	@蔑视, 挑战; } 挑战, 藐视, 违抗	a0
+6t	di'faiant	#挑衅的, 目中无人的	40
+4ciency	di'fiSansi	@缺乏, 不足; | 缺乏, 不足	f8
+8t	di'fiSant	#不足的, 不充分的, 有缺陷的	48
+6t	'defisit	@赤字, 不足额; | 短缺	f8
+4le	di'fail	!弄脏, 污损, 败坏; $以纵队前进; @隘路, 狭道	e0
+4ne	di'fain	!定义, 规定, 使明确; { 定义	1c
+6d	di'faind	#清晰的, 轮廓分明的；有定义的, 确定的	80
+5ite	'definit	#明确的, 一定的; } 明确的, 确切的, 一定的	fc
+8ly	'definitli	%明确无疑地, 清楚地	4c
+7ion	.defi'niSan	@定义, 精确度, 清晰度; { 清晰度; 清晰度	dc
+8ve	di'finitiv	@限定词; #限定的, 决定性的	e0
+3late	di'fleit	!放气, 抽出空气, 使缩小; $缩小	20
+7d	di'fleit	#泄气的	80
+4ect	di'flekt	!转移, 使偏斜; $偏斜	e8
+7ion	di'flekSan	@歪斜, 偏, 偏向; | 偏向, 偏离, 偏转(光), 偏转, 波(心电图)	8
+3oliant	di:'fauliant	@脱叶剂, 落叶剂; ] 脱叶剂	80
+7te	di:'faulieit	v. (使)落叶	80
+8or	di'faulieita	@除叶剂, 食叶之昆虫	80
+4rest	.di:'fQrist	!滥伐森林, 砍掉...上的树林	80
+8ation	di:.fQ:ri'steiSan	@采伐森林, 森林开伐; } 砍伐森森	80
+5m	di'fQ:m	!使残缺, 使变形; $变形	58
+6ation	.di:fQ:'meiSan	@损形, 变丑, 畸形; ] 变形; 形变	48
+3raud	di'frQ:d	!欺骗; > 骗取, 诈取, 欺骗	e0
+5y	di'frei	!支付, 支出; > 支付或准备支付	80
+4ost	.di:'frQst	!除霜; $解冻	40
+3t	deft	#敏捷熟练的, 灵巧的	e0
+3unct	di'fVNkt	#死的, 不能使用的; @死者	c0
+4se	.di:'fju:z	!去掉...的引信, 平息	80
+3y	di'fai	!藐视, 挑衅, 使落空; @挑战	f8
+2generate	di'dZenareit	#堕落的; $退化, 堕落; !使变质, 使退化	78
+3radation	.degra'deiSan	@降格, 堕落, 退化; { 降级	c8
+6e	di'greid	v. (使)降级, (使)退化	68
+4ee	di'gri:	@程度, 度数, 学位, 度; | 度, 程度	3f
+2hydrate	.di:'haidreit	!(使)脱水; | 脱水, 去水	c0
+9d	,di:hai'dreitid	#|脱水的	40
+8ion	.di:hai'dreiSan	@脱水; ] 脱水; 脱水作用	40
+2ify	'di:ifai	!奉为神, 奉若神明, 崇拜	80
+3gn	dein	$屈尊; !赐予	c0
+3ty	'di:iti	@神, 神性	40
+2jected	di'dZektid	#沮丧的, 灰心的	c0
+2lay	di'lei	@耽搁, 迟滞; v. 耽搁, 延迟; { 延迟, 延时	7e
+3ectable	di'lektabl	#令人快乐的, 美味的, 使人愉快的	e0
+7tion	di:lek'teiSan	@愉快, 欢乐	80
+4gate	'deligeit	@代表; !委派...为代表	fc
+7ion	.deli'geiSan	@代表团, 派遣代表团, 代表的地位(或权力); > 派遣, 委任, 委托	c
+4te	di'li:t	!删除; { 删除	76
+6rious	.deli'tiarias	#有害的, 造成伤害的; | 有害的	c0
+3iberate	di'libarat	#深思熟虑的, 故意的, 从容的; v. 仔细考虑	fc
+aly	di'libaratli	%故意地	4e
+4cacy	'delikasi	@细软, 精致, 精美的食品, 娇气, 微妙, 棘手, 娇弱, 灵敏, 灵巧	88
+6te	'delikat	#细致优雅的, 微妙的, 美味的; | 柔弱的	fe
+5ious	di'liSas	#美味的	77
+4ght	di'lait	@高兴, 愉快; !使高兴, 乐于; $感到高兴(或愉快、快乐)	1e
+7ed	di'laitid	#高兴的, 快乐的	2
+4mit	di'limit	!定界限, 划界; { 定界	80
+4neate	di'linieit	!描绘...的轮廓, 描绘, 描写	c0
+8ion	di.lini'eiSan	@画轮廓, 略图, 描述	40
+5quency	di'liNkwansi	@行为不良, 失职; > 毁约, 怠工, 旷职	a0
+9t	di'liNkwant	@行为不良的人, 违法者; #怠忽的, 有过失的	80
+4rious	di'lirias	#神志昏迷的, 发狂的; | 谵妄的, 发狂的, 妄想的	80
+6um	di'liriam	@精神错乱, 说谵语状态, 狂热; | 谵妄, 发狂, 妄想	e0
+4ver	di'liva	!递送, 陈述, 释放, 发表, 引渡, 投递, 交付; > 交运	36
+7y	di'livari	@递送, 交付, 分娩, 交货, 引渡; ] 交货额	3c
+3ta	'delta	@三角洲, 希腊字母的第四个字; | δ(希腊文的第四个字母), 丁种, 三角, 三角形区	c0
+3ude	di'lu:d	!迷惑, 蛊惑	e0
+4ge	'delju:dZ	@大洪水, 泛滥; !使泛滥	a0
+4sion	di'lu:Zan	@迷惑, 欺瞒, 错觉; | 妄想	88
+3ve	delv	v. 探究, 查考; @坑, 穴	80
+2magnetize	di:'mEgnitaiz	!消磁, 使退磁; | 去磁, 退磁	40
+5ogue	'demagQg	@煽动者	80
+4nd	di'mA:nd	@要求, 需求, 需要; v. 要求, 查询	9e
+6ing	di'mA:ndiN	#要求高的, 费力的	80
+4rcate	'di:mA:keit	!定界, 分开, 区别	80
+3ean	di'mi:n	!贬低身分, 贬损	80
+6our	di'mi:na	@行为, 举止	80
+4nted	di'mentid	#发狂的, 精神错乱的; | 痴呆的	80
+3ise	di'maiz	@崩, 薨, 死亡; !让渡, 遗赠, 转让	c0
+3obilize	di:'maubilaiz	!使复员, 使退伍, 遣散	40
+4cracy	di'mQkrasi	@民主政治, 民主主义; } 民主, 民主政治, 民主政体	7c
+7t	'demakrEt	@民主人士, 民主主义者, 民主党党员; > 民主党	40
+8ic	.dema'krEtik	#民主的; } 民主的, 民主政体的, 平民的	1c
+4graphy	di:'mQgrafi	@人口统计学; | 人口学, 人口统计学	88
+4lish	di'mQliS	!毁坏, 破坏, 粉碎	e0
+6tion	.dema'liSan	@破坏, 毁坏, 撤销; > 拆毁(除,破坏)	c0
+4nstrate	'demanstreit	!示范, 证明; $示威	fc
+aion	.deman'streiSan	@示范, 实证; | 示教, 实物教授	60
+bve	di'mQnstrativ	#说明的, 指示的	80
+4ralize	di'mQralaiz	!使道德败坏, 使堕落, 挫折锐气	80
+4te	.di:'maut	!使降级, 使降职	80
+5ic	di'mQtik	#人民的, 民众的, 通俗的	80
+3ur	di'ma:	$提出异议, 反对, 抗辩; @异议, 反对	c0
+5e	di'mjua	#装成端庄的, 假正经的, 娴静的	80
+3ystify	di:'mistifai	!使非神秘化	80
+2n	den	@兽穴, 洞穴; } 匪巢, 贼窝	c0
+3ial	di'naial	@否认; } 否定, 否认, 拒绝接受	38
+4grate	'denigreit	!使变黑, 玷污, 诋毁	80
+4m	'denim	@斜纹粗棉布, 牛仔布, 劳动布, (非正式)工作服, 工装裤	80
+4zen	'denizn	@居民, 外籍居民, 外来语; !给...居住权, 移植	80
+3ominate	di'nQmineit	!命名	80
+9ion	di.nQmi'neiSan	@名称, 教派, 面额; > 票面金额, 名称, (度量衡)	e0
+4te	di'naut	!指示, 表示	f8
+4uement	dei'nu:mON; (?@) dei'nu:mO:N	@结局, 终场	80
+5nce	di'nauns	!告发, 抨击, 谴责; } 谴责, 斥责, 告发	f8
+3se	dens	#密集的, 浓厚的	7c
+4ity	'densiti	@密度; ] 密度	5c
+3t	dent	@凹痕; !使凹下, 削弱; $塌陷	c0
+4al	'dentl	#牙齿的; | 牙的, 齿的, 齿音, 齿音字母	50
+4ist	'dentist	@牙科医生; | 牙医师	7b
+7ry	'dentistri	@牙科; | 牙科学, 牙科技术	40
+4ure	'dentSa	@一副假牙, 一副牙齿, 齿列; | 托牙, 牙列	80
+3ude	di'nju:d	!使裸露, 剥下, 剥夺; | 剥露, 剥脱	80
+4nciate	di'nVnsieit, -Sieit	!告发, 抨击, 谴责	80
+9ion	di.nVnsi'eiSan	@谴责, 告发; > 废止合同(契约), 宣告合同(契约等)无效	80
+3y	di'nai	v. 否认, 拒绝	7c
+2odorizer	di:'audaraiza	@除臭剂, 防臭剂; | 除臭剂	40
+2part	di'pA:t	$离开, 出发, 背离, 违反, 去世	7c
+6ment	di'pA:tmant	@部门, 系, 机关; | 部, 科	3e
+aal	.di:pA:t'mental	#部门的, 各部的, 分科的	20
+6ure	di'pA:tSa	@离开, 出发, 违背, 偏离; > 启运	5e
+3end	di'pend	$靠, 视...而定, 信赖	1f
+6able	di'pendabl	#可信任的, 可靠的, 可信赖的	40
+7nt	di'pendant	@家眷, 侍从, 食客; } 受赡养人, 家庭负担	8
+6ence	di'pendans	@依赖, 依存, 信赖; | 依赖(如对药物的依赖,即瘾或癖), 从属, 偏利共生	40
+8t	di'pendant	@依赖他人者; #依赖的, 从属的	7c
+3ict	di'pikt	!描述, 描写	f8
+3lete	di'pli:t	!耗尽, 使衰竭; | 排除, 减少	e0
+6ion	di'pli:San	@消耗, 耗尽, 放血; | 排除, 缺失(液体), 衰竭[状态](由于缺液)	20
+4ore	di'plQ:	!悲悼, 哀叹, 对...深感遗憾	e0
+5y	di'plQi	v. 展开, 配置	8
+3ort	di'pQ:t	!举止, 驱逐出境; } 放逐, 驱逐, 递解	c0
+6ation	.di:pQ:'teiSan	@驱逐出境, 放逐; } 递解出境, 放逐, 驱逐	88
+6ment	di'pQ:tmant	@行为, 举止	80
+4se	di'pauz	!免职, 废黜, 作证; $作证, 供证	c0
+5it	di'pQzit	@存款, 定金, 堆积物; !存放, 堆积; $沉淀	fe
+7ion	.depa'ziSan	@免职, 作证, 沉淀; ] 沉积	c8
+7or	di'pQzita	@存放者, 存款人; > 存款人, 储户, 委托人	40
+4t	'depau	@停车场, 车站, 贮藏所, 仓库; | 仓库, 贮存, 积存	40
+3raved	di'preivd	#堕落的, 腐化的, 道德败坏的; | 恶化的, 变坏的	80
+6ity	di'prEviti	@堕落, 腐败, 邪恶; } 堕落, 腐化, 败坏	80
+4ecate	'deprakeit	!声明不赞成, 抗议, 反对; } 对...表示不赞成, 反对	c0
+6iate	di'pri:Sieit	$贬值; !降价, 贬低	c0
+9ion	di.pri:Si'eiSan	@价值减低, 减价, 跌落, 贬低, 折旧; ] 折旧; 减值	40
+5dation	.depri'deiSan	@掠夺, 破坏	c0
+5ss	di'pres	!使沮丧, 压低, 降低, 使萧条; ] 推下	7c
+7ant	di'presnt	#有镇静作用的; @镇静剂	80

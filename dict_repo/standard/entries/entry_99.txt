@@ -1,0 +1,500 @@
+0csto		集体安全条约组织
+0phasianus		雉鸡
+0colchicus		雉鸡
+0estriol		雌三醇
+0hermaphroditism		雌雄同体性
+0trisulfide		雌黄
+0diphosgene		双光气
+0bidirectional		双向
+0chlorhexidine		双唑泰栓
+0shuangcheng		双城区
+bzi		双城子
+6ta		双塔区
+0broadleaved		双子叶
+1ijection		双射
+0decker		双层
+0shuangfeng		双峰县
+0obidoxime		双复磷
+0toxogonin		双复磷
+0bisexuality		双性恋
+0keystrokes		双拼
+0plumbeitarsus		双斑绿柳莺
+0sinh		双曲正弦
+0cosecant		双曲余割
+5h		双曲余割
+0bimonthly		双月刊
+0shuangbai		双柏县
+6qiao		双桥区
+6jiang		双江拉祜族佤族布朗族傣族自治县
+6liu		双流
+6qing		双清区
+0banning		双减
+0shuanghu		双湖县
+6luan		双滦区
+6pai		双牌县
+0dispensation		双独
+0binocular		双眼视觉
+2stable		双稳
+0henckels		双立人
+0binodal		双节
+0cabling		双绞线
+0shuangtaizi		双台子区
+0diplandrorchis		双蕊兰
+0shuanggui		双规
+0detaining		双规
+0interrogating		双规
+0dicerorhinini		双角犀
+0buceros		双角犀鸟
+1icornis		双角犀鸟
+0shuangliao		双辽市
+6yang		双阳区
+0bisyllable		双音节
+0unplaited		双马尾
+0pigtails		双马尾
+1onytails		双马尾
+0shuanglong		双龙大裂谷
+0cambisol		雏形土
+0sinnet		雏菊花环
+0hybridize		杂交
+0crossbreed		杂交
+0zadoi		杂多县
+0cohabitation		杂居
+0populations		杂居
+0allegiances		杂牌军
+0uncertified		杂牌军
+0bobs		杂物
+0asshat		杂碎
+0genres		杂糅
+0varicolored		杂色
+4egatum		杂色噪鹛
+0sittiparus		杂色山雀
+0zagunao		杂谷脑
+0sundries		杂费
+0extras		杂费
+0varia		杂录
+0jiguan		鸡冠区
+0sodomy		鸡奸
+0interfering		鸡婆
+0jidong		鸡东县
+0macrolepiota		鸡枞
+0pimples		鸡皮疙瘩
+0nuggets		鸡米花
+0wenge		鸡翅木
+4ue		鸡翅木
+0pectus		鸡胸
+0carinatum		鸡胸
+1oprinus		鸡腿菇
+2matus		鸡腿菇
+0bloodstone		鸡血石
+0distances		离
+0weaning		离乳
+0separable		离合词
+0ionic		离子键
+0discreteness		离散性
+0lishi		离石区
+0homeplace		离乡背井
+0encountering		离骚
+0unsusceptible		难以撼动
+5tainable		难以为继
+0irresolvable		难分难解
+0rainwear		雨具
+0verglas		雨凇
+0wiper		雨刮
+0nimbostratus		雨层云
+0tarp		雨布
+0yuhu		雨湖区
+0raindrop		雨滴
+0apodidae		雨燕
+0yuhuatai		雨花台区
+0clears		雨过天晴
+1hevrolet		雪佛莱
+0snowfield		雪原
+4mobile		雪地车
+0ugg		雪地靴
+0seoraksan		雪岳山
+1okcho		雪岳山
+1nowscape		雪景
+0cedarwood		雪松
+0bobsled		雪橇
+0skibob		雪犁
+6bing		雪犁运动
+0vanishing		雪花膏
+0sheffield		雪菲尔德
+1elangor		雪兰莪
+0chionoecetes		雪蟹
+0opilio		雪蟹
+0crispifolia		雪里蕻
+0snowshoes		雪鞋
+1hoton		雪顿节
+1candiacus		雪鸮
+0leuconota		雪鸽
+0plectrophenax		雪鹀
+0lerwa		雪鹑
+0davison		云南白斑尾柳莺
+0intensior		云南白斑尾柳莺
+0yunmeng		云梦县
+3yan		云岩区
+3zhou		云州区
+0settles		云散风流
+0escalading		云梯
+0firefighters		云梯
+0marmaronetta		云石斑鸭
+0angustirostris		云石斑鸭
+0yunxian		云县
+0trametes		云芝
+0mystified		云里雾里
+0clouded		云豹
+0neofelis		云豹
+0yunxiao		云霄县
+3long		云龙区
+0ltl		零担
+0gases		零族
+0lingling		零陵区
+0nullstellensatz		零点定理
+0reykjavik		雷克雅未克
+0minefield		雷区
+0leishan		雷山县
+3feng		雷峰塔
+3zhou		雷州半岛
+0rennes		雷恩
+0urmia		雷扎耶湖
+0rezaiyeh		雷扎耶湖
+0lehman		雷曼
+2ymann		雷曼
+1uilang		雷朗
+1eibo		雷波县
+3gong		雷神
+0raytheon		雷神公司
+1eynolds		雷诺
+2nault		雷诺
+3o		雷诺
+4ir		雷诺阿
+0ciudad		雷阿尔城
+0brontometer		雷电计
+0thunderbird		雷鸟
+0electrocution		电刑
+0scooters		电动车
+0electrochemistry		电化学
+0telegraphic		电汇
+0electronvolt		电子伏特
+0conductance		电导
+0reactance		电抗
+0electrification		电气化
+6otherapy		电疗
+0dianbai		电白区
+0cooktop		电磁炉
+0emp		电磁脉冲
+1lectromagnet		电磁铁
+0twerking		电臀舞
+0ccd		电荷耦合器件
+0swatter		电蚊拍
+0amperemeter		电表
+0wattmeter		电表
+0videocast		电视广播
+0electrolytic		电解
+7negativity		电负性
+0coulometer		电量表
+0flashes		电闪
+0ionized		电离
+5ation		电离室
+0maslow		需求层次理论
+0tremors		震感
+0sinian		震旦纪
+0heudei		震旦鸦雀
+0seismogram		震波图
+0hypocenter		震源
+0deafening		震耳欲聋
+0tremorine		震颤素
+0huoqiu		霍丘
+0cholerae		霍乱弧菌
+0hokksund		霍克松
+2rkheimer		霍克海姆
+1uocheng		霍城县
+1ofmann		霍夫曼
+3fman		霍夫曼
+0dustin		霍夫曼
+0huoshan		霍山县
+3zhou		霍州市
+1obbs		霍布斯
+2lingol		霍林郭勒市
+2gwarts		霍格沃茨
+2dgson		霍氏旋木雀
+0nisicolor		霍氏鹰鹃
+0horowitz		霍洛维茨
+0speedily		霍然而愈
+0holbrook		霍尔布鲁克
+8e		霍尔布鲁克
+0khorgos		霍尔果斯市
+0horten		霍尔滕
+0fok		霍英东
+0howard		霍华德
+2tton		霍顿
+2lden		霍顿
+2ughton		霍顿
+0zhanhua		沾化区
+4yi		沾益区
+0nichang		霓裳
+0rainbows		霓裳
+0descends		霜降
+0xiashan		霞山区
+3pu		霞浦县
+0joffre		霞飞
+0vaporware		雾件
+0hoarfrost		雾凇
+0atomize		雾化
+0nebulizer		雾化
+0fogbound		雾锁
+0enshrouded		雾锁
+0graupel		霰
+0chalazion		霰粒肿
+1loven		露出马脚
+0backless		露背
+0halterneck		露背
+0unroofed		露台
+0revlon		露华浓
+0lucy		露西
+0unsubtle		露骨
+0hegemonism		霸权主义
+0pachypodium		霸王树
+0lamerei		霸王树
+0breakdancing		霹雳舞
+0snowing		霭霭
+0lingqiu		灵丘县
+4tai		灵台县
+4shou		灵寿县
+4bao		灵宝市
+4shan		灵山县
+0charismatic		灵恩
+0lingshu		灵枢经
+0occurs		灵机一动
+0lingwu		灵武市
+0ingeniousness		灵气
+0telepathic		灵犀
+0lingbi		灵璧县
+4shi		灵石县
+4zhi		灵芝
+0reishi		灵芝
+0ganoderma		灵芝
+0lucidum		灵芝
+1inggu		灵谷寺
+0viverrid		灵猫
+0hominids		灵长目
+0nyitso		灵雀寺
+0soulmate		灵魂伴侣
+1urpasses		青出于蓝而胜于蓝
+0annal		青史
+0qingshan		青山区
+8hu		青山湖区
+4gang		青冈县
+0tsingtao		青岛啤酒
+0qingchuan		青川县
+0ymca		青年会
+0aoki		青木
+0grew		青梅竹马
+0aomori		青森
+1nnuum		青椒
+0pteroceltis		青檀
+0tatarinowii		青檀
+0qinggil		青河县
+4pu		青浦
+0mtsho		青海湖
+0sngon		青海湖
+0qingbaijiang		青白
+4xiu		青秀区
+4ke		青稞
+4tuan		青团
+4xian		青县
+0nebularia		青脚鹬
+0waterlily		青荇
+0arteannuin		青蒿素
+4misinin		青蒿素
+0qinghaosu		青蒿素
+4tongxia		青铜峡市
+4yunpu		青云谱区
+0baer		青头潜鸭
+4i		青头潜鸭
+0himalayana		青头鹦鹉
+0mylopharyngodon		青鱼
+0piceus		青鱼
+0naturalis		青黛
+0flavigula		青鼬
+0yasukuni		靖国神社
+0jingyu		靖宇县
+4xi		靖西市
+4bian		靖边县
+0combinations		靓号
+2urtoisi		靛冠噪鹛
+0statics		静力学
+0akathisia		静坐不能
+0neuroleptic		静坐不能
+0grc		静山
+0shizuoka		静冈
+0jinghai		静海
+0dehumanization		非人化
+0philistia		非利士地
+0inanimacy		非动物性
+0nft		非同质化代币
+0inhomogeneous		非均质
+0nonrepresentational		非写实
+3conductor		非导体
+0unstratified		非层岩
+0optionally		非得
+0fes		非斯
+0nonviolent		非暴力
+0denuclearization		非核化
+0nnws		非核武器国家
+0unconditioned		非条件反射
+0deleveraging		非杠杆化
+0modeless		非模态
+0nonpositive		非正数
+0lissachatina		非洲大蜗牛
+0fulica		非洲大蜗牛
+0nonprofit		非营利
+3linear		非线性
+3custodial		非羁押性
+3negative		非负数
+3recursive		非递推
+0polyphenism		非遗传多型性
+0nonmetal		非金属
+3zero		非零
+0iau		靠腰
+0faceplate		面板
+0handbags		面皮
+0appearence		面相
+0facepiece		面罩
+0topdressing		面肥
+0cleanser		面膜
+0unhappiness		面露不悦
+0viewpoints		面面
+0gyai		革吉县
+0jaochim		革兰氏
+0booted		靴篱莺
+0caligata		靴篱莺
+0hieraaetus		靴隼雕
+0pennatus		靴隼雕
+0harnessed		鞅牛
+0overshoe		鞋套
+0shoelace		鞋带
+0gongliu		巩留县
+4yi		巩义市
+0elytrum		鞘翅
+0forewing		鞘翅
+0encasing		鞘翅
+0sphingolipid		鞘脂
+0buskin		鞨
+0caning		鞭刑
+0whipworm		鞭虫
+0penetrated		鞭辟入里
+0kolben		鞲鞴
+0tartary		鞑靼海峡
+0weber		韦伯
+3b		韦伯
+1haley		韦利
+0clarence		韦慕庭
+0wilbur		韦慕庭
+0yingwu		韦应物
+0uesca		韦斯卡
+0huesca		韦斯卡
+0wegener		韦格纳
+1histleri		韦氏鹟莺
+1ehrfritz		韦尔弗雷兹
+0huelva		韦尔瓦
+0vivaldi		韦瓦第
+0waco		韦科
+0skanda		韦驮菩萨
+0annealed		韧
+0toughness		韧性
+0bast		韧皮
+0asiana		韩亚航空
+0yonghap		韩国联合通讯社
+0koreatown		韩国街
+0hancheng		韩城市
+0fuju		韩复榘
+0aijing		韩爱晶
+0imprisoning		韩爱晶
+0torturing		韩爱晶
+0seung		韩昇洙
+0hanbok		韩服
+2llyu		韩流
+0suyin		韩素音
+0yonhap		韩联社
+0authored		韩非子
+0tuberosum		韭菜
+0likened		韭菜
+1eeks		韱
+0mtv		音乐电视
+0scansion		音步
+0cavca		音集协
+0shaoshan		韶山市
+0hinted		韵味
+0vocalic		韵尾
+0collates		韵书
+0iang		韵母
+0castanets		响板
+0xiangshui		响水县
+0sonorant		响音
+0headwear		顶
+0veils		顶
+0bucking		顶棒
+0sahasr		顶轮
+6ara		顶轮
+0hongmen		项庄舞剑
+2meopathy		顺势疗法
+0of the order of		大约, 约等于
+7name of		名叫...
+3family		出身门第高的
+1ut of		在...外, 离开..., 从...里面, 出于, 由于, 因为, 缺乏, 没有, 放弃, 丧失
+6 sight of		在不能看见...的地方
+0as of		在…时候,从…时候起,到…时候止,直到…
+0make of		用...制造, 了解, 对待
+0off of		从
+2 value		有用的
+3type		类型的
+0method of of averages		平均法
+0of right		使恢复正常, 校正, 纠正
+0free of		无...的, 在...外面
+0of oneself		自动地, 自发地
+0balance of		当付款项
+0of base		没有根据的,捏造的,与事实不符
+0back of		在…后面;在…以前;是…的起因
+0of all		在所有的之中
+0all of		实足
+0give of		奉献, 贡献
+0of record		有案可查的
+0list of of property		财产目录
+0of name		有名的
+0full of		充满; 牣; 尽是
+0come of		出身于, 由...引起
+0one of		其中之一
+0short of		缺乏, 达不到, 除...以外
+0ratio of of depreciation		折旧率
+0list of of prices		价格表, 价目表定价
+0action of of detine		收回被非法占有动产的诉讼
+0list of of quotation		估价目录, 行情表
+bshareholders		股东名单
+0break of		v. 放弃
+0discharge of		卸下
+0turn of		从…撵出去
+0of note		著名的, 显要的
+0part of		部分
+0demand of		要求
+0of old		古时的, 从前的, 很久以前的, 以往的, 从前, 很久前, 早就
+3use		有用
+0clear of		畅通的,无阻的;清除了…的;无,没有
+0die of		死于…,因…而死
+0sort of		有几分地
+0of sort		不怎么样的
+0strip of		剥夺,搬掉
+0of import		的进口
+0care of		由...转交; 转交
+0independent of		独立于...的, 不受...支配的
+0of age		成年, 够岁数了
+3course		当然
+3moment		#重要的, 有意义的
+0talk of		谈到, 说到, 说及
+0read of		读知, 阅悉
+0along of		因为
+0much of		许多,很多
+0summary of		摘要信息
+0write of		写; 记述
+0think of		考虑, 关心, 想起, 记起, 想像, 有...的看法

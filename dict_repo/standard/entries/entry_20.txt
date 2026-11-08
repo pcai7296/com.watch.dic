@@ -1,0 +1,500 @@
+0pleased	pli:zd	#高兴的, 喜欢的, 满足的	2
+5ing	'pli:ziN	#令人喜爱的, 愉快的, 舒适的	40
+5ure	'pleZa	@快乐, 愉快, 令人高兴的事, 娱乐, 希望; v. (使)高兴	63
+4t	pli:t	@褶, 褶状物; !打褶, 把...编成辫	80
+3beian	pli'bi:an	@平民, 庶民, 大众, 平庸的人; #平民的, 一般的, 普通的, 粗俗的	80
+3dge	pledZ	@诺言, 保证, 誓言, 抵押, 信物, 保人, 祝愿; !许诺, 保证, 使发誓, 抵押, 典当, 举杯祝...健康	f8
+3nary	'plenari	#充分的, 完全的, 全体出席的; > 正式的, 充分的, 全体出席的	80
+4itude	'plenitju:d	@充分, 完全, 丰富, 大量, 充足	80
+4tiful	'plentiful	#许多的, 丰富的, 丰饶的	5c
+6tude	'plentitju:d	@充分	80
+5y	'plenti	@充分, 很多, 丰富; #很多的, 足够的, 丰富的	1f
+3onastic	.pli:au'nEstik	#冗言的; | 赘余[畸形]的	80
+3thora	'pleTara	@过多, 过剩, 多血症; | 多血[症]	80
+2iable	'plaiabl	#易弯的, 柔顺的, 圆通的	e0
+4nt	'plaiant	#易弯的, 柔韧的, 柔顺的	c0
+3ers	'plaiaz	@钳子; | 镊, 钳	80
+3ght	plait	@困境, 窘境; !宣誓, 保证	f0
+3nth	plinT	@底座, 基脚, 柱基, 勒脚	80
+2od	plQd	@沉重的步伐, 辛勤工作; $沉重地走, 辛勤工作, 孜孜从事; !沉重缓慢地走	80
+3t	plQt	@小块土地, 地区图, 图, 阴谋, 情节; !划分, 绘图, 密谋; $密谋, 策划; { 绘制	fe
+3ugh	plau	@犁, 犁过的地; $用犁耕田, 开路; !耕, 犁, 开路	bc
+3w	plau	@犁; v. 犁, 耕	40
+3y	plQi	@手段, 活动, 玩乐	80
+2uck	plVk	@勇气, 猛拉, 动物内脏; !摘, 猛拉, 拔, 拉, 扯, 采; $拉, 拽	cc
+3g	plVg	@塞子, 栓, 插头; !插入, 塞住, 接插头; $被塞住	3e
+3mage	'plu:midZ	@鸟类羽毛	40
+4b	plVm	@铅锤, 垂直; #垂直的; !使垂直, 探测; $成垂直	e0
+5er	'plVma	@水管工人; } 堵漏防漏人员	d0
+5ing	'plVmiN	@测深, 管子工行业, 管道设备	40
+4e	plu:m	@羽毛, 羽毛装饰, 羽状的; !用羽毛装饰, 整理羽毛, 使成羽毛状	80
+4met	'plVmit	@测深锤, 铅坠; $垂直落下	e0
+4p	plVmp	#圆胖的, 丰满的, 直接下落的, 直率的; !突然放下, 支持, 使丰满, 使鼓起; $扑通落下, 投票赞成, 变丰满, 鼓起; %沉重地, 突然地, 直截了当地	c8
+3nder	'plVnda	@抢夺, 掠夺品, 战利品; v. 掠夺, 抢劫, 抢夺	e8
+4ge	plVndZ	@钻进, 跳进, 跳水, 跳水池, 猛跌, 落下, 投入, 开始从事, 盲目投资; $投入, 投身于, 跳进, 陷入, 下降; !使投入, 使插入, 使陷入, 使遭受	fc
+3ral	'pluaral	@复数; #复数的, 两个以上的	1c
+3s	plVs	^加上, 加, 外加; #正的, 附加的; @正号, 加号, 附加额, 正数, 增益; { 正差	36
+4h	plVS	@长毛绒, 长毛绒裤; #长毛绒制的, 豪华的	80
+3tocracy	plu:'tQkrasi	@富豪统治; > 财阀统治, 富豪统治	80
+8t	'plu:takrEt	@富豪, 财阀	8
+2y	plai	@厚度, 板层; !使用, 使劲挥舞, 从事, 折, 弯; $辛勤工作, 定期航行	40
+1neumatic	nju:'mEtik	#充气的, 空气的, 有气胎的, 气动的, 灵魂的; @充气轮胎	8
+5onia	nju:'maunja	@肺炎; | 肺炎	10
+1oach	pautS	!水煮(蛋), 偷猎, 侵入, 窃取; $偷猎, 陷入泥中	80
+2cket	'pQkit	@口袋, 钱袋, 钱, 容器; !装...在口袋里, 隐藏, 抑制, 私吞, 搁置, 击...入袋; #袖珍的, 小型的, 压缩的, 金钱上的	3f
+6book	'pQkitbuk	@笔记本, 钱袋, 皮夹, 经济来源	40
+2d	pQd	@豆荚, (豆荚状的)保护性外壳, 扁豆形矿体; !从豆荚中剥出; $结豆荚	80
+3iatrist	pau'daiatrist	@脚病医生; | [手]足医	80
+4um	'paudiam	@墩座, 矮隔墙, 指挥台; | 足, 吸足	80
+2em	'pauim	@诗, 诗般美的事物	1f
+3t	'pauit	@诗人	5e
+4ry	'pauitri	@诗, 韵文, 诗歌艺术	1c
+2ignant	'pQinant	#辛酸的, 尖锐的, 剧烈的	80
+3nt	pQint	@点, 小数点, 标点, 地点, 要点, 特点, 尖端, 分数, 得分, 穴位; !弄尖, 强调, 指出, 加标点于, 瞄准; $指, 指向, 表明	3f
+5ed	'pQintid	#尖的, 有尖顶的, 锐利的, 率直的, 显然的	20
+5less	'pQintlis	#不尖的, 钝的, 不得要领的	20
+3se	pQiz	@平衡, 均衡, 姿势, 镇静, 安静, 砝码; !使平衡, 使悬着, 保持...姿势; $平衡, 悬着, 准备好	e0
+4on	'pQizn	@毒药, 毒, 毒物, 有毒害的事物; !毒害, 毒杀, 使中毒; $放毒, 下毒	5e
+6ous	'pQizanas	#有毒的, 恶毒的, 讨厌的; | 有毒的	9e
+2ke	pauk	@刺, 戳, 袋子; !戳, 捅, 拨弄, 刺; $戳, 刺, 捅, 搜索, 伸出, 行动散慢; { 存数	bc
+2lar	'paula	#两极的, 极地的, 正好相反的, 极性的; @极线, 极面	f8
+5ity	pau'lEriti	@极性, 截然相反; | 极性, 极性现象	88
+6ze	'paularaiz	v. (使)偏振, (使)极化, (使)两极分化	d0
+0Pole	paul	@波兰人, 极点, 磁极, 电极, 杆, 竿, 相反的极端; !用竿支撑; $撑篙	7e
+0polemic	pQ'lemik	#争辩的, 好争论的; @争论, 辩论, 辩论者	80
+7al	pa'lemikal	#好辩的；好争论的；挑起论战的	80
+3ice	pa'li:s	@警察, 警察当局, 治安; !维持治安, 管辖	37
+6man	pa'li:sman	@警察; ] 淀帚	3
+5y	'pQlisi	@政策, 方针, 策略, 保险单; | 凭单, 保险单	3f
+0Polish	'pQliS	#波兰的; @波兰人, 上光剂, 光泽, 优雅; !擦亮, 擦去, 使完美; $擦亮, 变得光亮	fe
+0polished	'pQliSt	#擦亮的, 优雅的, 精良的	40
+4te	pa'lait	#有礼貌的, 文雅的, 客气的, 有教养的	3
+5ic	'pQlitik	#精明的, 明智的, 策略的	20
+7al	pa'litikl	#政治的, 政治上的, 政党的, 从事政治的; } 政治的, 政治上的, 党派政治的	3e
+7ian	.pQli'tiSan	@政客, 政治家, 从事党派政治的人; } 政客, 政治家	1e
+7s	'pQlitiks	@政治, 政治学, 政见, 政治活动; } 政治, 政治学, 政纲	5e
+3l	paul	@投票, 民意测验, 选举投票, 投票数, 一组人中的一个, 头颈和后脑部, 鹦鹉; !对...进行民意测验, 获得...票, 剪树枝, 轮询; $投票; #剪过毛的, 修过枝的; { 轮询	dc
+4en	'pQlan	@花粉; !传授花粉给	c0
+4inate	'pQlineit	!对...授粉	e0
+8ion	.pQli'neiSan	@授粉; | 授粉[作用], 传粉[作用]	40
+8or	'pQlineita	@传粉者, 传粉媒介, 传粉昆虫; 授花粉器	40
+4ster	'paulsta	@民意调查人, 民意测验经办人	80
+4utant	pa'lu:tant	@污染物质; } 污染物	40
+6e	pa'lu:t	!污染, 弄脏, 玷污; ] 污染	5e
+6ion	pa'lu:San	@污染, 玷污; ] 污染	7e
+3troon	pQl'tru:n	@懦夫, 胆小鬼; #胆怯的	80
+3yandry	.pQli'Endri	@一妻多夫, 多雄蕊式; | [一雌]多雄配合, [一妻]多夫配合	80
+4glot	'pQliglQt	#(使用)多种语言的, 多种文字对照的; @使用多种语言的人, 多种文字对照本	80
+5on	'pQligan	@多角形, 多边形; { 多边形	40
+7al	pa'liganal	#多角形的, 多边形的; | 多边形的, 多角形的	40
+4math	'pQlimET	@博学者	80
+5er	'pQlima	@聚合物, 聚合体; ] 多聚体; 高分子; 大分子; 聚合物	8
+2mposity	pQm'pQsiti	@炫耀	80
+5us	'pQmpas	#爱炫耀的, 虚夸的, 盛大的	a0
+2ncho	'pQntSau	@南美披风, 雨披	80
+3d	pQnd	@池塘; v. 筑成池塘	1f
+4er	'pQnda	v. 沉思, 考虑	f8
+6able	'pQndarabl	#可估量的, 可称量的, 有重量的; @值得估量的事物	80
+6ous	'pQndaras	#沉重的, 笨重的, 毫无趣味的, 生硬的	e0
+3tifical	pQn'tifikl	#教皇的, 主教的, 大祭司的; @主教全套服饰, 主教仪典	80
+9te	pQn'tifikit	$自负地谈论, 执行教皇职务	80
+3y	'pauni	@矮种马; v. 借助逐字直译文翻译; #小型的, 每日摘要的	80
+2ol	pu:l	@池, 水塘, 石油层, 联营; !合伙经营, 共享, 采掘, 汇聚成; $汇合成塘, 淤积, 联营	1f
+3r	pua. pQ:	#贫穷的, 贫乏的, 不幸的, 可怜的, 拙劣的, 卑鄙的; > 低劣的, 不良的	3
+2p	pQp	@砰然声, 枪击, 含气饮料, 流行音乐, 通俗艺术; #流行的, 热门的, 通俗的; !使发出爆裂声, 开枪打, 突然伸出; $发出爆裂声, 射击, 突然出现, 瞪大; %突然, 砰地; { 出现点, 邮局协议	3d
+3corn	'pQpkQ:n	@爆米花	42
+3e	paup	@罗马教皇, 主教	18
+3ulace	'pQpjulas	@平民, 大众, 人口	80
+6r	'pQpjula	#通俗的, 流行的, 受欢迎的, 大众的, 人民的, 普及的; > 大众的, 通俗的, 普及的	7f
+7ity	.pQpju'lEriti	@名声, 受大众欢迎, 流行	48
+6tion	.pQpju'leiSan	@人口, 人口数; ] 群体; 总体	3f
+5ous	'pQpjulas	#人口多的, 人口稠密的	c0
+2rcelain	'pQ:slin	@瓷器, 瓷; #瓷制的	f8
+4h	pQ:tS	@门廊, 走廊	3c
+4ine	'pQ:sain	#猪的, 猪似的; | 猪的	80
+4upine	'pQ:kjupain	@豪猪	c0
+3e	pQ:	@毛孔, 小孔, 气孔; $专心阅读, 细想, 钻研, 沉思, 注视; !使注视得	e8
+3k	pQ:k	@猪肉; | 猪肉	3
+3ous	'pQ:ras	#多孔的, 有气孔的, 多孔性的, 能渗透的; | 多孔的	e0
+3poise	'pQ:pas	@海豚, 鼠海豚	40
+3ridge	'pQ:ridZ	@粥, 糊	8e
+3t	pQ:t	@港口, 埠, 舱门, 避风港, 左舷, 炮眼, 姿势, 意义; !左转舵, 持(枪); $左转舵; { 端口, 移植	3e
+4able	'pQ:tabl	#可携带的, 可搬运的, 可移动的; { 可移植的	fe
+4end	pQ:'tend	!成为...的前兆, 预知, 给与...的警告	c0
+6tous	pQ:'tentas	#前兆的, 不吉的, 可惊的, 自大的	80
+5r	'pQ:ta	@大楼管理员, 门房, 搬运工人, 侍者, 服务员; ] 搬运车; 搬运工人	1e
+4folio	pQ:t'fauliau	@皮包, 公文包, 部长职务, 有价证券财产目录, 艺术代表作选辑; } 公文包, 文件夹, 阁员职务	a0
+4ion	'pQ:San	@部分, 一份, 命运, 嫁妆; !分配, 给...嫁妆	7c
+4rait	'pQ:treit	@肖像, 人像, 半身像, 描写, 竖排格式; { 纵向	5c
+8ist	'pQ:treitist	@肖像画家, 人像摄影师	40
+8ure	'pQ:tritSa	@肖像绘制(法), 肖像画, 描写	40
+6y	pQ:'trei	!描绘, 描写, 描绘...的肖像	f8
+7al	pO:'treial	@描绘, 描写, 画像, 肖像; { 描绘	40
+0Portuguese	.pQ:tju'gi:z	@葡萄牙人, 葡萄牙语; #葡萄牙的, 葡萄牙人的, 葡萄牙语的	c
+0pose	pauz	@姿势, 姿态, 装模作样, 伪装; $摆姿势, 装模作样, 假装; !使摆好姿势, 提出, 造成	fc
+4ur	pau'za:	@装模作样的人；装腔作势的人	80
+3it	'pQzit	!假设, 安置, 布置	80
+5ion	pa'ziSan	@位置, 地位, 身分, 形势, 姿势, 立场, 职位, 状态, 阵地; !安置, 决定...的位置; { 位置	3f
+8s	pa'ziSan	@定位；位置（position的复数）	20
+6ve	'pQzitiv	#肯定的, 积极的, 有把握的; | 正的, 阳性的	7c
+8ly		%明确地, 肯定地, 无疑地, (非正式)确实地, 真正地	8
+8ness		@信心；肯定	80
+3se	'pQsi	@一队, 一团, 地方武装团队; } 可能性	80
+5ss	pa'zes	!持有, 占有, 拥有, 克制, 支配, 迷住; } 持有, 占有, 具有	5e
+7ed	pa'zest	#中邪魔的, 被妖魔缠住的	80
+7ion	pa'zeSan	@拥有, 占有, 所有, 财产, 领土, 领地, 自制, 着迷; > 占有, 持有	7e
+4ibility	.pQsa'biliti	@可能性, 可能的事; } 可能性, 可能发生的事, 不确定权	1e
+6le	'pQsabl	#可能的, 潜在的, 合适的; @可能性, 可能的事物	3
+7y	'pQsabli	%可能, 也许	1c
+3t	paust	@柱, 杆, 准星, 邮件, 邮政, 标竿, 职位, 岗位, 哨所, 兵营; !张帖, 邮递, 公布, 登入帐, 使熟悉, 布置; $快速行进; %急速地; { 记入; 登记, 上电自检	63
+4age	'paustidZ	@邮资; > 邮费, 邮资	7e
+5l	'paustl	#邮政的, 邮局的; > 邮政的	48
+4box	'paustbQks	@邮筒	2
+4card	'paustkA:d	@明信片	53
+5ode	'paustkaud	@邮政编码	22
+4date	.paust'deit	!填迟...的日期; @事后日期	40
+4er	'pausta	@海报, 招贴, 驿马	fa
+6ior	pQ'stiaria	#在后的, 其次的, 后面的; @后部, 臀部	80
+7ty	pQ'steriti	@子孙, 后裔; } 子嗣, 后代, 后裔	60
+4graduate	'paust'^rEdjuit, 'paust'^rEdZuit	#大学毕业后的, 大学研究院的; @研究生	60
+4humous	'pQstjumas	#遗腹的, 死后的; | 遗腹的	60
+4man	'paustman	@邮递员; } 邮递员, 理财法庭的高级律师	1f
+6ster	'paust.mA:sta	@邮政局长; { 邮件主管员	40
+4operative	paust'Qparativ	#手术后的; | 手术后的	40
+4pone	paust'paun	!延迟, 使延期, 缓办, 搁延; $延缓, 延缓发作	fe
+4script	'paustskript	@附言; { PostScript页面描述语言	a0
+4ulate	'pQstjuleit	@假定, 基本条件; !要求, 假定	c8
+5re	'pQstSa	@姿势, 态度, 情形, 形势; !作...的姿势; $作姿势	f0
+4war	'paust'wQ:	#战后的	40
+2t	pQt	@盆, 罐, 壶, 坩埚, 奖杯; !装入盆中, 在锅中煮, 随手射击; $随手射击	5e
+3able	'pautabl	#适于饮用的; @饮料	80
+4sh	'pOtES	] 钾碱; | 钾硷, 碳酸钾, 草硷	40
+5sium	pa'tEsiam	@钾; ] 钾K	40
+4tion	pau'teiSan	@喝, 一口的量, 饮酒	80
+5o	pa'teitau	@马铃薯	3
+3boiler	'pQtbQila	@(以糊口而写的)粗制滥造文艺作品, 粗制滥造作品的人	80
+3ent	'pautnt	#有力的, 有说服力的, 有效的; | 有力的, 有性交能力的	60
+6ate	'pautanteit	@有权的人, 有势力的人, 统治者	80
+6ial	pa'tenSal	@潜在性, 可能性, 潜力, 潜能, 势, 位; #有潜力的, 可能的, 潜在的	fe
+9ity	pau.tenSi'Eliti	@潜在性, 可能性	40
+8te	pa'tenSieit	!赋与力量, 加强; $有加强作用	80
+3ion	'pauSan	@饮剂, 饮料, 一次饮用量, 一服, 一剂; | 饮剂	20
+3pourri	pau'puri(:)	@混合物, 杂曲, 混成曲, 杂集, 大杂烩	80
+3ted	'pQtid	#盆栽的, 罐装的	40
+5r	'pQta	@陶工, 制陶工人	40
+6y	'pQtari	@陶器, 陶器厂; ] 陶器	e0
+2ultry	'paultri	@家禽	78
+3nce	pauns	@猛扑, 爪; $猛扑, 突袭; !扑住	20
+4d	paund	@磅, 英镑, 重击, 鱼塘, 拘留所, 兽栏; !强烈打击, 捣烂, 监禁, 关入栏内; $连续重击, 苦干	5f
+5s	paundz	@磅, 英镑；重击（pound复数形式）	20
+3r	pQ:	@流出, 倾泻, 骤雨; !倒, 灌, 注, 倾泻, 诉说, 倾吐; $倾泻, 蜂涌而来, 下大雨	3e
+3t	paut	@撅嘴, 生气, 条鳕; v. 撅嘴	80
+2verty	'pQvati	@贫穷, 贫困, 缺乏; | 贫乏, 缺乏	7c
+2wder	'pauda	@粉, 粉末, 火药; !搽粉于, 搽粉, 撒粉, 使成粉末; $搽粉, 变成粉末	5e
+3er	'paua	@力, 体力, 力量, 势力, 动力, 权力, 强国, 乘方, 强度, 幂, 功率; !使...有力量, 供以动力, 激励; { 乘幂; DOS外部命令:能控制许多电池电源计算机上的电源管理特性	36
+5ful	'pauaful	#有力的, 有权力的, 强大的; [机] 强力的	1e
+1racticable	'prEktikabl	#可实行的, 可做的, 可用的	6c
+8l	'prEktikl	#实际的, 现实的, 实用性的; } 事实上的, 实际上的, 接近...的	7e
+9ity	.prEkti'kEliti	@实际性, 实用性, 实际事物	40
+9ly	'prEktikli	%几乎, 差不多, 事实上	7c
+7e	'prEktis	@实践, 练习, 实行, 惯例, 习惯, 开业; v. 实践, 实行, 练习, 实习, 业务	23
+6se	'prEktis	v. 实践, 实行, 练习, 实习, 从事(职业)	1d
+6tioner	prEk'tiSana	@从业者, 开业者; | 行医者, 医师	f0
+3gmatic	prE^'mEtik	#忙碌的, 爱管闲事的, 自负的, 固执己见的, 实际的, 务实的, 国事的, 国务的; } 闲断的, 固执己见的, 实用主义的	a0
+3irie	'preari	@大草原, 草甸	4a
+4se	preiz	@赞美, 称赞, 崇拜; !称赞, 赞美; $赞扬, 表扬	5f
+3nce	prA:ns	@(马)腾跃, 昂首阔步; $腾跃, 昂首阔步; !使腾跃	80
+4k	prENk	@开玩笑, 恶作剧, 戏谑; !盛装, 装饰, 打扮; $炫耀自己	80
+3te	preit	$唠叨, 空谈; !瞎扯; @唠叨, 空谈, 瞎扯	c0
+3y	prei	v. 祈祷, 恳求, 请	1e
+4er	prea. 'preia	@祈祷, 恳求, 祷辞, 祈祷者	1e
+2each	pri:tS	v. 传道, 讲道, 说教, 宣讲, 鼓吹; @说教, 布道	f8
+4mble	'pri:Embl	@引言, 序文, 前言; { 前同步; 前同步信号	80
+3carious	pri'kearias	#不稳定的, 不安的, 危险的	e0
+5ution	pri'kQ:San	@预防, 留心, 警戒; !预先警告	7c
+as	pri'kO:Sanz	@预防措施( precaution的名词复数 ); 防备; 避孕措施	20
+4ede	.pri:'si:d	!在...之前, 优于, 较...优先; $在前面	d8
+7nce	pri'si:dns	@优先, 居先; { 先后次序; 优先规定	20
+8t	'presidant	@先例, 前例; #在先的, 在前的	78
+6ing	.pri:'si:diN	#在前的, 前面的; } 在前的, 在先的, 前面的	7c
+5pt	'pri:sept	@规诫, 规矩, 格言, 训令; > 告诫, 指令	80
+4ious	'preSas	#宝贵的, 珍贵的, 过于精致的, 珍爱的	7e
+5pice	'presipis	@悬崖, 绝壁, 险境	a0
+7tant	pri'sipitant	#突如其来的, 勇往直前的, 急促的, 径直向下的; @沉淀剂	80
+9te	pri'sipiteit	@沉淀物, 凝结物, 结果; !猛抛, 使陷入, 促成, 使沉淀; $猛地落下; #突然的, 猛地落下的, 轻率的	e8
+aion	pri.sipi'teiSan	@坠落, 沉淀, 降水, 轻率, 急速, 猛冲, 突如其来; ] 析出	c0
+8ous	pri'sipitas	#陡峭的, 轻率的	40
+5se	pri'sais	#精确的, 严谨的, 明确的; [机] 精密的, 正确的	fe
+6ion	pri'siZan	@精密, 精确, 精确度, 精度; #精密的, 精确的; { 精度	7c
+4lude	pri'klu:d	!预先排除, 预防, 阻止, 妨碍; } 预防, 排除, 消除	d8
+4ocious	pri'kauSas	#早熟的, 像大人的; | 早熟的	80
+4ursor	.pri:'ka:sa	@先驱者, 前导, 前兆; ] 前体; 前身; 产物母体	c0
+3dator	'predata	@食肉动物, 掠夺者; | 捕食者	c0
+8y	'predatari	#掠夺成性的, 捕食生物的, 掠夺的; | 捕食的	40
+4ecessor	.predi'sesa	@前任, 先辈, 前身; | 初牙, 前辈, 祖先	f8
+5stine	pri:'destin	!预定, 注定	88
+4icament	pri'dikamant	@处境, 穷境, 困局	80
+6t	pri'dikt	v. 预知, 预言, 预报	5e
+7ability	pri.dikta'biliti	@可预言; [电] 可预测性	40
+9le	pri'diktabl	#可预言的	60
+7ion	pri'dikSan	@预言, 预报; ] 预测	48
+8ve	pri'diktiv	#预言性的, 成为前兆的	40
+5lection	.pri:di'lekSan	@嗜好, 偏爱	80
+5sposition	pri:,dispa'ziSan	@爱好, 素质, 癖性, 天性, 倾向, 易感受性; | 素因, 素质	a0
+4ominant	pri'dQminant	#占主导地位的, 卓越的; } 占优势的, 支配其他的, 主要的	f8
+bly		%主要地, 显著地, 大多数地, 突出地	48
+9te	pri'dQmineit	!掌握, 控制, 支配; $占主导地位, 占优势	c8
+3eminent	pri:'eminant	#优秀的, 超群的, 卓越的	c0
+5pt	pri:'empt	!先买, 先取; $先发制人地叫牌	80
+4n	pri:n	!用嘴整理, 打扮, 使得意; $打扮漂亮, 感到得意	80
+3fabricated	,pri:'fEbrikeitid	#（建筑物、船等）预制构件的; v. 预制( prefabricate的过去式和过去分词 )	40
+5ce	'prefis	@序, 绪言, 前言; $作序, 写前言; !给...作序, 以...开始	bc
+4er	pri'fa:	!宁可, 较喜欢, 提出; } 给予优先权, 优先偿还, 提出	1e
+6able	'prefarabl	#更可取的, 更好的, 更合意的	5c
+6ence	'prefarans	@偏爱, 优先, 喜爱物; { 首选项	7e
+4igure	pri:'figa	!预示, 预见, 预想	80
+3gnancy	'pregnansi	@怀孕；丰富, 多产；意义深长	8
+7t	'pregnant	#怀孕的, 充满的, 思想丰富的, 成果丰硕的; | 妊娠的, 有孕的	fa
+3hensile	pri'hensail	#能抓的, 善于领会的, 贪得无厌的; | 抓握的, 捕捉的	80
+4istoric	'pri:his'tOrik	#历史以前的, 史前的	c0
+3judice	'predZudis	@偏见, 成见, 侵害; !使存偏见, 使有成见, 侵害	fe
+3liminary	pri'liminari	@初步做法, 初步措施, 预试, 预选赛; #初步的, 开始的, 预备的	fc
+5terate	pri:'litarat	#文字出现以前的	80
+4ude	'prelju:d	@前奏, 序幕, 序诗, 前奏曲; $作为前奏; !作为...的开头	e0
+3mature	.prema'tjua	#早产的, 过早的, 不成熟的; @早产儿, 过早发生的事物	c8
+4editate	pri'mediteit	v. 预谋, 预先考虑	80
+bd	pri'mediteitid	#预先考虑的, 预谋的; } 经预先计划的, 预谋的	80
+4ier	'pri:mja	@总理, 首相; #首位的, 最初的	1e
+7e	pri'mia	v. 初次公演, 首次露面; @初次的演出; #首次的, 首位的	80
+5se	'premis	@前提, 房屋连地基, 上述各项; !预先提出, 引出, 作为...的前提; $作出前提	f8
+5um	'pri:miam	@额外补贴, 奖金, 奖赏, 保险费; | 保险费	f8
+4onition	.pri:ma'niSan	@预告, 预感, 征兆; | 先兆, 预兆	80
+3occupation	pri:.Qkju'peiSan	@抢先占据, 先人之见, 入神; | 成见, 注意散漫, 心不在焉	d0
+3paration	.prepa'reiSan	@准备, 预备, 预习; ] 制剂	1e
+6e	pri'pea	!准备, 筹备, 使在思想上有准备, 制造, 调制; $预备	3f
+4onderance	pri'pQndarans	@优势, 多数; | 优势	40
+bt	pri'pQndarant	#占优势的, 多数的, 主要的, 突出的	80
+ate	pri'pQndareit	$占优势, 主宰	80
+5sition	.prepa'ziSan	@前置词, 介词	bc
+6sessing	.pri:pa'zesiN	#给人好感的	80
+6terous	pri:'pQstaras	#反常的, 乖戾的, 荒谬的, 首末倒置的	80
+3requisite	pri:'rekwizit	#先决条件的, 必要的; @先决条件, 必备条件	c8
+4ogative	pri'rQgativ	@特权, 君权, 职权; #特权的, 行使特权的	a0
+3sage	'presidZ	@预感, 预兆, 预知; !预示, 预言; $预感, 预言	c0
+4cience	'presians	@预知, 先见	80
+5ribe	pris'kraib	v. 规定, 指定, 嘱咐, 开处方	fc
+9d	pris'kraib	#规定的	40
+7ption	pri'skripSan	@处方, 命令, 指定; | 处方, 药方	fa
+4ence	'prezns	@出席, 面前, 存在, 仪态, 风度; [电] 出现	7c
+6t	'preznt	@现在, 礼品, 瞄准; #现在的, 出席的; !介绍, 引见, 赠送, 提出, 呈现, 上演; $举枪瞄准	23
+7ation	.prezan'teiSan	@赠与, 描述, 介绍; { 简报	aa
+7er	pri'zenta	@节目主持人, 奉献者, 提出者; } 告发者, 提出者, 推荐者	80
+7iment	pri'zentimant	@预感	80
+7ly	'prezntli	%目前, 不久	1c
+5rvation	.preza'veiSan	@保存, 保藏, 保护; | 保藏, 保存, 防腐	48
+ave	pri'za:vativ	#有助于保存的, 有保存力的; @预防药, 防腐剂	c0
+7e	pri'za:v	!保护, 保持, 保存, 维持, 腌, 禁猎; $加工食品, 禁猎; @加工成的食品, 禁猎地, 保护区, 防护物	7e
+5t	pri:'set	!事先调整; @预调装置; { 边框形式	8
+4ide	pri'zaid	$统辖, 当主人, 主持; } 主持, 负责, 指挥	98
+7ncy	'prezidansi	@总统职权, 总裁职位	48
+8t	'prezidant	@总统, 总裁, 董事长, (学院)院长, (大学)校长, 主管人, 主持人; > 总经理, 董事长, 总裁	1f
+4s	pres	@压, 揿, 按, 人群, 印刷机, 压力, 出版社, 记者, 报刊, 新闻舆论, 紧迫; !压, 压榨, 紧抱, 逼迫, 推进, 强迫征募, 催逼; $压, 重压, 催促, 拥挤, 奋力前进, 受压	9e
+5ing	'presiN	#紧迫的, 迫切的, 热切的; @压, 压榨, 冲压件, 唱片	80
+5ure	'preSa	@压, 榨, 按, 强制, 压力, 压迫, 压强; !迫使, 使增压, 密封	7e
+4tige	pre'sti:Z	@声望, 威望, 威信; > 商誉, 声誉	f8
+7ious	pre'stidZias	#享有声望的	f0
+4umable	pri'zu:mabl	#可推测的, 可能有的, 似真的; } 可假定的:可推测的, 可推定的:可能的	80
+9y	pri'zu:mabli	%推测上, 大概	7c
+6e	pri'zu:m	!假定, 推测, 擅自, 意味着; $擅自行动, 相信	d8
+6ption	pri'zVmpSan	@专横, 放肆, 假定, 推测; } 假定, 推测, 设想	e0
+8uous	pri'zVmptSuas	#放肆的, 冒昧的, 傲慢的	40
+5pposition	.pri:sVpa'ziSan	@预想, 假定, 预先推测	80
+3tence	pri'tens	@假装, 虚伪, 借口, 自称, 要求; } 假装, 借口, 托词	80
+6d	pri'tend	v. 假装, 伪称, 自命, 自称	de
+6se	pri'tens	@借口, 虚假, 伪装	40
+7ion	pri'tenSan	@自负, 骄傲, 主张	c0
+6tious	pri'tenSas	#自负的, 自命不凡的, 夸耀的	e0
+5rnatural	.pri:ta'nEtSaral	#超自然的, 异常的	80
+5xt	'pri:tekst	@借口, 托词; v. 以...为借口	b8
+4ty	'priti	#漂亮的, 优美的, 机灵的, 狡猾的, 恰当的; %相当, 颇	1f
+3vail	pri'veil	$获胜, 流行, 盛行; | 流行, 盛行	fc
+7ing	pri'veiliN	#盛行很广的, 优势的, 主要的, 普遍的; } 占优势的, 盛行的, 通行的	48
+5lence	'prevalans	@普遍, 流行, 广泛; | 流行, 盛行	8
+8t	'prevalant	#普遍的, 流行的	78
+5ricate	pri'vErikeit	$支吾其辞, 搪塞	c0
+4ent	pri'vent	v. 预防, 防止, 阻止, 妨碍	5f
+7ion	pri'venSan	@阻止, 妨碍, 预防; | 预防	28
+4iew	'pri:vju:	@事先查看, 预览; !事先查看, 预演; { 预览	82
+5ous	'pri:vias	#早先的, 前面的, 过急的; } 以前的, 生前的, 前述的	fc
+8ly	'pri:vju:sli	%先, 先前, 以前, 前, (非正式)过早, 过急, 在前, 在...以前, 在先; { 先前地	c
+5sion	.pri:'viZan	@先见, 预知	80
+3y	prei	@被掠食者, 牺牲者; $捕食	f8
+2ice	prais	@价格, 代价, 价值; !定...的价格	23
+4k	prik	!刺, 戳, 刺痛, 使竖起; $刺, 竖起; @扎, 一刺, 刺痛; #竖起的	98
+5le	'prikl	@刺, 刺痛, 柳条篮子; v. 刺, 扎, 戳, 引起刺痛, 使感到刺痛	80
+3de	praid	@骄傲, 自尊心, 自豪, 精华, 勇气; !以...自豪	5f
+3est	pri:st	@祭司, 牧师, 神父, 神质人员, 僧侣, 泰斗	1c
+3g	prig	@一本正经的人, 纨绔子弟	80
+3m	prim	#整洁的, 端正的, 规规矩矩的, 呆板的, 拘谨的; !弄整齐, 使显出一本正经的表情; $作出一本正经的样子	80
+4al	'praiml	#主要的, 最初的, 原始的	40
+5rily	'praimarili	%主要地, 首先地	c
+6y	'praimari	@最主要者, 原色; #主要的, 初期的, 根本的, 原始的, 首要的, 基本的; { 初等量; 主要的; 一次的	7f
+5te	'praimit	@大主教, 灵长目动物; | 灵长类	c8
+4e	praim	@最佳部分, 初期, 全盛期; #主要的, 最初的, 根本的; v. 加油启动, 灌注, 填装	fc
+4itive	'primitiv	@原始人, 早期艺术家; #原始的, 上古的; { 图元; 原语; 基元	7e
+4ordial	prai'mQ:dial	#原始的, 自原始时代的; | 原始的	40
+4p	primp	v. 打扮, 装饰	80
+3nce	prins	@王子, 亲王, 国君, 贵族, 诸侯, 有权势的大人物	1c
+6ss	'prinsis	@公主, 王妃, 女巨头	1c
+5ipal	'prinsipal	@校长, 首长, 本金, 主犯, 资本, 委托人; #主要的, 最重要的, 首要的	fc
+9ly	'prinsapali	%主要地, 大部分	8
+7le	'prinsipl	@原则, 原理, 主义; ] 原理	9e
+4t	print	@打印, 版, 印刷物, 痕迹, 印刷业, 印刷字体, 图片, 印花布, 印章; v. 打印, 印刷, 铭记, 留印记于, 用印刷体写; { DOS外部命令:在打印机上打印文件, 可一边打印文件一边执行其他工作	17
+5ed	'printid	#印刷的, 印好的, 印花样的; [电] 印刷的	20
+6r	'printa	@印刷工, 打印机; { 打印机	a
+5ing	'printiN	@印刷, 印刷术, 印花; { 打印; 印刷	22
+3or	'praia	#更重要的, 较早的, 在先的; @小隐修院院长, 大隐修院副院长	7c
+5ities	prai'Oritiz	@先( priority的名词复数 ); 优先; 优先权; 优先考虑的事	20
+7y	prai'Qriti	@优先权, 优先; { 优先级	fc
+3sm	'prizm	@棱镜, 棱柱; ] 棱镜	8
+4on	'prizn	@监狱, 监禁, 拘留所; !监禁	5f
+6er	'prizna	@囚犯, 犯人, 战俘; } 犯人, 囚犯, 扣押犯	1f
+4sy	'prisi	#谨小慎微的, 大惊小怪的, 为小事挂虑的	80
+4tine	'pristi:n	#太古的, 原来的, 古时的, 原始的	c0
+3vacy	'praivasi	@隐私, 隐居, 秘密; { 个人保密权	38
+5te	'praivit	#私人的, 秘密的, 私立的, 隐蔽的; @士兵, 隐士, 阴部; { 私人的	7f
+6ion	prai'veiSan	@缺乏, 穷困	80
+4ilege	'privilidZ	@特权, 特别恩典, 基本权利, 特免; !给与...特权, 特免	fe
+3ze	praiz	@奖赏, 奖金, 奖品, 战利品, 捕获; #得奖的; !珍视, 估价, 捕获, 撬, 撬动	1f
+5s	praiziz	@奖赏( prize的名词复数 ); 值得竞争的东西; 难能可贵的事物; 难以争取的重要事物; v. 珍视, 珍惜( prize的第三人称单数 )	20
+2obability	.prQba'biliti	@可能性, 或然率, 几率, 概率; ] 概率; 几率	1c
+6le	'prQbabl	#很可能的, 大概的, 可信的; @很有希望的候选人, 很可能的事情	1e
+7y	'prQbabli	%大概, 或许	f
+5tion	prau'beiSan	@鉴定, 查验, 证明, 试用, 察看, 缓刑; | 审辨, 试验, 鉴定, 试用, 见习	20
+4e	praub	@探索, 调查, 探针, 探测器; v. 用探针探测, 调查, 探索	f8
+4ity	'praubati	@诚实, 正直	c0
+4lem	'prQblam	@问题, 难题; #成问题的, 难处理的	3
+7s	'prQblam	@问题；难题（problem的复数）	20
+4oscis	prau'bQsis	@长鼻子, 喙; | 喙, 吻	80
+3cedure	pra'si:dZa	@程序, 过程, 手续; { 规程; 过程	7e
+5ed	prau'si:d	$继续进行, 进行, 开始, 发出, 起诉; } 所得, 收入, 收益	7c
+7ing	prau'si:diN	@进行, 程序, 行动, 诉讼程序, 事项; ] 会议论文集	78
+7s	'prausi:dz	pl. 收益; > 收入, 收款, 所得	c0
+5ss	'prQses	@程序, 进行, 过程; !加工, 使...接受处理, 对...处置, 对...起诉; #经加工的, 有特殊光效的; { 进程	7e
+7ing	prau'sesiN	{ 处理; ] 加工	20
+8on	pra'seSan	@队伍, 连续, 列队行进, 涌出	9c
+4laim	pra'kleim	!宣布, 公告, 宣言, 表明, 赞扬; } 宣布, 宣告, 公布	fc
+6mation	.prQkla'meiSan	@宣言, 公布, 布告, 公告; } 宣告, 宣布, 布告	80
+5ivity	pra'kliviti	@倾向, 癖性	40
+4rastinate	prau'krEstineit	v. 延迟, 耽搁	80
+5eate	'praukrieit	!生, 生殖, 产生; $生殖	80
+0Procrustean	prau'krVstian	#普罗克汝斯忒斯的, 强求一致的	80
+0proctor	'prQkta	@代理人, 监考人, 代诉人; } 代理人, 代诉人, 监督人	80
+4ure	prau'kjua	!获得, 取得, 导致; $拉皮条	a0
+7ment	pra'kjuamant	@获得; > 采购	80
+3d	prQd	@刺针, 刺棒, 激励话, 提醒物; !戳, 刺, 刺激; $戳, 刺	c0
+4igal	'prQdigl	@浪费者; #浪费的, 挥霍的, 丰富的	c0
+6ious	prau'didZas	#庞大的, 惊人的, 异常的	e0
+6y	'prQdidZi	@惊人的事物, 奇迹, 不凡的人, 奇才, 神童, 预兆	c0
+4uce	pra'dju:s	@生产品, 物产, 后代; !产生, 生产, 提出, 出示; $生产, 制造	df
+7r	pra'dju:sa	@生产者, 制作者, 制作人; ] 发生器; (炉煤气)发生炉; 制气炉; 生产者	8
+6t	'prQdVkt	@产品, 结果, 乘积; ] 生产物	3e
+7ion	pra'dVkSan	@制造, 生产, 产物; | 产生, 生成	3e
+8ve	pra'dVktiv	#能生产的, 有生产价值的, 多产的; | 产出性的, 产生性的	7c
+9ity	.praudVk'tiviti	@生产力; > 生产率, 生产能力	b8
+7s	'prQdVkt	@产品；商品（product的复数）	20
+3fane	pra'fein	#世俗的, 不敬神的, 亵渎的; !亵渎, 玷污	e0
+4ess	pra'fes	!声称, 以...为业, 伪称, 讲授; $表白, 承认, 当教授	40
+7ion	pra'feSan	@职业, 表白, 声明; ] 工种; 职业	7e
+aal	pra'feSanl	@专业人才; #专业的, 职业的	7c
+cism	pra'feSana,lizam	@职业特性, 专业技巧, 职业行为, 职业作风, (褒)专业人员的特质, 职业化; > 职业特性, 职业作风, 职业化	40
+as	pra'feSan	@专业；职业；行业（profession的复数形式）	20
+7or	pra'fesa	@教授	3e
+4fer	'prQfa	!提供, 贡献, 提议; @提供, 提议	80
+4iciency	pra'fiSans	@精通, 熟练, 精练	78
+9t	pra'fiSant	@高手, 专家; #精通的, 熟练的	c8
+5le	'praufail	@侧面, 轮廓, 传略; !描绘...轮廓, 写...的传略; { 提问档; 剖面图法; 剖面法	f8
+5t	'prQfit	@利润, 赢利, 利益; $有益, 获利, 赚钱; !有益于	7e
+6able	'prQfitabl	#有利润的, 有利益的, 赚钱的; > 有利(可图)的, 合算的	1c
+6eer	.prQfi'tia	@获暴利的人, 奸商; $获暴利, 赚大钱	80
+6less	'prQfitlis	#无利的, 无益的	40
+6s	'prQfit	@收益, 红利；盈利（profit的复数）	20
+4ligate	'prQfligit	#放荡的, 不检点的, 浪费的; @放荡者, 享乐者	80
+4ound	pra'faund	#极深的, 深厚的, 深刻的, 渊博的	f8
+8ly	pra'fajndli	%深深地, 深切地	40
+4use	pra'fju:s	#很多的, 丰富的, 浪费的, 慷慨的	e0
+3genitor	prau'dZenita	@祖先, 先辈, 原本; | 祖先, 祖代	c0
+6y	'prQdZani	@子孙, 后裔, 成果; | 后代, 后裔	c0
+4nosis	prQg'nausis	@预测, 预后; | 预后	80
+7tic	prQg'nQstik	#预兆的, 预后的; @先兆, 预测	40
+aate	prQg'nQstikeit	!预兆, 预言, 预测; | 预测(疾病的结局)	80
+4ram	'praugrEm	@节目, 节目单, 程序, 纲要, 大纲, 计划; !规划, 拟...计划; $安排节目, 编程序; { 程序	2c
+7me	'praugrEm	@节目, 节目单, 程序, 纲要, 大纲, 计划; !规划, 拟...计划; $安排节目, 编程序	13
+5ess	'praugres	@进步, 发展, 前进; $进步, 进行	5f
+8ion	pra'greSan	@前进, 连续, 级数; | 进行, 前进, 步态	40
+9ve	pra'gresiv	@改革论者, 进步论者; #前进的, 累进的, 进步的	5c
+3hibit	pra'hibit	!禁止, 阻止; > 禁止	7e
+8ion	.prauhi'biSan	@禁令, 禁止	8
+9ve	pra'hibitiv	#禁止的, 禁止性的; > 禁止性的, 抑制的	c0
+bly		%禁止, 起阻止作用, 抑制	40
+3ject	'prQdZekt	@计划, 设计, 事业; !计划, 设计, 投掷, 发射, 使凸出, 放映; $凸出	7e
+7ile	pra'dZektil	@发射体, 抛射物; #发射的, 投射的	80
+8ng	pra'dZektiN	#突出的, 伸出的	48
+8on	pra'dZekSan	@发射, 计划, 突出部分, 设计, 推测; { 投影	c0
+aist	pra'dZekSanist	@放映员, 电视技师, 地图制作者	40
+7or	pra'dZekta	@计划人, 发起人, 规划人, 放映机, 映画器, 幻灯机, 幻灯, 探照灯, 发射器; { 投影仪	f8
+3liferate	praau'lifareit	$增殖, 激增, 扩散; !使激增	c0
+aion	.praulifa'reiSan	@增殖, 激增; | 增生, 增殖	40
+6ic	prau'lifik	#有生殖力的, 多产的, 丰富的; | 多育的, 多产的, 繁殖的	e0
+5x	'prauliks	#冗长的, 说话罗唆的	80
+6ity	prau'liksiti	@冗长, 罗唆; } 冗长失当, 冗长的答辩, 冗长的陈述	80
+4ogue	'praulQ:g	@开场白, 序言, 序幕; !为...作序, 加上...前言	a0
+5ng	prau'lQN	!延长, 拖延, 拖长; ] 冷凝管	f8
+3menade	.prQmi'neid	@散步, 骑马, 舞会; $漫步, 兜风; !在...散步	80
+4inence	'prQminans	@突起, 突出, 显著, 突出物, 凸出; | 隆凸, 凸	48
+8t	'prQminant	#卓越的, 显著的, 突出的, 凸出的	fc
+5se	'prQmis	@诺言, 约定的事情, 有指望; !允诺, 约定, 预示; $允诺, 有前途, 有指望	7f
+6ing	'prQmisiN	#有希望的, 前途有望的; > 有希望的	7c
+4ote	prau'maut	!促进, 晋升, 创办, 推销; > 促进, 推广, 推销	fe
+7r	pra'mauta	@促进者, 助长者; ] 助催化剂	40
+6ion	prau'mauSan	@晋级, 创建, 增进; > 推广, 推销, 促进	8
+4pt	prQmpt	@激励, 提示, 提醒物, 提词, 付款期限; #迅速的, 敏捷的, 立刻的, 提词员的; !激励, 鼓动, 提示; %准时地; { 提示符; DOS内部命令:设定DOS命令行的提示符	fc
+6ly	'prQmptli	%敏捷地, 迅速地	8
+4ulgate	pra'mVlgeit	!发布, 公布, 发表, 传播; } 颁布, 公告, 散播	c0
+3ne	praun	#俯伏的, 面向下的, 有...倾向的; | 旋前的, 伏的, 俯的	f8
+4ghorn	'prQNhQ:n	@叉角羚	40
+4oun	'praunaun	@代词	1c
+7ce	pra'nauns	v. 发音, 宣告, 断言	1f
+9d	pra'naunst	#发出音的, 读出来的, 显著的, 断然的, 明显的; } 显著的, 明显的, 明确的	c0
+4unciation	prau.nVnsi'eiSan	@发音, 读法	1f
+3of	pru:f	@证据, 证明, 试验, 检验, 考验; #不能透入的, 证明用的, 防...的, 耐...的; !检验, 试验, 校对, 使不被穿透; { 审稿	5c
+5read	'pru:fri:d	!校正, 校对	c0
+3p	prQp	@支柱, 支持者, 倚靠人, 道具, 螺旋桨; !支撑, 维持	c0
+4aganda	.prQpa'gEnda	@宣传, 宣传活动; | 宣传	38
+7te	'prQpageit	!繁殖, 传播, 传送; $繁殖, 蔓延	e8
+8ion	.prQpa'geiSan	@增殖, 繁殖, 宣传; | 传播, 繁殖, 持续培养	88
+4el	prau'pel	!推进, 驱使; [机] 推进	f8
+6lant	prau'pelant	@推进剂, 发射火药, 推进者; ] 火药	40
+7er	pra'pela	@螺旋桨, 推进器; ] 搅拌叶片; 螺旋桨	88
+5nsity	pra'pensati	@倾向, 爱好, 习性	c0
+5r	'prQpa	#适当的, 固有的, 高尚的, 专属的; %完全地, 彻底地	5f
+6ly	'prQpali	%适当地, 相当地	e
+6ty	'prQpati	@财产, 所有权, 性质, 属性; { 属性	7c
+4hecy	'prQfasi	@预言, 预言能力	a8
+6t	'prQfit	@预言者, 先知, 提倡者	98
+7ic	pra'fetik	#预言的, 先知的, 预示的	80
+4itiate	pra'piSieit	!慰抚, 安抚, 和解, 谋求...的好感	c0
+7ous	pra'piSas	#顺利的, 适合的, 吉祥的, 慈悲的	80
+4onent	pra'paunant	@建议者, 支持者; } 提议者, 辩护者, 支持者	40
+5rtion	pra'pQ:San	@比例, 比率, 均衡, 部分, 面积; !使成比例, 使均衡	7c
+aal	pra'pQ:Sanl	#比例的, 相称的; @比例项	c
+5sal	pra'pauzl	@提议, 计划, 求婚; > 提案, 申请, 投标	dc
+6e	pra'pauz	!计划, 打算, 建议, 提议, 求(婚); $打算, 求婚	7c
+6ition	.prQpa'ziSan	@建议, 命题, 主张; !向...提议, 向...提出猥亵的要求	f8
+5und	pra'paund	!提出供考虑; } 提出建议, 提出供考虑, 提出	40
+4rietary	pra'praiatari	#所有者的, 所有权的, 私有的; @所有者, 业主, 所有权	80
+8or	pra'praiata	@所有者; > 所有人, 资本主, 业主	40
+aship	pra'praiataSip	@所有权; > 所有权, 业主权, 资本	40
+8y	pra'praiati	@礼貌, 规矩, 适当; { 专有权	e0
+4ulsion	pra'pVlSan	@推进, 推进力; | 前冲, 慌张步态	e8
+3rogue	pra'rau^	vt.$(使)闭会, (使)休会; } 使休会, 使闭会	c0

@@ -1,0 +1,500 @@
+0hunger	'hVNga	@饥饿, 渴望, 饥荒; !使挨饿; $挨饿, 渴望	5e
+4ry	'hVNgi	#饥饿的, 荒年的, 渴望的, 不毛的; ] 欠鞣皮	3
+3k	hVNk	@大块; #行的, 好的	80
+3t	hVnt	@狩猎, 追捕, 搜寻, 猎区; !狩猎, 打猎, 搜索; $打猎, 猎食, 搜寻	3e
+4er	'hVnta	@猎人, 猎犬, 追求者	2
+4ing	'hVntiN	@狩猎, 猎狐, 探求; { 寻找平衡; 寻找	20
+2rdle	'ha:dl	@障碍, 跳栏, 临时活动篱笆; !用篱笆围, 越过, 克服	c0
+3l	ha:l	@用力的投掷; !用力投掷, 发射, 愤慨地说出, 丢下; $猛投, 猛掷	f8
+3rah	hu'rA:	@欢呼声, 骚动, 欢乐; v. 欢呼, 呼万岁, 以欢呼迎接; interj. 万岁	8
+4icane	'ha:rikan	@飓风, 暴风, 暴风雨	fa
+4y	'hVri	@匆忙, 急忙, 急促; !急派, 催促; $匆忙, 赶快	3
+3t	ha:t	@伤害, 创伤, 损害; v. 伤害, (使)伤心, 危害, 刺痛	1f
+2sband	'hVzband	@丈夫, 管理人, 节俭的人; !节俭, 使成丈夫, 持有	83
+7ry	'hVzbandri	@农事, 饲养业, 家政	c0
+3h	hVS	@肃静, 安静, 沉默; !(使)肃静, (使)安静, (使)缄默; interj. 嘘, 别作声	88
+3k	hVsk	@外壳, 皮, 无价值之物; !剥...的壳, 削皮	c0
+4y	'hVski	@强壮结实之人, 爱斯基摩人; #有壳的, 声音沙哑的, 强壮的	80
+3tle	'hVsl	@心碌, 挤, 推, 拥挤喧嚷; !催促, 乱挤活动, 硬逼, 强夺; $赶紧, 硬挤过去	40
+2t	hVt	@小屋, 茅舍, 临时军营; v. (使)住在茅舍	9c
+1ybrid	'haibrid	@混血儿, 杂种, 混合物; #混合的, 杂种的, 混合语的; { NetWare的主机实用程序, 双重用户建立程序	c0
+2drant	'haidrant	@给水栓, 水龙头, 消火栓	80
+5te	'haidreit	@水合物, 水化合物, 氢氧化物; !使成水化合物	80
+5ulic	hai'drQ:lik	#与水有关的, 水力的, 水压的; [电] 水力的	8
+4ocarbon	.haidrau'kA:ban	@碳氢化合物; ] 烃; 碳氢化合物	8
+5gen	'haidradZan	@氢; ] 氢H-2	7e
+5sphere	'haidrasfia	@水圈, 水界, 水气	40
+2giene	'haidZi:n	@卫生保健, 卫生学, 保健法; | 卫生, 卫生学	e0
+2mn	him	@赞美诗, 圣歌; v. 唱赞美歌	88
+2peractivity		@活动过多, 机能亢进, 机能过敏; | 活动过强, 机能亢进	80
+5bole	hai'pa:bali	@夸张法	80
+5sensitive	.haipa'sensitiv	#过敏的, 高灵敏度的; | 过敏的	40
+5tension	.haipa'tenSan	@高血压, 过度紧张; | 高血压, 血压过高, 张力过强, 压力过高	80
+3hen	'haifan	@连字符; !用连字符连接	80
+3notic	hip'nQtik	#催眠的, 在受催眠状态中, 易于催眠的; @催眠药, 安眠药, 催眠状态的人	80
+3ocrisy	hi'pQkrasi	@伪善; } 伪善, 虚伪	10
+7te	'hipakrit	@伪君子, 伪善者	80
+8ical	.hipa'kritikl	#伪善的, 伪善者的	80
+4dermic	.haipa'da:mik	#皮下的, 真皮的; @皮下注射, 皮下注射器	80
+4tenuse	hai'pQtnju:s	@(直角三角形之)斜边	80
+5heses	hai'pQTasis	pl. 假说, 前提, 假设, 假定	8
+8is	hai'pQTasis	@假设; ] 假设	f8
+9ze	hai'pOTisaiz	!假设, 假定	40
+7tical	,haipau'Tetikal	#假设的, 有待证实的, 假定的, 有前提的; { 理想的	80
+2steria	his'tiaria	@歇斯底里症, 不正常的兴奋, 癔病; | 癔病, 歇斯底里	88
+7cal	his'terikal	#歇斯底里的, 异常兴奋的; | 癔病的, 歇斯底里的	38
+0I	ai	*我; { 电流, 中断, 指令, 指示符	3
+0i.e.	'ai'i:	%也就是	c
+1ce	ais	@冰, 冰淇淋, 糖衣, 冷若冰霜, 矜持, 贿赂; !使结冰, 冰镇, 覆以糖衣; $结冰	23
+3 cream		冰淇淋; ] 冰淇淋	1
+3-cream	'aiskri:m	#冰淇淋的, 乳白色的	4
+3berg	'aisba:g	@冰山, 冷冰冰的人	40
+0Iceland	'aisland	@冰岛	2
+0ichthyosaur	'ikTiasQ:	@鱼龙	40
+2icle	'aisikl	@垂冰, 冰柱, 冷冰冰的人	c0
+3ng	'aisiN	@糖衣, 结冰	80
+2on	'aikQn	@画像, 肖像, 偶像, 图标, 像标; { 像标, 图标	c0
+4oclast	ai'kQnaklEst	@反对偶象崇拜者, 提倡打破旧习的人	80
+aic	ai.kQnau'klEstik	#反对偶象崇拜的, 打破旧习的	80
+5graphic	ai.kOna'grEfik	#图像材料的；肖像学的；肖像的；图示法的象征	40
+2y	'aisi	#冰的, 冰冷的, 冷淡的, 滑溜的	8
+1dea	ai'dia	@主意, 办法, 理想, 思想, 概念, 意见; | 观念, 思想	23
+4l	ai'dial	@理想, 典范, 观念, 思想, 最后目标; #理想的, 完美的, 空想的, 观念的, 唯心论的	7c
+5ism	ai'dializm	@唯心主义, 观念论, 唯心论, 理想主义	8
+5ly	ai'diali	%完美地, 理想地	8
+4s	ai'dia	abbr. 工业设计优秀奖	20
+3ntical	ai'dentikal	#同一的, 恒等的, 完全相同的; | 同一的, 同等的	7c
+6fiable	ai'dentifaiabl	#可辨认的; } 可证明为同一的, 可以办清的	40
+8cation	ai.dentifi'keiSan	@识别, 身份证明, 认同; ] 鉴定; 鉴别; 鉴别法; 认证	7e
+7y	ai'dentifai	!识别, 认为...等同于, 确定, 使参与; $一致, 认同	7c
+6ties	ai'dentitiz	@身份( identity的名词复数 ); 同一性; 个性; 同一人	20
+7y	ai'dentiti	@身份, 相同, 一致, 特性, 恒等式; { (打)标记, 标识	76
+3ological	.aidia'lQdZikal	#意识形态的, 空想的; } 思想的, 思想上的, 意识形态的	40
+7y	.aidi'QladZi	@思想体系, 意识形态, 观念学, 空论; | 观念学, 观念形态	f8
+2iocy	'idiasi	@白痴, 极端愚蠢; | 白痴	40
+4m	'idiam	@习语, 成语, 惯用语法, 方言	fe
+5atic	.idia'mEtik	#符合语言习惯的, 惯用的, 有许多习语的	40
+4syncrasy	.idia'siNkrasi	@气质, 特性, 风格; ] 特异反应; 特异性体质	40
+4t	'idiat	@白痴, 极蠢之人; | 白痴者, 痴子	78
+5ic	.idi'Qtik	#白痴的, 愚蠢的, 呆头呆脑的	40
+2le	'aidl	#懒惰的, 闲散的, 停顿的, 空闲的, 无用的; $无所事事, 闲散, 浪费, 空转; !虚度, 使闲散, 使空转; @空转, 空闲时间; { 空闲时间	bc
+4ness	'aidlnis	@懒惰, 闲散, 失业; ] 空载	8
+2ol	'aidal	@偶像, 崇拜物, 宠儿, 幻象, 谬论	c0
+4ater	ai'dQlata	@偶像崇拜者, 崇拜者, 皈依者	80
+6rize	ai'dOlatraiz	!把…奉为偶像；盲目崇拜	80
+4ize	'aidalaiz	!把...当偶像崇拜, 极端崇拜, 醉心于; $崇拜偶像	80
+2yll	'idil, 'aidil	@叙事诗, 田园景色, 田园诗, 田园乐曲, 牧歌	80
+5ic	ai'dilik	#田园诗的, 牧歌的, 悠闲的	40
+1f	if	&如果, 是否, 无论何时, 假设, 即使; @条件; { DOS批处理命令:根据所测试的条件决定是否执行另一条命令	3
+1gneous	'ignias	#火的, 似火的, 火成的	c0
+3ite	ig'nait	!点燃, 使灼热, 使兴奋	f8
+3oble	ig'naubl	#卑贱的, 卑鄙的, 低级的	c0
+4minious	.ignau'minias	#可耻的, 不名誉的, 下流的	c0
+7y	'ignamini	@耻辱, 无耻行为, 不体面; } 无耻行为, 丑行, 耻辱	80
+4rance	'ignarans	@无知, 愚味; } 无知, 不知情, 愚昧	78
+7t	'ignarant	#无知识的, 不知道的, 由无知产生的; } 无知的, 愚昧的, 不知情的	dc
+5e	ig'nQ:	!不理睬, 忽视, 驳回, 忽略; { 忽略	5e
+1ll	il	@疾病, 坏事, 罪恶, 灾难; #生病的, 邪恶的, 不吉利的, 敌意的, 不良的, 不顺利的; %有害地, 不幸地, 几乎不	3
+3egal	i'li:gal	#违法的, 不合规定的; > 非法的, 犯规的	be
+5ible	i'ledZabl	#难辨认的, 字迹模糊的	c0
+6timate	.ili'dZitimat	#不法的, 私生的, 不合规则的, 不合理的, 不符合习惯的; @无合法身份的人; !宣告...为非法, 证明...为私生	c0
+3iberal	i'libaral	#狭隘的, 无教养的, 吝啬的	80
+4cit	i'lisit	#不法的, 不正当的, 禁止的; } 违法的, 违禁的, 被禁止的	c0
+4terate	i'litarat	@文盲; #目不识丁的, 没受教育的	f8
+3ness	'ilnis	@疾病, 恶意; | 病	37
+3uminate	i'lju:mineit	!照明, 用灯装饰, 阐明, 说明, 使灿烂; $照亮, 用灯装饰	f8
+9i	i.lu:mi'nA:ti:	@先觉者	80
+aon	i.lju:mi'neiSan	@照明, 阐明, 启发; | 照明, 映光	40
+4sion	i'lju:Zan	@幻影, 错觉, 幻想; | 错觉	fc
+6ve	i'lju:siv	#幻影的, 错觉的, 迷惑人的	c0
+5ory	i'lju:sari	#产生幻觉的, 幻影的, 错觉的; } 因错觉产生的, 虚幻的	80
+5trate	'ilastreit	!举例说明, 作图解, 阐明; $举例说明	fc
+9ion	.ila'streiSan	@例证, 插图; ] 插图	5c
+7ious	i'lVstrias	#著名的, 辉煌的, 明亮的	c0
+1mage	'imidZ	@影像, 肖像, 想象, 图像, 形象, 翻版; !作...的像, 反映, 想象, 象征; @图像; { 图象	7c
+5ry	'imidZari	@肖像, 比喻, 雕刻; ] 成像	40
+4inary	i'mEdZinari	#想像的, 虚构的, 假想的	5c
+7tion	i.mEdZi'neiSan	@想像, 听觉, 想像力; | 想像	1c
+9ve	i'mEdZinativ	#想像的, 虚构的	78
+6e	i'mEdZin	!想像, 设想, 猜测; $想像起来	5f
+2balance	im'bElans	@不平衡, 不均衡; | 不平衡, 失调	40
+3ecile	'imbisi:l	#低能的, 愚钝的, 虚弱的; @低能者, 痴呆, 蠢人	80
+3ibe	im'baib	!饮, 吸取, 吸入; $喝, 吸收水分	c0
+3roglio	im'brauljau	@纷乱, 纠葛, 一团糟	80
+3ue	im'bju:	!使感染, 灌输, 使浸透	c0
+2itate	'imiteit	!模仿, 效法, 冒充, 仿造	7c
+6ion	.imi'teiSan	@模仿, 效法, 冒充, 赝品; | 模仿, 仿制, 仿制品	f8
+7ve	'imitativ	#喜模仿的, 伪造的, 仿制的, 摹拟的	80
+2maculate	i'mEkjulit	#无污点的, 纯洁的, 无缺点的, 无辜的; | 无斑点, 无瑕疵的, 洁净的	80
+4nent	'imanant	#内在的, 固有的	80
+3ediate	i'mi:diat	#立即的, 直接的, 接近的; | 直接的, 立即的	5e
+9ly	i'mi:diatli	%直接地, 立刻, 立即	4f
+4morial	.imi'mQ:rial	#太古的, 远古的, 无法追忆的; } 无法追溯的, 无法记忆的, 太古的	80
+4nse	i'mens	#极广大的, 无边的, 非常好的	fc
+6ity	i'mensiti	@广大, 无边, 巨物	80
+4rse	i'ma:s	!沉浸, 使陷入; | 浸[入]	f8
+3igrant	'imigrant	@移民; #移入的, 移民的	7c
+7te	'imigreit	!使移居入境; $移入	4c
+8ion	.imi'greiSan	@移民, 移居; | 移民	4a
+4nent	'iminant	#即将来临的, 逼近的	e0
+3obile	i'maubail	#不动的, 不变的, 固定的, 静止的	40
+7ity	.imau'biliti	@不动性, 不动, 固定; | 不动[性]	40
+8ze	i'maubilaiz	!使不动, 使固定, 使不能移动; | 制动, 固定	40
+4desty	i'mOdisti	无礼	40
+4late	'imauleit	!为供神而宰杀, 牺牲, 杀死	c0
+4rtal	i'mQ:tal	@不朽人物, 神仙; #永远的, 不死的, 长久的	c8
+3une	i'mju:n	#免疫的, 免除的, 不受影响的; @免疫者	f8
+5ity	i'mju:niti	@免疫, 免疫性, 免除; ] 免疫性	c8
+6ze	'imju:naiz	!使免疫, 赋予免疫性	80
+4re	i'mjua	!监禁, 禁闭	80
+2p	imp	@顽童; !加强, 给...装上翅膀; { 图象处理程序, 接口信息处理器	80
+3act	'impEkt	@冲击, 冲突, 影响, 效果; !挤入, 撞击, 压紧, 对...发生影响	fc
+4ir	im'pea	!损害, 减少, 削弱; } 损害, 伤害, 减少	f8
+4le	im'peil	!刺穿, 使绝望, 钉住	c0
+5pable	im'pElpabl	#不可触知的, 不能感知的, 难以理解的; | 不可接触的, 极细微的	80
+4rt	im'pA:t	!给予, 传授, 告知	f8
+6ial	im'pA:Sal	#公平的, 不偏不倚的; } 公正无私的, 不偏袒的, 公平的	d8
+9ly	,im,pA:Sali	%公平地, 无私地; 秉公	40
+4sse	'impA:s	@难局, 僵局, 死路, 死胡同	80
+6ible	im'pEsibl	#不觉痛苦的, 不受伤害的, 无感觉的, 无感情的	40
+7oned	im'pESand	#充满激情的, 狂热的, 热烈的	c0
+7ve	im'pEsiv	#无感情的, 冷淡的, 无感觉的, 不能伤害的	c0
+4tient	im'peiSant	#不耐烦的, 着急的, 急切的	5c
+3each	im'pi:tS	!控告, 怀疑, 检举, 弹劾; } 控告, 检举, 弹劾	c0
+4ccable	im'pekabl	#无懈可击的, 勿容置疑的, 无瑕疵的, 不会做坏事的	c0
+5unious	.impi'kju:njas	#没有钱的, 身无分文的, 贫穷的	80
+4de	im'pi:d	!妨碍, 阻碍, 阻止	e0
+5iment	im'pedimant	@妨碍, 障碍, 阻止, 口吃; > 对履行义务的阻碍	c0
+4l	im'pel	!推动, 激励, 驱使, 迫使	c0
+4nd	im'pend	$迫近, 威胁, 悬挂	80
+6ing	im'pendiN	#即将发生的, 迫切的, 悬空的; } 就要来的, 逼在眼前的, 紧急的	c0
+5etrable	im'penitrabl	#不能通过的, 不可理喻的, 费解的, 顽固的	80
+5itent	im'penitant	#不知悔改的, 顽固的; @不知悔改的人, 顽固的人	80
+4rative	im'perativ	@命令, 必要的事, 规则, 祈使语气; #命令式的, 急需的, 势在必行的, 强制的	f8
+5ial	im'piarial	#帝王的, 宗主国的, 至尊的, 壮丽的; @特等品	b8
+6l	im'peril	!使处于危险, 危害	80
+6ous	im'piarias	#专横的, 傲慢的, 迫切的; | 强制的, 不随意的	80
+5manent	im'pa:manant	#暂时的, 非永久的	80
+6eability	im.pa:mia'biliti	@不渗透性, 不透过性; | 不[渗]透性	80
+9le	im'pa:miabl	#不能渗透的, 不能通过的; | 不[渗]透性	c0
+5sonal	im'pa:sanal	#客观的, 和个人无关的, 没有人情味的, 非人称的; @非人称动词(或代词)	40
+9te	im'pa:saneit	!模仿, 扮演, 体现, 使人格化; } 体现, 模仿, 拟人	c0
+aion	im.pa:sa'neiSan	@扮演, 装扮, 模仿; { 模仿	40
+5tinence	im'pa:tinans	@不切题, 鲁莽, 无礼, 不恰当; } 不切题, 不对题, 不适合	80
+at	im'pa:tinant	#不切题的, 鲁莽的, 无礼的, 粗鲁的, 不恰当的	40
+6urbable	.impa'ta:babl	#沉着的, 泰然自若的, 镇静的	80
+5vious	im'pa:vias	#透不过的, 不易损坏的, 无动于衷的, 不受影响的; | 不能透过的	c0
+4tuous	im'petSuas	#冲动的, 猛烈的, 轻率的, 狂暴的	c0
+6s	'impitas	@动力, 推动力, 动量; | 冲动, 动能, 起始(病)	f8
+3inge	im'pindZ	$撞击, 起作用, 侵犯; !撞击	80
+4ous	'impias	#无信仰的, 不敬神的, 不虔诚的, 不孝的	40
+3lant	im'plA:nt	!深植, 灌输, 嵌入; @植入物, 植入管	80
+5usible	im'plQ:zabl	#难以置信的, 不象真实的	80
+4ement	'implimant	@工具, 器具, 手段; !实现, 使生效, 执行	fc
+4icate	'implikeit	!涉及, 含意, 暗示, 牵连; @包含的东西	c0
+8ion	.impli'keiSan	@牵连, 含义, 暗示; } 推断, 含蓄之意, 暗示	dc
+6it	im'plisit	#暗示的, 含蓄的, 固有的, 绝对的; > 不讲明的, 含蓄的	f8
+4ode	im'plaud	$内爆, 向内破裂, 爆裂; [电] 内裂	80
+5re	im'plQ:	!恳求, 哀求	88
+4y	im'plai	!暗示, 意味; { 隐含	5c
+3olitic	im'pQlitik	#失策的, 不得当的	80
+4nderable	im'pQndarabl	#无重量的, 无法计算的, 不可估价的; @无法衡量的事物	80
+4rt	im'pQ:t	@进口货, 进口, 输入, 含义, 重要性; !输入, 引入, 进口, 含...的意思, 重要; $有关系; { 引入	de
+6ance	im'pQ:tans	@重要, 重要性, 重要地位, 自大; [机] 重要, 重要性	1e
+8t	im'pQ:tant	#重要的, 有地位的, 大量的, 显要的, 自负的; { 要点	23
+6s	im'pQ:t	@进口商品；进口总额（import的复数）	20
+6une	.impQ:'tju:n	!强求, 硬要; $强求, 纠缠	c0
+4se	im'pauz	!征(税), 把...强加于, 以...欺骗; $利用, 欺骗, 施加影响	fc
+5ing	im'pauziN	#令人难忘的, 壮丽的, 威风的	e0
+5sible	im'pQsabl	#不可能的, 难以置信的, 令人无法忍受的	3f
+5tor	im'pQsta	@冒名顶替者, 骗子, 冒牌	80
+6ure	im'pQstSa	@欺诈, 冒牌	80
+4tence	'impatans	@无力, 虚弱, 无效, 阳萎; | 阳萎, 无能力	40
+4verish	im'pQvariS	!使贫穷, 耗尽...的力气	88
+3racticality	im,prEkti'kEliti	@不切实际, 办不到	40
+4ecate	'imprikeit	!祈求, 诅咒	40
+8ion	.impri'keiSan	@祈求, 诅咒	80
+6ise	.impri'saiz	#不严密的, 不精确的, 不明确的	80
+5gnable	im'pregnabl	#无法攻取的, 坚强不屈的, 驳不倒的	80
+5sario	.impri'sA:riau	@演出者, 主持人	80
+6s	im'pres	@印象, 特征, 印记; !使有印象, 印, 铭刻, 传送, 影响, 强征; $给人印象	1e
+7ed		#外加的；印象深刻的；了不起的；受感动的	80
+7ion	im'preSan	@印象, 意念, 盖印, 印记, 印数, 底色, 效果; | 压迹, 印模, 印象, 影响	9e
+aable	im'preSanabl	#易感的, 敏感的, 可塑的	80
+8ve	im'presiv	#给人深刻印象的, 威严的	7c
+4int	im'print	!印, 铭刻; @印, 印记, 特征, 痕迹, 版本说明	c0
+5son	im'prizn	!使下狱, 关闭, 拘禁, 限制; } 关押, 监禁, 限制	c
+8ment	im'priznmant	@监禁, 下狱, 坐牢; } 监禁, 徒刑, 拘禁	40
+4obable	im'prQbabl	#不大可能的, 不象发生的, 荒谬可笑的; } 未必会的, 不大可能发生的, 未必确实的	40
+5mptu	im'prQmptju:	@即席演出, 即兴曲; #即席的; %即席	e0
+5per	im'prQpa	#不合适的, 错误的, 不成体统的, 不道德的; } 不适当的, 不合适的, 不正确的	8
+6riety	.impra'praiati	@不适当, 不得体, 不正当行为, 用词不当	40
+5ve	im'pru:v	!改良, 提高...的价值, 改善, 利用; $变得更好, 增加	1f
+7ment	im'pru:vmant	@进步, 改善, 利用; | 改善, 好转, 进步	3c
+6ident	im'prQvidant	#无远见的, 浪费的	c0
+7se	'impravaiz	!即席创作, 临时做	e0
+9d	'impravaizd	#临时准备的；即兴的	80
+9r	'impravaiza	@即兴创作者	40
+4udent	im'pru:dant	#轻率的, 鲁莽的	c0
+3udent	'impjudant	#鲁莽的, 卑鄙的, 厚颜无耻的	c0
+4gn	im'pju:n	!责难, 抨击, 攻击; } 驳斥, 指责, 非难	80
+4issance	im'pju(:)isns	@无力, 虚弱, 无能	80
+4lse	'impVls	@冲动, 驱使, 刺激, 推动, 冲力, 建议, 脉冲; !推动	f8
+6ive	im'pVlsiv	#冲动的, 受感情驱使的, 任性的; | 冲动的	c0
+4nity	im'pju:niti	@不受惩罚, 无事, 无患; } 不受刑罚, 免罚, 免罪	c0
+4re	im'pjua	#不纯的, 肮脏的, 掺杂的, 混合的; | 不纯的	40
+5ity	im'pjuariti	@杂质, 不洁, 不纯; ] 杂质	48
+4tation	.impju:'teiSan	@归罪, 非难; } 归属, 归罪, 转嫁	80
+5e	im'pju:t	!归罪, 使负责, 嫁祸于	c0
+1n	in	^在...期间, 在...之内, 处于...之中, 从事于, 按照, 穿着; %进入, 朝里, 在里面, 在屋里; #在里面的, 在朝的; @执政者, 交情	23
+2 spite of		不管	40
+2ability	.ina'biliti	@无能, 无力	60
+3ccessible	.inEk'sesabl	#难得到的, 难接近的, 难达成的	58
+5urate	in'Ekjurit	#错误的, 不准确的; ] 不精确	28
+4tivate	in'Ektiveit	!使不活动, 撤销, 使失去活性, 灭活; | 灭活, 使不活动	40
+3dequate	in'Edikwat	#不充分的, 不适当的; } 不充分的, 不适当的	68
+4vertence	,inad'v\\\\:tans	@漫不经心, 粗心大意, 疏漏, 错误; } 粗心大意, 疏漏, 漫不经心	80
+atly	,inad'vR:tantli	%漫不经心地, 疏忽地; 非故意地	80
+3lienable	in'eiljanabl	#不能让与的, 不能转售的, 不能夺取的, 不可分割的	80
+3ne	i'nein	#空虚的, 愚蠢的, 空洞的; @空洞乏物	80
+4imate	in'Enimat	#失去知觉的, 没生命的, 无精打采的; | 无生命的, 无生机的	c0
+3ppreciable	.ina'pri:Sabl	#微不足道的	80
+6opriate	.ina'praupriat	#不适当的, 不相称的	40
+4t	in'Ept	#不适当的, 不熟练的	20
+3smuch	.inaz'mVtS	%因...之故, 在...范围内	8
+3ugural	i'nQ:gjural	#就任的, 开幕的; @就职演讲	80
+8te	i'nQ:gjureit	!开始, 举行...就职典礼	e8
+2born	'inbO:n	#天生的；先天的	c0
+2candescence	.inkEn'desans	@白热, 炽热; ] 炽热; 灼热	80
+bt	.inkEn'desnt	#白热的, 闪闪发光的, 辉耀的, 灿烂的; | 白炽的, 白热的	48
+5tation	.inkEn'teiSan	@咒语	80
+4pable	in'keipabl	#无能力的, 不能的; [机] 不能行的, 耐不住的	8
+6citate	.inka'pEsiteit	!使无能力, 使无行为能力; } 使无资格, 使无能力, 剥夺资格	40
+4rcerate	in'kA:sareit	!下狱, 监禁, 禁闭; } 监禁, 使下狱, 禁闭	c0
+5nate	in'kA:neit	!体现, 使具体化, 使实体化; #化身的, 实体化的, 肉色的, 深红色的	80
+3endiary	in'sendjari	#放火的, 煽动的, 燃烧的; @纵火犯人, 煽动者, 燃烧弹	80
+5se	'inseins	@香, 香气, 奉承; $焚香; !用香焚, 使发怒	c8
+5tive	in'sentiv	@动机; #激励的	f8
+4ption	in'sepSan	@起初, 获得学位	80
+4rtitude	in'sa:titju:d	@不确实, 无信心, 不安全	80
+4ssant	in'sesnt	#不断的, 不绝的, 无尽的	c0
+3h	intS	@英寸, 身高, 小岛; $慢慢前进, 慢慢移动; !使缓慢地移动	9f
+4oate	in'kaueit	#刚开始的, 不成熟的, 未发达的; > 不完整	80
+3idence	'insidans	@发生, 发生率, 影响, 负担者, 入射, 倾角; | 入射, 发生率, 发生数	f8
+7t	'insidant	@事件, 事变, 小事; #附带的, 易于发生的, 外来的, 入射的	5e
+8ally	.insi'dentali	%伴随地, 偶然, 顺便	78
+4nerate	in'sinareit	$烧成灰, 灰化; !焚化	80
+4pient	in'sipiant	#起初的, 发端的, 初期的; | 初发的, 初期的	e0
+4se	in'saiz	!切割, 雕刻; | 切	c0
+5ion	in'siZan	@切口, 切割, 雕刻, 切入; | 切口, 切开, 缺口(叶)	80
+6ve	in'saisiv	#敏锐的, 机敏的, 激烈的, 切入的, 锋利的; | 切牙的, 切的	c0
+5or	in'saiza	@门牙; | 切牙, 门齿	80
+4te	in'sait	!刺激, 激励, 引诱; } 鼓动, 煽动	e0
+3lement	in'klemant	#险恶的, 严酷的	80
+4ination	.inkli'neiSan	@倾向, 趋向, 倾斜度, 点头; ] 倾角	68
+6e	in'klain	@倾斜, 斜坡, 斜面; !使倾向于, 使倾斜; $倾向, 倾斜, 爱好, 易于	3c
+7d	in'klaind	#倾向于...的, 想要...的, 可能的, 趋向于...的	40
+4ude	in'klu:d	!包括, 把...算入, 包住; { DOS内部命令:在CONFIG.SYS文件的一个配置块中包含另一配置块的内容	1f
+5sive	in'klu:siv	#包含的, 包括的	f8
+3ogitant	in'kOdZitant	#无思想的；粗心的；不体谅的	80
+4herent	.inkau'hiarant	#不连贯的, 语无伦次的; | 不连贯的	40
+4me	'inkVm	@收入, 收益, 流入; > 收益	1e
+5ing	'inkVmiN	#进来的, 刚开始的, 新来的; @进来	20
+5mensurate	.inka'menSareit	#不相称的, 不适应的	80
+5patible	.inkam'pEtabl	#不相容的, 不能并存的, 矛盾的; ] 不协调	c8
+6etent	in'kQmpitant	#无能力的, 无资格的, 机能不全的, 不胜任的; @无能力者	c0
+6lete	.inkam'pli:t	#不完全的, 未完成的, 不完善的; [机] 不完全的	8
+6rehensible	in.kQmpri'hensabl	#不能理解的, 费解的, 无限的	40
+4nceivable	.inkan'si:vabl	#不能想象的, 想不到的, 难信的	40
+6lusive	.inkan'klu:siv	#非决定性的, 无效果的, 不得要领的; } 非决定性的, 不确定的, 无结果的	40
+5gruent	in'kONgruant	#不一致的；不协调的；不和谐的；不合适的（名词incongruence, 副词incongruently）	80
+8ity	.inkQN'gru:iti	@不协调, 不一致, 不合适; ] 异元性; 不相容性	c0
+8ous	in'kQNgruas	#不协调的, 不一致的, 不合适的	60
+5sequential	.inkQnsi'kwenSal	#不合逻辑的, 不合理的, 不重要的	80
+6tancy	in'kQnstansi	@易变, 不定性, 反复无常	80
+5trovertible	.inkQntra'va:tabl	#无争论余地的, 无疑的, 明白的; } 不可辩驳的, 不容置疑的	80
+5venient	.nkan'vi:njant	#不便的, 有困难的	40
+4rporate	in'kQ:pareit	#合并的, 组成公司的, 一体化的; !吸收, 合并, 使组成公司, 体现; $合并, 混合, 组成公司	f8
+aion	in.kQ:pa'reiSan	@包含, 结合, 编入, 团体组织; | 惨合, 混合, 合并	40
+8eal	.inkQ:'pQ:rial	#无实体的, 灵魂的, 无形体的; } 无形体的, 非物质的, 精神的	80
+5rect	.inka'rekt	#不正确的; } 不正确, 错误的, 不适当的	e
+6igibility	in.kQridZa'biliti	@屡教不改, 难望矫正	80
+ale	in'kQridZabl	#无药可救的, 积习难改的; @不可救药的人	80
+6uptible	.inka'rVptibl	#不腐败的, 不能收买的, 清廉的	c0
+3rease	in'kri:s	@增加, 增进, 利益; !增加, 加大; $增加, 繁殖	1f
+7ingly	in'kri:siNli	%逐渐地, 渐增地	1c
+5dible	in'kredabl	#难以置信的	78
+6ulity	.inkri'dju:liti	@不轻信, 怀疑, 疑心	c0
+5ment	'inkrimant	@增加, 增值, 盈余; { 增量	a0
+4iminate	in'krimineit	!连累, 暗示...有罪, 控告; } 控告, 使入罪, 连累	c0
+4ustation	.inkrVs'teiSan	@用硬壳包, 镶嵌, 痂, 硬壳; | 结痂, 痂	80
+3ubate	'inkjubeit	!孵, 培养, 使发展; $孵蛋, 潜伏, 筑巢, 孵化, 酝酿; @孵育物	c0
+7ion	.inkju'beiSan	@抱蛋, 孵化, 酝酿; | 孵育, 孵化, 潜伏, 宿庙求梦(古希腊)	80
+7or	'inkjubeita	@孵卵器, 细菌培养器, 早产儿保育器; ] 恒温箱; 孵化箱	80
+5us	'iNkjubas	@梦淫妖, 梦魇, 沉重的负担; | 梦魔, 梦魇	80
+4lcate	'inkVlkeit	!反复灌输, 谆谆教诲	c0
+5pate	'inkVlpeit	!使负罪, 控告, 使连累; } 控告, 连累, 归罪于	80
+4mbent	in'kVmbant	#现任的, 依靠的, 负有义务的; @领圣俸者, 在职者	80
+4r	in'ka:	!招致, 蒙受, 遭遇; > 招致, 蒙受, 担负	f8
+2debted	in'detid	#负债的, 受惠的; } 负债的, 法律上有义务偿还的	80
+4cent	in'di:sant	#下流的, 不礼貌的; | 猥亵的	40
+5ipherable	.indi'saifarabl	#辨读不出的, 破译不出的, 无法解释的	80
+6sive	.indi'saisiv	#非决定性的, 犹豫不决的, 不明确的	80
+4ed	in'di:d	%的确, 实在, 真正地, 甚至	1e
+4fatigable	.indi'fEtigabl	#不知疲倦的, 有耐性的, 不屈不挠的	c0
+5inite	in'definit	#模糊的, 不确定的, 无限的; } 不确定的, 无限制的	6c
+aly		%无期限地	48
+4lible	in'delibl	#难以消除的, 不能拭除的, 难忘的	a0
+4mnify	in'demnifai	!赔偿, 补偿, 保护, 保障; > 赔偿	c0
+7ty	in'demniti	@赔偿, 保障, 补偿, 赦免, 保护; > 赔偿, 补偿, 赔偿金	e0
+4nt	in'dent	@契约, 订货单, 凹痕; $切割成锯齿状; !缩排, 定货, 印凹痕; { 缩进	c0
+6ed	in'dentid	#犬牙交错的；受契约约束的；[印刷]缩进排印的	40
+6ure	in'dentSa	@契约, 契据, 凹痕; !以契约束缚	c0
+4pendence	.indi'pendans	@独立, 自立, 自主; | 自主性, 独立性	3e
+at	.indi'pendant	@独立自主者, 无党派者; #独立的, 有主见的, 不须依赖的, 不受约束的	5e
+4terminate	.indi'ta:minat	#不明确的, 不确定的, 含混的; } 不明确的, 无定期的, 不确定的	80
+4x	'indeks	@索引, 指针, 指数, 指标; !编入索引中, 指出; $做索引; { 下标; 附标; 变址; 索引; 编索引	3c
+0India	'indja	@印度	f
+5n	'indian	@印度人, 印第安人, 印第安语; #印度的, 印度群岛的, 印第安语的	2f
+0indicate	'indikeit	!显示, 象征, 指示, 指出; | 指示	de
+7ion	.indi'keiSan	@指示, 象征, 暗示; | 指示, 指征, 适应征	1c
+8ve	in'dikativ	#指示的, 象征的, 表示...的; > 指标的	f8
+7or	'indikeita	@指示器, 指示剂, 指标; { 指示器	20
+5es	'indisi:z	pl. 索引, 指针, 指数, 指标	80
+5t	in'dait	!起诉, 控告, 指控; } 控告, 揭发, 对...起诉	80
+6ment	in'daitmant	@起诉, 控告, 起诉状; > 起诉书	40
+4fference	in'difarans	@不重视, 无兴趣, 漠不关心; } 中立, 不偏袒, 不重视	40
+at	in'difarant	#漠不关心的, 无重要性的, 中立的; | 中性的, 无作用的, 无亲和力的, 淡漠的	fc
+4gence	'indidZans	@贫乏, 穷困的人们	80
+7ous	in'didZinas	#本土的, 国产的, 固有的; | 原产的, 本土的	e0
+7t	'indidZant	#贫乏的, 穷困的	c0
+6stion	.indi'dZestSan	@消化不良; | 消化不良, 不消化	40
+5nant	in'dignant	#愤怒的, 愤慨的	fc
+7tion	.indig'neiSan	@愤怒, 愤慨, 义愤	98
+6ity	in'digniti	@侮辱; } 侮辱的言行, 无礼, 有伤尊严	c0
+4rect	.indi'rekt	#间接的, 非直截了当的, 不坦率的; | 间接的	c
+4scriminately	,indi'skriminatli	%无差别, 任意地; 不分青红皂白地; 滥; 不分皂白	48
+dion	'indis,krimi'neiSan	@无差别, 不加区别的事物(行为)	40
+5pensability		@不可缺少, 责无旁贷	80
+ble	.indis'pensabl	@不可缺少之物; #不可缺少的, 责无旁贷的, 绝对必要的	7c
+4te	in'dait	!写成文章, 创作	c0
+4vidual	.indi'vidZual	@人, 个人, 个体; #个别的, 个人的, 独特的	bc
+aism	.indi'vidZualizm	@个人主义, 个人特征; > 个人主义	40
+3octrinate	in'dQktrineit	!教训, 教导, 灌输	80
+4lent	'indalant	#懒惰的, 无痛的; | 无痛的	c0
+4mitable	in'dQmitabl	#不屈服的, 不屈不挠的	40
+4or	'indQ:	#户内的, 室内的	1c
+6s	'in'dQ:z	%在户内	c
+3ubitable	in'dju:bitabl	#无疑的, 确实的, 明显的; } 不容置疑的, 明确的	80
+4ce	in'dju:s	!引诱, 招致, 归纳出, 感应; | 诱导, 感应	f8
+5ible	in'dju:sabl	#可导致的；可诱导的	40
+5t	in'dVkt	!引导, 使入门, 引入, 使就职	80
+6ion	in'dVkSan	@归纳法, 感应, 就职, 入门; { 归纳法	88
+4lge	in'dVldZ	!纵情于, 使高兴, 放任, 迁就; $沉溺	b8
+4rate	'indjureit	!使硬化, 使无感觉, 使确立; #顽固的, 冷酷的	80
+4strial	in'dVstrial	#工业的, 供工业用的, 工业高度发展的, 产业的; @工业工人, 工业股票	7c
+aization	in,dVstrialai'zeiSn	@工业化, 产业化; > 工业化	40
+ce	in'dVstrialaiz	!使工业化; $实现工业化	1c
+dd	in'dVstrialaizd	#工业化的	40
+8ous	in'dVstrias	#勤勉的, 刻苦的	c8
+7y	'indastri	@勤劳, 工业, 企业, 产业, 有组织的劳动; > 工业, 实业	3f
+2ebriate	i'ni:briat	#酒醉的; @酒鬼; !使醉, 使陶醉	80
+3ffable	in'efabl	#无法形容的, 不可言喻的, 避讳的	80
+6ceable	.ini'feisabl	#不能消除的, 不能抹掉的	80
+5ectual	.ini'fektSual	#无效的, 无益的	80
+5icient	.ini'fiSant	#无效率的, 无能的; | 无效的, 无效力的	c
+3lastic	.ini'lEstik	#无弹性的, 无弹力的, 无适应性的; | 无弹性的	40
+9ity	.inilEs'tisiti	@无弹力, 生硬, 不适应性; ] 非弹性	80
+4igible	in'elidZabl	#无被选任资格的, 不适任的, 无益的; @无被选任资格的人, 不合录用资格的人	c0
+4uctable	.ini'lVktabl	#不可避免的, 无法逃避的	80
+3pt	in'ept	#不适当的, 不理智的, 笨拙的; } 不称职者, 无能的, 不符要求的	e0
+5itude	in'eptitju:d	@不适当, 愚笨, 愚昧言行; } 不称职, 无能, 不适当	80
+3quity	in'ekwiti	@不公平, 不公正	80
+3rt	i'na:t	#惰性的, 迟钝的, 无活力的, 呆滞的; | 惰性的, 无作用的, 无效的	e0
+5ia	i'na:Sa	@惯性, 惰性, 迟钝; ] 惯性	b8
+3vitable	in'evitabl	#不可避免的, 必然的; } 不可避免的, 无法规避的, 必然的	7c
+9y	in'evitabli	%不可避免地	48
+3xhaustible	.inig'zQ:stabl	#用不完的, 无穷尽的, 不知疲倦的	80
+4orable	in'eksarabl	#无情的, 冷酷的	80
+4pedient	.inik'spi:djant	#不便的, 不适当的, 失策的	80
+6nsive	.inik'spensiv	#便宜的, 不贵重的	c
+5iable	in'ekspiabl	#不能抵偿的, 不能平息的	80
+5licable	in'eksplikabl	#不能说明的, 不能解释的, 费解的	80
+4tricably		%无法摆脱地, 解不开地, 不能解决地	40
+2fallible	in'fElabl	#绝无错误的, 绝对可靠的; @一贯正确的人	40
+4mous	'infamas	#无耻的, 不名誉的, 声名狼藉的	44
+4ncy	'infansi	@幼年, 初期, 幼儿期; | 婴儿期(一足岁以内)	58
+5t	'infant	@婴儿, 儿童, 初学者; #婴儿的, 幼稚的	fc
+6ile	'infantail	#婴儿的, 幼稚的, 初期的; | 婴儿的, 幼稚的	80
+6ry	'infantri	@步兵, 步兵团	80
+4tuate	in'fEtjueit	!使迷恋, 使糊涂; #着迷的; @迷恋者	80
+9d	in'fEtjjeitid	#迷恋着的, 昏头昏脑的	80
+8ion	in.fEtju'eiSan	@迷惑, 迷恋, 醉心	80
+3ect	in'fekt	!传染, 感染; | 传染, 感染	7c
+6ion	in'fekSan	@传染, 影响, 传染病; | 传染, 感染	f0
+8us	in'fekSas	#有传染性的, 易传染的; | 传染性的	78
+4licitous	.infi'lisitas	#不幸的, 不完善的, 不适当的	80
+9y	.infi'lisiti	@不幸, 不适当	80
+4r	in'fa:	!推论出, 推断; $作推论	dc
+5ence	'infarans	@推论; } 推论, 推理, 推断	38
+5ior	in'fiaria	#次等的, 较差的, 下方的, 下级的; @部下, 次品, 下标(符号)	fc
+8ity	in.fiari'Qriti	@自卑, 次等; | 下位, 下级, 次级, 劣等	48
+5nal	in'fa:nl	#阴间的, 恶魔的	80
+6o	in'fa:nau	@地狱, 地狱似的地方	80
+5tile	in'fa:tail	#不肥沃的, 不毛的, 不结果实的	40
+4st	in'fest	!骚扰, 寄生于, 大批出没; | 传染, 感染	e0
+3iltrate	in'filtreit	!使浸润, 使潜入, 使渗入; $渗入; @渗透物	c0
+4nite	'infinit	@无限, 神; #无穷的, 无限的, 极大的	3c
+8ly	'infinitli	%无限地, 无数地, 庞大地	8
+8simal	.infini'tesiml	#极小的, 极微的, 无限小的; @极小量, 极微量, 无限小	80
+7y	in'finiti	@无限大, 无限; { 无穷	88
+4rm	in'fa:m	#弱的, 虚弱的, 柔弱的; | 衰弱的	80
+6ary	in'fa:mari	@医院, 养老院; | 医务所, 医务室, 小医院	60
+6ity	in'fa:miti	@虚弱, 病身, 疾病; | 衰弱	40
+3lame	in'fleim	!激怒, 点火, 激起; $着火, 激动, 发炎	80
+7d		#红肿的, 发炎的	80
+6mation	.infla'meiSan	@怒火, 发火, 燃烧, 发炎; | 炎[症]	80
+5te	in'fleit	!使膨胀, 使得意, 使通货膨胀, 使充气; $充气, 膨胀	c8
+6ion	in'fleiSan	@胀大, 夸张, 通货膨胀; ] 充气吹胀; 膨胀	78
+4exible	in'fleksabl	#不屈曲的, 不屈挠的, 顽固的	40
+4ict	in'flikt	!施以, 加害, 使承受; } 处, 加, 予以	e8
+7ion	in'flikSan	} 处罚, 加刑, 刑罚	80
+4uence	'influans	@影响力, 权力, 势力; !影响, 改变	3f
+7tial	.infu'enSal	#有影响的, 有势力的	5c
+7za	.influ'enza	@流行性感冒; | 流行性感冒, 流感	40
+5x	'inflVks	@流入, 河口, 汇集; | 注入, 流入	e0
+3orm	in'fQ:m	!通知, 使了解, 使充满; $提供资料, 告发	1e
+6al	in'fQ:mal	#非正式的, 不拘礼的, 通俗的; > 非正式的, 日常使用的	40
+7tion	.infa'meiSan	@消息, 知识, 通知, 情报, 信息, 问讯处, 起诉; { 信息	23
+9ve	in'fQ:mativ	#提供消息的, 见闻广博的	60
+6ed	in'fQ:md	#见多识广的	c0
+7r	in'fQ:ma	@密告者, 控告者, 通知者; } 控告人, 通知者, 告密者	80
+3raction	in'frEkSan	@违反, 侵害; | 不全骨折	80
+5red	.infra'red	#红外线的; @红外线	10
+5structure	'infrastrVktSa	@基础结构, 基础设施; > 基础设施	18
+4inge	in'frindZ	v. 破坏, 侵犯, 违反	e0
+3uriate	in'fjuarieit	#狂怒的; !激怒	80
+4se	in'fju:z	!注入, 使充满, 泡制, 鼓舞; $泡	c0
+5ion	in'fju:Zan	@注入, 泡制, 注入物; ] 浸渍; 浸泡	48
+2genious	in'dZi:njas	#灵敏的, 精巧的, 聪明的	f8
+9ly	in'dZi:niasli	%有才能地, 贤明地	40
+5uity	.indZi'nju:iti	@心灵手巧, 精巧, 精巧设计	88
+6ous	in'dZenjuas	#坦白的, 正直的, 天真的	80
+4st	in'dZest	!摄取, 咽下, 吸取	80
+6ion	in'dZestSan	@摄取; | 食入, 摄食	80
+3rained	in'greind	#根深蒂固的, 彻底的, 深染的	80
+5te	in'greit	@忘恩者; #不知恩的, 忘恩的	80
+6iate	in'greiSieit	!使迎合, 使讨好	80
+9ing	in'greiSieitiN	#逢迎的, 迎合的	80
+4edient	in'gri:diant	@成分, 因素; ] 配合剂; 拼料; 成分; 组分	fc
+5ss	'ingres	@进入, 入口, 准许进入; } 进入, 入境, 入口	80
+2habit	in'hEbit	!居住于, 占据, 栖息	fc
+7ant	in'hEbitant	@居民, 居住者; | 居民	fc
+4le	in'heil	!吸入; $吸气	90
+3erent	in'hiarant	#固有的, 与生俱来的; | 固有的, 生来的	78
+5it	in'herit	!继承, 遗传; $接受遗产	fc
+7ance	in'heritans	@遗传, 遗产; | 遗传	40
+3ibit	in'hibit	!禁止, 抑制; $起抑制作用	f8
+7or	in'hibita(r)	@禁止者, 抑制人, 抑制物, 抑制因素, 抑制剂, 阻化剂; { 禁止器, 抑制剂	80
+3umane	.inhju:'mein	#无人情味的, 薄情的, 残忍的	80
+2imical	i'nimikal	#有敌意的, 有害的, 抵触的	80
