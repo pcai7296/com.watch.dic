@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" onclick="goBack" ontouchstart="onBackButtonTouchStart" ontouchend="onBackButtonTouchEnd" />
 
     <marquee if="{{ queryMarqueeOn }}" id="query-marquee" class="query-marquee query-marquee-{{screenClass}}"
@@ -50,6 +50,7 @@ import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
 import {getDictionaryProfile, loadDictionaryProfile} from "../../common/dictProfile"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
+import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 const {navGuard} = global
 
@@ -144,7 +145,8 @@ export default {
     mightHaveMore: false,
     resultLongPressHomeEnabled: true,
     backLongPressTimer: null,
-    backLongPressTriggered: false
+    backLongPressTriggered: false,
+    animClass: pageTransitionClass()
   },
 
   _expandTag(s) {
@@ -187,6 +189,9 @@ export default {
 
   onInit() {
     loadDictionaryProfile()
+    applyPageTransition((cls) => {
+      this.animClass = cls
+    })
     // 词典分片缓存：纯逻辑数据，不进 viewModel（避免 observer/代理开销）
     this.fileCache = new LRUCache(6)
     this.entryCache = new LRUCache(4)
@@ -2419,6 +2424,8 @@ export default {
 </script>
 
 <style>
+@import "../../common/pageTransition.css";
+
 .back-btn {
   width: 102px;
   height: 72px;

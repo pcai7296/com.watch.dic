@@ -1,7 +1,7 @@
 <import name="input-method" src="../../components/InputMethod/InputMethod.ux"></import>
 
 <template>
-  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" if="{{ !query }}" src="/common/icons/btn_back.png" onclick="onSearchButtonClick" />
     <image class="check-btn" if="{{ query }}" src="/common/icons/btn_check.png" onclick="onSearchButtonClick" />
 
@@ -49,6 +49,7 @@ import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
 import {getDictionaryProfile, loadDictionaryProfile} from "../../common/dictProfile"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
+import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 const {buildTarget, navGuard} = global
 
@@ -111,7 +112,8 @@ export default {
     marqueeTimer: null,
     tapTimes: [],
     marqueeActive: false,
-    marqueeSpeed: 40
+    marqueeSpeed: 40,
+    animClass: pageTransitionClass()
   },
 
   _expandTag(s) {
@@ -150,6 +152,9 @@ export default {
     this.englishSuggestionOrder = []
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()
+    applyPageTransition((cls) => {
+      this.animClass = cls
+    })
     this.applyScreenInfo(buildTarget)
     const app = this.$app.$def
     device.getInfo({
@@ -846,6 +851,8 @@ export default {
 </script>
 
 <style>
+@import "../../common/pageTransition.css";
+
 .check-btn {
   width: 102px;
   height: 72px;
