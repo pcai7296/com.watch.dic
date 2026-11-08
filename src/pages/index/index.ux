@@ -1,12 +1,25 @@
 <template>
-  <div class="page page-{{screenClass}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
-    <!-- 共用：时间（弧形） -->
-    <div class="clock clock-{{screenClass}}">
-      <text class="clock-digit cd0">{{tc0}}</text>
-      <text class="clock-digit cd1">{{tc1}}</text>
-      <text class="clock-digit cd2">{{tc2}}</text>
-      <text class="clock-digit cd3">{{tc3}}</text>
-      <text class="clock-digit cd4">{{tc4}}</text>
+  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
+    <!-- 336/432：圆角很小的矩形屏，时间用水平直线排布（弧线与屏幕轮廓不搭） -->
+    <text if="{{flatClock}}" class="time-flat time-flat-{{screenClass}}">{{tc0}}{{tc1}}{{tc2}}{{tc3}}{{tc4}}</text>
+
+    <!-- 共用：胶囊/圆屏时间（弧形） -->
+    <div if="{{!flatClock}}" style="width:212px;height:36px;margin-bottom:-4px;position:relative;">
+      <div style="position:absolute;left:53px;top:8.4px;width:20px;transform:rotate(-21deg);transform-origin:10px 16.5px;">
+        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc0}}</text>
+      </div>
+      <div style="position:absolute;left:73px;top:2.8px;width:20px;transform:rotate(-10.3deg);transform-origin:10px 16.5px;">
+        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc1}}</text>
+      </div>
+      <div style="position:absolute;left:93px;top:1px;width:20px;">
+        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc2}}</text>
+      </div>
+      <div style="position:absolute;left:113px;top:2.8px;width:20px;transform:rotate(10.3deg);transform-origin:10px 16.5px;">
+        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc3}}</text>
+      </div>
+      <div style="position:absolute;left:133px;top:8.4px;width:20px;transform:rotate(21deg);transform-origin:10px 16.5px;">
+        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc4}}</text>
+      </div>
     </div>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
@@ -97,6 +110,11 @@ import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
+import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
+
+// 336/432 是圆角很小的矩形屏：弧形时钟的弧线贴不上屏幕轮廓，改为水平直线排布
+const FLAT_CLOCK = { "336": true, "432": true }
+const usesFlatClock = (cls) => FLAT_CLOCK[cls] === true
 
 const {buildTarget, navGuard} = global
 
@@ -147,12 +165,14 @@ export default {
 
   private: {
     screenClass: currentScreenClass(),
+    flatClock: usesFlatClock(currentScreenClass()),
     screenProfile: buildTarget.profile,
     layoutMode: supportsMinimalLayout(currentScreenClass()) ? "minimal" : "classic",
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
     releasingKey: "",
-    btnScaleEnabled: false
+    btnScaleEnabled: false,
+    animClass: pageTransitionClass()
   },
 
   onInit() {
@@ -160,6 +180,9 @@ export default {
     this._updateTime()
     this._loadLayout()
     this._trackLaunch()
+    applyPageTransition((cls) => {
+      this.animClass = cls
+    })
   },
 
   _updateTime() {
@@ -232,7 +255,9 @@ export default {
           },
           complete: function() {}
         })
-        if (nextCount === 1 || nextCount % 10 === 0) {
+        if (nextCount === 1) {
+          this._scheduleGuidePrompt()
+        } else if (nextCount % 10 === 0) {
           this._scheduleSponsorPrompt()
         }
       }.bind(this),
@@ -278,6 +303,18 @@ export default {
       self._sponsorTimer = null
       self.goSponsor()
     }, 1500)
+  },
+
+  // 首次启动：不弹赞助页，改为推引导页（第 10 次启动仍弹赞助页）
+  _scheduleGuidePrompt() {
+    var self = this
+    if (this._guideTimer) {
+      clearTimeout(this._guideTimer)
+    }
+    this._guideTimer = setTimeout(function() {
+      self._guideTimer = null
+      self.goGuide()
+    }, 1200)
   },
 
   // 非关键的 storage 读取延后到首帧之后，避开与页面创建/图片解码抢峰值
@@ -347,6 +384,7 @@ export default {
 
 
     this.screenClass = appScreenClass(this)
+    this.flatClock = usesFlatClock(this.screenClass)
     // 矩形屏/圆屏没有简约布局的设计稿，切列后立即回落到经典
     if (!supportsMinimalLayout(this.screenClass)) {
       this.layoutMode = "classic"
@@ -362,6 +400,10 @@ export default {
     if (this._sponsorTimer) {
       clearTimeout(this._sponsorTimer)
       this._sponsorTimer = null
+    }
+    if (this._guideTimer) {
+      clearTimeout(this._guideTimer)
+      this._guideTimer = null
     }
   },
 
@@ -381,6 +423,10 @@ export default {
     if (this._sponsorTimer) {
       clearTimeout(this._sponsorTimer)
       this._sponsorTimer = null
+    }
+    if (this._guideTimer) {
+      clearTimeout(this._guideTimer)
+      this._guideTimer = null
     }
     this._stopTimeTicker()
   },
@@ -451,11 +497,19 @@ export default {
       return
     }
     router.push({ uri: "/pages/sponsor" })
+  },
+  goGuide() {
+    if (this._longPress || !navGuard()) {
+      return
+    }
+    router.push({ uri: "/pages/guide" })
   }
 }
 </script>
 
 <style>
+@import "../../common/pageTransition.css";
+
 .page {
   width: 100%;
   height: 100%;
@@ -1070,31 +1124,28 @@ export default {
   align-items: center;
 }
 
-/* 弧形时钟：基准几何是 212 屏的，其它列按比例整体放大 */
-.clock {
-  width: 212px;
-  height: 36px;
-  margin-top: -25px;
-  margin-bottom: -4px;
-  position: relative;
+
+
+/* 336/432 圆角小矩形屏：时间水平直线排布；盒子净高与弧形一致（32px），不挤动下面的内容 */
+.time-flat {
+  text-align: center;
+  font-weight: 600;
+  font-family: monospace;
+  color: #ffffff;
 }
 
-.clock-336 {
-  margin-top: 0px;
+.time-flat-336 {
+  width: 90px;
+  height: 28px;
+  font-size: 22px;
   margin-bottom: 4px;
-  transform: scale(1.3);
 }
 
-.clock-432 {
-  margin-top: 0px;
-  margin-bottom: 4px;
-  transform: scale(1.45);
-}
-
-.clock-466 {
-  margin-top: 0px;
-  margin-bottom: 4px;
-  transform: scale(1.5);
+.time-flat-432 {
+  width: 116px;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 2px;
 }
 
 .title-466 {

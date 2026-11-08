@@ -1,0 +1,465 @@
+<template>
+  <div class="guide-page {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+    <text class="guide-eyebrow guide-eyebrow-{{screenClass}}">腕上词典</text>
+    <div class="guide-title-box guide-title-box-{{screenClass}}">
+      <text if="{{twoLineTitle}}" class="guide-title guide-title-{{screenClass}}">第一次</text>
+      <text if="{{twoLineTitle}}" class="guide-title guide-title-{{screenClass}}">使用？</text>
+      <text if="{{!twoLineTitle}}" class="guide-title guide-title-single guide-title-{{screenClass}}">第一次使用？</text>
+    </div>
+
+    <div class="guide-qr-card guide-qr-card-{{screenClass}}">
+      <qrcode
+        class="guide-qr guide-qr-{{screenClass}}"
+        value="https://qm.qq.com/q/qDKLtzDX22"
+      ></qrcode>
+    </div>
+    <text class="guide-hint guide-hint-{{screenClass}}">欢迎入群交流。</text>
+
+    <div class="guide-spacer"></div>
+
+    <div
+      class="guide-start guide-start-{{screenClass}} {{pressed ? 'guide-start-press' : ''}}"
+      onclick="startReading"
+      ontouchstart="onStartDown"
+      ontouchend="onStartUp"
+    >
+      <text class="guide-start-text guide-start-text-{{screenClass}}">开始</text>
+    </div>
+  </div>
+</template>
+
+<script>
+import router from "@system.router"
+import prompt from "@system.prompt"
+import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
+import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
+
+const {navGuard} = global
+
+function isTwoLineTitle(cls) {
+  return cls === "192" || cls === "212" || cls === "466"
+}
+
+export default {
+  private: {
+    screenClass: currentScreenClass(),
+    animClass: pageTransitionClass(),
+    twoLineTitle: isTwoLineTitle(currentScreenClass()),
+    pressed: false,
+    touchStartX: -1,
+    touchStartY: -1
+  },
+
+  onInit() {
+    this.screenClass = appScreenClass(this)
+    this.twoLineTitle = isTwoLineTitle(this.screenClass)
+    applyPageTransition((cls) => {
+      this.animClass = cls
+    })
+  },
+
+  onShow() {
+    this.screenClass = appScreenClass(this)
+    this.twoLineTitle = isTwoLineTitle(this.screenClass)
+  },
+
+  onDestroy() {
+    if (this._goTimer) {
+      clearTimeout(this._goTimer)
+      this._goTimer = null
+    }
+  },
+
+  onStartDown() {
+    this.pressed = true
+  },
+
+  onStartUp() {
+    this.pressed = false
+  },
+
+  startReading() {
+    if (!navGuard()) {
+      return
+    }
+    prompt.showToast({ message: "请认真阅读使用说明", duration: 2000 })
+    // 等 toast 露脸再换页：真机上切页瞬间发起的 toast 会被吞掉
+    var self = this
+    if (this._goTimer) {
+      clearTimeout(this._goTimer)
+    }
+    this._goTimer = setTimeout(function() {
+      self._goTimer = null
+      router.replace({ uri: "/pages/about" })
+    }, 700)
+  },
+
+  onTouchStart(evt) {
+    var point = this.getTouchPoint(evt)
+    if (point) {
+      this.touchStartX = point.clientX
+      this.touchStartY = point.clientY
+    }
+  },
+
+  onTouchEnd(evt) {
+    var point = this.getTouchPoint(evt)
+    if (!point || this.touchStartX < 0) {
+      return
+    }
+    var endX = point.clientX
+    var endY = point.clientY
+    var screenWidth = this.$app.$def.data.screenWidth || 212
+    var horizontal = Math.abs(endY - this.touchStartY) <= 120
+    if (this.touchStartX <= screenWidth * 0.25 && endX >= screenWidth * 0.75 && horizontal) {
+      router.back()
+    }
+    this.touchStartX = -1
+    this.touchStartY = -1
+  },
+
+  getTouchPoint(evt) {
+    if (evt && evt.changedTouches && evt.changedTouches.length > 0) {
+      return evt.changedTouches[0]
+    }
+    if (evt && evt.touches && evt.touches.length > 0) {
+      return evt.touches[0]
+    }
+    return null
+  }
+}
+</script>
+
+<style>
+@import "../../common/pageTransition.css";
+
+/*
+ * 浅蓝品牌引导页。Vela 不支持 CSS 渐变，5 个分辨率共用一张 256×256 低分辨率底图：
+ * background-size: 100% 100% 非等比拉伸铺满，不裁剪；文字/按钮/二维码用组件叠在上面。
+ * 原图在 ..\com.watch.dic-assets-backup\（guide-bg-466.png 为母版）。
+ */
+.guide-page {
+  width: 100%;
+  height: 100%;
+  background-color: #b0daf7;
+  background-image: url("../../common/guide-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guide-eyebrow {
+  color: #4f95c4;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.guide-title-box {
+  flex-direction: column;
+  align-items: center;
+}
+
+.guide-title {
+  color: #0a3d6b;
+  font-weight: 800;
+  text-align: center;
+}
+
+.guide-qr-card {
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-qr {
+  color: #0b3d6b;
+  background-color: #ffffff;
+}
+
+.guide-hint {
+  color: #2c5e86;
+  text-align: center;
+}
+
+.guide-spacer {
+  flex: 1;
+}
+
+.guide-start {
+  background-color: #8fcbf3;
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: transform 120ms ease-out;
+}
+
+.guide-start-press {
+  background-color: #6fb6e8;
+  transform: scale(0.96);
+}
+
+.guide-start-text {
+  color: #08355e;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* ---- 192（490 高，两行标题） ---- */
+.guide-eyebrow-192 {
+  margin-top: 34px;
+  width: 150px;
+  height: 22px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.guide-title-box-192 {
+  margin-top: 6px;
+}
+
+.guide-title-192 {
+  width: 168px;
+  height: 44px;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.guide-qr-card-192 {
+  margin-top: 30px;
+}
+
+.guide-qr-192 {
+  width: 104px;
+  height: 104px;
+}
+
+.guide-hint-192 {
+  width: 170px;
+  height: 24px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.guide-start-192 {
+  width: 140px;
+  height: 46px;
+  margin-bottom: 26px;
+  border-radius: 23px;
+}
+
+.guide-start-text-192 {
+  width: 140px;
+  height: 46px;
+  font-size: 20px;
+  line-height: 46px;
+}
+
+/* ---- 212（520 高，两行标题） ---- */
+.guide-eyebrow-212 {
+  margin-top: 38px;
+  width: 160px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.guide-title-box-212 {
+  margin-top: 8px;
+}
+
+.guide-title-212 {
+  width: 186px;
+  height: 48px;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.guide-qr-card-212 {
+  margin-top: 34px;
+}
+
+.guide-qr-212 {
+  width: 116px;
+  height: 116px;
+}
+
+.guide-hint-212 {
+  width: 190px;
+  height: 24px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.guide-start-212 {
+  width: 156px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+.guide-start-text-212 {
+  width: 156px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+/* ---- 336（480 高，单行标题） ---- */
+.guide-eyebrow-336 {
+  margin-top: 46px;
+  width: 200px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.guide-title-box-336 {
+  margin-top: 10px;
+}
+
+.guide-title-336 {
+  width: 310px;
+  height: 58px;
+  font-size: 46px;
+  line-height: 58px;
+}
+
+.guide-qr-card-336 {
+  margin-top: 26px;
+}
+
+.guide-qr-336 {
+  width: 136px;
+  height: 136px;
+}
+
+.guide-hint-336 {
+  width: 300px;
+  height: 26px;
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.guide-start-336 {
+  width: 220px;
+  height: 62px;
+  margin-bottom: 34px;
+  border-radius: 31px;
+}
+
+.guide-start-text-336 {
+  width: 220px;
+  height: 62px;
+  font-size: 24px;
+  line-height: 62px;
+}
+
+/* ---- 432（514 高，单行标题） ---- */
+.guide-eyebrow-432 {
+  margin-top: 54px;
+  width: 240px;
+  height: 26px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.guide-title-box-432 {
+  margin-top: 12px;
+}
+
+.guide-title-432 {
+  width: 396px;
+  height: 68px;
+  font-size: 56px;
+  line-height: 68px;
+}
+
+.guide-qr-card-432 {
+  margin-top: 28px;
+}
+
+.guide-qr-432 {
+  width: 152px;
+  height: 152px;
+}
+
+.guide-hint-432 {
+  width: 380px;
+  height: 28px;
+  margin-top: 12px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.guide-start-432 {
+  width: 260px;
+  height: 70px;
+  margin-bottom: 38px;
+  border-radius: 35px;
+}
+
+.guide-start-text-432 {
+  width: 260px;
+  height: 70px;
+  font-size: 26px;
+  line-height: 70px;
+}
+
+/* ---- 466（圆屏，两行标题） ---- */
+.guide-eyebrow-466 {
+  margin-top: 52px;
+  width: 200px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.guide-title-box-466 {
+  margin-top: 6px;
+}
+
+.guide-title-466 {
+  width: 240px;
+  height: 54px;
+  font-size: 42px;
+  line-height: 54px;
+}
+
+.guide-qr-card-466 {
+  margin-top: 16px;
+}
+
+.guide-qr-466 {
+  width: 132px;
+  height: 132px;
+}
+
+.guide-hint-466 {
+  width: 220px;
+  height: 26px;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.guide-start-466 {
+  width: 210px;
+  height: 58px;
+  margin-bottom: 44px;
+  border-radius: 29px;
+}
+
+.guide-start-text-466 {
+  width: 210px;
+  height: 58px;
+  font-size: 22px;
+  line-height: 58px;
+}
+</style>

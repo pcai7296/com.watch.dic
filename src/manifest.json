@@ -39,6 +39,9 @@
     "logLevel": "warn",
     "designWidth": "device-width"
   },
+  "display": {
+    "backgroundColor": "#000000"
+  },
   "router": {
     "entry": "pages/index",
     "pages": {
@@ -68,6 +71,9 @@
       },
       "pages/settings": {
         "component": "settings"
+      },
+      "pages/guide": {
+        "component": "guide"
       },
       "pages/probe": {
         "component": "probe"

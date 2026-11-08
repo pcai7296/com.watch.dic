@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$Root = ""
 )
 
@@ -19,7 +19,7 @@ $expected = @{
   w466 = @{ Width = "466"; Headwords = @(19942, 70408) }
 }
 $allWidths = @("192", "212", "336", "432", "466")
-$pages = @("index", "search", "results", "filter", "detail", "records", "about", "sponsor", "settings")
+$pages = @("index", "search", "results", "filter", "detail", "records", "about", "sponsor", "settings", "guide")
 
 $tmp = Join-Path ([System.IO.Path]::GetTempPath()) ("dicverify_" + [guid]::NewGuid().ToString("N"))
 New-Item -ItemType Directory -Force -Path $tmp | Out-Null
@@ -64,6 +64,22 @@ foreach ($rpk in $rpks) {
 
   $meta = Get-Content -LiteralPath (Join-Path $work "x\common\dict\meta.json") -Raw | ConvertFrom-Json
   if ($meta.profile -ne $profile) { $problems += "meta=$($meta.profile)" }
+
+  # guide 背景：所有分辨率共用一张 256x256（不按列出图）
+  $guideImg = Join-Path $work "x\common\guide-bg.png"
+  if (-not (Test-Path -LiteralPath $guideImg)) {
+    $problems += "缺 common/guide-bg.png"
+  } else {
+    $b = [System.IO.File]::ReadAllBytes($guideImg)
+    $gw = $b[16] * 16777216 + $b[17] * 65536 + $b[18] * 256 + $b[19]
+    $gh = $b[20] * 16777216 + $b[21] * 65536 + $b[22] * 256 + $b[23]
+    if ($gw -ne 256 -or $gh -ne 256) { $problems += "guide-bg=${gw}x${gh}" }
+  }
+  foreach ($w in $allWidths) {
+    if (Test-Path -LiteralPath (Join-Path $work "x\common\guide-bg-$w.png")) {
+      $problems += "残留 guide-bg-$w.png"
+    }
+  }
 
   $rows += [pscustomobject]@{
     RPK = $name

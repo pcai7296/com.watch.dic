@@ -101,7 +101,7 @@ dict_repo/          三档词库独立仓（gitignored）
 - **不要移除滑动手势返回**；新增页面照抄既有模式。
 - **不要硬编码屏幕尺寸**；用 `screenClass` / `buildTarget`。
 - **不要写 `@media`**：手环 8 Pro 不支持，手环 9 可能只有 `shape`；多列一律后缀类。全仓现只有 w466 时代的 InputMethod 一处历史遗留。
-- **Vela 不支持 `@keyframes`**，按压反馈用 `transition: transform 120ms ease-out`。
+- **不要用 `@keyframes`**：手环 10 的 AIOTJS CSS 解析器报 `[to_css_key:140] Unknown style - keyframes`；真机 3.6.1 上会导致页面根节点 `classList` 为 null，紧接 miwear rapidjson `document.h:1154` assert 重启。页面过渡已整体移除（真机 `classList null` → rapidjson assert），不要再加。
 - **文本最小 18px**；背景纯黑 `#000000`。
 - `storage`/`file`/`device` 异步调用要写 `success`/`fail`/`complete`。
 - `ready` 是框架保留事件名，别 `$emit("ready")`。
@@ -114,7 +114,7 @@ dict_repo/          三档词库独立仓（gitignored）
 
 - **InputMethod**（P7）：112 处静态内联 px + 键盘五列尺寸，最后一块大活。
 - 其余页面（about / records / detail / search / settings / filter / results / sponsor）在 336/432/466 上字号/内边距仍是 212 的值；宽度多半由 JS 按 `screenWidth` 算，需逐页目测调参。
-- 首页弧形时钟用 `transform: scale()` 放大（336×1.3 / 432×1.45 / 466×1.5），几何仍是 212 的，待实机确认观感。
+- 首页时钟：192/212/466 用弧形排布（466 整体 `transform: scale(1.5)`，几何仍是 212 的）；336/432 是圆角很小的矩形屏，改用水平直线 `<text class="time-flat">`，待实机确认观感。
 - `scripts/merge_columns.js` 会覆盖手写的列块，需要把手调值挪进独立数据文件后才可重跑。
 
 **静态内联 px 已清零**（除 InputMethod 112 处）：七页 back-btn 102×72、search 的 nav-arrow/clear-btn/check-btn、detail 的 sync-icon/fav-icon、index 的时钟数字全部进 `<style>`。页面里剩下的 61 处 `style="...{{var}}px"` 是 JS 按屏宽算出来的动态宽度，属设计。

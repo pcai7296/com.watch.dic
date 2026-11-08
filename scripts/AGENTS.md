@@ -13,6 +13,7 @@
 | `build_resolution_packages.ps1` | ~60 | 只按 `TARGET_*` 批量构建开发包（`npm run build:resolutions`），不换词库、不删列 |
 | `release_resolution_packages.ps1` | ~68 | 同上但走 `aiot release`（`npm run release:resolutions`） |
 | `deploy_watch.ps1` | ~70 | Build RPK + `adb push` + install + launch on emulator-5554 |
+| `gen_poster.py` | ~260 | 生成 `..\release_repo\cover.png`（1800×1200，3:2）；`--theme light\|dark`，默认浅色；文案溢出会直接报错 |
 | `strip_columns.js` | ~120 | 按 `--target` 物理删除其余四列的 `-192/-212/-336/-432/-466` 规则 |
 | `merge_columns.js` | ~320 | 从旧五仓把各列数值合并进基础选择器 + `.xxx-NNN` 覆盖块（一次性工具，重跑会覆盖手调值） |
 | `wire_screen_class.js` | ~120 | 向各页 `private:` 注入 `screenClass` 并在 `onShow/onInit` 刷新 |
