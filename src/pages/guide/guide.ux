@@ -1,5 +1,5 @@
 <template>
-  <div class="guide-page {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="guide-page" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <text class="guide-eyebrow guide-eyebrow-{{screenClass}}">腕上词典</text>
     <div class="guide-title-box guide-title-box-{{screenClass}}">
       <text if="{{twoLineTitle}}" class="guide-title guide-title-{{screenClass}}">第一次</text>
@@ -32,7 +32,6 @@
 import router from "@system.router"
 import prompt from "@system.prompt"
 import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
-import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 const {navGuard} = global
 
@@ -43,7 +42,6 @@ function isTwoLineTitle(cls) {
 export default {
   private: {
     screenClass: currentScreenClass(),
-    animClass: pageTransitionClass(),
     twoLineTitle: isTwoLineTitle(currentScreenClass()),
     pressed: false,
     touchStartX: -1,
@@ -53,9 +51,6 @@ export default {
   onInit() {
     this.screenClass = appScreenClass(this)
     this.twoLineTitle = isTwoLineTitle(this.screenClass)
-    applyPageTransition((cls) => {
-      this.animClass = cls
-    })
   },
 
   onShow() {
@@ -131,7 +126,6 @@ export default {
 </script>
 
 <style>
-@import "../../common/pageTransition.css";
 
 /*
  * 浅蓝品牌引导页。Vela 不支持 CSS 渐变，5 个分辨率共用一张 256×256 低分辨率底图：

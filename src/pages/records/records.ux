@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" onclick="goBack" />
 
     <list id="record-list" class="record-list" if="{{ recordItems.length > 0 }}" style="width: {{cardWidth}}px; height: {{listHeight}}px;" onscroll="onRecordListScroll">
@@ -57,7 +57,6 @@ import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
-import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 const {navGuard} = global
 
@@ -84,14 +83,10 @@ export default {
     searchPage: 0,
     totalRecordCount: 0,
     marqueeTimer: null,
-    pageScrollTimer: null,
-    animClass: pageTransitionClass()
+    pageScrollTimer: null
   },
 
   onInit() {
-    applyPageTransition((cls) => {
-      this.animClass = cls
-    })
     const sw = this.$app.$def.data.screenWidth || 212
     this.screenWidth = sw
     if (sw === 466) {
@@ -688,7 +683,6 @@ export default {
 </script>
 
 <style>
-@import "../../common/pageTransition.css";
 
 .back-btn {
   width: 102px;

@@ -1,10 +1,10 @@
 <template>
-  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
     <!-- 336/432：圆角很小的矩形屏，时间用水平直线排布（弧线与屏幕轮廓不搭） -->
     <text if="{{flatClock}}" class="time-flat time-flat-{{screenClass}}">{{tc0}}{{tc1}}{{tc2}}{{tc3}}{{tc4}}</text>
 
     <!-- 共用：胶囊/圆屏时间（弧形） -->
-    <div if="{{!flatClock}}" style="width:212px;height:36px;margin-bottom:-4px;position:relative;">
+    <div if="{{!flatClock}}" class="clock clock-{{screenClass}}">
       <div style="position:absolute;left:53px;top:8.4px;width:20px;transform:rotate(-21deg);transform-origin:10px 16.5px;">
         <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc0}}</text>
       </div>
@@ -23,7 +23,7 @@
     </div>
 
     <!-- ===== 布局一：简约 (minimal) ===== -->
-    <div if="{{layoutMode === 'minimal'}}" class="minimal-wrap">
+    <div if="{{layoutReady && layoutMode === 'minimal'}}" class="minimal-wrap">
       <text class="title title-{{screenClass}} m-title">腕上词典</text>
 
       <div class="icon-card icon-card-{{screenClass}} m-icon-card">
@@ -60,7 +60,7 @@
     </div>
 
     <!-- ===== 布局二：经典 (classic) ===== -->
-    <div if="{{layoutMode === 'classic'}}" class="classic-wrap">
+    <div if="{{layoutReady && layoutMode === 'classic'}}" class="classic-wrap">
       <div class="icon-card icon-card-{{screenClass}} c-icon-card">
         <img class="deco-icon deco-icon-{{screenClass}}" src="/common/logo.png" />
       </div>
@@ -110,7 +110,6 @@ import storage from "@system.storage"
 import router from "@system.router"
 import app from "@system.app"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
-import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 // 336/432 是圆角很小的矩形屏：弧形时钟的弧线贴不上屏幕轮廓，改为水平直线排布
 const FLAT_CLOCK = { "336": true, "432": true }
@@ -167,12 +166,14 @@ export default {
     screenClass: currentScreenClass(),
     flatClock: usesFlatClock(currentScreenClass()),
     screenProfile: buildTarget.profile,
-    layoutMode: supportsMinimalLayout(currentScreenClass()) ? "minimal" : "classic",
+    // 布局在存储读完前是未知的（""）：简约/经典两块都靠 layoutReady 兜住，
+    // 否则 192/212 首帧先画默认的简约，再跳成用户选的经典。
+    layoutMode: supportsMinimalLayout(currentScreenClass()) ? "" : "classic",
+    layoutReady: !supportsMinimalLayout(currentScreenClass()),
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
     releasingKey: "",
-    btnScaleEnabled: false,
-    animClass: pageTransitionClass()
+    btnScaleEnabled: false
   },
 
   onInit() {
@@ -180,9 +181,6 @@ export default {
     this._updateTime()
     this._loadLayout()
     this._trackLaunch()
-    applyPageTransition((cls) => {
-      this.animClass = cls
-    })
   },
 
   _updateTime() {
@@ -221,18 +219,35 @@ export default {
 
   _loadLayout() {
     var self = this
+    var fallback = supportsMinimalLayout(self.screenClass) ? "minimal" : "classic"
+
+    function settle(mode) {
+      // 简约布局只有胶囊屏（192/212）有设计稿，其余列强制经典
+      self.layoutMode = supportsMinimalLayout(appScreenClass(self)) ? mode : "classic"
+      self.layoutReady = true
+      // 写进 $def：同一会话里设置页首帧直接复用，不必再等一次存储读取
+      var def = self.$app && self.$app.$def
+      if (def && def.data) {
+        def.data.layoutMode = self.layoutMode
+      }
+    }
+
     storage.get({
       key: "dic_home_layout",
       default: "minimal",
       success: function(data) {
         var value = data && (data.value || data)
-        if (value === "classic" || value === "minimal") {
-          // 简约布局只有胶囊屏（192/212）有设计稿，其余列强制经典
-          self.layoutMode = supportsMinimalLayout(self.screenClass) ? value : "classic"
-        }
+        settle(value === "classic" || value === "minimal" ? value : fallback)
       },
-      fail: function() {},
-      complete: function() {}
+      fail: function() {
+        settle(fallback)
+      },
+      complete: function() {
+        // 兜底：任何情况下都不能让首页停在 layoutReady=false 的空白状态
+        if (!self.layoutReady) {
+          settle(fallback)
+        }
+      }
     })
   },
 
@@ -388,6 +403,7 @@ export default {
     // 矩形屏/圆屏没有简约布局的设计稿，切列后立即回落到经典
     if (!supportsMinimalLayout(this.screenClass)) {
       this.layoutMode = "classic"
+      this.layoutReady = true
     }
     this._updateTime()
     this._startTimeTicker()
@@ -508,7 +524,6 @@ export default {
 </script>
 
 <style>
-@import "../../common/pageTransition.css";
 
 .page {
   width: 100%;
@@ -517,6 +532,24 @@ export default {
   background-color: #000000;
   flex-direction: column;
   align-items: center;
+}
+
+/* 弧形时钟：几何基准是 212 屏。212 用设计原值 margin-top:-25px（数字顶端约 21px，
+   占屏高 4.0%）；192 按同比例换算 -17px（490×4.0%）。负 margin 会同时把下方内容上提，
+   这正是原设计的纵向节奏，不要再用 margin-bottom 去抵消。 */
+.clock {
+  width: 212px;
+  height: 36px;
+  margin-bottom: -4px;
+  position: relative;
+}
+
+.clock-192 {
+  margin-top: -17px;
+}
+
+.clock-212 {
+  margin-top: -25px;
 }
 
 .time-header {

@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" onclick="goBack" />
 
     <list class="about-list about-list-{{screenClass}}" style="width: {{layoutWidth}}px;" onscroll="onListScroll">
@@ -63,7 +63,6 @@
 import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
-import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 import app from "@system.app"
 
 const {navGuard} = global
@@ -80,7 +79,7 @@ const USAGE_ITEMS = [
   "6. 历史记录：自动缓存最近 20 条",
   "7. 变形查询：首页「变形」按钮查询单词变形",
   "8. 快速返回：结果列表页长按返回键回主页",
-  "9. 设置：可切换首页布局、渐变动画、按钮缩放、屏幕常亮"
+  "9. 设置：可切换首页布局、按钮缩放、屏幕常亮"
 ]
 
 const LIMIT_ITEMS = [
@@ -148,16 +147,12 @@ export default {
     descLineStyle: "width: 180px; text-align: left;",
     _layoutKey: "",
     _allFilled: false,
-    _fillTimer: null,
-    animClass: pageTransitionClass()
+    _fillTimer: null
   },
 
   onInit() {
     this.versionName = this._readVersionName()
     this.applyScreenLayout()
-    applyPageTransition((cls) => {
-      this.animClass = cls
-    })
   },
 
   _readVersionName() {
@@ -407,7 +402,6 @@ export default {
 </script>
 
 <style>
-@import "../../common/pageTransition.css";
 
 .back-btn {
   width: 102px;

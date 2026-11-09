@@ -17,7 +17,10 @@ export default {
     // 发布包：编译期就由 buildTarget 定死（TARGET_WIDTH 条件编译块），不做任何设备查询。
     // 调试包：先给默认列，再由探测修正，让同一个包在 5 台模拟器上各自选对列。
     screenClass: String(buildTarget.width),
-    buildTargetId: buildTarget.id
+    buildTargetId: buildTarget.id,
+    // 首页布局（"classic"/"minimal"，"" = 本会话还没读出来）。首页读到后写在这里，
+    // 设置页首帧直接复用，避免「先选中简约、再跳到经典」的闪烁。
+    layoutMode: ""
   },
 
   updateScreenInfo(data) {

@@ -1,13 +1,13 @@
 <template>
-  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" onclick="goBack" />
 
     <scroll class="settings-scroll settings-scroll-{{screenClass}}" scroll-y="true">
       <div class="content content-{{screenClass}}">
         <text if="{{supportsMinimal}}" class="setting-title">首页布局</text>
         <div if="{{supportsMinimal}}" class="layout-row">
-          <text class="layout-label {{layoutMode === 'classic' ? 'layout-active' : ''}}" onclick="setLayoutClassic">经典</text>
-          <text class="layout-label layout-label-ml {{layoutMode === 'minimal' ? 'layout-active' : ''}}" onclick="setLayoutMinimal">简约</text>
+          <text class="layout-label {{layoutReady && layoutMode === 'classic' ? 'layout-active' : ''}}" onclick="setLayoutClassic">经典</text>
+          <text class="layout-label layout-label-ml {{layoutReady && layoutMode === 'minimal' ? 'layout-active' : ''}}" onclick="setLayoutMinimal">简约</text>
         </div>
 
         <text class="setting-title sp-title">英文输入联想</text>
@@ -40,13 +40,6 @@
           onchange="onBtnScaleChange"
         ></switch>
 
-        <text class="setting-title btn-scale-title">渐变动画</text>
-        <switch
-          class="suggestion-switch suggestion-switch-{{screenClass}}"
-          checked="{{ pageTransitionEnabled }}"
-          onchange="onPageTransitionChange"
-        ></switch>
-
         <text class="setting-title sp-title">屏幕常亮</text>
         <switch
           class="suggestion-switch suggestion-switch-{{screenClass}}"
@@ -64,7 +57,6 @@ import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
 import {applyKeepScreenOnSetting, setKeepScreenOnEnabled} from "../../common/keepScreenOn"
-import {loadPageTransitionSetting, setPageTransitionEnabled, pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 const {navGuard} = global
 
@@ -75,10 +67,10 @@ export default {
     resultLongPressHomeEnabled: true,
     searchSwipeExitLocked: true,
     btnScaleEnabled: true,
-    pageTransitionEnabled: true,
-    animClass: pageTransitionClass(),
     keepScreenOnEnabled: false,
-    layoutMode: supportsMinimalLayout(currentScreenClass()) ? "minimal" : "classic",
+    // 布局在存储读完前未知：先不高亮任何一项，避免先亮「简约」再跳到「经典」
+    layoutMode: "",
+    layoutReady: false,
     // 首帧一律不给入口，等 onInit/onShow 按真实列算出结果再显示：
     // 调试包里 screenClass 初值是 buildTarget.width（212），屏幕探测是异步的，
     // 默认 true 会让 336/432/466 在探测完成前闪出「首页布局」开关。
@@ -95,9 +87,16 @@ export default {
     this.screenClass = appScreenClass(this)
     this.supportsMinimal = supportsMinimalLayout(this.screenClass)
     this.screenProfile = this.$app.$def.data.screenProfile || "pill-standard"
+    // 同一会话里首页已经读过布局，直接复用：本页首帧就能选中正确项，不闪
+    var cachedLayout = this.$app.$def.data.layoutMode
+    if (this.supportsMinimal && (cachedLayout === "classic" || cachedLayout === "minimal")) {
+      this.layoutMode = cachedLayout
+      this.layoutReady = true
+    }
     this._loadSetting("dic_home_layout", "minimal", function(value) {
       if (value === "classic" || value === "minimal") {
         this.layoutMode = this.supportsMinimal ? value : "classic"
+        this.layoutReady = true
       }
     }.bind(this))
     this._loadSetting("dic_english_suggestions", "0", function(value) {
@@ -112,12 +111,6 @@ export default {
     this._loadSetting("dic_button_scale", "1", function(value) {
       this.btnScaleEnabled = value === "1"
     }.bind(this))
-    loadPageTransitionSetting(function(on) {
-      this.pageTransitionEnabled = on
-    }.bind(this))
-    applyPageTransition((cls) => {
-      this.animClass = cls
-    })
     applyKeepScreenOnSetting(function(enabled) {
       this.keepScreenOnEnabled = enabled
     }.bind(this))
@@ -142,6 +135,7 @@ export default {
     this.supportsMinimal = supportsMinimalLayout(this.screenClass)
     if (!this.supportsMinimal && this.layoutMode !== "classic") {
       this.layoutMode = "classic"
+      this.layoutReady = true
     }
   },
 
@@ -159,6 +153,7 @@ export default {
   setLayoutClassic() {
     if (this.layoutMode === "classic") return
     this.layoutMode = "classic"
+    this.layoutReady = true
     this._saveLayout("classic")
   },
 
@@ -166,10 +161,16 @@ export default {
     if (!this.supportsMinimal) return
     if (this.layoutMode === "minimal") return
     this.layoutMode = "minimal"
+    this.layoutReady = true
     this._saveLayout("minimal")
   },
 
   _saveLayout(mode) {
+    // 同步更新会话缓存：本页被重新创建时首帧仍能选中正确项
+    var def = this.$app && this.$app.$def
+    if (def && def.data) {
+      def.data.layoutMode = mode
+    }
     storage.set({
       key: "dic_home_layout",
       value: mode,
@@ -198,11 +199,6 @@ export default {
   onBtnScaleChange(evt) {
     this.btnScaleEnabled = !!(evt && evt.checked)
     this.saveSwitch("dic_button_scale", this.btnScaleEnabled)
-  },
-
-  onPageTransitionChange(evt) {
-    this.pageTransitionEnabled = !!(evt && evt.checked)
-    setPageTransitionEnabled(this.pageTransitionEnabled)
   },
 
   onKeepScreenOnChange(evt) {
@@ -258,7 +254,6 @@ export default {
 </script>
 
 <style>
-@import "../../common/pageTransition.css";
 
 .back-btn {
   width: 102px;

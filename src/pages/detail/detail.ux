@@ -1,5 +1,5 @@
 <template>
-  <div class="page page-{{screenClass}} {{animClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
+  <div class="page page-{{screenClass}}" ontouchstart="onTouchStart" ontouchend="onTouchEnd">
     <image class="back-btn" src="/common/icons/btn_back.png" onclick="goBack" />
 
     <div class="word-area word-area-{{screenClass}}" style="margin-left: {{wordAreaMarginLeft}}px;">
@@ -36,7 +36,6 @@ import router from "@system.router"
 import storage from "@system.storage"
 import prompt from "@system.prompt"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
-import {pageTransitionClass, applyPageTransition} from "../../common/pageTransition"
 
 const {navGuard} = global
 
@@ -101,8 +100,7 @@ export default {
     favoriteBtnStyle: "",
     displayLines: [],
     isRoundScreen: false,
-    isCapsule: false,
-    animClass: pageTransitionClass()
+    isCapsule: false
   },
 
   _expandTag(s) {
@@ -151,9 +149,6 @@ export default {
   },
 
   onInit() {
-    applyPageTransition((cls) => {
-      this.animClass = cls
-    })
     const sw = this.$app.$def.data.screenWidth || 212
     this.cardWidth = sw - 20
     this.contentWidth = this.cardWidth - 24
@@ -534,7 +529,6 @@ export default {
 </script>
 
 <style>
-@import "../../common/pageTransition.css";
 
 .back-btn {
   width: 102px;
