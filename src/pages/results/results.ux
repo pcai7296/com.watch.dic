@@ -26,7 +26,7 @@
         <div else class="result-card" style="width: {{cardWidth}}px; height: {{ item.cardHeight }}px;" @click="openDetail(item)">
           <div class="result-head">
             <text if="{{ !item.wordMarqueeOn }}" class="result-word" style="font-size: {{ item.wordFontSize }}px;">{{ item.word }}</text>
-            <marquee if="{{ item.wordMarqueeOn }}" class="result-word-marquee result-word-marquee-{{screenClass}}" style="font-size: {{ item.wordFontSize }}px;" scrollamount="40" direction="left" loop="-1" text-offset="40">{{ item.word }}   {{ item.word }}</marquee>
+            <marquee if="{{ item.wordMarqueeOn }}" class="result-word-marquee" style="font-size: {{ item.wordFontSize }}px;" scrollamount="40" direction="left" loop="-1" text-offset="40">{{ item.word }}   {{ item.word }}</marquee>
             <text class="result-tag">{{ item.tag }}</text>
           </div>
           <text class="result-phonetic">{{ item.phonetic }}</text>
@@ -58,12 +58,29 @@ const FUZZY_POOL_LIMIT = 80
 const MAX_SAFE_ENTRY_ID = 9007199254740991
 const WORD_INDEX_LETTERS = "abcdefghijklmnopqrstuvwxyz"
 const MAX_CHINESE_SCAN_SHARDS = 10
+// 文本缓存按字符数计预算：entry 文本解析后立即从 fileCache 移除，剩下的主要是
+// word/inflect/cn 分片。超预算时先淘汰最旧的一条，做到「先还后借」。
+const FILE_CACHE_BUDGET = 120 * 1024
+// 每次整读 entry 分片前，若 entryCache 已满则先淘汰最旧一片，避免读和写同帧叠加。
+const ENTRY_CACHE_SLOTS = 4
 
 class LRUCache {
   constructor(max) {
     this.max = max
     this.cache = {}
     this.order = []
+    this.bytes = 0
+  }
+  size() {
+    return this.order.length
+  }
+  oldest() {
+    return this.order.length > 0 ? this.order[0] : undefined
+  }
+  clear() {
+    this.cache = {}
+    this.order = []
+    this.bytes = 0
   }
   get(key) {
     if (this.cache[key] === undefined) return undefined
@@ -76,18 +93,22 @@ class LRUCache {
   }
   set(key, val) {
     if (this.cache[key] !== undefined) {
+      this.bytes -= this.cache[key].length || 0
       var idx = this.order.indexOf(key)
       if (idx >= 0) this.order.splice(idx, 1)
     }
     this.cache[key] = val
+    this.bytes += val.length || 0
     this.order.push(key)
     if (this.order.length > this.max) {
       var oldest = this.order.shift()
+      this.bytes -= this.cache[oldest].length || 0
       delete this.cache[oldest]
     }
   }
   delete(key) {
     if (this.cache[key] === undefined) return
+    this.bytes -= this.cache[key].length || 0
     delete this.cache[key]
     var idx = this.order.indexOf(key)
     if (idx >= 0) this.order.splice(idx, 1)
@@ -144,7 +165,10 @@ export default {
     mightHaveMore: false,
     resultLongPressHomeEnabled: true,
     backLongPressTimer: null,
-    backLongPressTriggered: false
+    backLongPressTriggered: false,
+    pendingReads: {},
+    keepScreenOnApplied: null,
+    pageHidden: false
   },
 
   _expandTag(s) {
@@ -219,8 +243,9 @@ export default {
 
 
     this.screenClass = appScreenClass(this)
+    this.pageHidden = false
     this.loadResultLongPressHomeSetting()
-    applyKeepScreenOnSetting()
+    this.syncKeepScreenOn()
     // Re-check query — Vela may reuse page instance without re-firing onInit
     const currentQuery = this.normalizeWord(this.query)
     if (currentQuery && currentQuery !== this.queryText) {
@@ -232,6 +257,33 @@ export default {
       this.performSearch()
     }
     // 超长单词用 marquee 跑马灯展示全文（list 内嵌 scroll 在 Band 10 上无法接收触摸事件，拖动无效）
+  },
+
+  // 只在偏好真的变了才重新下发 brightness（每次 onShow 无条件下发会在
+  // 回前台瞬间和列表重绘撞在同一帧，native 侧要重建属性缓存）
+  syncKeepScreenOn() {
+    const cached = typeof global !== "undefined" ? global.__keepScreenOn : undefined
+    if (cached !== undefined && cached === this.keepScreenOnApplied) {
+      return
+    }
+    const self = this
+    applyKeepScreenOnSetting(function (enabled) {
+      self.keepScreenOnApplied = enabled
+    })
+  },
+
+  // 页面转后台：词库分片文本/解析结果全部丢弃，只留 20 张已在屏上的卡片（~8KB）。
+  // 崩溃 2 就发生在 background→foreground 后的 5 秒内，后台常驻是主要风险。
+  onHide() {
+    this.pageHidden = true
+    this.fileCache.clear()
+    this.entryCache.clear()
+    this.cnIndexCache.clear()
+    this.wrapCache = {}
+    this.historyCache = null
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
   },
 
   applyQueryMarquee(text) {
@@ -399,7 +451,7 @@ export default {
 
       const results = []
       const seen = {}
-      this._seenEntryId = {}
+      this.seenEntryId = {}
 
       if (this.searchMode === "inflect") {
         const first = normalized.charAt(0)
@@ -905,12 +957,30 @@ export default {
     nextShard()
   },
 
+  // 只补 out 里还缺的 id，避免覆盖已从 partial 缓存取到的条目
+  _fillMissingShardItems(out, store, source, wantedIds) {
+    for (let i = 0; i < wantedIds.length; i++) {
+      const entryId = wantedIds[i]
+      if (out[entryId]) {
+        continue
+      }
+      const item = source[entryId]
+      if (item) {
+        out[entryId] = item
+        store[entryId] = item
+      }
+    }
+  },
+
   loadEntryShard(shard, done) {
     const cached = this.entryCache.get(shard)
     if (cached) {
       done(cached)
       return
     }
+
+    // 读之前先让出一个槽位：解析 500 条 entry 的瞬时内存和整读 30KB 文本不该叠加
+    this.makeEntryRoom()
 
     this.readText("/common/dict/entries/entry_" + shard + ".txt", (text) => {
       const entries = {}
@@ -934,9 +1004,11 @@ export default {
           }
         }
       }
-      this.entryCache.set(shard, entries)
-      // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
-      this.fileCache.delete("/common/dict/entries/entry_" + shard + ".txt")
+      if (!this.pageHidden) {
+        this.entryCache.set(shard, entries)
+        // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
+        this.fileCache.delete("/common/dict/entries/entry_" + shard + ".txt")
+      }
       done(entries)
     })
   },
@@ -957,27 +1029,63 @@ export default {
     return {groups: groups, order: order}
   },
 
+  // entryCache 里既有全量片（key "26"）也有按需片（key "partial:26"），
+  // 槽位不够时淘汰最旧的一片再读，避免读+解析同帧把堆顶穿。
+  makeEntryRoom() {
+    while (this.entryCache.size() >= ENTRY_CACHE_SLOTS) {
+      const oldest = this.entryCache.oldest()
+      if (oldest === undefined) break
+      this.entryCache.delete(oldest)
+    }
+  },
+
   loadEntryShardItems(shard, wantedIds, done) {
     const cacheKey = "partial:" + shard
-    const cached = this.entryCache.get(cacheKey)
-    if (cached) {
-      const out = {}
-      for (let i = 0; i < wantedIds.length; i++) {
-        if (cached[wantedIds[i]]) {
-          out[wantedIds[i]] = cached[wantedIds[i]]
-        }
+    // 按需片缓存是跨页累积的。命中它只能拿到「以前读过的那些 id」，
+    // 缺的条目必须继续用全量片/文件补——早期版本在这里直接 done(out)，
+    // 于是第 2 页起同一分片的新 id 全部解析失败，状态写着 20 条、列表却少卡。
+    const store = this.entryCache.get(cacheKey) || {}
+    const out = {}
+    let missing = 0
+    for (let i = 0; i < wantedIds.length; i++) {
+      const entryId = wantedIds[i]
+      const hit = store[entryId]
+      if (hit) {
+        out[entryId] = hit
+      } else {
+        missing++
       }
+    }
+    if (missing === 0) {
       done(out)
       return
     }
 
+    const finish = () => {
+      if (!this.pageHidden) {
+        this.entryCache.set(cacheKey, store)
+      }
+      done(out)
+    }
+
+    // 若该分片已被 loadEntryShard 解析过（英文搜索 hydrate 必走那条路），
+    // 直接从中挑需要的条目，不要为了 partial 键再去整读一遍 30KB。
+    // 崩溃 1 的 34696B 分配就是同一文件 10 秒内被整读第二次。
+    const full = this.entryCache.get(shard)
+    if (full) {
+      this._fillMissingShardItems(out, store, full, wantedIds)
+      finish()
+      return
+    }
+
+    this.makeEntryRoom()
+
     const uri = "/common/dict/entries/entry_" + shard + ".txt"
     this.readText(uri, (text) => {
       if (this.destroyed) {
-        done({})
+        done(out)
         return
       }
-      const entries = {}
       const baseId = parseInt(shard, 10) * 500
       const wanted = {}
       for (let i = 0; i < wantedIds.length; i++) {
@@ -996,19 +1104,22 @@ export default {
           continue
         }
         previousWord = word
-        if (!wanted[entryId]) {
+        if (!wanted[entryId] || out[entryId]) {
           continue
         }
-        entries[entryId] = {
+        const item = {
           word: word,
           phonetic: parts[1] || "",
           translation: parts[2] || "",
           tag: parts[3] || ""
         }
+        out[entryId] = item
+        store[entryId] = item
       }
-      this.fileCache.delete(uri)
-      this.entryCache.set(cacheKey, entries)
-      done(entries)
+      if (!this.pageHidden) {
+        this.fileCache.delete(uri)
+      }
+      finish()
     })
   },
 
@@ -1203,8 +1314,8 @@ export default {
       const shard = this.entryShardFor(form)
       this.loadEntryShard(shard, (entries) => {
         const item = entries[form]
-        if (item && !this._seenEntryId[form]) {
-          this._seenEntryId[form] = true
+        if (item && !this.seenEntryId[form]) {
+          this.seenEntryId[form] = true
           const lower = this.normalizeWord(item.word)
           if (!seen[lower]) {
             seen[lower] = true
@@ -1271,8 +1382,8 @@ export default {
             const shard = this.entryShardFor(entryId)
             this.loadEntryShard(shard, (entries) => {
               const item = entries[entryId]
-              if (item && !this._seenEntryId[entryId]) {
-                this._seenEntryId[entryId] = true
+              if (item && !this.seenEntryId[entryId]) {
+                this.seenEntryId[entryId] = true
                 const card = this.createResultCard(
                   entryId,
                   this.normalizeWord(displayWord),
@@ -1306,8 +1417,8 @@ export default {
       const shard = this.entryShardFor(base)
       this.loadEntryShard(shard, (entries) => {
         const item = entries[base]
-        if (item && !this._seenEntryId[base]) {
-          this._seenEntryId[base] = true
+        if (item && !this.seenEntryId[base]) {
+          this.seenEntryId[base] = true
           const lower = this.normalizeWord(item.word)
           if (!seen[lower]) {
             seen[lower] = true
@@ -1404,8 +1515,8 @@ export default {
           break
         }
         const item = entries[next.entryId]
-        if (item && !this._seenEntryId[next.entryId]) {
-          this._seenEntryId[next.entryId] = true
+        if (item && !this.seenEntryId[next.entryId]) {
+          this.seenEntryId[next.entryId] = true
           const card = this.createResultCard(
             next.entryId,
             next.lower,
@@ -1686,7 +1797,7 @@ export default {
   },
 
   _saveSearchHistory() {
-    if (this._historySavePending) {
+    if (this.historySavePending) {
       return
     }
     var query = this.queryText
@@ -1709,7 +1820,7 @@ export default {
       return
     }
 
-    this._historySavePending = true
+    this.historySavePending = true
     var self = this
     storage.get({
       key: "dic_history",
@@ -1745,10 +1856,10 @@ export default {
       key: "dic_history",
       value: JSON.stringify(output),
       success: function() {
-        this._historySavePending = false
+        this.historySavePending = false
       }.bind(this),
       fail: function() {
-        this._historySavePending = false
+        this.historySavePending = false
       }.bind(this),
       complete: function() {}
     })
@@ -1761,7 +1872,13 @@ export default {
         recordKind: "next-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false
+        wordMarqueeOn: false,
+        wordFontSize: 18,
+        translationLines: [""],
+        tag: "",
+        rawTag: "",
+        phonetic: "",
+        word: ""
       })
       this.resultCards = this.resultCards.slice()
     }
@@ -1976,7 +2093,13 @@ export default {
         recordKind: "prev-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false
+        wordMarqueeOn: false,
+        wordFontSize: 18,
+        translationLines: [""],
+        tag: "",
+        rawTag: "",
+        phonetic: "",
+        word: ""
       })
     }
     for (var i = 0; i < cards.length; i++) {
@@ -1989,7 +2112,13 @@ export default {
         recordKind: "next-page",
         cardHeight: 56,
         itemHeight: 66,
-        wordMarqueeOn: false
+        wordMarqueeOn: false,
+        wordFontSize: 18,
+        translationLines: [""],
+        tag: "",
+        rawTag: "",
+        phonetic: "",
+        word: ""
       })
     }
     this.resultCards = pageCards
@@ -2227,6 +2356,16 @@ export default {
     return w * (font / 18)
   },
 
+  // 淘汰 fileCache 最旧条目直到总字符数回到预算内。读之前调用，
+  // 让「申请 30KB」发生在「已经释放 30KB」之后，而不是同一帧叠加。
+  trimFileCache(reserve) {
+    while (this.fileCache.size() > 0 && this.fileCache.bytes + reserve > FILE_CACHE_BUDGET) {
+      const oldest = this.fileCache.oldest()
+      if (oldest === undefined) break
+      this.fileCache.delete(oldest)
+    }
+  },
+
   readText(uri, done) {
     const cached = this.fileCache.get(uri)
     if (cached !== undefined) {
@@ -2234,19 +2373,48 @@ export default {
       return
     }
 
+    // 同一 uri 的并发读合并成一次（英文搜索 + 翻页 + 中文反查可能同一帧都要同一片）
+    const pending = this.pendingReads[uri]
+    if (pending) {
+      pending.push(done)
+      return
+    }
+    this.pendingReads[uri] = [done]
+
+    // 读前腾位：按该文件历史大小预留，没读过就按 40KB 估
+    this.trimFileCache(40 * 1024)
+
+    const deliver = (text) => {
+      const waiters = this.pendingReads[uri] || []
+      delete this.pendingReads[uri]
+      for (let i = 0; i < waiters.length; i++) {
+        waiters[i](text)
+      }
+    }
+
     file.readText({
       uri: uri,
       encoding: "utf-8",
       success: (data) => {
-        if (this.destroyed) return
+        if (this.destroyed) {
+          if (this.pendingReads) delete this.pendingReads[uri]
+          return
+        }
         const text = (data && data.text ? data.text : "").replace(/\r/g, "")
-        this.fileCache.set(uri, text)
-        done(text)
+        // 转后台期间回来的读不再入缓存，否则 onHide 刚清完又被填满
+        if (!this.pageHidden) {
+          this.trimFileCache(text.length)
+          this.fileCache.set(uri, text)
+        }
+        deliver(text)
       },
       fail: () => {
-        if (this.destroyed) return
+        if (this.destroyed) {
+          if (this.pendingReads) delete this.pendingReads[uri]
+          return
+        }
         this.fileCache.set(uri, "")
-        done("")
+        deliver("")
       },
       complete: () => {}
     })
@@ -2284,6 +2452,7 @@ export default {
     this.collectedIds = null
     this.historyCache = null
     this.shardIndex = null
+    this.pendingReads = null
     // 页面销毁后主动 GC，释放词典缓存（官方内存文档：及时 runGC 避免泄漏）
     if (typeof global !== "undefined" && typeof global.runGC === "function") {
       global.runGC()

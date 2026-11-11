@@ -105,7 +105,7 @@ export default {
     englishSuggestionEnabled: false,
     searchSwipeExitLocked: true,
     searchSubmitLocked: false,
-    _suggestionTimer: null,
+    suggestionTimer: null,
     autoSearchTimer: null,
     imeMounted: false,
     marqueeTimer: null,
@@ -134,18 +134,29 @@ export default {
     return decodePrefixField(parts[0], prevWord) || ""
   },
 
-  // Cache raw shard lines instead of pre-parsed objects. scanEnglishSuggestionRows
-  // decodes only rows matching the current seed, so a large shard never
-  // materializes thousands of objects, and no fixed row cap can silently drop
-  // deep-prefix candidates (e.g. "int" in word_in.txt).
-  _splitSuggestionLines(text) {
-    return text ? text.split("\n") : []
+  // 补全只缓存原始分片文本（ASCII 8-bit 字符串），扫描时用 indexOf 逐行推进。
+  // 旧实现把 text.split("\n") 的整行数组放进 LRU：word_t.txt 4077 行约 180KB 常驻，
+  // 每次击键还要对整片做一遍 split("\t")，是本页最大的一块常驻 + 瞬时垃圾。
+  // 逐行迭代不会丢 front-code 的 previousWord 链（同一条链只是换来源）。
+  forEachSuggestionLine(text, limit, cb) {
+    if (!text) return
+    var from = 0
+    var count = 0
+    while (from <= text.length && count < limit) {
+      var nl = text.indexOf("\n", from)
+      if (nl < 0) {
+        cb(text.slice(from))
+        return
+      }
+      cb(text.slice(from, nl))
+      from = nl + 1
+      count++
+    }
   },
 
   onInit() {
     loadDictionaryProfile()
-    this.englishSuggestionCache = {}
-    this.englishSuggestionParsed = {}
+    this.englishSuggestionText = {}
     this.englishSuggestionPending = {}
     this.englishSuggestionOrder = []
     this.loadEnglishSuggestionSetting()
@@ -204,9 +215,9 @@ export default {
   onDestroy() {
     this.destroyed = true
     this.englishSuggestionToken++
-    if (this._suggestionTimer) {
-      clearTimeout(this._suggestionTimer)
-      this._suggestionTimer = null
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
     }
     if (this.autoSearchTimer) {
       clearTimeout(this.autoSearchTimer)
@@ -216,12 +227,32 @@ export default {
       clearTimeout(this.marqueeTimer)
       this.marqueeTimer = null
     }
-    this.englishSuggestionCache = null
-    this.englishSuggestionParsed = null
+    this.englishSuggestionText = null
     this.englishSuggestionPending = null
     this.englishSuggestionOrder = null
     this.stopMarquee()
     // 页面销毁后主动 GC，释放补全缓存（官方内存文档：及时 runGC 避免泄漏）
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
+  },
+
+  // 转后台：卸载 IME 节点（否则 IME 会继续向已不可见的节点推 value 属性，
+  // 真机刷 setFromJs: Unhandled type / refreshingWidgetAttr 错误），并丢掉分片文本。
+  // onShow 会把 imeMounted 重新置 true。
+  onHide() {
+    this.imeMounted = false
+    this.englishSuggestionToken++
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
+    }
+    this.englishSuggestionText = {}
+    this.englishSuggestionPending = {}
+    this.englishSuggestionOrder = []
+    this.englishSuggestionsText = ""
+    setSuggestionSeed("")
+    setSuggestions("")
     if (typeof global !== "undefined" && typeof global.runGC === "function") {
       global.runGC()
     }
@@ -361,6 +392,10 @@ export default {
     }
 
     this.searchSubmitLocked = true
+    // 先把 IME 从树上摘掉再跳页：否则 IME 会在结果页可见期间继续推 value/属性，
+    // 日志里成片的 setFromJs: Unhandled type 就是这个时序（结果页/详情页切换时）。
+    this.imeMounted = false
+    this.keyboardHidden = true
     router.push({
       uri: "/pages/results",
       params: {
@@ -550,9 +585,9 @@ export default {
   },
 
   scheduleSuggestionUpdate() {
-    if (this._suggestionTimer) {
-      clearTimeout(this._suggestionTimer)
-      this._suggestionTimer = null
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
     }
     // Disabled or empty seed — clear suggestions immediately
     if (!this.englishSuggestionEnabled || !this.englishSeed) {
@@ -560,8 +595,8 @@ export default {
       return
     }
     var self = this
-    this._suggestionTimer = setTimeout(function () {
-      self._suggestionTimer = null
+    this.suggestionTimer = setTimeout(function () {
+      self.suggestionTimer = null
       self.refreshEnglishSuggestions(self.englishSeed)
     }, 200)
   },
@@ -595,19 +630,10 @@ export default {
   },
 
   loadEnglishSuggestionSource(letter, done) {
-    // Cache hit — use pre-parsed rows
-    if (Object.prototype.hasOwnProperty.call(this.englishSuggestionParsed, letter)) {
+    // Cache hit — 原始文本
+    if (Object.prototype.hasOwnProperty.call(this.englishSuggestionText, letter)) {
       this._touchEnglishSuggestion(letter)
-      done(this.englishSuggestionParsed[letter])
-      return
-    }
-    // Migrate from old text cache if present
-    if (Object.prototype.hasOwnProperty.call(this.englishSuggestionCache, letter)) {
-      var _rows = this.englishSuggestionCache[letter] || ""
-      var _parsed = _rows ? this._splitSuggestionLines(_rows) : []
-      this._cacheEnglishSuggestion(letter, _parsed)
-      delete this.englishSuggestionCache[letter]
-      done(_parsed)
+      done(this.englishSuggestionText[letter])
       return
     }
     if (this.englishSuggestionPending[letter]) {
@@ -622,26 +648,27 @@ export default {
       encoding: "utf-8",
       success: (data) => {
         if (this.destroyed) {
+          delete this.englishSuggestionPending[letter]
           return
         }
-        var text = data && data.text ? data.text : ""
-        var parsed = text ? this._splitSuggestionLines(text) : []
-        this._cacheEnglishSuggestion(letter, parsed)
+        var text = data && data.text ? data.text.replace(/\r/g, "") : ""
+        this._cacheEnglishSuggestion(letter, text)
         var pending = this.englishSuggestionPending[letter] || []
         delete this.englishSuggestionPending[letter]
         for (var i = 0; i < pending.length; i++) {
-          pending[i](parsed)
+          pending[i](text)
         }
       },
       fail: () => {
         if (this.destroyed) {
+          delete this.englishSuggestionPending[letter]
           return
         }
-        this._cacheEnglishSuggestion(letter, [])
+        this._cacheEnglishSuggestion(letter, "")
         var pending = this.englishSuggestionPending[letter] || []
         delete this.englishSuggestionPending[letter]
         for (var i = 0; i < pending.length; i++) {
-          pending[i]([])
+          pending[i]("")
         }
       },
       complete: () => {}
@@ -692,9 +719,9 @@ export default {
 
   clearEnglishSuggestions() {
     this.englishSuggestionToken++
-    if (this._suggestionTimer) {
-      clearTimeout(this._suggestionTimer)
-      this._suggestionTimer = null
+    if (this.suggestionTimer) {
+      clearTimeout(this.suggestionTimer)
+      this.suggestionTimer = null
     }
     this.englishSuggestionsText = ""
     setSuggestionSeed("")
@@ -709,51 +736,68 @@ export default {
     this.englishSuggestionOrder.push(letter)
   },
 
-  _cacheEnglishSuggestion(letter, rows) {
-    this.englishSuggestionParsed[letter] = rows
+  _cacheEnglishSuggestion(letter, text) {
+    this.englishSuggestionText[letter] = text
     this._touchEnglishSuggestion(letter)
-    while (this.englishSuggestionOrder.length > 3) {
-      delete this.englishSuggestionParsed[this.englishSuggestionOrder.shift()]
+    // 只留 2 个字母：单字母片最大 68KB，3 片叠在后台就是 200KB 的常驻
+    while (this.englishSuggestionOrder.length > 2) {
+      delete this.englishSuggestionText[this.englishSuggestionOrder.shift()]
     }
   },
 
-  applyEnglishSuggestions(normalized, rows) {
+  applyEnglishSuggestions(normalized, text) {
     var items = []
     var seen = {}
-    this.scanEnglishSuggestionRows(rows, normalized, items, seen)
+    this.scanEnglishSuggestionText(text, normalized, items, seen)
     var suggestions = this.buildEnglishSuggestions(normalized, items, seen).join("|")
     this.englishSuggestionsText = suggestions
     setSuggestionSeed(normalized)
     setSuggestions(suggestions)
   },
 
-  scanEnglishSuggestionRows(rows, seed, items, seen) {
+  scanEnglishSuggestionText(text, seed, items, seen) {
     var prevWord = ""
-    for (var i = 0; i < rows.length; i++) {
-      var parts = rows[i].split("\t")
-      if (parts.length < 3) {
-        continue
+    var self = this
+    this.forEachSuggestionLine(text, 6000, function (line) {
+      if (items.length >= 80) {
+        return
       }
-      var entryId = parts[1]
+      var t1 = line.indexOf("\t")
+      if (t1 <= 0) {
+        return
+      }
+      var t2 = line.indexOf("\t", t1 + 1)
+      if (t2 < 0) {
+        return
+      }
+      var prefixField = line.slice(0, t1)
+      var entryId = line.slice(t1 + 1, t2)
       if (!entryId || !/^[0-9a-z]+$/.test(entryId)) {
-        continue
+        // front-code 链必须继续走，否则后面的词头会解错
+        var stillDecoded = decodePrefixField(prefixField, prevWord)
+        if (stillDecoded === null) {
+          return
+        }
+        prevWord = stillDecoded
+        return
       }
-      var decoded = this._decodeWordPrefix(parts, prevWord)
+      var decoded = decodePrefixField(prefixField, prevWord)
+      if (decoded === null) {
+        return
+      }
       prevWord = decoded
-      var word = this.normalizeEnglishSeed(decoded)
+      var word = self.normalizeEnglishSeed(decoded)
       if (!word || word === seed || seen[word] || word.indexOf(seed) !== 0) {
-        continue
+        return
       }
+      var t3 = line.indexOf("\t", t2 + 1)
+      var tagCode = t3 < 0 ? line.slice(t2 + 1) : line.slice(t2 + 1, t3)
       seen[word] = true
       items.push({
         word: word,
-        score: this.scoreEnglishCandidate(seed, word, this._expandTag(parts[2] || ""))
+        score: self.scoreEnglishCandidate(seed, word, self._expandTag(tagCode || ""))
       })
-      // Early termination — enough candidates for scoring to pick the best 30
-      if (items.length >= 80) {
-        break
-      }
-    }
+    })
   },
 
   buildEnglishSuggestions(seed, items, seen) {
