@@ -3,22 +3,22 @@
     <!-- 336/432：圆角很小的矩形屏，时间用水平直线排布（弧线与屏幕轮廓不搭） -->
     <text if="{{flatClock}}" class="time-flat time-flat-{{screenClass}}">{{tc0}}{{tc1}}{{tc2}}{{tc3}}{{tc4}}</text>
 
-    <!-- 共用：胶囊/圆屏时间（弧形） -->
+    <!-- 共用：胶囊/圆屏时间（弧形）。几何按 w212 官方闹钟时间实测标定（见 .clock 注释） -->
     <div if="{{!flatClock}}" class="clock clock-{{screenClass}}">
-      <div style="position:absolute;left:53px;top:8.4px;width:20px;transform:rotate(-21deg);transform-origin:10px 16.5px;">
-        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc0}}</text>
+      <div class="clock-slot cs0 cs0-{{screenClass}}">
+        <text class="clock-digit cd cd-{{screenClass}}">{{tc0}}</text>
       </div>
-      <div style="position:absolute;left:73px;top:2.8px;width:20px;transform:rotate(-10.3deg);transform-origin:10px 16.5px;">
-        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc1}}</text>
+      <div class="clock-slot cs1 cs1-{{screenClass}}">
+        <text class="clock-digit cd cd-{{screenClass}}">{{tc1}}</text>
       </div>
-      <div style="position:absolute;left:93px;top:1px;width:20px;">
-        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc2}}</text>
+      <div class="clock-slot cs2 cs2-{{screenClass}}">
+        <text class="clock-digit cd cd-{{screenClass}}">{{tc2}}</text>
       </div>
-      <div style="position:absolute;left:113px;top:2.8px;width:20px;transform:rotate(10.3deg);transform-origin:10px 16.5px;">
-        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc3}}</text>
+      <div class="clock-slot cs3 cs3-{{screenClass}}">
+        <text class="clock-digit cd cd-{{screenClass}}">{{tc3}}</text>
       </div>
-      <div style="position:absolute;left:133px;top:8.4px;width:20px;transform:rotate(21deg);transform-origin:10px 16.5px;">
-        <text style="width:20px;font-size:25px;font-weight:600;text-align:center;color:#ffffff;">{{tc4}}</text>
+      <div class="clock-slot cs4 cs4-{{screenClass}}">
+        <text class="clock-digit cd cd-{{screenClass}}">{{tc4}}</text>
       </div>
     </div>
 
@@ -534,22 +534,135 @@ export default {
   align-items: center;
 }
 
-/* 弧形时钟：几何基准是 212 屏。212 用设计原值 margin-top:-25px（数字顶端约 21px，
-   占屏高 4.0%）；192 按同比例换算 -17px（490×4.0%）。负 margin 会同时把下方内容上提，
-   这正是原设计的纵向节奏，不要再用 margin-bottom 去抵消。 */
+/* 弧形时钟：几何按 w212 官方闹钟时间（17:39）逐像素标定。
+   官方在 212×520 上的墨迹：整块 x76..136（宽 61，居中）、数字顶 y≈7、底 y≈25，
+   数字墨迹中心 x=79.5 / 93 / 104.5 / 116.5 / 131.5，外圈比内圈低约 3px，
+   字重为常规（Vela 只认 normal/bold，数字 <550 即 normal）。
+   容器顶贴屏幕 y=0：页面 padding-top 用负 margin 抵消；高度 36 + margin-bottom
+   保持下面内容原位（212 下一内容仍从 y=46 开始，192 仍从 y=45 开始）。
+   192 按 192/212=0.9057 等比缩放；466 保留原 25px/加粗几何。 */
 .clock {
   width: 212px;
   height: 36px;
-  margin-bottom: -4px;
+  margin-top: -39px;
+  margin-bottom: 10px;
   position: relative;
 }
 
 .clock-192 {
-  margin-top: -17px;
+  width: 192px;
+  margin-top: -30px;
+  margin-bottom: 9px;
 }
 
-.clock-212 {
-  margin-top: -25px;
+.clock-466 {
+  margin-top: 0;
+  margin-bottom: -4px;
+}
+
+.clock-slot {
+  position: absolute;
+  width: 20px;
+  transform-origin: 10px 16.5px;
+}
+
+.clock-digit {
+  width: 20px;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* 212：目标墨迹顶 11 / 7 / 10 / 7 / 11 */
+.cs0 {
+  left: 69.5px;
+  top: 6.95px;
+  transform: rotate(-21deg);
+}
+
+.cs1 {
+  left: 83px;
+  top: 2.85px;
+  transform: rotate(-10.3deg);
+}
+
+.cs2 {
+  left: 94.5px;
+  top: 0.3px;
+}
+
+.cs3 {
+  left: 106.5px;
+  top: 2.85px;
+  transform: rotate(10.3deg);
+}
+
+.cs4 {
+  left: 121.5px;
+  top: 6.95px;
+  transform: rotate(21deg);
+}
+
+/* 192：等比缩放（中心随屏宽居中） */
+.cs0-192 {
+  left: 62.5px;
+  top: 6.3px;
+}
+
+.cs1-192 {
+  left: 74.7px;
+  top: 2.6px;
+}
+
+.cs2-192 {
+  left: 85.1px;
+  top: 0.3px;
+}
+
+.cs3-192 {
+  left: 96px;
+  top: 2.6px;
+}
+
+.cs4-192 {
+  left: 109.6px;
+  top: 6.3px;
+}
+
+.cd-192 {
+  font-size: 20px;
+}
+
+/* 466：保留原几何（212 基准容器居中，故 left 仍是旧相对值） */
+.cs0-466 {
+  left: 53px;
+  top: 8.4px;
+}
+
+.cs1-466 {
+  left: 73px;
+  top: 2.8px;
+}
+
+.cs2-466 {
+  left: 93px;
+  top: 1px;
+}
+
+.cs3-466 {
+  left: 113px;
+  top: 2.8px;
+}
+
+.cs4-466 {
+  left: 133px;
+  top: 8.4px;
+}
+
+.cd-466 {
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .time-header {
