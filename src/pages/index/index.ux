@@ -127,20 +127,20 @@ export default {
   onPageTouchStart(evt) {
     var point = this.getTouchPoint(evt)
     if (!point) {
-      this._pageSwipeX = -1
-      this._pageSwipeY = -1
+      this.pageSwipeX = -1
+      this.pageSwipeY = -1
       return
     }
-    this._pageSwipeX = point.clientX
-    this._pageSwipeY = point.clientY
+    this.pageSwipeX = point.clientX
+    this.pageSwipeY = point.clientY
   },
 
   onPageTouchEnd(evt) {
     var point = this.getTouchPoint(evt)
-    var startX = this._pageSwipeX
-    var startY = this._pageSwipeY
-    this._pageSwipeX = -1
-    this._pageSwipeY = -1
+    var startX = this.pageSwipeX
+    var startY = this.pageSwipeY
+    this.pageSwipeX = -1
+    this.pageSwipeY = -1
     if (!point || startX < 0) {
       return
     }
@@ -173,7 +173,8 @@ export default {
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
     releasingKey: "",
-    btnScaleEnabled: false
+    btnScaleEnabled: false,
+    keepScreenOnApplied: null
   },
 
   onInit() {
@@ -203,17 +204,17 @@ export default {
   _scheduleNextTick() {
     var self = this
     var delay = 60000 - (Date.now() % 60000)
-    this._timeTimer = setTimeout(function() {
-      self._timeTimer = null
+    this.timeTimer = setTimeout(function() {
+      self.timeTimer = null
       self._updateTime()
       self._scheduleNextTick()
     }, delay)
   },
 
   _stopTimeTicker() {
-    if (this._timeTimer) {
-      clearTimeout(this._timeTimer)
-      this._timeTimer = null
+    if (this.timeTimer) {
+      clearTimeout(this.timeTimer)
+      this.timeTimer = null
     }
   },
 
@@ -311,11 +312,11 @@ export default {
   // 首帧之后再推赞助页：冷启动瞬间再建一个页面会叠加解码/节点峰值
   _scheduleSponsorPrompt() {
     var self = this
-    if (this._sponsorTimer) {
-      clearTimeout(this._sponsorTimer)
+    if (this.sponsorTimer) {
+      clearTimeout(this.sponsorTimer)
     }
-    this._sponsorTimer = setTimeout(function() {
-      self._sponsorTimer = null
+    this.sponsorTimer = setTimeout(function() {
+      self.sponsorTimer = null
       self.goSponsor()
     }, 1500)
   },
@@ -323,11 +324,11 @@ export default {
   // 首次启动：不弹赞助页，改为推引导页（第 10 次启动仍弹赞助页）
   _scheduleGuidePrompt() {
     var self = this
-    if (this._guideTimer) {
-      clearTimeout(this._guideTimer)
+    if (this.guideTimer) {
+      clearTimeout(this.guideTimer)
     }
-    this._guideTimer = setTimeout(function() {
-      self._guideTimer = null
+    this.guideTimer = setTimeout(function() {
+      self.guideTimer = null
       self.goGuide()
     }, 1200)
   },
@@ -335,16 +336,16 @@ export default {
   // 非关键的 storage 读取延后到首帧之后，避开与页面创建/图片解码抢峰值
   _scheduleStartupTasks() {
     var self = this
-    if (!this._btnScaleTimer) {
-      this._btnScaleTimer = setTimeout(function() {
-        self._btnScaleTimer = null
+    if (!this.btnScaleTimer) {
+      this.btnScaleTimer = setTimeout(function() {
+        self.btnScaleTimer = null
         self._loadBtnScale()
       }, 300)
     }
-    if (!this._historyCleanDone && !this._historyCleanTimer) {
-      this._historyCleanTimer = setTimeout(function() {
-        self._historyCleanTimer = null
-        self._historyCleanDone = true
+    if (!this.historyCleanDone && !this.historyCleanTimer) {
+      this.historyCleanTimer = setTimeout(function() {
+        self.historyCleanTimer = null
+        self.historyCleanDone = true
         self._cleanInvalidHistory()
       }, 4000)
     }
@@ -356,25 +357,25 @@ export default {
     }
     this.pressedKey = key
     this.releasingKey = ""
-    this._pressStart = Date.now()
-    this._longPress = false
+    this.pressStart = Date.now()
+    this.longPress = false
   },
 
   onBtnUp(key) {
     if (!this.btnScaleEnabled) {
       return
     }
-    if (Date.now() - this._pressStart >= 200) {
-      this._longPress = true
+    if (Date.now() - this.pressStart >= 200) {
+      this.longPress = true
     }
     this.pressedKey = ""
     this.releasingKey = key
     var self = this
-    if (this._btnUpTimer) {
-      clearTimeout(this._btnUpTimer)
+    if (this.btnUpTimer) {
+      clearTimeout(this.btnUpTimer)
     }
-    this._btnUpTimer = setTimeout(function() {
-      self._btnUpTimer = null
+    this.btnUpTimer = setTimeout(function() {
+      self.btnUpTimer = null
       if (self.releasingKey === key) {
         self.releasingKey = ""
       }
@@ -395,6 +396,18 @@ export default {
     })
   },
 
+  // 偏好没变就不重新下发 brightness（回前台时避免和首帧重绘撞同一帧）
+  syncKeepScreenOn() {
+    const cached = typeof global !== "undefined" ? global.__keepScreenOn : undefined
+    if (cached !== undefined && cached === this.keepScreenOnApplied) {
+      return
+    }
+    const self = this
+    applyKeepScreenOnSetting(function (enabled) {
+      self.keepScreenOnApplied = enabled
+    })
+  },
+
   onShow() {
 
 
@@ -407,72 +420,72 @@ export default {
     }
     this._updateTime()
     this._startTimeTicker()
-    applyKeepScreenOnSetting()
+    this.syncKeepScreenOn()
     this._scheduleStartupTasks()
   },
 
   onHide() {
     this._stopTimeTicker()
-    if (this._sponsorTimer) {
-      clearTimeout(this._sponsorTimer)
-      this._sponsorTimer = null
+    if (this.sponsorTimer) {
+      clearTimeout(this.sponsorTimer)
+      this.sponsorTimer = null
     }
-    if (this._guideTimer) {
-      clearTimeout(this._guideTimer)
-      this._guideTimer = null
+    if (this.guideTimer) {
+      clearTimeout(this.guideTimer)
+      this.guideTimer = null
     }
   },
 
   onDestroy() {
-    if (this._btnUpTimer) {
-      clearTimeout(this._btnUpTimer)
-      this._btnUpTimer = null
+    if (this.btnUpTimer) {
+      clearTimeout(this.btnUpTimer)
+      this.btnUpTimer = null
     }
-    if (this._historyCleanTimer) {
-      clearTimeout(this._historyCleanTimer)
-      this._historyCleanTimer = null
+    if (this.historyCleanTimer) {
+      clearTimeout(this.historyCleanTimer)
+      this.historyCleanTimer = null
     }
-    if (this._btnScaleTimer) {
-      clearTimeout(this._btnScaleTimer)
-      this._btnScaleTimer = null
+    if (this.btnScaleTimer) {
+      clearTimeout(this.btnScaleTimer)
+      this.btnScaleTimer = null
     }
-    if (this._sponsorTimer) {
-      clearTimeout(this._sponsorTimer)
-      this._sponsorTimer = null
+    if (this.sponsorTimer) {
+      clearTimeout(this.sponsorTimer)
+      this.sponsorTimer = null
     }
-    if (this._guideTimer) {
-      clearTimeout(this._guideTimer)
-      this._guideTimer = null
+    if (this.guideTimer) {
+      clearTimeout(this.guideTimer)
+      this.guideTimer = null
     }
     this._stopTimeTicker()
   },
 
   goInflectSearch() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/search", params: { searchMode: "inflect", inflectDepth: "0" } })
   },
   goSearch() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/search" })
   },
   goSettings() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/settings" })
   },
   goHistory() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/records", params: { type: "history" } })
   },
   goFavorites() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     // 收藏非空时提示加载中：判断后带 loading 参数，由收藏列表页内 toast（真机上
@@ -503,19 +516,19 @@ export default {
     })
   },
   goAbout() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/about" })
   },
   goSponsor() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/sponsor" })
   },
   goGuide() {
-    if (this._longPress || !navGuard()) {
+    if (this.longPress || !navGuard()) {
       return
     }
     router.push({ uri: "/pages/guide" })

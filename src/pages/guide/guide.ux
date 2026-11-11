@@ -59,9 +59,9 @@ export default {
   },
 
   onDestroy() {
-    if (this._goTimer) {
-      clearTimeout(this._goTimer)
-      this._goTimer = null
+    if (this.goTimer) {
+      clearTimeout(this.goTimer)
+      this.goTimer = null
     }
   },
 
@@ -80,11 +80,11 @@ export default {
     prompt.showToast({ message: "请认真阅读使用说明", duration: 2000 })
     // 等 toast 露脸再换页：真机上切页瞬间发起的 toast 会被吞掉
     var self = this
-    if (this._goTimer) {
-      clearTimeout(this._goTimer)
+    if (this.goTimer) {
+      clearTimeout(this.goTimer)
     }
-    this._goTimer = setTimeout(function() {
-      self._goTimer = null
+    this.goTimer = setTimeout(function() {
+      self.goTimer = null
       router.replace({ uri: "/pages/about" })
     }, 700)
   },

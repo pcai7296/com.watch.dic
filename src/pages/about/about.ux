@@ -145,9 +145,9 @@ export default {
     sectionTitleStyle: "width: 180px; text-align: left;",
     devLineStyle: "width: 180px; text-align: center;",
     descLineStyle: "width: 180px; text-align: left;",
-    _layoutKey: "",
-    _allFilled: false,
-    _fillTimer: null
+    layoutKeyCache: "",
+    allFilled: false,
+    fillTimer: null
   },
 
   onInit() {
@@ -178,9 +178,9 @@ export default {
   },
 
   onDestroy() {
-    if (this._fillTimer) {
-      clearTimeout(this._fillTimer)
-      this._fillTimer = null
+    if (this.fillTimer) {
+      clearTimeout(this.fillTimer)
+      this.fillTimer = null
     }
   },
 
@@ -190,7 +190,7 @@ export default {
     const profile = appData.screenProfile || "pill-standard"
     const isPill = profile === "pill-standard" || profile === "pill-compact"
     const safeWidth = sw === 466 ? Math.round(sw / Math.SQRT2) : sw - 20
-    this._layoutKey = sw + "|" + profile
+    this.layoutKeyCache = sw + "|" + profile
 
     if (isPill) {
       this.layoutWidth = 196
@@ -231,31 +231,31 @@ export default {
     const appData = this.$app.$def.data || {}
     const sw = appData.screenWidth || 212
     const profile = appData.screenProfile || "pill-standard"
-    if (sw + "|" + profile === this._layoutKey) {
+    if (sw + "|" + profile === this.layoutKeyCache) {
       return
     }
-    this._allFilled = false
+    this.allFilled = false
     this.applyScreenLayout()
     this.scheduleDeferredSections()
   },
 
   scheduleDeferredSections() {
-    if (this._allFilled || this._fillTimer) {
+    if (this.allFilled || this.fillTimer) {
       return
     }
 
     let index = 0
     const step = () => {
-      this._fillTimer = null
+      this.fillTimer = null
       if (index >= DEFERRED_SECTIONS.length) {
-        this._allFilled = true
+        this.allFilled = true
         return
       }
       this.fillSection(DEFERRED_SECTIONS[index])
       index++
-      this._fillTimer = setTimeout(step, 16)
+      this.fillTimer = setTimeout(step, 16)
     }
-    this._fillTimer = setTimeout(step, 0)
+    this.fillTimer = setTimeout(step, 0)
   },
 
   fillSection(key) {
@@ -272,13 +272,13 @@ export default {
   },
 
   fillAllSections() {
-    if (this._allFilled) {
+    if (this.allFilled) {
       return
     }
-    this._allFilled = true
-    if (this._fillTimer) {
-      clearTimeout(this._fillTimer)
-      this._fillTimer = null
+    this.allFilled = true
+    if (this.fillTimer) {
+      clearTimeout(this.fillTimer)
+      this.fillTimer = null
     }
     for (let i = 0; i < DEFERRED_SECTIONS.length; i++) {
       this.fillSection(DEFERRED_SECTIONS[i])
@@ -287,7 +287,7 @@ export default {
 
   onListScroll() {
     // 兜底：用户滑到还没填的段落时立刻补齐，避免空白
-    if (!this._allFilled) {
+    if (!this.allFilled) {
       this.fillAllSections()
     }
   },

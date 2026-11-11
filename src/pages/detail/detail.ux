@@ -100,7 +100,8 @@ export default {
     favoriteBtnStyle: "",
     displayLines: [],
     isRoundScreen: false,
-    isCapsule: false
+    isCapsule: false,
+    keepScreenOnApplied: null
   },
 
   _expandTag(s) {
@@ -193,13 +194,29 @@ export default {
 
   onDestroy() {
     this.destroyed = true
+    // 详情页的行数组是页面私有的大对象（每条译文按字符宽切行），销毁时显式丢弃
+    this.translationLines = []
+    this.displayLines = []
+    this.translationText = ""
+  },
+
+  // 偏好没变就不重新下发 brightness：每次 onShow 无条件下发会与页面重绘撞同一帧
+  syncKeepScreenOn() {
+    const cached = typeof global !== "undefined" ? global.__keepScreenOn : undefined
+    if (cached !== undefined && cached === this.keepScreenOnApplied) {
+      return
+    }
+    const self = this
+    applyKeepScreenOnSetting(function (enabled) {
+      self.keepScreenOnApplied = enabled
+    })
   },
 
   onShow() {
 
 
     this.screenClass = appScreenClass(this)
-    applyKeepScreenOnSetting()
+    this.syncKeepScreenOn()
   },
 
   goBack() {

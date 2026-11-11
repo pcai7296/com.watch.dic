@@ -607,7 +607,7 @@ export default {
     let array = [];
     const rowSize = this.lang === "en" ? 1 : parseInt(this.maxlength);
     for (let i = 0; i < this.resultList.length; i++) {
-      array.push(this.resultList[i]);
+      array.push(this.resultList[i] === null || this.resultList[i] === undefined ? "" : String(this.resultList[i]));
       if (array.length === rowSize) {
         this.resultList2.push(array);
         array = [];
@@ -692,9 +692,15 @@ export default {
     }
   },
   onVibrate() {
-    if (this.vibratemode != "") {
-      vibrator.vibrate({ mode: this.vibratemode });
+    if (!this.vibratemode || this.vibratemode == "") {
+      return;
     }
+    // 振动要 native 侧分配一段缓冲（日志里一次 4184B），把它推迟到下一帧，
+    // 避免和按键的列表重建（百 KB 级）挤在同一帧把整机堆顶穿。
+    const mode = this.vibratemode;
+    setTimeout(function () {
+      vibrator.vibrate({ mode: mode });
+    }, 16);
   },
   handelScroll(event) {
     let percentTemp67 = (event.scrollX / 636) * 100 + 52.8;
