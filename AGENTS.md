@@ -102,6 +102,7 @@ dict_repo/          三档词库独立仓（gitignored）
 - **不要硬编码屏幕尺寸**；用 `screenClass` / `buildTarget`。
 - **不要写 `@media`**：手环 8 Pro 不支持，手环 9 可能只有 `shape`；多列一律后缀类。全仓现只有 w466 时代的 InputMethod 一处历史遗留。
 - **不要用 `@keyframes`**：手环 10 的 AIOTJS CSS 解析器报 `[to_css_key:140] Unknown style - keyframes`；真机 3.6.1 上会导致页面根节点 `classList` 为 null，紧接 miwear rapidjson `document.h:1154` assert 重启。页面过渡已整体移除（真机 `classList null` → rapidjson assert），不要再加。
+- **`position` 只支持 `relative` / `absolute`**（官方文档《页面样式与布局》明确写死两种值，默认 `relative`）；**不要写 `position: fixed`**——不在支持列表里，真机 CSS builder 可能把整张样式表判废，同样落到 `classList is null` → rapidjson assert。节点默认就是 `relative`，`absolute` 子节点写 `top:0; height:100%` 即覆盖整屏，**不要给页面根节点额外加 `position: relative`**。
 - **文本最小 18px**；背景纯黑 `#000000`。
 - `storage`/`file`/`device` 异步调用要写 `success`/`fail`/`complete`。
 - `ready` 是框架保留事件名，别 `$emit("ready")`。

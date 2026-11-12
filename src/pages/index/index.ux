@@ -1,10 +1,10 @@
 <template>
   <div class="page page-{{screenClass}}" ontouchstart="onPageTouchStart" ontouchend="onPageTouchEnd">
     <!-- 336/432：圆角很小的矩形屏，时间用水平直线排布（弧线与屏幕轮廓不搭） -->
-    <text if="{{flatClock}}" class="time-flat time-flat-{{screenClass}}">{{tc0}}{{tc1}}{{tc2}}{{tc3}}{{tc4}}</text>
+    <text if="{{!bootLoading && layoutReady && flatClock}}" class="time-flat time-flat-{{screenClass}}">{{tc0}}{{tc1}}{{tc2}}{{tc3}}{{tc4}}</text>
 
     <!-- 共用：胶囊/圆屏时间（弧形）。几何按 w212 官方闹钟时间实测标定（见 .clock 注释） -->
-    <div if="{{!flatClock}}" class="clock clock-{{screenClass}}">
+    <div if="{{!bootLoading && layoutReady && !flatClock}}" class="clock clock-{{screenClass}}">
       <div class="clock-slot cs0 cs0-{{screenClass}}">
         <text class="clock-digit cd cd-{{screenClass}}">{{tc0}}</text>
       </div>
@@ -22,8 +22,15 @@
       </div>
     </div>
 
+    <!-- 冷启动读取布局期间：只显示加载环，顶部时间也先不显示。
+         遮罩只能用 absolute：Vela 的 position 只认 relative/absolute，fixed 不支持；
+         页面节点默认就是 relative，所以 .page 不需要额外定位。 -->
+    <div if="{{bootLoading}}" class="boot-loading">
+      <image class="boot-loading-icon" src="/common/images/loading.png" style="transform: rotate({{bootAngle}}deg);" />
+    </div>
+
     <!-- ===== 布局一：简约 (minimal) ===== -->
-    <div if="{{layoutReady && layoutMode === 'minimal'}}" class="minimal-wrap">
+    <div if="{{!bootLoading && layoutReady && layoutMode === 'minimal'}}" class="minimal-wrap">
       <text class="title title-{{screenClass}} m-title">腕上词典</text>
 
       <div class="icon-card icon-card-{{screenClass}} m-icon-card">
@@ -60,7 +67,7 @@
     </div>
 
     <!-- ===== 布局二：经典 (classic) ===== -->
-    <div if="{{layoutReady && layoutMode === 'classic'}}" class="classic-wrap">
+    <div if="{{!bootLoading && layoutReady && layoutMode === 'classic'}}" class="classic-wrap">
       <div class="icon-card icon-card-{{screenClass}} c-icon-card">
         <img class="deco-icon deco-icon-{{screenClass}}" src="/common/logo.png" />
       </div>
@@ -170,6 +177,9 @@ export default {
     // 否则 192/212 首帧先画默认的简约，再跳成用户选的经典。
     layoutMode: supportsMinimalLayout(currentScreenClass()) ? "" : "classic",
     layoutReady: !supportsMinimalLayout(currentScreenClass()),
+    // 冷启动遮罩：读存储 + 定布局期间只显示加载环，时间/布局都不出现
+    bootLoading: true,
+    bootAngle: 0,
     tc0: "", tc1: "", tc2: "", tc3: "", tc4: "",
     pressedKey: "",
     releasingKey: "",
@@ -182,6 +192,30 @@ export default {
     this._updateTime()
     this._loadLayout()
     this._trackLaunch()
+  },
+
+  // 模板编译完成、第一帧节点已存在后再转，避免在页面创建期间改样式
+  onReady() {
+    this._startBootRotation()
+  },
+
+  // 25ms/6deg 会每秒推 40 次样式；降到 33ms/8deg（≈30fps，1.485s 一圈），
+  // 既接近解包程序的 1.5s，又减少 setFromJs 次数
+  _startBootRotation() {
+    if (!this.bootLoading || this.bootTimer) {
+      return
+    }
+    var self = this
+    this.bootTimer = setInterval(function() {
+      self.bootAngle = (self.bootAngle + 8) % 360
+    }, 33)
+  },
+
+  _stopBootRotation() {
+    if (this.bootTimer) {
+      clearInterval(this.bootTimer)
+      this.bootTimer = null
+    }
   },
 
   _updateTime() {
@@ -226,6 +260,8 @@ export default {
       // 简约布局只有胶囊屏（192/212）有设计稿，其余列强制经典
       self.layoutMode = supportsMinimalLayout(appScreenClass(self)) ? mode : "classic"
       self.layoutReady = true
+      self._stopBootRotation()
+      self.bootLoading = false
       // 写进 $def：同一会话里设置页首帧直接复用，不必再等一次存储读取
       var def = self.$app && self.$app.$def
       if (def && def.data) {
@@ -458,6 +494,7 @@ export default {
       this.guideTimer = null
     }
     this._stopTimeTicker()
+    this._stopBootRotation()
   },
 
   goInflectSearch() {
@@ -545,6 +582,26 @@ export default {
   background-color: #000000;
   flex-direction: column;
   align-items: center;
+}
+
+/* 冷启动加载遮罩：盖住整页，同时挡住加载期间的点按。
+   不要用 position: fixed（Vela 不支持，只认 relative/absolute）；
+   .page 默认就是 relative，绝对定位的 top/height 100% 就是整屏。 */
+.boot-loading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boot-loading-icon {
+  width: 64px;
+  height: 64px;
 }
 
 /* 弧形时钟：几何按 w212 官方闹钟时间（17:39）逐像素标定。
