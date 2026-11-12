@@ -4,48 +4,73 @@
 
     <scroll class="settings-scroll settings-scroll-{{screenClass}}" scroll-y="true">
       <div class="content content-{{screenClass}}">
-        <text if="{{supportsMinimal}}" class="setting-title">首页布局</text>
-        <div if="{{supportsMinimal}}" class="layout-row">
-          <text class="layout-label {{layoutReady && layoutMode === 'classic' ? 'layout-active' : ''}}" onclick="setLayoutClassic">经典</text>
-          <text class="layout-label layout-label-ml {{layoutReady && layoutMode === 'minimal' ? 'layout-active' : ''}}" onclick="setLayoutMinimal">简约</text>
+
+        <div if="{{supportsMinimal}}" class="setting-row setting-row-{{screenClass}}" onclick="toggleLayout">
+          <div class="setting-text setting-text-{{screenClass}}">
+            <text class="setting-name">首页布局</text>
+            <text class="setting-desc">{{ layoutReady ? (layoutMode === 'minimal' ? '简约布局' : '经典布局') : '读取中…' }}</text>
+          </div>
+          <image
+            class="switch-img switch-img-{{screenClass}}"
+            src="{{ layoutReady && layoutMode === 'minimal' ? '/common/images/switch-on.png' : '/common/images/switch-off.png' }}"
+          ></image>
         </div>
 
-        <text class="setting-title sp-title">英文输入联想</text>
-        <switch
-          class="suggestion-switch suggestion-switch-{{screenClass}}"
-          checked="{{ englishSuggestionEnabled }}"
-          onchange="onSuggestionChange"
-        ></switch>
-
-        <text class="setting-title sp-title">结果页长按返回主页</text>
-        <switch
-          class="suggestion-switch suggestion-switch-{{screenClass}}"
-          checked="{{ resultLongPressHomeEnabled }}"
-          onchange="onResultLongPressHomeChange"
-        ></switch>
-
-        <div class="search-swipe-title">
-          <text class="setting-title">搜索输入页</text>
-          <text class="setting-title">强制不可滑动退出</text>
+        <div class="setting-row setting-row-{{screenClass}}" onclick="toggleEnglishSuggestion">
+          <div class="setting-text setting-text-{{screenClass}}">
+            <text class="setting-name">英文联想</text>
+            <text class="setting-desc">英文候选词</text>
+          </div>
+          <image
+            class="switch-img switch-img-{{screenClass}}"
+            src="{{ englishSuggestionEnabled ? '/common/images/switch-on.png' : '/common/images/switch-off.png' }}"
+          ></image>
         </div>
-        <switch
-          class="suggestion-switch suggestion-switch-{{screenClass}}"
-          checked="{{ searchSwipeExitLocked }}"
-          onchange="onSearchSwipeExitChange"
-        ></switch>
-        <text class="setting-title btn-scale-title">按钮缩放</text>
-        <switch
-          class="suggestion-switch suggestion-switch-{{screenClass}}"
-          checked="{{ btnScaleEnabled }}"
-          onchange="onBtnScaleChange"
-        ></switch>
 
-        <text class="setting-title sp-title">屏幕常亮</text>
-        <switch
-          class="suggestion-switch suggestion-switch-{{screenClass}}"
-          checked="{{ keepScreenOnEnabled }}"
-          onchange="onKeepScreenOnChange"
-        ></switch>
+        <div class="setting-row setting-row-{{screenClass}}" onclick="toggleResultLongPressHome">
+          <div class="setting-text setting-text-{{screenClass}}">
+            <text class="setting-name">长按返回</text>
+            <text class="setting-desc">结果页卡片</text>
+          </div>
+          <image
+            class="switch-img switch-img-{{screenClass}}"
+            src="{{ resultLongPressHomeEnabled ? '/common/images/switch-on.png' : '/common/images/switch-off.png' }}"
+          ></image>
+        </div>
+
+        <div class="setting-row setting-row-{{screenClass}}" onclick="toggleSearchSwipeExit">
+          <div class="setting-text setting-text-{{screenClass}}">
+            <text class="setting-name">滑动锁定</text>
+            <text class="setting-desc">搜索输入页</text>
+          </div>
+          <image
+            class="switch-img switch-img-{{screenClass}}"
+            src="{{ searchSwipeExitLocked ? '/common/images/switch-on.png' : '/common/images/switch-off.png' }}"
+          ></image>
+        </div>
+
+        <div class="setting-row setting-row-{{screenClass}}" onclick="toggleBtnScale">
+          <div class="setting-text setting-text-{{screenClass}}">
+            <text class="setting-name">按钮缩放</text>
+            <text class="setting-desc">点击动效</text>
+          </div>
+          <image
+            class="switch-img switch-img-{{screenClass}}"
+            src="{{ btnScaleEnabled ? '/common/images/switch-on.png' : '/common/images/switch-off.png' }}"
+          ></image>
+        </div>
+
+        <div class="setting-row setting-row-{{screenClass}}" onclick="toggleKeepScreenOn">
+          <div class="setting-text setting-text-{{screenClass}}">
+            <text class="setting-name">屏幕常亮</text>
+            <text class="setting-desc">保持亮屏</text>
+          </div>
+          <image
+            class="switch-img switch-img-{{screenClass}}"
+            src="{{ keepScreenOnEnabled ? '/common/images/switch-on.png' : '/common/images/switch-off.png' }}"
+          ></image>
+        </div>
+
       </div>
     </scroll>
   </div>
@@ -150,6 +175,15 @@ export default {
     router.back()
   },
 
+  toggleLayout() {
+    if (!this.layoutReady || !this.supportsMinimal) return
+    if (this.layoutMode === "minimal") {
+      this.setLayoutClassic()
+    } else {
+      this.setLayoutMinimal()
+    }
+  },
+
   setLayoutClassic() {
     if (this.layoutMode === "classic") return
     this.layoutMode = "classic"
@@ -181,28 +215,28 @@ export default {
     prompt.showToast({ message: "重启生效", duration: 1500 })
   },
 
-  onSuggestionChange(evt) {
-    this.englishSuggestionEnabled = !!(evt && evt.checked)
+  toggleEnglishSuggestion() {
+    this.englishSuggestionEnabled = !this.englishSuggestionEnabled
     this.saveSwitch("dic_english_suggestions", this.englishSuggestionEnabled)
   },
 
-  onResultLongPressHomeChange(evt) {
-    this.resultLongPressHomeEnabled = !!(evt && evt.checked)
+  toggleResultLongPressHome() {
+    this.resultLongPressHomeEnabled = !this.resultLongPressHomeEnabled
     this.saveSwitch("dic_result_long_press_home", this.resultLongPressHomeEnabled)
   },
 
-  onSearchSwipeExitChange(evt) {
-    this.searchSwipeExitLocked = !!(evt && evt.checked)
+  toggleSearchSwipeExit() {
+    this.searchSwipeExitLocked = !this.searchSwipeExitLocked
     this.saveSwitch("dic_search_swipe_exit_locked", this.searchSwipeExitLocked)
   },
 
-  onBtnScaleChange(evt) {
-    this.btnScaleEnabled = !!(evt && evt.checked)
+  toggleBtnScale() {
+    this.btnScaleEnabled = !this.btnScaleEnabled
     this.saveSwitch("dic_button_scale", this.btnScaleEnabled)
   },
 
-  onKeepScreenOnChange(evt) {
-    this.keepScreenOnEnabled = !!(evt && evt.checked)
+  toggleKeepScreenOn() {
+    this.keepScreenOnEnabled = !this.keepScreenOnEnabled
     setKeepScreenOnEnabled(this.keepScreenOnEnabled)
     this.saveSwitch("dic_keep_screen_on", this.keepScreenOnEnabled)
   },
@@ -278,71 +312,120 @@ export default {
 
 .content {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 16px;
+  padding-bottom: 12px;
   flex-direction: column;
   align-items: center;
 }
 
-.setting-title {
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 30px;
-  text-align: center;
-}
-
-.sp-title {
-  margin-top: 34px;
-}
-
-.suggestion-switch {
-  width: 58px;
-  height: 32px;
-  margin-top: 16px;
-  thumb-color: #ffffff;
-  track-color: #0b65ea;
-}
-
-.layout-row {
-  margin-top: 14px;
+/* 设置项卡片：左描述、右开关图片（素材与解包天气 App 一致） */
+.setting-row {
+  width: 196px;
+  height: 60px;
+  margin-top: 6px;
+  padding-left: 12px;
+  padding-right: 10px;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0.15);
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.layout-label {
-  width: 72px;
-  height: 36px;
-  border-radius: 18px;
-  border-width: 2px;
-  border-color: #2a3a50;
-  background-color: transparent;
-  color: #6888b8;
-  font-size: 20px;
-  font-weight: 700;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.layout-label-ml {
-  margin-left: 12px;
-}
-
-.layout-active {
-  border-color: #0b65ea;
-  background-color: #0b65ea;
-  color: #ffffff;
-}
-
-.search-swipe-title {
-  margin-top: 34px;
+.setting-text {
+  width: 108px;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.btn-scale-title {
-  margin-top: 34px;
+.setting-name {
+  width: 100%;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.setting-desc {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.switch-img {
+  width: 58px;
+  height: 33px;
+}
+
+/* 192：最窄的胶囊屏，卡片与开关再收一点 */
+.setting-row-192 {
+  width: 176px;
+  height: 58px;
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+.setting-text-192 {
+  width: 96px;
+}
+
+.switch-img-192 {
+  width: 52px;
+  height: 30px;
+}
+
+/* 336 / 432：矩形屏，卡片贴边留 8px */
+.setting-row-336 {
+  width: 320px;
+  height: 64px;
+  padding-left: 16px;
+  padding-right: 12px;
+}
+
+.setting-text-336 {
+  width: 222px;
+}
+
+.switch-img-336 {
+  width: 62px;
+  height: 35px;
+}
+
+.setting-row-432 {
+  width: 416px;
+  height: 62px;
+  padding-left: 18px;
+  padding-right: 14px;
+}
+
+.setting-text-432 {
+  width: 306px;
+}
+
+.switch-img-432 {
+  width: 66px;
+  height: 38px;
+}
+
+/* 466：圆形屏，卡片宽取内接正方形附近，避免上下被圆边裁切 */
+.setting-row-466 {
+  width: 330px;
+  height: 62px;
+  padding-left: 18px;
+  padding-right: 14px;
+}
+
+.setting-text-466 {
+  width: 232px;
+}
+
+.switch-img-466 {
+  width: 60px;
+  height: 34px;
 }
 
 .page-336 {
@@ -402,53 +485,30 @@ export default {
 
 .content-192 {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 12px;
   flex-direction: column;
   align-items: center;
 }
 
 .content-336 {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 16px;
   flex-direction: column;
   align-items: center;
 }
 
 .content-432 {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 16px;
   flex-direction: column;
   align-items: center;
 }
 
 .content-466 {
   width: 100%;
-  margin-top: 101px;
+  margin-top: 18px;
   flex-direction: column;
   align-items: center;
 }
 
-.suggestion-switch-336 {
-  width: 58px;
-  height: 32px;
-  margin-top: 20px;
-  thumb-color: #ffffff;
-  track-color: #0b65ea;
-}
-
-.suggestion-switch-432 {
-  width: 58px;
-  height: 32px;
-  margin-top: 20px;
-  thumb-color: #ffffff;
-  track-color: #0b65ea;
-}
-
-.suggestion-switch-466 {
-  width: 58px;
-  height: 32px;
-  margin-top: 20px;
-  thumb-color: #ffffff;
-  track-color: #0b65ea;
-}
 </style>

@@ -14,6 +14,7 @@ common/
 ├── dictCodec.js            # compact-v3 运行时解码（parseBase36 / decodePrefixField / decodeDeltaIds）
 ├── dict/                   # 生成的分片 —— 已入库，禁止手改
 ├── icons/                  # 15 个按钮/UI PNG（首页 4 个为 64×64）
+├── images/                 # loading.png（加载环）/ switch-on.png / switch-off.png，解包天气 App 原图
 └── logo.png（App 内装饰图，116x116） / icon.png（manifest 图标） / sponsor-code.png
 ```
 
