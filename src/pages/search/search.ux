@@ -43,10 +43,10 @@ import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import device from "@system.device"
 import router from "@system.router"
 import prompt from "@system.prompt"
-import file from "@system.file"
 import storage from "@system.storage"
 import {setSuggestionSeed, setSuggestions} from "../../common/suggestionState"
 import {decodePrefixField} from "../../common/dictCodec"
+import {readLines} from "../../common/dictLines"
 import {getDictionaryProfile, loadDictionaryProfile} from "../../common/dictProfile"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
 
@@ -134,31 +134,8 @@ export default {
     return decodePrefixField(parts[0], prevWord) || ""
   },
 
-  // 补全只缓存原始分片文本（ASCII 8-bit 字符串），扫描时用 indexOf 逐行推进。
-  // 旧实现把 text.split("\n") 的整行数组放进 LRU：word_t.txt 4077 行约 180KB 常驻，
-  // 每次击键还要对整片做一遍 split("\t")，是本页最大的一块常驻 + 瞬时垃圾。
-  // 逐行迭代不会丢 front-code 的 previousWord 链（同一条链只是换来源）。
-  forEachSuggestionLine(text, limit, cb) {
-    if (!text) return
-    var from = 0
-    var count = 0
-    while (from <= text.length && count < limit) {
-      var nl = text.indexOf("\n", from)
-      if (nl < 0) {
-        cb(text.slice(from))
-        return
-      }
-      cb(text.slice(from, nl))
-      from = nl + 1
-      count++
-    }
-  },
-
   onInit() {
     loadDictionaryProfile()
-    this.englishSuggestionText = {}
-    this.englishSuggestionPending = {}
-    this.englishSuggestionOrder = []
     this.loadEnglishSuggestionSetting()
     this.loadSearchSwipeExitSetting()
     this.applyScreenInfo(buildTarget)
@@ -227,9 +204,6 @@ export default {
       clearTimeout(this.marqueeTimer)
       this.marqueeTimer = null
     }
-    this.englishSuggestionText = null
-    this.englishSuggestionPending = null
-    this.englishSuggestionOrder = null
     this.stopMarquee()
     // 页面销毁后主动 GC，释放补全缓存（官方内存文档：及时 runGC 避免泄漏）
     if (typeof global !== "undefined" && typeof global.runGC === "function") {
@@ -238,7 +212,7 @@ export default {
   },
 
   // 转后台：卸载 IME 节点（否则 IME 会继续向已不可见的节点推 value 属性，
-  // 真机刷 setFromJs: Unhandled type / refreshingWidgetAttr 错误），并丢掉分片文本。
+  // 真机刷 setFromJs: Unhandled type / refreshingWidgetAttr 错误），并作废在飞的补全扫描。
   // onShow 会把 imeMounted 重新置 true。
   onHide() {
     this.imeMounted = false
@@ -247,9 +221,6 @@ export default {
       clearTimeout(this.suggestionTimer)
       this.suggestionTimer = null
     }
-    this.englishSuggestionText = {}
-    this.englishSuggestionPending = {}
-    this.englishSuggestionOrder = []
     this.englishSuggestionsText = ""
     setSuggestionSeed("")
     setSuggestions("")
@@ -396,6 +367,11 @@ export default {
     // 日志里成片的 setFromJs: Unhandled type 就是这个时序（结果页/详情页切换时）。
     this.imeMounted = false
     this.keyboardHidden = true
+    // 结果页自己要加载 42KB 的 results.jsc（崩溃 3 的 43168B 分配量级与它吻合），
+    // 跳页前先把补全扫描留下的碎片收干净，给页面加载腾出连续空间。
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
     router.push({
       uri: "/pages/results",
       params: {
@@ -568,20 +544,11 @@ export default {
       return
     }
     const normalized = this.normalizeEnglishSeed(seed)
-    const suggestionToken = ++this.englishSuggestionToken
     if (!normalized) {
-      this.englishSuggestionsText = ""
-      setSuggestionSeed("")
-      setSuggestions("")
+      this.clearEnglishSuggestions()
       return
     }
-
-    this.loadEnglishSuggestionSource(this._wordShardKey(normalized), (source) => {
-      if (suggestionToken !== this.englishSuggestionToken) {
-        return
-      }
-      this.applyEnglishSuggestions(normalized, source)
-    })
+    this.applyEnglishSuggestions(normalized)
   },
 
   scheduleSuggestionUpdate() {
@@ -627,52 +594,6 @@ export default {
 
   _wordShardPath(key) {
     return "/common/dict/words/word_" + key + ".txt"
-  },
-
-  loadEnglishSuggestionSource(letter, done) {
-    // Cache hit — 原始文本
-    if (Object.prototype.hasOwnProperty.call(this.englishSuggestionText, letter)) {
-      this._touchEnglishSuggestion(letter)
-      done(this.englishSuggestionText[letter])
-      return
-    }
-    if (this.englishSuggestionPending[letter]) {
-      this.englishSuggestionPending[letter].push(done)
-      return
-    }
-
-    this.englishSuggestionPending[letter] = [done]
-
-    file.readText({
-      uri: this._wordShardPath(letter),
-      encoding: "utf-8",
-      success: (data) => {
-        if (this.destroyed) {
-          delete this.englishSuggestionPending[letter]
-          return
-        }
-        var text = data && data.text ? data.text.replace(/\r/g, "") : ""
-        this._cacheEnglishSuggestion(letter, text)
-        var pending = this.englishSuggestionPending[letter] || []
-        delete this.englishSuggestionPending[letter]
-        for (var i = 0; i < pending.length; i++) {
-          pending[i](text)
-        }
-      },
-      fail: () => {
-        if (this.destroyed) {
-          delete this.englishSuggestionPending[letter]
-          return
-        }
-        this._cacheEnglishSuggestion(letter, "")
-        var pending = this.englishSuggestionPending[letter] || []
-        delete this.englishSuggestionPending[letter]
-        for (var i = 0; i < pending.length; i++) {
-          pending[i]("")
-        }
-      },
-      complete: () => {}
-    })
   },
 
   loadEnglishSuggestionSetting() {
@@ -728,76 +649,81 @@ export default {
     setSuggestions("")
   },
 
-  _touchEnglishSuggestion(letter) {
-    var index = this.englishSuggestionOrder.indexOf(letter)
-    if (index >= 0) {
-      this.englishSuggestionOrder.splice(index, 1)
-    }
-    this.englishSuggestionOrder.push(letter)
+  // 每次输入都从头流式扫一遍分片：front-code 链要求 prevWord 从 "" 起逐行推进，
+  // 所以不能只读「命中附近」的区间。4KB 一段读，永不 materialize 整片文本。
+  applyEnglishSuggestions(seed) {
+    const token = ++this.englishSuggestionToken
+    const items = []
+    const seen = {}
+    const self = this
+    var prevWord = ""
+    readLines(
+      this._wordShardPath(this._wordShardKey(seed)),
+      function (line) {
+        if (token !== self.englishSuggestionToken) {
+          return false
+        }
+        prevWord = self._scanEnglishSuggestionLine(line, seed, items, seen, prevWord)
+        if (items.length >= 80) {
+          return false
+        }
+      },
+      function () {
+        if (token !== self.englishSuggestionToken) {
+          return
+        }
+        self._flushEnglishSuggestions(seed, items, seen)
+      },
+      function (code) {
+        // 与旧 readText fail 分支保持一致：分片读不到按空片算（只留后缀候选）
+        if (token !== self.englishSuggestionToken) {
+          return
+        }
+        console.log("search readLines failed: " + code)
+        self._flushEnglishSuggestions(seed, items, seen)
+      }
+    )
   },
 
-  _cacheEnglishSuggestion(letter, text) {
-    this.englishSuggestionText[letter] = text
-    this._touchEnglishSuggestion(letter)
-    // 只留 2 个字母：单字母片最大 68KB，3 片叠在后台就是 200KB 的常驻
-    while (this.englishSuggestionOrder.length > 2) {
-      delete this.englishSuggestionText[this.englishSuggestionOrder.shift()]
-    }
-  },
-
-  applyEnglishSuggestions(normalized, text) {
-    var items = []
-    var seen = {}
-    this.scanEnglishSuggestionText(text, normalized, items, seen)
-    var suggestions = this.buildEnglishSuggestions(normalized, items, seen).join("|")
+  _flushEnglishSuggestions(seed, items, seen) {
+    const suggestions = this.buildEnglishSuggestions(seed, items, seen).join("|")
     this.englishSuggestionsText = suggestions
-    setSuggestionSeed(normalized)
+    setSuggestionSeed(seed)
     setSuggestions(suggestions)
   },
 
-  scanEnglishSuggestionText(text, seed, items, seen) {
-    var prevWord = ""
-    var self = this
-    this.forEachSuggestionLine(text, 6000, function (line) {
-      if (items.length >= 80) {
-        return
-      }
-      var t1 = line.indexOf("\t")
-      if (t1 <= 0) {
-        return
-      }
-      var t2 = line.indexOf("\t", t1 + 1)
-      if (t2 < 0) {
-        return
-      }
-      var prefixField = line.slice(0, t1)
-      var entryId = line.slice(t1 + 1, t2)
-      if (!entryId || !/^[0-9a-z]+$/.test(entryId)) {
-        // front-code 链必须继续走，否则后面的词头会解错
-        var stillDecoded = decodePrefixField(prefixField, prevWord)
-        if (stillDecoded === null) {
-          return
-        }
-        prevWord = stillDecoded
-        return
-      }
-      var decoded = decodePrefixField(prefixField, prevWord)
-      if (decoded === null) {
-        return
-      }
-      prevWord = decoded
-      var word = self.normalizeEnglishSeed(decoded)
-      if (!word || word === seed || seen[word] || word.indexOf(seed) !== 0) {
-        return
-      }
-      var t3 = line.indexOf("\t", t2 + 1)
-      var tagCode = t3 < 0 ? line.slice(t2 + 1) : line.slice(t2 + 1, t3)
-      seen[word] = true
-      items.push({
-        word: word,
-        score: self.scoreEnglishCandidate(seed, word, self._expandTag(tagCode || ""))
-      })
+  // 单行扫描，返回推进后的 prevWord。entryId 非法的行不参与命中，
+  // 但 front-code 链必须继续走（否则后面的词头会解错）。
+  _scanEnglishSuggestionLine(line, seed, items, seen, prevWord) {
+    var t1 = line.indexOf("\t")
+    if (t1 <= 0) {
+      return prevWord
+    }
+    var t2 = line.indexOf("\t", t1 + 1)
+    if (t2 < 0) {
+      return prevWord
+    }
+    var prefixField = line.slice(0, t1)
+    var entryId = line.slice(t1 + 1, t2)
+    var decoded = decodePrefixField(prefixField, prevWord)
+    if (decoded === null) {
+      return prevWord
+    }
+    if (!entryId || !/^[0-9a-z]+$/.test(entryId)) {
+      return decoded
+    }
+    var word = this.normalizeEnglishSeed(decoded)
+    if (!word || word === seed || seen[word] || word.indexOf(seed) !== 0) {
+      return decoded
+    }
+    var t3 = line.indexOf("\t", t2 + 1)
+    var tagCode = t3 < 0 ? line.slice(t2 + 1) : line.slice(t2 + 1, t3)
+    seen[word] = true
+    items.push({
+      word: word,
+      score: this.scoreEnglishCandidate(seed, word, this._expandTag(tagCode || ""))
     })
+    return decoded
   },
 
   buildEnglishSuggestions(seed, items, seen) {

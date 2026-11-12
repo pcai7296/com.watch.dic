@@ -45,11 +45,11 @@
 import {appScreenClass, currentScreenClass} from "../../common/screenColumn"
 import router from "@system.router"
 import storage from "@system.storage"
-import file from "@system.file"
 import prompt from "@system.prompt"
 import {decodeDeltaIds, decodePrefixField, parseBase36} from "../../common/dictCodec"
 import {getDictionaryProfile, loadDictionaryProfile} from "../../common/dictProfile"
 import {applyKeepScreenOnSetting} from "../../common/keepScreenOn"
+import {readLines} from "../../common/dictLines"
 
 const {navGuard} = global
 
@@ -58,11 +58,25 @@ const FUZZY_POOL_LIMIT = 80
 const MAX_SAFE_ENTRY_ID = 9007199254740991
 const WORD_INDEX_LETTERS = "abcdefghijklmnopqrstuvwxyz"
 const MAX_CHINESE_SCAN_SHARDS = 10
-// 文本缓存按字符数计预算：entry 文本解析后立即从 fileCache 移除，剩下的主要是
-// word/inflect/cn 分片。超预算时先淘汰最旧的一条，做到「先还后借」。
-const FILE_CACHE_BUDGET = 120 * 1024
 // 每次整读 entry 分片前，若 entryCache 已满则先淘汰最旧一片，避免读和写同帧叠加。
-const ENTRY_CACHE_SLOTS = 4
+// 一片 = 500 条 entry 对象（约 80KB JS 堆）。崩 4 时 free 只剩 48B，
+// 任何驻留都要往下压：2 片足够覆盖一次英文搜索的 hydrate 窗口。
+const ENTRY_CACHE_SLOTS = 2
+
+// 卡片内存观测用的单价常量。真机没有 native 堆读取接口（panic dump 只给整机
+// used/free），所以 [MEMCARD] 日志把「能精确计数」的部分打出来，再按下列单价折算：
+//   estJS  来自 11/11 14:16:57 那次 jse_dump_memory_status 的真实统计
+//          （memory used 739345B / objects 1488→56.0B / properties 3.4 per object→8.9B
+//            / strings 391→37.6B + 字符数据）
+//   estNat 每个 JSX 元素（widget + vnode + 属性缓存 + 文本副本）按 250~400B 给区间
+const MEM_OBJ_BYTES = 56
+const MEM_PROP_BYTES = 9
+const MEM_CARD_PROPS = 15
+const MEM_STR_BYTES = 38
+const MEM_NODE_BYTES_LO = 250
+const MEM_NODE_BYTES_HI = 400
+// 每张卡固定 7 个节点：list-item / result-card / result-head / word / tag / phonetic / translation-box
+const MEM_CARD_FIXED_NODES = 7
 
 class LRUCache {
   constructor(max) {
@@ -166,7 +180,6 @@ export default {
     resultLongPressHomeEnabled: true,
     backLongPressTimer: null,
     backLongPressTriggered: false,
-    pendingReads: {},
     keepScreenOnApplied: null,
     pageHidden: false
   },
@@ -212,8 +225,7 @@ export default {
   onInit() {
     loadDictionaryProfile()
     // 词典分片缓存：纯逻辑数据，不进 viewModel（避免 observer/代理开销）
-    this.fileCache = new LRUCache(6)
-    this.entryCache = new LRUCache(4)
+    this.entryCache = new LRUCache(ENTRY_CACHE_SLOTS)
     this.cnIndexCache = new LRUCache(2)
     this.wrapCache = {}
     this.pendingCards = []
@@ -240,10 +252,15 @@ export default {
   },
 
   onShow() {
-
+    const wasHidden = this.pageHidden
 
     this.screenClass = appScreenClass(this)
     this.pageHidden = false
+    // 回前台先把后台期间残留的垃圾清干净再重绘：崩溃 3 就发生在亮屏后 8 秒，
+    // 重建列表时 native 侧要一次性拿到几十 KB 连续空间，提前 GC 是唯一能腾出来的余量。
+    if (wasHidden && typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
     this.loadResultLongPressHomeSetting()
     this.syncKeepScreenOn()
     // Re-check query — Vela may reuse page instance without re-firing onInit
@@ -257,6 +274,7 @@ export default {
       this.performSearch()
     }
     // 超长单词用 marquee 跑马灯展示全文（list 内嵌 scroll 在 Band 10 上无法接收触摸事件，拖动无效）
+    this.logCardMemory("show")
   },
 
   // 只在偏好真的变了才重新下发 brightness（每次 onShow 无条件下发会在
@@ -276,7 +294,9 @@ export default {
   // 崩溃 2 就发生在 background→foreground 后的 5 秒内，后台常驻是主要风险。
   onHide() {
     this.pageHidden = true
-    this.fileCache.clear()
+    // 转后台前先把这一屏的账记下来：framework 随后会打 jse_dump_memory_status
+    //（QuickJS 真实堆），两条日志相邻，可以直接对出卡片 + 缓存的真实占用。
+    this.logCardMemory("hide")
     this.entryCache.clear()
     this.cnIndexCache.clear()
     this.wrapCache = {}
@@ -284,6 +304,7 @@ export default {
     if (typeof global !== "undefined" && typeof global.runGC === "function") {
       global.runGC()
     }
+    this.logCardMemory("hide-done")
   },
 
   applyQueryMarquee(text) {
@@ -459,12 +480,11 @@ export default {
           this.finishEnglishSearch(normalized, token)
           return
         }
-        this.readText("/common/dict/words/word_" + this._wordShardFor(normalized) + ".txt", (text) => {
+        const exactCandidates = []
+        this.collectCompactWordCandidates("/common/dict/words/word_" + this._wordShardFor(normalized) + ".txt", normalized, exactCandidates, seen, "变形词典", 1, () => {
           if (token !== this.searchToken) {
             return
           }
-          const exactCandidates = []
-          this.collectCompactWordCandidates(text, normalized, exactCandidates, seen, "变形词典", 1)
           this.hydrateCompactCandidates(exactCandidates, results, 0, () => {
             if (token !== this.searchToken) {
               return
@@ -776,17 +796,26 @@ export default {
     }
 
     const bucket = this.zhBucketFor(firstChar)
-    this.readText("/common/dict/zh_index/zh_" + bucket + ".txt", (text) => {
-      const lines = text.split("\n")
-      for (let i = 0; i < lines.length; i++) {
-        const parts = lines[i].split("\t")
+    var found = false
+    readLines(
+      "/common/dict/zh_index/zh_" + bucket + ".txt",
+      function (line) {
+        const parts = line.split("\t")
         if (parts.length >= 2 && parts[0] === firstChar) {
+          found = true
           done(decodeDeltaIds(parts[1]))
-          return
+          return false
         }
+      },
+      function () {
+        if (!found) {
+          done([])
+        }
+      },
+      function () {
+        done([])
       }
-      done([])
-    })
+    )
   },
 
   collectChineseResults(ids, query, results, seen, index, token, done) {
@@ -839,22 +868,30 @@ export default {
     }
 
     const uri = "/common/dict/cn_index/cn_" + bucket + ".txt"
-    this.readText(uri, (text) => {
-      if (this.destroyed) {
-        done([])
-        return
-      }
-      const ids = []
-      const idSeen = {}
-      var prevPhrase = ""
-      const lines = text.split("\n")
-      let exactFound = false
-      let prefixKeys = 0
-      for (let i = 0; i < lines.length && ids.length < 50; i++) {
-        const parts = lines[i].split("\t")
-        if (parts.length < 2) continue
+    if (this.destroyed) {
+      done([])
+      return
+    }
+    const ids = []
+    const idSeen = {}
+    var prevPhrase = ""
+    var exactFound = false
+    var prefixKeys = 0
+    const self = this
+    readLines(
+      uri,
+      function (line) {
+        if (ids.length >= 50) {
+          return false
+        }
+        const parts = line.split("\t")
+        if (parts.length < 2) {
+          return
+        }
         const phrase = decodePrefixField(parts[0], prevPhrase)
-        if (phrase === null) continue
+        if (phrase === null) {
+          return
+        }
         prevPhrase = phrase
 
         if (phrase === query) {
@@ -867,12 +904,14 @@ export default {
               ids.push(id)
             }
           }
-          break
+          return false
         }
 
         if (!exactFound && phrase.indexOf(query) === 0) {
           prefixKeys++
-          if (prefixKeys > 20) continue
+          if (prefixKeys > 20) {
+            return
+          }
           const list = decodeDeltaIds(parts[1]) || []
           const limited = list.slice(0, 10)
           for (let j = 0; j < limited.length && ids.length < 50; j++) {
@@ -883,12 +922,19 @@ export default {
             }
           }
         }
+      },
+      function () {
+        if (self.destroyed) {
+          done([])
+          return
+        }
+        self.cnIndexCache.set(cacheKey, ids)
+        done(ids)
+      },
+      function () {
+        done([])
       }
-      // 原始文本不再需要，立即释放
-      this.fileCache.delete(uri)
-      this.cnIndexCache.set(cacheKey, ids)
-      done(ids)
-    })
+    )
   },
 
   collectCn2EnResults(query, results, seen, token, done) {
@@ -982,35 +1028,44 @@ export default {
     // 读之前先让出一个槽位：解析 500 条 entry 的瞬时内存和整读 30KB 文本不该叠加
     this.makeEntryRoom()
 
-    this.readText("/common/dict/entries/entry_" + shard + ".txt", (text) => {
-      const entries = {}
-      const baseId = parseInt(shard, 10) * 500
-      const lines = text.split("\n")
-      var previousWord = ""
-      for (let i = 0; i < lines.length; i++) {
-        const parts = lines[i].split("\t")
-        if (parts.length >= 3) {
-          var entryId = baseId + i
-          var word = decodePrefixField(parts[0], previousWord)
-          if (word === null) {
-            continue
-          }
-          previousWord = word
-          entries[entryId] = {
-            word: word,
-            phonetic: parts[1] || "",
-            translation: parts[2] || "",
-            tag: parts[3] || ""
-          }
+    const self = this
+    const entries = {}
+    const baseId = parseInt(shard, 10) * 500
+    var previousWord = ""
+    readLines(
+      "/common/dict/entries/entry_" + shard + ".txt",
+      function (line, index) {
+        const parts = line.split("\t")
+        if (parts.length < 3) {
+          return
         }
+        const entryId = baseId + index
+        var word = decodePrefixField(parts[0], previousWord)
+        if (word === null) {
+          return
+        }
+        previousWord = word
+        entries[entryId] = {
+          word: word,
+          phonetic: parts[1] || "",
+          translation: parts[2] || "",
+          tag: parts[3] || ""
+        }
+      },
+      function () {
+        if (self.destroyed) {
+          done({})
+          return
+        }
+        if (!self.pageHidden) {
+          self.entryCache.set(shard, entries)
+        }
+        done(entries)
+      },
+      function () {
+        done({})
       }
-      if (!this.pageHidden) {
-        this.entryCache.set(shard, entries)
-        // 解析完成后原始文本已冗余，从 fileCache 移除，避免同份数据双重驻留
-        this.fileCache.delete("/common/dict/entries/entry_" + shard + ".txt")
-      }
-      done(entries)
-    })
+    )
   },
 
   _groupIdsByShard(ids) {
@@ -1081,31 +1136,28 @@ export default {
     this.makeEntryRoom()
 
     const uri = "/common/dict/entries/entry_" + shard + ".txt"
-    this.readText(uri, (text) => {
-      if (this.destroyed) {
-        done(out)
-        return
-      }
-      const baseId = parseInt(shard, 10) * 500
-      const wanted = {}
-      for (let i = 0; i < wantedIds.length; i++) {
-        wanted[wantedIds[i]] = true
-      }
-      const lines = text.split("\n")
-      var previousWord = ""
-      for (let i = 0; i < lines.length; i++) {
-        const parts = lines[i].split("\t")
+    const wanted = {}
+    for (let i = 0; i < wantedIds.length; i++) {
+      wanted[wantedIds[i]] = true
+    }
+    const baseId = parseInt(shard, 10) * 500
+    var previousWord = ""
+    const self = this
+    readLines(
+      uri,
+      function (line, index) {
+        const parts = line.split("\t")
         if (parts.length < 3) {
-          continue
+          return
         }
-        const entryId = baseId + i
+        const entryId = baseId + index
         var word = decodePrefixField(parts[0], previousWord)
         if (word === null) {
-          continue
+          return
         }
         previousWord = word
         if (!wanted[entryId] || out[entryId]) {
-          continue
+          return
         }
         const item = {
           word: word,
@@ -1115,12 +1167,18 @@ export default {
         }
         out[entryId] = item
         store[entryId] = item
+      },
+      function () {
+        if (self.destroyed) {
+          done(out)
+          return
+        }
+        finish()
+      },
+      function () {
+        done(out)
       }
-      if (!this.pageHidden) {
-        this.fileCache.delete(uri)
-      }
-      finish()
-    })
+    )
   },
 
   loadShardIndex(done) {
@@ -1188,13 +1246,12 @@ export default {
       }
       const shard = shards[shardIndex]
       shardIndex++
-      self.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
+      const before = candidates.length
+      self.collectCompactWordCandidates("/common/dict/words/word_" + shard + ".txt", query, candidates, seen, "", 80 - before, () => {
         if (self.destroyed) {
           done()
           return
         }
-        const before = candidates.length
-        self.collectCompactWordCandidates(text, query, candidates, seen, "", 80 - before)
         for (let i = before; i < candidates.length; i++) {
           candidates[i]._order = i
         }
@@ -1212,9 +1269,8 @@ export default {
     }
 
     const shard = shards[index]
-    this.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
-      const candidates = []
-      this.collectCompactWordCandidates(text, query, candidates, seen, source || "", 20 - this.resultCards.length)
+    const candidates = []
+    this.collectCompactWordCandidates("/common/dict/words/word_" + shard + ".txt", query, candidates, seen, source || "", 20 - this.resultCards.length, () => {
       this.hydrateCompactCandidates(candidates, results, 0, () => {
         this.collectShardResults(shards, query, results, seen, index + 1, done, source)
       })
@@ -1228,21 +1284,27 @@ export default {
     }
 
     const shard = this.keyFor(query)
-    this.readText("/common/dict/inflect/inflect_" + shard + ".txt", (text) => {
-      const bases = []
-      var previousForm = ""
-      const lines = text.split("\n")
-      for (let i = 0; i < lines.length; i++) {
-        const parts = lines[i].split("\t")
+    const bases = []
+    var previousForm = ""
+    var formMatched = false
+    const selfForm = this
+    readLines(
+      "/common/dict/inflect/inflect_" + shard + ".txt",
+      function (line) {
+        if (formMatched) {
+          return false
+        }
+        const parts = line.split("\t")
         if (parts.length < 2) {
-          continue
+          return
         }
         const form = decodePrefixField(parts[0], previousForm)
         if (form === null) {
-          continue
+          return
         }
         previousForm = form
         if (form === query) {
+          formMatched = true
           const ids = parts[1].split(",")
           for (let j = 0; j < ids.length; j++) {
             const entryId = parseBase36(ids[j])
@@ -1250,13 +1312,20 @@ export default {
               bases.push(entryId)
             }
           }
-          break
+          return false
         }
+      },
+      function () {
+        selfForm.collectBaseResults(bases, results, seen, 0, () => {
+          selfForm.collectReverseInflectResult(query, results, seen, done)
+        })
+      },
+      function () {
+        selfForm.collectBaseResults(bases, results, seen, 0, () => {
+          selfForm.collectReverseInflectResult(query, results, seen, done)
+        })
       }
-      this.collectBaseResults(bases, results, seen, 0, () => {
-        this.collectReverseInflectResult(query, results, seen, done)
-      })
-    })
+    )
   },
 
   collectReverseInflectResult(query, results, seen, done) {
@@ -1266,21 +1335,27 @@ export default {
     }
 
     const shard = this.keyFor(query)
-    this.readText("/common/dict/inflect_reverse/ireverse_" + shard + ".txt", (text) => {
-      const forms = []
-      var previousBase = ""
-      const lines = text.split("\n")
-      for (let i = 0; i < lines.length; i++) {
-        const parts = lines[i].split("\t")
+    const forms = []
+    var previousBase = ""
+    var baseMatched = false
+    const selfReverse = this
+    readLines(
+      "/common/dict/inflect_reverse/ireverse_" + shard + ".txt",
+      function (line) {
+        if (baseMatched) {
+          return false
+        }
+        const parts = line.split("\t")
         if (parts.length < 2) {
-          continue
+          return
         }
         const base = decodePrefixField(parts[0], previousBase)
         if (base === null) {
-          continue
+          return
         }
         previousBase = base
         if (base === query) {
+          baseMatched = true
           const values = parts[1].split(",")
           for (let j = 0; j < values.length; j++) {
             const value = values[j]
@@ -1296,11 +1371,16 @@ export default {
               forms.push(value)
             }
           }
-          break
+          return false
         }
+      },
+      function () {
+        selfReverse.collectFormResults(query, forms, results, seen, 0, done)
+      },
+      function () {
+        selfReverse.collectFormResults(query, forms, results, seen, 0, done)
       }
-      this.collectFormResults(query, forms, results, seen, 0, done)
-    })
+    )
   },
 
   collectFormResults(baseWord, forms, results, seen, index, done) {
@@ -1312,7 +1392,8 @@ export default {
     const form = forms[index]
     if (typeof form === "number") {
       const shard = this.entryShardFor(form)
-      this.loadEntryShard(shard, (entries) => {
+      // 变形结果也是按需取：为一条 entry 整片解析 500 行不值得
+      this.loadEntryShardItems(shard, [form], (entries) => {
         const item = entries[form]
         if (item && !this.seenEntryId[form]) {
           this.seenEntryId[form] = true
@@ -1338,9 +1419,8 @@ export default {
     // 先查词库，有则用词库释义；无则用词根释义
     const first = lower.charAt(0)
     if (first >= "a" && first <= "z") {
-      this.readText("/common/dict/words/word_" + this._wordShardFor(form) + ".txt", (text) => {
-        const candidates = []
-        this.collectCompactWordCandidates(text, form, candidates, seen, "变形", 1)
+      const candidates = []
+      this.collectCompactWordCandidates("/common/dict/words/word_" + this._wordShardFor(form) + ".txt", form, candidates, seen, "变形", 1, () => {
         if (candidates.length > 0) {
           this.hydrateCompactCandidates(candidates, results, 0, () => {
             this.collectFormResults(baseWord, forms, results, seen, index + 1, done)
@@ -1362,48 +1442,59 @@ export default {
       done()
       return
     }
-    this.readText("/common/dict/words/word_" + this._wordShardFor(baseWord) + ".txt", (text) => {
     var prevWord = ""
-    // Only the leading rows matter: the scan itself stops at FUZZY_SCAN_LIMIT,
-    // so avoid materializing the entire first-letter file (up to ~16k lines)
-    // as a string array here.
-    const lines = text.split("\n", FUZZY_SCAN_LIMIT + 1)
-      for (let i = 0; i < lines.length && i < FUZZY_SCAN_LIMIT; i++) {
-        const parts = lines[i].split("\t")
+    var baseHandled = false
+    const selfBase = this
+    readLines(
+      "/common/dict/words/word_" + this._wordShardFor(baseWord) + ".txt",
+      function (line, index) {
+        if (baseHandled || index >= FUZZY_SCAN_LIMIT) {
+          return false
+        }
+        const parts = line.split("\t")
         if (parts.length < 3) {
           prevWord = ""
-          continue
+          return
         }
-        var word = this._decodeWordPrefix(parts, prevWord)
+        var word = selfBase._decodeWordPrefix(parts, prevWord)
         prevWord = word
         if (word.toLowerCase() === baseWord.toLowerCase()) {
-          const entryId = this.parseEntryId(parts[1])
+          const entryId = selfBase.parseEntryId(parts[1])
           if (entryId >= 0) {
-            const shard = this.entryShardFor(entryId)
-            this.loadEntryShard(shard, (entries) => {
+            baseHandled = true
+            const shard = selfBase.entryShardFor(entryId)
+            selfBase.loadEntryShard(shard, (entries) => {
               const item = entries[entryId]
-              if (item && !this.seenEntryId[entryId]) {
-                this.seenEntryId[entryId] = true
-                const card = this.createResultCard(
+              if (item && !selfBase.seenEntryId[entryId]) {
+                selfBase.seenEntryId[entryId] = true
+                const card = selfBase.createResultCard(
                   entryId,
-                  this.normalizeWord(displayWord),
+                  selfBase.normalizeWord(displayWord),
                   displayWord,
                   item.phonetic,
                   item.translation,
                   "变形"
                 )
                 results.push(card)
-                this._enqueueCard(card)
+                selfBase._enqueueCard(card)
               }
               done()
             })
-            return
+            return false
           }
-          break
+        }
+      },
+      function () {
+        if (!baseHandled) {
+          done()
+        }
+      },
+      function () {
+        if (!baseHandled) {
+          done()
         }
       }
-      done()
-    })
+    )
   },
 
   collectBaseResults(bases, results, seen, index, done) {
@@ -1415,7 +1506,8 @@ export default {
     const base = bases[index]
     if (typeof base === "number") {
       const shard = this.entryShardFor(base)
-      this.loadEntryShard(shard, (entries) => {
+      // 词根结果同样按需取，避免为一条 entry 解析整片
+      this.loadEntryShardItems(shard, [base], (entries) => {
         const item = entries[base]
         if (item && !this.seenEntryId[base]) {
           this.seenEntryId[base] = true
@@ -1437,9 +1529,8 @@ export default {
       return
     }
 
-    this.readText("/common/dict/words/word_" + this._wordShardFor(base) + ".txt", (text) => {
-      const candidates = []
-      this.collectCompactWordCandidates(text, base, candidates, seen, "变形", 1)
+    const candidates = []
+    this.collectCompactWordCandidates("/common/dict/words/word_" + this._wordShardFor(base) + ".txt", base, candidates, seen, "变形", 1, () => {
       this.hydrateCompactCandidates(candidates, results, 0, () => {
         this.collectBaseResults(bases, results, seen, index + 1, done)
       })
@@ -1450,88 +1541,231 @@ export default {
     return decodePrefixField(parts[0], prevWord) || ""
   },
 
-  collectCompactWordCandidates(text, query, candidates, seen, source, limit) {
-    if (!text || limit <= 0) {
+  // 分块流式扫描词分片：不再整读 67KB 的 word_t.txt，单次分配上限是 4KB 块 + 一行。
+  collectCompactWordCandidates(uri, query, candidates, seen, source, limit, done) {
+    const finish = function () {
+      if (done) {
+        done()
+      }
+    }
+    if (limit <= 0) {
+      finish()
       return
     }
     const normalizedQuery = this.normalizeWord(query)
+    const self = this
     var prevWord = ""
-    const lines = text.split("\n")
-    for (let i = 0; i < lines.length && candidates.length < limit; i++) {
-      const parts = lines[i].split("\t")
-      if (parts.length < 3) {
-        continue
-      }
-
-      const word = this._decodeWordPrefix(parts, prevWord)
-      prevWord = word
-      const lower = this.normalizeWord(word)
-      if (!lower || seen[lower]) {
-        continue
-      }
-      // 模式过滤：词组模式=前缀匹配+只留含空格条目；普通模式=前缀匹配+排除含空格条目；其他来源（变形）=精确匹配
-      if (source === "phrase") {
-        if (lower.indexOf(" ") < 0 || lower.indexOf(normalizedQuery) !== 0) {
-          continue
+    readLines(
+      uri,
+      function (line) {
+        if (candidates.length >= limit) {
+          return false
         }
-      } else if (source) {
-        if (lower !== normalizedQuery) {
-          continue
+        const parts = line.split("\t")
+        if (parts.length < 3) {
+          return
         }
-      } else {
-        if (lower.indexOf(" ") >= 0 || lower.indexOf(normalizedQuery) !== 0) {
-          continue
+        const word = self._decodeWordPrefix(parts, prevWord)
+        prevWord = word
+        const lower = self.normalizeWord(word)
+        if (!lower || seen[lower]) {
+          return
         }
-      }
-
-      const entryId = this.parseEntryId(parts[1])
-      if (entryId < 0) {
-        continue
-      }
-      seen[lower] = true
-      candidates.push({
-        entryId: entryId,
-        lower: lower,
-        word: word,
-        tag: this._expandTag(parts[2] || ""),
-        source: source
-      })
-    }
+        if (source === "phrase") {
+          if (lower.indexOf(" ") < 0 || lower.indexOf(normalizedQuery) !== 0) {
+            return
+          }
+        } else if (source) {
+          if (lower !== normalizedQuery) {
+            return
+          }
+        } else {
+          if (lower.indexOf(" ") >= 0 || lower.indexOf(normalizedQuery) !== 0) {
+            return
+          }
+        }
+        const entryId = self.parseEntryId(parts[1])
+        if (entryId < 0) {
+          return
+        }
+        seen[lower] = true
+        candidates.push({
+          entryId: entryId,
+          lower: lower,
+          word: word,
+          tag: self._expandTag(parts[2] || ""),
+          source: source
+        })
+      },
+      finish,
+      finish
+    )
   },
 
+  // 卡片/缓存内存记账：一行一条，便于整份日志里 grep [MEMCARD]。
+  // 精确计数：cards（屏上卡片）、nodes（模板元素数）、chars（卡片里驻留的字符数）、
+  //           cache（entryCache 的分片/条目数）。
+  // 折算估值：estJS 用 QuickJS 真实单价，estNat 用每节点 250~400B 的区间。
+  logCardMemory(tag) {
+    const cards = (this.resultCards && this.resultCards.length > 0)
+      ? this.resultCards
+      : (this.pendingCards || [])
+    let nodes = 0
+    let chars = 0
+    let strings = 0
+    let objects = 0
+    for (let i = 0; i < cards.length; i++) {
+      const card = cards[i]
+      if (!card) continue
+      objects++
+      const lines = card.translationLines || []
+      const lineCount = lines.length > 0 ? lines.length : 1
+      nodes += MEM_CARD_FIXED_NODES + lineCount
+      const fields = [card.id, card.word, card.phonetic, card.rawPhonetic,
+        card.translation, card.tag, card.rawTag, card.fullTag]
+      for (let k = 0; k < fields.length; k++) {
+        const value = fields[k]
+        if (typeof value === "string" && value.length > 0) {
+          strings++
+          chars += value.length
+        }
+      }
+      for (let j = 0; j < lines.length; j++) {
+        const line = lines[j] || ""
+        if (line.length > 0) {
+          strings++
+          chars += line.length
+        }
+      }
+    }
+    const estJS = objects * (MEM_OBJ_BYTES + MEM_CARD_PROPS * MEM_PROP_BYTES) + strings * MEM_STR_BYTES + chars
+    const cache = this.entryCacheStats()
+    console.log("[MEMCARD] " + tag + " cards=" + objects + " nodes=" + nodes +
+      " chars=" + chars + " strs=" + strings + " estJS=" + estJS + "B" +
+      " estNat=" + (nodes * MEM_NODE_BYTES_LO) + "-" + (nodes * MEM_NODE_BYTES_HI) + "B" +
+      " cache=" + cache.keys + "(f" + cache.full + "/p" + cache.partial + ")" +
+      " items=" + cache.items + " cacheChars=" + cache.chars)
+  },
+
+  entryCacheStats() {
+    const stat = {keys: 0, full: 0, partial: 0, items: 0, chars: 0}
+    const cache = this.entryCache
+    if (!cache || !cache.order) {
+      return stat
+    }
+    stat.keys = cache.order.length
+    for (let i = 0; i < cache.order.length; i++) {
+      const key = cache.order[i]
+      const value = cache.cache[key]
+      if (!value) continue
+      if (key.indexOf("partial:") === 0) {
+        stat.partial++
+      } else {
+        stat.full++
+      }
+      for (const id in value) {
+        const item = value[id]
+        if (!item) continue
+        stat.items++
+        stat.chars += (item.word || "").length + (item.phonetic || "").length +
+          (item.translation || "").length + (item.tag || "").length
+      }
+    }
+    return stat
+  },
+
+  // 按需解析：一屏只用 20 条 entry，但旧实现对候选逐条调 loadEntryShard，
+  // 把整片 500 行都解析成对象驻留缓存（entry_26.txt 实测 500 行 ≈ 100KB JS 堆，
+  // 两个槽位就是 200KB），实际只取其中 20 条。现在先把候选按分片分组，
+  // 再用 loadEntryShardItems 只解析这一屏要显示的 entryId，其余 480 条不建对象。
+  // 省的是对象不是 I/O：该分片的字节仍然流式扫一遍（4KB 块），翻页缺 id 时才重扫。
   hydrateCompactCandidates(candidates, results, index, done) {
-    if (index >= candidates.length || this.resultCards.length >= 20) {
+    if (this.destroyed) {
+      done()
+      return
+    }
+    const room = 20 - this.resultCards.length - (this.pendingCards ? this.pendingCards.length : 0)
+    if (room <= 0 || index >= candidates.length) {
       done()
       return
     }
 
-    const candidate = candidates[index]
-    const shard = this.entryShardFor(candidate.entryId)
-    this.loadEntryShard(shard, (entries) => {
-      let nextIndex = index
-      while (nextIndex < candidates.length && this.resultCards.length < 20) {
-        const next = candidates[nextIndex]
-        if (this.entryShardFor(next.entryId) !== shard) {
+    // 只挑这一屏还装得下的候选，按分片分组；order 记住分片首次出现的顺序
+    const picked = []
+    const groups = {}
+    const order = []
+    let cursor = index
+    for (; cursor < candidates.length && picked.length < room; cursor++) {
+      const candidate = candidates[cursor]
+      if (!candidate || this.seenEntryId[candidate.entryId]) {
+        continue
+      }
+      const shard = this.entryShardFor(candidate.entryId)
+      if (!groups[shard]) {
+        groups[shard] = []
+        order.push(shard)
+      }
+      groups[shard].push(candidate.entryId)
+      picked.push(candidate)
+    }
+    if (picked.length === 0) {
+      done()
+      return
+    }
+
+    const found = {}
+    const self = this
+    let shardIndex = 0
+
+    const buildCards = () => {
+      // 卡片必须按候选排名顺序建，不能按分片顺序建，否则结果页排序会变
+      for (let i = 0; i < picked.length; i++) {
+        if (self.resultCards.length + (self.pendingCards ? self.pendingCards.length : 0) >= 20) {
           break
         }
-        const item = entries[next.entryId]
-        if (item && !this.seenEntryId[next.entryId]) {
-          this.seenEntryId[next.entryId] = true
-          const card = this.createResultCard(
-            next.entryId,
-            next.lower,
-            item.word || next.word,
-            item.phonetic,
-            item.translation,
-            item.tag || next.tag || next.source
-          )
-          results.push(card)
-          this._enqueueCard(card)
+        const candidate = picked[i]
+        if (self.seenEntryId[candidate.entryId]) {
+          continue
         }
-        nextIndex++
+        const item = found[candidate.entryId]
+        if (!item) {
+          continue
+        }
+        self.seenEntryId[candidate.entryId] = true
+        const card = self.createResultCard(
+          candidate.entryId,
+          candidate.lower,
+          item.word || candidate.word,
+          item.phonetic,
+          item.translation,
+          item.tag || candidate.tag || candidate.source
+        )
+        results.push(card)
+        self._enqueueCard(card)
       }
-      this.hydrateCompactCandidates(candidates, results, nextIndex, done)
-    })
+      self.hydrateCompactCandidates(candidates, results, cursor, done)
+    }
+
+    const loadNext = () => {
+      if (self.destroyed || shardIndex >= order.length) {
+        buildCards()
+        return
+      }
+      const shard = order[shardIndex]
+      shardIndex++
+      self.loadEntryShardItems(shard, groups[shard], (entries) => {
+        if (entries) {
+          for (const id in entries) {
+            if (entries[id]) {
+              found[id] = entries[id]
+            }
+          }
+        }
+        loadNext()
+      })
+    }
+
+    loadNext()
   },
 
   collectFuzzyResults(query, done) {
@@ -1603,55 +1837,58 @@ export default {
     }
 
     const shard = shards[index]
-    this.readText("/common/dict/words/word_" + shard + ".txt", (text) => {
-      this.scanFuzzyWordText(text, query, items, seen)
+    this.scanFuzzyWordUri("/common/dict/words/word_" + shard + ".txt", query, items, seen, () => {
       this.collectFuzzyShardResults(shards, query, items, seen, index + 1, done)
     })
   },
 
-  scanFuzzyWordText(text, query, items, seen) {
-    if (!text) {
-      return
-    }
+  // 分块流式模糊扫描：每行一个回调，扫满 FUZZY_SCAN_LIMIT 立即停读
+  scanFuzzyWordUri(uri, query, items, seen, done) {
     var prevWord = ""
-    const lines = text.split("\n", FUZZY_SCAN_LIMIT + 1)
-    for (
-      let i = 0;
-      i < lines.length &&
-      items.length < FUZZY_POOL_LIMIT &&
-      this.fuzzyWordsChecked < FUZZY_SCAN_LIMIT;
-      i++
-    ) {
-      this.fuzzyWordsChecked++
-      const parts = lines[i].split("\t")
-      if (parts.length < 3) {
-        continue
+    const self = this
+    readLines(
+      uri,
+      function (line) {
+        if (items.length >= FUZZY_POOL_LIMIT || self.fuzzyWordsChecked >= FUZZY_SCAN_LIMIT) {
+          return false
+        }
+        self.fuzzyWordsChecked++
+        const parts = line.split("\t")
+        if (parts.length < 3) {
+          return
+        }
+        const word = self._decodeWordPrefix(parts, prevWord)
+        prevWord = word
+        const lower = self.normalizeWord(word)
+        if (!lower || seen[lower] || Math.abs(lower.length - query.length) > 2) {
+          return
+        }
+        const distance = self.editDistanceBounded(query, lower, 2)
+        if (distance < 0 || distance > 2) {
+          return
+        }
+        const entryId = self.parseEntryId(parts[1])
+        if (entryId < 0) {
+          return
+        }
+        var tagStr = self._expandTag(parts[2] || "")
+        seen[lower] = true
+        items.push({
+          entryId: entryId,
+          lower: lower,
+          word: word,
+          tag: tagStr,
+          distance: distance,
+          score: self.scoreFuzzyCandidate(query, lower, tagStr)
+        })
+      },
+      function () {
+        done()
+      },
+      function () {
+        done()
       }
-      const word = this._decodeWordPrefix(parts, prevWord)
-      prevWord = word
-      const lower = this.normalizeWord(word)
-      if (!lower || seen[lower] || Math.abs(lower.length - query.length) > 2) {
-        continue
-      }
-      const distance = this.editDistanceBounded(query, lower, 2)
-      if (distance < 0 || distance > 2) {
-        continue
-      }
-      const entryId = this.parseEntryId(parts[1])
-      if (entryId < 0) {
-        continue
-      }
-      var tagStr = this._expandTag(parts[2] || "")
-      seen[lower] = true
-      items.push({
-        entryId: entryId,
-        lower: lower,
-        word: word,
-        tag: tagStr,
-        distance: distance,
-        score: this.scoreFuzzyCandidate(query, lower, tagStr)
-      })
-    }
+    )
   },
 
   editDistanceBounded(left, right, limit) {
@@ -1764,12 +2001,16 @@ export default {
       this.resultCards.push(batch[i])
     }
     this.resultCards = this.resultCards.slice()
+    this.logCardMemory("flush")
   },
 
   _startFlushTimer() {
     this._stopFlushTimer()
     var self = this
-    this.flushTimer = setInterval(function () { self._flushResults() }, 1000)
+    // 每次 flush 都会整体替换 resultCards 数组，列表项全部重整；
+    // 崩 4（17:57:5x）里成片的 computeByClassList: classList is null 就是重整带来的。
+    // 加载期间少重整几次，碎片和 native 侧重建都少。
+    this.flushTimer = setInterval(function () { self._flushResults() }, 2500)
   },
 
   _stopFlushTimer() {
@@ -1908,6 +2149,11 @@ export default {
     this._updatePaginationStatus()
     this._saveSearchHistory()
     this._appendNextButton()
+    // 一次搜索刚结束是碎片最多的时候（分片解析、排序、20 张卡），先收掉再让界面继续动
+    if (typeof global !== "undefined" && typeof global.runGC === "function") {
+      global.runGC()
+    }
+    this.logCardMemory("final")
   },
 
   _finishWithStatus(baseStatus) {
@@ -1951,42 +2197,52 @@ export default {
     }
     var token = this.searchToken
     var self = this
-    this.readText("/common/dict/words/word_" + this._wordShardFor(query) + ".txt", function(text) {
-      if (token !== self.searchToken) {
-        return
-      }
-      if (!text || self.collectedIds.length >= 40) {
-        done()
-        return
-      }
-      var seen = {}
-      for (var i = 0; i < self.resultCards.length; i++) {
-        seen[self.resultCards[i].id] = true
-      }
-      var idSeen = {}
-      for (var i = 0; i < self.collectedIds.length; i++) {
-        idSeen[self.collectedIds[i]] = true
-      }
-      var prevWord = ""
-      var lines = text.split("\n")
-      var normalizedQuery = self.normalizeWord(query)
-      for (var i = 0; i < lines.length && self.collectedIds.length < 40; i++) {
-        var parts = lines[i].split("\t")
-        if (parts.length < 3) continue
+    var seen = {}
+    for (var i = 0; i < self.resultCards.length; i++) {
+      seen[self.resultCards[i].id] = true
+    }
+    var idSeen = {}
+    for (var i = 0; i < self.collectedIds.length; i++) {
+      idSeen[self.collectedIds[i]] = true
+    }
+    var prevWord = ""
+    var normalizedQuery = self.normalizeWord(query)
+    readLines(
+      "/common/dict/words/word_" + this._wordShardFor(query) + ".txt",
+      function (line) {
+        if (token !== self.searchToken) {
+          return false
+        }
+        if (self.collectedIds.length >= 40) {
+          return false
+        }
+        var parts = line.split("\t")
+        if (parts.length < 3) {
+          return
+        }
         var word = self._decodeWordPrefix(parts, prevWord)
         prevWord = word
         var lower = self.normalizeWord(word)
-        if (!lower || seen[lower]) continue
-        if (lower.indexOf(normalizedQuery) !== 0) continue
+        if (!lower || seen[lower]) {
+          return
+        }
+        if (lower.indexOf(normalizedQuery) !== 0) {
+          return
+        }
         seen[lower] = true
         var entryId = self.parseEntryId(parts[1])
         if (entryId >= 0 && !idSeen[entryId]) {
           idSeen[entryId] = true
           self.collectedIds.push(entryId)
         }
+      },
+      function () {
+        done()
+      },
+      function () {
+        done()
       }
-      done()
-    })
+    )
   },
 
   _collectExtraChineseIds(ids, done) {
@@ -2123,6 +2379,7 @@ export default {
     }
     this.resultCards = pageCards
     this._updatePaginationStatus()
+    this.logCardMemory("page")
     if (callback) callback()
   },
 
@@ -2356,69 +2613,6 @@ export default {
     return w * (font / 18)
   },
 
-  // 淘汰 fileCache 最旧条目直到总字符数回到预算内。读之前调用，
-  // 让「申请 30KB」发生在「已经释放 30KB」之后，而不是同一帧叠加。
-  trimFileCache(reserve) {
-    while (this.fileCache.size() > 0 && this.fileCache.bytes + reserve > FILE_CACHE_BUDGET) {
-      const oldest = this.fileCache.oldest()
-      if (oldest === undefined) break
-      this.fileCache.delete(oldest)
-    }
-  },
-
-  readText(uri, done) {
-    const cached = this.fileCache.get(uri)
-    if (cached !== undefined) {
-      done(cached)
-      return
-    }
-
-    // 同一 uri 的并发读合并成一次（英文搜索 + 翻页 + 中文反查可能同一帧都要同一片）
-    const pending = this.pendingReads[uri]
-    if (pending) {
-      pending.push(done)
-      return
-    }
-    this.pendingReads[uri] = [done]
-
-    // 读前腾位：按该文件历史大小预留，没读过就按 40KB 估
-    this.trimFileCache(40 * 1024)
-
-    const deliver = (text) => {
-      const waiters = this.pendingReads[uri] || []
-      delete this.pendingReads[uri]
-      for (let i = 0; i < waiters.length; i++) {
-        waiters[i](text)
-      }
-    }
-
-    file.readText({
-      uri: uri,
-      encoding: "utf-8",
-      success: (data) => {
-        if (this.destroyed) {
-          if (this.pendingReads) delete this.pendingReads[uri]
-          return
-        }
-        const text = (data && data.text ? data.text : "").replace(/\r/g, "")
-        // 转后台期间回来的读不再入缓存，否则 onHide 刚清完又被填满
-        if (!this.pageHidden) {
-          this.trimFileCache(text.length)
-          this.fileCache.set(uri, text)
-        }
-        deliver(text)
-      },
-      fail: () => {
-        if (this.destroyed) {
-          if (this.pendingReads) delete this.pendingReads[uri]
-          return
-        }
-        this.fileCache.set(uri, "")
-        deliver("")
-      },
-      complete: () => {}
-    })
-  },
 
   normalizeWord(value) {
     return (value || "").toLowerCase().trim()
@@ -2441,10 +2635,10 @@ export default {
   },
 
   onDestroy() {
+    this.logCardMemory("destroy")
     this.destroyed = true
     this.onBackButtonTouchEnd()
     this._stopFlushTimer()
-    this.fileCache = null
     this.entryCache = null
     this.cnIndexCache = null
     this.wrapCache = null
@@ -2452,7 +2646,6 @@ export default {
     this.collectedIds = null
     this.historyCache = null
     this.shardIndex = null
-    this.pendingReads = null
     // 页面销毁后主动 GC，释放词典缓存（官方内存文档：及时 runGC 避免泄漏）
     if (typeof global !== "undefined" && typeof global.runGC === "function") {
       global.runGC()

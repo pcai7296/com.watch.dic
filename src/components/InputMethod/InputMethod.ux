@@ -454,10 +454,8 @@ export default {
     }.bind(this))
   },
   onDestroy() {
-    this.$unwatch("hide")
-    this.$unwatch("maxlength")
-    this.$unwatch("keyboardtype")
-    this.$unwatch("englishonly")
+    // 框架只有 $watch，没有对应的解绑 API；此前这里调了不存在的方法，
+    // 每次 onDestroy 都抛 TypeError: not a function，导致下面的 onSuggestionsChange(null) 不执行（监听器残留）。
     onSuggestionsChange(null)
   },
   addAllTxt(txt) {
