@@ -29,7 +29,9 @@
 /.temp_*/
 # 工具运行态
 /.tools/
-/.dsh/
+# .dsh 运行态不入库，只放行 .dsh/skills（与工程绑定的 Vela 技能）
+/.dsh/*
+!/.dsh/skills/
 /.dsh-progress/
 /.pi/
 /.martty/
